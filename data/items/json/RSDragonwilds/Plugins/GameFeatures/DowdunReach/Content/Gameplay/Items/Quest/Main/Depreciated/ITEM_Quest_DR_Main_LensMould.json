@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_Main_LensMould",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "[PH] Lens Mould"
+      },
+      "FlavourText": {
+        "CultureInvariantString": "[PH] Mould used to craft a lantern lens"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/SM_Item_Placeholder.SM_Item_Placeholder",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 25,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "HRS8Uk9eJ7jNYTaxeR6-xw",
+      "InternalName": "res_lens_mould"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Bolts_Mithril",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowShaftMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/CrossbowBolt_Mithril_01/SM_CrossbowBolt_Mithril_01.SM_CrossbowBolt_Mithril_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "AdditionalDamageFraction": 3.4
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_CrossbowBolts'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_CrossbowBolts.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::CrossbowBolts",
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilCrossbowBolts",
+        "SourceString": "Mithril Bolts",
+        "LocalizedString": "Mithril Bolts"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MithrilCrossbowBolts",
+        "SourceString": "Crossbow bolts made from mithril.",
+        "LocalizedString": "Crossbow bolts made from mithril."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mithril_Bolts'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Bolts"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 6,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bolt.Iron"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Bolt"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "nFcRVkw9jTo4lpC5TG6Fcg",
+      "InternalName": "ammo_bolts_mithril"
+    }
+  }
+]

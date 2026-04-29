@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 600.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedRunecrafting_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting:GE_Potion_FocusedRunecrafting_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LesserFocusedRunecraftingPotion",
+        "SourceString": "Lesser Focused Runecrafting Potion",
+        "LocalizedString": "Lesser Focused Runecrafting Potion"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lesser_Purple_Potion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Purple_Potion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Purple_Potion.SM_Lesser_Purple_Potion",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedRunecrafting.Title",
+            "SourceString": "Focused Runecrafting",
+            "LocalizedString": "Focused Runecrafting"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedRunecrafting.Description",
+            "SourceString": "Grants a 15% XP BOOST for the RUNECRAFTING Skill",
+            "LocalizedString": "Grants a 15% XP BOOST for the RUNECRAFTING Skill"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedRunecrafting'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedRunecrafting.0"
+          }
+        }
+      ],
+      "PersistenceID": "CuP7oEL4UtnZaFWnPzenQg",
+      "InternalName": "potion_focused_t2_lesser_runecrafting",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Potion_FocusedRunecrafting_C",
+    "Name": "GE_Potion_FocusedRunecrafting_C_0",
+    "Outer": "ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedRunecrafting.GE_Potion_FocusedRunecrafting_C'",
+    "Template": {
+      "ObjectName": "GE_Potion_FocusedRunecrafting_C'Default__GE_Potion_FocusedRunecrafting_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedRunecrafting.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 150.0,
+        "bShowInTooltip": false
+      }
+    }
+  }
+]

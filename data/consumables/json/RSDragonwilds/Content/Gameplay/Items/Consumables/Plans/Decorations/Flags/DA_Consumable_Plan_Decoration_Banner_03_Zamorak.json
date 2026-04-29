@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BP_Consumables_Plan_Base_C",
+    "Name": "DA_Consumable_Plan_Decoration_Banner_03_Zamorak",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.BP_Consumables_Plan_Base_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Plan_Base_C'Default__BP_Consumables_Plan_Base_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BuildingPieceToUnlock": {
+        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Banner_Hanging_03_Zamorak'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Banners/Zamorak/DA_BaseBuilding_Decoration_Banner_Hanging_03_Zamorak.0"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Item_Plans.ST_Item_Plans",
+        "Key": "plan.banner.zamorak.03",
+        "SourceString": "PLAN: Zamorak Banner 03",
+        "LocalizedString": "PLAN: Zamorak Banner 03"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plans'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Vestige3'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Plan"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "VBCt40maCh5VdZSIViavFw",
+      "InternalName": "plan_decoration_general_banner_03_zamorak",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Plan_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.0"
+      }
+    }
+  }
+]

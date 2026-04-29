@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Fellhollow_Salve_Crystal",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+          },
+          "Count": 25
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Salve_Crystal'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Salve"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "ey8IkEndbZ6pUZmtMDCW7A",
+      "InternalName": "RECIPE_Vendor_Fellhollow_Misc_Salve_Crystal"
+    }
+  }
+]

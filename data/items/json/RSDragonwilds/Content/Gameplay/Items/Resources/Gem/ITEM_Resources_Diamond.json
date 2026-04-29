@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Diamond",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "027993A14BA3EA9AAB018DADC240CA26",
+        "SourceString": "Diamond",
+        "LocalizedString": "Diamond"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "FD98DEDE482889A39881F3AB961C0303",
+        "SourceString": "A rare and precious gem, coveted by jewelers.",
+        "LocalizedString": "A rare and precious gem, coveted by jewelers."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Diamond'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Diamond.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Diamond_01.SM_Gemstone_Diamond_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Gemstone"
+      },
+      "PersistenceID": "m3q-xERQoHTPDJehWwOFtQ",
+      "InternalName": "res_gem_diamond"
+    }
+  }
+]

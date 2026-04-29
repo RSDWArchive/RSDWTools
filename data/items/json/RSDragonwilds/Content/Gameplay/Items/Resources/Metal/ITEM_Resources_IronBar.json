@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_IronBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronBar",
+        "SourceString": "Iron Bar",
+        "LocalizedString": "Iron Bar"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "30AB9E0B4D3DA21ECF3864B3797E9AF4",
+        "SourceString": "A versatile metal used for crafting a wide range of durable items",
+        "LocalizedString": "A versatile metal used for crafting a wide range of durable items"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Iron'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Iron.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Iron_01.SM_Ingot_Iron_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 4.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "Ng6eFNNuiU-VdxSoZtI6kA",
+      "InternalName": "res_bar_iron"
+    }
+  }
+]

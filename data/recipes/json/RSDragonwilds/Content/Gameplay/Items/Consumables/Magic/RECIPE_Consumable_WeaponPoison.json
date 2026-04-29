@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_WeaponPoison",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Kwuarm'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Kwuarm.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Poison_Ichor'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Poison_Ichor.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WhetstoneItemData'ITEM_Consumable_WeaponPoison'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponPoison.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Rune_Altar_Recipe"
+      },
+      "PersistenceID": "mv_JD0tbbaaUNu6msvsvWA",
+      "InternalName": "RECIPE_Consumable_WeaponPoison"
+    }
+  }
+]

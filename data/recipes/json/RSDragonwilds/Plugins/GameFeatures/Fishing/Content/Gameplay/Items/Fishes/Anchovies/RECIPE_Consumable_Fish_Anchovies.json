@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Fish_Anchovies",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Anchovies'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Anchovies/ITEM_Resources_Fish_Raw_Anchovies"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Anchovies'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Anchovies/ITEM_Consumable_Fish_Anchovies"
+          },
+          "Count": 1
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Anchovies_Burnt'",
+          "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Anchovies/ITEM_Consumable_Fish_Anchovies_Burnt"
+        },
+        "Count": 1
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel3'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Fishing'",
+          "ObjectPath": "/Fishing/Gameplay/Progress/DT_XPEvents_Fishing"
+        },
+        "RowName": "Fishing_Cook_Fish_Base"
+      },
+      "PersistenceID": "l64eLEzuP0rBiV-KHBZp7g",
+      "InternalName": "recipe_fish_anchovies"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Iconic_Pizza_Meat",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "v3_Pizza_Meat"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "Duration": 600.0,
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ResistBuildup_Bleed_C'ITEM_Consumable_Iconic_Pizza_Meat:GE_ResistBuildup_Bleed_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.2"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_MeatyMeal_C'ITEM_Consumable_Iconic_Pizza_Meat:GE_MeatyMeal_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MeatPizza",
+        "SourceString": "Meat Pizza",
+        "LocalizedString": "Meat Pizza"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MeatPizza",
+        "SourceString": "A pizza with bits of meat on it.",
+        "LocalizedString": "A pizza with bits of meat on it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Iconic_Pizza_Meat'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/New_Food_07/T_Icon_Iconic_Pizza_Meat.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 0.7,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "MeatyMeal.Title",
+            "SourceString": "Meaty Meal",
+            "LocalizedString": "Meaty Meal"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "MeatyMeal.Description",
+            "SourceString": "REDUCES HUNGER drain by 25%",
+            "LocalizedString": "REDUCES HUNGER drain by 25%"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_MeatyMeal'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_MeatyMeal.0"
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Coagulated.Title",
+            "SourceString": "Coagulated",
+            "LocalizedString": "Coagulated"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Coagulated.Description",
+            "SourceString": "Grants RESISTANCE to BLEED effects",
+            "LocalizedString": "Grants RESISTANCE to BLEED effects"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_Coagulate'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Coagulate.0"
+          }
+        }
+      ],
+      "PersistenceID": "QfPOk0c4rF6PIUqOxt0ytg",
+      "InternalName": "food_pizza_meat",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_MeatyMeal_C",
+    "Name": "GE_MeatyMeal_C_0",
+    "Outer": "ITEM_Consumable_Iconic_Pizza_Meat",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.GE_MeatyMeal_C'",
+    "Template": {
+      "ObjectName": "GE_MeatyMeal_C'Default__GE_MeatyMeal_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false
+      }
+    }
+  },
+  {
+    "Type": "GE_ResistBuildup_Bleed_C",
+    "Name": "GE_ResistBuildup_Bleed_C_0",
+    "Outer": "ITEM_Consumable_Iconic_Pizza_Meat",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Bleed.GE_ResistBuildup_Bleed_C'",
+    "Template": {
+      "ObjectName": "GE_ResistBuildup_Bleed_C'Default__GE_ResistBuildup_Bleed_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Bleed.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 900.0,
+        "bShowInTooltip": false
+      }
+    }
+  }
+]

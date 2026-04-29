@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Staff_Necromancer",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead.0"
+          },
+          "Count": 24
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_SacredOil'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_SacredOil.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Fine'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Fine.0"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "Count": 6
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Staff_Necromancer'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Necromancer.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "bJ6FhUnS1G25mf6j4j30RQ",
+      "InternalName": "recipe_staff_necromancer"
+    }
+  }
+]

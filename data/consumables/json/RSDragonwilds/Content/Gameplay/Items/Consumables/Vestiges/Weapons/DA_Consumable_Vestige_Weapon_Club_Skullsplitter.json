@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Club_Skullsplitter",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Vestige_Weapon_T3_Club_Skullsplitter'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Club_Skullsplitter.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "C32C30754350B9DC19D22BB06FE1D499",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "15BDBE3D4B10F843DA9434BE0F18B0EA",
+        "SourceString": "Remnants of a Shattered Skull",
+        "LocalizedString": "Remnants of a Shattered Skull"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.ShatteredSkull",
+        "SourceString": "A skull, obliterated by a particularly nasty weapon. If you study it, perhaps you might learn something. ",
+        "LocalizedString": "A skull, obliterated by a particularly nasty weapon. If you study it, perhaps you might learn something. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Club_Skull_Splitter'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Club_Skull_Splitter.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "FNOekUlApmZgDCmT5fA2Vw",
+      "InternalName": "vestige_weapon_club_skullsplitter",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

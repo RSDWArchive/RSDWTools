@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T4_Legs_DarkMage",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_DarkMage_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_DarkMage_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_DarkMage_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_DarkMage_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T4_Legs_DarkMage"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "8197F2E941C9F7834E3ECC8D0278AA24",
+        "SourceString": "Dark Mage Robe Legs",
+        "LocalizedString": "Dark Mage Robe Legs"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "7961F2CC434E9CBB60E81E8F0D3166B9",
+        "SourceString": "Lightweight magical armour for edgier spellcasters.",
+        "LocalizedString": "Lightweight magical armour for edgier spellcasters."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_M_MED_Legs_DarkMageRobes_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_Legs_DarkMageRobes_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 6.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "hWGilEcAZgtX2JWejH4ncA",
+      "InternalName": "armour_legs_darkmage"
+    }
+  }
+]

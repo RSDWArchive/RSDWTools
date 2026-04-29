@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Fish_Pristine_Salmon",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Pristine_Salmon'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Salmon/Pristine/ITEM_Resources_Fish_Raw_Pristine_Salmon"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Salmon'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Salmon/ITEM_Consumable_Fish_Salmon"
+          },
+          "Count": 3
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Salmon_Burnt'",
+          "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Salmon/ITEM_Consumable_Fish_Salmon_Burnt"
+        },
+        "Count": 3
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel3'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Fishing'",
+          "ObjectPath": "/Fishing/Gameplay/Progress/DT_XPEvents_Fishing"
+        },
+        "RowName": "Fishing_Cook_Fish_Base"
+      },
+      "PersistenceID": "MoL0MUzAKZ-zi6O_a8sRPA",
+      "InternalName": "recipe_fish_pristine_salmon"
+    }
+  }
+]

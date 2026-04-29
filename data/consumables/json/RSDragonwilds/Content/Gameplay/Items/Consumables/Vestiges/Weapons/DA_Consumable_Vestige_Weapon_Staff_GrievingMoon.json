@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Staff_GrievingMoon",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Vestige_Weapon_T3_Staff_GrievingMoon'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T3_Staff_GrievingMoon.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "1E335DDC4275D0FAB6D3A191317ECCC0",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "FD6ED3B4487BA21D35955FBFAB2816CB",
+        "SourceString": "A Mysterious Crescent Carving",
+        "LocalizedString": "A Mysterious Crescent Carving"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.GrievingmoonStaff",
+        "SourceString": "What's left of a staff that feels soaked in sorrow. Perhaps you could learn something from it. ",
+        "LocalizedString": "What's left of a staff that feels soaked in sorrow. Perhaps you could learn something from it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Staff_Grieving_Moon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Grieving_Moon.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "xY_oG0jkD9QiIMGdO9IzxA",
+      "InternalName": "vestige_weapon_staff_grievingmoon",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

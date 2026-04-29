@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Meat_Farm",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FarmMeat",
+        "SourceString": "Raw Farm Meat",
+        "LocalizedString": "Raw Farm Meat"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F7E2D2F04FE6BDD76C7FA48145552C29",
+        "SourceString": "Raw meat from farm animals, it can be cooked on a campfire.",
+        "LocalizedString": "Raw meat from farm animals, it can be cooked on a campfire."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Raw_Farm_Meat'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_Farm_Meat.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Raw_Mutton_01.SM_Raw_Mutton_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "Ttc6u0zyAi-JMaOjrxwtNQ",
+      "InternalName": "res_meat_farm"
+    }
+  }
+]

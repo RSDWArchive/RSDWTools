@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_goblin_amulet_Part1",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BandosianAmulet",
+        "SourceString": "Bandosian Amulet",
+        "LocalizedString": "Bandosian Amulet"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "ABAC817F41D69188A944E48EAA908350",
+        "SourceString": "A goblin amulet bearing the sigil of Bandos.",
+        "LocalizedString": "A goblin amulet bearing the sigil of Bandos."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bandosian_Amulet_1'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bandosian_Amulet_1.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Key/SM_BossSoul_Inner_OuterDungeon.SM_BossSoul_Inner_OuterDungeon",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "1Gu7vU51PMnkRBu2wqlHHQ",
+      "InternalName": "res_quest_goblin_castle"
+    }
+  }
+]

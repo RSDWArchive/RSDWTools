@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_CrossbowLimbs_Mithril",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilLimbs'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Components/ITEM_Resources_MithrilLimbs"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "n1On2k5WneE1ezK1A0VFvA",
+      "InternalName": "recipe_crossbowlimbs_mithril"
+    }
+  }
+]

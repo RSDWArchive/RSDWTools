@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Dagger_Bone",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Dagger/BP_Dagger_Bone.BP_Dagger_Bone_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Dagger.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Dagger_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Dagger/A_PlayerM_Idle_Dagger_Poses.0"
+      },
+      "DamageMultiplier": 1.9,
+      "BlockingDamageNegation": 16.5,
+      "DamageTypes": [
+        "DamageType.Physical.Stab"
+      ],
+      "CriticalHitChanceIncrease": 0.05,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "DistanceOffset": 18.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BoneDagger",
+        "SourceString": "Bone Dagger",
+        "LocalizedString": "Bone Dagger"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BoneDagger",
+        "SourceString": "A sinister weapon, crafted from the bones of fallen creatures.",
+        "LocalizedString": "A sinister weapon, crafted from the bones of fallen creatures."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dagger_Bone_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Dagger_Bone_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Bone_1H_01/SM_Dagger_Bone_1H_01.SM_Dagger_Bone_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 2,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Dagger"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee",
+        "ItemFilter.Material.Bone"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.BladeSmall"
+      },
+      "BaseDurability": 850,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "Euv3-bBtDUmx110jaD1g1Q",
+      "InternalName": "weap_dagger_bone"
+    }
+  }
+]

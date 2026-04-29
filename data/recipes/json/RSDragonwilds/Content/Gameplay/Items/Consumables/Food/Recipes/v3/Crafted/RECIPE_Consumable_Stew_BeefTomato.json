@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Stew_BeefTomato",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Tomato_Grilled'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tomato_Grilled.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Farm_Steak'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Farm_Steak.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Redberry'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Stew_BeefTomato'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Stew_BeefTomato.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Cooking_Range_Recipe"
+      },
+      "PersistenceID": "iiGFcED3lDvPJx-wHDq_mA",
+      "InternalName": "recipe_stew_beeftomato"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Meat_Bird",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BirdMeat",
+        "SourceString": "Raw Bird Meat",
+        "LocalizedString": "Raw Bird Meat"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "269D69154CC0635EC2542CB3A2DD5F6B",
+        "SourceString": "Freshly harvested from avian creatures, a staple for cooking.",
+        "LocalizedString": "Freshly harvested from avian creatures, a staple for cooking."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Raw_bird_meat'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_bird_meat.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Bird/SM_Bird_Raw_01.SM_Bird_Raw_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 1,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "6VtTq32kQkyOk-E3Ly05-A",
+      "InternalName": "res_meat_bird"
+    }
+  }
+]

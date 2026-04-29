@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T0_Cape_Tattered",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_Tattered'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Tattered.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 0,
+      "PersistenceID": "ZcGbsUM4vh9xTWqsDy6-9A",
+      "InternalName": "recipe_armour_t0_cape_tattered"
+    }
+  }
+]

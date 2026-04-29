@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Adventurers_Yellow",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Adventurers_Yellow_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Adventurers_Yellow_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Adventurers_Yellow_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Adventurers_Yellow_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Adventurers_Yellow"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "YellowCapeAdventurers",
+        "SourceString": "Yellow Adventurer's Cape",
+        "LocalizedString": "Yellow Adventurer's Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "YellowCape",
+        "SourceString": "A thick yellow adventurer's cape.",
+        "LocalizedString": "A thick yellow adventurer's cape."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Cape_Yellow'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Cape_Yellow.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "KWy6hkjlCUL1a0eynn0ptg",
+      "InternalName": "armour_t0_cape_adventurers_yellow"
+    }
+  }
+]

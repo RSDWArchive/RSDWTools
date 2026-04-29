@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Glass_Pane",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GlassPane",
+        "SourceString": "Glass Pane",
+        "LocalizedString": "Glass Pane"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GlassPane",
+        "SourceString": "It's transparent that you're going to use this when building.",
+        "LocalizedString": "It's transparent that you're going to use this when building."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Glass_Pane'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Pane"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Audio.Glass.Pane"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Pane"
+      },
+      "PersistenceID": "fVBHgEoB-OOVgcarewJngQ",
+      "InternalName": "res_glass_pane"
+    }
+  }
+]

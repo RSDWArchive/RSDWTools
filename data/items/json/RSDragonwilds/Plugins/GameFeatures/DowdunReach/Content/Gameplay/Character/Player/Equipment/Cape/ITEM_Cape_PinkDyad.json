@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_PinkDyad",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_PinkDyad_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_PinkDyad_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_PinkDyad_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_PinkDyad_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Adventurers_PinkDyad"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AdventureCape1DowdunReach",
+        "SourceString": "Pink Dyad Cape",
+        "LocalizedString": "Pink Dyad Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AdventureCape1DowdunReach",
+        "SourceString": "A cape made for its looks more than any kind of magical potency. ",
+        "LocalizedString": "A cape made for its looks more than any kind of magical potency. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Adventurer_Capes_Pattern_02_Pink'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Adventurer_Capes_Pattern_02_Pink"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "HCdglE6uSn0nY36BNP8tOg",
+      "InternalName": "armour_t0_cape_PinkDyad"
+    }
+  }
+]

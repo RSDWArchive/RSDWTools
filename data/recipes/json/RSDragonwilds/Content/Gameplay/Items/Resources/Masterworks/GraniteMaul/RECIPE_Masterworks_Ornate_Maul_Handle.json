@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Ornate_Maul_Handle",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Blightwood'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Blightwood.0"
+          },
+          "Count": 7
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar.0"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "Count": 3
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Masterworks_Ornate_Maul_Handle'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Ornate_Maul_Handle.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AudioTag": {
+        "TagName": "Audio.Magic.Recipe"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 25,
+      "PersistenceID": "V1MH_0y8hb0teJuGxcSXfw",
+      "InternalName": "recipe_craft_ornate_maul_handle"
+    }
+  }
+]

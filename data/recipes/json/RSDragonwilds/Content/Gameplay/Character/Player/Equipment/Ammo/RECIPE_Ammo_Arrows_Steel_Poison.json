@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Ammo_Arrows_Steel_Poison",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Steel_Bodkin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Bodkin.0"
+          },
+          "Count": 33
+        },
+        {
+          "ItemData": {
+            "ObjectName": "WhetstoneItemData'ITEM_Consumable_WeaponPoison'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponPoison.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Steel_Poison'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Poison.1"
+          },
+          "Count": 33
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Arrow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 8,
+      "PersistenceID": "OIgfwkwni39Jm2euM7GfpA",
+      "InternalName": "recipe_ammo_arrows_steel_poison"
+    }
+  }
+]

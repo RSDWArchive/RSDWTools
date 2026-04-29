@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Club_Swingslash",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Vestige_Weapon_T2_Club_Swingslash'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Mace/RECIPE_Vestige_Weapon_T2_Club_Swingslash.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "8859D0844B2446126477498E588F9053",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "FD83ECDA4BC3F4F6E9BD3D809DB76462",
+        "SourceString": "A Cruel Goblin Blade",
+        "LocalizedString": "A Cruel Goblin Blade"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.Swingslash",
+        "SourceString": "A rusted blade with a wicked edge. Barely usable now, but perhaps you could learn something from it. ",
+        "LocalizedString": "A rusted blade with a wicked edge. Barely usable now, but perhaps you could learn something from it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Swingslash'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Swingslash.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "c8RtEU6T3ZGAwJurLGHQKQ",
+      "InternalName": "vestige_weapon_club_swingslash",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

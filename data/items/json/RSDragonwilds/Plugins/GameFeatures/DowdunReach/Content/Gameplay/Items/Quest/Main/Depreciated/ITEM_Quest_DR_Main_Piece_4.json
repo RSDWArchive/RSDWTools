@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_Main_Piece_4",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "[PH] Lantern Lens"
+      },
+      "FlavourText": {
+        "CultureInvariantString": "[PH] 4th Piece of the Lantern"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/SM_Item_Placeholder.SM_Item_Placeholder",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "HHXDR0_DJmuYJ423pebA5g",
+      "InternalName": "res_dreamstone_lantern_piece_4"
+    }
+  }
+]

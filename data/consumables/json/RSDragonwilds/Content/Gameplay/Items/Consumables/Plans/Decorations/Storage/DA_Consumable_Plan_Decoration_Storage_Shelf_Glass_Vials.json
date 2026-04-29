@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BP_Consumables_Plan_Base_C",
+    "Name": "DA_Consumable_Plan_Decoration_Storage_Shelf_Glass_Vials",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.BP_Consumables_Plan_Base_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Plan_Base_C'Default__BP_Consumables_Plan_Base_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BuildingPieceToUnlock": {
+        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Storage_Shelf_Glass_Vials'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Storage/DA_BaseBuilding_Decoration_Storage_Shelf_Glass_Vials.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "87B4F5B747CC2A140C0A8DB32E986A93",
+        "SourceString": "PLAN: Vial Shelf",
+        "LocalizedString": "PLAN: Vial Shelf"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plans'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Vestige3'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Plan"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "UR0nd0Bax9Gx9yeOan-ypg",
+      "InternalName": "plan_decoration_storage_shelf_glass_vials",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Plan_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.0"
+      }
+    }
+  }
+]

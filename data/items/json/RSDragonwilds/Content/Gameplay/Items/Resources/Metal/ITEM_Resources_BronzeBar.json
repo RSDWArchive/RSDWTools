@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_BronzeBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BronzeBar",
+        "SourceString": "Bronze Bar",
+        "LocalizedString": "Bronze Bar"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "17D8C64541C8B4563FADB4A75C0B0214",
+        "SourceString": "A versatile crafting material, smelted from copper and tin bars.",
+        "LocalizedString": "A versatile crafting material, smelted from copper and tin bars."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Bronze'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Bronze.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Bronze_01.SM_Ingot_Bronze_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 4.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "Y2Y48OMHukKIilN4srd7cA",
+      "InternalName": "res_bar_bronze"
+    }
+  }
+]

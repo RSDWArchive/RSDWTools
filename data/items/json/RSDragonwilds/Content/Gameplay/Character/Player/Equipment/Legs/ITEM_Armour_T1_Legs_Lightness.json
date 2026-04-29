@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T1_Legs_Lightness",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_LeggingsOfLightness_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_LeggingsOfLightness_Flax_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_Flax_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T1_Legs_Lightness"
+      },
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ModifyMaxCarryWeight_LegsofLightness_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxCarryWeight_LegsofLightness.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LegsOfLightness",
+        "SourceString": "Leggings Of Lightness",
+        "LocalizedString": "Leggings Of Lightness"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "E8911C164376D1CFDD7E478A63D07064",
+        "SourceString": "Fabled leggings that allow you to carry more!",
+        "LocalizedString": "Fabled leggings that allow you to carry more!"
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "BAD7DC7043CBB2FA375DEB9BC1DD5ABB",
+            "SourceString": "Carry Weight",
+            "LocalizedString": "Carry Weight"
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "E8FB8F6C4F2E2D18DC0CC089A2924CB8",
+            "SourceString": "+50",
+            "LocalizedString": "+50"
+          }
+        }
+      ],
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Leggings_of_Lightness'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Leggings_of_Lightness.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "E_DXg0sq6DA6beKuzxv_rA",
+      "InternalName": "armour_legs_lightness"
+    }
+  }
+]

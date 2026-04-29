@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_SQ3_RavenEssence",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CorruptedEssenceSample",
+        "SourceString": "Corrupted Essence Sample",
+        "LocalizedString": "Corrupted Essence Sample"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "CorruptedEssenceSample",
+        "SourceString": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it. ",
+        "LocalizedString": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plague_Sample'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Plague_Sample"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Env/Props/Env_Props/PlagueMud/SM_DR_PlagueMud_Drop.SM_DR_PlagueMud_Drop",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        }
+      },
+      "PersistenceID": "fsPKUkCx54AbTpGD4r0PxA",
+      "InternalName": "res_dr_sq3_magical_essence"
+    }
+  }
+]

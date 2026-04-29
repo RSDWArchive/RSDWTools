@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BP_Consumables_Drink_C",
+    "Name": "ITEM_Consumable_Tea_Dwellberry_OLD",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.BP_Consumables_Drink_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Drink_C'Default__BP_Consumables_Drink_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HydrationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_DrinkHydration'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_DrinkHydration.0"
+        },
+        "RowName": "T4_Refreshing"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DwellberryInfusion",
+        "SourceString": "Dwellberry Infusion",
+        "LocalizedString": "Dwellberry Infusion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DwellberryInfusion",
+        "SourceString": "A refreshing fruity drink. Very good for hydration. ",
+        "LocalizedString": "A refreshing fruity drink. Very good for hydration. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dwellberry_Infusion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Dwellberry_Infusion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Instant_Water'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Drink"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Drink"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Water"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "-jEah0znNr-2UVmbHK-Hqg",
+      "InternalName": "food_tea_dwellberry",
+      "bSoftDeleted": true,
+      "MigrationDataAsset": {
+        "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Redberry'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Redberry.0"
+      },
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Drink_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.0"
+      }
+    }
+  }
+]

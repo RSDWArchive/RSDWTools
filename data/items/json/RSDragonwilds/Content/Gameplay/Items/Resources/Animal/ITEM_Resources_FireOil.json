@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_FireOil",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FireOil",
+        "SourceString": "Fire Oil",
+        "LocalizedString": "Fire Oil"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FireOilNonThrowable",
+        "SourceString": "Flammable and volatile, handle with care!\r\n\r\nUsed to craft Fire arrows.",
+        "LocalizedString": "Flammable and volatile, handle with care!\r\n\r\nUsed to craft Fire arrows."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Fire_Oil'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Fire_Oil.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Adhesive"
+      },
+      "PersistenceID": "LaW8m0ibg39l4ESl58Ddtg",
+      "InternalName": "res_fireoil"
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_SiphonRunes",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "USD_SiphonRunes",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning.0"
+      },
+      "bShouldRotateToCameraForward": false,
+      "bShouldRotateToTarget": true,
+      "bAllowTriggeringNotifiesMultipleTimes": true,
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_SiphonRunes",
+    "Name": "SpellModule_SiphonRunes_0",
+    "Outer": "USD_SiphonRunes",
+    "Class": "UScriptClass'SpellModule_SiphonRunes'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BaseSiphoningIntervalInSeconds": 0.6,
+      "SpeedMultiplier": 0.9,
+      "ModuleName": "SiphonRunes",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_SiphonRunes",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpecialRequirementsText": {
+        "CultureInvariantString": null
+      },
+      "CooldownDuration": 0.0,
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
+      "bNeedsUnlocking": false,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_SiphonRunes:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_SiphonRunes:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.0"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_SiphonRunes'USD_SiphonRunes:SpellModule_SiphonRunes_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.2"
+            }
+          }
+        ]
+      },
+      "bContinuouslyCast": true,
+      "PersistenceID": "XbLZDUaQ2Q3Z-oKlsq4RVw",
+      "InternalName": "spell_RetrieveAnima"
+    }
+  }
+]

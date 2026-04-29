@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Salmon",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawSalmon",
+        "SourceString": "Raw Salmon",
+        "LocalizedString": "Raw Salmon"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawSalmon",
+        "SourceString": "While it might be edible now, you'll need to fry it in this game.",
+        "LocalizedString": "While it might be edible now, you'll need to fry it in this game."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Salmon'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Salmon"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Salmon_01/SM_Fish_Salmon_01.SM_Fish_Salmon_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 3,
+      "Weight": 1.8,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "lWUjC0f59fYNW5yz60-xEA",
+      "InternalName": "res_fish_salmon"
+    }
+  }
+]

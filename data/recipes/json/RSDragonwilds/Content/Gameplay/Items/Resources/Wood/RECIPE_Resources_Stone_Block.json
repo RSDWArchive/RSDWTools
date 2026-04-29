@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_Stone_Block",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone_Block'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Construction.0"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Crafting_Station"
+      },
+      "MinProcessingTime": 6.0,
+      "MaxProcessingTime": 10.0,
+      "PersistenceID": "ZO6ORkS78WUBFbqJRf5IyA",
+      "InternalName": "recipe_resource_stone_block"
+    }
+  }
+]

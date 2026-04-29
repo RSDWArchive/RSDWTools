@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Club_AbyssalWhip",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Abyssal_Spine'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Abyssal_Spine.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Swamp'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp.0"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Poison_Ichor'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Poison_Ichor.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultCore'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultCore.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Club_AbyssalWhip'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/ITEM_Club_AbyssalWhip.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Masterwork.AbyssalWhip"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 500,
+      "PersistenceID": "kRJ8QUBQGTMmDROOrE_OnQ",
+      "InternalName": "recipe_masterworks_club_abyssalwhip"
+    }
+  }
+]

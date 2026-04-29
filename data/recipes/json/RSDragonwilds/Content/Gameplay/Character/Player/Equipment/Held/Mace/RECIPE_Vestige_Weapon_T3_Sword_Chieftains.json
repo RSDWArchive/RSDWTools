@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vestige_Weapon_T3_Sword_Chieftains",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Animal_Horn'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Horn.0"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Sword_Chieftans'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Sword/ITEM_Sword_Chieftans.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Bone.Bludgeon"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "6ZoOqktOYN3PPOyrlvbjVw",
+      "InternalName": "recipe_vestige_weapon_t3_sword_chieftans"
+    }
+  }
+]

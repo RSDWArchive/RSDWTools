@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FH_WhatRemains_Book5",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
+        "Key": "Book5_Title",
+        "SourceString": "Leonard The Bound",
+        "LocalizedString": "Leonard The Bound"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
+        "Key": "Book5_Desc",
+        "SourceString": "This book squirms in your backpack, as though trying to escape.",
+        "LocalizedString": "This book squirms in your backpack, as though trying to escape."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Abraxus_Necromancer_Book'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Book_2.Book_2",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "0SFGhElEGrRq5ieWLSjREA",
+      "InternalName": "ITEM_quest_FH_WhatRemains_Book5"
+    }
+  }
+]

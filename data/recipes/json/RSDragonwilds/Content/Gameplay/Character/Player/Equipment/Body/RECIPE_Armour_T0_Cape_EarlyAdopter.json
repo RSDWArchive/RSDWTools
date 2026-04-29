@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T0_Cape_EarlyAdopter",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_EarlyAdopter'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_EarlyAdopter.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bIgnoreAutomaticUnlocks": true,
+      "SkillXPAwardedOnCraft": 0,
+      "PersistenceID": "O7LxzUEEazIIB6-Zd-DzaA",
+      "InternalName": "recipe_armour_t0_cape_earlyadopter"
+    }
+  }
+]

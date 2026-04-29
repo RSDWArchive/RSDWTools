@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Clay_Slab",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "pY44okabzH7G-1iNRfHBbg",
+      "InternalName": "recipe_clay_slab_deleted",
+      "bSoftDeleted": true
+    }
+  }
+]

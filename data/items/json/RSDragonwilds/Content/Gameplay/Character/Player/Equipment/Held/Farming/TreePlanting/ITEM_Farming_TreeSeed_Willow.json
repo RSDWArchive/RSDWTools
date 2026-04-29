@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "HeldTreeSeedData",
+    "Name": "ITEM_Farming_TreeSeed_Willow",
+    "Class": "UScriptClass'HeldTreeSeedData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TreeGrowStagesData": {
+        "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Willow_GrowStages'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Willow/DA_Farming_GrowingTree_Willow_GrowStages.0"
+      },
+      "ValidPlantingRegions": [
+        "Location.Region.Brynmoor",
+        "Location.Region.DowdunReach",
+        "Location.Region.Fellhollow",
+        "Location.Region.Ghornfell"
+      ],
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/BP_Farming_TreeSeed_Willow.BP_Farming_TreeSeed_Willow_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Farming_TreePlanting_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/TreePlanting/PA_Farming_TreePlanting.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Farming_Seedbag_pose'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose.0"
+      },
+      "DamageMultiplier": 0.0,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 1,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Farming_TreeFarming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_TreeFarming.0"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Tree_Willow",
+        "SourceString": "Willow tree seed",
+        "LocalizedString": "Willow tree seed"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Seed_Tree_Willow",
+        "SourceString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
+        "LocalizedString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Willow_Seed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Seeds/T_Icon_Willow_Seed.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_03_Drop.SM_SeedBag_1H_03_Drop",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 1,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.ShowProgress",
+        "ItemFilter.Material.Seed"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Seed"
+      },
+      "MaxDrawDistance": 4000.0,
+      "RepairCostRatios": [],
+      "PersistenceID": "QezLIU6YRuQdDUKbCkZqBA",
+      "InternalName": "farming_treeseed_willow"
+    }
+  }
+]

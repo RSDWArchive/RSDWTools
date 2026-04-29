@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Hatchet_Bronze",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.0"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Coarse'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Logging_Axe_Bronze'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Bronze.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Chopper"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "BBS_jRKyf0uuSKGFkGE0tA",
+      "InternalName": "recipe_hatchet_bronze"
+    }
+  }
+]

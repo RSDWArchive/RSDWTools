@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_T1_Weak_Healing",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Harralander'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Harralander.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_ChangeHealth_C'ITEM_Consumable_Potion_T1_Weak_Healing'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Healing.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "EgYImEV0dyaK6C2DQz3j8Q",
+      "InternalName": "recipe_consumable_potion_t1_weak_healing"
+    }
+  }
+]

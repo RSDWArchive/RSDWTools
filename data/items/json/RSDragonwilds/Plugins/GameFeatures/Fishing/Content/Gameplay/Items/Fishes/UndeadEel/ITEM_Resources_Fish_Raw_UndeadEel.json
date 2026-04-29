@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_UndeadEel",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawUndeadEel",
+        "SourceString": "Raw Undead Eel",
+        "LocalizedString": "Raw Undead Eel"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawUndeadEel",
+        "SourceString": "A dead undead eel. We suggest you braise it.",
+        "LocalizedString": "A dead undead eel. We suggest you braise it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Undead_Eel'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Undead_Eel"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Eel_Undead_01/SM_Fish_Eel_Undead_01.SM_Fish_Eel_Undead_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 3.4,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "GEGLbUrbPSIV3zSv9wLkkg",
+      "InternalName": "res_fish_undeadeel"
+    }
+  }
+]

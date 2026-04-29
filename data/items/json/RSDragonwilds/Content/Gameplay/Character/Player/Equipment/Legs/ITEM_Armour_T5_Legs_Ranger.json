@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T5_Legs_Ranger",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Ranger_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Ranger_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Ranger_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Ranger_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T5_Legs_Ranger"
+      },
+      "ArmorWeight": "EArmorWeight::Medium",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RangerTights",
+        "SourceString": "Ranger Tights",
+        "LocalizedString": "Ranger Tights"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RangerTights",
+        "SourceString": "Ranger leg gear that makes you feel both agile and slightly rebellious.",
+        "LocalizedString": "Ranger leg gear that makes you feel both agile and slightly rebellious."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Ranger_Legs'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Ranger_Legs.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 9.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Medium"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "BaseDurability": 1250,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "uRgtu0xFj-2S1suM_JFJoQ",
+      "InternalName": "armour_legs_Ranger"
+    }
+  }
+]

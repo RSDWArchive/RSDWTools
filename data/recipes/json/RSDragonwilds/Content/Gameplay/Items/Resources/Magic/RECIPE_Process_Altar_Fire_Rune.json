@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RuneRecipeData",
+    "Name": "RECIPE_Process_Altar_Fire_Rune",
+    "Class": "UScriptClass'RuneRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RuneType": "ERuneType::Fire",
+      "DeselectedTexture": {
+        "ObjectName": "Texture2D'T_Rune_Fire1'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Fire1.0"
+      },
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Essence'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Fire'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.0"
+          },
+          "Count": 10
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AudioTag": {
+        "TagName": "Audio.Magic.Rune.Fire"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_RuneCrafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_RuneCrafting.0"
+        },
+        "RowName": "FireRuneCrafting"
+      },
+      "MinProcessingTime": 10.0,
+      "MaxProcessingTime": 10.0,
+      "PersistenceID": "N2hgvUYSlBi0Mdiujr0iTw",
+      "InternalName": "recipe_process_altar_rune_fire"
+    }
+  }
+]

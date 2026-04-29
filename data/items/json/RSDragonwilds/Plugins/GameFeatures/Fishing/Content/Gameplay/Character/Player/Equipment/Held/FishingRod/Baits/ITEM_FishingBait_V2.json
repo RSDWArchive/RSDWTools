@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_FishingBait_V2",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "192A9B5249C10E01A8A42FB5804A5FCD",
+        "SourceString": "Fishing Bait",
+        "LocalizedString": "Fishing Bait"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "7F3B297449DAAB3BF182FC867DDA468C",
+        "SourceString": "For use with a fishing rod.",
+        "LocalizedString": "For use with a fishing rod."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Artisan.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bait.FishingBait"
+      },
+      "ItemFilterTags": [
+        "Item.Equipment.Ammo.Bait.FishingBait"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Bait"
+      },
+      "PersistenceID": "MnciDkEfOe31HYy5MT6wbw",
+      "InternalName": "ammo_bait_fishbait"
+    }
+  }
+]

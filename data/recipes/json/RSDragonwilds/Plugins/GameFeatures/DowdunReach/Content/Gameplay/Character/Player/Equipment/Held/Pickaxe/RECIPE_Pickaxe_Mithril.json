@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Pickaxe_Mithril",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar.0"
+          },
+          "Count": 8
+        },
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Maple'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Maple.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Cursed'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Cursed"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Pickaxe_Mithril'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Pickaxe/ITEM_Pickaxe_Mithril"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Pickaxe"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "u6ddzUCf9m2-QgyYVZJ3Gg",
+      "InternalName": "recipe_pickaxe_mithril"
+    }
+  }
+]

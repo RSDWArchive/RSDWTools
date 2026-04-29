@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_VileAshes",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VileAshes",
+        "SourceString": "Vile Ashes",
+        "LocalizedString": "Vile Ashes"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "VileAshes",
+        "SourceString": "Remains of a demonic creature. A crafting material used to make demonic oil. ",
+        "LocalizedString": "Remains of a demonic creature. A crafting material used to make demonic oil. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Vile_Ashes'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Vile_Ashes"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Vile_Ash/SM_Vile_Ash_01.SM_Vile_Ash_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "PersistenceID": "r8vHFkQKCscKp1OoC17YCQ",
+      "InternalName": "res_vile_ashes"
+    }
+  }
+]

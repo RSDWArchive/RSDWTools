@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Customization_SkinTone",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'PlayerCustomizationPrimitiveFloatData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "SkinTone1": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 0.0
+      },
+      "SkinTone2": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 1.0
+      },
+      "SkinTone3": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 2.0
+      },
+      "SkinTone4": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 3.0
+      },
+      "SkinTone5": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 4.0
+      },
+      "SkinTone6": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 5.0
+      },
+      "SkinTone7": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 6.0
+      },
+      "SkinTone8": {
+        "PrimitiveDataIndex": 4,
+        "PrimitiveDataValue": 7.0
+      }
+    }
+  }
+]

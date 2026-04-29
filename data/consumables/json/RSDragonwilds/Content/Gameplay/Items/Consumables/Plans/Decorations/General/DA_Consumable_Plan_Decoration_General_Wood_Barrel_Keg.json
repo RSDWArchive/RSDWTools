@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BP_Consumables_Plan_Base_C",
+    "Name": "DA_Consumable_Plan_Decoration_General_Wood_Barrel_Keg",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.BP_Consumables_Plan_Base_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Plan_Base_C'Default__BP_Consumables_Plan_Base_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BuildingPieceToUnlock": {
+        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_General_Wood_Barrel_Keg'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/General/DA_BaseBuilding_Decoration_General_Wood_Barrel_Keg.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "128D7CEA4B854895AA7DF2A51FFFB537",
+        "SourceString": "PLAN: Keg Barrel",
+        "LocalizedString": "PLAN: Keg Barrel"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plans'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Vestige3'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Plan"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "d_OJYk_VTVAVeza6U5R8LQ",
+      "InternalName": "plan_decoration_general_wood_barrel_keg",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Plan_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.0"
+      }
+    }
+  }
+]

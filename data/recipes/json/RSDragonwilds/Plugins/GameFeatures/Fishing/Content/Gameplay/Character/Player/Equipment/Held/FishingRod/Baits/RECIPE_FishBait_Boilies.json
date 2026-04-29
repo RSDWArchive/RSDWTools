@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_FishBait_Boilies",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_GiantKrill'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/GiantKrill/ITEM_Resources_Fish_Raw_GiantKrill"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VileAshes'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_VileAshes.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "FishingBaitAmmoData'ITEM_FishBait_Boilies'",
+            "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Boilies"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Fishing.Bait"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "E7BO-kB03CewPCC9R-GSZw",
+      "InternalName": "recipe_fishbait_boilies"
+    }
+  }
+]

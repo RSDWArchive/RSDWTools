@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Staff_Maple",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Maple'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Maple.0"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Glass_Vessel'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Vessel.0"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+          },
+          "Count": 16
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Staff_Maple'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Maple"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "JVvSvUdYv0EIQzy9UtWz7A",
+      "InternalName": "recipe_staff_maple"
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "HasDamageClass_Condition",
+    "Name": "HasDamageClass_Condition_0",
+    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "Class": "UScriptClass'HasDamageClass_Condition'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DamageClass": "EDamageClass::Ranged"
+    }
+  },
+  {
+    "Type": "IsCriticalHit_Condition",
+    "Name": "IsCriticalHit_Condition_1",
+    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "Class": "UScriptClass'IsCriticalHit_Condition'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "bLosesDurabilityOnDamageCaused": true,
+      "CanLoseDurabilityOnDamageCausedConditions": [
+        {
+          "ObjectName": "IsCriticalHit_Condition'ITEM_Trinket_Iconic_Amulet_of_Accuracy:IsCriticalHit_Condition_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Accuracy.1"
+        },
+        {
+          "ObjectName": "HasDamageClass_Condition'ITEM_Trinket_Iconic_Amulet_of_Accuracy:HasDamageClass_Condition_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Accuracy.0"
+        }
+      ],
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_CriticalRangedDamageMultiplier_AmuletOfAccuracy_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_CriticalRangedDamageMultiplier_AmuletOfAccuracy.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.AmuletofAccuracy",
+        "SourceString": "Amulet of Accuracy",
+        "LocalizedString": "Amulet of Accuracy"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Trinket.AmuletOfAccuracy.FlavourText",
+        "SourceString": "A magical amulet worn by keen-eyed Rangers. ",
+        "LocalizedString": "A magical amulet worn by keen-eyed Rangers. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Amulet_of_Accuracy'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Accuracy.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 2500,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "Trinket.AmuletOfAccuracy.Description",
+            "SourceString": "Increased WEAK POINT damage with RANGED weapons",
+            "LocalizedString": "Increased WEAK POINT damage with RANGED weapons"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "u0YGp0XHrNClFea2YgtqHQ",
+      "InternalName": "trinket_amulet_of_accuracy"
+    }
+  }
+]

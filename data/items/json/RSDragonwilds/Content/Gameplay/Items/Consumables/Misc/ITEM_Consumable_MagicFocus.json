@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_MagicFocus",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_MagicFocusHeldEquipmentEffectData_C'HEED_MagicFocus'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_MagicFocus.0"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMagicWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_MagicFocus'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "DFB851194D19480B150367B63335AFA4",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Magicfocus",
+        "SourceString": "Magical Focus",
+        "LocalizedString": "Magical Focus"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MagicFocus",
+        "SourceString": "Imbue your staff to increase the damage of your magical attacks for a limited time.",
+        "LocalizedString": "Imbue your staff to increase the damage of your magical attacks for a limited time."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Magic_Focus'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Furniture_Storage/T_Icon_Magic_Focus.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Magic_Focus/SM_magic_focus_01.SM_magic_focus_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.RuneEssence"
+      },
+      "PersistenceID": "gzOyDURSCsyX8-6Q2MSm3A",
+      "InternalName": "item_magicfocus"
+    }
+  }
+]

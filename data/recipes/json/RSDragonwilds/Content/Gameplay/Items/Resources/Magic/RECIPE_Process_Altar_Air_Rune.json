@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "RuneRecipeData",
+    "Name": "RECIPE_Process_Altar_Air_Rune",
+    "Class": "UScriptClass'RuneRecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RuneType": "ERuneType::Air",
+      "DeselectedTexture": {
+        "ObjectName": "Texture2D'T_Rune_Air'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Air.0"
+      },
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Essence'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Air'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.0"
+          },
+          "Count": 10
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AudioTag": {
+        "TagName": "Audio.Magic.Rune.Air"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_RuneCrafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_RuneCrafting.0"
+        },
+        "RowName": "AirlRuneCrafting"
+      },
+      "MinProcessingTime": 10.0,
+      "MaxProcessingTime": 10.0,
+      "PersistenceID": "G2LRQkwdrgWVlZ-EXRXtcg",
+      "InternalName": "recipe_process_altar_rune_air"
+    }
+  }
+]

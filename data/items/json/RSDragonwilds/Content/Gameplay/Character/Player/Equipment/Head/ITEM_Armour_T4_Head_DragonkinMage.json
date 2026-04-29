@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T4_Head_DragonkinMage",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_DragonkinMage_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_DragonkinMage_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T4_Head_DragonkinMage"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonkinHat",
+        "SourceString": "Dragonkin Mage Hood",
+        "LocalizedString": "Dragonkin Mage Hood"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DragonkinMageHood",
+        "SourceString": "A hood styled after the ancient overlords of Ashenfall.",
+        "LocalizedString": "A hood styled after the ancient overlords of Ashenfall."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dragonkin_Dark_Mage_Hood'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Dragonkin_Dark_Mage_Hood.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 4.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1400,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "GutTdkwskIsX75i6-CilJA",
+      "InternalName": "armour_head_dragonkinmage"
+    }
+  }
+]

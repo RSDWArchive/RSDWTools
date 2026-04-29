@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_FishingNet_Mystic",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Mystic'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Thread_Mystic.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_FishingNet_MysticNet'",
+            "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingNet/MysticNet/ITEM_FishingNet_MysticNet"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Fishing.Net"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 150,
+      "PersistenceID": "-g1bqEfLPt0SRK-iFQ3BEA",
+      "InternalName": "recipe_fishing_net_mystic"
+    }
+  }
+]

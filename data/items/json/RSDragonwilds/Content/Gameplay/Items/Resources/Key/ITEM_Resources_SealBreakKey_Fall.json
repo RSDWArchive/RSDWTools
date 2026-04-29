@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_SealBreakKey_Fall",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Cursefragment.Silverthorn",
+        "SourceString": "Curse Fragment (Rage)",
+        "LocalizedString": "Curse Fragment (Rage)"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Cursefragment.Vault",
+        "SourceString": "A crystallised part of a curse, imbued with Imaru's rage. ",
+        "LocalizedString": "A crystallised part of a curse, imbued with Imaru's rage. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Imaru_Curse_Seal_Rage_nofx'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/QuestItems/T_Icon_Imaru_Curse_Seal_Rage_nofx.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Ruby_01.SM_Gemstone_Ruby_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Quest.Imaru.Sealbreak.Rage"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "TQY6cUXdLjzqCIuXB3vAvw",
+      "InternalName": "res_seal_break_fall_key"
+    }
+  }
+]

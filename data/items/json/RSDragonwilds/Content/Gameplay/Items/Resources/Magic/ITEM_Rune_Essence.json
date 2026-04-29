@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Rune_Essence",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "RuneEssence",
+        "SourceString": "Rune Essence",
+        "LocalizedString": "Rune Essence"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "6842B3F545463D23422C849ECA498E79",
+        "SourceString": "A mysterious porous rock used as a base for powerful runes.",
+        "LocalizedString": "A mysterious porous rock used as a base for powerful runes."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Rune_Essence'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Essence.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Fragment/SM_RuneEssence_Fragment_01.SM_RuneEssence_Fragment_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.25,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.RuneEssence"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.RuneEssence"
+      },
+      "PersistenceID": "qOY004ZJaEaR8DmcDqB2KA",
+      "InternalName": "res_rune_essence"
+    }
+  }
+]

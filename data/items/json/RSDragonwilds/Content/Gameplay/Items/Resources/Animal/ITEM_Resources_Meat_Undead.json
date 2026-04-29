@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Meat_Undead",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "UndeadMeat",
+        "SourceString": "Undead Meat",
+        "LocalizedString": "Undead Meat"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "UndeadMeat",
+        "SourceString": "Obtained from undead beasts. Can be cooked for... interesting results.",
+        "LocalizedString": "Obtained from undead beasts. Can be cooked for... interesting results."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Undead_Meat'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Meat.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Cooked_Mutton_01.SM_Cooked_Mutton_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "C12YuEnnFEKdJhWmXv3hFg",
+      "InternalName": "res_meat_undead"
+    }
+  }
+]

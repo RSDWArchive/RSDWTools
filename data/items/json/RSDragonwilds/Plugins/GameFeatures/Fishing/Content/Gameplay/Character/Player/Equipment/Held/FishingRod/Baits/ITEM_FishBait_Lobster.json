@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FishingBaitAmmoData",
+    "Name": "ITEM_FishBait_Lobster",
+    "Class": "UScriptClass'FishingBaitAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": "ELoadoutSlotStrategy::FishingBait",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LobsterBait",
+        "SourceString": "Lobster Bait",
+        "LocalizedString": "Lobster Bait"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LobsterBait",
+        "SourceString": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish.",
+        "LocalizedString": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lobster_Bait'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Bait_Icons/T_Icon_Lobster_Bait"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 5,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bait.Lobster"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingBait"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Bait"
+      },
+      "PersistenceID": "y5vf-0d1b6nNctWmDMJuMw",
+      "InternalName": "ammo_fishbait_lobster"
+    }
+  }
+]

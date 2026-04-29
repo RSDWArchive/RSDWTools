@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_T2_Lesser_Antipoison",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 600.0,
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ClearBuildup_Poison_C'ITEM_Consumable_Potion_T2_Lesser_Antipoison:GE_ClearBuildup_Poison_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.1"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_ResistBuildup_Poison_C'ITEM_Consumable_Potion_T2_Lesser_Antipoison:GE_ResistBuildup_Poison_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.2"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LesserAntiPoisonPotion",
+        "SourceString": "Lesser Antipoison Potion",
+        "LocalizedString": "Lesser Antipoison Potion"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "7BD74D9C4C57B05E8B1F8E922AF413BE",
+        "SourceString": " ",
+        "LocalizedString": " "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lesser_Green_Potion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Instant_Poison'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Poison.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AntiPoison.Title",
+            "SourceString": "Antipoison",
+            "LocalizedString": "Antipoison"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AntiPoison.Description",
+            "SourceString": "NEGATES and grants RESISTENCE to POISON effects ",
+            "LocalizedString": "NEGATES and grants RESISTENCE to POISON effects "
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedAntiPoison'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiPoison.0"
+          }
+        }
+      ],
+      "PersistenceID": "LbLCFEmVn7KnJBS59zUS4g",
+      "InternalName": "potion_t2_lesser_antipoison",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_ClearBuildup_Poison_C",
+    "Name": "GE_ClearBuildup_Poison_C_0",
+    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Antipoison",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Poison.GE_ClearBuildup_Poison_C'",
+    "Template": {
+      "ObjectName": "GE_ClearBuildup_Poison_C'Default__GE_ClearBuildup_Poison_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Poison.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite"
+      }
+    }
+  },
+  {
+    "Type": "GE_ResistBuildup_Poison_C",
+    "Name": "GE_ResistBuildup_Poison_C_0",
+    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Antipoison",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Poison.GE_ResistBuildup_Poison_C'",
+    "Template": {
+      "ObjectName": "GE_ResistBuildup_Poison_C'Default__GE_ResistBuildup_Poison_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Poison.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "Duration": 10.0,
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 0.33
+        }
+      }
+    }
+  }
+]

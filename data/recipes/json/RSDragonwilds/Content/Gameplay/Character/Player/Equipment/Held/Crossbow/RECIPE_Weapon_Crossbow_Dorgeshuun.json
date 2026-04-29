@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Crossbow_Dorgeshuun",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.0"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Swamp'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DorgeshuunLimbs'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Jade'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "Count": 4
+        }
+      ],
+      "RepairItemReplacements": [
+        {
+          "OriginalItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.0"
+          },
+          "NewItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead.0"
+          },
+          "NewCount": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Crossbow_Dorgeshuun'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dorgeshuun.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Bow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 150,
+      "PersistenceID": "Kh__9UjWDAEtYEuunTYtQA",
+      "InternalName": "recipe_crossbow_dorgeshuun"
+    }
+  }
+]

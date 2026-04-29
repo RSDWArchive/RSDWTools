@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Throwable_FireOil",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Throwable_FireOil.BP_Throwable_FireOil_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Throwable_C'",
+        "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/PA_RangedAttack_Throwable"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_GameJam_PlayerM_Throw_LoopInto'",
+        "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/A_GameJam_PlayerM_Throw_LoopInto"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_GameJam_PlayerM_Throw_Loop'",
+        "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/A_GameJam_PlayerM_Throw_Loop"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "DamageMultiplier": 3.25,
+      "DamageTypes": [
+        "DamageType.Magical.Fire"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Self",
+      "ProjectileClass": {
+        "AssetPathName": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Ammo_FireOil.BP_Ammo_FireOil_C",
+        "SubPathString": ""
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 4,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FireOil",
+        "SourceString": "Fire Oil",
+        "LocalizedString": "Fire Oil"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FireOil",
+        "SourceString": "Throw this at your enemies to set them on fire!",
+        "LocalizedString": "Throw this at your enemies to set them on fire!"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Wrapped_Liquid_Container_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Wrapped_Liquid_Container_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 4,
+      "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Bow"
+      },
+      "BaseDurability": 525,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "6Z9gGkjXwODcqvCBFRmlEA",
+      "InternalName": "weap_throwable_fireoil"
+    }
+  }
+]

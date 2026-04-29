@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_Main_Lantern",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "[PH] Dreamstone Lantern"
+      },
+      "FlavourText": {
+        "CultureInvariantString": "[PH] Magical Lantern built from pieces of dreamstone.\r\n\r\nUsed to seal the Gatekeeper and to also release them."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Prop/Template/SM_Torch_01.SM_Torch_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "L910nkHgsySXXwio7CfE7w",
+      "InternalName": "res_dreamstone_lantern"
+    }
+  }
+]

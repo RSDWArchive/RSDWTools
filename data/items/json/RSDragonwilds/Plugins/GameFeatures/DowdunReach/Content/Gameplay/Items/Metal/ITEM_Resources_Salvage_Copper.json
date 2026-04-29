@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Salvage_Copper",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SalvagePileCopper",
+        "SourceString": "Copper Salvage Pile",
+        "LocalizedString": "Copper Salvage Pile"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SalvagePileCopper",
+        "SourceString": "Scraps that can be searched through. I weren't stealing nuffin', copper.",
+        "LocalizedString": "Scraps that can be searched through. I weren't stealing nuffin', copper."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Salvage_Copper'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Copper"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Salvage"
+      },
+      "PersistenceID": "MFf5wEQrgk_E0d6hEWWVZw",
+      "InternalName": "res_salvage_copper"
+    }
+  }
+]

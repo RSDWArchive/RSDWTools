@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Coal",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Coal",
+        "SourceString": "Coal",
+        "LocalizedString": "Coal"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Coal",
+        "SourceString": "Typically found in rocky areas and caves. Combine with metal ores at an upgraded smelter to create higher tiered metal bars.",
+        "LocalizedString": "Typically found in rocky areas and caves. Combine with metal ores at an upgraded smelter to create higher tiered metal bars."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Coal'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Coal.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Mining_Nodes/Coal/SM_Mining_Ore_Coal_02.SM_Mining_Ore_Coal_02",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "PersistenceID": "MsQyukIFtzlttaiTzrbgxw",
+      "InternalName": "res_ore_coal"
+    }
+  }
+]

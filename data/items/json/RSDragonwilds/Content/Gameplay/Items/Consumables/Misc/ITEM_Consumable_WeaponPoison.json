@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_WeaponPoison",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponPoison'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_WeaponPoison.0"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_WeaponPoison'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponPoison/USD_WeaponPoison.2"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "AAC2812E475BBC6FCBAB41B4BF0746FF",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeaponPoison",
+        "SourceString": "Weapon Poison",
+        "LocalizedString": "Weapon Poison"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WeaponPoison",
+        "SourceString": "A vial of Weapon Poison. \r\n\r\nUsed in crafting Poison Arrows or to coat your equipped Melee Weapon with Poison for a short time.",
+        "LocalizedString": "A vial of Weapon Poison. \r\n\r\nUsed in crafting Poison Arrows or to coat your equipped Melee Weapon with Poison for a short time."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Weapon_Poison'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Weapon_Poison.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Poison'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "PersistenceID": "0h15KUoKwZakrXihaEqoqg",
+      "InternalName": "item_weaponpoison"
+    }
+  }
+]

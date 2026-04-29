@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ectoplasm",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Ectoplasm",
+        "SourceString": "Ectoplasm",
+        "LocalizedString": "Ectoplasm"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Ectoplasm",
+        "SourceString": "Dropped from aggressive spirits or extracted from wither hearts. Used in crafting.",
+        "LocalizedString": "Dropped from aggressive spirits or extracted from wither hearts. Used in crafting."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Ectoplasm'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ectoplasm.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Generic_Spectral_Drop/SM_Generic_Spectral_Drop_01.SM_Generic_Spectral_Drop_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Gloop"
+      },
+      "PersistenceID": "RduYgUn8zLSQC7-A2zSQ5Q",
+      "InternalName": "res_ectoplasm"
+    }
+  }
+]

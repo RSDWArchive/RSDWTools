@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_Plank_Oak",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Oak'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Oak.0"
+          },
+          "Count": 2
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Construction.0"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Crafting_Station"
+      },
+      "MinProcessingTime": 12.0,
+      "PersistenceID": "t3ffl0DHnaC4YeaSP4t0sQ",
+      "InternalName": "recipe_resource_plank_oak"
+    }
+  }
+]

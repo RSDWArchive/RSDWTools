@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Currency_DreamShard",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DreamShard",
+        "SourceString": "Infernal Fragment",
+        "LocalizedString": "Infernal Fragment"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DreamShard",
+        "SourceString": "Used to craft magical equipment. Postie Pete also has a use for them.",
+        "LocalizedString": "Used to craft magical equipment. Postie Pete also has a use for them."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Infernal_Fragments'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Infernal_Fragments"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Infernal_Fragments/SM_Infernal_Fragments_01.SM_Infernal_Fragments_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 999,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Vaultshard"
+      },
+      "PersistenceID": "F73O1kqSP2Z-Y5SYg9F01A",
+      "InternalName": "res_currency_dream_shard"
+    }
+  }
+]

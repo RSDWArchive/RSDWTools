@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T4_Legs_DragonkinMage",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_DragonkinMage_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_DragonkinMage_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_DragonkinMage_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_DragonkinMage_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T4_Legs_DragonkinMage"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonkinRobeLegs",
+        "SourceString": "Dragonkin Mage Robe Legs",
+        "LocalizedString": "Dragonkin Mage Robe Legs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DragonkinMageLegs",
+        "SourceString": "Leggings styled after the ancient overlords of Ashenfall.",
+        "LocalizedString": "Leggings styled after the ancient overlords of Ashenfall."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dragonkin_Dark_Mage_Leggings'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Dragonkin_Dark_Mage_Leggings.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 6.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1400,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "uDBybUNuv5UipiSXb8BG-A",
+      "InternalName": "armour_legs_dragonkinmage"
+    }
+  }
+]

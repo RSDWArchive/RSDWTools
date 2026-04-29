@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Bones_CorruptedBonemeal",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CorruptedBonemeal",
+        "SourceString": "Corrupted Bonemeal",
+        "LocalizedString": "Corrupted Bonemeal"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F7D387A645473E8D261CD7AD34C91AE5",
+        "SourceString": "Bonemeal from corrupted bones.",
+        "LocalizedString": "Bonemeal from corrupted bones."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bonemeal'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Spine/SM_Abysall_Spine_01.SM_Abysall_Spine_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "PersistenceID": "OILH0UHn-UXYOyCO-WZpeA",
+      "InternalName": "res_bones_corrupted_bonemeal"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Tea_Stamina_Reduction_Dodge",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fang'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Dodge'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Dodge.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Cooking_Pot_Processed_Item"
+      },
+      "PersistenceID": "DHAj6EAxbuMJ2PeW1Qb5nA",
+      "InternalName": "recipe_tea_stamina_reduction_dodge"
+    }
+  }
+]

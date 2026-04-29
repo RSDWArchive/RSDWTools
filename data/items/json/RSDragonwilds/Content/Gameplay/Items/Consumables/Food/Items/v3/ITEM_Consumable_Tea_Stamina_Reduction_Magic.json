@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BP_Consumables_Drink_C",
+    "Name": "ITEM_Consumable_Tea_Stamina_Reduction_Magic",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.BP_Consumables_Drink_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Drink_C'Default__BP_Consumables_Drink_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HydrationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_DrinkHydration'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_DrinkHydration.0"
+        },
+        "RowName": "v3_Tea_Arcane"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "Duration": 300.0,
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_MagicAttack_Stamina_Cost_C'ITEM_Consumable_Tea_Stamina_Reduction_Magic:GE_MagicAttack_Stamina_Cost_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ArcaneInfusion",
+        "SourceString": "Arcane Infusion",
+        "LocalizedString": "Arcane Infusion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ArcaneInfusion",
+        "SourceString": "Puts the whiz in wizard.",
+        "LocalizedString": "Puts the whiz in wizard."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Arcane_infusion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Food_30/T_Icon_Arcane_infusion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Instant_Water'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Drink"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Drink"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Water"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Arcane.Title",
+            "SourceString": "Arcane Aligned",
+            "LocalizedString": "Arcane Aligned"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Arcane.Description",
+            "SourceString": "REDUCES the STAMINA cost of MAGIC ATTACKS by 33%",
+            "LocalizedString": "REDUCES the STAMINA cost of MAGIC ATTACKS by 33%"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_Arcanealigned'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Arcanealigned.0"
+          }
+        }
+      ],
+      "PersistenceID": "twHjF0oX62SopfSMJwt00g",
+      "InternalName": "food_tea_stamina_reduction_magic",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Drink_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_MagicAttack_Stamina_Cost_C",
+    "Name": "GE_MagicAttack_Stamina_Cost_C_0",
+    "Outer": "ITEM_Consumable_Tea_Stamina_Reduction_Magic",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.GE_MagicAttack_Stamina_Cost_C'",
+    "Template": {
+      "ObjectName": "GE_MagicAttack_Stamina_Cost_C'Default__GE_MagicAttack_Stamina_Cost_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 0.6
+        },
+        "ModifierOperation": "EAttributeModifierOperation::Multiply"
+      }
+    }
+  }
+]

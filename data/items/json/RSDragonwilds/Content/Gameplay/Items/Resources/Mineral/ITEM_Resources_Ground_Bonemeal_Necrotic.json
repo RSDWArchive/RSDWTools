@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ground_Bonemeal_Necrotic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "NecroticBonemeal",
+        "SourceString": "Necrotic Bonemeal",
+        "LocalizedString": "Necrotic Bonemeal"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "NecroticBonemeal",
+        "SourceString": "Made from ground up undead bone. A useful crafting ingredient.",
+        "LocalizedString": "Made from ground up undead bone. A useful crafting ingredient."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bonemeal'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Bone_Meal/SM_Bone_Meal_01.SM_Bone_Meal_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "PersistenceID": "ffhRi0ROvrJqaHW9odKKWQ",
+      "InternalName": "res_bone_ground_necrotic"
+    }
+  }
+]

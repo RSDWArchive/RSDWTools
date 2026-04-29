@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T3_Attack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedAttack_C'ITEM_Consumable_Potion_Focused_T3_Attack:GE_Potion_FocusedAttack_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Attack.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FocusedAttackPotion",
+        "SourceString": "Focused Attack Potion",
+        "LocalizedString": "Focused Attack Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StandardAttackPotion",
+        "SourceString": "Increases XP gain for the Attack skill. Made with irit and small animal fang.",
+        "LocalizedString": "Increases XP gain for the Attack skill. Made with irit and small animal fang."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Yellow'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Yellow"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedAttack2.Title",
+            "SourceString": "Focused Atack II",
+            "LocalizedString": "Focused Atack II"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedAttack2.Description",
+            "SourceString": "Grants a 30% XP BOOST for the ATTACK Skill",
+            "LocalizedString": "Grants a 30% XP BOOST for the ATTACK Skill"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedAttack'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAttack.0"
+          }
+        }
+      ],
+      "PersistenceID": "RomgrUiURBzTRI28nkVp8A",
+      "InternalName": "potion_focused_t3_attack",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Potion_FocusedAttack_C",
+    "Name": "GE_Potion_FocusedAttack_C_0",
+    "Outer": "ITEM_Consumable_Potion_Focused_T3_Attack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedAttack.GE_Potion_FocusedAttack_C'",
+    "Template": {
+      "ObjectName": "GE_Potion_FocusedAttack_C'Default__GE_Potion_FocusedAttack_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedAttack.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 150.0,
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 0.3
+        }
+      }
+    }
+  }
+]

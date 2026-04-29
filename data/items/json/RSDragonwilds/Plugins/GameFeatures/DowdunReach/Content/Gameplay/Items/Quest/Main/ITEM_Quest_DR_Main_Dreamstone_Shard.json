@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_Main_Dreamstone_Shard",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DreamingStonePiece",
+        "SourceString": "Shard of the Dreaming Stone",
+        "LocalizedString": "Shard of the Dreaming Stone"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DreamingStonePiece",
+        "SourceString": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. ",
+        "LocalizedString": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dreamstone_Shard'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dreamstone_Shard"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Env/Architecture/DowdunReach/Nexus/SM_Dreamstone_Shard_01.SM_Dreamstone_Shard_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 14,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Dreamstone.Shard"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "hJyKREoYCuSo8E20uZBB9g",
+      "InternalName": "res_dreamstone_shard"
+    }
+  }
+]

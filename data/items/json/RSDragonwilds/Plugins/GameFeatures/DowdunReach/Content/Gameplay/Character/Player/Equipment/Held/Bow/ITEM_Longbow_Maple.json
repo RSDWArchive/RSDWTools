@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Longbow_Maple",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Bow/BP_Longbow_Maple.BP_Longbow_Maple_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "DamageMultiplier": 3.4,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MapleLongbow",
+        "SourceString": "Maple Longbow",
+        "LocalizedString": "Maple Longbow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MapleLongbow",
+        "SourceString": "A supple longbow carved from maple wood.",
+        "LocalizedString": "A supple longbow carved from maple wood."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Maple_Longbow'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Longbow"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/Longbow_Maple_2H_01/SM_Longbow_Maple_2H_01.SM_Longbow_Maple_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Longbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.LongBow"
+      },
+      "BaseDurability": 1600,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "3sXwkkC6DYV0KQCK0VIG7Q",
+      "InternalName": "weap_longbow_maple"
+    }
+  }
+]

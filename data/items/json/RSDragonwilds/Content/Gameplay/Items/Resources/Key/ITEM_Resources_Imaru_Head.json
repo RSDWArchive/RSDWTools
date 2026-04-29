@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Imaru_Head",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ImarusHead",
+        "SourceString": "Imaru's Head",
+        "LocalizedString": "Imaru's Head"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ImarusHead",
+        "SourceString": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it...",
+        "LocalizedString": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it..."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Imaru_Head_Resized'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Imaru_Head/T_Icon_Imaru_Head_Resized.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Animal/SM_Bone_01.SM_Bone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "ALQSs0j7loBVpum0CaDH2w",
+      "InternalName": "res_imarus_head"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Bar_BlackMetal_From_Salvage",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Salvage_BlackMetal'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_Salvage_BlackMetal"
+          },
+          "Count": 9
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Coal'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal.0"
+          },
+          "Count": 3
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BlackMetalBar'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetalBar"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Ringy"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Process_Smelting_Tier6"
+      },
+      "PersistenceID": "WXZYVUqjiEQYyJqKBpba9Q",
+      "InternalName": "recipe_bar_blackmetal_from_salvage"
+    }
+  }
+]

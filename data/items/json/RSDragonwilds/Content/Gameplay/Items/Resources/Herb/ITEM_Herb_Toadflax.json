@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Herb_Toadflax",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Toadflax",
+        "SourceString": "Toadflax",
+        "LocalizedString": "Toadflax"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
+        "Key": "Toadflax",
+        "SourceString": "A spicy tasting herb used in resistance potions. ",
+        "LocalizedString": "A spicy tasting herb used in resistance potions. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Toadflax'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Toadflax.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "61d3bkS0nDQWlVqHDt5OaQ",
+      "InternalName": "res_herb_toadflax"
+    }
+  }
+]

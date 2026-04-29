@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Water_Clean_From_Water_Dirty",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Water"
+      },
+      "MinProcessingTime": 4.0,
+      "MaxProcessingTime": 4.0,
+      "PersistenceID": "q7NFDkMfHYOq2KmW0J4qWg",
+      "InternalName": "recipe_water_clean_from_water_dirty"
+    }
+  }
+]

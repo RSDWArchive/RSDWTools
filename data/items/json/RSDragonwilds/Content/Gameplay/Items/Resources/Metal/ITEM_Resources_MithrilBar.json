@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_MithrilBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilBar",
+        "SourceString": "Mithril Bar",
+        "LocalizedString": "Mithril Bar"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MithrilBar",
+        "SourceString": "A versatile metal used for crafting weapons and armour.",
+        "LocalizedString": "A versatile metal used for crafting weapons and armour."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mithril_Bar'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Bar"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Mithril_Bar/SM_Mithril_Bar_01.SM_Mithril_Bar_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 5.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "CiyC5Y3Qx0u0CTQt12QR1w",
+      "InternalName": "res_bar_mithril"
+    }
+  }
+]

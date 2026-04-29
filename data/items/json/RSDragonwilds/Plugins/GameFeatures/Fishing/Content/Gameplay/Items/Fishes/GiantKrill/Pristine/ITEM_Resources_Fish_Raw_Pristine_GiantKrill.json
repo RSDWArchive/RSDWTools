@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Pristine_GiantKrill",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GiantKrillPristine",
+        "SourceString": "Pristine Giant Krill",
+        "LocalizedString": "Pristine Giant Krill"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GiantKrillPristine",
+        "SourceString": "An unusually large Giant Krill, cook it to gain more food.",
+        "LocalizedString": "An unusually large Giant Krill, cook it to gain more food."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Giant_Krill'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Giant_Krill"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Item/Resources/Krill/SM_Krill_Raw_01.SM_Krill_Raw_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 5.8,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "ItemFilter.Material.PristineFish",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "PersistenceID": "GNFBo0lw0P942wC2AJL58g",
+      "InternalName": "res_fish_pristine_giantkrill"
+    }
+  }
+]

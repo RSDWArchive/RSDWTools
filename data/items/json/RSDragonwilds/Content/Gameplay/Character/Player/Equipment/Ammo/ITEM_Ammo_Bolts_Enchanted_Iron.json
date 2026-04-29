@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Bolts_Enchanted_Iron",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/CrossbowBolt_Iron_01/SM_CrossbowBolt_Iron_Gem_01.SM_CrossbowBolt_Iron_Gem_01",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/CrossbowBolt_Iron_01/SM_CrossbowBolt_Iron_01.SM_CrossbowBolt_Iron_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "AdditionalDamageFraction": 2.0
+      },
+      "bHasChanceOfApplyingEffectOnLaunch": true,
+      "ChanceOfApplyingEffect": 15.0,
+      "RandomlyAppliedEffectData": {
+        "ObjectName": "BP_EnchantedBoltHEED_C'HEED_EnchantedIronBolt'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/EnchantedBoltEffects/HEED_EnchantedIronBolt.0"
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_CrossbowBolts'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_CrossbowBolts.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::CrossbowBolts",
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "EnchantedIronCrossbowBolts",
+        "SourceString": "Enchanted Iron Bolt",
+        "LocalizedString": "Enchanted Iron Bolt"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "EnchantedIronCrossbowBolts",
+        "SourceString": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. ",
+        "LocalizedString": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_CrossbowBoltGem_Iron_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_CrossbowBoltGem_Iron_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 4,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bolt.Iron"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Bolt"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "HMZvK0ItELqUlmm4i5HqSQ",
+      "InternalName": "ammo_bolts_enchanted_iron"
+    }
+  }
+]

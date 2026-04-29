@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "SpellModule_Blueprint",
+    "Name": "SpellModule_Blueprint_0",
+    "Outer": "USD_Confuse",
+    "Class": "UScriptClass'SpellModule_Blueprint'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlueprintGraphClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SMBG_Confuse_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SMBG_Confuse.0"
+      },
+      "ModuleName": "Blueprint",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting",
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_Confuse",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_CostItems",
+    "Name": "SpellModule_CostItems_0",
+    "Outer": "USD_Confuse",
+    "Class": "UScriptClass'SpellModule_CostItems'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCostInfo": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Astral'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+          },
+          "Count": 25
+        }
+      ],
+      "bUseMagicAmmo": false,
+      "ModuleName": "CostItems",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "USD_Confuse",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Confuse'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Confuse.0"
+      },
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_Confuse",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Magic.Confuse.Name",
+        "SourceString": "Confuse",
+        "LocalizedString": "Confuse"
+      },
+      "CooldownDuration": 120.0,
+      "SpellIcon": {
+        "ObjectName": "Texture2D'T_Skill_Magic_Spell_Confuse'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Confuse.0"
+      },
+      "SpellTagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+      },
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
+      "CastType": "EUtilitySpellCastType::Aimed",
+      "SpellPlacementMontage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Astral_SpellCastMode_Targeting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Astral_SpellCastMode_Targeting.0"
+      },
+      "PlacementActorClass": {
+        "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SpellPlacementVisualizer_Confuse.BP_SpellPlacementVisualizer_Confuse_C",
+        "SubPathString": ""
+      },
+      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
+      "AimedSpellSpawnLocationRelativeToPlayer": {
+        "X": 25.0,
+        "Y": 25.0,
+        "Z": 40.0
+      },
+      "CameraTraceDistance": 3000.0,
+      "CameraTraceIgnoreDistance": 100.0,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "SpellUIPlacementSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_Confuse:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_Confuse:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_CostItems'USD_Confuse:SpellModule_CostItems_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.2"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Blueprint'USD_Confuse:SpellModule_Blueprint_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.0"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "bbTvuUQxCXOlwmuYtgUXAQ",
+      "InternalName": "spell_confuse"
+    }
+  }
+]

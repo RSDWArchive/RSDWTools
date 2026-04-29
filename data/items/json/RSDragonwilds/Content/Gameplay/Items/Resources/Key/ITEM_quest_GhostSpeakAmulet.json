@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_GhostSpeakAmulet",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "405EDD184E3C4A1E0C14E1AB9F3A1F5B",
+        "SourceString": "Ghostspeak Amulet",
+        "LocalizedString": "Ghostspeak Amulet"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "B9094B0842B200038FFAEAB3E1AD3774",
+        "SourceString": "An amulet you found in a well in Brynmoor.",
+        "LocalizedString": "An amulet you found in a well in Brynmoor."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Ghostspeak_Amulet'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ghostspeak_Amulet.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "EZGayEl5U_ZQaZSscJGZQg",
+      "InternalName": "res_quest_ghost_speak_amulet"
+    }
+  }
+]

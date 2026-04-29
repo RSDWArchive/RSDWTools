@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_DragonSlayerRewardPackBeat5",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Visage_Dragon.ITEM_Resources_Visage_Dragon",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier0_DragonSlayerQuest.ITEM_Consumable_Tome_Tier0_DragonSlayerQuest",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Anti_Dragon.ITEM_Masterworks_Shield_Anti_Dragon",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "Namespace": "",
+        "Key": "F6FD54D242ACF7828F6D08BAA6602A92",
+        "SourceString": "Dragon Slayer Reward Pack",
+        "LocalizedString": "Dragon Slayer Reward Pack"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "0626EC3B456306B7FC4061A57D074516",
+        "SourceString": "A cloth shoulder bag.",
+        "LocalizedString": "A cloth shoulder bag."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Garou_Pack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Garou_Pack.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 10,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs.DragonSlayerPack"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "zGz3MkD3vLq_D1uuA2S44g",
+      "InternalName": "item_pack_dragonslayerrewardbeat5",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

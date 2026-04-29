@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Shortbow_CrystalBow",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Shortbow/CrystalBow/BP_Shortbow_CrystalBow.BP_Shortbow_CrystalBow_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_CrystalBow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_RangedAttack_CrystalBow.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_CrystalBow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_Aim_CrystalBow.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_CrystalBow_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/CrystalBow/PA_CrystalBow_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 250.0,
+      "DamageMultiplier": 1.6,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_CrystalBow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/BP_PlayerRangedAttackCollection_CrystalBow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "CrystalBow",
+        "SourceString": "Crystal Bow",
+        "LocalizedString": "Crystal Bow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "CrystalBow_Desc",
+        "SourceString": "A powerful Shortbow fashioned from crystal of Elven origin.",
+        "LocalizedString": "A powerful Shortbow fashioned from crystal of Elven origin."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shortbow_Crystal_2H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Shortbow_Crystal_2H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Shortbow_Crystal_2H_01/SM_Shortbow_Crystal_2H_01.SM_Shortbow_Crystal_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.CrystalBow"
+      },
+      "BaseDurability": 1050,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "FK7SwEPmPfVFztSXScvKQA",
+      "InternalName": "weap_shortbow_crystal"
+    }
+  }
+]

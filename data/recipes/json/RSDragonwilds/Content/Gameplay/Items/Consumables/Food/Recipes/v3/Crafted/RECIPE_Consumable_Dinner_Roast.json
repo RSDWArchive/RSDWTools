@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Dinner_Roast",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Beast_Flank'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Beast_Flank.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Potato_Jacket'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Potato_Jacket.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Redberry'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_RoastDinner'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_RoastDinner.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Cooking_Range_Recipe"
+      },
+      "PersistenceID": "j-Tohk06vfSZlgaf12zHNw",
+      "InternalName": "recipe_dinner_roast"
+    }
+  }
+]

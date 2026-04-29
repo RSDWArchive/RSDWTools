@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T6_Head_BlueDragonhide",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_BlueDragonhide_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BlueDragonhide_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_BlueDragonhide_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BlueDragonhide_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T6_Head_BlueDragonHide"
+      },
+      "ArmorWeight": "EArmorWeight::Medium",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonhideCowl",
+        "SourceString": "Blue Dragonhide Coif",
+        "LocalizedString": "Blue Dragonhide Coif"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonhideCowl",
+        "SourceString": "Lightweight ranged headgear crafted from blue dragonhide.",
+        "LocalizedString": "Lightweight ranged headgear crafted from blue dragonhide."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Blue_Dragonhide_Cowl'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragonhide_Cowl"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 6.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Medium"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "YkQ4GEx0vEmn8emAt6fB_w",
+      "InternalName": "armour_head_bluedragonhide"
+    }
+  }
+]

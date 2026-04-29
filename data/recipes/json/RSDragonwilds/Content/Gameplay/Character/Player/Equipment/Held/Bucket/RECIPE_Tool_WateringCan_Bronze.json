@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_WateringCan_Bronze",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Wool'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Wool.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldContainerEquipmentData'ITEM_WateringCan_Bronze'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Bronze.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillXPAwardedOnCraft": 50,
+      "PersistenceID": "VtERvki_gJvL9IqzMWCXpg",
+      "InternalName": "recipe_WateringCan_Bronze"
+    }
+  }
+]

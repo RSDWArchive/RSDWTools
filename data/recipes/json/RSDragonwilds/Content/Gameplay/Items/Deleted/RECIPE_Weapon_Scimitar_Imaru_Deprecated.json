@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Scimitar_Imaru_Deprecated",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "im9MjEMI5poQVG-q-cQhMQ",
+      "InternalName": "deleted_recipe_weapon_scimitar_imaru",
+      "bSoftDeleted": true,
+      "MigrationDataAsset": {
+        "ObjectName": "RecipeData'RECIPE_Weapon_Scimitar_Imaru'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Scimitar/RECIPE_Weapon_Scimitar_Imaru.0"
+      }
+    }
+  }
+]

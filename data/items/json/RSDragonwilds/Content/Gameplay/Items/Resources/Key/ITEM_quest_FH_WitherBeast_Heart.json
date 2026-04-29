@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FH_WitherBeast_Heart",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PrimordialHeart",
+        "SourceString": "Primordial Heart",
+        "LocalizedString": "Primordial Heart"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "PrimordialHeart",
+        "SourceString": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. ",
+        "LocalizedString": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_WitherBeast_Heart'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_WitherBeast_Heart.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/Crystals/Mesh/SM_Crystal_1.SM_Crystal_1",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "j_sPzUBqZftQOjuet7eAzg",
+      "InternalName": "ITEM_quest_FH_WitherBeast_Heart"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Vine_Root",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "4CF401E04EDAD4F641274FB7C85CF075",
+        "SourceString": "Vine Root",
+        "LocalizedString": "Vine Root"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "1B0726DA478D375A0D3B0384F026590A",
+        "SourceString": "A fibrous root with unique properties.",
+        "LocalizedString": "A fibrous root with unique properties."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Vine'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icon_Resources_Vine.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Plant/SM_VineResource.SM_VineResource",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 20,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Resource",
+        "Item.Farming.Compostable"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "z-xbJy9IS0iWNNx9WciARQ",
+      "InternalName": "res_vine_root"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T6_Head_Mystic",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Mystic_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Mystic_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Mystic_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Mystic_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T6_Head_Mystic"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticHood",
+        "SourceString": "Mystic Hat",
+        "LocalizedString": "Mystic Hat"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MysticHood",
+        "SourceString": "A magically resonant hood, perfect for staying warm. ",
+        "LocalizedString": "A magically resonant hood, perfect for staying warm. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mystic_Hood'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Hood"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 4.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "jkuS_UNrGr0A_D2otKhDaA",
+      "InternalName": "armour_head_mystic"
+    }
+  }
+]

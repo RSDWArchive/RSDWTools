@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
+  <title>Enemy Drop Tables — RSDWTools</title>
+  <link rel="icon" href="/shared/assets/logo.png" />
+  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="/shared/shared-header.css" />
+  <link rel="stylesheet" href="/shared/site-shell.css" />
+</head>
+<body class="item-editor-page drop-page" data-tool="enemy-drop-tables">
+  <div id="rsdw-header-mount"></div>
+
+  <details class="landing-logo__dropdown">
+    <summary class="landing-logo__dropdown-summary">How do I use this?</summary>
+    <div class="landing-logo__dropdown-content">
+      <p>Type in an enemy NPC name and we'll find, load, and display the drop table from the game files for that enemy.</p>
+    </div>
+  </details>
+
+  <div class="drop-page-wrapper">
+    <main class="page-layout">
+      <div class="drop-page__content">
+        <section class="drop-hero">
+          <p class="drop-hero__subtitle">
+            Search for an NPC to view its loot drops.
+          </p>
+
+          <div class="drop-search" aria-label="Search enemies">
+            <img class="drop-search__icon" src="/shared/game-ui/Search/SearchIcon.png" alt="" />
+            <input class="drop-search__input" id="enemy-search" type="text" placeholder="Type an NPC name..." autocomplete="off" />
+            <button class="drop-search__clear is-hidden" id="enemy-search-clear" type="button" aria-label="Clear search">
+              <img src="/shared/game-ui/Search/ClearIcon.png" alt="" />
+            </button>
+            <ul class="drop-search__suggestions" id="enemy-suggestions" role="listbox" aria-label="Enemy suggestions"></ul>
+          </div>
+        </section>
+
+        <section class="drop-results" aria-live="polite">
+          <div class="drop-results__header is-hidden" hidden>
+            <span class="drop-results__title" id="drop-enemy-name">Select an NPC</span>
+            <span class="drop-results__subtitle" id="drop-enemy-subtitle"></span>
+          </div>
+
+          <div class="drop-results__body">
+            <div class="drop-empty" id="drop-empty">Start typing to see loot drops.</div>
+            <table class="drop-table is-hidden" id="drop-table" hidden>
+              <thead>
+                <tr>
+                  <th scope="col">Item</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Rarity</th>
+                </tr>
+              </thead>
+              <tbody id="drop-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="context-menu hidden" id="context-menu" role="menu">
+    <button type="button" data-action="add">Add</button>
+    <button type="button" data-action="add-max">Add Max</button>
+    <button type="button" data-action="set-max">Set Max</button>
+    <button type="button" data-action="dupe">Dupe</button>
+    <button type="button" data-action="repair">Repair</button>
+    <button type="button" data-action="remove">Remove</button>
+  </div>
+
+  <div class="tooltip hidden" id="tooltip" role="tooltip">
+    <div class="tooltip__name" id="tooltip-name"></div>
+    <div class="tooltip__desc" id="tooltip-desc"></div>
+    <div class="tooltip__meta" id="tooltip-meta"></div>
+  </div>
+
+  <div class="modal-overlay hidden" id="count-modal">
+    <div class="modal">
+      <div class="modal-title">Set Quantity</div>
+      <div class="modal-body">
+        <label>
+          Quantity
+          <input type="number" id="count-input" min="1" />
+        </label>
+        <div class="modal-hint" id="count-hint"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="count-cancel">Cancel</button>
+        <button type="button" id="count-apply">Apply</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="alert-modal">
+    <div class="modal">
+      <div class="modal-title">Notice</div>
+      <div class="modal-body">
+        <div class="modal-hint" id="alert-message"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="alert-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rsdw-footer-mount"></div>
+
+  <script src="/shared/shared-header.js" defer></script>
+  <script src="/tools/enemy-drop-tables/drop-tables.js" defer></script>
+</body>
+</html>

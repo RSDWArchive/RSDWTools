@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Shrimp",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawShrimp",
+        "SourceString": "Raw Shrimp",
+        "LocalizedString": "Raw Shrimp"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawShrimp",
+        "SourceString": "Schrodinger's shrimp: could end up burnt or fried.",
+        "LocalizedString": "Schrodinger's shrimp: could end up burnt or fried."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shrimp'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Shrimp"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Shrimp/SM_Shrimp_Raw_01.SM_Shrimp_Raw_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "DDkCk0GYuoxdUnCP5DFKaQ",
+      "InternalName": "res_fish_shrimp"
+    }
+  }
+]

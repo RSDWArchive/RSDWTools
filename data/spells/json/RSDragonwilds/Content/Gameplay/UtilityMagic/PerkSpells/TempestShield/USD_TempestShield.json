@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_TempestShield",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CastXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Spells'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
+        },
+        "RowName": "Spell_Firespirit"
+      },
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_CostItems",
+    "Name": "SpellModule_CostItems_1",
+    "Outer": "USD_TempestShield",
+    "Class": "UScriptClass'SpellModule_CostItems'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCostInfo": [
+        {
+          "ItemData": {
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Air'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.0"
+          },
+          "Count": 15
+        }
+      ],
+      "bUseMagicAmmo": false,
+      "ModuleName": "CostItems",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_GameplayEffect",
+    "Name": "SpellModule_GameplayEffect_0",
+    "Outer": "USD_TempestShield",
+    "Class": "UScriptClass'SpellModule_GameplayEffect'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempestShield_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/GE_TempestShield.0"
+      },
+      "GameplayEffectSpellTarget": "EGameplayEffectSpellTarget::SpellOwner",
+      "bSkipCanBeDamagedCheck": true,
+      "bRemoveEffectsWithSameDataBeforeApplying": true,
+      "ModuleName": "GameplayEffect",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting",
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "USD_TempestShield",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_TempestShield'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_TempestShield.0"
+      },
+      "bShouldRotateToCameraForward": false,
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_TempestShield",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "Namespace": "",
+        "Key": "2D47A8B14D667902665FFFAFC67E384A",
+        "SourceString": "Tempest Shield",
+        "LocalizedString": "Tempest Shield"
+      },
+      "CooldownDuration": 60.0,
+      "SpellIcon": {
+        "ObjectName": "Texture2D'T_Skill_Attack_Spell_Tempestshield'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Attack/T_Skill_Attack_Spell_Tempestshield.0"
+      },
+      "SpellTagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.0"
+      },
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "SpellUIPlacementSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_TempestShield:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_CostItems'USD_TempestShield:SpellModule_CostItems_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_TempestShield:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.0"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_GameplayEffect'USD_TempestShield:SpellModule_GameplayEffect_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.2"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "fN--EU7s-Vez5ICHyfHAWA",
+      "InternalName": "spell_tempestshield"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Salvage_Mithril",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SalvagePileMithril",
+        "SourceString": "Mithril Salvage Pile",
+        "LocalizedString": "Mithril Salvage Pile"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SalvagePileMithril",
+        "SourceString": "Scraps of mithril that can be smelted into more useful bars. ",
+        "LocalizedString": "Scraps of mithril that can be smelted into more useful bars. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Salvage_Mithril'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Mithril"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Salvage"
+      },
+      "PersistenceID": "tdu7-kbMc5g0n9-D2ywbSA",
+      "InternalName": "res_salvage_mithril"
+    }
+  }
+]

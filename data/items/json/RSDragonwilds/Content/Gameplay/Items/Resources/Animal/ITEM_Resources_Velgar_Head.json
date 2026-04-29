@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Velgar_Head",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VelgarsHead",
+        "SourceString": "Velgar's Head",
+        "LocalizedString": "Velgar's Head"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "4D196F1448BA1D1381D1A4B5C4D49D35",
+        "SourceString": "Proof of your triumph over the Dragon General. It's dripping blood all over, you should probably get rid of it...",
+        "LocalizedString": "Proof of your triumph over the Dragon General. It's dripping blood all over, you should probably get rid of it..."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Velgar_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Velgar_Head.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Animal/SM_Bone_01.SM_Bone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "3zU6qknpEF2Wg6STSQMHtQ",
+      "InternalName": "res_velgar_head"
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Logging_Axe_Steel",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/BP_Logging_Axe_Steel.BP_Logging_Axe_Steel_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Hatchet_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Hatchet_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_1H_Hatchet_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Hatchet/A_PlayerM_Idle_1H_Hatchet_Poses.0"
+      },
+      "DamageMultiplier": 4.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 5,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SteelLoggingAxe",
+        "SourceString": "Steel Logging Axe",
+        "LocalizedString": "Steel Logging Axe"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SteelLoggingAxe",
+        "SourceString": "A woodcutter's tool, forged from Steel.",
+        "LocalizedString": "A woodcutter's tool, forged from Steel."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Steel_Logging_Axe'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Steel_Logging_Axe.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/LoggingAxe_Steel_2H_01/SM_LoggingAxe_Steel_2H_01.SM_LoggingAxe_Steel_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Hatchet"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.LoggingAxe"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Chopper"
+      },
+      "BaseDurability": 2400,
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "t6PZE0lGoToPSDq_5wY90g",
+      "InternalName": "tool_logging_axe_steel"
+    }
+  }
+]

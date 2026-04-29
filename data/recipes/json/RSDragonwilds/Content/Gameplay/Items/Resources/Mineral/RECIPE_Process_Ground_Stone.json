@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Ground_Stone",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Stone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ground_Stone.0"
+          },
+          "Count": 5
+        }
+      ],
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Mining'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Mining.0"
+        },
+        "RowName": "Ore_Base"
+      },
+      "PersistenceID": "tvfbjkGN-fYab9iA0EvTkQ",
+      "InternalName": "recipe_ground_stone"
+    }
+  }
+]

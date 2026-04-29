@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_Head_SpectralBagOfNoggin",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_Head_BagOfNoggin"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_SteadfastStomach_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ShroudOfNoggin",
+        "SourceString": "Shroud Of Noggin",
+        "LocalizedString": "Shroud Of Noggin"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ShroudOfNoggin",
+        "SourceString": "A ghostly sackcloth mask. Reduces Wither buildup while worn. ",
+        "LocalizedString": "A ghostly sackcloth mask. Reduces Wither buildup while worn. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Spectral_Noggin'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Spectral_Noggin.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Generic_Spectral_Drop/SM_Generic_Spectral_Drop_01.SM_Generic_Spectral_Drop_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour"
+      ],
+      "BaseDurability": 500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "xuoyTUAlufgRGmy9Kr2hDw",
+      "InternalName": "armour_head_spectralbagofnoggin"
+    }
+  }
+]

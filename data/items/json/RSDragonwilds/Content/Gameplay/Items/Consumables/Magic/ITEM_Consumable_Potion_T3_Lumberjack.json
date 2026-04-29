@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_T3_Lumberjack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_Lumberjack_C'ITEM_Consumable_Potion_T3_Lumberjack:GE_Potion_Lumberjack_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LumberjackPotion",
+        "SourceString": "Lumberjack Potion",
+        "LocalizedString": "Lumberjack Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SuperLumberjackPotion",
+        "SourceString": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+        "LocalizedString": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Green'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Green"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Stamina'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Lifeward_Health_Stamina/T_Icon_Stamina.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Lumberjack2.Title",
+            "SourceString": "Lumberjack II",
+            "LocalizedString": "Lumberjack II"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Lumberjack2.Description",
+            "SourceString": "REDUCES the STAMINA cost of WOODCUTTING by 66%",
+            "LocalizedString": "REDUCES the STAMINA cost of WOODCUTTING by 66%"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_Lumberjack'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Lumberjack.0"
+          }
+        }
+      ],
+      "PersistenceID": "99TvyUt0VbALswaw-0FBPw",
+      "InternalName": "potion_t3_lumberjack",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Potion_Lumberjack_C",
+    "Name": "GE_Potion_Lumberjack_C_0",
+    "Outer": "ITEM_Consumable_Potion_T3_Lumberjack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_Lumberjack.GE_Potion_Lumberjack_C'",
+    "Template": {
+      "ObjectName": "GE_Potion_Lumberjack_C'Default__GE_Potion_Lumberjack_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_Lumberjack.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 150.0,
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": -0.66
+        }
+      }
+    }
+  }
+]

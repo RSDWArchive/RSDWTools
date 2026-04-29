@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Armour_Head_Sack_Spectral",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_Head_SpectralBagOfNoggin'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_Head_SpectralBagOfNoggin.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "961D15A7476A324A7A1C618236E9669B",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeShroudofNoggin",
+        "SourceString": "Scratchy Sackcloth",
+        "LocalizedString": "Scratchy Sackcloth"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.ShroudofNoggin",
+        "SourceString": "A ghostly bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+        "LocalizedString": "A ghostly bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Spectral_Noggin'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Spectral_Noggin.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Generic_Spectral_Drop/SM_Generic_Spectral_Drop_01.SM_Generic_Spectral_Drop_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "DlZNdkaGcp6luK2ksA7lcQ",
+      "InternalName": "vestige_armour_head_sack_spectral",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

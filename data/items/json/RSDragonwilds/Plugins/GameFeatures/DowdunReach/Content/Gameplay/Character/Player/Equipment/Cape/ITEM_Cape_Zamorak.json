@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Zamorak",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Zamorak_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Zamorak_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Zamorak_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Zamorak_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Zamorak"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZamorakCape",
+        "SourceString": "Zamorak Cape",
+        "LocalizedString": "Zamorak Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ZamorakCape",
+        "SourceString": "A cape that proudly displays obeisance to the god Zamorak.",
+        "LocalizedString": "A cape that proudly displays obeisance to the god Zamorak."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Zamorak_Cape'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Cape"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaff.Description",
+            "SourceString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES",
+            "LocalizedString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "8L37OE7i2JOHvnKTu-_-xw",
+      "InternalName": "armour_t0_cape_ZamorakCape"
+    }
+  }
+]

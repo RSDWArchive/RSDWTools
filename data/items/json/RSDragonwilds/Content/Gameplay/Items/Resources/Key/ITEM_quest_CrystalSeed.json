@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_CrystalSeed",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "68698EC34C717315E9F6DA83A5167554",
+        "SourceString": "Crystal Seed",
+        "LocalizedString": "Crystal Seed"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "BE1B49B14F13412892B73DB5E858CC61",
+        "SourceString": "A resonating crystal, waiting for the right song.",
+        "LocalizedString": "A resonating crystal, waiting for the right song."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Crystal_Seed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Crystal_Seed.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Key/SM_BossSoul_Inner_OuterDungeon.SM_BossSoul_Inner_OuterDungeon",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "JYGJbEV-DrOkn5SNR5sYKQ",
+      "InternalName": "res_crystal_seed"
+    }
+  }
+]

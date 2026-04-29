@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_GreatBodyRobbery_EmptyVial",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "EmptyVial.Name",
+        "SourceString": "Empty Vial",
+        "LocalizedString": "Empty Vial"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "EmptyVial.Description",
+        "SourceString": "Apparently this will collect lightning if you get struck by it. ",
+        "LocalizedString": "Apparently this will collect lightning if you get struck by it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_White_Potion.SM_Lesser_White_Potion",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "G5igxEcPCpDtWNyIDxiK0A",
+      "InternalName": "ITEM_Quest_GreatBodyRobbery_EmptyVial"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Herb_Kwuarm",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Kwuarm",
+        "SourceString": "Kwuarm",
+        "LocalizedString": "Kwuarm"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "ABitterGreenHerbUsedToMakePotions",
+        "SourceString": "A bitter green bulb.",
+        "LocalizedString": "A bitter green bulb."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Kwarm_Herb'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Kwarm_Herb.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "iTb_WUUHO2kAez65O2a4PA",
+      "InternalName": "res_herb_kwuarm"
+    }
+  }
+]

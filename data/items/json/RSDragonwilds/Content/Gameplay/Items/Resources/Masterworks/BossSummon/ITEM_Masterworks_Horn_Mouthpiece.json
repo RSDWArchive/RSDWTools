@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Masterworks_Horn_Mouthpiece",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "7E5615B4454D2834E0ECE7B721B27DA8",
+        "SourceString": "Challenge Horn Mouthpiece",
+        "LocalizedString": "Challenge Horn Mouthpiece"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "232010B145AACBD11F5EA5B92589CF24",
+        "SourceString": "The mouthpiece of the Challenge Horn, carved out of a dragon tooth.",
+        "LocalizedString": "The mouthpiece of the Challenge Horn, carved out of a dragon tooth."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Masterworks_Horn_Mouthpiece'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Masterworks_Horn_Mouthpiece.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Challenge_Horn/SM_Broken_Horn_01.SM_Broken_Horn_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "ZbaFNUQBjcQFiBmssky-4g",
+      "InternalName": "res_horn_mouthpiece"
+    }
+  }
+]

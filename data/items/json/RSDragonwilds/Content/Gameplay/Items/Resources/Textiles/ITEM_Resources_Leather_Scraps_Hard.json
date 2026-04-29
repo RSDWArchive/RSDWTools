@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Scraps_Hard",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HardLeatherScraps",
+        "SourceString": "Hard Leather Scraps",
+        "LocalizedString": "Hard Leather Scraps"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "HardLeatherScraps",
+        "SourceString": "Dropped from beasts in Fellhollow. Combined at the tannery to create hard leather.",
+        "LocalizedString": "Dropped from beasts in Fellhollow. Combined at the tannery to create hard leather."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Hard_Leather_Scraps'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather_Scraps.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.3,
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Tanning_Rack_Processed_Item"
+      },
+      "PersistenceID": "OHb33k_owf3LCoO3uWcK3w",
+      "InternalName": "res_leather_scraps_hard"
+    }
+  }
+]

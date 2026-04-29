@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Stone_Block",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "StoneBlock",
+        "SourceString": "Stone Block",
+        "LocalizedString": "Stone Block"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StoneBlock",
+        "SourceString": "A building material. Used for advanced construction. ",
+        "LocalizedString": "A building material. Used for advanced construction. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Stone_Block'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Stone_Block.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Stone_Blocks/SM_Block_Stone.SM_Block_Stone",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 6.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "PersistenceID": "jEGEekTLabfTqtWElqNXLQ",
+      "InternalName": "res_stone_block"
+    }
+  }
+]

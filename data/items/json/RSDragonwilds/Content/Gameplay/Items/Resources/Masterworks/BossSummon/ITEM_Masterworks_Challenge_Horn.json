@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Masterworks_Challenge_Horn",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ChallengeHorn",
+        "SourceString": "Challenge Horn",
+        "LocalizedString": "Challenge Horn"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "3486F5724F69EC231B3E1D846735B0EF",
+        "SourceString": "An ornate dragonkin horn, traditionally used to challenge someone to a duel of honour. Bring it to the dragonkin altar to challenge Velgar.",
+        "LocalizedString": "An ornate dragonkin horn, traditionally used to challenge someone to a duel of honour. Bring it to the dragonkin altar to challenge Velgar."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Challenge_Horn_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Challenge_Horn_01.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Challenge_Horn/SM_ChallengeHorn.SM_ChallengeHorn",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "45qRbkCgpbXsxAuswso8Aw",
+      "InternalName": "res_challenge_horn"
+    }
+  }
+]

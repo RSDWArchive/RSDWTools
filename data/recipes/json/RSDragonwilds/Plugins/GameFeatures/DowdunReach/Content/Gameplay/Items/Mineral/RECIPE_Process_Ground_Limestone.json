@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Ground_Limestone",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Limestone'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Mineral/ITEM_Resources_Limestone"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Limestone'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Mineral/ITEM_Resources_Ground_Limestone"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Mining'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Mining.0"
+        },
+        "RowName": "Ore_Base"
+      },
+      "PersistenceID": "ccm-PkKTi-E9ec-Kx5FF2A",
+      "InternalName": "recipe_ground_limestone"
+    }
+  }
+]

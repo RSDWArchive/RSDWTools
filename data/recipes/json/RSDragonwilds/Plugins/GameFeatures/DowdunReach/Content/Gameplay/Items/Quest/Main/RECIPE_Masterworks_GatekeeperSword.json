@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_GatekeeperSword",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar.0"
+          },
+          "Count": 10
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_DR_Main_Reforged_GreatSword_Gatekeeper'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/ITEM_DR_Main_Reforged_GreatSword_Gatekeeper"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Recipe"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "h1ebAUfMLRP2PDiTH4tSUA",
+      "InternalName": "recipe_craft_gatekeeper_greatsword"
+    }
+  }
+]

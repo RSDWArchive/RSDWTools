@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Skin_Scraps",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AnimalHideScraps",
+        "SourceString": "Animal Hide Scraps",
+        "LocalizedString": "Animal Hide Scraps"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "8346FDF2425EA80E5D9A8CA74DF9F35A",
+        "SourceString": "Gathered from small creatures, too small to be processed into leather by itself.",
+        "LocalizedString": "Gathered from small creatures, too small to be processed into leather by itself."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Animal_Hide_Scraps'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Hide_Scraps.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.3,
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "PersistenceID": "ab53An3iPkyjTqnHyme-0A",
+      "InternalName": "res_skin_scraps"
+    }
+  }
+]

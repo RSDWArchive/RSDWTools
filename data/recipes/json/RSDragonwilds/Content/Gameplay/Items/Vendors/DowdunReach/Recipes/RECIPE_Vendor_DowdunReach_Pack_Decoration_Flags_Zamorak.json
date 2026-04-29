@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_DowdunReach_Pack_Decoration_Flags_Zamorak",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+          },
+          "Count": 250
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_PlanPack_Flags_Zamorak_01'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_PlanPack_Flags_Zamorak_01.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Cape"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "Cn2bQEgOKZPG-aWdGGy56g",
+      "InternalName": "RECIPE_Vendor_DowdunReach_Pack_decorations_Flags_Zamorak"
+    }
+  }
+]

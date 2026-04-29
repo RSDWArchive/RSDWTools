@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "ShieldData",
+    "Name": "ITEM_Masterworks_Shield_Dragonfire",
+    "Class": "UScriptClass'ShieldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayEffectOnBlock": {
+        "ObjectName": "BlueprintGeneratedClass'GE_AntiDragonFire_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_AntiDragonFire.0"
+      },
+      "ArmorWeight": "EArmorWeight::Medium",
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/BP_Shield_Poison_Dragonfire.BP_Shield_Poison_Dragonfire_C",
+        "SubPathString": ""
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Shield_Dragonfire_Poison_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Dragonfire_Poison.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Kite_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Shield/A_PlayerM_Idle_Kite_Poses.0"
+      },
+      "BlockingDamageNegation": 46.0,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonfireShield",
+        "SourceString": "Dragonblight Shield",
+        "LocalizedString": "Dragonblight Shield"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "CB9EA72C46C44CE25485D681E95020B5",
+        "SourceString": "The Spirit of Velgar lives on within this shield corrupting your enemies.",
+        "LocalizedString": "The Spirit of Velgar lives on within this shield corrupting your enemies."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shield_Poison_Dragonfire'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shield_Poison_Dragonfire.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_PoisonDragonfire_1H_01/SM_Kite_PoisonDragonfire_1H_01.SM_Kite_PoisonDragonfire_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Shield"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Shield"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Shield"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "VelgarDragonfireShield.Description",
+            "SourceString": "PARRYING causes POISON build up on enemies.",
+            "LocalizedString": "PARRYING causes POISON build up on enemies."
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "RyuOEkWEWdGcvQqo2dPOgA",
+      "InternalName": "shield_poison_dragonfire"
+    }
+  }
+]

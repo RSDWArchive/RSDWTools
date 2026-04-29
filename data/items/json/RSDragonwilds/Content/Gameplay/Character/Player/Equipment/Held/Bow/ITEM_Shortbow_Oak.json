@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Shortbow_Oak",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Bow/BP_Shortbow_Oak.BP_Shortbow_Oak_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_QuickAction_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 300.0,
+      "DamageMultiplier": 1.4,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Shortbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "OakShortbow",
+        "SourceString": "Oak Shortbow",
+        "LocalizedString": "Oak Shortbow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "OakShortbow",
+        "SourceString": "An agile shortbow carved from oak wood.",
+        "LocalizedString": "An agile shortbow carved from oak wood."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shortbow_OakWood_2H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Shortbow_OakWood_2H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Shortbow_OakWood_2H_01/SM_Shortbow_OakWood_2H_01.SM_Shortbow_OakWood_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Bow"
+      },
+      "BaseDurability": 1050,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "g7aQPfflM0q63qyJZyWI8w",
+      "InternalName": "weap_shortbow_oak"
+    }
+  }
+]

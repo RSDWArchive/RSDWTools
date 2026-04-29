@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Wood_Ash",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 60.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "AshLogs",
+        "SourceString": "Ash Logs",
+        "LocalizedString": "Ash Logs"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "6579460F4CF0BFE892A77E97C0992202",
+        "SourceString": "Pieces of wood collected from branches, saplings and Ash trees.",
+        "LocalizedString": "Pieces of wood collected from branches, saplings and Ash trees."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Ash_Logs'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ash_Logs.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Campsite/SM_Chopped_Ash_log_01.SM_Chopped_Ash_log_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "2rxJ495rm0GDn4h5OWKiyQ",
+      "InternalName": "res_wood_ash"
+    }
+  }
+]

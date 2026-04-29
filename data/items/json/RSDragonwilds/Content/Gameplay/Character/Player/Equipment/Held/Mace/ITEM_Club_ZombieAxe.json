@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Club_ZombieAxe",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/BP_Club_ZombieAxe.BP_Club_ZombieAxe_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Club.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Club_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Club/A_PlayerM_Idle_Club_Poses.0"
+      },
+      "DamageMultiplier": 5.8,
+      "BlockingDamageNegation": 26.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush",
+        "DamageType.Physical.Slash"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "DistanceOffset": 25.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZombieAxe",
+        "SourceString": "Zombie Axe",
+        "LocalizedString": "Zombie Axe"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ZombieAxe",
+        "SourceString": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
+        "LocalizedString": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though..."
+      },
+      "bUseCustomStatDetails": true,
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Undead_Axe'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Undead_Axe.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_Swingslash_1H_01/SM_Club_Swingslash_1H_01.SM_Club_Swingslash_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 6.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Mace"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Chopper"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "z0Cq8kyZGceXi3KE508GDg",
+      "InternalName": "weap_club_zombieaxe"
+    }
+  }
+]

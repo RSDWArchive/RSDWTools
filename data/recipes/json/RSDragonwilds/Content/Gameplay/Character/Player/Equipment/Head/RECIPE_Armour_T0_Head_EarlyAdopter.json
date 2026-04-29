@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T0_Head_EarlyAdopter",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Armour_Head_EarlyAdopter'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_EarlyAdopter.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bIgnoreAutomaticUnlocks": true,
+      "SkillXPAwardedOnCraft": 0,
+      "CraftQuantityMultiplier": 1.0,
+      "PersistenceID": "5duQnUeG5xEZ6SiSgsfN3A",
+      "InternalName": "RECIPE_Armour_T0_Head_EarlyAdopter"
+    }
+  }
+]

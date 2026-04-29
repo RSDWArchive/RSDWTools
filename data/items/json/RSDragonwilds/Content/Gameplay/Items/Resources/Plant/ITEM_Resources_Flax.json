@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Flax",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Flax",
+        "SourceString": "Flax",
+        "LocalizedString": "Flax"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F8E6BDA745A70DE36F254A98DA81504D",
+        "SourceString": "Harvested from flax plants, essential for crafting linen and bowstrings.",
+        "LocalizedString": "Harvested from flax plants, essential for crafting linen and bowstrings."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Flax'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Flax.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Flax/SM_Flax_02.SM_Flax_02",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.4,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "J3Ord4Mjnk-zz-Of_0oL8w",
+      "InternalName": "res_flax"
+    }
+  }
+]

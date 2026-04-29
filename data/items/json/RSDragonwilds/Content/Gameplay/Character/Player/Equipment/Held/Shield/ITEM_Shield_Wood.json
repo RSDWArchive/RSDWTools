@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "ShieldData",
+    "Name": "ITEM_Shield_Wood",
+    "Class": "UScriptClass'ShieldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArmorWeight": "EArmorWeight::Light",
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/BP_Shield_Wood.BP_Shield_Wood_C",
+        "SubPathString": ""
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Shield_Kite_Iron_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Iron.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Kite_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Shield/A_PlayerM_Idle_Kite_Poses.0"
+      },
+      "BlockingDamageNegation": 26.0,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "5A81B5E94B8702ECE890028C50D4029F",
+        "SourceString": "Wooden Shield",
+        "LocalizedString": "Wooden Shield"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "04BA18D3446F5287F406FEA4C37FCF06",
+        "SourceString": "Basic protection for those seeking to more efficiently block and parry.",
+        "LocalizedString": "Basic protection for those seeking to more efficiently block and parry."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Kite_Wood_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Kite_Wood_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_Wood_1H_01/SM_Kite_Wood_1H_01.SM_Kite_Wood_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Shield"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Shield"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Shield"
+      },
+      "BaseDurability": 500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "XiatxUToDUaswQb3Xrz6NQ",
+      "InternalName": "shield_wood"
+    }
+  }
+]

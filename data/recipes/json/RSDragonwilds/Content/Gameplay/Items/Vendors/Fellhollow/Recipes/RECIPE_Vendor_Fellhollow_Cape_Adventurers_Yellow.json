@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Fellhollow_Cape_Adventurers_Yellow",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+          },
+          "Count": 150
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Cape_Adventurers_Yellow'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Cape_Adventurers_Yellow.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Cape"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "C7ziOkv8qGGnEdm4XIPh_g",
+      "InternalName": "RECIPE_Vendor_Fellhollow_Cape_Adventurers_Yellow"
+    }
+  }
+]

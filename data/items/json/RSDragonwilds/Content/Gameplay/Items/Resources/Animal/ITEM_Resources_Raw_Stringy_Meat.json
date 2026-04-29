@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Raw_Stringy_Meat",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "StringyMeat",
+        "SourceString": "Raw Rat Meat",
+        "LocalizedString": "Raw Rat Meat"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "FC5BF6374E448C723B2FB785A66483FC",
+        "SourceString": "Tough, gamey meat that can be cooked and eaten.",
+        "LocalizedString": "Tough, gamey meat that can be cooked and eaten."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Raw_Stringy_Meat'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_Stringy_Meat.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Raw_Tough_Meat_01.SM_Raw_Tough_Meat_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 1,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "1k8-cj3JqEGeRgu1P7PK2g",
+      "InternalName": "res_meat_stringy"
+    }
+  }
+]

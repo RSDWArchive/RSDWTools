@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_garou_purifiedkingstoken",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KingsTokenPure",
+        "SourceString": "Purified King's Token",
+        "LocalizedString": "Purified King's Token"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "68FFC9584E535896EB2A4B83D1B8F793",
+        "SourceString": "A ritually cleansed token containing a piece of another world. ",
+        "LocalizedString": "A ritually cleansed token containing a piece of another world. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Kings_Token'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Kings_Token.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Key/SM_BossSoul_Inner_OuterDungeon.SM_BossSoul_Inner_OuterDungeon",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "GjJEvUEeLJDK4rC8sNKYXA",
+      "InternalName": "ITEM_quest_garou_purifiedkingstoken"
+    }
+  }
+]

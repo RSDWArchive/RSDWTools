@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Salve_Crystal",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WitherWard/ST_FH_WitherWard.ST_FH_WitherWard",
+        "Key": "Crystal.Name",
+        "SourceString": "Salve Crystal",
+        "LocalizedString": "Salve Crystal"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WitherWard/ST_FH_WitherWard.ST_FH_WitherWard",
+        "Key": "Crystal.Description",
+        "SourceString": "A crystal that Doric obtained from a cave near the river Salve, back in Misthalin. Used in creating the Salve amulet. ",
+        "LocalizedString": "A crystal that Doric obtained from a cave near the river Salve, back in Misthalin. Used in creating the Salve amulet. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Salve_Stone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Salve_Stone.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Sapphire_01.SM_Gemstone_Sapphire_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "Item.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "PersistenceID": "f_tlM0y-QfSP8Ha6vD6Rmg",
+      "InternalName": "res_gem_salve"
+    }
+  }
+]

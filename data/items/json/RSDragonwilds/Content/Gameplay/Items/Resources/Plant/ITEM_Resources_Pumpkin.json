@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Pumpkin",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Pumpkin",
+        "SourceString": "Pumpkin",
+        "LocalizedString": "Pumpkin"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Pumpkin",
+        "SourceString": "More treat than trick. Can be cooked by itself or used as an ingredient in cooking meals.",
+        "LocalizedString": "More treat than trick. Can be cooked by itself or used as an ingredient in cooking meals."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Pumpkin'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pumpkin.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Pumpkin/SM_Pumpkin_01v1.SM_Pumpkin_01v1",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "wHJdjE9MS1vFXXqX9pNeWA",
+      "InternalName": "food_pumpkin"
+    }
+  }
+]

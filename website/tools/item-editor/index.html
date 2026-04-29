@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
+  <title>Item Editor — RSDWTools</title>
+  <link rel="icon" href="/shared/assets/logo.png" />
+  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="/shared/shared-header.css" />
+  <link rel="stylesheet" href="/shared/site-shell.css" />
+</head>
+<body class="item-editor-page" data-tool="item-editor">
+  <div id="rsdw-header-mount"></div>
+
+  <details class="landing-logo__dropdown">
+    <summary class="landing-logo__dropdown-summary">How do I use this?</summary>
+    <div class="landing-logo__dropdown-content">
+      <p>Click on the plus (+) icon in the Player Inventory section and select your Save file.</p>
+      <p>Make changes, add stuff, remove stuff, manually set the quantity of an item to 1,000,000... then hit Save!</p>
+      <br />
+      <p>Your Save file is here (paste this into your file explorer):</p>
+      <p class="landing-logo__dropdown-path"><code>%localappdata%\RSDragonwilds\Saved\SaveCharacters\</code></p>
+      <br />
+      <p>Disclaimer: data is compiled from the latest game files automatically. Always back up your save before editing.</p>
+    </div>
+  </details>
+
+  <div class="item-editor-wrapper">
+    <main class="page-layout">
+      <section class="item-browser">
+        <div class="corner-overlay corner-overlay--tl"></div>
+        <div class="corner-overlay corner-overlay--tr"></div>
+        <div class="panel-header panel-header--browser">
+          <div class="panel-badge">
+            <img src="/shared/game-ui/ItemBrowser/ItemBrowser.png" alt="Item browser" />
+            <span class="panel-badge__text">Item Browser</span>
+          </div>
+        </div>
+        <div class="panel-title">
+          <span id="itembrowser-title">Bag Items</span>
+        </div>
+
+        <div class="search-bar" aria-label="Search items">
+          <img class="search-bar__icon" src="/shared/game-ui/Search/SearchIcon.png" alt="" />
+          <input class="search-bar__input" id="item-search" type="text" placeholder="Search items..." autocomplete="off" />
+          <button class="search-bar__clear is-hidden" id="item-search-clear" type="button" aria-label="Clear search">
+            <img src="/shared/game-ui/Search/ClearIcon.png" alt="" />
+          </button>
+        </div>
+
+        <div class="bag-categories" id="bag-categories" aria-label="Bag categories"></div>
+
+        <div class="item-browser-scroller" aria-label="Item browser pages">
+          <button class="scroller-arrow scroller-arrow--left" id="browser-prev" type="button" aria-label="Previous page">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L_disabled.png" />
+          </button>
+          <div class="item-grid item-grid--browser" aria-label="Item browser">
+            <!-- 32 slots -->
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+            <div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div><div class="item-slot"></div>
+          </div>
+          <button class="scroller-arrow scroller-arrow--right" id="browser-next" type="button" aria-label="Next page">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R_disabled.png" />
+          </button>
+        </div>
+
+        <div class="pagination-dots" aria-label="Item browser pages">
+          <img src="/shared/game-ui/ItemBrowser/Current_Page_Dot.png" alt="Current page" />
+          <img src="/shared/game-ui/ItemBrowser/Non_Selected_Page_Dot.png" alt="Page" />
+          <img src="/shared/game-ui/ItemBrowser/Non_Selected_Page_Dot.png" alt="Page" />
+          <img src="/shared/game-ui/ItemBrowser/Non_Selected_Page_Dot.png" alt="Page" />
+        </div>
+      </section>
+
+      <section class="inventory-panel" aria-label="Player inventory">
+        <div class="inventory-background">
+          <div class="inventory-bg inventory-bg--bottom"></div>
+          <div class="inventory-bg inventory-bg--top"></div>
+          <div class="corner-overlay corner-overlay--tl"></div>
+          <div class="corner-overlay corner-overlay--tr"></div>
+          <div class="panel-header panel-header--inventory">
+            <div class="panel-badge">
+              <img src="/shared/game-ui/ItemBrowser/Player.png" alt="Player inventory" />
+              <span class="panel-badge__text">Player Inventory</span>
+            </div>
+            <div class="panel-header-actions">
+              <button class="icon-button icon-button--load" id="load-button" type="button">
+                <img id="load-icon" src="/shared/game-ui/Landing/Load_Character.png" alt="Load character" />
+              </button>
+              <button class="icon-button icon-button--save hidden" id="save-button" type="button">
+                <img src="/shared/game-ui/Landing/Save.png" alt="Save character" />
+              </button>
+            </div>
+            <input type="file" id="character-file" accept=".json" />
+          </div>
+          <div class="status-bar status-bar--unloaded" aria-live="polite">
+            <img class="status-bar__icon" src="/shared/game-ui/Status/status_unloaded_icon.png" alt="" />
+            <div class="status-text" id="status-text">
+              Load a character file to populate the inventory.
+            </div>
+          </div>
+          <div class="action-bar">
+            <div class="item-grid item-grid--action">
+              <div class="item-slot" data-slot-type="action" data-slot-index="0"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="1"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="2"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="3"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="4"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="5"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="6"></div>
+              <div class="item-slot" data-slot-type="action" data-slot-index="7"></div>
+            </div>
+          </div>
+
+          <div class="inventory-tabs" role="tablist">
+            <button class="tab-button" data-tab="bag" aria-selected="true">
+              <img data-tab-image="bag" src="/shared/game-ui/Inventory/BagTab_Selected.png" alt="Bag tab" />
+            </button>
+            <button class="tab-button" data-tab="rune" aria-selected="false">
+              <img data-tab-image="rune" src="/shared/game-ui/Inventory/RuneTab_Normal.png" alt="Rune tab" />
+            </button>
+            <button class="tab-button" data-tab="ammo" aria-selected="false">
+              <img data-tab-image="ammo" src="/shared/game-ui/Inventory/AmmoTab_Normal.png" alt="Ammo tab" />
+            </button>
+            <button class="tab-button" data-tab="quest" aria-selected="false">
+              <img data-tab-image="quest" src="/shared/game-ui/Inventory/QuestTab_Normal.png" alt="Quest tab" />
+            </button>
+          </div>
+
+          <div class="tabbed-grid">
+            <img class="side-divider side-divider--left" src="/shared/game-ui/Inventory/Side_Divider.png" alt="" />
+            <div class="item-grid item-grid--tabbed">
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="0"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="1"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="2"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="3"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="4"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="5"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="6"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="7"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="8"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="9"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="10"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="11"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="12"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="13"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="14"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="15"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="16"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="17"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="18"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="19"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="20"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="21"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="22"></div>
+              <div class="item-slot" data-slot-type="tabbed" data-tab-index="23"></div>
+            </div>
+            <img class="side-divider side-divider--right" src="/shared/game-ui/Inventory/Side_Divider.png" alt="" />
+          </div>
+
+          <div class="loadout-bar">
+            <div class="item-grid item-grid--loadout" aria-label="Equipment loadout">
+              <div class="item-slot" data-slot-type="loadout" data-loadout-index="0">
+                <img class="slot-overlay" src="/shared/game-ui/ItemBrowser/EquipmentSlots/Head.png" alt="Head slot" />
+              </div>
+              <div class="item-slot" data-slot-type="loadout" data-loadout-index="1">
+                <img class="slot-overlay" src="/shared/game-ui/ItemBrowser/EquipmentSlots/Body.png" alt="Body slot" />
+              </div>
+              <div class="item-slot" data-slot-type="loadout" data-loadout-index="2">
+                <img class="slot-overlay" src="/shared/game-ui/ItemBrowser/EquipmentSlots/Legs.png" alt="Legs slot" />
+              </div>
+              <div class="item-slot" data-slot-type="loadout" data-loadout-index="3">
+                <img class="slot-overlay" src="/shared/game-ui/ItemBrowser/EquipmentSlots/Cape.png" alt="Cape slot" />
+              </div>
+              <div class="item-slot" data-slot-type="loadout" data-loadout-index="4">
+                <img class="slot-overlay" src="/shared/game-ui/ItemBrowser/EquipmentSlots/Jewellery.png" alt="Jewellery slot" />
+              </div>
+            </div>
+          </div>
+
+          <div class="personal-inventory">
+            <div class="personal-tab">
+              <div class="personal-tab__label">
+                <img src="/shared/game-ui/Inventory/PersonalTab.png" alt="Personal storage" />
+              </div>
+            </div>
+            <div class="item-grid item-grid--personal">
+              <div class="item-slot" data-slot-type="personal" data-slot-index="0"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="1"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="2"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="3"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="4"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="5"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="6"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="7"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="8"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="9"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="10"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="11"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="12"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="13"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="14"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="15"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="16"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="17"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="18"></div>
+              <div class="item-slot" data-slot-type="personal" data-slot-index="19"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="context-menu hidden" id="context-menu" role="menu">
+    <button type="button" data-action="add">Add</button>
+    <button type="button" data-action="add-max">Add Max</button>
+    <button type="button" data-action="set-max">Set Max</button>
+    <button type="button" data-action="dupe">Dupe</button>
+    <button type="button" data-action="repair">Repair</button>
+    <button type="button" data-action="remove">Remove</button>
+  </div>
+
+  <div class="tooltip hidden" id="tooltip" role="tooltip">
+    <div class="tooltip__name" id="tooltip-name"></div>
+    <div class="tooltip__desc" id="tooltip-desc"></div>
+    <div class="tooltip__meta" id="tooltip-meta"></div>
+  </div>
+
+  <div class="modal-overlay hidden" id="count-modal">
+    <div class="modal">
+      <div class="modal-title">Set Quantity</div>
+      <div class="modal-body">
+        <label>
+          Quantity
+          <input type="number" id="count-input" min="1" />
+        </label>
+        <div class="modal-hint" id="count-hint"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="count-cancel">Cancel</button>
+        <button type="button" id="count-apply">Apply</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="alert-modal">
+    <div class="modal">
+      <div class="modal-title">Notice</div>
+      <div class="modal-body">
+        <div class="modal-hint" id="alert-message"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="alert-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rsdw-footer-mount"></div>
+
+  <script src="/shared/shared-header.js" defer></script>
+  <script src="/tools/item-editor/item-editor.js" defer></script>
+</body>
+</html>

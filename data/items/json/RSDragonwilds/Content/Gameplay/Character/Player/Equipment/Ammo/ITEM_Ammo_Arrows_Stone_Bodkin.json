@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Arrows_Stone_Bodkin",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/ArrowHeads/SM_ArrowHead_Stone_01.SM_ArrowHead_Stone_01",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Arrows/SM_ArrowBody_Wood_01.SM_ArrowBody_Wood_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "AdditionalDamageFraction": 0.5
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+      },
+      "Tier": 1,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "StoneBodkinArrow",
+        "SourceString": "Stone Arrow",
+        "LocalizedString": "Stone Arrow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StoneArrows",
+        "SourceString": "Arrows with tips of splintered stone.",
+        "LocalizedString": "Arrows with tips of splintered stone."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Arrows_Stone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Stone.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 1,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Wood"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Arrow"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "vmEIW09ztuDtLmGpyzQBbQ",
+      "InternalName": "ammo_arrows_stone"
+    }
+  }
+]

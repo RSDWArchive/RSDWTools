@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Fruit_Cadavaberry_Burnt",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "v3_Cadavaberry"
+      },
+      "ToxicityRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Toxicity_V2'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Toxicity_V2.0"
+        },
+        "RowName": "+45"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Redberries"
+      },
+      "Duration": 0.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CadavaberriesBurnt",
+        "SourceString": "Burnt Cadavaberries",
+        "LocalizedString": "Burnt Cadavaberries"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GenericBurnt",
+        "SourceString": "Too well done, but still edible. ",
+        "LocalizedString": "Too well done, but still edible. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dried_Cadaverberries'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Dried_Cadaverberries.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemStatus": {
+        "TagName": "Item.Status.Burnt"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "y7xRMkrIHbH_Ny-uQuUjDA",
+      "InternalName": "food_fruit_cadavaberry_burnt",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  }
+]

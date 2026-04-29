@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_InfernalRod",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_CostItems",
+    "Name": "SpellModule_CostItems_1",
+    "Outer": "USD_InfernalRod",
+    "Class": "UScriptClass'SpellModule_CostItems'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCostInfo": [
+        {
+          "ItemData": {
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Fire'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.0"
+          },
+          "Count": 50
+        }
+      ],
+      "bUseMagicAmmo": false,
+      "ModuleName": "CostItems"
+    }
+  },
+  {
+    "Type": "SpellModule_ExpireAfterDuration",
+    "Name": "SpellModule_ExpireAfterDuration_0",
+    "Outer": "USD_InfernalRod",
+    "Class": "UScriptClass'SpellModule_ExpireAfterDuration'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Duration": 3.0,
+      "ModuleName": "ExpireAfterDuration",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting"
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_HeldEquipmentEffect",
+    "Name": "SpellModule_HeldEquipmentEffect_0",
+    "Outer": "USD_InfernalRod",
+    "Class": "UScriptClass'SpellModule_HeldEquipmentEffect'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_EnchantedRod_HeldEquipmentEffectData_C'HEED_EnchantedRod'",
+        "ObjectPath": "/Fishing/Gameplay/UtilityMagic/HEED_EnchantedRod"
+      },
+      "ModuleName": "HeldEquipmentEffect",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting"
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "USD_InfernalRod",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_EnchantWeapon_Fire'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_EnchantWeapon_Fire.0"
+      },
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_InfernalRod",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+        "Key": "PerkName_InfernalRod",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "SpecialRequirementsText": {
+        "Namespace": "",
+        "Key": "E979ABD8457227F38040819B1567D0BF",
+        "SourceString": "Fishing Rod Equipped",
+        "LocalizedString": "Fishing Rod Equipped"
+      },
+      "CooldownDuration": 180.0,
+      "SpellIcon": {
+        "ObjectName": "Texture2D'T_Skill_Fishing_Spell_InfernalRod'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Skill_Fishing_Spell_InfernalRod"
+      },
+      "SpellTagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::None",
+      "SpellPlacementMontage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Fire_SpellCastMode_Targeting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Fire_SpellCastMode_Targeting.0"
+      },
+      "PlacementActorClass": {
+        "AssetPathName": "/Fishing/Gameplay/UtilityMagic/BP_SpellPlacementVisualizer_FishCyclone.BP_SpellPlacementVisualizer_FishCyclone_C",
+        "SubPathString": ""
+      },
+      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
+      "CameraTraceDistance": 2500.0,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "SpellUIPlacementSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "SpecialRequirementsStrategy": {
+        "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresFishingRodEquipped_C'",
+        "ObjectPath": "/Fishing/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresFishingRodEquipped"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_InfernalRod:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.4"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_HeldEquipmentEffect'USD_InfernalRod:SpellModule_HeldEquipmentEffect_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_CostItems'USD_InfernalRod:SpellModule_CostItems_1'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_InfernalRod:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.0"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_ExpireAfterDuration'USD_InfernalRod:SpellModule_ExpireAfterDuration_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.2"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "0iyoLkxTM_zuEa-2zdXmiQ",
+      "InternalName": "spell_infernalrod"
+    }
+  }
+]

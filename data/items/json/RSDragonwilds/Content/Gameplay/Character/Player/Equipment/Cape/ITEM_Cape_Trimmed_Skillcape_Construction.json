@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Trimmed_Skillcape_Construction",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Trimmed_Skillcape_Construction_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Trimmed_Skillcape_Construction_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Trimmed_Skillcape_Construction_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Trimmed_Skillcape_Construction_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Adventurers_Black"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Construction_Skillcape'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Construction/PerkV2_Construction_Skillcape.0"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ConstructionSkillcapeTrimmed",
+        "SourceString": "Construction Cape (Trimmed)",
+        "LocalizedString": "Construction Cape (Trimmed)"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ConstructionSkillcape",
+        "SourceString": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
+        "LocalizedString": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Construction_Master'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Construction_Master"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "JA0aYkWSKvomwwyEPugaew",
+      "InternalName": "armour_t0_cape_skillcape_construction_trimmed"
+    }
+  }
+]

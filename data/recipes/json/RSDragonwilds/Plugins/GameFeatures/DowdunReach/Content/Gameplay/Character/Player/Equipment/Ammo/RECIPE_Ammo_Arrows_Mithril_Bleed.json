@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Ammo_Arrows_Mithril_Bleed",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Mithril_Bodkin'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Mithril_Bodkin"
+          },
+          "Count": 33
+        },
+        {
+          "ItemData": {
+            "ObjectName": "WhetstoneItemData'ITEM_Consumable_WeaponBarbs'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponBarbs.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Mithril_Bleed'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Mithril_Bleed"
+          },
+          "Count": 33
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Arrow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 8,
+      "PersistenceID": "KgFnT0y9wE3QflWNBiULtQ",
+      "InternalName": "recipe_ammo_arrows_mithril_bleed"
+    }
+  }
+]

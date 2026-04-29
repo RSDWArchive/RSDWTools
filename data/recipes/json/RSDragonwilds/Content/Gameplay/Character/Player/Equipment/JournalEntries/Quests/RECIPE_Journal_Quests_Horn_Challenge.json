@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Journal_Quests_Horn_Challenge",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Dragon_Tooth'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Dragon_Tooth.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bloodwood_Sap'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Bloodwood_Sap.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+          },
+          "Count": 5
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Masterworks_Challenge_Horn'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/BossSummon/ITEM_Masterworks_Challenge_Horn.0"
+          },
+          "Count": 0
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Arrow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 15,
+      "PersistenceID": "mJ8HXkrCL007n6--RVOKiw",
+      "InternalName": "recipe_journal_quests_horn_challenge"
+    }
+  }
+]

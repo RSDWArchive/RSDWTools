@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_Glass_Owl",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GlassOwl",
+        "SourceString": "Glass Owl",
+        "LocalizedString": "Glass Owl"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GlassOwl",
+        "SourceString": "A handcrafted owl made of glass. It seems to have great sentimental value to someone.",
+        "LocalizedString": "A handcrafted owl made of glass. It seems to have great sentimental value to someone."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Glass_Owl'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Owl"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Audio.Glass.Pane"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "PeVzmkAypE8k92yqKOvaDQ",
+      "InternalName": "res_dr_glass_owl"
+    }
+  }
+]

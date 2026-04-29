@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_Secateurs_Iron",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.0"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded.0"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HarvestToolEquipmentData'ITEM_Secateurs_Iron'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Tools/ITEM_Secateurs_Iron.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Farming.Secateurs"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillXPAwardedOnCraft": 50,
+      "PersistenceID": "9ZzxgUuxXIMk8-CD9hrNfg",
+      "InternalName": "recipe_secateurs_iron"
+    }
+  }
+]

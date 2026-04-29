@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_T1_Weak_Antipoison",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Marrentill'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Marrentill.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Mushroom'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Mushroom.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T1_Weak_Antipoison'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Antipoison.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "2WlY-UoeSaWNnEGApKItig",
+      "InternalName": "RECIPE_Consumable_Potion_T1_Weak_Antipoison"
+    }
+  }
+]

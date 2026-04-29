@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T2_Legs_Linen",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Linen_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Linen_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Linen_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Linen_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T2_Legs_Linen"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A2D1DBD64A46F6361429B6BBB34854BB",
+        "SourceString": "Apprentice Leggings",
+        "LocalizedString": "Apprentice Leggings"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "B45FFEE748D362ADF3EB95AB2F01951E",
+        "SourceString": "Provides basic protection for trainees in the magical arts.",
+        "LocalizedString": "Provides basic protection for trainees in the magical arts."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_M_MED_Legs_LinenRobe_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_Legs_LinenRobe_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 2,
+      "Weight": 6.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1000,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "AIZLP8mwfEij7hwWUOr-aQ",
+      "InternalName": "armour_legs_apprentice"
+    }
+  }
+]

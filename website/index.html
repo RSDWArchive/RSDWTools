@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSDWTools.com</title>
+  <meta name="description" content="RSDWTools.com — browser-based editors for Runescape: Dragonwilds." />
+  <link rel="icon" href="/shared/assets/logo.png" />
+  <link rel="preload" href="https://fonts.gstatic.com/s/sofiasans/v20/Yq6T-LCVXSLy9uPBwlATrORKkzApcb8.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/shared/site-shell.css" />
+</head>
+<body data-tool="home">
+  <div id="rsdw-header-mount"></div>
+
+  <main>
+    <section class="rsdw-landing">
+      <h1 class="rsdw-landing__title">RSDWTools.com</h1>
+      <p class="rsdw-landing__subtitle">
+        Browser-based editors for <strong>Runescape: Dragonwilds</strong>.
+        Pick a tool below.
+      </p>
+
+      <div class="rsdw-landing__tools" id="rsdw-landing-tools" role="list"></div>
+    </section>
+  </main>
+
+  <div id="rsdw-footer-mount"></div>
+
+  <script src="/shared/shared-header.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+      var grid = document.getElementById("rsdw-landing-tools");
+      if (!grid || !window.RSDW_TOOLS) return;
+      window.RSDW_TOOLS.forEach(function (t) {
+        var tile = document.createElement("a");
+        tile.className = "rsdw-landing__tile";
+        tile.href = t.href;
+        tile.role = "listitem";
+        tile.dataset.name = t.name;
+        tile.dataset.desc = t.desc;
+        var img = document.createElement("img");
+        img.src = t.icon;
+        img.alt = "";
+        var label = document.createElement("span");
+        label.className = "rsdw-landing__tile-label";
+        var name = document.createElement("span");
+        name.className = "rsdw-landing__tile-name";
+        name.textContent = t.name;
+        var desc = document.createElement("span");
+        desc.className = "rsdw-landing__tile-desc";
+        desc.textContent = t.desc;
+        label.appendChild(name);
+        label.appendChild(desc);
+        tile.appendChild(img);
+        tile.appendChild(label);
+        grid.appendChild(tile);
+      });
+    });
+  </script>
+</body>
+</html>

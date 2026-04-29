@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Plank_Oak",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 90.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A6EA746340408DBC5BCA659E5A0DA9F3",
+        "SourceString": "Oak Plank",
+        "LocalizedString": "Oak Plank"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "3C46F5344D85594F152901A467AE4F22",
+        "SourceString": "A milled piece of lumber.",
+        "LocalizedString": "A milled piece of lumber."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Oak_Plank'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Oak_Plank.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Planks/SM_Plank_Oak_01.SM_Plank_Oak_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.75,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Light"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "FaDdOe9tLUOzvrkYSPpb3Q",
+      "InternalName": "res_plank_oak"
+    }
+  }
+]

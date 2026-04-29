@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BP_Consumables_Plan_Base_C",
+    "Name": "DA_Consumable_Plan_Decoration_Garou_Hanging_Ornament_03",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.BP_Consumables_Plan_Base_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Plan_Base_C'Default__BP_Consumables_Plan_Base_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BuildingPieceToUnlock": {
+        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Garou_Hanging_Ornament_03'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Garou/DA_BaseBuilding_Decoration_Garou_Hanging_Ornament_03.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "81BC62AC4D6188041CDC1BABFAA3C617",
+        "SourceString": "PLAN: Garou Hanging Ornament 03",
+        "LocalizedString": "PLAN: Garou Hanging Ornament 03"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plans'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Vestige3'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Plan"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "GfNaGEAcmCfYVxGEjfJRDA",
+      "InternalName": "plan_decoration_garou_hanging_ornament_03",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Plan_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.0"
+      }
+    }
+  }
+]

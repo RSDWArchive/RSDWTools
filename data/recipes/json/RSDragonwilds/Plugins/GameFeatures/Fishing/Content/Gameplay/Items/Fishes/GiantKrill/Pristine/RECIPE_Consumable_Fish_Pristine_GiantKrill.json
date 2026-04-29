@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Fish_Pristine_GiantKrill",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Pristine_GiantKrill'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/GiantKrill/Pristine/ITEM_Resources_Fish_Raw_Pristine_GiantKrill"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_GiantKrill'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/GiantKrill/ITEM_Consumable_Fish_GiantKrill"
+          },
+          "Count": 3
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_GiantKrill_Burnt'",
+          "ObjectPath": "/Fishing/Gameplay/Items/Fishes/GiantKrill/ITEM_Consumable_Fish_GiantKrill_Burnt"
+        },
+        "Count": 3
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel4'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Fishing'",
+          "ObjectPath": "/Fishing/Gameplay/Progress/DT_XPEvents_Fishing"
+        },
+        "RowName": "Fishing_Cook_Fish_Base"
+      },
+      "PersistenceID": "zlP9ZUimgd6pZ8anSeIlFA",
+      "InternalName": "recipe_fish_pristine_giantkrill"
+    }
+  }
+]

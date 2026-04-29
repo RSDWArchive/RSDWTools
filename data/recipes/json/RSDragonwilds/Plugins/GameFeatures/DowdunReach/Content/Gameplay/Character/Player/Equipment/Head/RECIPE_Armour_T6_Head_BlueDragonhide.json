@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T6_Head_BlueDragonhide",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Blue_Lesser'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Dragon_Blue_Lesser"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Cursed'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Cursed"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_MithrilBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_MithrilBar.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DemonicOil'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_DemonicOil"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Armour_T6_Head_BlueDragonhide'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_BlueDragonhide"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Leather"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "xlPNQEO_vySIAZ6w9lu3Kw",
+      "InternalName": "RECIPE_Armour_T5_Head_BlueDragonhide"
+    }
+  }
+]

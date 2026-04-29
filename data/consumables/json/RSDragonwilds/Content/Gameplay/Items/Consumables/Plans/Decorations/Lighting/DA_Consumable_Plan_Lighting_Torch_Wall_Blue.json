@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BP_Consumables_Plan_Base_C",
+    "Name": "DA_Consumable_Plan_Lighting_Torch_Wall_Blue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.BP_Consumables_Plan_Base_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Plan_Base_C'Default__BP_Consumables_Plan_Base_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BuildingPieceToUnlock": {
+        "ObjectName": "BuildingPieceData'BUILDPIECE_Prop_Torch_Blue'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/Comfort/BUILDPIECE_Prop_Torch_Blue.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "617BFED84C27FA59A36231BC4D2D5826",
+        "SourceString": "PLAN: Blue Wall-Mounted Torch",
+        "LocalizedString": "PLAN: Blue Wall-Mounted Torch"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plans'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Vestige3'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Plan"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "6GH1m0mhyQopIROU_pncSA",
+      "InternalName": "plan_lighting_torch_wall_blue",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Plan_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/BP_Consumables_Plan_Base.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Rat_Roast_From_Rat",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Raw_Stringy_Meat'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Raw_Stringy_Meat.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Rat_Roast'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Rat_Roast.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Rat_Roast_Burnt'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Rat_Roast_Burnt.0"
+        },
+        "Count": 1
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel1'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "PersistenceID": "dbTonkWgGTomLi22axFQpg",
+      "InternalName": "recipe_rat_roast_from_rat"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FishingBaitAmmoData",
+    "Name": "ITEM_FishBait_AnimatedFeather",
+    "Class": "UScriptClass'FishingBaitAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": "ELoadoutSlotStrategy::FishingBait",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AnimatedFeather",
+        "SourceString": "Animated Feather",
+        "LocalizedString": "Animated Feather"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AnimatedFeather",
+        "SourceString": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish.",
+        "LocalizedString": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Animated_Feather_Bait'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Bait_Icons/T_Icon_Animated_Feather_Bait"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 6,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bait.AnimatedFeather"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingBait"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Thread"
+      },
+      "PersistenceID": "Bq0ZtEpPHxnbS1CU-MYa7A",
+      "InternalName": "ammo_fishbait_animatedfeather"
+    }
+  }
+]

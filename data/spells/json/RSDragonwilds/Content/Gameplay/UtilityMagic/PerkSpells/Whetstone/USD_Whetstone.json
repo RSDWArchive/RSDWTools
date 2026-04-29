@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_Whetstone",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontageForHeldEquipment",
+    "Name": "SpellModule_PlayMontageForHeldEquipment_0",
+    "Outer": "USD_Whetstone",
+    "Class": "UScriptClass'SpellModule_PlayMontageForHeldEquipment'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentCategoryToMontage": [
+        {
+          "Key": {
+            "TagName": "Item.Equipment.Weapon.1H.Dagger"
+          },
+          "Value": {
+            "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Dagger'",
+            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Dagger.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Item.Equipment.Weapon.1H"
+          },
+          "Value": {
+            "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Sword'",
+            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Sword.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Item.Equipment.Weapon.2H.Axe"
+          },
+          "Value": {
+            "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_GreatAxe'",
+            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_GreatAxe.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Item.Equipment.Weapon.2H.Warhammer"
+          },
+          "Value": {
+            "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Warhammer'",
+            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Warhammer.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Item.Equipment.Weapon.2H"
+          },
+          "Value": {
+            "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Greatsword'",
+            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Greatsword.0"
+          }
+        }
+      ],
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Generic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Generic.0"
+      },
+      "bShouldRotateToCameraForward": false,
+      "ModuleName": "PlayMontage"
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_Whetstone",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "Namespace": "",
+        "Key": "1CB1C10B424B61301B2254833034AFBE",
+        "SourceString": "Whetstone",
+        "LocalizedString": "Whetstone"
+      },
+      "CooldownDuration": 0.0,
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideLeftUnlessTwoHanded",
+      "bNeedsUnlocking": false,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "SpellUIPlacementSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontageForHeldEquipment'USD_Whetstone:SpellModule_PlayMontageForHeldEquipment_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_Whetstone:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone.0"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "NejB6kiCxneFTLCV74PdyA",
+      "InternalName": "spell_whetstone"
+    }
+  }
+]

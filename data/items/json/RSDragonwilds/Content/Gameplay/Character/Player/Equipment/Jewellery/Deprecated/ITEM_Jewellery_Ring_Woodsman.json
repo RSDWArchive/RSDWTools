@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Jewellery_Ring_Woodsman",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Jewellery_Ring_Of_Pursuit_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/Deprecated/ITEM_Jewellery_Ring_Of_Pursuit_MeshData_Male.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Jewellery_Ring_Woodsman"
+      },
+      "Slot": "ELoadoutSlotStrategy::Trinket",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Increase_Carry_weight_Jewellery_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_Increase_Carry_weight_Jewellery.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B21321E440F5DB28067F7BB83A98AADF",
+        "SourceString": "Woodsman Ring",
+        "LocalizedString": "Woodsman Ring"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F191049645D9A0655A959991C75F9EDE",
+        "SourceString": "NO EFFECT",
+        "LocalizedString": "NO EFFECT"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Resource_Ring_Of_Pursuit'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_icon_Resource_Ring_Of_Pursuit.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/LevelDesign/District1/BlockoutMeshes/SM_BO_Opal.SM_BO_Opal",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic"
+      },
+      "BaseDurability": 1000,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "ZdUEQUlgodd2eLeZKYrHFA",
+      "InternalName": "jewellery_ring_woodsman"
+    }
+  }
+]

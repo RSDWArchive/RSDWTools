@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_WildAnima_From_AnimaBark",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_AnimaInfusedBark'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark.0"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_WildAnima'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_WildAnima.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "ExtraItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_ChangeHealth_C'ITEM_Consumable_Potion_T1_Weak_Healing'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Healing.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Recipe"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "-pH6qEjW4yj_APSot4lNPw",
+      "InternalName": "recipe_process_wildanima_from_animabark"
+    }
+  }
+]

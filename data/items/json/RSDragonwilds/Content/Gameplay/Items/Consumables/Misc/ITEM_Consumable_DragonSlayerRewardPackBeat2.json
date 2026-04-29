@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_DragonSlayerRewardPackBeat2",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Harralander.ITEM_Herb_Harralander",
+            "SubPathString": ""
+          },
+          "MinToDrop": 3,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay.ITEM_Resources_Clay",
+            "SubPathString": ""
+          },
+          "MinToDrop": 3,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "Namespace": "",
+        "Key": "98517E82464329B9CFF494BC93971F58",
+        "SourceString": "Dragon Slayer Reward Pack",
+        "LocalizedString": "Dragon Slayer Reward Pack"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "380AE96547C2A6989E3D8E97489C87C6",
+        "SourceString": "A cloth shoulder bag.",
+        "LocalizedString": "A cloth shoulder bag."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Garou_Pack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Garou_Pack.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 10,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs.DragonSlayerPack"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "6LQtMkNzIZBdrgyeiP0fqg",
+      "InternalName": "item_pack_dragonslayerrewardbeat2",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

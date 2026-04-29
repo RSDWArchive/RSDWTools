@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Crossbow_Blurite",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Resources_CrossbowLimbs_Blurite'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Components/RECIPE_Resources_CrossbowLimbs_Blurite.0"
+        },
+        {
+          "ObjectName": "RecipeData'RECIPE_Weapon_Crossbow_Blurite'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Crossbow/RECIPE_Weapon_Crossbow_Blurite.0"
+        },
+        {
+          "ObjectName": "RecipeData'RECIPE_Ammo_Bolts_Blurite'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Bolts_Blurite.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "DE29E3AD4665D6548F95A88EAAAE0E1E",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeBluriteCrossbow",
+        "SourceString": "Azure Metal Contraption",
+        "LocalizedString": "Azure Metal Contraption"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.BluriteCrossbow",
+        "SourceString": "A contraption made from strange blue metal. Perhaps you could learn something from it. ",
+        "LocalizedString": "A contraption made from strange blue metal. Perhaps you could learn something from it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Crossbow_Blurite_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Crossbow_Blurite_1H_01.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "yR0rWUVZWQcn6jqivANwyA",
+      "InternalName": "vestige_weapon_crossbow_blurite",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

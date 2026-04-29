@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Artifact_Granite_Maul_Blueprints",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "19055F204F7FD1320DE0AB99A813E5F6",
+        "SourceString": "Granite Maul Blueprints",
+        "LocalizedString": "Granite Maul Blueprints"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "E0B8D1184B342C318CC2EC8D0181BA98",
+        "SourceString": "The blueprints for an infamous weapon. Its individual components require special resources and Garou stonemasonry.",
+        "LocalizedString": "The blueprints for an infamous weapon. Its individual components require special resources and Garou stonemasonry."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Scroll'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icon_Scroll.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Textile/SM_Cloth_Linen_01.SM_Cloth_Linen_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Weight": 4.0,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "FzZcg0K5osblXSuuSNACQA",
+      "InternalName": "res_granite_maul_blueprints"
+    }
+  }
+]

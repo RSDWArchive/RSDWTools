@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Abyssal_Spine",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "AbyssalSpine",
+        "SourceString": "Abyssal Spine",
+        "LocalizedString": "Abyssal Spine"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "6ECB77994A53EB34D5CB2CB661A635C0",
+        "SourceString": "The spine from a deceased Abyssal Demon",
+        "LocalizedString": "The spine from a deceased Abyssal Demon"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Abyssal_Spine'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Abyssal_Spine.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Spine/SM_Abysall_Spine_01.SM_Abysall_Spine_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 10.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Bone"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "PersistenceID": "GHBDsEGyH5DJpTqa7xIC1w",
+      "InternalName": "res_abyssal_spine"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_GreatSword_Mithril",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/GreatSword/BP_GreatSword_Mithril.BP_GreatSword_Mithril_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_2H_Greatsword_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_2H_Greatsword.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Special.0"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_GreatswordAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/FF_GreatswordAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses.0"
+      },
+      "DamageMultiplier": 6.8,
+      "BlockingDamageNegation": 44.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 4,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilGreatsword",
+        "SourceString": "Mithril Greatsword",
+        "LocalizedString": "Mithril Greatsword"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MithrilGreatsword",
+        "SourceString": "A sturdy two-handed sword, with strength to match its size. ",
+        "LocalizedString": "A sturdy two-handed sword, with strength to match its size. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mithril_Great_Sword'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Great_Sword"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/GreatSword_Mithril_2H_01/SM_GreatSword_Mithril_2H_01.SM_GreatSword_Mithril_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Sword"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BladeLarge"
+      },
+      "BaseDurability": 1600,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "pQc5DE2EQITw_c2lRJxZ9A",
+      "InternalName": "weap_greatsword_mithril"
+    }
+  }
+]

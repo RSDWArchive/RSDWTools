@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Cape_GreenDyad",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_GreenDyad'",
+          "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/RECIPE_Armour_T0_Cape_GreenDyad"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "BA93F7154109DA6DB5911E93923170DA",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeGreenDyadCape",
+        "SourceString": "Chewed Green Cloth",
+        "LocalizedString": "Chewed Green Cloth"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.GreenDyadCape",
+        "SourceString": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could learn from it. ",
+        "LocalizedString": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could learn from it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Adventurer_Capes_Pattern_02_Green'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Adventurer_Capes_Pattern_02_Green"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "DJdMaUyjJDBEB2qvoUM7xA",
+      "InternalName": "vestige_cape_greendyad",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

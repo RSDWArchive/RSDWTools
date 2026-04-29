@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_PlanPack_Flags_Armadyl_01",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_01_Armadyl.DA_Consumable_Plan_Decoration_Flag_01_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_02_Armadyl.DA_Consumable_Plan_Decoration_Flag_02_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_03_Armadyl.DA_Consumable_Plan_Decoration_Flag_03_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_04_Armadyl.DA_Consumable_Plan_Decoration_Flag_04_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_05_Armadyl.DA_Consumable_Plan_Decoration_Flag_05_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_06_Armadyl.DA_Consumable_Plan_Decoration_Flag_06_Armadyl",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Pack.Plans.Flags.Armadyl.Name",
+        "SourceString": "Plan Bundle: Armadyl Flags",
+        "LocalizedString": "Plan Bundle: Armadyl Flags"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Pack.Plans.Generic.Description",
+        "SourceString": "A collection of decoration plans.",
+        "LocalizedString": "A collection of decoration plans."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Pack_Armadyl_01'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Pack_Armadyl_01"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "laNSqkNnDER7ezCtp2lG8g",
+      "InternalName": "item_pack_plans_flags_armadyl_01",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

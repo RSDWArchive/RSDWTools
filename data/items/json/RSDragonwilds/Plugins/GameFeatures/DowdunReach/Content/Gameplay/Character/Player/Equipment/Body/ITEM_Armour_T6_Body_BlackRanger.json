@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T6_Body_BlackRanger",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_BlackKnightRanged_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_BlackKnightRanged_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_BlackKnightRanged_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_BlackKnightRanged_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T6_Body_BlackRanger"
+      },
+      "ArmorWeight": "EArmorWeight::Medium",
+      "Slot": "ELoadoutSlotStrategy::Body",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackKnightBody",
+        "SourceString": "Shadow Body",
+        "LocalizedString": "Shadow Body"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlackKnightBody",
+        "SourceString": "Durable armour worn by the Children of Shadows.",
+        "LocalizedString": "Durable armour worn by the Children of Shadows."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dark_Knight_Body'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dark_Knight_Body"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 12.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Medium"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "lbGGMk9q_D8NqFer1Phs6Q",
+      "InternalName": "armour_body_blackranger"
+    }
+  }
+]

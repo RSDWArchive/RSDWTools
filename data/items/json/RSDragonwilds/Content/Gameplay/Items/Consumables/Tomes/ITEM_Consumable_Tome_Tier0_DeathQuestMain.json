@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "BP_Consumables_SkillTome_C",
+    "Name": "ITEM_Consumable_Tome_Tier0_DeathQuestMain",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.BP_Consumables_SkillTome_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_SkillTome_C'Default__BP_Consumables_SkillTome_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "XPEventHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Tomes'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/DT_XPEvents_Tomes.0"
+        },
+        "RowName": "Tome_T0_DragonSlayerQuest"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Skilltome.Deathquest",
+        "SourceString": "Tome of the Undying",
+        "LocalizedString": "Tome of the Undying"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Skilltome.Deathquest",
+        "SourceString": "A powerful tome containing the forgotten knowledge of the fallen. Grants a large amount of experience in the Attack, Magic and Ranged skills. ",
+        "LocalizedString": "A powerful tome containing the forgotten knowledge of the fallen. Grants a large amount of experience in the Attack, Magic and Ranged skills. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Tome_of_the_Dragon_Slayer'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Tome_of_the_Dragon_Slayer.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Lore_Book/SM_Lore_Book_01.SM_Lore_Book_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 6.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Tome"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Skillbook"
+      },
+      "PersistenceID": "9_oomElWmcQ3vDWxNIfvbA",
+      "InternalName": "tome_t0_deathquestmain",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_SkillTome_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.0"
+      }
+    }
+  }
+]

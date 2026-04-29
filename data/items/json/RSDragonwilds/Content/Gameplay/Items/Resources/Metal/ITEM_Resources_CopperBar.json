@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_CopperBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "CopperBar",
+        "SourceString": "Copper Bar",
+        "LocalizedString": "Copper Bar"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "D3B4EE6144E7E74AAF7A8D9EE8976514",
+        "SourceString": "Smelted from Copper Ore, this metal can be mixed with Tin to create Bronze if you have a Crucible.",
+        "LocalizedString": "Smelted from Copper Ore, this metal can be mixed with Tin to create Bronze if you have a Crucible."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Copper'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Copper.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Copper_01.SM_Ingot_Copper_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 5.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "S7Kk_ZA9OEKZ8qwU9ciKCA",
+      "InternalName": "res_bar_copper"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Cloth_Wool",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WoolCloth",
+        "SourceString": "Wool Cloth",
+        "LocalizedString": "Wool Cloth"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "2FD4982C48290A14ADB9B98E860BC11E",
+        "SourceString": "A strong and lightweight crafting material.",
+        "LocalizedString": "A strong and lightweight crafting material."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Woolen_Cloth'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Woolen_Cloth.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Textile/SM_Cloth_Wool_01.SM_Cloth_Wool_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Loom_Processed_Item"
+      },
+      "PersistenceID": "Jf2AM4PfnUqwTuW0cPXheA",
+      "InternalName": "res_cloth_wool"
+    }
+  }
+]

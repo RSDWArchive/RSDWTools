@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_FishBait_Shrimp",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Shrimp'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/Shrimp/ITEM_Resources_Fish_Raw_Shrimp"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "FishingBaitAmmoData'ITEM_FishBait_Shrimp'",
+            "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Shrimp"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Fishing.Bait"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "jmPsHU9-0ZcrHZGlzM7fVg",
+      "InternalName": "recipe_fishbait_shrimp"
+    }
+  }
+]

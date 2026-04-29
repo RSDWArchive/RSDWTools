@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "FishingRodHeldEquipmentData",
+    "Name": "ITEM_FishingRod_Willow",
+    "Class": "UScriptClass'FishingRodHeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/BP_FishingRodV2_Willow.BP_FishingRodV2_Willow_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Cast_Fishing_C'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Spells/Fishing/PA_Cast_Fishing"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Fishing_Rod_2H_Poses_01'",
+        "ObjectPath": "/Fishing/Art/Animation/Animations/PlayerM/Skills/Fishing/A_PlayerM_Fishing_Rod_2H_Poses_01"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "bLosesDurabilityOnAttack": false,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 2,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WillowRod",
+        "SourceString": "Willow Rod",
+        "LocalizedString": "Willow Rod"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WillowRod",
+        "SourceString": "A professional-looking fishing rod, effective in Fellhollow.",
+        "LocalizedString": "A professional-looking fishing rod, effective in Fellhollow."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Willow_Rod'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fishing_Tool_Icons/T_Icon_Willow_Rod"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Rod_2H_03/SM_Fishing_Rod_2H_03.SM_Fishing_Rod_2H_03",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 1.5,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Fishing.Rod"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingRod"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Rod"
+      },
+      "BaseDurability": 220,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "zYF5UEyMqU2WVgSOdDak5g",
+      "InternalName": "tool_fishing_rod_willow"
+    }
+  }
+]

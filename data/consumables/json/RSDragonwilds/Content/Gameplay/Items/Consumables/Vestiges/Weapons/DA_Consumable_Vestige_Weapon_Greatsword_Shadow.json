@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Greatsword_Shadow",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Weapon_GreatSword_Shadow'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/RECIPE_Weapon_GreatSword_Shadow.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "1662A3BA47C7922F1071C89F04CA9E3E",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeGreatswordShadow",
+        "SourceString": "Shard of Smoky Glass",
+        "LocalizedString": "Shard of Smoky Glass"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.GreatswordShadow",
+        "SourceString": "The smoke seems to be roiling inside. Perhaps you could learn from it.",
+        "LocalizedString": "The smoke seems to be roiling inside. Perhaps you could learn from it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Shadow_2H_Greatsword'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Shadow_2H_Greatsword.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "OtHqlktebRf87vuQV4J9UA",
+      "InternalName": "vestige_weapon_greatsword_shadow",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

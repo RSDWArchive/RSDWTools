@@ -1,0 +1,400 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Customization_FaceType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'PlayerFaceCustomizationMeshData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "female_A_01": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_01/SK_F_MED_Head_A_01.SK_F_MED_Head_A_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_01/ABP_F_MED_Head_A_01.ABP_F_MED_Head_A_01_C",
+          "SubPathString": ""
+        }
+      },
+      "female_A_02": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_02/SK_F_MED_Head_A_02.SK_F_MED_Head_A_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_02/ABP_F_MED_Head_A_02.ABP_F_MED_Head_A_02_C",
+          "SubPathString": ""
+        }
+      },
+      "female_A_03": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_03/SK_F_MED_Head_A_03.SK_F_MED_Head_A_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_03/ABP_F_MED_Head_A_03.ABP_F_MED_Head_A_03_C",
+          "SubPathString": ""
+        }
+      },
+      "female_A_04": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_04/SK_F_MED_Head_A_04.SK_F_MED_Head_A_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_A_04/ABP_F_MED_Head_A_04.ABP_F_MED_Head_A_04_C",
+          "SubPathString": ""
+        }
+      },
+      "female_B_01": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_01/SK_F_MED_Head_B_01.SK_F_MED_Head_B_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_01/ABP_F_MED_Head_B_01.ABP_F_MED_Head_B_01_C",
+          "SubPathString": ""
+        }
+      },
+      "female_B_02": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_02/SK_F_MED_Head_B_02.SK_F_MED_Head_B_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_02/ABP_F_MED_Head_B_02.ABP_F_MED_Head_B_02_C",
+          "SubPathString": ""
+        }
+      },
+      "female_B_03": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_03/SK_F_MED_Head_B_03.SK_F_MED_Head_B_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_03/ABP_F_MED_Head_B_03.ABP_F_MED_Head_B_03_C",
+          "SubPathString": ""
+        }
+      },
+      "female_B_04": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_04/SK_F_MED_Head_B_04.SK_F_MED_Head_B_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_B_04/ABP_F_MED_Head_B_04.ABP_F_MED_Head_B_04_C",
+          "SubPathString": ""
+        }
+      },
+      "female_C_01": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_01/SK_F_MED_Head_C_01.SK_F_MED_Head_C_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_01/ABP_F_MED_Head_C_01.ABP_F_MED_Head_C_01_C",
+          "SubPathString": ""
+        }
+      },
+      "female_C_02": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_02/SK_F_MED_Head_C_02.SK_F_MED_Head_C_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_02/ABP_F_MED_Head_C_02.ABP_F_MED_Head_C_02_C",
+          "SubPathString": ""
+        }
+      },
+      "female_C_03": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_03/SK_F_MED_Head_C_03.SK_F_MED_Head_C_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_03/ABP_F_MED_Head_C_03.ABP_F_MED_Head_C_03_C",
+          "SubPathString": ""
+        }
+      },
+      "female_C_04": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_04/SK_F_MED_Head_C_04.SK_F_MED_Head_C_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_C_04/ABP_F_MED_Head_C_04.ABP_F_MED_Head_C_04_C",
+          "SubPathString": ""
+        }
+      },
+      "female_D_01": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_01/SK_F_MED_Head_D_01.SK_F_MED_Head_D_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_01/ABP_F_MED_Head_D_01.ABP_F_MED_Head_D_01_C",
+          "SubPathString": ""
+        }
+      },
+      "female_D_02": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_02/SK_F_MED_Head_D_02.SK_F_MED_Head_D_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_02/ABP_F_MED_Head_D_02.ABP_F_MED_Head_D_02_C",
+          "SubPathString": ""
+        }
+      },
+      "female_D_03": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_03/SK_F_MED_Head_D_03.SK_F_MED_Head_D_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_03/ABP_F_MED_Head_D_03.ABP_F_MED_Head_D_03_C",
+          "SubPathString": ""
+        }
+      },
+      "female_D_04": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_04/SK_F_MED_Head_D_04.SK_F_MED_Head_D_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/F_MED_Head_D_04/ABP_F_MED_Head_D_04.ABP_F_MED_Head_D_04_C",
+          "SubPathString": ""
+        }
+      },
+      "male_A_01": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_01/SK_M_MED_Head_A_01.SK_M_MED_Head_A_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_01/ABP_M_MED_Head_A_01.ABP_M_MED_Head_A_01_C",
+          "SubPathString": ""
+        }
+      },
+      "male_A_02": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_02/SK_M_MED_Head_A_02.SK_M_MED_Head_A_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_02/ABP_M_MED_Head_A_02.ABP_M_MED_Head_A_02_C",
+          "SubPathString": ""
+        }
+      },
+      "male_A_03": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_03/SK_M_MED_Head_A_03.SK_M_MED_Head_A_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_03/ABP_M_MED_Head_A_03.ABP_M_MED_Head_A_03_C",
+          "SubPathString": ""
+        }
+      },
+      "male_A_04": {
+        "FaceTypeIndex": 0,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_04/SK_M_MED_Head_A_04.SK_M_MED_Head_A_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_A_04/ABP_M_MED_Head_A_04.ABP_M_MED_Head_A_04_C",
+          "SubPathString": ""
+        }
+      },
+      "male_B_01": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_01/SK_M_MED_Head_B_01.SK_M_MED_Head_B_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_01/ABP_M_MED_Head_B_01.ABP_M_MED_Head_B_01_C",
+          "SubPathString": ""
+        }
+      },
+      "male_B_02": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_02/SK_M_MED_Head_B_02.SK_M_MED_Head_B_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_02/ABP_M_MED_Head_B_02.ABP_M_MED_Head_B_02_C",
+          "SubPathString": ""
+        }
+      },
+      "male_B_03": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_03/SK_M_MED_Head_B_03.SK_M_MED_Head_B_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_03/ABP_M_MED_Head_B_03.ABP_M_MED_Head_B_03_C",
+          "SubPathString": ""
+        }
+      },
+      "male_B_04": {
+        "FaceTypeIndex": 1,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_04/SK_M_MED_Head_B_04.SK_M_MED_Head_B_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_B_04/ABP_M_MED_Head_B_04.ABP_M_MED_Head_B_04_C",
+          "SubPathString": ""
+        }
+      },
+      "male_C_01": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_01/SK_M_MED_Head_C_01.SK_M_MED_Head_C_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_01/ABP_M_MED_Head_C_01.ABP_M_MED_Head_C_01_C",
+          "SubPathString": ""
+        }
+      },
+      "male_C_02": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_02/SK_M_MED_Head_C_02.SK_M_MED_Head_C_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_02/ABP_M_MED_Head_C_02.ABP_M_MED_Head_C_02_C",
+          "SubPathString": ""
+        }
+      },
+      "male_C_03": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_03/SK_M_MED_Head_C_03.SK_M_MED_Head_C_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_03/ABP_M_MED_Head_C_03.ABP_M_MED_Head_C_03_C",
+          "SubPathString": ""
+        }
+      },
+      "male_C_04": {
+        "FaceTypeIndex": 2,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_04/SK_M_MED_Head_C_04.SK_M_MED_Head_C_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_C_04/ABP_M_MED_Head_C_04.ABP_M_MED_Head_C_04_C",
+          "SubPathString": ""
+        }
+      },
+      "male_D_01": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_01/SK_M_MED_Head_D_01.SK_M_MED_Head_D_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_01/ABP_M_MED_Head_D_01.ABP_M_MED_Head_D_01_C",
+          "SubPathString": ""
+        }
+      },
+      "male_D_02": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_02/SK_M_MED_Head_D_02.SK_M_MED_Head_D_02",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_02/ABP_M_MED_Head_D_02.ABP_M_MED_Head_D_02_C",
+          "SubPathString": ""
+        }
+      },
+      "male_D_03": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_03/SK_M_MED_Head_D_03.SK_M_MED_Head_D_03",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_03/ABP_M_MED_Head_D_03.ABP_M_MED_Head_D_03_C",
+          "SubPathString": ""
+        }
+      },
+      "male_D_04": {
+        "FaceTypeIndex": 3,
+        "EyeStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_04/SK_M_MED_Head_D_04.SK_M_MED_Head_D_04",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Heads/M_MED_Head_D_04/ABP_M_MED_Head_D_04.ABP_M_MED_Head_D_04_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Thread_Wool",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A8A6FC9146D8BF0C206D5C920DF7C1C5",
+        "SourceString": "Wool Thread",
+        "LocalizedString": "Wool Thread"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "EDBB97204CEF556A3A463C815129BA59",
+        "SourceString": "Spun from sheep fleece, essential for making warm garments and padded cloth.",
+        "LocalizedString": "Spun from sheep fleece, essential for making warm garments and padded cloth."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Ball_Of_Wool'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ball_Of_Wool.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ball_of_Wool/SM_Ball_of_Wool_01.SM_Ball_of_Wool_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.3,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Thread"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Spinning_Wheel_Processed_Item"
+      },
+      "PersistenceID": "vgsjm0jT19zFn1uH9N2Rbg",
+      "InternalName": "res_thread_wool"
+    }
+  }
+]

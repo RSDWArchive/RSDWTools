@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_TEST_T3_Poison",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Dagger/BP_Dagger_Bronze.BP_Dagger_Bronze_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Poison_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Poison.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Dagger.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Dagger_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Dagger/A_PlayerM_Idle_Dagger_Poses.0"
+      },
+      "DamageMultiplier": 3.25,
+      "BlockingDamageNegation": 5.0,
+      "DamageTypes": [
+        "DamageType.Physical.Stab"
+      ],
+      "CriticalHitChanceIncrease": 0.05,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "T3 Poison Dagger"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "0E6D552449160C06588600A2CA9B35FA",
+        "SourceString": "A basic but reliable blade, suitable for close combat.",
+        "LocalizedString": "A basic but reliable blade, suitable for close combat."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Dagger_Bronze'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Dagger_Bronze.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Bronze_1H_01/SM_Dagger_Bronze_1H_01.SM_Dagger_Bronze_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 3.5,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Dagger"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BladeSmall"
+      },
+      "BaseDurability": 450,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "NA76rEFl7Di8f5aFj_L3SA",
+      "InternalName": "test_poison_t3"
+    }
+  }
+]

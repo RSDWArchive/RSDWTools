@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Skin_Dragon_Blue_Lesser",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonhide",
+        "SourceString": "Blue Dragonhide",
+        "LocalizedString": "Blue Dragonhide"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonhide",
+        "SourceString": "Obtained from felling lesser blue dragons. Can be processed at the tannery. ",
+        "LocalizedString": "Obtained from felling lesser blue dragons. Can be processed at the tannery. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Hide'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Blue_Dragonhide/SM_Dragon_Hide_Blue_01.SM_Dragon_Hide_Blue_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "PersistenceID": "sM8FckDf5OipPo-BPZWpbw",
+      "InternalName": "res_skin_dragon_blue_lesser"
+    }
+  }
+]

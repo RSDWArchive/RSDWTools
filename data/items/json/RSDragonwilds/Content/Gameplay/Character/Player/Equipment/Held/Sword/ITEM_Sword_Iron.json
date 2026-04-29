@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Sword_Iron",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Sword/BP_Sword_Iron.BP_Sword_Iron_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Sword_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Sword.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Sword_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sword/A_PlayerM_Idle_Sword_Poses.0"
+      },
+      "DamageMultiplier": 4.1,
+      "BlockingDamageNegation": 23.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "CriticalHitChanceIncrease": 0.02,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronSword",
+        "SourceString": "Iron Sword",
+        "LocalizedString": "Iron Sword"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "C62FD01543C6D5D9B542638956605054",
+        "SourceString": "A well-crafted iron blade for skilled combatants.",
+        "LocalizedString": "A well-crafted iron blade for skilled combatants."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Sword_Iron_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Sword_Iron_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Sword_Iron_1H_01/SM_Sword_Iron_1H_02.SM_Sword_Iron_1H_02",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Sword"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Blade"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "gFA3V8-Y5UGLPAtJKYNnTw",
+      "InternalName": "weap_sword_iron"
+    }
+  }
+]

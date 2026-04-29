@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_UndeadBass",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawUndeadBass",
+        "SourceString": "Raw Undead Bass",
+        "LocalizedString": "Raw Undead Bass"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawUndeadBass",
+        "SourceString": "It may not look edible, but trust us: grill it and you're in for a treat.",
+        "LocalizedString": "It may not look edible, but trust us: grill it and you're in for a treat."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Undead_Bass'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Undead_Bass"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Bass_Undead_01/SM_Fish_Bass_Undead_01.SM_Fish_Bass_Undead_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 3.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "K3JMOEMSsysPtk2Sf7bTBw",
+      "InternalName": "res_fish_undeadbass"
+    }
+  }
+]

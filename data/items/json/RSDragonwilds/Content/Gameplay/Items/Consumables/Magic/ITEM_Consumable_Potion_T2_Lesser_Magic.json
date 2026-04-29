@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_T2_Lesser_Magic",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Lesser_Potion"
+      },
+      "Duration": 600.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_MagicAttack_CritChance_C'ITEM_Consumable_Potion_T2_Lesser_Magic:GE_MagicAttack_CritChance_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LesserMagicPotion",
+        "SourceString": "Lesser Magic Potion",
+        "LocalizedString": "Lesser Magic Potion"
+      },
+      "FlavourText": {
+        "CultureInvariantString": null
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lesser_Pink_Potion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Pink_Potion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Pink_Potion.SM_Lesser_Pink_Potion",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "MagicPotion.Title",
+            "SourceString": "Focused Casting",
+            "LocalizedString": "Focused Casting"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "MagicPotion.Description",
+            "SourceString": "INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS",
+            "LocalizedString": "INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_LesserPotionMagic'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserPotionMagic.0"
+          }
+        }
+      ],
+      "PersistenceID": "qLXWx0NDd_CRXlmojVy3xg",
+      "InternalName": "potion_t2_lesser_magic",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_MagicAttack_CritChance_C",
+    "Name": "GE_MagicAttack_CritChance_C_0",
+    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Magic",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_CritChance.GE_MagicAttack_CritChance_C'",
+    "Template": {
+      "ObjectName": "GE_MagicAttack_CritChance_C'Default__GE_MagicAttack_CritChance_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_CritChance.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false
+      }
+    }
+  }
+]

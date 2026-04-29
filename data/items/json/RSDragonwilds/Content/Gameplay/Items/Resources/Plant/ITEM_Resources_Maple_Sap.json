@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Maple_Sap",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MapleSap",
+        "SourceString": "Maple Sap",
+        "LocalizedString": "Maple Sap"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MapleSap",
+        "SourceString": "Harvested from maple trees. An ingredient that can be cooked on a campfire.",
+        "LocalizedString": "Harvested from maple trees. An ingredient that can be cooked on a campfire."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Maple_Sap'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Sap"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 999,
+      "PowerLevel": 4,
+      "bCanBeDestroyed": false,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant.MapleSap"
+      },
+      "bDropOnDeath": false,
+      "CompostAmount": 10,
+      "PersistenceID": "6elZUk7d7zVP8qCRjXN9uQ",
+      "InternalName": "res_maple_sap"
+    }
+  }
+]

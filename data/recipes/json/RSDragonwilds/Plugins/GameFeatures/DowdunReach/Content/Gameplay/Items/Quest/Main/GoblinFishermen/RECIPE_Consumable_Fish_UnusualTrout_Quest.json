@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Fish_UnusualTrout_Quest",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_UnusualTrout_Quest'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/GoblinFishermen/ITEM_Resources_Fish_Raw_UnusualTrout_Quest"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Trout_QUEST'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/GoblinFishermen/ITEM_Consumable_Fish_Trout_QUEST"
+          },
+          "Count": 1
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Trout_Burnt_QUEST'",
+          "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/GoblinFishermen/ITEM_Consumable_Fish_Trout_Burnt_QUEST"
+        },
+        "Count": 1
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel1'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Fish.Trout"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "wHbaVk_HdKiOJl2sDTWzWg",
+      "InternalName": "recipe_fish_unusualtrout_quest",
+      "bSoftDeleted": true
+    }
+  }
+]

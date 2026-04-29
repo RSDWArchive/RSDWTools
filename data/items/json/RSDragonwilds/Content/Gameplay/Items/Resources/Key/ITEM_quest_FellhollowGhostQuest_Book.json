@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FellhollowGhostQuest_Book",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+        "Key": "SketchBook.Name",
+        "SourceString": "Dust-covered Sketchbook",
+        "LocalizedString": "Dust-covered Sketchbook"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
+        "Key": "Sketchbook.Description",
+        "SourceString": "A ruined notebook, buried beneath the earth. ",
+        "LocalizedString": "A ruined notebook, buried beneath the earth. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Artisan.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Artisan.SM_Skill_Tome_Artisan",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "P-cDcE4TaF32sN-q8Z3T3w",
+      "InternalName": "ITEM_quest_FellhollowGhostQuest_Book"
+    }
+  }
+]

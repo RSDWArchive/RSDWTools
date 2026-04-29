@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ground_Clay",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GroundClay",
+        "SourceString": "Ground Clay",
+        "LocalizedString": "Ground Clay"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "4777B7FC47131E2F9DD993B6F50EFACF",
+        "SourceString": "Pulverised stone, used in building, and as an Herblore ingredient.",
+        "LocalizedString": "Pulverised stone, used in building, and as an Herblore ingredient."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Ground_Clay'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Clay.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Mineral/SM_Stone_01.SM_Stone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "PersistenceID": "GXtUfUZIYgpsYAGE4y5vEg",
+      "InternalName": "res_stone_ground_clay"
+    }
+  }
+]

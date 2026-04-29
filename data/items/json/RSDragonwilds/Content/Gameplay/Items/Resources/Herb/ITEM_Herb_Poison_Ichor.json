@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Herb_Poison_Ichor",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PoisonIchor",
+        "SourceString": "Poison Ichor",
+        "LocalizedString": "Poison Ichor"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "PoisonIchor",
+        "SourceString": "This stuff looks nasty.",
+        "LocalizedString": "This stuff looks nasty."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Poison_Ichor2'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Poison_Ichor2.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.4,
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Item.Farming.Compostable"
+      },
+      "PersistenceID": "vxn3aEpxraaQXJi9Btd7Cw",
+      "InternalName": "res_herb_poison_ichor"
+    }
+  }
+]

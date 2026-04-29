@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_goblin_amulet_Part2",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BandosianAmulet02",
+        "SourceString": "Druid's Bandosian Amulet",
+        "LocalizedString": "Druid's Bandosian Amulet"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "496BB26C429D95BF4E12F1942BE2AD3E",
+        "SourceString": "A goblin artefact, found on a druid.",
+        "LocalizedString": "A goblin artefact, found on a druid."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bandosian_Amulet_2'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bandosian_Amulet_2.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Key/SM_BossSoul_Inner_OuterDungeon.SM_BossSoul_Inner_OuterDungeon",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "EacnEk2SKqmy6zGxnrhpRw",
+      "InternalName": "res_quest_goblin_guild"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Plank_Ash",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 60.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "BC6580474F31094F7A5C10BD3736A4AD",
+        "SourceString": "Ash Plank",
+        "LocalizedString": "Ash Plank"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "0E70DCF94B89D452CDE264ACFF6290E7",
+        "SourceString": "Basic building material.",
+        "LocalizedString": "Basic building material."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Ash_Plank'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ash_Plank.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Planks/SM_Plank_Ash_01.SM_Plank_Ash_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Light"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "Gv_wHkJnBgiXOfq0cCvggg",
+      "InternalName": "res_plank"
+    }
+  }
+]

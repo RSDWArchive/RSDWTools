@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Armour_Head_Sack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T2_Head_BagOfNoggin'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/RECIPE_Armour_T2_Head_BagOfNoggin.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "37E714E740DBD9AA9A35FBA7E0CB625E",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0661C0D241851BF60F91EBB322C51AAC",
+        "SourceString": "A Threadbare Grain Sack",
+        "LocalizedString": "A Threadbare Grain Sack"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.BagofNoggin",
+        "SourceString": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+        "LocalizedString": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bag_o__Noggin'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Bag_o__Noggin.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "lKFiM06b_ucTwu6CYknYxQ",
+      "InternalName": "vestige_armour_head_sack",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

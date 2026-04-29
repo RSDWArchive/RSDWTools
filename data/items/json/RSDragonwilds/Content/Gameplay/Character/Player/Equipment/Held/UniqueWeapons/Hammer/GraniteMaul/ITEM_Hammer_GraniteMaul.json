@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Hammer_GraniteMaul",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Hammer/GraniteMaul/BP_Hammer_GraniteMaul.BP_Hammer_GraniteMaul_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Granite_Maul_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Granite_Maul/PA_Attack_Granite_Maul.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Granite_Maul_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Granite_Maul/PA_Attack_Granite_Maul_Special.0"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_HammerAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hammer/FF_HammerAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses.0"
+      },
+      "DamageMultiplier": 2.8,
+      "BlockingDamageNegation": 29.25,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "CriticalHitChanceIncrease": 0.02,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "GraniteMaul",
+        "SourceString": "Granite Maul",
+        "LocalizedString": "Granite Maul"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/Equipment/Weapons/ST_WeaponAttacks.ST_WeaponAttacks",
+        "Key": "GraniteMaulDesc",
+        "SourceString": "The power of this warhammer should not be taken for granite.",
+        "LocalizedString": "The power of this warhammer should not be taken for granite."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Warhammer_Granite_Maul'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Warhammer_Granite_Maul.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Warhammer_GraniteMaul_2H_01/SM_Warhammer_GraniteMaul_2H_01.SM_Warhammer_GraniteMaul_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Warhammer"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.GraniteMaul"
+      },
+      "BaseDurability": 1050,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "yte2PUYaqeYZH02J_aviEg",
+      "InternalName": "weap_granite_maul"
+    }
+  }
+]

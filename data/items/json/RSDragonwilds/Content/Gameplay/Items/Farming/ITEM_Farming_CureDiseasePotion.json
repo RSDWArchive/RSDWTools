@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Farming_CureDiseasePotion",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Tool_PlantCurePotion",
+        "SourceString": "Plant Cure",
+        "LocalizedString": "Plant Cure"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Tool_PlantCurePotion",
+        "SourceString": "Used to cure diseased plants and bring them back to a healthy state.",
+        "LocalizedString": "Used to cure diseased plants and bring them back to a healthy state."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Plant_Cure_Potion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Plant_Cure_Potion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 20,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Farming.Potion.CurePlant"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Potion"
+      },
+      "PersistenceID": "XXWU70NlMFVOmPO4gXCVwA",
+      "InternalName": "ITEM_Farming_Consumable_PlantCure"
+    }
+  }
+]

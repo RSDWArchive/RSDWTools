@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Longbow_Garou",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Bow/BP_Longbow_Garou.BP_Longbow_Garou_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "DamageMultiplier": 2.15,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_DrawTime_Small_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_DrawTime_Small.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GarouBowPlayer",
+        "SourceString": "Hunter Stagbow",
+        "LocalizedString": "Hunter Stagbow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GarouBow",
+        "SourceString": "With it's aerodynamic antlers, this bow is very popular with Garou scouts.",
+        "LocalizedString": "With it's aerodynamic antlers, this bow is very popular with Garou scouts."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "DB645B054F5D97265902238B2620260E",
+            "SourceString": "Draw time",
+            "LocalizedString": "Draw time"
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "3E1717E14902369F09C2AF80AA48102D",
+            "SourceString": "+10%",
+            "LocalizedString": "+10%"
+          }
+        }
+      ],
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Longbor_Hunter_Stag'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Longbor_Hunter_Stag.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Longbow_HunterStag_2H_01/SM_Longbow_HunterStag_2H_01.SM_Longbow_HunterStag_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Longbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.LongBow"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "s7HI6EmvRXRq7T69epFpxg",
+      "InternalName": "weap_longbow_garou"
+    }
+  }
+]

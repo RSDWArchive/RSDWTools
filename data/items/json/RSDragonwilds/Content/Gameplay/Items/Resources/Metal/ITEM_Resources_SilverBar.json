@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_SilverBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SilverBar",
+        "SourceString": "Silver Bar",
+        "LocalizedString": "Silver Bar"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "86E76E0A4E8E2D95BB766B885427E729",
+        "SourceString": "A precious and rare metal used to craft enchanting jewellery.",
+        "LocalizedString": "A precious and rare metal used to craft enchanting jewellery."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Silver'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Silver.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Silver_01.SM_Ingot_Silver_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 4.8,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "gunABauXjk6khTFVIKifoA",
+      "InternalName": "res_bar_silver"
+    }
+  }
+]

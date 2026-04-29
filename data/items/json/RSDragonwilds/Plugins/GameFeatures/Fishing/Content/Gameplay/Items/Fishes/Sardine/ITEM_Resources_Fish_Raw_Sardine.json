@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Sardine",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawSardine",
+        "SourceString": "Raw Sardine",
+        "LocalizedString": "Raw Sardine"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawSardine",
+        "SourceString": "A small fish that was brought into this world to be fried and eaten.",
+        "LocalizedString": "A small fish that was brought into this world to be fried and eaten."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Sardine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Sardine"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Sardine_01/SM_Fish_Sardine_01.SM_Fish_Sardine_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 1.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "OXEA-E083jjv8fGlbEEW4Q",
+      "InternalName": "res_fish_sardine"
+    }
+  }
+]

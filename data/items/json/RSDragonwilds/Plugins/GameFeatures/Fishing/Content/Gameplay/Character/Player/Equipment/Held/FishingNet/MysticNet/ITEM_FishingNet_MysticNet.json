@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_FishingNet_MysticNet",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingNet/MysticNet/BP_Fishing_MysticNet.BP_Fishing_MysticNet_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_CastNet_C'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Spells/Fishing/PA_CastNet"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Fishing_Net_2H_Poses_01'",
+        "ObjectPath": "/Fishing/Art/Animation/Animations/PlayerM/Skills/Fishing/A_PlayerM_Fishing_Net_2H_Poses_01"
+      },
+      "LeftHandIKBoneName": "Prop_SecondHandSocket",
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticNet",
+        "SourceString": "Mystic Net",
+        "LocalizedString": "Mystic Net"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MysticNet",
+        "SourceString": "Made with two mystic threads at a crafting table. A stunningly well crafted net.",
+        "LocalizedString": "Made with two mystic threads at a crafting table. A stunningly well crafted net."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Net_4_Mystic'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Net_4_Mystic"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Net_2H_04/SM_Fishing_Net_Mystic.SM_Fishing_Net_Mystic",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Fishing.Net"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingNet"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Net"
+      },
+      "BaseDurability": 420,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "w3WUqEtAH6GIClKLUR6EvQ",
+      "InternalName": "tool_fishing_net_mystic"
+    }
+  }
+]

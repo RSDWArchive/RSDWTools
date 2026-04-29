@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Magic",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+          },
+          "Count": 350
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Trinket_Amulet_of_Magic'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Trinkets/DA_Consumable_Vestige_Trinket_Amulet_of_Magic.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Trinket"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "nOSetUVDY59usHaX21KcRw",
+      "InternalName": "RECIPE_Vendor_Fellhollow_Trinket_Amulet_of_Magic"
+    }
+  }
+]

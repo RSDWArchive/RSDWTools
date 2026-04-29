@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T1_Legs_Adventurers",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Flax_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Flax_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T1_Legs_Adventurers"
+      },
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "2464661D493E3801B6650CBB264D265A",
+        "SourceString": "Adventurer's Leggings",
+        "LocalizedString": "Adventurer's Leggings"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "E2D3B5274DD8EA83CDF5289A5EC41EA7",
+        "SourceString": "Basic and comfortable attire fit for a new Adventurer.",
+        "LocalizedString": "Basic and comfortable attire fit for a new Adventurer."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_M_MED_Legs_LightArmour_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_Legs_LightArmour_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "Weight": 3.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "ewbJ37oeTkypaVfRgI_GPg",
+      "InternalName": "armour_legs_adventurers"
+    }
+  }
+]

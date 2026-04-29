@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Pattern_Armor_Cape_Stormtouched",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_Stormtouched'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Stormtouched.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "671969924A5AB04ABEE13DAC81549DB8",
+        "SourceString": "Learn",
+        "LocalizedString": "Learn"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0CBD2FB5428CDDB615D99382258DA4DD",
+        "SourceString": "Stormtouched Cape",
+        "LocalizedString": "Stormtouched Cape"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Cape_Stormtouched'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Stormtouched.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Silk_Cloth_01.SM_Silk_Cloth_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Pattern"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "HXTwikfI0J0gp7mqDHAnxg",
+      "InternalName": "pattern_armor_cape_stormtouched",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

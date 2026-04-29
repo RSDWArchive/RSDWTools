@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T6_Head_Mystic",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Mystic'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Textiles/ITEM_Resources_Cloth_Mystic"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Cursed'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Cursed"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DemonicOil'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_DemonicOil"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Armour_T6_Head_Mystic'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_Mystic"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "JYuhaUqnDyEBtaa9sSxeiw",
+      "InternalName": "recipe_armour_head_mystic"
+    }
+  }
+]

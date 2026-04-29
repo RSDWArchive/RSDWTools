@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Arrows_Mithril_Bodkin",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/ArrowHeads/SM_ArrowHead_Mithril_01.SM_ArrowHead_Mithril_01",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Arrows/SM_ArrowBody_Wood_01.SM_ArrowBody_Wood_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "AdditionalDamageFraction": 3.4
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+      },
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MithrilArrows",
+        "SourceString": "Mithril Arrows",
+        "LocalizedString": "Mithril Arrows"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MithrilArrows",
+        "SourceString": "Arrows with tips forged from mithril.",
+        "LocalizedString": "Arrows with tips forged from mithril."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mithril_Arrows'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Arrows"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 6,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Iron"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Arrow"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "Rmi6eEWsjAHV4U-c_KOydQ",
+      "InternalName": "ammo_arrows_mithril"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Granite",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Granite",
+        "SourceString": "Granite",
+        "LocalizedString": "Granite"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F668ED0446B33B52C78A8A8BF0B51B1C",
+        "SourceString": "A dense stone used for construction and crafting. Very commonly found underground, in mines and dungeons.",
+        "LocalizedString": "A dense stone used for construction and crafting. Very commonly found underground, in mines and dungeons."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Granite'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Granite.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Stone/SM_Stone_01.SM_Stone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Chunky"
+      },
+      "PersistenceID": "83Kcm0CpBOcYsk-eo-dfMw",
+      "InternalName": "res_granite"
+    }
+  }
+]

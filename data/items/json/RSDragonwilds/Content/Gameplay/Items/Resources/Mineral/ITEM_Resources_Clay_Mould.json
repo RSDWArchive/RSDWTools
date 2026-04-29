@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Clay_Mould",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ClayMould",
+        "SourceString": "Clay Mould",
+        "LocalizedString": "Clay Mould"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "FC702091486A73BBFFA7FCBA1F637F84",
+        "SourceString": "A blank canvas for creating enchanted amulets, just add precious metals and gems.",
+        "LocalizedString": "A blank canvas for creating enchanted amulets, just add precious metals and gems."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Clay_Mould'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Clay_Mould.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Amulet_Mould/SM_Amulet_Mould_01.SM_Amulet_Mould_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Component"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "PersistenceID": "zEg0M0VWEp6-wLOhkvYJ8A",
+      "InternalName": "res_clay_mould"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ground_Sandstone",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GroundSandstone",
+        "SourceString": "Ground Sandstone",
+        "LocalizedString": "Ground Sandstone"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "2887DB06413E00FD1EAB1B9CE18A2E59",
+        "SourceString": "Fine sand ground from sandstone, with the proper tools it can be made into glass in the Furnace.",
+        "LocalizedString": "Fine sand ground from sandstone, with the proper tools it can be made into glass in the Furnace."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Ground_Sandstone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Sandstone.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Sand/SM_Sand_01.SM_Sand_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.3,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "PersistenceID": "FcnXn0Sq3OS7tJKuCRAc1A",
+      "InternalName": "res_ground_sandstone"
+    }
+  }
+]

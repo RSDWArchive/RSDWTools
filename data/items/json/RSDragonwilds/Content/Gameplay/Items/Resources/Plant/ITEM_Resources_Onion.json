@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Onion",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Onion",
+        "SourceString": "Onion",
+        "LocalizedString": "Onion"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "553F125448C3CD757483DAA2801D4C87",
+        "SourceString": "A vegetable that often brings a tear to your eye.",
+        "LocalizedString": "A vegetable that often brings a tear to your eye."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Onion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Onion.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 3,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "JsMp30dRbfOXIPuy-4NmFA",
+      "InternalName": "food_onion"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BP_Consumables_Wardstone_C",
+    "Name": "ITEM_Consumable_Wardstone_Medium",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.BP_Consumables_Wardstone_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Wardstone_C'Default__BP_Consumables_Wardstone_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VitalShieldRowHandle": {
+        "RowName": "wardstone_medium"
+      },
+      "StatDuration": {
+        "TableId": "/Game/Gameplay/SurvivalCore/ST_SurvivalCore.ST_SurvivalCore",
+        "Key": "Lifeward.TimeToUse",
+        "SourceString": "Activation",
+        "LocalizedString": "Activation"
+      },
+      "ConsumeXpEvent": {
+        "RowName": "Consume_Wardstone"
+      },
+      "Duration": 1.0,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MediumWardstone",
+        "SourceString": "Medium Wardstone",
+        "LocalizedString": "Medium Wardstone"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "B2D16B4F45F7903667E528B80310D124",
+        "SourceString": "Recharges your armour with a moderate amount of lifeward.",
+        "LocalizedString": "Recharges your armour with a moderate amount of lifeward."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'Wardstone_Medium'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_08/Wardstone_Medium.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wardstone/SM_Wardstone.SM_Wardstone",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 25,
+      "Weight": 5.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.RuneEssence"
+      },
+      "PersistenceID": "u-HYwkRw-MdC8hSQnS84Vw",
+      "InternalName": "vitality_wardstone_medium",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Wardstone_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.0"
+      }
+    }
+  }
+]

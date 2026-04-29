@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Fuel_Resources_Fuel_Pellet",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 360.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FuelPellet",
+        "SourceString": "Fuel Pellet",
+        "LocalizedString": "Fuel Pellet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FuelPellet",
+        "SourceString": "A high temperature fuel. Needed to smelt more advanced metals. ",
+        "LocalizedString": "A high temperature fuel. Needed to smelt more advanced metals. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Fuel_Pellet'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_icon_Fuel_Pellet.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Stone_Blocks/SM_Block_FuelPellet.SM_Block_FuelPellet",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "PersistenceID": "Br8lTU45wX65kDigZkkgAg",
+      "InternalName": "res_fuel_pellet"
+    }
+  }
+]

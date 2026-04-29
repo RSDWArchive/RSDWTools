@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DamagedActorHasTag_Condition",
+    "Name": "DamagedActorHasTag_Condition_0",
+    "Outer": "ITEM_Trinket_Quest_Salve_Amulet",
+    "Class": "UScriptClass'DamagedActorHasTag_Condition'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Tag": {
+        "TagName": "AI.Category.Undead"
+      }
+    }
+  },
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Quest_Salve_Amulet",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "bLosesDurabilityOnDamageCaused": true,
+      "CanLoseDurabilityOnDamageCausedConditions": [
+        {
+          "ObjectName": "DamagedActorHasTag_Condition'ITEM_Trinket_Quest_Salve_Amulet:DamagedActorHasTag_Condition_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Quest_Salve_Amulet.0"
+        }
+      ],
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_ModifyDamageByReceiverTypeUndead_SalveAmulet_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_ModifyDamageByReceiverTypeUndead_SalveAmulet.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.SalveAmulet",
+        "SourceString": "Salve Amulet",
+        "LocalizedString": "Salve Amulet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SalveAmulet",
+        "SourceString": "A powerful amulet made from a crystal that has absorbed the magical blessings of the River Salve.",
+        "LocalizedString": "A powerful amulet made from a crystal that has absorbed the magical blessings of the River Salve."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Amulet_Salve'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_Salve.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 2500,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "Trinket.SalveAmulet.Description",
+            "SourceString": "Increased DAMAGE to UNDEAD enemies",
+            "LocalizedString": "Increased DAMAGE to UNDEAD enemies"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "LD2aYUnB_pK6aHOn64cemw",
+      "InternalName": "trinket_salve_amulet"
+    }
+  }
+]

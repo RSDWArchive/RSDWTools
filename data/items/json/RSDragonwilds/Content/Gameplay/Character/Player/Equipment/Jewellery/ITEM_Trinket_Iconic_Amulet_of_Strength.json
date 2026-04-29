@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "AttackingEquipmentMatchesAnyTag_Condition",
+    "Name": "AttackingEquipmentMatchesAnyTag_Condition_0",
+    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Strength",
+    "Class": "UScriptClass'AttackingEquipmentMatchesAnyTag_Condition'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Tags": [
+        "Item.Equipment.Weapon.1H",
+        "Item.Equipment.Weapon.2H"
+      ]
+    }
+  },
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Amulet_of_Strength",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnDamageReceived": false,
+      "CanLoseDurabilityOnAttackConditions": [
+        {
+          "ObjectName": "AttackingEquipmentMatchesAnyTag_Condition'ITEM_Trinket_Iconic_Amulet_of_Strength:AttackingEquipmentMatchesAnyTag_Condition_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Strength.0"
+        }
+      ],
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_IncreaseSpecificWeaponDamage_AmuletOfStrength_TwoHanded_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_IncreaseSpecificWeaponDamage_AmuletOfStrength_TwoHanded.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_IncreaseSpecificWeaponDamage_AmuletOfStrength_OneHanded_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_IncreaseSpecificWeaponDamage_AmuletOfStrength_OneHanded.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.AmuletofStrength",
+        "SourceString": "Amulet of Strength",
+        "LocalizedString": "Amulet of Strength"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Trinket.AmuletOfStrength.FlavourText",
+        "SourceString": "An enchanted amulet favoured by warriors. ",
+        "LocalizedString": "An enchanted amulet favoured by warriors. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Amulet_of_Strength'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Strength.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 2500,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "Trinket.AmuletOfStrength.Description",
+            "SourceString": "Increased MELEE DAMAGE",
+            "LocalizedString": "Increased MELEE DAMAGE"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "4EKck0Gae8VbebeQZ0DANA",
+      "InternalName": "trinket_amulet_of_strength"
+    }
+  }
+]

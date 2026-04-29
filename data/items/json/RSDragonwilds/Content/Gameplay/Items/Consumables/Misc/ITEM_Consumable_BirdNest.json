@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_BirdNest",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers.ITEM_Resources_Feathers",
+            "SubPathString": ""
+          },
+          "MinToDrop": 3,
+          "MaxToDrop": 5,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Coarse_Animal_Fur.ITEM_Resources_Coarse_Animal_Fur",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 2,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Egg.ITEM_Resources_Egg",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.ITEM_Farming_TreeSeed_Ash",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.15,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds.ITEM_Resources_Weeds",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.15,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "SkillXPGainOnConsume": {
+        "SkillData": {
+          "ObjectName": "SkillData'SKILL_Woodcutting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        },
+        "XP": 20
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Bird_Nest"
+      },
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "Namespace": "",
+        "Key": "71C4684F438FFE0ABD3EE097FD8344D1",
+        "SourceString": "Bird Nest",
+        "LocalizedString": "Bird Nest"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "4FA2013A4433B2338E8691BA1AE40BD0",
+        "SourceString": "I wonder what's inside..",
+        "LocalizedString": "I wonder what's inside.."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Bird_Nest'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bird_Nest.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Birds_Nest/SM_Birds_Nest_01.SM_Birds_Nest_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Pack.Birdnest"
+      },
+      "PersistenceID": "jnxM90O5-e7GHmKF9e0dhA",
+      "InternalName": "item_birdnest",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

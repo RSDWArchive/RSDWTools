@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fibres_Mystic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticFibres",
+        "SourceString": "Mystic Fibres",
+        "LocalizedString": "Mystic Fibres"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MysticFibre",
+        "SourceString": "Dropped from Zamorak magi. Can be spun at a spinning wheel into mystic thread.",
+        "LocalizedString": "Dropped from Zamorak magi. Can be spun at a spinning wheel into mystic thread."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mystic_Fibres'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Fibres"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Corpse_Cotton/SM_Corpse_Cotton.SM_Corpse_Cotton",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Thread"
+      },
+      "PersistenceID": "L90H-kMtgkcomlmEb1cedg",
+      "InternalName": "res_cloth_fibres_mystic"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Dragon_Blue_Lesser",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonLeather",
+        "SourceString": "Blue Dragon Leather",
+        "LocalizedString": "Blue Dragon Leather"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonhideLeather",
+        "SourceString": "Made by tanning blue dragonhide. A key component for ranged armour.",
+        "LocalizedString": "Made by tanning blue dragonhide. A key component for ranged armour."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Hide_Leather'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide_Leather"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Blue_Dragonhide_Leather/SM_Blue_Dragonhide_Leather_01.SM_Blue_Dragonhide_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "fb2RhkyQZbMp8siy7s1smA",
+      "InternalName": "res_leather_dragon_blue_lesser"
+    }
+  }
+]

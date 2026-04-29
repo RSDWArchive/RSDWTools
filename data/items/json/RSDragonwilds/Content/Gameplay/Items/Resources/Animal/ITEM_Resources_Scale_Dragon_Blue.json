@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Scale_Dragon_Blue",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonScale",
+        "SourceString": "Blue Dragon Scale",
+        "LocalizedString": "Blue Dragon Scale"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonScale",
+        "SourceString": "Obtained from felled Lesser Blue Dragons. Can be ground into blue dragon dust.",
+        "LocalizedString": "Obtained from felled Lesser Blue Dragons. Can be ground into blue dragon dust."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Scale'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Scale"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.DragonScale"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "tM_S1EEP0EUAbNCCQZi5Og",
+      "InternalName": "res_scale_dragon_blue"
+    }
+  }
+]

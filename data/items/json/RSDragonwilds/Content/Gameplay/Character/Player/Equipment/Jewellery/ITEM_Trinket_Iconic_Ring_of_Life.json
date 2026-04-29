@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Ring_of_Life",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bBreakOnSingleUse": true,
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_RespawnLowHealth_RingOfLife_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_RespawnLowHealth_RingOfLife.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.RingofLife",
+        "SourceString": "Ring of Life",
+        "LocalizedString": "Ring of Life"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Ring_of_Life'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Life.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 1,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "Trinket.RingOfLife.Description",
+            "SourceString": "When close to DEATH, TELEPORTS you to your current BED",
+            "LocalizedString": "When close to DEATH, TELEPORTS you to your current BED"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "xPzAAUqcRS8ZetuUKSJG5Q",
+      "InternalName": "trinket_ring_of_life"
+    }
+  }
+]

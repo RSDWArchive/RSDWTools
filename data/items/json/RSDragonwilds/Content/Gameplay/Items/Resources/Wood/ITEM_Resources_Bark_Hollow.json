@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Bark_Hollow",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HollowBark",
+        "SourceString": "Hollow Bark",
+        "LocalizedString": "Hollow Bark"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "HollowBark",
+        "SourceString": "Found lying around Fellhollow, around long-dead trees. Used in the crafting.",
+        "LocalizedString": "Found lying around Fellhollow, around long-dead trees. Used in the crafting."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Hollow_Bark'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hollow_Bark.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Anima_Infused_Bark/SM_Anima_Infused_Bark_01.SM_Anima_Infused_Bark_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "kSC5h08_DEq2H7CMAVDN9Q",
+      "InternalName": "res_bark_hollow"
+    }
+  }
+]

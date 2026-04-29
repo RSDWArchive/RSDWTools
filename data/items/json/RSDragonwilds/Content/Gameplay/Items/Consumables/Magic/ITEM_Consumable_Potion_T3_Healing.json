@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BP_Consumables_ChangeHealth_C",
+    "Name": "ITEM_Consumable_Potion_T3_Healing",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ChangeHealth.BP_Consumables_ChangeHealth_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ChangeHealth_C'Default__BP_Consumables_ChangeHealth_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ChangeHealth.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HealthChange": 80.0,
+      "UseVerb": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+        "Key": "DrinkNoun",
+        "SourceString": "Drink",
+        "LocalizedString": "Drink"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Lesser_Potion"
+      },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ModifyHealth_Increase_C'ITEM_Consumable_Potion_T3_Healing:GE_ModifyHealth_Increase_C_1'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Healing.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HealingPotion",
+        "SourceString": "Healing Potion",
+        "LocalizedString": "Healing Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "HealingPotion",
+        "SourceString": "Recovers some lost health. Made with irit and redberries.",
+        "LocalizedString": "Recovers some lost health. Made with irit and redberries."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "0D20A6B44BD366C9DB64D3B380103165",
+            "SourceString": "+80 Health",
+            "LocalizedString": "+80 Health"
+          }
+        }
+      ],
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Red'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Red"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Health'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/T_Icon_Health.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Potion"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "PersistenceID": "rxKE_k4GIeA6PSC8dKu6TQ",
+      "InternalName": "potion_t3_healing",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ChangeHealth_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ChangeHealth.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_ModifyHealth_Increase_C",
+    "Name": "GE_ModifyHealth_Increase_C_1",
+    "Outer": "ITEM_Consumable_Potion_T3_Healing",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
+    "Template": {
+      "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 80.0
+        }
+      }
+    }
+  }
+]

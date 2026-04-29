@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Mushroom",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BittercapMushroom",
+        "SourceString": "Bittercap Mushroom",
+        "LocalizedString": "Bittercap Mushroom"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F9FCCF8D4C96295FBA8C80BAD907945D",
+        "SourceString": "A tasty mushroom. Can be used in a variety of cooking recipes.",
+        "LocalizedString": "A tasty mushroom. Can be used in a variety of cooking recipes."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bittercap_Mushroom'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bittercap_Mushroom.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Bittercap_Mushroom/SM_Bittercap_Mushroom.SM_Bittercap_Mushroom",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "Bt9mnlMVnkipaZStzKEdmg",
+      "InternalName": "food_mushroom"
+    }
+  }
+]

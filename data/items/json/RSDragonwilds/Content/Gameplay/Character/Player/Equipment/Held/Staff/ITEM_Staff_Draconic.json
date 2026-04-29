@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Staff_Draconic",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Staff/BP_Staff_Draconic.BP_Staff_Draconic_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Staff_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/A_PlayerM_Idle_Staff_Poses.0"
+      },
+      "DamageMultiplier": 4.1,
+      "CriticalHitChanceIncrease": 0.15,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DraconicStaff",
+        "SourceString": "Draconic Staff",
+        "LocalizedString": "Draconic Staff"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "B9F30A95464074F37FF175B142103030",
+        "SourceString": "An ancient Dragonkin staff used by the mages of old.",
+        "LocalizedString": "An ancient Dragonkin staff used by the mages of old."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "C85EFA3142F360BE719ECEB32BACA4C3",
+            "SourceString": "Durability",
+            "LocalizedString": "Durability"
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "DE83B9AD4667EAC25D5A3981C8A26939",
+            "SourceString": "-15%",
+            "LocalizedString": "-15%"
+          }
+        },
+        {
+          "Name": {
+            "Namespace": "",
+            "Key": "0B125B60415755A0863F37874D0675F2",
+            "SourceString": "Crit Hit Chance",
+            "LocalizedString": "Crit Hit Chance"
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "1E5097424D789CDFB5D8F999C23EAFAA",
+            "SourceString": "+15%",
+            "LocalizedString": "+15%"
+          }
+        }
+      ],
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Staff_Draconic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Draconic.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Battlestaff_Draconic_2H_01/SM_Battlestaff_Draconic_2H_01.SM_Battlestaff_Draconic_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Staff"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Magic"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "BaseDurability": 1100,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "ALn1jUyxkFwgIHmHAGkoxg",
+      "InternalName": "weap_staff_draconic"
+    }
+  }
+]

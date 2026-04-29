@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_Head_AnglersHat",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_AnglersHat_MeshData_Male'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_AnglersHat_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_AnglersHat_MeshData_Female'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_AnglersHat_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "ITEM_Armour_Head_AnglersHat"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Fishing_AnglerHat_C'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/GE_Fishing_AnglerHat"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AnglersHat",
+        "SourceString": "Angler's Hat",
+        "LocalizedString": "Angler's Hat"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AnglersHat",
+        "SourceString": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node.",
+        "LocalizedString": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+            "Key": "PerkDescription_AnglersHat",
+            "SourceString": null,
+            "LocalizedString": null
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "7A8F807540617878AE3935AC7AB30DB9",
+            "SourceString": "+10%",
+            "LocalizedString": "+10%"
+          }
+        }
+      ],
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Anglers_Hat'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Anglers_Hat"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 1,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Special.Fishing.AnglersHat"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1250,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "clW1z0OG0RwzS7mfCP1p1g",
+      "InternalName": "armour_head_anglershat"
+    }
+  }
+]

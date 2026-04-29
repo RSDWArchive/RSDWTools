@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Rune_Water",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WaterRune",
+        "SourceString": "Water Rune",
+        "LocalizedString": "Water Rune"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WaterRune",
+        "SourceString": "A symbol of flowing waters, essential for water-based magic and other spells. \r\n\r\nRunes are retained if you happen to die.",
+        "LocalizedString": "A symbol of flowing waters, essential for water-based magic and other spells. \r\n\r\nRunes are retained if you happen to die."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Rune_Water'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Water.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 9999,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Rune"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "bbLdJRhwPEWt1ScENYRUCg",
+      "InternalName": "res_rune_water"
+    }
+  }
+]

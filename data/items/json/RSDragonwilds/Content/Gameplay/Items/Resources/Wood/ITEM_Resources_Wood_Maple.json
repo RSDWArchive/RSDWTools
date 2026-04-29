@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Wood_Maple",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 150.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MapleLogs",
+        "SourceString": "Maple Logs",
+        "LocalizedString": "Maple Logs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MapleLogs",
+        "SourceString": "Cut from maple trees. Can be crafted into various equipment.",
+        "LocalizedString": "Cut from maple trees. Can be crafted into various equipment."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Maple_Logs'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Resources_Maple_Logs"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Maple_Log/SM_Chopped_Maple_log_01.SM_Chopped_Maple_log_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "ihb_x8sSRkCU2Nnatr2Ytw",
+      "InternalName": "res_wood_maple"
+    }
+  }
+]

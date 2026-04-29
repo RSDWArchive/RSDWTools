@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Pristine_Lobster",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LobsterPristine",
+        "SourceString": "Pristine Lobster",
+        "LocalizedString": "Pristine Lobster"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LobsterPristine",
+        "SourceString": "An unusually large Lobster, worthy of putting it on the wall as trophy or cook it to gain more food.",
+        "LocalizedString": "An unusually large Lobster, worthy of putting it on the wall as trophy or cook it to gain more food."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lobster_Pristine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Lobster_Pristine"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Lobster_01/SM_Fish_Lobster_01.SM_Fish_Lobster_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 4.8,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "ItemFilter.Material.PristineFish",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "PersistenceID": "ssWu9kTc1NCQljSNukqitg",
+      "InternalName": "res_fish_pristine_lobster"
+    }
+  }
+]

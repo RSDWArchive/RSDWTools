@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_DowdunReach_Weapon_Greataxe_Black",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+          },
+          "Count": 300
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Greataxe_Black'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Greataxe_Black.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Felhollow.Recipe.Weapon.Greatsword"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "tGp9wU_4XUI8LiuuC39E0g",
+      "InternalName": "RECIPE_Vendor_DowdunReach_Weapons_Greataxe_Black"
+    }
+  }
+]

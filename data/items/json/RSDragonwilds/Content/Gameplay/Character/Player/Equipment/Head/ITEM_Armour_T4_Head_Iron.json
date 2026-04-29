@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T4_Head_Iron",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Iron_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Iron_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Iron_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Iron_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T4_Head_Iron"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronHelmet",
+        "SourceString": "Iron Helmet",
+        "LocalizedString": "Iron Helmet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "IronHelmet",
+        "SourceString": "Protect your head with this sturdy iron headgear.",
+        "LocalizedString": "Protect your head with this sturdy iron headgear."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_F_MED_HEAD_IronArmour_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icon_F_MED_HEAD_IronArmour_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 8.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "PxHJuE6PgUKY-zugyUXSUQ",
+      "InternalName": "armour_head_iron"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_SilverOre",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "SilverOre",
+        "SourceString": "Silver Ore",
+        "LocalizedString": "Silver Ore"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "E7822E5F41CFDF9BFF38B4A5AE750151",
+        "SourceString": "A rare, precious ore. It can be smelted into silver bars at a furnace.",
+        "LocalizedString": "A rare, precious ore. It can be smelted into silver bars at a furnace."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Ore_Silver'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Silver.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Silver_Ore_Small_01.SM_Silver_Ore_Small_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.4,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Debris"
+      },
+      "PersistenceID": "xawyKY4sAkmNcNuINCw3ww",
+      "InternalName": "res_ore_silver"
+    }
+  }
+]

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
+  <title>Character Editor — RSDWTools</title>
+  <link rel="icon" href="/shared/assets/logo.png" />
+  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="/shared/shared-header.css" />
+  <link rel="stylesheet" href="/shared/site-shell.css" />
+</head>
+<body class="character-editor-page" data-tool="character-editor">
+  <div id="rsdw-header-mount"></div>
+
+  <details class="landing-logo__dropdown">
+    <summary class="landing-logo__dropdown-summary">How do I use this?</summary>
+    <div class="landing-logo__dropdown-content">
+      <p>Click on the plus (+) icon in the Character Editor section and select your Save file.</p>
+      <p>Change your name, customize your character, set infinite upkeep if you want... and hit Save!</p>
+      <br />
+      <p>Your Save file is here (paste this into your file explorer):</p>
+      <p class="landing-logo__dropdown-path"><code>%localappdata%\RSDragonwilds\Saved\SaveCharacters\</code></p>
+      <br />
+      <p>Disclaimer: data is compiled from the latest game files automatically. Always back up your save before editing.</p>
+    </div>
+  </details>
+
+  <div class="item-editor-wrapper">
+    <main class="page-layout">
+      <section class="item-browser character-editor-panel">
+        <div class="corner-overlay corner-overlay--tl"></div>
+        <div class="corner-overlay corner-overlay--tr"></div>
+        <div class="panel-header panel-header--browser">
+          <div class="panel-badge">
+            <img src="/tools/character-editor/assets/character_editor.png" alt="Character editor" />
+            <span class="panel-badge__text">Character Editor</span>
+          </div>
+          <div class="panel-header-actions">
+            <button class="icon-button icon-button--load" id="load-button" type="button">
+              <img id="load-icon" src="/shared/game-ui/Landing/Load_Character.png" alt="Load character" />
+            </button>
+            <button class="icon-button icon-button--save hidden" id="save-button" type="button">
+              <img src="/shared/game-ui/Landing/Save.png" alt="Save character" />
+            </button>
+          </div>
+          <input type="file" id="character-file" accept=".json" />
+        </div>
+        <div class="status-bar status-bar--unloaded" aria-live="polite">
+          <img class="status-bar__icon" src="/shared/game-ui/Status/status_unloaded_icon.png" alt="" />
+          <div class="status-text" id="status-text">
+            Load a character file to edit player data.
+          </div>
+        </div>
+
+        <div class="panel-title">Player Name</div>
+        <div class="character-section">
+          <label class="character-field">
+            <span>Player Name</span>
+            <input type="text" id="player-name" placeholder="Character name" />
+          </label>
+        </div>
+
+        <div class="panel-title">Character Type</div>
+        <div class="character-section">
+          <label class="character-field">
+            <span>Character Type</span>
+            <select id="character-type">
+              <option value="0">Standard</option>
+              <option value="1">Hardcore</option>
+              <option value="2">Creative</option>
+              <option value="3">Custom</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="panel-title">Character GUID</div>
+        <div class="character-section">
+          <label class="character-field">
+            <span>Character GUID</span>
+            <input type="text" id="character-guid" placeholder="32-character GUID" maxlength="32" pattern="[0-9A-Fa-f]{32}" />
+          </label>
+        </div>
+
+        <div class="panel-title">Character Customization</div>
+        <div class="character-section customization-grid" id="customization-grid">
+          <div class="character-field"><span>BodyType</span><select data-customization="BodyType"></select></div>
+          <div class="character-field"><span>Head</span><select data-customization="Head"></select></div>
+          <div class="character-field"><span>HairPreset</span><select data-customization="HairPreset"></select></div>
+          <div class="character-field"><span>FacialHairPreset</span><select data-customization="FacialHairPreset"></select></div>
+          <div class="character-field"><span>SkinTone</span><select data-customization="SkinTone"></select></div>
+          <div class="character-field"><span>HairColor</span><select data-customization="HairColor"></select></div>
+          <div class="character-field"><span>EyeColor</span><select data-customization="EyeColor"></select></div>
+          <div class="character-field"><span>EyebrowColor</span><select data-customization="EyebrowColor"></select></div>
+        </div>
+
+        <div class="panel-title">Upkeep</div>
+        <div class="character-section upkeep-row" id="upkeep-row">
+          <button class="upkeep-tile" data-upkeep="Hydration" type="button">
+            <img class="upkeep-layer" src="/tools/character-editor/assets/attribute_bg.png" alt="" />
+            <img class="upkeep-layer upkeep-top" src="/tools/character-editor/assets/attribute_top.png" alt="" />
+            <img class="upkeep-icon" src="/tools/character-editor/assets/attribute_hydration.png" alt="Hydration" />
+            <img class="upkeep-infinite" src="/tools/character-editor/assets/attribute_infinte.png" alt="Infinite" />
+            <div class="upkeep-value">
+              <img src="/tools/character-editor/assets/attribute_text_bg.png" alt="" />
+              <span data-upkeep-value>0</span>
+            </div>
+          </button>
+          <img class="upkeep-divider" src="/tools/character-editor/assets/attribute_divider.png" alt="" />
+          <button class="upkeep-tile" data-upkeep="Sustenance" type="button">
+            <img class="upkeep-layer" src="/tools/character-editor/assets/attribute_bg.png" alt="" />
+            <img class="upkeep-layer upkeep-top" src="/tools/character-editor/assets/attribute_top.png" alt="" />
+            <img class="upkeep-icon" src="/tools/character-editor/assets/attribute_sustenance.png" alt="Sustenance" />
+            <img class="upkeep-infinite" src="/tools/character-editor/assets/attribute_infinte.png" alt="Infinite" />
+            <div class="upkeep-value">
+              <img src="/tools/character-editor/assets/attribute_text_bg.png" alt="" />
+              <span data-upkeep-value>0</span>
+            </div>
+          </button>
+          <img class="upkeep-divider" src="/tools/character-editor/assets/attribute_divider.png" alt="" />
+          <button class="upkeep-tile" data-upkeep="Endurance" type="button">
+            <img class="upkeep-layer" src="/tools/character-editor/assets/attribute_bg.png" alt="" />
+            <img class="upkeep-layer upkeep-top" src="/tools/character-editor/assets/attribute_top.png" alt="" />
+            <img class="upkeep-icon" src="/tools/character-editor/assets/attribute_endurance.png" alt="Endurance" />
+            <img class="upkeep-infinite" src="/tools/character-editor/assets/attribute_infinte.png" alt="Infinite" />
+            <div class="upkeep-value">
+              <img src="/tools/character-editor/assets/attribute_text_bg.png" alt="" />
+              <span data-upkeep-value>0</span>
+            </div>
+          </button>
+        </div>
+        <br />
+
+        <div class="panel-title">Skills</div>
+        <div class="character-section skills-grid" id="skills-grid">
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Woodcutting.png" alt="" />Woodcutting</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="4zYUGF5u_0KbMLkWJmmBbQ" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Artisan.png" alt="" />Artisan</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="Wf3i7Ha-B06DH719j1vtBw" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Attack.png" alt="" />Attack</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="4pefO9k1lUqfA6mvHNi1SA" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Construction.png" alt="" />Construction</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="waK-8EyQFQ2xEjCGYmuTRQ" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Cooking.png" alt="" />Cooking</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="Tn7t6DQyX0-Q0cM5K7B90A" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Farming.png" alt="" />Farming</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="PyUi-0LU_riFY46AnnFiWg" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Magic.png" alt="" />Magic</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="0hreSMRVXUihq9qjDO2CFA" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Mining.png" alt="" />Mining</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="jqX0Gh6QI0GFFPCDFK_CJQ" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Ranged.png" alt="" />Ranged</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="heq7u88Q2UuLXFqLGTVwQw" />
+          </label>
+          <label class="character-field">
+            <span class="skill-label"><img class="skill-icon" src="/shared/game-ui/Character/Runecrafting.png" alt="" />Runecrafting</span>
+            <input type="number" min="0" step="1" inputmode="numeric" data-skill-id="NOqC-z-2ckqi0El22qMFlw" />
+          </label>
+        </div>
+
+        <div class="panel-title">Unlocker</div>
+        <div class="character-section">
+          <label class="character-field">
+            <span>Mount Unlocked</span>
+            <select id="mount-unlocked">
+              <option value="true">True</option>
+              <option value="false">False</option>
+            </select>
+          </label>
+          <label class="character-field">
+            <span>Map Unlocked</span>
+            <select id="map-unlocked">
+              <option value="true">True</option>
+              <option value="false">False</option>
+            </select>
+          </label>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="context-menu hidden" id="upkeep-context-menu" role="menu">
+    <button type="button" data-action="set-max">Set Max</button>
+    <button type="button" data-action="set-infinite">Set Infinite</button>
+    <button type="button" data-action="remove-infinite">Remove Infinite</button>
+  </div>
+
+  <div class="tooltip hidden" id="tooltip" role="tooltip">
+    <div class="tooltip__name" id="tooltip-name"></div>
+    <div class="tooltip__desc" id="tooltip-desc"></div>
+    <div class="tooltip__meta" id="tooltip-meta"></div>
+  </div>
+
+  <div class="modal-overlay hidden" id="count-modal">
+    <div class="modal">
+      <div class="modal-title">Set Quantity</div>
+      <div class="modal-body">
+        <label>
+          Quantity
+          <input type="number" id="count-input" min="1" />
+        </label>
+        <div class="modal-hint" id="count-hint"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="count-cancel">Cancel</button>
+        <button type="button" id="count-apply">Apply</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="alert-modal">
+    <div class="modal">
+      <div class="modal-title">Notice</div>
+      <div class="modal-body">
+        <div class="modal-hint" id="alert-message"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="alert-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rsdw-footer-mount"></div>
+
+  <script src="/shared/shared-header.js" defer></script>
+  <script src="/tools/character-editor/character-editor.js" defer></script>
+</body>
+</html>

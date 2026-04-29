@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Monstrous_Fang",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MonstrousFang",
+        "SourceString": "Monstrous Fang",
+        "LocalizedString": "Monstrous Fang"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
+        "Key": "MonstrousFangs",
+        "SourceString": "Large fangs used in creating deadly weaponry. ",
+        "LocalizedString": "Large fangs used in creating deadly weaponry. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Monstrous_Fang'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Monstrous_Fang.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Monstrous_Fang/SM_Monstrous_Fang_01.SM_Monstrous_Fang_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Bone"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "7MA-NkEejSNBooCvO4XI9w",
+      "InternalName": "res_monstrous_fang"
+    }
+  }
+]

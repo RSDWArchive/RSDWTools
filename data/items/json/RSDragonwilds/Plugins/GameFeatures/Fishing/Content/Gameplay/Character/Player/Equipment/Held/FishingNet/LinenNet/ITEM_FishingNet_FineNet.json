@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_FishingNet_FineNet",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingNet/LinenNet/BP_Fishing_FineNet.BP_Fishing_FineNet_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_CastNet_C'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Spells/Fishing/PA_CastNet"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Fishing_Net_2H_Poses_01'",
+        "ObjectPath": "/Fishing/Art/Animation/Animations/PlayerM/Skills/Fishing/A_PlayerM_Fishing_Net_2H_Poses_01"
+      },
+      "LeftHandIKBoneName": "Prop_SecondHandSocket",
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 3,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FineNet",
+        "SourceString": "Fine Net",
+        "LocalizedString": "Fine Net"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LinenNet",
+        "SourceString": "Made with two fine threads at a crafting table. An elegant little net.",
+        "LocalizedString": "Made with two fine threads at a crafting table. An elegant little net."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Net_3_Fine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Net_3_Fine"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Net_2H_03/SM_Fishing_Net_Linen.SM_Fishing_Net_Linen",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Fishing.Net"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingNet"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Net"
+      },
+      "BaseDurability": 420,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "Sf0E3UqE6GhMGk2XhghuJA",
+      "InternalName": "tool_fishing_net_fine"
+    }
+  }
+]

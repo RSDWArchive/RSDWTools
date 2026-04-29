@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Crossbow_Test",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Crossbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Crossbow.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_CrossBow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Crossbow/A_PlayerM_CrossBow_Poses.0"
+      },
+      "WindUpMaxMovementSpeedOverride": 300.0,
+      "DamageMultiplier": 1.9,
+      "DamageTypes": [
+        "DamageType.Ranged"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::CrossbowBolts",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "bRequiresReload": true,
+      "ReloadDuration": 2.0,
+      "ReloadQuickShotWindowStartTime": 0.6,
+      "ReloadQuickShotWindowDuration": 0.2,
+      "ReloadFailurePunishmentDuration": 1.0,
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Crossbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 1,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "Crossbow Test"
+      },
+      "FlavourText": {
+        "CultureInvariantString": "A debug asset"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Food_Carrot'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Food_Carrot.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Prop/Template/SM_Crossbow_01.SM_Crossbow_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 2,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Crossbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+      },
+      "BaseDurability": 850,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "aNR2BUvdBFibOMGlrhZQ3Q",
+      "InternalName": "weap_crossbow_test",
+      "bSoftDeleted": true
+    }
+  }
+]

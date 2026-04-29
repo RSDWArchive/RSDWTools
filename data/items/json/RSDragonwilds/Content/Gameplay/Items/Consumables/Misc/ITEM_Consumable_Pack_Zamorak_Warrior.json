@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_Pack_Zamorak_Warrior",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_Salvage_Mithril.ITEM_Resources_Salvage_Mithril",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 2,
+          "MaximumGrouping": 4,
+          "ProbabilityOfDrop": 0.25,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Scraps_Draconic.ITEM_Resources_Leather_Scraps_Draconic",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 2,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.75,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_Salvage_BlackMetal.ITEM_Resources_Salvage_BlackMetal",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 2,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.ITEM_Resources_Currency_DreamShard",
+            "SubPathString": ""
+          },
+          "MinToDrop": 0,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetal_Scraps.ITEM_Resources_BlackMetal_Scraps",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.4,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Draconic.ITEM_Resources_Leather_Draconic",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.1,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZamorakWarriorPack",
+        "SourceString": "Zamorakian Warrior Pack",
+        "LocalizedString": "Zamorakian Warrior Pack"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ZamorakWarriorPack",
+        "SourceString": "A sack holding the personal effects of a Zamorakian.",
+        "LocalizedString": "A sack holding the personal effects of a Zamorakian."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Zamorak_Warrior_Pack'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Warrior_Pack"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Zamorak_Napsack/SM_Zamorak_Napsack.SM_Zamorak_Napsack",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "0ZKBCU6_6BuBFhCE66pz0A",
+      "InternalName": "item_pack_zamorak_pack_warrior",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

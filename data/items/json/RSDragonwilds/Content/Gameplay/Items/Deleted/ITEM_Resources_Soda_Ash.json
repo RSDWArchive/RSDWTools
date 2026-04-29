@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Soda_Ash",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "dc0Cf0G0LytXhf6V-KtM2g",
+      "InternalName": "res_soda_ash",
+      "bSoftDeleted": true
+    }
+  }
+]

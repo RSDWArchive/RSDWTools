@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Potato",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Potato",
+        "SourceString": "Potato",
+        "LocalizedString": "Potato"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "5AD0696F46ACC05F4B939C8F106BF794",
+        "SourceString": "Definitely not a carrot.",
+        "LocalizedString": "Definitely not a carrot."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Potato'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Potato.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "HwM2_HvXZUyt8FmT4F2iYQ",
+      "InternalName": "food_potato"
+    }
+  }
+]

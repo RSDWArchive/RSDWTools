@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_TEST_Process_OnlyResourceAndFuel",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Fuel_Resources_Charcoal'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Fuel_Resources_Charcoal.0"
+          },
+          "Count": 1
+        }
+      ],
+      "PersistenceID": "FvvSueDBkkSU9iM5PWj3Pw",
+      "InternalName": "test_recipe_res_fuel"
+    }
+  }
+]

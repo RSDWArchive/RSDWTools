@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Tomato",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Plant_Tomato",
+        "SourceString": "Tomato",
+        "LocalizedString": "Tomato"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Res_Tomato",
+        "SourceString": "A Tasty Tomato.",
+        "LocalizedString": "A Tasty Tomato."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Tomato'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Tomato.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Tomato/SM_Tomato_Drop_01.SM_Tomato_Drop_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "9sGUYUTljibjYSOO3fbgIQ",
+      "InternalName": "food_tomato"
+    }
+  }
+]

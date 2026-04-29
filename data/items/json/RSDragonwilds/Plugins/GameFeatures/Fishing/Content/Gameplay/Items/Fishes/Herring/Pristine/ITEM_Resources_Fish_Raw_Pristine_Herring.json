@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Pristine_Herring",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HerringPristine",
+        "SourceString": "Pristine Herring",
+        "LocalizedString": "Pristine Herring"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "HerringPristine",
+        "SourceString": "An unusually large Herring, worthy of putting it on the wall as trophy or cook it to gain more food.",
+        "LocalizedString": "An unusually large Herring, worthy of putting it on the wall as trophy or cook it to gain more food."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Herring_Pristine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Herring_Pristine"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Herring_01/SM_Fish_Herring_01.SM_Fish_Herring_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 3,
+      "Weight": 3.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "ItemFilter.Material.PristineFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "PersistenceID": "RNEguUHWfm1Ru3m6-mbsYw",
+      "InternalName": "res_fish_pristine_herring"
+    }
+  }
+]

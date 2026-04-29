@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_GreatBodyRobbery_Body_03",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "Legs.Name",
+        "SourceString": "Goblin Legs",
+        "LocalizedString": "Goblin Legs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "Legs.Description",
+        "SourceString": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these. ",
+        "LocalizedString": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Skeletons/SM_Leg_R.SM_Leg_R",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "s8FuRk6XIY1cDRW1I9t1zQ",
+      "InternalName": "ITEM_Quest_GreatBodyRobbery_Body_03"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_Whetstone",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_Whetstone'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_Whetstone.0"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_Whetstone'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone.2"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "BD69734641EC32C224C078B9C65F122B",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Whetstone",
+        "SourceString": "Whetstone",
+        "LocalizedString": "Whetstone"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Whetstone",
+        "SourceString": "Use this to hone your equipped melee weapon.",
+        "LocalizedString": "Use this to hone your equipped melee weapon."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Whetstone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Whetstone.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Handheld_Whetstone/SM_Handheld_Whetstone_01.SM_Handheld_Whetstone_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "PersistenceID": "3wV1xUv5zBDHRiaAk2qv7w",
+      "InternalName": "item_whetstone"
+    }
+  }
+]

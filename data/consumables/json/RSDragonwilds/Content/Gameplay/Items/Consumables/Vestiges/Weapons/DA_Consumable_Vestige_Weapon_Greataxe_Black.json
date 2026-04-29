@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Greataxe_Black",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Weapon_GreatAxe_Black'",
+          "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/GreatAxe/RECIPE_Weapon_GreatAxe_Black"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "E6DD47B24E4DB50E54982E937C80D0D2",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Vestige.BlackGreataxe",
+        "SourceString": "Bloodstained hilt",
+        "LocalizedString": "Bloodstained hilt"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.BlackGreataxe",
+        "SourceString": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it. ",
+        "LocalizedString": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Black_Greataxe'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Greataxe"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "fDuc_UXNZlHbm5qWJHUK9A",
+      "InternalName": "vestige_weapon_greataxe_black",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

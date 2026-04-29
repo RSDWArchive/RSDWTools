@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Armour_Body_White",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T5_Body_White'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T5_Body_White.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "476C282E45EAD5A935E1E0B894387C63",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeBodyWhite",
+        "SourceString": "Dented White Pauldron",
+        "LocalizedString": "Dented White Pauldron"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.DeathsShopeGeneric.Armour",
+        "SourceString": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+        "LocalizedString": "The ancient remnants of some sort of armour. Perhaps you could learn something from it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_White_Body'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_White_Body.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "IWEccEfD9nvDoOaknYgClQ",
+      "InternalName": "vestige_armour_body_white",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

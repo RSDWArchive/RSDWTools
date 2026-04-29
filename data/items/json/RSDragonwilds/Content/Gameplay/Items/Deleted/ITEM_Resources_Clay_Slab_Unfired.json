@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Clay_Slab_Unfired",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "PersistenceID": "EK3fckHjkrHbATuNLd9Jhg",
+      "InternalName": "item_clay_slab_unfired_deleted",
+      "bSoftDeleted": true
+    }
+  }
+]

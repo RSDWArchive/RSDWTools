@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FH_MirrorMirror_Book",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+        "Key": "SpellBookName",
+        "SourceString": "Bedraggled Spellbook",
+        "LocalizedString": "Bedraggled Spellbook"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
+        "Key": "SpellBookDesc",
+        "SourceString": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
+        "LocalizedString": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\""
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Abraxus_Necromancer_Book'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Book_1.Book_1",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "SIm7DUR1h7EDCcGACB8JDA",
+      "InternalName": "ITEM_quest_FH_MirrorMirror_Book"
+    }
+  }
+]

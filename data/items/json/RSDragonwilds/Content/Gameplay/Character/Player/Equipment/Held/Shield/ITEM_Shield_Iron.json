@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "ShieldData",
+    "Name": "ITEM_Shield_Iron",
+    "Class": "UScriptClass'ShieldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArmorWeight": "EArmorWeight::Medium",
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/BP_Shield_Iron.BP_Shield_Iron_C",
+        "SubPathString": ""
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Shield_Kite_Iron_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Iron.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Kite_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Shield/A_PlayerM_Idle_Kite_Poses.0"
+      },
+      "BlockingDamageNegation": 46.0,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0CF68DEC470D2250D4736CA0A9B39A4B",
+        "SourceString": "Iron Shield",
+        "LocalizedString": "Iron Shield"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "D17DFA4C47B37416392E148E84FF4C38",
+        "SourceString": "A reliable, durable shield crafted from iron, perfect for tanking big hits.",
+        "LocalizedString": "A reliable, durable shield crafted from iron, perfect for tanking big hits."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Kite_Iron_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Kite_Iron_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_Iron_1H_01/SM_Kite_Iron_1H_01.SM_Kite_Iron_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Shield"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Shield"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Shield"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "tkzekFdbDkCd-7MwOjfbnQ",
+      "InternalName": "shield_kite_iron"
+    }
+  }
+]

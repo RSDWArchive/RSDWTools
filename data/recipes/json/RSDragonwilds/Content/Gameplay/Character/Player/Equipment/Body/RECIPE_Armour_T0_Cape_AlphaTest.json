@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T0_Cape_AlphaTest",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_AlphaTest'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_AlphaTest.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bIgnoreAutomaticUnlocks": true,
+      "SkillXPAwardedOnCraft": 0,
+      "PersistenceID": "b0yZ90myn0e7fHe3T8Rw5Q",
+      "InternalName": "recipe_armour_t0_cape_alphatest"
+    }
+  }
+]

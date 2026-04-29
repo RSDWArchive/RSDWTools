@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_UnusualTrout_Quest",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "QuestUnusualTrout",
+        "SourceString": "Unusual Trout",
+        "LocalizedString": "Unusual Trout"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "TroutUnusual",
+        "SourceString": "This trout has seen things. You almost feel apologetic for catching it.",
+        "LocalizedString": "This trout has seen things. You almost feel apologetic for catching it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Unusual_Trout'",
+        "ObjectPath": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/T_Icon_Unusual_Trout"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/SM_Fish_Unusual_Trout_01.SM_Fish_Unusual_Trout_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.1,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Trout"
+      },
+      "PersistenceID": "PGr-_U1RdW7DxSyRq38KHw",
+      "InternalName": "res_fish_unusualtrout_quest"
+    }
+  }
+]

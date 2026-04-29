@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T3_Fishing",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedFishing_C'ITEM_Consumable_Potion_Focused_T3_Fishing:GE_Potion_FocusedFishing_C_1'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "StandardFishingPotion",
+        "SourceString": "Focused Fishing Potion",
+        "LocalizedString": "Focused Fishing Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StandardFishingPotion",
+        "SourceString": "Increases XP gain for the Fishing skill. Made with irit and trout.",
+        "LocalizedString": "Increases XP gain for the Fishing skill. Made with irit and trout."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Turquoise'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Potion_Tier3_Turquoise"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+            "Key": "Item_BuffData_Potion_T2_Lesser",
+            "SourceString": null,
+            "LocalizedString": null
+          },
+          "Description": {
+            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+            "Key": "Item_BuffData_Info_Potion_T2_Lesser",
+            "SourceString": null,
+            "LocalizedString": null
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedFishing'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedFishing.0"
+          }
+        }
+      ],
+      "PersistenceID": "2xp9tUh_CS1H_R6om2FRWQ",
+      "InternalName": "potion_focused_t3_fishing",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "UObject",
+    "Name": "GE_Potion_FocusedFishing_C_1",
+    "Outer": "ITEM_Consumable_Potion_Focused_T3_Fishing",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T2_Legs_Reinforced",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Reinforced_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Reinforced_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Reinforced_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Reinforced_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T2_Legs_Reinforced"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A512A2D8428F05A31D276898F6F7FF13",
+        "SourceString": "Reinforced Platelegs",
+        "LocalizedString": "Reinforced Platelegs"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "419DBDAB4F815D22AD1F95919CF69B79",
+        "SourceString": "Heavy platelegs made from Leather and Bone. ",
+        "LocalizedString": "Heavy platelegs made from Leather and Bone. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_M_MED_LEGS_ReinforcedArmour_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_LEGS_ReinforcedArmour_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 2,
+      "Weight": 12.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather.Reinforced"
+      },
+      "BaseDurability": 1000,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "GZuI4kHd7c-hpqWq5Nbdpw",
+      "InternalName": "armour_legs_reinforced"
+    }
+  }
+]

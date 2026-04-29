@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_SwampWeed",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Swampweed",
+        "SourceString": "Swamp Weed",
+        "LocalizedString": "Swamp Weed"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "786166A0431AB98D07F27EBBF4D085CC",
+        "SourceString": "A hardy plant found in swamps and caves.",
+        "LocalizedString": "A hardy plant found in swamps and caves."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Swamp_Weed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Swamp_Weed.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.4,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "zsimokwEIE-BaUmW949QtQ",
+      "InternalName": "res_swampweed"
+    }
+  }
+]

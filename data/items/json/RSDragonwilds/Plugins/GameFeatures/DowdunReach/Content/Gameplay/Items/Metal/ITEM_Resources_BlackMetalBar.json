@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_BlackMetalBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackMetalBar",
+        "SourceString": "Black Metal Bar",
+        "LocalizedString": "Black Metal Bar"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlackMetalBar",
+        "SourceString": "A bar of reforged black metal scraps. Used to make Black Knight gear. ",
+        "LocalizedString": "A bar of reforged black metal scraps. Used to make Black Knight gear. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Black_Metal_Bar'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Metal_Bar"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Black_Bar/SM_Black_Bar_01.SM_Black_Bar_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "GE1KcEN1F8prN5WT6LnDZg",
+      "InternalName": "res_bar_blackmetal"
+    }
+  }
+]

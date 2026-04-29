@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Leather",
+        "SourceString": "Leather",
+        "LocalizedString": "Leather"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "5A2773A647EA6519916DE69D566C2B87",
+        "SourceString": "A basic crafting material created from animal hide and commonly used for making equipment.",
+        "LocalizedString": "A basic crafting material created from animal hide and commonly used for making equipment."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Leather'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Leather.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Leather/SM_Leather_01.SM_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.3,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Tanning_Rack_Processed_Item"
+      },
+      "PersistenceID": "KejxKZhqBEy2BmyMUMidlA",
+      "InternalName": "res_leather"
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Arrows_Bone_Bleed",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/ArrowHeads/SM_ArrowHead_Bone_01.SM_ArrowHead_Bone_01",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Arrows/SM_ArrowBody_Wood_01.SM_ArrowBody_Wood_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail_Bleed.NS_Player_Arrow_Trail_Bleed",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "AdditionalDamageFraction": 1.0
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+      },
+      "Tier": 2,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "F914984349898BDCB1FDB4BD203B94ED",
+        "SourceString": "Fang Barbed Arrow",
+        "LocalizedString": "Fang Barbed Arrow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BoneArrows",
+        "SourceString": "Arrows with tips carved from animal fangs. ",
+        "LocalizedString": "Arrows with tips carved from animal fangs. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Arrows_Bone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Arrows_Bone.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 2,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Bone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Arrow"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Ammo.Arrow.Bleed"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "eUkqBUfmU0Z7i1eWFoBlhA",
+      "InternalName": "ammo_arrows_fang_barbed",
+      "bSoftDeleted": true
+    }
+  }
+]

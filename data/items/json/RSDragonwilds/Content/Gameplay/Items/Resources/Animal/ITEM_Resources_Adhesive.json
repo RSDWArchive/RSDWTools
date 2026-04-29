@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Adhesive",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Adhesive",
+        "SourceString": "Adhesive",
+        "LocalizedString": "Adhesive"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "09ADFEA04F84E00C823D3CA2CBACD183",
+        "SourceString": "Glue friendly or else I'll take away the glue and then nobody will have any glue to glue with!",
+        "LocalizedString": "Glue friendly or else I'll take away the glue and then nobody will have any glue to glue with!"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Adhesive'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Adhesive.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Adhesive"
+      },
+      "PersistenceID": "3_luxedD0kyY_dd3UKYvEQ",
+      "InternalName": "res_adhesive"
+    }
+  }
+]

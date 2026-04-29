@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Salvage_Steel",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SalvagePileSteel",
+        "SourceString": "Steel Salvage Pile",
+        "LocalizedString": "Steel Salvage Pile"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SalvagePileSteel",
+        "SourceString": "Scraps that can be searched through. It's the steel of the century.",
+        "LocalizedString": "Scraps that can be searched through. It's the steel of the century."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Salvage_Steel'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Steel"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Salvage"
+      },
+      "PersistenceID": "iPIO-EarGDwHMbu3ED65iw",
+      "InternalName": "res_salvage_steel"
+    }
+  }
+]

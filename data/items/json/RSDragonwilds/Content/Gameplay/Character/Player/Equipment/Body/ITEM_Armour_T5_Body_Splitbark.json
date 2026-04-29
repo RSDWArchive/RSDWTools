@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T5_Body_Splitbark",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_Splitbark_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Splitbark_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_Splitbark_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Splitbark_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T5_Body_Splitbark"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "Slot": "ELoadoutSlotStrategy::Body",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SplitbarkBody",
+        "SourceString": "Splitbark Body",
+        "LocalizedString": "Splitbark Body"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SplitbarkBody",
+        "SourceString": "Magical armour crafted from Fine Cloth and Hollow Bark. It has strange magical properties.",
+        "LocalizedString": "Magical armour crafted from Fine Cloth and Hollow Bark. It has strange magical properties."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Splitbark_Body'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Splitbark_Body.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 8.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Splitbark"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "TASgGUjnZPDyV6arZ72Yhg",
+      "InternalName": "armour_body_Splitbark"
+    }
+  }
+]

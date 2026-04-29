@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "BP_Consumables_SkillTome_C",
+    "Name": "ITEM_Consumable_Tome_Tier1_Construction",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.BP_Consumables_SkillTome_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_SkillTome_C'Default__BP_Consumables_SkillTome_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "XPEventHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Tomes'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/DT_XPEvents_Tomes.0"
+        },
+        "RowName": "Tome_Tier1_Construction"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SkillTome.Basic.Construction",
+        "SourceString": "Tome of Construction - Vol 1",
+        "LocalizedString": "Tome of Construction - Vol 1"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SkillTome.Basic.Construction",
+        "SourceString": "A book filled with knowledge about how to be a better architect. Awards a small amount of Construction XP. ",
+        "LocalizedString": "A book filled with knowledge about how to be a better architect. Awards a small amount of Construction XP. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Construction.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Construction.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Construction.SM_Skill_Tome_Construction",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Tome"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Skillbook"
+      },
+      "PersistenceID": "xKjZUEBiIC72rFitwW4m6Q",
+      "InternalName": "tome_t1_construction",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_SkillTome_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.0"
+      }
+    }
+  }
+]

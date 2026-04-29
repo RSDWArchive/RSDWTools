@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_FinishedFarmingTutorialPack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Farming/ITEM_Farming_CureDiseasePotion.ITEM_Farming_CureDiseasePotion",
+            "SubPathString": ""
+          },
+          "MinToDrop": 3,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Farming.ITEM_Consumable_Tome_Tier2_Farming",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE_Farming.ST_FTUE_Farming",
+        "Key": "Name_FinishedFarmingTutorialPack",
+        "SourceString": "Spare Farmers Supplies",
+        "LocalizedString": "Spare Farmers Supplies"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE_Farming.ST_FTUE_Farming",
+        "Key": "FlavourText_FinishedFarmingTutorialPack",
+        "SourceString": "A cloth bag with some useful items for farmers.",
+        "LocalizedString": "A cloth bag with some useful items for farmers."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Garou_Pack'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Garou_Pack.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 10,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs"
+      },
+      "PersistenceID": "RcJw8Ede_CIqdmSZCv-D2A",
+      "InternalName": "item_pack_finishedfarmingftuereward",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

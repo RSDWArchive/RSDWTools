@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Armour_Body_Ranger",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T5_Body_Ranger'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T5_Body_Ranger.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "38A00EAA439D030C4A5FA0910594A876",
+        "SourceString": "Study",
+        "LocalizedString": "Study"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VestigeBodyRanger",
+        "SourceString": "Slightly Chaffing Chestguard",
+        "LocalizedString": "Slightly Chaffing Chestguard"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Vestige.DeathsShopeGeneric.Armour",
+        "SourceString": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+        "LocalizedString": "The ancient remnants of some sort of armour. Perhaps you could learn something from it."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Ranger_Body'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Ranger_Body.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Vestige"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "3m5oKUFYPSFOVKyf_0rspA",
+      "InternalName": "vestige_armour_body_ranger",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

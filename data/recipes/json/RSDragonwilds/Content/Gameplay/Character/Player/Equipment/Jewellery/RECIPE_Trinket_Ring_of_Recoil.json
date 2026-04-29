@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Trinket_Ring_of_Recoil",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_GoldBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar.0"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Sapphire'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Sapphire.0"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "Count": 3
+        }
+      ],
+      "RepairItemReplacements": [
+        {
+          "OriginalItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould.0"
+          },
+          "NewItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+          },
+          "NewCount": 5
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Ring_of_Recoil'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Ring_of_Recoil.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "PersistenceID": "wrvMcU_V4L3QM3SmgUf9-w",
+      "InternalName": "recipe_trinket_ring_of_recoil"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Potion_Focused_T2_Lesser_Mining",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Sandstone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Sandstone.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Clay_Vessel'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Vessel.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Mining'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Mining.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Herblore_Lab_Recipe"
+      },
+      "PersistenceID": "DAMYrU8yX4jloZ604HaNgA",
+      "InternalName": "RECIPE_Consumable_Potion_Focused_T2_Lesser_Mining"
+    }
+  }
+]

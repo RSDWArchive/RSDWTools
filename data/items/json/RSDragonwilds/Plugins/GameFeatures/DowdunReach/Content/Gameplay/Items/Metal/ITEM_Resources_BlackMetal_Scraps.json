@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_BlackMetal_Scraps",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackMetalScraps",
+        "SourceString": "Black Metal Scraps",
+        "LocalizedString": "Black Metal Scraps"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlackMetalScraps",
+        "SourceString": "Dropped from Black Knights. Can be reforged into black metal at a blast furnace.",
+        "LocalizedString": "Dropped from Black Knights. Can be reforged into black metal at a blast furnace."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Black_Metal_Scraps'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Metal_Scraps"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Debris"
+      },
+      "PersistenceID": "Sy-LHUCi7MgzAKel9DwJiw",
+      "InternalName": "res_blackmetal_scraps"
+    }
+  }
+]

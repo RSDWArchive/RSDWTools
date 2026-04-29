@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Cloth_Mystic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticCloth",
+        "SourceString": "Mystic Cloth",
+        "LocalizedString": "Mystic Cloth"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MysticCloth",
+        "SourceString": "A magical textile, woven from mythic thread.",
+        "LocalizedString": "A magical textile, woven from mythic thread."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mystic_Cloth'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Cloth"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Cloths/SM_Mystic_Cloth_01.SM_Mystic_Cloth_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "PersistenceID": "tDzyYkIXSZN8A1m_VsrzWA",
+      "InternalName": "res_cloth_mystic"
+    }
+  }
+]

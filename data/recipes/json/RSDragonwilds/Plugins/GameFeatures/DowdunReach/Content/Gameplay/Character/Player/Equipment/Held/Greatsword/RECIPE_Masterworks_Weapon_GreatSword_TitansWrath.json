@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Weapon_GreatSword_TitansWrath",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_BlackMetalBar'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Metal/ITEM_Resources_BlackMetalBar"
+          },
+          "Count": 12
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Blue_Lesser'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_Dragon_Blue_Lesser"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Mystic'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Textiles/ITEM_Resources_Cloth_Mystic"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+          },
+          "Count": 64
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Masterworks_GreatSword_TitansWrath'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Masterworks_GreatSword_TitansWrath"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.BladeLarge.Titan"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 300,
+      "PersistenceID": "PzF6r0v9aps3QVSoWKGy0A",
+      "InternalName": "recipe_masterworks_greatsword_titanswrath"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Pattern_Armor_Cape_BlueDyad",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_BlueDyad'",
+          "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/RECIPE_Armour_T0_Cape_BlueDyad"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "950E46AD4F22167A6BFB018F5A170E3E",
+        "SourceString": "Learn",
+        "LocalizedString": "Learn"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AdventureCape3DowdunReach",
+        "SourceString": "Blue Dyad Cape",
+        "LocalizedString": "Blue Dyad Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AdventureCape3DowdunReach",
+        "SourceString": "A cape made for its looks more than any kind of magical potency. ",
+        "LocalizedString": "A cape made for its looks more than any kind of magical potency. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Adventurer_Capes_Pattern_02_Blue'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Adventurer_Capes_Pattern_02_Blue"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Pattern"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "UIyz90ADiizC2FCvmlK9rA",
+      "InternalName": "pattern_armor_cape_bluedyad",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

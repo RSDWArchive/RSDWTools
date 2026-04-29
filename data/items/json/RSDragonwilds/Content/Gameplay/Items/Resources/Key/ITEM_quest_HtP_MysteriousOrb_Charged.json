@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_HtP_MysteriousOrb_Charged",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+        "Key": "OrbNameCharged",
+        "SourceString": "Mysterious Orb [Charged]",
+        "LocalizedString": "Mysterious Orb [Charged]"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
+        "Key": "OrbDescCharged",
+        "SourceString": "An orb obtained from a statue in the Magic Institute, charged with magical energy.",
+        "LocalizedString": "An orb obtained from a statue in the Magic Institute, charged with magical energy."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Charged_Mysterious_Orb'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Charged_Mysterious_Orb.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Key/SM_BossSoul_Inner_OuterDungeon.SM_BossSoul_Inner_OuterDungeon",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "bjjJ1kCgKXKvMPyJC4YQkQ",
+      "InternalName": "ITEM_quest_HtP_chargedmysteriousOrb"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_AnimalBone",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "LargeBone",
+        "SourceString": "Animal Bone",
+        "LocalizedString": "Animal Bone"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "95CC64A6452699A16FEE90A9D433BD7A",
+        "SourceString": "A sturdy bone from a sizeable creature.",
+        "LocalizedString": "A sturdy bone from a sizeable creature."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Animal_Bone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Bone.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Animal_Bone/SM_Animal_Bone_01.SM_Animal_Bone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Bone"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "EnjZ-B1MLkuduCRe1oLNQw",
+      "InternalName": "res_bone"
+    }
+  }
+]

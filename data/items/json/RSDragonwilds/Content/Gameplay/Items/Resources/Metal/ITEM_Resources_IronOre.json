@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_IronOre",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "IronOre",
+        "SourceString": "Iron Ore",
+        "LocalizedString": "Iron Ore"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "577A8F704E225744E158708756063231",
+        "SourceString": "Mined from Iron deposits, it can be smelted at a Furnace.",
+        "LocalizedString": "Mined from Iron deposits, it can be smelted at a Furnace."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Ore_Iron'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Iron.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Iron_Ore_Small_01.SM_Iron_Ore_Small_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 3.6,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Debris"
+      },
+      "PersistenceID": "rTRm3cGOmUm1h1BMEYzTwA",
+      "InternalName": "res_ore_iron"
+    }
+  }
+]

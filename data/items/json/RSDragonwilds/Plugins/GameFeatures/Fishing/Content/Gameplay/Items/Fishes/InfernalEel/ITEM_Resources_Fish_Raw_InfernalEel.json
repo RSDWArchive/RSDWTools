@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_InfernalEel",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RawInfernalEel",
+        "SourceString": "Raw Infernal Eel",
+        "LocalizedString": "Raw Infernal Eel"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RawInfernalEel",
+        "SourceString": "Wriggly no more. Will need to be smoked before it goes near your palate.",
+        "LocalizedString": "Wriggly no more. Will need to be smoked before it goes near your palate."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Infernal_Eel'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Infernal_Eel"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Eel_Infernal_01/SM_Fish_Eel_Infernal_01.SM_Fish_Eel_Infernal_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 3.1,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "zG5G1U9iEo6yr8iBrdqm-w",
+      "InternalName": "res_fish_infernaleel"
+    }
+  }
+]

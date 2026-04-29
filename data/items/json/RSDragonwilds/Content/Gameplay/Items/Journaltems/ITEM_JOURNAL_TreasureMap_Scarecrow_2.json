@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "JournalItemData",
+    "Name": "ITEM_JOURNAL_TreasureMap_Scarecrow_2",
+    "Class": "UScriptClass'JournalItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "JournalData": {
+        "AssetPathName": "/Game/UI/JournalData/Entries/Knowledge/LoreScraps/JOURNAL_TreasureMap_Scarecrow_2.JOURNAL_TreasureMap_Scarecrow_2",
+        "SubPathString": ""
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
+        "Key": "Treasure.Map.1",
+        "SourceString": "Scarecrow's Treasure Map",
+        "LocalizedString": "Scarecrow's Treasure Map"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
+        "Key": "Scarecrow.Map.Desc",
+        "SourceString": "A sketched map... but to what?",
+        "LocalizedString": "A sketched map... but to what?"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Treasure_Map'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Treasure_Map.0"
+      },
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.TreasureMap"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "dPJ2IksSl_iRERaZ4wDLVA",
+      "InternalName": "Activity_Item_TreasureMap_Scarecrow_2"
+    }
+  }
+]

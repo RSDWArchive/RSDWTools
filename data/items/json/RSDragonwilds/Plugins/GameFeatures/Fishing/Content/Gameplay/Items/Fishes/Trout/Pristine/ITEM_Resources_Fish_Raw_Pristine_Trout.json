@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Pristine_Trout",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "TroutPristine",
+        "SourceString": "Pristine Trout",
+        "LocalizedString": "Pristine Trout"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "TroutPristine",
+        "SourceString": "An unusually large Trout, worthy of putting it on the wall as trophy or cook it to gain more food.",
+        "LocalizedString": "An unusually large Trout, worthy of putting it on the wall as trophy or cook it to gain more food."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Trout_Pristine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Trout_Pristine"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Trout_01/SM_Fish_Trout_01.SM_Fish_Trout_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 4.2,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "ItemFilter.Material.PristineFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "PersistenceID": "Z6RESk-dc5_GYBucx5C9hg",
+      "InternalName": "res_fish_pristine_trout"
+    }
+  }
+]

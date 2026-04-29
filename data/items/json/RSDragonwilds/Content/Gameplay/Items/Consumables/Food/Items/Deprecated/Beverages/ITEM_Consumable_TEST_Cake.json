@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_TEST_Cake",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Duration": 1200.0,
+      "Name": {
+        "Namespace": "",
+        "Key": "77B7A27242281654E2D2FFB77D56AAEF",
+        "SourceString": "TEST_Cake",
+        "LocalizedString": "TEST_Cake"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "A8CF5E4040552300FB2672A29B35351B",
+        "SourceString": "WIP",
+        "LocalizedString": "WIP"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Food_Cake'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Food_Cake.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Consumable/Food/SM_Cake_01.SM_Cake_01",
+        "SubPathString": ""
+      },
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Gulp"
+      },
+      "PersistenceID": "sHsduqfNRkWma9kGQQ8u-w",
+      "InternalName": "food_test_cake",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  }
+]

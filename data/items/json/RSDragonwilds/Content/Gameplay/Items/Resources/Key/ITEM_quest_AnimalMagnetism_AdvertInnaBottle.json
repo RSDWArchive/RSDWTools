@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_AnimalMagnetism_AdvertInnaBottle",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
+        "Key": "Advertinnabottle.Itemname",
+        "SourceString": "Advert-Inna-Bottle",
+        "LocalizedString": "Advert-Inna-Bottle"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
+        "Key": "Advertinnabottle.1",
+        "SourceString": "An advert that details how to make an 'Ava's Accumulator'.",
+        "LocalizedString": "An advert that details how to make an 'Ava's Accumulator'."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Scroll'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Human_Rowboat/SM_Human_Rowboat_Bottle_01.SM_Human_Rowboat_Bottle_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "H5D6PE3yfLhTPAypRyRg4g",
+      "InternalName": "ITEM_quest_animalmagnetism_advert"
+    }
+  }
+]

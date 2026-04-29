@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Pattern_Armor_Cape_Whispering",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_Whispering'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_Whispering.0"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "9D6B50244C0D0BB5192AD281825E6DF4",
+        "SourceString": "Learn",
+        "LocalizedString": "Learn"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "971A45A54E5321CAA7900F811B1CFCD5",
+        "SourceString": "Whispering Cape",
+        "LocalizedString": "Whispering Cape"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Cape_Whispering'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Whispering.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Silk_Cloth_01.SM_Silk_Cloth_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Pattern"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "_GYYxk3COpDp8fqZ25YH1A",
+      "InternalName": "pattern_armor_cape_whispering",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

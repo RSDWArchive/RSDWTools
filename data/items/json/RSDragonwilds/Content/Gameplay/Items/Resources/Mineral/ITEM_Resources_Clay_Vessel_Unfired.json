@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Clay_Vessel_Unfired",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ClayVesselUnfired",
+        "SourceString": "Clay Vessel (Unfired)",
+        "LocalizedString": "Clay Vessel (Unfired)"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "DD3615B8480C009E6C64F9992E3E4CB1",
+        "SourceString": "A formed clay bowl, ready to be fired in a kiln.",
+        "LocalizedString": "A formed clay bowl, ready to be fired in a kiln."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Unfired_Clay_Vessel'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Unfired_Clay_Vessel.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Clay_Bowls/SM_Clay_Bowl_Unfired_01.SM_Clay_Bowl_Unfired_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Component"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Clay"
+      },
+      "PersistenceID": "xhvDCkkTzJPbihGOZo3Hvw",
+      "InternalName": "res_clay_vessel_unfired"
+    }
+  }
+]

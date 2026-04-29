@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_T3_Antifire",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ClearBuildup_Burning_C'ITEM_Consumable_Potion_T3_Antifire:GE_ClearBuildup_Burning_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.1"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_ResistBuildup_Burning_C'ITEM_Consumable_Potion_T3_Antifire:GE_ResistBuildup_Burning_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.2"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AntifirePotion",
+        "SourceString": "Antifire Potion",
+        "LocalizedString": "Antifire Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AntifirePotion",
+        "SourceString": "Removes Burning stacks and grants future protection to Burning. ",
+        "LocalizedString": "Removes Burning stacks and grants future protection to Burning. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Purple'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Purple"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Resistance_Fire'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Resistance_Fire.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AntiFire.Title",
+            "SourceString": "Antifire",
+            "LocalizedString": "Antifire"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AntiFire.Description",
+            "SourceString": "NEGATES and grants RESISTENCE to FIRE effects ",
+            "LocalizedString": "NEGATES and grants RESISTENCE to FIRE effects "
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedAntiFire'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiFire.0"
+          }
+        }
+      ],
+      "PersistenceID": "56queU2VGYTvp06IsYxZMw",
+      "InternalName": "potion_t3_antifire",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_ClearBuildup_Burning_C",
+    "Name": "GE_ClearBuildup_Burning_C_0",
+    "Outer": "ITEM_Consumable_Potion_T3_Antifire",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Burning.GE_ClearBuildup_Burning_C'",
+    "Template": {
+      "ObjectName": "GE_ClearBuildup_Burning_C'Default__GE_ClearBuildup_Burning_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Burning.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ResistBuildup_Burning_C",
+    "Name": "GE_ResistBuildup_Burning_C_0",
+    "Outer": "ITEM_Consumable_Potion_T3_Antifire",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Burning.GE_ResistBuildup_Burning_C'",
+    "Template": {
+      "ObjectName": "GE_ResistBuildup_Burning_C'Default__GE_ResistBuildup_Burning_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Burning.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 0.5
+        }
+      }
+    }
+  }
+]

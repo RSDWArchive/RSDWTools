@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "SeedHeldEquipmentData",
+    "Name": "ITEM_Farming_Seed_Flax",
+    "Class": "UScriptClass'SeedHeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FarmPlantData": {
+        "ObjectName": "FarmPlantDataAsset'FPD_Flax'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Plants/FPD_Flax.0"
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/BP_Farming_Seed_Flax.BP_Farming_Seed_Flax_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Farming_TryPlantSeed_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Seeds/PA_Farming_TryPlantSeed.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Farming_Seedbag_pose'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Flax",
+        "SourceString": "Flax seeds",
+        "LocalizedString": "Flax seeds"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Seed_Flax",
+        "SourceString": "Flax seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+        "LocalizedString": "Flax seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Flax_seeds'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Seeds/T_Icon_Flax_seeds.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_01_Drop.SM_SeedBag_1H_01_Drop",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.ShowProgress",
+        "ItemFilter.Material.Seed"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Seed"
+      },
+      "PersistenceID": "A9hQfkjtyPUlXI-8vKm2mA",
+      "InternalName": "tool_farming_seed_flax"
+    }
+  }
+]

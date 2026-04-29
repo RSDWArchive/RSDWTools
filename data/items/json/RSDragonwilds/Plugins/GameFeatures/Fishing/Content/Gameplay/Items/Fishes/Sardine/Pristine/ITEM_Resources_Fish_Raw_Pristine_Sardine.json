@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_Pristine_Sardine",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SardinePristine",
+        "SourceString": "Pristine Sardine",
+        "LocalizedString": "Pristine Sardine"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SardinePristine",
+        "SourceString": "An unusually large Sardine, worthy of putting it on the wall as trophy or cook it to gain more food.",
+        "LocalizedString": "An unusually large Sardine, worthy of putting it on the wall as trophy or cook it to gain more food."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Sardine_Pristine'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Sardine_Pristine"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Sardine_01/SM_Fish_Sardine_01.SM_Fish_Sardine_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 3.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "ItemFilter.Material.PristineFish"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "PersistenceID": "jKYmQkxuzN0iPSW04Cib6g",
+      "InternalName": "res_fish_pristine_sardine"
+    }
+  }
+]

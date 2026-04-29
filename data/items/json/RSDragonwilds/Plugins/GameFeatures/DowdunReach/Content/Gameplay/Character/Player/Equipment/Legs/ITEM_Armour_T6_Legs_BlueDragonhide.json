@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T6_Legs_BlueDragonhide",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_BlueDragonhide_MeshData_Male'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_BlueDragonhide_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_BlueDragonhide_MeshData_Female'",
+        "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_BlueDragonhide_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T6_Legs_BlueDragonHide"
+      },
+      "ArmorWeight": "EArmorWeight::Medium",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlueDragonhideChaps",
+        "SourceString": "Blue Dragonhide Chaps",
+        "LocalizedString": "Blue Dragonhide Chaps"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlueDragonhideChaps",
+        "SourceString": "Flexible ranged leg armour crafted from blue dragonhide.",
+        "LocalizedString": "Flexible ranged leg armour crafted from blue dragonhide."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Blue_Dragonhide_Chaps'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragonhide_Chaps"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 9.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Medium"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "Bs2XUUW6ayb84R-jPoU-MA",
+      "InternalName": "armour_legs_bluedragonhide"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 600.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedFishing_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing:GE_Potion_FocusedFishing_C_1'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LesserFocusedFishingPotion",
+        "SourceString": "Lesser Focused Fishing Potion",
+        "LocalizedString": "Lesser Focused Fishing Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LesserFocusedFishingPotion",
+        "SourceString": "Grants a boost to your Fishing XP for a short period of time.",
+        "LocalizedString": "Grants a boost to your Fishing XP for a short period of time."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Lesser_Turquoise_Potion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Turquoise_Potion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+            "Key": "Item_BuffData_Potion_T2_Lesser",
+            "SourceString": null,
+            "LocalizedString": null
+          },
+          "Description": {
+            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+            "Key": "Item_BuffData_Info_Potion_T2_Lesser",
+            "SourceString": null,
+            "LocalizedString": null
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_LesserFocusedFishing'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserFocusedFishing.0"
+          }
+        }
+      ],
+      "PersistenceID": "gxUvIknKqg_4FoeYpzXXaw",
+      "InternalName": "potion_focused_t2_lesser_fishing",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "UObject",
+    "Name": "GE_Potion_FocusedFishing_C_1",
+    "Outer": "ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

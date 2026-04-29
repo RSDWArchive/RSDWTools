@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Pattern_Armor_Cape_Zamorak",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RecipesToUnlock": [
+        {
+          "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_Zamorak'",
+          "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/RECIPE_Armour_T0_Cape_Zamorak"
+        }
+      ],
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "E11271D74218947DC8D513AC49DD4BF0",
+        "SourceString": "Learn",
+        "LocalizedString": "Learn"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZamorakCape",
+        "SourceString": "Zamorak Cape",
+        "LocalizedString": "Zamorak Cape"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Zamorak_Cape'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Cape"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Silk_Cloth_01.SM_Silk_Cloth_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Pattern"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Scroll"
+      },
+      "PersistenceID": "RLfK_076TDre6B6DuXOT0Q",
+      "InternalName": "pattern_armor_cape_zamorak",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

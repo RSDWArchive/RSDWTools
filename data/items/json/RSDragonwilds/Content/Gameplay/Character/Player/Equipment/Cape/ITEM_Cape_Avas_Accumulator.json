@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Avas_Accumulator",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Accumulator_MeshData_Uni1'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Accumulator_MeshData_Uni1'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_AvasAccumulator"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_ProjectileRefund_Boost_Small_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_Boost_Small.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_ProjectileRefund_MagnetizationDistance_Small_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_MagnetizationDistance_Small.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AvasAccumulator",
+        "SourceString": "Ava's Accumulator",
+        "LocalizedString": "Ava's Accumulator"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AvasAttractor",
+        "SourceString": "A bagged chicken ready to serve you, magnet in claw. \r\n\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
+        "LocalizedString": "A bagged chicken ready to serve you, magnet in claw. \r\n\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Avas_Attractor'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Avas_Attractor.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Armour/U_MED/Avas_Attractor_01/SM_Avas_Attractor_01.SM_Avas_Attractor_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.AvasAccumulator"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "AA0zK0IPgo4C4e6V39Cmjg",
+      "InternalName": "armour_t0_cape_avas_accumulator"
+    }
+  }
+]

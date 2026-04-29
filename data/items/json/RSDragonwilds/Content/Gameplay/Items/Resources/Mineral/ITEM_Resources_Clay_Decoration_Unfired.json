@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Clay_Decoration_Unfired",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ClayDecorationUnfired",
+        "SourceString": "Clay Decoration (Unfired)",
+        "LocalizedString": "Clay Decoration (Unfired)"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ClayDecoration_Unfired",
+        "SourceString": "A figurine made from clay. Still wet. ",
+        "LocalizedString": "A figurine made from clay. Still wet. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Unfired_Clay_Decoration'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Unfired_Clay_Decoration.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Base_Building/Decorations/Dragonkin/SM_Dec_Dragonkin_UnfiredClay_Figure_01.SM_Dec_Dragonkin_UnfiredClay_Figure_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Component"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Clay"
+      },
+      "PersistenceID": "sycphkkEs4cXKKC721kS2w",
+      "InternalName": "res_clay_decoration_unfired"
+    }
+  }
+]

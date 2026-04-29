@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_TEST_T4_Shock",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Dagger/BP_Dagger_Iron.BP_Dagger_Iron_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Shocked_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Shocked.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Dagger.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Dagger_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Dagger/A_PlayerM_Idle_Dagger_Poses.0"
+      },
+      "DamageMultiplier": 4.0,
+      "BlockingDamageNegation": 7.0,
+      "DamageTypes": [
+        "DamageType.Physical.Stab"
+      ],
+      "CriticalHitChanceIncrease": 0.05,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "CultureInvariantString": "T4 Shock Dagger"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "CC32F3EB4A923E30E85A4AAA8F4C8621",
+        "SourceString": "A sharp, compact weapon, perfect for quick strikes in close combat.",
+        "LocalizedString": "A sharp, compact weapon, perfect for quick strikes in close combat."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Dagger_Iron'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Dagger_Iron.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Iron_1H_01/SM_Dagger_Iron_1H_01.SM_Dagger_Iron_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 3.5,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Dagger"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BladeSmall"
+      },
+      "BaseDurability": 525,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "5JCljkf2DRoxnQCI94gFJQ",
+      "InternalName": "test_shock_t4"
+    }
+  }
+]

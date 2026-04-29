@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BP_Consumables_Drink_C",
+    "Name": "ITEM_Consumable_Tea_Dwellberry",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.BP_Consumables_Drink_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Drink_C'Default__BP_Consumables_Drink_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HydrationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_DrinkHydration'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_DrinkHydration.0"
+        },
+        "RowName": "v3_Tea_Dwellberry"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "Duration": 600.0,
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Quenched_C'ITEM_Consumable_Tea_Dwellberry:GE_Quenched_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Dwellberry.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DwellberryInfusion",
+        "SourceString": "Dwellberry Infusion",
+        "LocalizedString": "Dwellberry Infusion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RedberryInfusion",
+        "SourceString": "A refreshing fruity drink. Good for hydration. ",
+        "LocalizedString": "A refreshing fruity drink. Good for hydration. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dwellberry_Infusion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Dwellberry_Infusion.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Instant_Water'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Drink"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Drink"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Water"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Quenched.Title",
+            "SourceString": "Quenched",
+            "LocalizedString": "Quenched"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Quenched.Description",
+            "SourceString": "THIRST drains 33% SLOWER",
+            "LocalizedString": "THIRST drains 33% SLOWER"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_Quenched'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Quenched.0"
+          }
+        }
+      ],
+      "PersistenceID": "x0HE4knFLcQj2sGI_4fYAA",
+      "InternalName": "food_tea_dwellberry ",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Drink_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Quenched_C",
+    "Name": "GE_Quenched_C_0",
+    "Outer": "ITEM_Consumable_Tea_Dwellberry",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Quenched.GE_Quenched_C'",
+    "Template": {
+      "ObjectName": "GE_Quenched_C'Default__GE_Quenched_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Quenched.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "Duration": 300.0,
+        "bShowInTooltip": false
+      }
+    }
+  }
+]

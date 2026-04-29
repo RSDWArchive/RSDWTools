@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Mace_Iron",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Mace/BP_Mace_Iron.BP_Mace_Iron_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Club.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Club_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Club/A_PlayerM_Idle_Club_Poses.0"
+      },
+      "DamageMultiplier": 4.1,
+      "BlockingDamageNegation": 23.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "DistanceOffset": 25.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "IronMace",
+        "SourceString": "Iron Mace",
+        "LocalizedString": "Iron Mace"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "IronMace",
+        "SourceString": "Crush your foes with this heavy, spiked iron mace.",
+        "LocalizedString": "Crush your foes with this heavy, spiked iron mace."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mace_Iron_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Mace_Iron_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Mace_Iron_1H_01/SM_Mace_Iron_1H_01.SM_Mace_Iron_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 4,
+      "Weight": 6.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Mace"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Bludgeon"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "hThLR2Lk6kODfRRmAs4YBQ",
+      "InternalName": "weap_mace_iron"
+    }
+  }
+]

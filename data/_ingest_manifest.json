@@ -1,0 +1,156 @@
+{
+  "generated_at_utc": "2026-04-28T21:35:47.020511+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\0.11.1.4",
+  "output_root": "data",
+  "options": {
+    "core_categories": [
+      "recipes",
+      "items",
+      "consumables",
+      "spells",
+      "icons"
+    ],
+    "location_data_root": "E:\\Github\\RSDWArchive\\website\\tools\\LocationData",
+    "loot_data_root": "E:\\Github\\RSDWArchive\\website\\tools\\LootData",
+    "clean": true,
+    "flat": false,
+    "dry_run": false
+  },
+  "summary": {
+    "json_scanned": 57736,
+    "json_unmatched": 55722,
+    "duplicates_skipped": 0,
+    "unmatched_samples": [
+      "json/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.json",
+      "json/Engine/Content/Animation/DefaultAnimCurveCompressionSettings.json",
+      "json/Engine/Content/Animation/DefaultRecorderBoneCompression.json",
+      "json/Engine/Content/Animation/DefaultVariableFrameStrippingSettings.json",
+      "json/Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.json",
+      "json/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.json",
+      "json/Engine/Content/ArtTools/RenderToTexture/Textures/T_EV_BlankWhite_01.json",
+      "json/Engine/Content/BasicShapes/BasicShapeMaterial.json",
+      "json/Engine/Content/BasicShapes/Cone.json",
+      "json/Engine/Content/BasicShapes/Cube.json",
+      "json/Engine/Content/BasicShapes/Cylinder.json",
+      "json/Engine/Content/BasicShapes/Plane.json",
+      "json/Engine/Content/BasicShapes/Sphere.json",
+      "json/Engine/Content/EditorBlueprintResources/ActorComponentMacros.json",
+      "json/Engine/Content/EditorBlueprintResources/ActorMacros.json",
+      "json/Engine/Content/EditorBlueprintResources/StandardMacros.json",
+      "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial.json",
+      "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial_MaskedRegion.json",
+      "json/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.json",
+      "json/Engine/Content/EditorLandscapeResources/LandscapeDirtyMaterial.json"
+    ]
+  },
+  "categories": {
+    "consumables": {
+      "files_discovered": 188,
+      "files_copied": 188,
+      "source_roots": [
+        "json"
+      ],
+      "sample_files": [
+        "json/RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Bloodblight.json",
+        "json/RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Bramblemead.json",
+        "json/RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Fellhollow.json",
+        "json/RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Fractured.json",
+        "json/RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Stormtouched.json"
+      ]
+    },
+    "icons": {
+      "files_discovered": 1772,
+      "files_copied": 1772,
+      "source_roots": [],
+      "sample_files": []
+    },
+    "items": {
+      "files_discovered": 922,
+      "files_copied": 922,
+      "source_roots": [
+        "json"
+      ],
+      "sample_files": [
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bone_Bleed.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bone_Bodkin.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bone_Fire.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bone_Poison.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bronze_Bleed.json"
+      ]
+    },
+    "recipes": {
+      "files_discovered": 865,
+      "files_copied": 865,
+      "source_roots": [
+        "json"
+      ],
+      "sample_files": [
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Bleed.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Bodkin.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Fire.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Poison.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bronze_Bleed.json"
+      ]
+    },
+    "spells": {
+      "files_discovered": 39,
+      "files_copied": 39,
+      "source_roots": [
+        "json"
+      ],
+      "sample_files": [
+        "json/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AccessPersonalChest/USD_AccessPersonalChest.json",
+        "json/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.json",
+        "json/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.json",
+        "json/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CabbageRain/USD_CabbageRain.json",
+        "json/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.json"
+      ]
+    }
+  },
+  "icons": {
+    "sample_files": [
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Particle_InfiniteLife.png",
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Scalability_Emitter.png",
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Scalability_System.png",
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_LimitAccel.png",
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_LimitSpeed.png",
+      "textures/Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_RotationalSolve.png",
+      "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_01_BCC.png",
+      "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_01_BCC_Mask.png",
+      "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_Icons_01_BCC.png",
+      "textures/RSDragonwilds/Content/Art/UI/Common/T_Icon_Clipboard.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Building.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Chat.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Chat_With_X.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Inventory.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Map.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Radial.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Radial_Fill.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Spells.png",
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Weight.png",
+      "textures/RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Air.png"
+    ]
+  },
+  "external_imports": {
+    "location_data": {
+      "source_root": "E:\\Github\\RSDWArchive\\website\\tools\\LocationData",
+      "files_discovered": 1,
+      "files_copied": 1,
+      "found": true
+    },
+    "loot_data": {
+      "source_root": "E:\\Github\\RSDWArchive\\website\\tools\\LootData",
+      "files_discovered": 1,
+      "files_copied": 1,
+      "found": true
+    }
+  },
+  "icon_discovery": {
+    "object_paths_found": 2543,
+    "object_paths_resolved": 829,
+    "prefixes": [
+      "t_icon_",
+      "t_skill_"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Dragon_Green_Lesser",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GreenDragonhideLeather",
+        "SourceString": "Green Dragonhide Leather",
+        "LocalizedString": "Green Dragonhide Leather"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GreenDragonhideLeather",
+        "SourceString": "Made by tanning green dragonhide. A key crafting component for armour.",
+        "LocalizedString": "Made by tanning green dragonhide. A key crafting component for armour."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Green_Dragon_Hide_Leather'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Green_Dragon_Hide_Leather.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Green_Dragonhide_Leather/SM_Green_Dragonhide_Leather_01.SM_Green_Dragonhide_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "cVt3BEoa7Bh6k_KasKqLAA",
+      "InternalName": "res_leather_dragon_green_lesser"
+    }
+  }
+]

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
+  <title>Spell Editor — RSDWTools</title>
+  <link rel="icon" href="/shared/assets/logo.png" />
+  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="/shared/shared-header.css" />
+  <link rel="stylesheet" href="/shared/site-shell.css" />
+</head>
+<body class="spell-editor-page" data-tool="spell-editor">
+  <div id="rsdw-header-mount"></div>
+
+  <details class="landing-logo__dropdown">
+    <summary class="landing-logo__dropdown-summary">How do I use this?</summary>
+    <div class="landing-logo__dropdown-content">
+      <p>Click on the plus (+) icon in the Spell Browser Section and select your Save file.</p>
+      <p>Drag and Drop spells from the Spell Browser into your Spellbooks and hit Save!</p>
+      <br />
+      <p>Your Save file is here (paste this into your file explorer):</p>
+      <p class="landing-logo__dropdown-path"><code>%localappdata%\RSDragonwilds\Saved\SaveCharacters\</code></p>
+      <br />
+      <p>Disclaimer: data is compiled from the latest game files automatically. Always back up your save before editing.</p>
+    </div>
+  </details>
+
+  <div class="item-editor-wrapper">
+    <main class="page-layout">
+      <section class="item-browser spell-browser">
+        <div class="corner-overlay corner-overlay--tl"></div>
+        <div class="corner-overlay corner-overlay--tr"></div>
+        <div class="panel-header panel-header--browser">
+          <div class="panel-badge">
+            <img src="/shared/game-ui/ItemBrowser/ItemBrowser.png" alt="Spell browser" />
+            <span class="panel-badge__text">Spell Browser</span>
+          </div>
+          <div class="panel-header-actions">
+            <button class="icon-button icon-button--load" id="load-button" type="button">
+              <img id="load-icon" src="/shared/game-ui/Landing/Load_Character.png" alt="Load character" />
+            </button>
+            <button class="icon-button icon-button--save hidden" id="save-button" type="button">
+              <img src="/shared/game-ui/Landing/Save.png" alt="Save character" />
+            </button>
+          </div>
+          <input type="file" id="character-file" accept=".json" />
+        </div>
+        <div class="status-bar status-bar--unloaded" aria-live="polite">
+          <img class="status-bar__icon" src="/shared/game-ui/Status/status_unloaded_icon.png" alt="" />
+          <div class="status-text" id="status-text">
+            Load a character file to edit spellbooks.
+          </div>
+        </div>
+        <div class="panel-title">
+          <span id="spell-title">All Spells</span>
+        </div>
+        <div class="item-browser-scroller" aria-label="Spell pages">
+          <button class="scroller-arrow scroller-arrow--left" id="spell-prev" type="button" aria-label="Previous page">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L_disabled.png" />
+          </button>
+          <div class="item-grid item-grid--spells" id="spell-grid" aria-label="Spell grid">
+            <!-- 40 slots -->
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+            <div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div><div class="item-slot spell-grid-slot"></div>
+          </div>
+          <button class="scroller-arrow scroller-arrow--right" id="spell-next" type="button" aria-label="Next page">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R_disabled.png" />
+          </button>
+        </div>
+        <div class="pagination-dots" id="spell-dots" aria-label="Spell pages"></div>
+      </section>
+
+      <section class="spell-editor-panel">
+        <div class="spell-wheel" role="application" aria-label="Spell wheel">
+          <img class="spell-wheel__layer spell-wheel__symbol" src="/tools/spell-editor/assets/T_Radial_Symbol_Bg.png" alt="" />
+          <img class="spell-wheel__layer spell-wheel__base" src="/tools/spell-editor/assets/T_Radial_Base_Bg.png" alt="" />
+          <img class="spell-wheel__layer spell-wheel__circle" src="/tools/spell-editor/assets/T_Radial_Circleline_Bg.png" alt="" />
+          <img class="spell-wheel__layer spell-wheel__lines" src="/tools/spell-editor/assets/T_Spell_Radial_Lines.png" alt="" />
+
+          <button class="spell-slot" style="--angle: 0deg" type="button" data-slot="0">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 30deg" type="button" data-slot="1">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 60deg" type="button" data-slot="2">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 90deg" type="button" data-slot="3">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 120deg" type="button" data-slot="4">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 150deg" type="button" data-slot="5">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 180deg" type="button" data-slot="6">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 210deg" type="button" data-slot="7">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 240deg" type="button" data-slot="8">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 270deg" type="button" data-slot="9">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 300deg" type="button" data-slot="10">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+          <button class="spell-slot" style="--angle: 330deg" type="button" data-slot="11">
+            <img class="spell-slot__segment" src="/tools/spell-editor/assets/T_Segment_Normal.png" alt="" />
+            <span class="spell-slot__content">
+              <img class="spell-slot__shadow" src="/tools/spell-editor/assets/T_Spell_Bg_Shadow.png" alt="" />
+              <img class="spell-slot__placeholder" src="/tools/spell-editor/assets/T_Radial_Add_Icon.png" alt="" />
+              <img class="spell-slot__tag" alt="" />
+              <img class="spell-slot__icon" alt="" />
+            </span>
+          </button>
+
+          <img class="spell-wheel__layer spell-wheel__inner-top" src="/tools/spell-editor/assets/Inner_Circle_Top.png" alt="" />
+          <img class="spell-wheel__layer spell-wheel__center-bg" src="/tools/spell-editor/assets/T_Centre_Bg.png" alt="" />
+          <div class="spell-wheel__title" id="spellbook-title">Spellbook 1</div>
+        </div>
+        <div class="spellbook-controls">
+          <button class="scroller-arrow scroller-arrow--left" id="book-prev" type="button" aria-label="Previous spellbook">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_L_disabled.png" />
+          </button>
+          <div class="pagination-dots" id="book-dots" aria-label="Spellbook pages"></div>
+          <button class="scroller-arrow scroller-arrow--right" id="book-next" type="button" aria-label="Next spellbook">
+            <img src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" alt="" data-enabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R.png" data-disabled-src="/shared/game-ui/ItemBrowser/Scroller/Arrow_R_disabled.png" />
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="context-menu hidden" id="spell-context-menu" role="menu">
+    <button type="button" data-action="clear">Remove</button>
+  </div>
+
+  <div class="tooltip hidden" id="tooltip" role="tooltip">
+    <div class="tooltip__name" id="tooltip-name"></div>
+    <div class="tooltip__desc" id="tooltip-desc"></div>
+    <div class="tooltip__meta" id="tooltip-meta"></div>
+  </div>
+
+  <div class="modal-overlay hidden" id="count-modal">
+    <div class="modal">
+      <div class="modal-title">Set Quantity</div>
+      <div class="modal-body">
+        <label>
+          Quantity
+          <input type="number" id="count-input" min="1" />
+        </label>
+        <div class="modal-hint" id="count-hint"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="count-cancel">Cancel</button>
+        <button type="button" id="count-apply">Apply</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="alert-modal">
+    <div class="modal">
+      <div class="modal-title">Notice</div>
+      <div class="modal-body">
+        <div class="modal-hint" id="alert-message"></div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="alert-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rsdw-footer-mount"></div>
+
+  <script src="/shared/shared-header.js" defer></script>
+  <script src="/tools/spell-editor/spell-editor.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Customization_BodyType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'PlayerCustomizationBodyTypeMesh'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "male_A_01": {
+        "BodyType": "EBodyType::Male",
+        "SoftPrimaryMeshAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Invis/ABP_M_MED_Invis_01_Skeleton_AnimBlueprint.ABP_M_MED_Invis_01_Skeleton_AnimBlueprint_C",
+          "SubPathString": ""
+        },
+        "DefaultBodyOutfitMesh": null,
+        "DefaultLegsOutfitMesh": {
+          "ObjectName": "WearableEquipmentMeshData'DA_Male_Default_Legs_Outfit_CustomizationMesh'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DA_Male_Default_Legs_Outfit_CustomizationMesh.0"
+        },
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Body/M_MED_Body_A_01/SK_M_MED_Body_A_01.SK_M_MED_Body_A_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_CopyPose.ABP_Player_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "female_A_01": {
+        "BodyType": "EBodyType::Female",
+        "SoftPrimaryMeshAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Invis/ABP_F_MED_Invis_01_Skeleton_AnimBlueprint.ABP_F_MED_Invis_01_Skeleton_AnimBlueprint_C",
+          "SubPathString": ""
+        },
+        "DefaultBodyOutfitMesh": {
+          "ObjectName": "WearableEquipmentMeshData'DA_Female_Default_Body_Outfit_CustomizationMesh'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DA_Female_Default_Body_Outfit_CustomizationMesh.0"
+        },
+        "DefaultLegsOutfitMesh": {
+          "ObjectName": "WearableEquipmentMeshData'DA_Female_Default_Legs_Outfit_CustomizationMesh'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DA_Female_Default_Legs_Outfit_CustomizationMesh.0"
+        },
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Body/F_MED_Body_A_01/SK_F_MED_Body_A_01.SK_F_MED_Body_A_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_CopyPose.ABP_Player_CopyPose_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

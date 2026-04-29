@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "BP_Consumables_RecipeUnlocker2_C",
+    "Name": "DA_Consumable_Vestige_Weapon_Scimitar_Imaru_Deprecated",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.BP_Consumables_RecipeUnlocker2_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_RecipeUnlocker2_C'Default__BP_Consumables_RecipeUnlocker2_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "-1vd50NlcWym832IAO5Srw",
+      "InternalName": "deleted_vestige_weapon_scimitar_imaru",
+      "bSoftDeleted": true,
+      "MigrationDataAsset": {
+        "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Scimitar_Imaru'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Scimitar_Imaru.0"
+      },
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_RecipeUnlocker2_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_RecipeUnlocker2.0"
+      }
+    }
+  }
+]

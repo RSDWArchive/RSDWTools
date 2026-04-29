@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FH_NightoftheSpectralBoom_Skull",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "79698CBF44FD068F7683EF9C74AEDB0C",
+        "SourceString": "Spectral Chinchompa Skull",
+        "LocalizedString": "Spectral Chinchompa Skull"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Spectral_Chinchompa_Skull'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_Chinchompa_Skull.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Chinchompa_Skull_Spectral/SM_Chinchompa_Skull_Spectral_01.SM_Chinchompa_Skull_Spectral_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "UBjRA0kZ03sJQmq-urBsTA",
+      "InternalName": "ITEM_quest_FH_SpectralChinchompaSkull"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "HarvestToolEquipmentData",
+    "Name": "ITEM_Secateurs_Iron",
+    "Class": "UScriptClass'HarvestToolEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HarvestYieldMultiplier": 1.25,
+      "HarvestMontageOverride": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Garden_Scissors'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Garden_Scissors.0"
+      },
+      "HarvestVFXOverride": {
+        "AssetPathName": "/Game/Art/VFX/Library/Env/Farming/NS_Farm_Secateur.NS_Farm_Secateur",
+        "SubPathString": ""
+      },
+      "HarvestSFXOverride": {
+        "AssetPathName": "/Game/Audio/MetasoundSources/Player/Interactions/Farming/Secateurs/MSS_Pl_Fa_SecateursHarvestCrop.MSS_Pl_Fa_SecateursHarvestCrop",
+        "SubPathString": ""
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Tools/BP_Secateurs_Iron.BP_Secateurs_Iron_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Secateurs_Harvest_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Tools/PA_Secateurs_Harvest.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Farming_Secateurs'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_Secateurs.0"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Tool_Secateurs",
+        "SourceString": "Iron Secateurs",
+        "LocalizedString": "Iron Secateurs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Tool_Secateurs",
+        "SourceString": "A pair of gardening Secateurs that boost your harvesting yield while equipped.",
+        "LocalizedString": "A pair of gardening Secateurs that boost your harvesting yield while equipped."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Iron_Secateurs'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Iron_Secateurs.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Secateurs_Iron_1h_01/SM_Secateurs_Iron_1h_01_Drop.SM_Secateurs_Iron_1h_01_Drop",
+        "SubPathString": ""
+      },
+      "Weight": 3.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Secateurs"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.Secateurs"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Secateurs"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Co_RaiseBlock_MetalBlade_Small'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Raise_Weapon/MSS_Co_RaiseBlock_MetalBlade_Small.0"
+      },
+      "PersistenceID": "_zH6rkxCUB_Le9yGzumsmg",
+      "InternalName": "tool_secateurs_iron"
+    }
+  }
+]

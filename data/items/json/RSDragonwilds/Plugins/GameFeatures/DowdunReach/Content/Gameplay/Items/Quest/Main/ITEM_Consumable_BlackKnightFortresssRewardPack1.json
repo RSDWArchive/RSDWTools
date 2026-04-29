@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_BlackKnightFortresssRewardPack1",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Masterworks_GreatSword_TitansWrath.ITEM_Masterworks_GreatSword_TitansWrath",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/DowdunReach/Gameplay/Items/Quest/Main/ITEM_Consumable_Tome_Tier0_DR_Main.ITEM_Consumable_Tome_Tier0_DR_Main",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null
+        }
+      ],
+      "ItemUsageDelay": 1.0,
+      "Name": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "Quest_RewardPack_Name",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "FlavourText": {
+        "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
+        "Key": "Quest_RewardPack_Description",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Pack_Zamorak_01'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Pack_Zamorak_01"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Container'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 10,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs.DragonSlayerPack"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "mQeJ6kJZdcr49cGHQ1qcHw",
+      "InternalName": "item_pack_blackknighrewardpack",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

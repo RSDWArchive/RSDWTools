@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Journal_Quest_FishRaw_UnusualTrout",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_UnusualTrout_Quest'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/GoblinFishermen/ITEM_Resources_Fish_Raw_UnusualTrout_Quest"
+          },
+          "Count": 0
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Arrow"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 15,
+      "PersistenceID": "e440j0AbFSMBGFu-JSW09Q",
+      "InternalName": "recipe_journal_quest_FishRaw_Trout"
+    }
+  }
+]

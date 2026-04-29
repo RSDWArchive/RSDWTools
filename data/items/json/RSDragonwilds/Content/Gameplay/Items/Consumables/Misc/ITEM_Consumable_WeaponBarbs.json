@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WhetstoneItemData",
+    "Name": "ITEM_Consumable_WeaponBarbs",
+    "Class": "UScriptClass'WhetstoneItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentEffectData": {
+        "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponBarbs'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_WeaponBarbs.0"
+      },
+      "RequiresHeldMeleeWeaponTag": {
+        "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
+      },
+      "SpellData": {
+        "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+      },
+      "UseVerb": {
+        "Namespace": "",
+        "Key": "07895D6346321A5653E2AC8CDF937B7F",
+        "SourceString": "Hone",
+        "LocalizedString": "Hone"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeaponBarbs",
+        "SourceString": "Weapon Barbs",
+        "LocalizedString": "Weapon Barbs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "WeaponBarbs",
+        "SourceString": "Pointy! \r\n\r\nUsed to craft Barbed Arrows or to coat your equipped melee weapon with barbs, causing Bleed buildup for a short duration.",
+        "LocalizedString": "Pointy! \r\n\r\nUsed to craft Barbed Arrows or to coat your equipped melee weapon with barbs, causing Bleed buildup for a short duration."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Weapon_Barbs2'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Weapon_Barbs2.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Whetstone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.WeightReduction",
+        "ItemFilter.Type.Consumable"
+      ],
+      "PersistenceID": "gMtJMk-b5kwQmSKqmGSimw",
+      "InternalName": "item_weaponbarbs"
+    }
+  }
+]

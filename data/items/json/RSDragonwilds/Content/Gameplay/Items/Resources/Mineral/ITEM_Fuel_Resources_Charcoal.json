@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Fuel_Resources_Charcoal",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 120.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Charcoal",
+        "SourceString": "Charcoal",
+        "LocalizedString": "Charcoal"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "B8453C5143BCD5BA3EBA90B065980BDA",
+        "SourceString": "Produced by burning wood in a kiln, charcoal is a very efficient fuel.",
+        "LocalizedString": "Produced by burning wood in a kiln, charcoal is a very efficient fuel."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Charcoal'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Charcoal.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Charcoal/SM_Charcoal_01.SM_Charcoal_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Debris"
+      },
+      "RepairCostRatios": [
+        0.5
+      ],
+      "PersistenceID": "x-SiNQenZEuF0yyTPkxhiw",
+      "InternalName": "res_charcoal"
+    }
+  }
+]

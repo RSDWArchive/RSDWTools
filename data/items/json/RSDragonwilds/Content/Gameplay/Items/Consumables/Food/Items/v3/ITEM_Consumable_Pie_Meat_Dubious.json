@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "v3_Pie_Meat_Dubious"
+      },
+      "ToxicityRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Toxicity_V2'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Toxicity_V2.0"
+        },
+        "RowName": "+20"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier2_Food"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_GurgleGuts_HydrationDecay_C'ITEM_Consumable_Pie_Meat_Dubious:GE_GurgleGuts_HydrationDecay_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.1"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_GurgleGuts_SustenanceDecay_C'ITEM_Consumable_Pie_Meat_Dubious:GE_GurgleGuts_SustenanceDecay_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.2"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_SteadfastStomach_C'ITEM_Consumable_Pie_Meat_Dubious:GE_SteadfastStomach_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.3"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PieMeatDubious",
+        "SourceString": "Dubious Meat Pie",
+        "LocalizedString": "Dubious Meat Pie"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DubiousMeatPie",
+        "SourceString": "Pastry makes everything better.",
+        "LocalizedString": "Pastry makes everything better."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dubious_meat_pie'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Dubious_meat_pie.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Cooking_Pot_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "GurgleGuts.Title",
+            "SourceString": "Ravenous",
+            "LocalizedString": "Ravenous"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "GurgleGuts.Description",
+            "SourceString": "THIRST and HUNGER drain 20% FASTER",
+            "LocalizedString": "THIRST and HUNGER drain 20% FASTER"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_Ravenous_2'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Ravenous_2.0"
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SteadfastStomach.Title",
+            "SourceString": "Steadfast Stomach",
+            "LocalizedString": "Steadfast Stomach"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SteadfastStomach.Description",
+            "SourceString": "Grants RESISTENCE to WITHER effects",
+            "LocalizedString": "Grants RESISTENCE to WITHER effects"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_SteadfastStomach_2'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SteadfastStomach_2.0"
+          }
+        }
+      ],
+      "PersistenceID": "PNna20ypp8utF-KAq0xgTA",
+      "InternalName": "food_pie_meat_dubious",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_GurgleGuts_HydrationDecay_C",
+    "Name": "GE_GurgleGuts_HydrationDecay_C_0",
+    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_HydrationDecay.GE_GurgleGuts_HydrationDecay_C'",
+    "Template": {
+      "ObjectName": "GE_GurgleGuts_HydrationDecay_C'Default__GE_GurgleGuts_HydrationDecay_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_HydrationDecay.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_GurgleGuts_SustenanceDecay_C",
+    "Name": "GE_GurgleGuts_SustenanceDecay_C_0",
+    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_SustenanceDecay.GE_GurgleGuts_SustenanceDecay_C'",
+    "Template": {
+      "ObjectName": "GE_GurgleGuts_SustenanceDecay_C'Default__GE_GurgleGuts_SustenanceDecay_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_SustenanceDecay.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_SteadfastStomach_C",
+    "Name": "GE_SteadfastStomach_C_0",
+    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach.GE_SteadfastStomach_C'",
+    "Template": {
+      "ObjectName": "GE_SteadfastStomach_C'Default__GE_SteadfastStomach_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false
+      }
+    }
+  }
+]

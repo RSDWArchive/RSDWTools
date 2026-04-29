@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Draconic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DraconicLeather",
+        "SourceString": "Draconic Leather",
+        "LocalizedString": "Draconic Leather"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DraconicLeather",
+        "SourceString": "A sturdy leather made from draconic hide, or from tanning hard leather with dragon blood.",
+        "LocalizedString": "A sturdy leather made from draconic hide, or from tanning hard leather with dragon blood."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Draconic_leather'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Draconic_leather.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Dragonic_Leather/SM__Dragonic_Leather_01.SM__Dragonic_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "jmA4D0DSEBYxDMWYne8frQ",
+      "InternalName": "res_leather_draconic"
+    }
+  }
+]

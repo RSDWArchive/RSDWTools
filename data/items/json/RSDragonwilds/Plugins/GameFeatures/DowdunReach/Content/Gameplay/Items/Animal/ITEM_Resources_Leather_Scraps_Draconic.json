@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Scraps_Draconic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DraconicLeatherScraps",
+        "SourceString": "Draconic Leather Scraps",
+        "LocalizedString": "Draconic Leather Scraps"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DraconicLeatherScraps",
+        "SourceString": "Scruffy organic bits and pieces that can be combined to make draconic leather.",
+        "LocalizedString": "Scruffy organic bits and pieces that can be combined to make draconic leather."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Draconic_Leather_Scraps'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Draconic_Leather_Scraps"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "YKrGVEhV12fODCGWxhK9qg",
+      "InternalName": "res_leather_scraps_draconic"
+    }
+  }
+]

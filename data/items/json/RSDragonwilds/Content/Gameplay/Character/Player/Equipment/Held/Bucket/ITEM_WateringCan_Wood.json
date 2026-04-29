@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "HeldContainerEquipmentData",
+    "Name": "ITEM_WateringCan_Wood",
+    "Class": "UScriptClass'HeldContainerEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Capacity": 200,
+      "AmountDischargedPerUse": 10,
+      "AllowedFillTypes": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Clean'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Water_Clean.0"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Water_Dirty'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Water_Dirty.0"
+        }
+      ],
+      "ContainerEmptyContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_Empty",
+        "SourceString": "Contents: Nothing. {HeldContainer.Quantity}/{HeldContainer.Capacity} ",
+        "LocalizedString": "Contents: Nothing. {HeldContainer.Quantity}/{HeldContainer.Capacity} "
+      },
+      "ContainerSomeContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_SomeContents",
+        "SourceString": "Contents:  {HeldContainer.ContentName}. {HeldContainer.Quantity}/{HeldContainer.Capacity}",
+        "LocalizedString": "Contents:  {HeldContainer.ContentName}. {HeldContainer.Quantity}/{HeldContainer.Capacity}"
+      },
+      "ContainerFullContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_WateringCan_Full",
+        "SourceString": "Contents:  {HeldContainer.ContentName}. {HeldContainer.Quantity}/{HeldContainer.Capacity}",
+        "LocalizedString": "Contents:  {HeldContainer.ContentName}. {HeldContainer.Quantity}/{HeldContainer.Capacity}"
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Bucket/BP_WateringCan_Wood.BP_WateringCan_Wood_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_WateringCan_UseOneCharge_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Container/PA_WateringCan_UseOneCharge.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Wateringcan_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Wateringcan_Poses.0"
+      },
+      "LeftHandIKBoneName": "Prop_l",
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "bShouldRestOnGround": true,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Tool_WateringCan_T1",
+        "SourceString": "Wooden Watering Can",
+        "LocalizedString": "Wooden Watering Can"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_WateringCan_Wood",
+        "SourceString": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
+        "LocalizedString": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots."
+      },
+      "CustomInventoryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ContainerCustomInventorySlot_C'",
+        "ObjectPath": "RSDragonwilds/Content/UI/Inventory/CustomSlots/WBP_ContainerCustomInventorySlot.8"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_icon_Wooden_Watering_Can'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Watering_Can.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/WateringCan_Wood_2H_01/SM_WateringCan_Wood_2H_01.SM_WateringCan_Wood_2H_01",
+        "SubPathString": ""
+      },
+      "Weight": 4.5,
+      "ItemFilterTags": [
+        "Item.Farming.ShowProgress"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.WateringCan.Wood"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "KdTx0k1z9bKZ6EeFI_R9NA",
+      "InternalName": "tool_WateringCan_Wood"
+    }
+  }
+]

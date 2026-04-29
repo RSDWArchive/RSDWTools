@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Masterwork_Staff_Zamorak",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/DowdunReach/Gameplay/Character/Player/Equipment/Held/Staff/BP_Staff_Zamorak.BP_Staff_Zamorak_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_ZamorakStaff_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/ZamorakStaff/PA_ZamorakStaff_Special.0"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Staff_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/A_PlayerM_Idle_Staff_Poses.0"
+      },
+      "DamageMultiplier": 6.8,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ZamorakStaff_MagicAttack_BurnDamageMultiplier_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_ZamorakStaff_MagicAttack_BurnDamageMultiplier.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ZamorakStaff_MagicAttack_EarthDamageMultiplier_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_ZamorakStaff_MagicAttack_EarthDamageMultiplier.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ZamorakStaff_MagicAttack_WaterDamageMultiplier_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_ZamorakStaff_MagicAttack_WaterDamageMultiplier.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ZamorakStaff_MagicAttack_AirDamageMultiplier_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_ZamorakStaff_MagicAttack_AirDamageMultiplier.0"
+        }
+      ],
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ZamorakStaff",
+        "SourceString": "Zamorak Staff",
+        "LocalizedString": "Zamorak Staff"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ZamorakStaff",
+        "SourceString": "Standard issue for any mage in Dowdun Reach.",
+        "LocalizedString": "Standard issue for any mage in Dowdun Reach."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Zamorak_Staff'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Staff"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Zamorak_Mage_Battlestaff_01/SM_M_MED_Zamorak_Mage_Battlestaff_01.SM_M_MED_Zamorak_Mage_Battlestaff_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 6,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Staff"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Magic"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.ZamorakStaff"
+      },
+      "BaseDurability": 1600,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffSpecial.Title",
+            "SourceString": "Flames of Zamorak",
+            "LocalizedString": "Flames of Zamorak"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffSpecial.Description",
+            "SourceString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you.",
+            "LocalizedString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you."
+          },
+          "BuffIcon": null
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffBoon.Title",
+            "SourceString": "Burning Ambition",
+            "LocalizedString": "Burning Ambition"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffBoon.Description",
+            "SourceString": "Increases BURNING damage from FIRE SPELLS",
+            "LocalizedString": "Increases BURNING damage from FIRE SPELLS"
+          },
+          "BuffIcon": null
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffBane.Title",
+            "SourceString": "Elemental Imbalance",
+            "LocalizedString": "Elemental Imbalance"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZamorakStaffBane.Description",
+            "SourceString": "AIR, WATER and EARTH spell damage REDUCED",
+            "LocalizedString": "AIR, WATER and EARTH spell damage REDUCED"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "IpM2CEjR22G7q_eELH0Iow",
+      "InternalName": "masterwork_weap_staff_zamorak"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Clay",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Clay",
+        "SourceString": "Clay",
+        "LocalizedString": "Clay"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "71F7B91E44A498BC8BA5738817A8063F",
+        "SourceString": "Essential for pottery and construction, dig it up from nearby water sources.",
+        "LocalizedString": "Essential for pottery and construction, dig it up from nearby water sources."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Clay'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Clay.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Clay/SM_Clay_Ore_Small_01.SM_Clay_Ore_Small_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Stone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Clay"
+      },
+      "PersistenceID": "LLV95ECQPPkItvyaC0gCzQ",
+      "InternalName": "res_ore_clay"
+    }
+  }
+]

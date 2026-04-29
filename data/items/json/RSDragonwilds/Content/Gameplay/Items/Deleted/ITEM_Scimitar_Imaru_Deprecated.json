@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Scimitar_Imaru_Deprecated",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "2txCYEr6sNYw7X6bMshJRg",
+      "InternalName": "deleted_weap_scimitar_imaru",
+      "bSoftDeleted": true,
+      "MigrationDataAsset": {
+        "ObjectName": "HeldEquipmentData'ITEM_Scimitar_Imaru'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Imaru.0"
+      }
+    }
+  }
+]

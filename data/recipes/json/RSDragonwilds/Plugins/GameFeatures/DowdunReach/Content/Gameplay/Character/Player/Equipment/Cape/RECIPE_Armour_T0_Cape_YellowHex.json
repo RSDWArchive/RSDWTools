@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T0_Cape_YellowHex",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_YellowHex'",
+            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_YellowHex"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 0,
+      "PersistenceID": "v5kfI0hE2lQ0ULGUPDD0Gg",
+      "InternalName": "recipe_armour_t0_cape_YellowHex"
+    }
+  }
+]

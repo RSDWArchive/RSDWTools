@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "GE_Arrows_Bleeding_C",
+    "Name": "GE_Arrows_Bleeding_C_0",
+    "Outer": "ITEM_Ammo_Bolts_Bone",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/BleedArrows/GE_Arrows_Bleeding.GE_Arrows_Bleeding_C'",
+    "Template": {
+      "ObjectName": "GE_Arrows_Bleeding_C'Default__GE_Arrows_Bleeding_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/BleedArrows/GE_Arrows_Bleeding.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Bolts_Bone",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/CrossbowBolt_Bone_01/SM_CrossbowBolt_Bone_01.SM_CrossbowBolt_Bone_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "GameplayEffectsToApply": [
+          {
+            "ObjectName": "GE_Arrows_Bleeding_C'ITEM_Ammo_Bolts_Bone:GE_Arrows_Bleeding_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bone.0"
+          }
+        ],
+        "AdditionalDamageFraction": 2.7
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_CrossbowBolts'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_CrossbowBolts.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::CrossbowBolts",
+      "Tier": 4,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BoneBolts",
+        "SourceString": "Bone Bolt",
+        "LocalizedString": "Bone Bolt"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BoneBolts",
+        "SourceString": "Lightweight, but very sharp. Can be fired using the Dorgeshuun Crossbow.",
+        "LocalizedString": "Lightweight, but very sharp. Can be fired using the Dorgeshuun Crossbow."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bone_Bolt'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Bone_Bolt.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 5,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bolt.Bone"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Bolt"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DorgeshuunCrossbow.Description",
+            "SourceString": "HITS cause BLEED build up on targets",
+            "LocalizedString": "HITS cause BLEED build up on targets"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "DOsOLkIUyXaO8-yRed2iUg",
+      "InternalName": "ammo_bolts_bone"
+    }
+  }
+]

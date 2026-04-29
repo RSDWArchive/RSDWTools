@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Soda_Ash",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "0fAqu0yagox973KFk4j4xw",
+      "InternalName": "recipe_ash_soda",
+      "bSoftDeleted": true
+    }
+  }
+]

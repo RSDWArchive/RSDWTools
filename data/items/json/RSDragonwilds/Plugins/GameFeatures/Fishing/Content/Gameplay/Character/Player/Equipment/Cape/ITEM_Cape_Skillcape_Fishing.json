@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Skillcape_Fishing",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Skillcape_Fishing_MeshData_Male'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Skillcape_Fishing_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Skillcape_Fishing_MeshData_Female'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Skillcape_Fishing_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Adventurers_Black"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Fishing_Skillcape'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/PerksV2/PerkV2_Fishing_Skillcape"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FishingSkillcape",
+        "SourceString": "Fishing Cape",
+        "LocalizedString": "Fishing Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FishingSkillcape",
+        "SourceString": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
+        "LocalizedString": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "qC_y-0z0iWaRbKyLtYKkaQ",
+      "InternalName": "armour_t0_cape_skillcape_fishing"
+    }
+  }
+]

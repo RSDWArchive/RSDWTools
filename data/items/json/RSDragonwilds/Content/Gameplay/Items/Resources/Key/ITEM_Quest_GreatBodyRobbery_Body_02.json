@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_GreatBodyRobbery_Body_02",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "Arms.Name",
+        "SourceString": "Garou Arms",
+        "LocalizedString": "Garou Arms"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
+        "Key": "Arms.Description",
+        "SourceString": "A pair of well-preserved garou arms, the perfect gift for any mad scientist. ",
+        "LocalizedString": "A pair of well-preserved garou arms, the perfect gift for any mad scientist. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Placeholder'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/NPC/Mechanical/Vault_Guardian_Melee_01/SM_Vault_Guardian_Melee_01_Parts_SM_VaultGuardian_Melee_R_Forearm_01.SM_Vault_Guardian_Melee_01_Parts_SM_VaultGuardian_Melee_R_Forearm_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "CGGjjUjBWZXPaCOebNSbAA",
+      "InternalName": "ITEM_Quest_GreatBodyRobbery_Body_02"
+    }
+  }
+]

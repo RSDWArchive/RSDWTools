@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Herb_Irit",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Irit",
+        "SourceString": "Irit",
+        "LocalizedString": "Irit"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Irit",
+        "SourceString": "Havested from Thorny Irit Roots, used in potion making at the brewing cauldron.",
+        "LocalizedString": "Havested from Thorny Irit Roots, used in potion making at the brewing cauldron."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Irit_Leaf'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Irit_Leaf.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Plant"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "_xTATEjgarvMXg2zfD5Sgw",
+      "InternalName": "res_herb_irit"
+    }
+  }
+]

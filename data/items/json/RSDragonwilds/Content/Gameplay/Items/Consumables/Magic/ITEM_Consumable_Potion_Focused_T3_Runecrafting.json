@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T3_Runecrafting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedRunecrafting_C'ITEM_Consumable_Potion_Focused_T3_Runecrafting:GE_Potion_FocusedRunecrafting_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Runecrafting.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FocusedRunecraftingPotion",
+        "SourceString": "Focused Runecrafting Potion",
+        "LocalizedString": "Focused Runecrafting Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StandardRunecraftingPotion",
+        "SourceString": "Increases XP gain for the Runecrafting skill. Made with irit and coarse animal fur.",
+        "LocalizedString": "Increases XP gain for the Runecrafting skill. Made with irit and coarse animal fur."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Purple'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Purple"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedRunecrafting2.Title",
+            "SourceString": "Focused Runecrafting II",
+            "LocalizedString": "Focused Runecrafting II"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedRunecrafting2.Description",
+            "SourceString": "Grants a 30% XP BOOST for the RUNECRAFTING Skill",
+            "LocalizedString": "Grants a 30% XP BOOST for the RUNECRAFTING Skill"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedRunecrafting'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedRunecrafting.0"
+          }
+        }
+      ],
+      "PersistenceID": "39PNfE4HZA4y90yp0QkUQw",
+      "InternalName": "potion_focused_t3_runecrafting",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Potion_FocusedRunecrafting_C",
+    "Name": "GE_Potion_FocusedRunecrafting_C_0",
+    "Outer": "ITEM_Consumable_Potion_Focused_T3_Runecrafting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedRunecrafting.GE_Potion_FocusedRunecrafting_C'",
+    "Template": {
+      "ObjectName": "GE_Potion_FocusedRunecrafting_C'Default__GE_Potion_FocusedRunecrafting_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedRunecrafting.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 150.0,
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 0.3
+        }
+      }
+    }
+  }
+]

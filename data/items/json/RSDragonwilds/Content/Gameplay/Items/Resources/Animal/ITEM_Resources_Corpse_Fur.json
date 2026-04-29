@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Corpse_Fur",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CorpseCotton",
+        "SourceString": "Corpse Cotton",
+        "LocalizedString": "Corpse Cotton"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "CorpseCotton",
+        "SourceString": "Drops from a volitle bulbous plant that explodes when hit. Can be spun at the  spinning wheel to create fine thread.",
+        "LocalizedString": "Drops from a volitle bulbous plant that explodes when hit. Can be spun at the  spinning wheel to create fine thread."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Corpse_Cotton'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Corpse_Cotton.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ball_of_Wool/SM_Ball_of_Wool_01.SM_Ball_of_Wool_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.2,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "Qkty-0yfrzKyHcODIHnTag",
+      "InternalName": "res_corpse_fur"
+    }
+  }
+]

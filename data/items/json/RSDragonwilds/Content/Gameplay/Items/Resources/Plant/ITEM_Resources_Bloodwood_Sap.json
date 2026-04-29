@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Bloodwood_Sap",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "199D0103465186D89A621BACAAD7BC76",
+        "SourceString": "Bloodwood Sap",
+        "LocalizedString": "Bloodwood Sap"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "1EA2CA8D470BF8B40022BA9C1F5132D2",
+        "SourceString": "Harvested from bloodwood trees, found in the toxic swamp in Ghornfell.",
+        "LocalizedString": "Harvested from bloodwood trees, found in the toxic swamp in Ghornfell."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Bloodwood_Sap'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bloodwood_Sap.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Bloodwood_Sap/SM_Bloodwood_Sap_01.SM_Bloodwood_Sap_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Gloop"
+      },
+      "bDropOnDeath": false,
+      "CompostAmount": 10,
+      "PersistenceID": "OeUUZEKiGnt36CqCIkqJgw",
+      "InternalName": "res_bloodwood_sap"
+    }
+  }
+]

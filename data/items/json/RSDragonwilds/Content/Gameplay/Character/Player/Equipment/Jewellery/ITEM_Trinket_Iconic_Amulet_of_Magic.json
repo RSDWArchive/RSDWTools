@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "AttackingEquipmentMatchesAnyTag_Condition",
+    "Name": "AttackingEquipmentMatchesAnyTag_Condition_0",
+    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Magic",
+    "Class": "UScriptClass'AttackingEquipmentMatchesAnyTag_Condition'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Tags": [
+        "Item.Equipment.Weapon.Staff"
+      ]
+    }
+  },
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Amulet_of_Magic",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnDamageReceived": false,
+      "CanLoseDurabilityOnAttackConditions": [
+        {
+          "ObjectName": "AttackingEquipmentMatchesAnyTag_Condition'ITEM_Trinket_Iconic_Amulet_of_Magic:AttackingEquipmentMatchesAnyTag_Condition_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.0"
+        }
+      ],
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_IncreaseMagicDamage_AmuletOfMagic_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_IncreaseMagicDamage_AmuletOfMagic.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.AmuletofMagic",
+        "SourceString": "Amulet of Magic",
+        "LocalizedString": "Amulet of Magic"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Trinket.AmuletOfMagic.FlavourText",
+        "SourceString": "A powerful magical amulet, popular with wizards everywhere. ",
+        "LocalizedString": "A powerful magical amulet, popular with wizards everywhere. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Amulet_of_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Magic.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 2500,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "Trinket.AmuletOfMagic.Description",
+            "SourceString": "Increased MAGIC DAMAGE",
+            "LocalizedString": "Increased MAGIC DAMAGE"
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "MQ9B9EFqxWoPzFSfC8X2dg",
+      "InternalName": "trinket_amulet_of_magic"
+    }
+  }
+]

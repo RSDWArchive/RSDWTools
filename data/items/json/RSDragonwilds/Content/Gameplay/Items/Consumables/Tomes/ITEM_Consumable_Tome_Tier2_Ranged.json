@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "BP_Consumables_SkillTome_C",
+    "Name": "ITEM_Consumable_Tome_Tier2_Ranged",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.BP_Consumables_SkillTome_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_SkillTome_C'Default__BP_Consumables_SkillTome_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "XPEventHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Tomes'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/DT_XPEvents_Tomes.0"
+        },
+        "RowName": "Tome_Tier2_Ranged"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SkillTome.Intermediate.Ranged",
+        "SourceString": "Tome of Ranged - Vol 2",
+        "LocalizedString": "Tome of Ranged - Vol 2"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SkillTome.Intermediate.Ranged",
+        "SourceString": "A book filled with knowledge about the intricacies of archery. Awards a decent amount of Ranged XP. ",
+        "LocalizedString": "A book filled with knowledge about the intricacies of archery. Awards a decent amount of Ranged XP. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Ranged.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Ranged.SM_Skill_Tome_Ranged",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Tome"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Skillbook"
+      },
+      "PersistenceID": "9pn4hkp6rYDf93WjY8uwbQ",
+      "InternalName": "tome_t2_ranged",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_SkillTome_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_SkillTome.0"
+      }
+    }
+  }
+]

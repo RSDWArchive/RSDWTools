@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_quest_FH_LettersForTheDead_Letter_2",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+        "Key": "QuestItem.MissingLetter",
+        "SourceString": "Missing Letter",
+        "LocalizedString": "Missing Letter"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
+        "Key": "Address.FH.StandingStones",
+        "SourceString": "Deliver to: Standing Stones - Bleakfields Valley - Fellhollow",
+        "LocalizedString": "Deliver to: Standing Stones - Bleakfields Valley - Fellhollow"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Envelope'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Envelope.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Letter/SM_Letter.SM_Letter",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "D_xL3kw1nvzcQxCqPSLymw",
+      "InternalName": "ITEM_quest_FH_LettersForTheDead_Letter_2"
+    }
+  }
+]

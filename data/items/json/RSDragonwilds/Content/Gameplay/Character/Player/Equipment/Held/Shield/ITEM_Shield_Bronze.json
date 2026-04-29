@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "ShieldData",
+    "Name": "ITEM_Shield_Bronze",
+    "Class": "UScriptClass'ShieldData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArmorWeight": "EArmorWeight::Medium",
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/BP_Shield_Bronze.BP_Shield_Bronze_C",
+        "SubPathString": ""
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Shield_Kite_Iron_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Shield_Kite_Iron.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Kite_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Shield/A_PlayerM_Idle_Kite_Poses.0"
+      },
+      "BlockingDamageNegation": 39.0,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B1C8588645146D9BF9232D903A27CB27",
+        "SourceString": "Bronze Shield",
+        "LocalizedString": "Bronze Shield"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "3D289B0C4DD3F9B5281AD7B34A57E1E6",
+        "SourceString": "Block and parry attacks steadily with this basic, dependable bronze shield.",
+        "LocalizedString": "Block and parry attacks steadily with this basic, dependable bronze shield."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Kite_Bronze_1H_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Kite_Bronze_1H_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_Bronze_1H_01/SM_Kite_Bronze_1H_01.SM_Kite_Bronze_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 10.0,
+      "Category": {
+        "TagName": "Item.Equipment.Shield"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Shield"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Shield"
+      },
+      "BaseDurability": 1050,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "z1aZS0oEXuZ69Xe2iJ1A0A",
+      "InternalName": "shield_bronze"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Masterworks_Ornate_Maul_Handle",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GraniteMaulHandle",
+        "SourceString": "Ornate Maul Handle",
+        "LocalizedString": "Ornate Maul Handle"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "63CF9C20404F19E64C876B9AF9919D09",
+        "SourceString": "A carved piece of wood decorated with metal ornaments, sturdy enough to swing the heavy granite head. Made of blightwood, found in the Bloodblight Swamp.",
+        "LocalizedString": "A carved piece of wood decorated with metal ornaments, sturdy enough to swing the heavy granite head. Made of blightwood, found in the Bloodblight Swamp."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Ornate_Maul_Handle'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ornate_Maul_Handle.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Secondary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/LevelDesign/District1/BlockoutMeshes/SM_BO_Ash_Branch.SM_BO_Ash_Branch",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.BossSoul"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "RFgA4kE-5E71wiGpmjWkKA",
+      "InternalName": "res_ornate_maul_handle"
+    }
+  }
+]

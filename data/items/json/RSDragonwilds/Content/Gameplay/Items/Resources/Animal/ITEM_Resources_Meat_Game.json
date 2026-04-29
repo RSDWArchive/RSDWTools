@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Meat_Game",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GameMeat",
+        "SourceString": "Raw Game Meat",
+        "LocalizedString": "Raw Game Meat"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "6C083802475490D685FB50B81D0592A0",
+        "SourceString": "Raw meat from wild animals, it can be cooked on a campfire.",
+        "LocalizedString": "Raw meat from wild animals, it can be cooked on a campfire."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Raw_Tough_Meat_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Raw_Tough_Meat_01.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Raw_Venison_01.SM_Raw_Venison_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 2,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.RawIngredient"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PersistenceID": "Ua7XqsiwjUio_H540eRegw",
+      "InternalName": "res_meat_game"
+    }
+  }
+]

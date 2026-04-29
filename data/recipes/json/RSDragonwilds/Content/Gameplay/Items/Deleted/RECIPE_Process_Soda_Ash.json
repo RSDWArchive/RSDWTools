@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Soda_Ash",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "MinProcessingTime": 2.0,
+      "MaxProcessingTime": 3.0,
+      "PersistenceID": "fN2VfUVWTL3dDEOanPBO3g",
+      "InternalName": "recipe_ash_soda_deleted",
+      "bSoftDeleted": true
+    }
+  }
+]

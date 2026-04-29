@@ -1,0 +1,1256 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Customization_FacialHairPresets",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'PlayerFacialHairPresetCustomizationMeshData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "F_A_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_4_None"
+        }
+      },
+      "F_A_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_4_None"
+        }
+      },
+      "F_A_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_4_None"
+        }
+      },
+      "F_A_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_4_None"
+        }
+      },
+      "F_A_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_4_None"
+        }
+      },
+      "F_B_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_4_None"
+        }
+      },
+      "F_B_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_4_None"
+        }
+      },
+      "F_B_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_4_None"
+        }
+      },
+      "F_B_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_4_None"
+        }
+      },
+      "F_B_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_B_4_None"
+        }
+      },
+      "F_C_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_4_None"
+        }
+      },
+      "F_C_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_4_None"
+        }
+      },
+      "F_C_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_A_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_4_None"
+        }
+      },
+      "F_C_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_4_None"
+        }
+      },
+      "F_C_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_C_4_None"
+        }
+      },
+      "F_D_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_4_None"
+        }
+      },
+      "F_D_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_4_None"
+        }
+      },
+      "F_D_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_4_None"
+        }
+      },
+      "F_D_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_4_None"
+        }
+      },
+      "F_D_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "F_D_4_None"
+        }
+      },
+      "M_A_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_4_None"
+        }
+      },
+      "M_A_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_4_None"
+        }
+      },
+      "M_A_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_4_None"
+        }
+      },
+      "M_A_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_4_None"
+        }
+      },
+      "M_A_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_A_4_None"
+        }
+      },
+      "M_B_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_4_None"
+        }
+      },
+      "M_B_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_4_None"
+        }
+      },
+      "M_B_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_4_None"
+        }
+      },
+      "M_B_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_4_None"
+        }
+      },
+      "M_B_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_B_4_None"
+        }
+      },
+      "M_C_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_4_None"
+        }
+      },
+      "M_C_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_4_None"
+        }
+      },
+      "M_C_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_4_None"
+        }
+      },
+      "M_C_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_4_None"
+        }
+      },
+      "M_C_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_C_4_None"
+        }
+      },
+      "M_D_PresetNone": {
+        "PresetIndex": 0,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_1_None"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_4_None"
+        }
+      },
+      "M_D_Preset1": {
+        "PresetIndex": 1,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_1_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_4_None"
+        }
+      },
+      "M_D_Preset2": {
+        "PresetIndex": 2,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_1_2"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_4_None"
+        }
+      },
+      "M_D_Preset3": {
+        "PresetIndex": 3,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_1"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_None"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_4_None"
+        }
+      },
+      "M_D_Preset4": {
+        "PresetIndex": 4,
+        "FacialHairZone1DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_1"
+        },
+        "FacialHairZone2DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_2_None"
+        },
+        "FacialHairZone3DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_3_1"
+        },
+        "FacialHairZone4DataHandle": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_Customization_FacialHairZones'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Customization/DT_Customization_FacialHairZones.0"
+          },
+          "RowName": "M_D_4_None"
+        }
+      }
+    }
+  }
+]

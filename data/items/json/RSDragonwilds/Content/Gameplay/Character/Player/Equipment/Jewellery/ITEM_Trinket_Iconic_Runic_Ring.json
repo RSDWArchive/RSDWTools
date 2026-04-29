@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Runic_Ring",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnAttack": false,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_RunicRing_ChanceToRefundUtilitySpellCost_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Rings/GE_RunicRing_ChanceToRefundUtilitySpellCost.0"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AbraxusRing",
+        "SourceString": "Abraxus Ring",
+        "LocalizedString": "Abraxus Ring"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Runic_Ring'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Runic_Ring.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 100,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "AbraxusRing",
+            "SourceString": "A ring that once belonged to a powerful necromancer. ",
+            "LocalizedString": "A ring that once belonged to a powerful necromancer. "
+          },
+          "BuffIcon": null
+        }
+      ],
+      "PersistenceID": "TuG7zUS90qgd7BOHhOxd8Q",
+      "InternalName": "trinket_runic_ring"
+    }
+  }
+]

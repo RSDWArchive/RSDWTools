@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Farming_CureDiseasePotion",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Weeds'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds.0"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Farming_CureDiseasePotion'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Farming/ITEM_Farming_CureDiseasePotion.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Farming'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Farming.0"
+        },
+        "RowName": "CreatingCurePotion"
+      },
+      "SkillXPAwardedOnCraft": 10,
+      "MinProcessingTime": 4.0,
+      "PersistenceID": "PS5AmUvmm5dFNE2Pr9weNQ",
+      "InternalName": "Recipe_Farming_PlantCure"
+    }
+  }
+]

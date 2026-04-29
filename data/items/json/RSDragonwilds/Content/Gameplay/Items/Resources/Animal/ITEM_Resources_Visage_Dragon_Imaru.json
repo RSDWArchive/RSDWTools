@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Visage_Dragon_Imaru",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DraconicVisage.Imaru",
+        "SourceString": "Undead Draconic Visage",
+        "LocalizedString": "Undead Draconic Visage"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DraconicVisage",
+        "SourceString": "The image of a fearsome dragon. Used in crafting powerful equipment. ",
+        "LocalizedString": "The image of a fearsome dragon. Used in crafting powerful equipment. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Dragon_Visage'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragon_Visage.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "Weight": 0.5,
+      "ItemFilterTags": [
+        "ItemFilter.Material.Component"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "PersistenceID": "ztBa9UgwHvLRyD-ko9Ea3w",
+      "InternalName": "res_visage_dragon_imaru"
+    }
+  }
+]

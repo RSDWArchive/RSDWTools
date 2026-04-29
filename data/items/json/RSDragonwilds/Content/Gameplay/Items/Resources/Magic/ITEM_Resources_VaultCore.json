@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_VaultCore",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VaultCore",
+        "SourceString": "Vault Core",
+        "LocalizedString": "Vault Core"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
+        "Key": "VaultCore",
+        "SourceString": "A dragonkin energy source, found only within dragonkin vaults. ",
+        "LocalizedString": "A dragonkin energy source, found only within dragonkin vaults. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Vault_Core'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Core.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Vault_Core/SM_Vault_Core_01.SM_Vault_Core_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 25,
+      "Weight": 50.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.VaultCore"
+      },
+      "PersistenceID": "52QCB0uSNJD0UoC21lRJvA",
+      "InternalName": "res_vaultcore"
+    }
+  }
+]

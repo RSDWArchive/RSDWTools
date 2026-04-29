@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_HardLeather",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HardLeather",
+        "SourceString": "Hard Leather",
+        "LocalizedString": "Hard Leather"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "76F9CD6D4A67D9491BEB178D3A0A5215",
+        "SourceString": "Toughened leather.",
+        "LocalizedString": "Toughened leather."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Hard_Leather'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Leather/SM_Hard_Leather_01.SM_Hard_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "80wGME-slvLF2weULpj8eQ",
+      "InternalName": "res_leather_hard_leather"
+    }
+  }
+]

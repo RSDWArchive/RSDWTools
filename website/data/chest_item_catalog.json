@@ -1,0 +1,5552 @@
+[
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bone_Bleed",
+    "display_name": "Fang Barbed Arrow",
+    "icon": "T_Arrows_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bone_Bodkin",
+    "display_name": "Fang Arrow",
+    "icon": "T_Arrows_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bone_Fire",
+    "display_name": "Fang Fire Arrow",
+    "icon": "T_Arrows_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bone_Poison",
+    "display_name": "Poisoned Fang Arrow",
+    "icon": "T_Arrows_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bronze_Bleed",
+    "display_name": "Bronze Barbed Arrow",
+    "icon": "T_Icon_Arrows_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bronze_Bodkin",
+    "display_name": "Bronze Arrow",
+    "icon": "T_Icon_Arrows_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bronze_Fire",
+    "display_name": "Bronze Fire Arrow",
+    "icon": "T_Icon_Arrows_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Bronze_Poison",
+    "display_name": "Poisoned Bronze Arrow",
+    "icon": "T_Icon_Arrows_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Iron_Bleed",
+    "display_name": "Iron Barbed Arrow",
+    "icon": "T_Icon_Arrows_Iron_.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Iron_Bodkin",
+    "display_name": "Iron Arrow",
+    "icon": "T_Icon_Arrows_Iron_.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Iron_Fire",
+    "display_name": "Iron Fire Arrow",
+    "icon": "T_Icon_Arrows_Iron_.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Iron_Poison",
+    "display_name": "Poisoned Iron Arrow",
+    "icon": "T_Icon_Arrows_Iron_.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Steel_Bleed",
+    "display_name": "Steel Barbed Arrow",
+    "icon": "T_Icon_Arrow_Steel.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Steel_Bodkin",
+    "display_name": "Steel Arrow",
+    "icon": "T_Icon_Arrow_Steel.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Steel_Fire",
+    "display_name": "Steel Fire Arrow",
+    "icon": "T_Icon_Arrow_Steel.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Steel_Poison",
+    "display_name": "Poisoned Steel Arrow",
+    "icon": "T_Icon_Arrow_Steel.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Stone_Bodkin",
+    "display_name": "Stone Arrow",
+    "icon": "T_Icon_Arrows_Stone.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Wood",
+    "display_name": "Wooden Arrow",
+    "icon": "T_Icon_Arrows_Wood.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Blurite",
+    "display_name": "Blurite Bolt",
+    "icon": "T_Icon_CrossbowBolt_Blurite_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Bone",
+    "display_name": "Bone Bolt",
+    "icon": "T_Icon_Bone_Bolt.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Bronze",
+    "display_name": "Bronze Bolt",
+    "icon": "T_Icon_CrossbowBolt_Bronze_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Blurite",
+    "display_name": "Enchanted Blurite Bolt",
+    "icon": "T_Icon_CrossbowBoltGem_Blurite_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Bronze",
+    "display_name": "Enchanted Bronze Bolt",
+    "icon": "T_Icon_CrossbowBoltGem_Bronze_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Iron",
+    "display_name": "Enchanted Iron Bolt",
+    "icon": "T_Icon_CrossbowBoltGem_Iron_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Steel",
+    "display_name": "Enchanted Steel Bolt",
+    "icon": "T_Icon_Steel_Enchanted_Bolt.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Iron",
+    "display_name": "Iron Bolt",
+    "icon": "T_Icon_CrossbowBolt_Iron_01.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Steel",
+    "display_name": "Steel Bolt",
+    "icon": "T_Icon_Steel_Bolt.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Body_Adventurers",
+    "display_name": "Adventurer's Tunic",
+    "icon": "T_Icon_M_MED_Body_LightArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Body_Leather",
+    "display_name": "Leather Body",
+    "icon": "T_Icon_DeerLeather_01_M_TopHalf_DeerLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Body_Linen",
+    "display_name": "Apprentice Robe",
+    "icon": "T_Icon_M_MED_Body_LinenRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Body_Reinforced",
+    "display_name": "Reinforced Body",
+    "icon": "T_Icon_M_MED_BODY_ReinforcedArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Body_Bronze",
+    "display_name": "Bronze Platebody",
+    "icon": "T_Icon_M_MED_UpperHalf_BronzeArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Body_HardLeather",
+    "display_name": "Hard Leather Body",
+    "icon": "T_Icon_M_MED_BODY_HardLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Body_Wizard",
+    "display_name": "Wizard Robes",
+    "icon": "T_Icon_M_MED_Upperhalf_WizardRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_DarkMage",
+    "display_name": "Dark Mage Robes",
+    "icon": "T_Icon_M_MED_Body_DarkMageRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_DragonkinMage",
+    "display_name": "Dragonkin Mage Robes",
+    "icon": "T_Icon_Dragonkin_Dark_Mage_Robes.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_Iron",
+    "display_name": "Iron Platebody",
+    "icon": "T_Icon_F_MED_BODY_IronArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_Paladin",
+    "display_name": "Paladin's Platebody",
+    "icon": "T_Icon_Paladin_s_Chestplatel.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_StuddedLeather",
+    "display_name": "Studded Leather Body",
+    "icon": "T_Icon_M_MED_BODY_StuddedLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Body_WildArcher",
+    "display_name": "Wild Archer Body",
+    "icon": "T_Icon_Wild_Archer_s_Chest.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_GreenDragonHide",
+    "display_name": "Green Dragonhide Body",
+    "icon": "T_icon_Green_Dragonhide_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_Necromancer",
+    "display_name": "Necromancer's Robe Top",
+    "icon": "T_icon_Necromancer_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_Ranger",
+    "display_name": "Ranger Tunic",
+    "icon": "T_icon_Ranger_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_Skeleton",
+    "display_name": "Fallen Hoplite's Chest",
+    "icon": "T_icon_Hopelite_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_Splitbark",
+    "display_name": "Splitbark Body",
+    "icon": "T_icon_Splitbark_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_Steel",
+    "display_name": "Steel Platebody",
+    "icon": "T_icon_Steel_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Body_White",
+    "display_name": "White Platebody",
+    "icon": "T_icon_White_Body.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Black",
+    "display_name": "Black Adventurer's Cape",
+    "icon": "T_icon_Cape_Black.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Blue",
+    "display_name": "Blue Adventurer's Cape",
+    "icon": "T_icon_Cape_Blue.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Green",
+    "display_name": "Green Adventurer's Cape",
+    "icon": "T_icon_Cape_Green.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Orange",
+    "display_name": "Orange Adventurer's Cape",
+    "icon": "T_icon_Cape_Orange.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Pink",
+    "display_name": "Pink Adventurer's Cape",
+    "icon": "T_icon_Cape_Pink.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Purple",
+    "display_name": "Purple Adventurer's Cape",
+    "icon": "T_icon_Cape_Purple.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Red",
+    "display_name": "Red Adventurer's Cape",
+    "icon": "T_icon_Cape_Red.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_White",
+    "display_name": "White Adventurer's Cape",
+    "icon": "T_icon_Cape_White.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Adventurers_Yellow",
+    "display_name": "Yellow Adventurer's Cape",
+    "icon": "T_icon_Cape_Yellow.png"
+  },
+  {
+    "item_id": "ITEM_Cape_AlphaTest",
+    "display_name": "Dragonbane Cape",
+    "icon": "T_Icon_Alpha_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Artisan",
+    "display_name": "armour_t4_cape_artisan",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Attack",
+    "display_name": "armour_t4_cape_attack",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Avas_Accumulator",
+    "display_name": "Ava's Accumulator",
+    "icon": "T_Icon_Avas_Attractor.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Avas_Attractor",
+    "display_name": "Ava's Attractor",
+    "icon": "T_Icon_Avas_Attractor.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Bloodblight",
+    "display_name": "Bloodblight Cape",
+    "icon": "T_Icon_Cape_Bloodblight.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Bramblemead",
+    "display_name": "Bramblemead Cape",
+    "icon": "T_Icon_Cape_Bramblemead.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Chinchompa",
+    "display_name": "Spectral Chinchompa Cape",
+    "icon": "T_Icon_Spectral_chinchompa_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Construction",
+    "display_name": "armour_t4_cape_construction",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Cooking",
+    "display_name": "armour_t4_cape_cooking",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_EarlyAdopter",
+    "display_name": "Pioneer's Cape",
+    "icon": "T_Icon_Pioneer_Mantle.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Fellhollow",
+    "display_name": "Fellhollow Cape",
+    "icon": "T_icon_Fellhollow_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Fractured",
+    "display_name": "Fractured Cape",
+    "icon": "T_Icon_Cape_Fractured.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Garou",
+    "display_name": "Garou Highborn's Cloak",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Goblin",
+    "display_name": "Goblin War Banner",
+    "icon": "T_Icon_Cape_HighWarGodBanner.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Mining",
+    "display_name": "armour_t4_cape_mining",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Runecrafting",
+    "display_name": "armour_t4_cape_runecrafting",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skeleton",
+    "display_name": "Shadowscale Cape",
+    "icon": "T_icon_Shadowscale_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Artisan",
+    "display_name": "Artisan Cape",
+    "icon": "T_Icon_Cape_Skill_Artisan.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Attack",
+    "display_name": "Attack Cape",
+    "icon": "T_Icon_Cape_Skill_Attack.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Construction",
+    "display_name": "Construction Cape",
+    "icon": "T_Icon_Cape_Skill_Construction.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Cooking",
+    "display_name": "Cooking Cape",
+    "icon": "T_Icon_Cape_Skill_Cooking.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Farming",
+    "display_name": "Farming Cape",
+    "icon": "T_Icon_Cape_Skill_Farming.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Magic",
+    "display_name": "Magic Cape",
+    "icon": "T_Icon_Cape_Skill_Magic.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Mining",
+    "display_name": "Mining Cape",
+    "icon": "T_Icon_Cape_Skill_Mining.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Ranged",
+    "display_name": "Ranged Cape",
+    "icon": "T_Icon_Cape_Skill_Ranged.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Runecrafting",
+    "display_name": "Runecrafting Cape",
+    "icon": "T_Icon_Cape_Skill_Runecrafting.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Woodcutting",
+    "display_name": "Woodcutting Cape",
+    "icon": "T_Icon_Cape_Skill_Woodcutting.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Stormtouched",
+    "display_name": "Stormtouched Cape",
+    "icon": "T_Icon_Cape_Stormtouched.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Tattered",
+    "display_name": "Tattered Cape",
+    "icon": "T_Icon_Cape_TatteredCape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Artisan",
+    "display_name": "Artisan Cape - Trimmed",
+    "icon": "T_Icon_Cape_Skill_Artisan_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Attack",
+    "display_name": "Attack Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Attack_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Construction",
+    "display_name": "Construction Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Construction_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Cooking",
+    "display_name": "Cooking Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Cooking_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Farming",
+    "display_name": "Farming Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Farming_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Magic",
+    "display_name": "Magic Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Magic_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Mining",
+    "display_name": "Mining Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Mining_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Ranged",
+    "display_name": "Ranged Cape - Trimmed",
+    "icon": "T_Icon_Cape_Skill_Ranged_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Runecrafting",
+    "display_name": "Runecrafting Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Runecrafting_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Woodcutting",
+    "display_name": "Woodcutting Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Woodcutting_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Whispering",
+    "display_name": "Whispering Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Woodcutting",
+    "display_name": "armour_t4_cape_woodcutting",
+    "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_BagOfNoggin",
+    "display_name": "Bag Of Noggin",
+    "icon": "T_Icon_Bag_o__Noggin.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_ChefsHat",
+    "display_name": "Chef's Hat",
+    "icon": "T_Icon_Chef_Hat_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_EarlyAdopter",
+    "display_name": "Pioneer's Scarf",
+    "icon": "T_Icon_Pioneer_Scarf.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_SpectralBagOfNoggin",
+    "display_name": "Shroud Of Noggin",
+    "icon": "T_Icon_Spectral_Noggin.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Head_FarmersHat",
+    "display_name": "Farmers' Hat",
+    "icon": "T_Icon_Farmers_Hat.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Head_Leather",
+    "display_name": "Leather Cowl",
+    "icon": "T_Icon_M_MED_HEAD_MED_DeerLather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Head_Linen",
+    "display_name": "Apprentice Hat",
+    "icon": "T_Icon_M_Head_LinenRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Head_Reinforced",
+    "display_name": "Reinforced Helmet",
+    "icon": "T_Icon_M_MED_HEAD_ReinforcedArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Head_Bronze",
+    "display_name": "Bronze Helmet",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Head_HardLeather",
+    "display_name": "Hard Leather Cowl",
+    "icon": "T_Icon_M_MED_HEAD_HardLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Head_Wizard",
+    "display_name": "Wizard Hat",
+    "icon": "T_Icon_M_MED_Head_WizardRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_DarkMage",
+    "display_name": "Dark Mage Hood",
+    "icon": "T_Icon_M_MED_Head_DarkMageRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_DragonkinMage",
+    "display_name": "Dragonkin Mage Hood",
+    "icon": "T_Icon_Dragonkin_Dark_Mage_Hood.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_Iron",
+    "display_name": "Iron Helmet",
+    "icon": "T_Icon_F_MED_HEAD_IronArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_Paladin",
+    "display_name": "Paladin's Helm",
+    "icon": "T_Icon_Paladin_s_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_StuddedLeather",
+    "display_name": "Studded Leather Cowl",
+    "icon": "T_Icon_M_MED_HEAD_StuddedLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_WildArcher",
+    "display_name": "Wild Archer Cowl",
+    "icon": "T_Icon_Wild_Archer_s_Coif.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_GreenDragonHide",
+    "display_name": "Green Dragonhide Coif",
+    "icon": "T_icon_Green_Dragonhide_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_Necromancer",
+    "display_name": "Necromancer's Crown",
+    "icon": "T_icon_Necromancer_crown.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_Ranger",
+    "display_name": "Ranger Hat",
+    "icon": "T_icon_Ranger_Hat.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_Skeleton",
+    "display_name": "Fallen Hoplite's Helm",
+    "icon": "T_icon_Hopelite_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_SkeletonRanger",
+    "display_name": "Shadowscale Hood",
+    "icon": "T_icon_Shadowscale_Hood.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_Splitbark",
+    "display_name": "Splitbark Helm",
+    "icon": "T_icon_Splitbark_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_Steel",
+    "display_name": "Steel Full Helm",
+    "icon": "T_icon_Steel_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Head_White",
+    "display_name": "White Full Helm",
+    "icon": "T_icon_White_Helmet.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Garou",
+    "display_name": "Hunter Stagbow",
+    "icon": "T_Icon_Longbor_Hunter_Stag.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Hunter",
+    "display_name": "Blightwood Longbow",
+    "icon": "T_Icon_HuntersLongbow_OakWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Oak",
+    "display_name": "Oak Longbow",
+    "icon": "T_Icon_HuntersLongbow_OakWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Ulvs",
+    "display_name": "Ulv's Longbow",
+    "icon": "T_Icon_Ulvs_Bow.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Willow",
+    "display_name": "Willow Longbow",
+    "icon": "T_icon_Willow_Longbow4.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Wood",
+    "display_name": "Adventurer's Longbow",
+    "icon": "T_Icon_Longbow_OakWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Hunter",
+    "display_name": "Blightwood Shortbow",
+    "icon": "T_Icon_HuntersShortbow_OakWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Oak",
+    "display_name": "Oak Shortbow",
+    "icon": "T_Icon_Shortbow_OakWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Skeleton",
+    "display_name": "Undead Ranger's Bow",
+    "icon": "T_icon_Undead_Shortbow.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_WildScout",
+    "display_name": "Wild Scout's Shortbow",
+    "icon": "T_Icon_Shortbow_Wild_Scout.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Willow",
+    "display_name": "Willow Shortbow",
+    "icon": "T_icon_Willow_Shortbow.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Wood",
+    "display_name": "Ash Shortbow",
+    "icon": "T_Icon_Shortbow_AshWood_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Bucket_Compost",
+    "display_name": "Compost Bucket",
+    "icon": "T_icon_Wooden_Bucket.png"
+  },
+  {
+    "item_id": "ITEM_WateringCan_Bronze",
+    "display_name": "Bronze Watering Can",
+    "icon": "T_icon_Bronze_Watering_Can.png"
+  },
+  {
+    "item_id": "ITEM_WateringCan_Steel",
+    "display_name": "Steel Watering Can",
+    "icon": "T_icon_Steel_Watering_Can.png"
+  },
+  {
+    "item_id": "ITEM_WateringCan_Wood",
+    "display_name": "Wooden Watering Can",
+    "icon": "T_icon_Wooden_Watering_Can.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Blurite",
+    "display_name": "Blurite Crossbow",
+    "icon": "T_Icon_Crossbow_Blurite_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Bronze",
+    "display_name": "Bronze Crossbow",
+    "icon": "T_Icon_Crossbow_Bronze_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Dorgeshuun",
+    "display_name": "Dorgeshuun Crossbow",
+    "icon": "T_icon_Dorgeshuun_Crossbow.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Iron",
+    "display_name": "Iron Crossbow",
+    "icon": "T_Icon_Crossbow_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Steel",
+    "display_name": "Steel Crossbow",
+    "icon": "T_icon_Steel_Crossbow.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Test",
+    "display_name": "weap_crossbow_test",
+    "icon": "T_Food_Carrot.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Bone",
+    "display_name": "Bone Dagger",
+    "icon": "T_Icon_Dagger_Bone_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Bronze",
+    "display_name": "Bronze Dagger",
+    "icon": "T_Icon_Dagger_Bronze_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_DragonboneBone",
+    "display_name": "Dragonbone Dagger",
+    "icon": "T_Icon_Dagger_Dragonbone.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Iron",
+    "display_name": "Iron Dagger",
+    "icon": "T_Icon_Dagger_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Steel",
+    "display_name": "Steel Dagger",
+    "icon": "T_icon_Steel_1H_Dagger.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Stone",
+    "display_name": "Stone Dagger",
+    "icon": "T_Icon_Dagger_Stone_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Wolfbane",
+    "display_name": "Wolfbane Dagger",
+    "icon": "T_icon_Wolfsbane_1H_Dagger.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Potion",
+    "display_name": "tool_farming_potion",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Cabbage",
+    "display_name": "Cabbage seeds",
+    "icon": "T_Icon_Cabbage_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Cadavaberry",
+    "display_name": "Cadavaberry Seeds",
+    "icon": "T_Icon_Cadaverberry_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_CorpseCotton",
+    "display_name": "Corpse Cotton Seeds",
+    "icon": "T_Icon_Corpsecotton_seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Dwellberry",
+    "display_name": "Dwellberry seeds",
+    "icon": "T_Icon_Dwellberry_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Flax",
+    "display_name": "Flax seeds",
+    "icon": "T_Icon_Flax_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Harralander",
+    "display_name": "Harralander Seeds",
+    "icon": "T_Icon_Harralander_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Irit",
+    "display_name": "Irit Seeds",
+    "icon": "T_Icon_Irit_seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Kwuarm",
+    "display_name": "Kwuarm Seeds",
+    "icon": "T_Icon_Kuarm_seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Marrentill",
+    "display_name": "Marentill Seeds",
+    "icon": "T_Icon_Marrentil_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Onion",
+    "display_name": "Onion seeds",
+    "icon": "T_Icon_Onion_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Potato",
+    "display_name": "Potato seeds",
+    "icon": "T_Icon_Potato_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Pumpkin",
+    "display_name": "Pumpkin Seeds",
+    "icon": "T_Icon_Pumpkin_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Redberry",
+    "display_name": "Redberry seeds",
+    "icon": "T_Icon_Redberry_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Snapdragon",
+    "display_name": "Snapdragon Seeds",
+    "icon": "T_Icon_Snapdragon_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_SwampWeed",
+    "display_name": "Swamp Weed Seeds",
+    "icon": "T_Icon_SwampWeed_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_ToadFlax",
+    "display_name": "Toadflax Seeds",
+    "icon": "T_Icon_Toadflax_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Tomato",
+    "display_name": "Tomato seeds",
+    "icon": "T_Icon_Tomato_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Watermelon",
+    "display_name": "Watermelon seeds",
+    "icon": "T_Icon_Watermelon_seeds.png"
+  },
+  {
+    "item_id": "ITEM_Farming_Seed_Wheat",
+    "display_name": "Wheat seeds",
+    "icon": "T_Icon_Wheat_Seed.png"
+  },
+  {
+    "item_id": "ITEM_Secateurs_Iron",
+    "display_name": "Iron Secateurs",
+    "icon": "T_icon_Iron_Secateurs.png"
+  },
+  {
+    "item_id": "ITEM_Farming_TreeSeed_Ash",
+    "display_name": "Ash tree Seed",
+    "icon": "T_Icon_Ash_Tree_Seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_TreeSeed_Oak",
+    "display_name": "Oak tree Seed",
+    "icon": "T_Icon_Oal_Tree_Seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_TreeSeed_Willow",
+    "display_name": "Willow tree seed",
+    "icon": "T_Icon_Willow_Seed.png"
+  },
+  {
+    "item_id": "ITEM_Farming_TreeSeed_Yew",
+    "display_name": "Willow tree seed",
+    "icon": "T_Icon_Willow_Seed.png"
+  },
+  {
+    "item_id": "ITEM_GreatAxe_Iron",
+    "display_name": "Iron Greataxe",
+    "icon": "T_Icon_Greataxe_Iron_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_GreatAxe_Steel",
+    "display_name": "Steel Greataxe",
+    "icon": "T_icon_Steel_Greataxe.png"
+  },
+  {
+    "item_id": "ITEM_GreatAxe_Thane",
+    "display_name": "Thane's Authority",
+    "icon": "T_Icon_Greataxe_Thane_s_Authority.png"
+  },
+  {
+    "item_id": "ITEM_GreatSword_Bronze",
+    "display_name": "Bronze Greatsword",
+    "icon": "T_Icon_GreatSword_Bronze_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_GreatSword_Iron",
+    "display_name": "Iron Greatsword",
+    "icon": "T_Icon_GreatSword_Iron_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_GreatSword_Shadow",
+    "display_name": "Shadow Sword",
+    "icon": "T_icon_Shadow_2H_Greatsword.png"
+  },
+  {
+    "item_id": "ITEM_GreatSword_Steel",
+    "display_name": "Steel Greatsword",
+    "icon": "T_icon_Steel_2H_Greatsword.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_Bronze",
+    "display_name": "Bronze Warhammer",
+    "icon": "T_Icon_Warhammer_Bronze_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_Iron",
+    "display_name": "Iron Warhammer",
+    "icon": "T_Icon_Warhammer_Iron_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_Steel",
+    "display_name": "Steel Warhammer",
+    "icon": "T_icon_Steel_2H_Warhammer.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Bronze",
+    "display_name": "Bronze Logging Axe",
+    "icon": "T_Icon_LoggingAxe_Refined_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Iron",
+    "display_name": "Iron Logging Axe",
+    "icon": "T_Icon_LoggingAxe_Iron_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Steel",
+    "display_name": "Steel Logging Axe",
+    "icon": "T_icon_Steel_Logging_Axe.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Stone",
+    "display_name": "Stone Logging Axe",
+    "icon": "T_Icon_LoggingAxe_Crude_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Club_Bone",
+    "display_name": "Bone Club",
+    "icon": "T_Icon_Club_Bone_1H.png"
+  },
+  {
+    "item_id": "ITEM_Club_Stone",
+    "display_name": "Stone Club",
+    "icon": "T_Icon_Club_Stone_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Club_SwingSlash",
+    "display_name": "Goblin \"Swingslash\"",
+    "icon": "T_Icon_Swingslash.png"
+  },
+  {
+    "item_id": "ITEM_Club_Wood",
+    "display_name": "Wooden Club",
+    "icon": "T_Icon_Club_Wood_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Club_ZombieAxe",
+    "display_name": "Zombie Axe",
+    "icon": "T_Icon_Undead_Axe.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Bronze",
+    "display_name": "Bronze Mace",
+    "icon": "T_Icon_Mace_Bronze_1H.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Iron",
+    "display_name": "Iron Mace",
+    "icon": "T_Icon_Mace_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Skullsplitter",
+    "display_name": "Skullsplitter",
+    "icon": "T_Icon_Club_Skull_Splitter.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Steel",
+    "display_name": "Steel Mace",
+    "icon": "T_icon_Steel_1H_Mace.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Bone",
+    "display_name": "Bone Pickaxe",
+    "icon": "T_Icon_Pickaxe_Bone_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Bronze",
+    "display_name": "Bronze Pickaxe",
+    "icon": "T_Icon_Pickaxe_Bronze_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Iron",
+    "display_name": "Iron Pickaxe",
+    "icon": "T_Icon_Pickaxe_Iron_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Steel",
+    "display_name": "Steel Pickaxe",
+    "icon": "T_icon_Steel_Pickaxe.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Stone",
+    "display_name": "Stone Pickaxe",
+    "icon": "T_Icon_Pickaxe_Stone_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Scimitar_Imaru",
+    "display_name": "Imaru's Talon",
+    "icon": "T_Icon_Imaru_Scimitarr.png"
+  },
+  {
+    "item_id": "ITEM_Scimitar_Steel",
+    "display_name": "Steel Scimitar",
+    "icon": "T_icon_Steel_1H_Scimitar.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Shield_Anti_Dragon",
+    "display_name": "Anti-dragon Shield",
+    "icon": "T_Icon_Shield_AntiDragon.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Shield_Dragonfire",
+    "display_name": "Dragonblight Shield",
+    "icon": "T_Icon_Shield_Poison_Dragonfire.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Shield_Dragonfire_Imaru",
+    "display_name": "Dragoncurse Shield",
+    "icon": "T_icon_Imaru_Dragon_Shield.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Bronze",
+    "display_name": "Bronze Shield",
+    "icon": "T_Icon_Kite_Bronze_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Iron",
+    "display_name": "Iron Shield",
+    "icon": "T_Icon_Kite_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Leather",
+    "display_name": "Leather Shield",
+    "icon": "T_Icon_Kite_Leather_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Skeleton",
+    "display_name": "Fallen Hoplite's Aspis",
+    "icon": "T_icon_Hopelite_Shield.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Steel",
+    "display_name": "Steel Shield",
+    "icon": "T_icon_Steel_Shield.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Wood",
+    "display_name": "Wooden Shield",
+    "icon": "T_Icon_Kite_Wood_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Spade_T1_Wood",
+    "display_name": "Wooden Spade",
+    "icon": "T_icon_Wooden_Shovel.png"
+  },
+  {
+    "item_id": "ITEM_Spade_T3_Bronze",
+    "display_name": "Bronze Spade",
+    "icon": "T_icon_Bronze_Shovel.png"
+  },
+  {
+    "item_id": "ITEM_Spade_T5_Steel",
+    "display_name": "Steel Spade",
+    "icon": "T_icon_Steel_Shovel.png"
+  },
+  {
+    "item_id": "ITEM_Spade_T5_Undead",
+    "display_name": "Undead Spade",
+    "icon": "T_Icon_Undead_Shovel.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Ash",
+    "display_name": "Ash Battlestaff",
+    "icon": "T_Icon_Battlestaff_Ash_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Battlestaff",
+    "display_name": "Blightwood Battlestaff",
+    "icon": "T_Icon_BattleStaff_MindspikeStaff_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Draconic",
+    "display_name": "Draconic Staff",
+    "icon": "T_Icon_Staff_Draconic.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Garou",
+    "display_name": "Grieving Moon Staff",
+    "icon": "T_Icon_Staff_Grieving_Moon.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Necromancer",
+    "display_name": "Necromancer's Staff",
+    "icon": "T_icon_Necromancer_Staff.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Oak",
+    "display_name": "Oak Battlestaff",
+    "icon": "T_Icon_Battlestaff_Oak_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Splitbark",
+    "display_name": "Splitbark Staff",
+    "icon": "T_icon_Splitbark_Staff.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T1_Bleeding",
+    "display_name": "test_bleed_t1",
+    "icon": "T_Dagger_Stone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T2_Bleeding",
+    "display_name": "test_bleed_t2",
+    "icon": "T_Dagger_Bone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T3_Bleeding",
+    "display_name": "test_bleed_t3",
+    "icon": "T_Dagger_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T4_Bleeding",
+    "display_name": "test_bleed_t4",
+    "icon": "T_Dagger_Iron.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T1_Burning",
+    "display_name": "test_burning_t1",
+    "icon": "T_Dagger_Stone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T2_Burning",
+    "display_name": "test_burning_t2",
+    "icon": "T_Dagger_Bone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T3_Burning",
+    "display_name": "test_burning_t3",
+    "icon": "T_Dagger_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T4_Burning",
+    "display_name": "test_burning_t4",
+    "icon": "T_Dagger_Iron.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T1_Poison",
+    "display_name": "test_poison_t1",
+    "icon": "T_Dagger_Stone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T2_Poison",
+    "display_name": "test_poison_t2",
+    "icon": "T_Dagger_Bone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T3_Poison",
+    "display_name": "test_poison_t3",
+    "icon": "T_Dagger_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T4_Poison",
+    "display_name": "test_poison_t4",
+    "icon": "T_Dagger_Iron.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T1_Shock",
+    "display_name": "test_shock_t1",
+    "icon": "T_Dagger_Stone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T2_Shock",
+    "display_name": "test_shock_t2",
+    "icon": "T_Dagger_Bone.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T3_Shock",
+    "display_name": "test_shock_t3",
+    "icon": "T_Dagger_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_TEST_T4_Shock",
+    "display_name": "test_shock_t4",
+    "icon": "T_Dagger_Iron.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Bronze",
+    "display_name": "Bronze Sword",
+    "icon": "T_Icon_Sword_Bronze_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Chieftans",
+    "display_name": "Chieftan's Blade",
+    "icon": "T_Icon_Sword_Chieftain_s_Blade.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Iron",
+    "display_name": "Iron Sword",
+    "icon": "T_Icon_Sword_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Steel",
+    "display_name": "Steel Sword",
+    "icon": "T_icon_Steel_1H_Sword.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Training",
+    "display_name": "Wooden Training Sword",
+    "icon": "T_Icon_Sword_Wooden_Training.png"
+  },
+  {
+    "item_id": "ITEM_Torch",
+    "display_name": "Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Torch_Blue",
+    "display_name": "Blue Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Torch_Green",
+    "display_name": "Green Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Torch_Purple",
+    "display_name": "Purple Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Torch_Red",
+    "display_name": "Red Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Torch_Yellow",
+    "display_name": "Yellow Torch",
+    "icon": "T_Icon_Tool_Torch.png"
+  },
+  {
+    "item_id": "ITEM_Club_AbyssalWhip",
+    "display_name": "Abyssal Whip",
+    "icon": "T_Icon_Abyssal_Whip.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_GraniteMaul",
+    "display_name": "Granite Maul",
+    "icon": "T_Icon_Warhammer_Granite_Maul.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_CrystalBow",
+    "display_name": "Crystal Bow",
+    "icon": "T_Icon_Shortbow_Crystal_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Staff_StaffOfLight",
+    "display_name": "Staff of Light",
+    "icon": "T_Icon_Staff_of_Light.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Gourmand",
+    "display_name": "Gourmand Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Herd",
+    "display_name": "Herd Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Hermit",
+    "display_name": "Hermit Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Miner",
+    "display_name": "Miner Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Moon",
+    "display_name": "Moon Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Mule",
+    "display_name": "Mule Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Phoenix",
+    "display_name": "Phoenix Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Pursuit",
+    "display_name": "Ring of Pursuit",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Sun",
+    "display_name": "Sun Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Jewellery_Ring_Woodsman",
+    "display_name": "Woodsman Ring",
+    "icon": "T_icon_Resource_Ring_Of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "display_name": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Amulet_of_Defence",
+    "display_name": "Amulet of Defence",
+    "icon": "T_Icon_Amulet_of_Defense.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Amulet_of_Magic",
+    "display_name": "ITEM_Trinket_Iconic_Amulet_of_Magic",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Amulet_of_Strength",
+    "display_name": "ITEM_Trinket_Iconic_Amulet_of_Strength",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Ring_of_Life",
+    "display_name": "Ring of Life",
+    "icon": "T_Icon_Ring_of_Life.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Ring_of_Pursuit",
+    "display_name": "Ring of Pursuit",
+    "icon": "T_Icon_Ring_of_Pursuit.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Ring_of_Recoil",
+    "display_name": "Ring of Recoil",
+    "icon": "T_Icon_Ring_of_Recoil.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Iconic_Runic_Ring",
+    "display_name": "Abraxus Ring",
+    "icon": "T_Icon_Runic_Ring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Artisan",
+    "display_name": "Inspiring Ring of Artisan",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Attack",
+    "display_name": "Inspiring Amulet of Attack",
+    "icon": "T_Icon_Amulet_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Construction",
+    "display_name": "Inspiring Ring of Construction",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Cooking",
+    "display_name": "Inspiring Ring of Cooking",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Farming",
+    "display_name": "Inspiring Ring of Farming",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Magic",
+    "display_name": "Inspiring Amulet of Magic",
+    "icon": "T_Icon_Amulet_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Mining",
+    "display_name": "Inspiring Ring of Mining",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Ranged",
+    "display_name": "Inspiring Amulet of Ranged",
+    "icon": "T_Icon_Amulet_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Runecrafting",
+    "display_name": "Inspiring Ring of Runecrafting",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Woodcutting",
+    "display_name": "Inspiring Ring of Woodcutting",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Quest_Salve_Amulet",
+    "display_name": "ITEM_Trinket_Quest_Salve_Amulet",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Trinket_Ravanas_Ring",
+    "display_name": "Ravanna's Ring",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Ravannas_Ring",
+    "display_name": "Ravanna's Ring",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Legs_Adventurers",
+    "display_name": "Adventurer's Leggings",
+    "icon": "T_Icon_M_MED_Legs_LightArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Legs_Lightness",
+    "display_name": "Leggings Of Lightness",
+    "icon": "T_Icon_Leggings_of_Lightness.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Legs_Leather",
+    "display_name": "Leather Chaps",
+    "icon": "T_Icon_F_MED_Lowerhalf_DeerLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Legs_Linen",
+    "display_name": "Apprentice Leggings",
+    "icon": "T_Icon_M_MED_Legs_LinenRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T2_Legs_Reinforced",
+    "display_name": "Reinforced Platelegs",
+    "icon": "T_Icon_M_MED_LEGS_ReinforcedArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Legs_Bronze",
+    "display_name": "Bronze Platelegs",
+    "icon": "T_Icon_M_MED_LowerHalf_BronzeArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Legs_HardLeather",
+    "display_name": "Hard Leather Chaps",
+    "icon": "T_Icon_M_MED_LEGS_HardLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Legs_Wizard",
+    "display_name": "Wizard Robe Legs",
+    "icon": "T_Icon_M_MED_Lowerhalf_WizardRobe_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_DarkMage",
+    "display_name": "Dark Mage Robe Legs",
+    "icon": "T_Icon_M_MED_Legs_DarkMageRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_DragonkinMage",
+    "display_name": "Dragonkin Mage Robe Legs",
+    "icon": "T_Icon_Dragonkin_Dark_Mage_Leggings.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_Iron",
+    "display_name": "Iron Platelegs",
+    "icon": "T_Icon_F_MED_LEGS_IronArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_Paladin",
+    "display_name": "Paladin Platelegs",
+    "icon": "T_Icon_Paladin_s_Platelegs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_StuddedLeather",
+    "display_name": "Studded Leather Chaps",
+    "icon": "T_Icon_M_MED_LEGS_StuddedLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Legs_WildArcher",
+    "display_name": "Wild Archer Chaps",
+    "icon": "T_Icon_Wild_Archer_s_Chaps.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_GreenDragonHide",
+    "display_name": "Green Dragonhide Chaps",
+    "icon": "T_icon_Green_Dragonhide_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_Necromancer",
+    "display_name": "Necromancer's Robe Bottom\r\n",
+    "icon": "T_icon_Necromancer_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_Ranger",
+    "display_name": "Ranger Tights",
+    "icon": "T_icon_Ranger_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_Skeleton",
+    "display_name": "Fallen Hoplite's Tassets",
+    "icon": "T_icon_Hopelite_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_Splitbark",
+    "display_name": "Splitbark Legs",
+    "icon": "T_icon_Splitbark_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_Steel",
+    "display_name": "Steel Platelegs",
+    "icon": "T_icon_Steel_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T5_Legs_White",
+    "display_name": "White Platelegs",
+    "icon": "T_icon_White_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Attack_Ranged_Magic",
+    "display_name": "Ferocious Infusion",
+    "icon": "T_Icon_Predators_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_TEST_Cake",
+    "display_name": "TEST_Cake",
+    "icon": "T_Food_Cake.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Dwellberry_OLD",
+    "display_name": "Dwellberry Crunchies",
+    "icon": "T_Icon_Dwellberry_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Fortifying_OLD",
+    "display_name": "Fortifying Crunchies",
+    "icon": "T_Icon_Fortifying_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Hearty_OLD",
+    "display_name": "Hearty Crunchies",
+    "icon": "T_Icon_Hearty_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Redberry_OLD",
+    "display_name": "Redberry Crunchies",
+    "icon": "T_Icon_Redberry_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_divine_cabbage_OLD",
+    "display_name": "Divine Cabbage",
+    "icon": "T_Food_Cabbage.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Berry_Compote_OLD",
+    "display_name": "Berry Compote",
+    "icon": "T_Icon_Resource_Varrock_Hotpot.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Glazed_Dwellberry_Roast_Flank_OLD",
+    "display_name": "Dwellberry Glazed Roast Flank",
+    "icon": "T_Icon_Dwellberry_Glazed_Flank.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Glazed_Dwellberry_Roast_Meat_OLD",
+    "display_name": "Dwellberry Glazed Roast Meat",
+    "icon": "T_Icon_Dwellberry_Glazed_Roast_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Glazed_Redberry_Roast_Flank_OLD",
+    "display_name": "Redberry Glazed Roast Flank",
+    "icon": "T_Icon_Redberry_Glazed_Flank.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Glazed_Redberry_Roast_Meat_OLD",
+    "display_name": "Redberry Glazed Roast Meat",
+    "icon": "T_Icon_Redberry_Glazed_Roast_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Mixed_Platter_OLD",
+    "display_name": "Mixed Platter",
+    "icon": "T_Icon_Mixed_Platter.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Soup_Fortifying_OLD",
+    "display_name": "Fortifying Soup",
+    "icon": "T_Icon_Fortifying_Soup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Soup_Hearty_Fortifying_OLD",
+    "display_name": "Hearty Fortifying Soup",
+    "icon": "T_Icon_Fortifying_Hearty_Soup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Soup_Hearty_OLD",
+    "display_name": "Hearty Soup",
+    "icon": "T_Icon_Hearty_Soup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stew_Fortifying_OLD",
+    "display_name": "Fortifying Stew",
+    "icon": "T_Icon_Fortifying_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stew_Hearty_OLD",
+    "display_name": "Hearty Stew",
+    "icon": "T_Icon_Hearty_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Dwellberry_OLD",
+    "display_name": "Dwellberry Infusion",
+    "icon": "T_Icon_Dwellberry_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Beast_Flank",
+    "display_name": "Flank Steak",
+    "icon": "T_Icon_Flank_Steak.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Beast_Flank_Burnt",
+    "display_name": "Burnt Flank",
+    "icon": "T_Icon_Flank_Steak.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Bread",
+    "display_name": "Bread",
+    "icon": "T_Icon_Bread.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Bread_Burnt",
+    "display_name": "Burnt Bread",
+    "icon": "T_Icon_Bread.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Cabbage_Burnt",
+    "display_name": "Burnt Cabbage",
+    "icon": "T_Icon_Fried_Cabbage.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Cabbage_Fried",
+    "display_name": "Fried Cabbage",
+    "icon": "T_Icon_Fried_Cabbage.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Cake_VictoriaSpongeCake",
+    "display_name": "Victoria Sponge Cake",
+    "icon": "T_Icon_Victoria_Sponge_Cake.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Dwellberry",
+    "display_name": "Dwellberry Crunchies",
+    "icon": "T_Icon_Dwellberry_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Crunchies_Redberry",
+    "display_name": "Redberry Crunchies",
+    "icon": "T_Icon_Redberry_Crunchies.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Egg_Burnt",
+    "display_name": "Burnt Egg",
+    "icon": "T_Icon_Fried_egg.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Egg_Fried",
+    "display_name": "Fried Egg",
+    "icon": "T_Icon_Fried_egg.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Farm_Steak",
+    "display_name": "Steak",
+    "icon": "T_Icon_Resource_Seared_Farm_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Farm_Steak_Burnt",
+    "display_name": "Burnt Steak",
+    "icon": "T_Icon_Resource_Seared_Farm_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Cadavaberry",
+    "display_name": "Cadavaberries",
+    "icon": "T_Icon_Cadavaberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Cadavaberry_Burnt",
+    "display_name": "Burnt Cadavaberries",
+    "icon": "T_Icon_Dried_Cadaverberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Dried_Cadavaberry",
+    "display_name": "Dried Cadavaberries",
+    "icon": "T_Icon_Dried_Cadaverberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Dried_Dwellberry",
+    "display_name": "Dried Dwellberries",
+    "icon": "T_Icon_Dried_Dwellberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Dried_Redberry",
+    "display_name": "Dried Redberries",
+    "icon": "T_Icon_Dried_Redberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Dwellberry",
+    "display_name": "Dwellberries",
+    "icon": "T_Icon_Dwellberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Dwellberry_Burnt",
+    "display_name": "Burnt Dwellberries",
+    "icon": "T_Icon_Dried_Dwellberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Peach",
+    "display_name": "Peach",
+    "icon": "T_Icon_Resource_Peach.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Peach_Burnt",
+    "display_name": "Burnt Peach",
+    "icon": "T_Icon_Dried_peach.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Peach_Dried",
+    "display_name": "Dried Peach",
+    "icon": "T_Icon_Dried_peach.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Redberry",
+    "display_name": "Redberries",
+    "icon": "T_Icon_Redberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fruit_Redberry_Burnt",
+    "display_name": "Burnt Redberries",
+    "icon": "T_Icon_Dried_Redberries.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fryup_Cheeky",
+    "display_name": "Cheeky Fryup",
+    "icon": "T_Icon_Cheeky_fry_up.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fryup_Vegan",
+    "display_name": "Vegan Fryup",
+    "icon": "T_Icon_Vegan_Fryup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Iconic_Kebab",
+    "display_name": "Mushroom Kebab",
+    "icon": "T_Icon_Iconic_Kebab.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Iconic_Pie_Wild",
+    "display_name": "Wild Pie",
+    "icon": "T_Icon_Iconic_Pie_Wild.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Iconic_Pizza_Meat",
+    "display_name": "Meat Pizza",
+    "icon": "T_Icon_Iconic_Pizza_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Fillet",
+    "display_name": "Fillet",
+    "icon": "T_Icon_Resource_Cooked_bird_meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Fillet_Burnt",
+    "display_name": "Burnt Fillet",
+    "icon": "T_Icon_Resource_Cooked_bird_meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Haunch",
+    "display_name": "Haunch",
+    "icon": "T_Icon_Cooked_Tough_Meat_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Haunch_Burnt",
+    "display_name": "Burnt Haunch",
+    "icon": "T_Icon_Cooked_Tough_Meat_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Mixed_Grill",
+    "display_name": "Mixed Grill",
+    "icon": "T_Icon_Mixed_Grill.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Rat_Roast",
+    "display_name": "Rat Roast",
+    "icon": "T_Icon_Rat_roast.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Meat_Rat_Roast_Burnt",
+    "display_name": "Burnt Rat Roast",
+    "icon": "T_Icon_Rat_roast.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Mushroom_Burnt",
+    "display_name": "Burnt Mushroom",
+    "icon": "T_Icon_Grilled_Mushrooms.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Mushroom_Grilled",
+    "display_name": "Grilled Mushrooms",
+    "icon": "T_Icon_Grilled_Mushrooms.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Omelette_Pungent",
+    "display_name": "Pungent Omelette",
+    "icon": "T_Icon_Pungent_omelette.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Onion_Burnt",
+    "display_name": "Burnt Onion",
+    "icon": "T_Icon_Fried_Onions.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Onion_Fried",
+    "display_name": "Fried Onions",
+    "icon": "T_Icon_Fried_Onions.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pie_Fruit",
+    "display_name": "Fruit Pie",
+    "icon": "T_Icon_Fruit_pie.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pie_Meat_Dubious",
+    "display_name": "Dubious Meat Pie",
+    "icon": "T_Icon_Dubious_meat_pie.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potato_Burnt",
+    "display_name": "Burnt Potato",
+    "icon": "T_Icon_Resource_Baked_Potato.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potato_Jacket",
+    "display_name": "Baked Potato",
+    "icon": "T_Icon_Resource_Baked_Potato.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pumpkin_Burnt",
+    "display_name": "Burnt Pumpkin",
+    "icon": "T_Icon_Roasted_Pumkin.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pumpkin_Roast",
+    "display_name": "Roast Pumpkin",
+    "icon": "T_Icon_Roasted_Pumkin.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Redberry_Roast_Rat",
+    "display_name": "Redberry Roast Rat",
+    "icon": "T_Icon_Redberry_Glazed_Roast_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RoastDinner",
+    "display_name": "Roast Dinner",
+    "icon": "T_Icon_Roast_dinner.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast",
+    "display_name": "Glazed Pumpkin Sandwich",
+    "icon": "T_Icon_Sandwich_Glazed_Pumpkin_Roast.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sandwich_Meat",
+    "display_name": "Meat Sandwich",
+    "icon": "T_Icon_Sandwich_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sandwich_Meat_Double",
+    "display_name": "Meat Twist Sandwich",
+    "icon": "T_Icon_Sandwich_Double_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sandwich_Steak",
+    "display_name": "Steak Sandwich",
+    "icon": "T_Icon_Sandwich_Steak.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sandwich_Veggie",
+    "display_name": "Forager's Sandwich",
+    "icon": "T_Icon_Sandwich_Veggie.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sausage_Squeaking",
+    "display_name": "Squeaking Sausage",
+    "icon": "T_Icon_Resource_Beastly_Sausage.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Soup_Pumpkin",
+    "display_name": "Pumpkin Soup",
+    "icon": "T_Icon_Pumpkin_soup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Soup_Vegetable",
+    "display_name": "Vegetable Soup",
+    "icon": "T_Icon_Resource_Meat_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Steak_Undead",
+    "display_name": "Cauterised Undead Steak",
+    "icon": "T_Icon_Cooked_Undead_meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Steak_Undead_Burnt",
+    "display_name": "Burnt Undead Steak",
+    "icon": "T_Icon_Cooked_Undead_meat.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_SteakAndEggs",
+    "display_name": "Steak 'N' Eggs",
+    "icon": "T_Icon_Steak_and_egg.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stew_BeefTomato",
+    "display_name": "Beef & Tomato Stew",
+    "icon": "T_Icon_Beef_and_tomato_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stew_Meat",
+    "display_name": "Meat Stew",
+    "icon": "T_Icon_Meat_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Syrup_Maple",
+    "display_name": "Maple Syrup",
+    "icon": "T_Icon_Maple_Syrup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Syrup_Maple_Burnt",
+    "display_name": "Burnt Maple Syrup",
+    "icon": "T_Icon_Maple_Syrup.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Cadavaberry",
+    "display_name": "Cadaveberry Infusion",
+    "icon": "T_Icon_Cadavaberry_infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Dwellberry",
+    "display_name": "Dwellberry Infusion",
+    "icon": "T_Icon_Dwellberry_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Maple",
+    "display_name": "Maple Infusion",
+    "icon": "T_Icon_Fleet_Footed_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Pumpkin",
+    "display_name": "Pumpkin Spice Infusion",
+    "icon": "T_Icon_Pumpkin_spice_infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Redberry",
+    "display_name": "Redberry Infusion",
+    "icon": "T_Icon_Redberry_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Attack",
+    "display_name": "Ferocious Infusion",
+    "icon": "T_Icon_Predators_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Dodge",
+    "display_name": "Evasive Infusion",
+    "icon": "T_Icon_Wild_Reflex_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Magic",
+    "display_name": "Arcane Infusion",
+    "icon": "T_Icon_Arcane_infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Ranged",
+    "display_name": "Relentless Infusion",
+    "icon": "T_Icon_Relentless_infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tea_Stamina_Reduction_Sprint",
+    "display_name": "Fleet-Footed Infusion",
+    "icon": "T_Icon_Fleet_Footed_Infusion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Toastie_Maple",
+    "display_name": "Maple Toastie",
+    "icon": "T_Icon_Sandwich_Maple_Toastie.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tomato_Burnt",
+    "display_name": "Burnt Tomato",
+    "icon": "T_Icon_Grilled_Tomato.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tomato_Grilled",
+    "display_name": "Grilled Tomatoes",
+    "icon": "T_Icon_Grilled_Tomato.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_v3_Stew_Meat",
+    "display_name": "Meat Stew",
+    "icon": "T_Icon_Meat_Stew.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Vegball_Sweet",
+    "display_name": "Sweet Veg Ball",
+    "icon": "T_Icon_Sweet_veg_ball.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Water_Clean",
+    "display_name": "Clean Water",
+    "icon": "T_Icon_Clean_Water.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Water_Dirty",
+    "display_name": "Dirty Water",
+    "icon": "T_Icon_Dirty_Water.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Water_Wither",
+    "display_name": "Wither Water",
+    "icon": "T_Icon_Withered_Water.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Watermelon_Burnt",
+    "display_name": "Burnt Watermelon",
+    "icon": "T_Icon_Watermelon_Jerky.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Watermelon_Jerky",
+    "display_name": "Watermelon Jerky",
+    "icon": "T_Icon_Watermelon_Jerky.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Artisan",
+    "display_name": "Weak Focused Artisan Potion",
+    "icon": "T_Icon_Weak_Clay_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Attack",
+    "display_name": "Weak Focused Attack Potion",
+    "icon": "T_Icon_Weak_Yellow_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Construction",
+    "display_name": "Weak Focused Construction Potion",
+    "icon": "T_Icon_Weak_Blue_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Cooking",
+    "display_name": "Weak Focused Cooking Potion",
+    "icon": "T_Icon_Weak_Orange_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Farming",
+    "display_name": "Weak Focused Farming Potion",
+    "icon": "T_Icon_Weak_White_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Mining",
+    "display_name": "Weak Focused Mining Potion",
+    "icon": "T_Icon_Weak_Orange_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Runecrafting",
+    "display_name": "Weak Focused Runecraft Potion",
+    "icon": "T_Icon_Weak_Purple_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting",
+    "display_name": "Weak Focused Woodcutting Potion",
+    "icon": "T_Icon_Weak_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan",
+    "display_name": "Lesser Focused Artisan Potion",
+    "icon": "T_Icon_Lesser_Clay_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Attack",
+    "display_name": "Lesser Focused Attack Potion",
+    "icon": "T_Icon_Lesser_Yellow_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Construction",
+    "display_name": "Lesser Focused Construction Potion",
+    "icon": "T_Icon_Lesser_Blue_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking",
+    "display_name": "Lesser Focused Cooking Potion",
+    "icon": "T_Icon_Lesser_Orange_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Farming",
+    "display_name": "Lesser Focused Farming Potion",
+    "icon": "T_Icon_Lesser_White_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Mining",
+    "display_name": "Lesser Focused Mining Potion",
+    "icon": "T_Icon_Lesser_Orange_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting",
+    "display_name": "Lesser Focused Runecrafting Potion",
+    "icon": "T_Icon_Lesser_Purple_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting",
+    "display_name": "Lesser Focused Woodcutting Potion",
+    "icon": "T_Icon_Lesser_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Artisan",
+    "display_name": "Focused Artisan Potion",
+    "icon": "T_Icon_Potion_Tier3_Clay.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Attack",
+    "display_name": "Focused Attack Potion",
+    "icon": "T_Icon_Potion_Tier3_Yellow.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Construction",
+    "display_name": "Focused Construction Potion",
+    "icon": "T_Icon_Potion_Tier3_Blue.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Cooking",
+    "display_name": "Focused Cooking Potion",
+    "icon": "T_Icon_Potion_Tier3_Orange.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Farming",
+    "display_name": "Focused Farming Potion",
+    "icon": "T_Icon_Potion_Tier3_White.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Mining",
+    "display_name": "Focused Mining Potion",
+    "icon": "T_Icon_Potion_Tier3_Orange.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Runecrafting",
+    "display_name": "Focused Runecrafting Potion",
+    "icon": "T_Icon_Potion_Tier3_Purple.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Woodcutting",
+    "display_name": "Focused Woodcutting Potion",
+    "icon": "T_Icon_Potion_Tier3_Green.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T1_Weak_Antipoison",
+    "display_name": "Weak Antipoison Potion",
+    "icon": "T_Icon_Weak_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T1_Weak_Healing",
+    "display_name": "Weak Healing Potion",
+    "icon": "T_Icon_Weak_Red_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T1_Weak_Lumberjack",
+    "display_name": "Weak Lumberjack Potion",
+    "icon": "T_Icon_Weak_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T1_Weak_Quarrymaster",
+    "display_name": "Weak Quarrymaster Potion",
+    "icon": "T_Icon_Weak_Black_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Antipoison",
+    "display_name": "Lesser Antipoison Potion",
+    "icon": "T_Icon_Lesser_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Attack",
+    "display_name": "Lesser Attack Potion",
+    "icon": "T_Icon_Lesser_Blue_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Healing",
+    "display_name": "Lesser Healing Potion",
+    "icon": "T_Icon_Lesser_Red_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Lumberjack",
+    "display_name": "Lesser Lumberjack Potion",
+    "icon": "T_Icon_Lesser_Green_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Magic",
+    "display_name": "Lesser Magic Potion",
+    "icon": "T_Icon_Lesser_Pink_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T2_Lesser_Quarrymaster",
+    "display_name": "Lesser Quarrymaster Potion",
+    "icon": "T_Icon_Lesser_Black_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T3_Antifire",
+    "display_name": "Antifire Potion",
+    "icon": "T_Icon_Potion_Tier3_Purple.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T3_Antipoison",
+    "display_name": "Antipoison Potion",
+    "icon": "T_Icon_Potion_Tier3_Green.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T3_Healing",
+    "display_name": "Healing Potion",
+    "icon": "T_Icon_Potion_Tier3_Red.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T3_Lumberjack",
+    "display_name": "Lumberjack Potion",
+    "icon": "T_Icon_Potion_Tier3_Green.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_T3_Quarrymaster",
+    "display_name": "Quarrymaster Potion",
+    "icon": "T_Icon_Potion_Tier3_Black.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Wardstone_Large",
+    "display_name": "Large Wardstone",
+    "icon": "Wardstone_Big.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Wardstone_Medium",
+    "display_name": "Medium Wardstone",
+    "icon": "Wardstone_Medium.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Wardstone_Small",
+    "display_name": "Small Wardstone",
+    "icon": "Wardstone_Small.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_BirdNest",
+    "display_name": "Bird Nest",
+    "icon": "T_Icon_Resource_Bird_Nest.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_DeathquestRewardPack",
+    "display_name": "Withering Heights Reward Pack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_DragonSlayerRewardPackBeat2",
+    "display_name": "Dragon Slayer Reward Pack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_DragonSlayerRewardPackBeat5",
+    "display_name": "Dragon Slayer Reward Pack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_FH_CollectorsCallingStage1_RewardPack",
+    "display_name": "Doric's Smithing Supplies",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_FH_CollectorsCallingStage2_RewardPack",
+    "display_name": "Doric's Superior Smithing Supplies",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_FinishedFarmingTutorialPack",
+    "display_name": "Spare Farmers Supplies",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_GarouPack",
+    "display_name": "Garou Pack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_GoblinPack",
+    "display_name": "Goblin Pack",
+    "icon": "T_Icon_Resources_Goblin_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_MagicFocus",
+    "display_name": "Magical Focus",
+    "icon": "T_Icon_Magic_Focus.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pack_Ashes_Demonic_Lesser",
+    "display_name": "Ash Pile",
+    "icon": "T_Icon_Lesser_Ashes.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pack_Ashes_Demonic_Small",
+    "display_name": "Small Ash Pile",
+    "icon": "T_Icon_Small_Ashes.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pack_Zamorak_Mage",
+    "display_name": "Zamorakian Mage Pack",
+    "icon": "T_Icon_Zamorak_Mage_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Pack_Zamorak_Warrior",
+    "display_name": "Zamorakian Warrior Pack",
+    "icon": "T_Icon_Zamorak_Warrior_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_PlanPack_Flags_Armadyl_01",
+    "display_name": "Plan Bundle: Armadyl Flags",
+    "icon": "T_Icon_Pack_Armadyl_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_PlanPack_Flags_Bandos_01",
+    "display_name": "Plan Bundle: Bandos Flags",
+    "icon": "T_Icon_Pack_Bandos_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_PlanPack_Flags_Guthix_01",
+    "display_name": "Plan Bundle: Guthix Flags",
+    "icon": "T_Icon_Pack_Guthix_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_PlanPack_Flags_Saradomin_01",
+    "display_name": "Plan Bundle: Saradomin Flags",
+    "icon": "T_Icon_Pack_Saradomin_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_PlanPack_Flags_Zamorak_01",
+    "display_name": "Plan Bundle: Zamorak Flags",
+    "icon": "T_Icon_Pack_Zamorak_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RestlessGhostsPack",
+    "display_name": "Restless Ghosts Reward Pack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_SkeletonPack",
+    "display_name": "Skeleton Pack",
+    "icon": "T_Icon_Skeleton_lootbag.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_WeaponBarbs",
+    "display_name": "Weapon Barbs",
+    "icon": "T_Icon_Weapon_Barbs2.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_WeaponPoison",
+    "display_name": "Weapon Poison",
+    "icon": "T_Icon_Weapon_Poison.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Whetstone",
+    "display_name": "Whetstone",
+    "icon": "T_Icon_Whetstone.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_ZogrePack",
+    "display_name": "Zogre Pack",
+    "icon": "T_Icon_Zombie_lootbag.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_ZombiePack",
+    "display_name": "Zombie Pack",
+    "icon": "T_Icon_Zombie_lootbag.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier0_DeathQuestMain",
+    "display_name": "Tome of the Undying",
+    "icon": "T_Icon_Tome_of_the_Dragon_Slayer.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier0_DragonSlayerQuest",
+    "display_name": "Tome of the Dragon Slayer",
+    "icon": "T_Icon_Tome_of_the_Dragon_Slayer.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Artisan",
+    "display_name": "Tome of the Artisan - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Artisan.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Attack",
+    "display_name": "Tome of Attack - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Attack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Construction",
+    "display_name": "Tome of Construction - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Construction.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Cooking",
+    "display_name": "Tome of Cooking - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Cooking.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Farming",
+    "display_name": "Tome of Farming - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Farming.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Magic",
+    "display_name": "Tome of Magic - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Magic.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Mining",
+    "display_name": "Tome of Mining - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Mining.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Ranged",
+    "display_name": "Tome of Ranged - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Ranged.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Runecrafting",
+    "display_name": "Tome of Runecrafting - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Runecrafting.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Woodcutting",
+    "display_name": "Tome of Woodcutting - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Woodcutting.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Artisan",
+    "display_name": "Tome of the Artisan - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Artisan.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Attack",
+    "display_name": "Tome of Attack - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Attack.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Construction",
+    "display_name": "Tome of Construction - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Construction.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Cooking",
+    "display_name": "Tome of Cooking - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Cooking.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Farming",
+    "display_name": "Tome of Farming - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Farming.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Magic",
+    "display_name": "Tome of Magic - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Magic.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Mining",
+    "display_name": "Tome of Mining - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Mining.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Ranged",
+    "display_name": "Tome of Ranged - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Ranged.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Runecrafting",
+    "display_name": "Tome of Runecrafting - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Runecrafting.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Woodcutting",
+    "display_name": "Tome of Woodcutting - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Woodcutting.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Slab",
+    "display_name": "item_clay_slab_deleted",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Slab_Unfired",
+    "display_name": "item_clay_slab_unfired_deleted",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Resources_Emerald_Deleted",
+    "display_name": "res_gem_emerald_deleted",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Resources_Soda_Ash",
+    "display_name": "res_soda_ash",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Scimitar_Imaru_Deprecated",
+    "display_name": "deleted_weap_scimitar_imaru",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Farming_CureDiseasePotion",
+    "display_name": "Plant Cure",
+    "icon": "T_Icon_Plant_Cure_Potion.png"
+  },
+  {
+    "item_id": "ITEM_JOURNAL_TreasureMap_Scarecrow_1",
+    "display_name": "Scarecrow's Treasure Map",
+    "icon": "T_Icon_Treasure_Map.png"
+  },
+  {
+    "item_id": "ITEM_JOURNAL_TreasureMap_Scarecrow_2",
+    "display_name": "Scarecrow's Treasure Map",
+    "icon": "T_Icon_Treasure_Map.png"
+  },
+  {
+    "item_id": "ITEM_JOURNAL_TreasureMap_Scarecrow_3",
+    "display_name": "Scarecrow's Treasure Map",
+    "icon": "T_Icon_Treasure_Map.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Abyssal_Ashes",
+    "display_name": "Abyssal Ashes",
+    "icon": "T_Icon_Abyssal_Ashes.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Abyssal_Spine",
+    "display_name": "Abyssal Spine",
+    "icon": "T_Icon_Resource_Abyssal_Spine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Adhesive",
+    "display_name": "Adhesive",
+    "icon": "T_Icon_Adhesive.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Alpha_Wolf_Skin",
+    "display_name": "Dire Wolf Hide",
+    "icon": "T_Icon_Dire_Wolf_Skin.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Animal_Hide",
+    "display_name": "Animal Hide",
+    "icon": "T_Icon_Animal_Hide.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Animal_Horn",
+    "display_name": "Antler",
+    "icon": "T_Icons_Resource_Antlers.png"
+  },
+  {
+    "item_id": "ITEM_Resources_AnimalBone",
+    "display_name": "Animal Bone",
+    "icon": "T_Icon_Animal_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bone_Undead",
+    "display_name": "Undead Bone",
+    "icon": "T_Icon_Undead_Bone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Coarse_Animal_Fur",
+    "display_name": "Coarse Animal Fur",
+    "icon": "T_Icon_Resource_Coarse_Animal_Fur.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Corpse_Fur",
+    "display_name": "Corpse Cotton",
+    "icon": "T_Icon_Corpse_Cotton.png"
+  },
+  {
+    "item_id": "ITEM_Resources_DragonBlood",
+    "display_name": "Dragon Blood",
+    "icon": "T_Icon_Dragon_Blood.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ectoplasm",
+    "display_name": "Ectoplasm",
+    "icon": "T_Icon_Ectoplasm.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Egg",
+    "display_name": "Egg",
+    "icon": "T_Resources_Egg.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fang",
+    "display_name": "Small Animal Fang",
+    "icon": "T_Icon_Animal_Fang.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Feathers",
+    "display_name": "Feathers",
+    "icon": "T_Icon_Resource_Feathers.png"
+  },
+  {
+    "item_id": "ITEM_Resources_FireOil",
+    "display_name": "Fire Oil",
+    "icon": "T_Icon_Fire_Oil.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Scale_Dragon_Blue",
+    "display_name": "Blue Dragon Scale Dust",
+    "icon": "T_Icon_Blue_Dragon_Dust.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Heart_Withered",
+    "display_name": "Withered Heart",
+    "icon": "T_Icon_WitherHeart.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Large_Animal_Horn",
+    "display_name": "Ram Horn",
+    "icon": "T_Icon_Resources_Large_Animal_Horn.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Meat_Bestial",
+    "display_name": "Raw Bestial Meat",
+    "icon": "T_Icon_Resource_Bestial_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Meat_Bird",
+    "display_name": "Raw Bird Meat",
+    "icon": "T_Icon_Resource_Raw_bird_meat.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Meat_Farm",
+    "display_name": "Raw Farm Meat",
+    "icon": "T_Icon_Resource_Raw_Farm_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Meat_Game",
+    "display_name": "Raw Game Meat",
+    "icon": "T_Icon_Raw_Tough_Meat_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Meat_Undead",
+    "display_name": "Undead Meat",
+    "icon": "T_Icon_Undead_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Monstrous_Fang",
+    "display_name": "Monstrous Fang",
+    "icon": "T_Icon_Resource_Monstrous_Fang.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Naptha",
+    "display_name": "Naphtha",
+    "icon": "T_Icon_Naptha.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Raw_Stringy_Meat",
+    "display_name": "Raw Rat Meat",
+    "icon": "T_Icon_Resource_Raw_Stringy_Meat.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SacredOil",
+    "display_name": "Sacred Oil",
+    "icon": "T_Icon_Sacred_Oil.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Scale_Dragon_Blue",
+    "display_name": "Blue Dragon Scale",
+    "icon": "T_Icon_Blue_Dragon_Scale.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Shrapnel",
+    "display_name": "Shrapnel",
+    "icon": "T_Icon_Shrapnel2.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Skin_Dragon_Green_Lesser",
+    "display_name": "Green Dragon Hide",
+    "icon": "T_Icon_Green_Dragon_Hide.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Skin_Dragonwolf",
+    "display_name": "Dragonwolf Hide",
+    "icon": "T_Icon_Dragonwolf_Hide.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Skin_Fleece",
+    "display_name": "Fleece",
+    "icon": "T_Icon_Fleece.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Skin_Scraps",
+    "display_name": "Animal Hide Scraps",
+    "icon": "T_Icon_Animal_Hide_Scraps.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Soft_Animal_Fur",
+    "display_name": "Soft Animal Fur",
+    "icon": "T_Icon_Resource_Soft_Animal_Fur.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Velgar_Head",
+    "display_name": "Velgar's Head",
+    "icon": "T_Icon_Velgar_Head.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Visage_Dragon",
+    "display_name": "Draconic Visage",
+    "icon": "T_Icon_Dragon_Visage.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Visage_Dragon_Imaru",
+    "display_name": "Undead Draconic Visage",
+    "icon": "T_Icon_Dragon_Visage.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BluriteLimbs",
+    "display_name": "Blurite Crossbow Limbs",
+    "icon": "T_Icon_CrossbowLimb_Blurite_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BronzeLimbs",
+    "display_name": "Bronze Crossbow Limbs",
+    "icon": "T_Icon_CrossbowLimb_Bronze_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_DorgeshuunLimbs",
+    "display_name": "Bone Crossbow Limbs",
+    "icon": "T_icon_Dorgeshuun_Crossbow_Limbs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_IronLimbs",
+    "display_name": "Iron Crossbow Limbs",
+    "icon": "T_Icon_CrossbowLimb_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SteelLimbs",
+    "display_name": "Steel Crossbow Limbs",
+    "icon": "T_icon_Steel_Crossbow_arms.png"
+  },
+  {
+    "item_id": "ITEM_Currency_SoulFragment",
+    "display_name": "Soul Fragment",
+    "icon": "T_Icon_Soul_Fragment.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Diamond",
+    "display_name": "Diamond",
+    "icon": "T_Icon_Resource_Diamond.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Emerald",
+    "display_name": "Emerald",
+    "icon": "T_Icon_Gemstone_Emerald_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Jade",
+    "display_name": "Jade",
+    "icon": "T_Icon_Jade.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Opal",
+    "display_name": "Opal",
+    "icon": "T_Icon_Resource_Opal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Red_Topaz",
+    "display_name": "Red Topaz",
+    "icon": "T_Icon_Resource_Red_Topaz.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Sapphire",
+    "display_name": "Sapphire",
+    "icon": "T_Icon_Resource_Sapphire.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Glass_Decoration",
+    "display_name": "Glass Decoration",
+    "icon": "T_Icon_Glass_Decoration.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Glass_Pane",
+    "display_name": "Glass Pane",
+    "icon": "T_Icon_Glass_Pane.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Glass_Vessel",
+    "display_name": "Glass Vessel",
+    "icon": "T_Icon_Glass_Vessel.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Harralander",
+    "display_name": "Harralander",
+    "icon": "T_Icon_Resource_Harralander.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Irit",
+    "display_name": "Irit",
+    "icon": "T_Icon_Irit_Leaf.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Kwuarm",
+    "display_name": "Kwuarm",
+    "icon": "T_Icon_Kwarm_Herb.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Marrentill",
+    "display_name": "Marrentill",
+    "icon": "T_Icon_Resource_Marrentil.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Plant_Bulb_Shocking",
+    "display_name": "Shocking Plant Bulb",
+    "icon": "T_Icon_Resources_Shocking_Plant_Bulb.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Poison_Ichor",
+    "display_name": "Poison Ichor",
+    "icon": "T_Icon_Poison_Ichor2.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Snapdragon",
+    "display_name": "Snapdragon",
+    "icon": "T_Icon_Resource_Snap_Dragon.png"
+  },
+  {
+    "item_id": "ITEM_Herb_Toadflax",
+    "display_name": "Toadflax",
+    "icon": "T_Icon_Resource_Toadflax.png"
+  },
+  {
+    "item_id": "ITEM_SwampWeed",
+    "display_name": "Swamp Weed",
+    "icon": "T_Icon_Resource_Swamp_Weed.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Currency_DreamShard",
+    "display_name": "Infernal Fragment",
+    "icon": "T_Icon_Infernal_Fragments.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fibres_Mystic",
+    "display_name": "Mystic Fibres",
+    "icon": "T_Icon_Mystic_Fibres.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Thread_Mystic",
+    "display_name": "Mystic Thread",
+    "icon": "T_Icon_Mystic_Thread.png"
+  },
+  {
+    "item_id": "ITEM_Resources_VileAshes",
+    "display_name": "Vile Ashes",
+    "icon": "T_Icon_Vile_Ashes.png"
+  },
+  {
+    "item_id": "ITEM_quest_AnimalMagnetism_AdvertInnaBottle",
+    "display_name": "Advert-Inna-Bottle",
+    "icon": "T_Icon_Scroll.png"
+  },
+  {
+    "item_id": "ITEM_quest_AnimalMagnetism_Magnet",
+    "display_name": "Magnet",
+    "icon": "T_Icon_Magnet.png"
+  },
+  {
+    "item_id": "ITEM_Quest_AnimalMagnetism_UndeadChicken",
+    "display_name": "Undead Chicken",
+    "icon": "T_Icon_ZombieChicken.png"
+  },
+  {
+    "item_id": "ITEM_Quest_AnimalMagnetism_UndeadTwig",
+    "display_name": "Bundle of Undead Twigs",
+    "icon": "T_Icon_Undead_Twig.png"
+  },
+  {
+    "item_id": "ITEM_Quest_CooksAssistant_Cake",
+    "display_name": "Glorious Cake",
+    "icon": "T_Icon_Victoria_Sponge_Cake.png"
+  },
+  {
+    "item_id": "ITEM_Quest_CooksAssistant_Milk",
+    "display_name": "Bucket of Milk",
+    "icon": "T_icon_Wooden_Bucket.png"
+  },
+  {
+    "item_id": "ITEM_quest_CrystalSeed",
+    "display_name": "Crystal Seed",
+    "icon": "T_Icon_Crystal_Seed.png"
+  },
+  {
+    "item_id": "ITEM_quest_FellhollowGhostQuest_Book",
+    "display_name": "Dust-covered Sketchbook",
+    "icon": "T_Icon_Skill_Tome_Artisan.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_LettersForTheDead_Letter_1",
+    "display_name": "Missing Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_LettersForTheDead_Letter_2",
+    "display_name": "Missing Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_LettersForTheDead_Letter_3",
+    "display_name": "Missing Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_MirrorMirror_Book",
+    "display_name": "Bedraggled Spellbook",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_MirrorMirror_Thread",
+    "display_name": "Spectral Silver Thread",
+    "icon": "T_Icon_Silver_Ash_Thread.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_NightoftheSpectralBoom_Skull",
+    "display_name": "Spectral Chinchompa Skull",
+    "icon": "T_Icon_Spectral_Chinchompa_Skull.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Book1",
+    "display_name": "Aetheric Fundamentals, a Primordial Primer",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Book2",
+    "display_name": "The Pride of the Avernic",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Book3",
+    "display_name": "The Wrath of Baba Potterington",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Book4",
+    "display_name": "The Importance of Chaos",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Book5",
+    "display_name": "Leonard The Bound",
+    "icon": "T_Icon_Abraxus_Necromancer_Book.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Scroll1",
+    "display_name": "The Binding of Ib",
+    "icon": "T_Icon_Scroll.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Scroll2",
+    "display_name": "Coclear Malificarum",
+    "icon": "T_Icon_Scroll.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WhatRemains_Scroll3",
+    "display_name": "Eventide - A New Spawn",
+    "icon": "T_Icon_Scroll.png"
+  },
+  {
+    "item_id": "ITEM_quest_FH_WitherBeast_Heart",
+    "display_name": "Primordial Heart",
+    "icon": "T_Icon_WitherBeast_Heart.png"
+  },
+  {
+    "item_id": "ITEM_quest_garou_kingstoken",
+    "display_name": "Tainted King's Token ",
+    "icon": "T_Icon_Kings_Token.png"
+  },
+  {
+    "item_id": "ITEM_quest_garou_purifiedkingstoken",
+    "display_name": "Purified King's Token",
+    "icon": "T_Icon_Kings_Token.png"
+  },
+  {
+    "item_id": "ITEM_quest_GhostSpeakAmulet",
+    "display_name": "Ghostspeak Amulet",
+    "icon": "T_Icon_Ghostspeak_Amulet.png"
+  },
+  {
+    "item_id": "ITEM_quest_goblin_amulet_Part1",
+    "display_name": "Bandosian Amulet",
+    "icon": "T_Icon_Bandosian_Amulet_1.png"
+  },
+  {
+    "item_id": "ITEM_quest_goblin_amulet_Part2",
+    "display_name": "Druid's Bandosian Amulet",
+    "icon": "T_Icon_Bandosian_Amulet_2.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_Body_01",
+    "display_name": "Human torso",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_Body_02",
+    "display_name": "Garou Arms",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_Body_03",
+    "display_name": "Goblin Legs",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_EmptyVial",
+    "display_name": "Empty Vial",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_Fenkenstrains_Head",
+    "display_name": "Doctor Fenkenstrain's Head",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_GreatBodyRobbery_LightningVial",
+    "display_name": "Lightning-in-a-bottle",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_quest_HtP_MysteriousOrb",
+    "display_name": "Mysterious Orb [Uncharged]",
+    "icon": "T_Icon_Mysterious_Orb.png"
+  },
+  {
+    "item_id": "ITEM_quest_HtP_MysteriousOrb_Charged",
+    "display_name": "Mysterious Orb [Charged]",
+    "icon": "T_Icon_Charged_Mysterious_Orb.png"
+  },
+  {
+    "item_id": "ITEM_Quest_SaradominStatue_Key_Jade",
+    "display_name": "ITEM_Quest_SaradominStatue_Key_Jade",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_SaradominStatue_Key_Opal",
+    "display_name": "ITEM_Quest_SaradominStatue_Key_Opal",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_SaradominStatue_Key_Sapphire",
+    "display_name": "ITEM_Quest_SaradominStatue_Key_Sapphire",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_quest_Scarecrow_Key",
+    "display_name": "Scarecrow's Key",
+    "icon": "T_Icon_Key.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Imaru_Head",
+    "display_name": "Imaru's Head",
+    "icon": "T_Icon_Imaru_Head_Resized.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salve_Crystal",
+    "display_name": "Salve Crystal",
+    "icon": "T_Icon_Salve_Stone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SealBreakKey_Fall",
+    "display_name": "Curse Fragment (Rage)",
+    "icon": "T_Icon_Imaru_Curse_Seal_Rage_nofx.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SealBreakKey_Fort",
+    "display_name": "Curse Fragment (Despair)",
+    "icon": "T_Icon_Imaru_Curse_Seal_Despair_nofx.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SealBreakKey_Vil",
+    "display_name": "Curse Fragment (Grief)",
+    "icon": "T_Icon_Imaru_Curse_Seal_Grief_nofx.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_EmberwoodVillage",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_FallenGates",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_FountainRuins",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_Gatehouse",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_ImarusTower",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_KeepEntrance",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_MinersCottage",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_PostiePete",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_StandingStones",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_WillgroveRuins",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_FH_WitheredRuins",
+    "display_name": "Letter",
+    "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Resources_VaultCore",
+    "display_name": "Vault Core",
+    "icon": "T_Icon_Resource_Vault_Core.png"
+  },
+  {
+    "item_id": "ITEM_Resources_VaultShard",
+    "display_name": "Vault Shard",
+    "icon": "T_Icon_Resource_Vault_Shard.png"
+  },
+  {
+    "item_id": "ITEM_Resources_WildAnima",
+    "display_name": "Wild Anima",
+    "icon": "T_Icon_Anima_Wild_01.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Air",
+    "display_name": "Air Rune",
+    "icon": "T_Icon_Rune_Air.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Astral",
+    "display_name": "Astral Rune",
+    "icon": "T_Icon_Rune_Astral.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Earth",
+    "display_name": "Earth Rune",
+    "icon": "T_Icon_Rune_Earth.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Essence",
+    "display_name": "Rune Essence",
+    "icon": "T_Icon_Rune_Essence.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Fire",
+    "display_name": "Fire Rune",
+    "icon": "T_Icon_Rune_Fire.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Law",
+    "display_name": "Law Rune",
+    "icon": "T_Icon_Rune_Law.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Nature",
+    "display_name": "Nature Rune",
+    "icon": "T_Icon_Rune_Nature.png"
+  },
+  {
+    "item_id": "ITEM_Rune_Water",
+    "display_name": "Water Rune",
+    "icon": "T_Icon_Rune_Water.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Challenge_Horn",
+    "display_name": "Challenge Horn",
+    "icon": "T_Icon_Challenge_Horn_01.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Horn_Mouthpiece",
+    "display_name": "Challenge Horn Mouthpiece",
+    "icon": "T_Masterworks_Horn_Mouthpiece.png"
+  },
+  {
+    "item_id": "ITEM_Artifact_Granite_Maul_Blueprints",
+    "display_name": "Granite Maul Blueprints",
+    "icon": "T_Icon_Scroll_021cc0ae.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Imbued_Granite_Maul_Head",
+    "display_name": "Imbued Granite Maul Head",
+    "icon": "T_Icon_Imbued_Maul_Head.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Imbued_Leather_Wrappings",
+    "display_name": "Imbued Leather Wrappings",
+    "icon": "T_Icon_Imbued_Leather_Wrappings.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_Ornate_Maul_Handle",
+    "display_name": "Ornate Maul Handle",
+    "icon": "T_Icon_Ornate_Maul_Handle.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BluriteBar",
+    "display_name": "Blurite Bar",
+    "icon": "T_Icon_Resource_Bar_Blurite.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BluriteOre",
+    "display_name": "Blurite Ore",
+    "icon": "T_Icon_Resource_Ore_Blurite.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BronzeBar",
+    "display_name": "Bronze Bar",
+    "icon": "T_Icon_Resource_Bar_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Resources_CopperBar",
+    "display_name": "Copper Bar",
+    "icon": "T_Icon_Resource_Bar_Copper.png"
+  },
+  {
+    "item_id": "ITEM_Resources_CopperOre",
+    "display_name": "Copper Ore",
+    "icon": "T_Icon_Resource_Ore_Copper.png"
+  },
+  {
+    "item_id": "ITEM_Resources_GoldBar",
+    "display_name": "Gold Bar",
+    "icon": "T_Icon_Resource_Bar_Gold.png"
+  },
+  {
+    "item_id": "ITEM_Resources_GoldOre",
+    "display_name": "Gold Ore",
+    "icon": "T_Icon_Resource_Ore_Gold.png"
+  },
+  {
+    "item_id": "ITEM_Resources_IronBar",
+    "display_name": "Iron Bar",
+    "icon": "T_Icon_Resource_Bar_Iron.png"
+  },
+  {
+    "item_id": "ITEM_Resources_IronOre",
+    "display_name": "Iron Ore",
+    "icon": "T_Icon_Resource_Ore_Iron.png"
+  },
+  {
+    "item_id": "ITEM_Resources_MithrilBar",
+    "display_name": "Mithril Bar",
+    "icon": "T_Icon_Mithril_Bar.png"
+  },
+  {
+    "item_id": "ITEM_Resources_MithrilOre",
+    "display_name": "Mithril Ore",
+    "icon": "T_Icon_Mithril_Ore.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SilverBar",
+    "display_name": "Silver Bar",
+    "icon": "T_Icon_Resource_Bar_Silver.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SilverOre",
+    "display_name": "Silver Ore",
+    "icon": "T_Icon_Resource_Ore_Silver.png"
+  },
+  {
+    "item_id": "ITEM_Resources_SteelBar",
+    "display_name": "Steel Bar",
+    "icon": "T_Icon_Steel_Bar.png"
+  },
+  {
+    "item_id": "ITEM_Resources_TinBar",
+    "display_name": "Tin Bar",
+    "icon": "T_Icon_Resource_Bar_Tin.png"
+  },
+  {
+    "item_id": "ITEM_Resources_TinOre",
+    "display_name": "Tin Ore",
+    "icon": "T_Icon_Resource_Ore_Tin.png"
+  },
+  {
+    "item_id": "ITEM_Fuel_Resources_Charcoal",
+    "display_name": "Charcoal",
+    "icon": "T_Icon_Resource_Charcoal.png"
+  },
+  {
+    "item_id": "ITEM_Fuel_Resources_Fuel_Pellet",
+    "display_name": "Fuel Pellet",
+    "icon": "T_icon_Fuel_Pellet.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay",
+    "display_name": "Clay",
+    "icon": "T_Icon_Resources_Clay.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Decoration",
+    "display_name": "Clay Decoration",
+    "icon": "T_Icon_Fired_Clay_Decoration.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Decoration_Unfired",
+    "display_name": "Clay Decoration (Unfired)",
+    "icon": "T_Icon_Unfired_Clay_Decoration.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Mould",
+    "display_name": "Clay Mould",
+    "icon": "T_Icon_Resource_Clay_Mould.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Mould_Unfired",
+    "display_name": "Clay Mould (Unfired)",
+    "icon": "T_Icon_Resource_Unfired_Clay_Mould.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Vessel",
+    "display_name": "Clay Vessel",
+    "icon": "T_Icon_Fired_Clay_Vessel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Clay_Vessel_Unfired",
+    "display_name": "Clay Vessel (Unfired)",
+    "icon": "T_Icon_Unfired_Clay_Vessel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Coal",
+    "display_name": "Coal",
+    "icon": "T_Icon_Coal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Dragon_Tooth",
+    "display_name": "Dragon Tooth",
+    "icon": "T_Icon_Resource_Dragon_Tooth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Granite",
+    "display_name": "Granite",
+    "icon": "T_Icon_Resource_Granite.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Bonemeal_Necrotic",
+    "display_name": "Necrotic Bonemeal",
+    "icon": "T_Icon_Bonemeal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Clay",
+    "display_name": "Ground Clay",
+    "icon": "T_Icon_Resources_Ground_Clay.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Granite",
+    "display_name": "Ground Granite",
+    "icon": "T_Icon_Resources_Ground_Granite.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Sandstone",
+    "display_name": "Ground Sandstone",
+    "icon": "T_Icon_Resources_Ground_Sandstone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Stone",
+    "display_name": "Ground Stone",
+    "icon": "T_Icon_Resources_Ground_Stone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Wheat",
+    "display_name": "Bag of Flour",
+    "icon": "T_Icon_Bag_of_flour.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Molten_Glass",
+    "display_name": "Molten Glass",
+    "icon": "T_Icon_Resource_Molten_Glass.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Sandstone",
+    "display_name": "Sandstone",
+    "icon": "T_Icon_Resource_Sandstone_Rock.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Stone",
+    "display_name": "Stone",
+    "icon": "T_Icon_Resource_Stone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Stone_Block",
+    "display_name": "Stone Block",
+    "icon": "T_Icon_Stone_Block.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Swamp_Tar",
+    "display_name": "Swamp Tar",
+    "icon": "T_Icon_Swamp_Tar_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bloodwood_Sap",
+    "display_name": "Bloodwood Sap",
+    "icon": "T_Icon_Bloodwood_Sap.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cabbage",
+    "display_name": "Cabbage",
+    "icon": "T_Icon_Resource_Cabbage.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Flax",
+    "display_name": "Flax",
+    "icon": "T_Icon_Resource_Flax.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Maple_Sap",
+    "display_name": "Maple Sap",
+    "icon": "T_Icon_Maple_Sap.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Mushroom",
+    "display_name": "Bittercap Mushroom",
+    "icon": "T_Icon_Bittercap_Mushroom.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Onion",
+    "display_name": "Onion",
+    "icon": "T_Icon_Onion.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Potato",
+    "display_name": "Potato",
+    "icon": "T_Icon_Resource_Potato.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Pumpkin",
+    "display_name": "Pumpkin",
+    "icon": "T_Icon_Pumpkin.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Tomato",
+    "display_name": "Tomato",
+    "icon": "T_Icon_Tomato.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Vine_Root",
+    "display_name": "Vine Root",
+    "icon": "T_Icon_Resources_Vine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Watermelon",
+    "display_name": "Watermelon",
+    "icon": "T_Icon_Watermelon.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Weeds",
+    "display_name": "Weeds",
+    "icon": "T_Icon_Weeds.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wheat",
+    "display_name": "Wheat",
+    "icon": "T_Icon_Weat_Banch.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Alpha_Leather",
+    "display_name": "Dire Wolf Leather",
+    "icon": "T_Icon_Dire_Wolf_Leather_NEW.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Fine",
+    "display_name": "Fine Cloth",
+    "icon": "T_Icon_Fine_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Linen",
+    "display_name": "Rough Cloth",
+    "icon": "T_Icon_Resource_Linen_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Padded",
+    "display_name": "Padded Cloth",
+    "icon": "T_Icon_Resource_Padded_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Wool",
+    "display_name": "Wool Cloth",
+    "icon": "T_Icon_Resource_Woolen_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather",
+    "display_name": "Leather",
+    "icon": "T_Icon_Resources_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Draconic",
+    "display_name": "Draconic Leather",
+    "icon": "T_Icon_Draconic_leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Dragon_Green_Lesser",
+    "display_name": "Green Dragonhide Leather",
+    "icon": "T_Icon_Green_Dragon_Hide_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Hard",
+    "display_name": "Hard Leather",
+    "icon": "T_Icon_Resources_Hard_leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Scraps_Hard",
+    "display_name": "Hard Leather Scraps",
+    "icon": "T_Icon_Hard_Leather_Scraps.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Thread_Coarse",
+    "display_name": "Coarse Thread",
+    "icon": "T_Icon_Resource_Thread.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Thread_Fine",
+    "display_name": "Fine Thread",
+    "icon": "T_Icon_Fine_Thread.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Thread_Swamp",
+    "display_name": "Swamp Thread",
+    "icon": "T_Icon_Resource_Swamp_Thread.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Thread_Wool",
+    "display_name": "Wool Thread",
+    "icon": "T_Icon_Resource_Ball_Of_Wool.png"
+  },
+  {
+    "item_id": "ITEM_Resources_AnimaInfusedBark",
+    "display_name": "Anima-infused Bark",
+    "icon": "T_Icon_Resource_Anima_Infused_Bark.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bark_Hollow",
+    "display_name": "Hollow Bark",
+    "icon": "T_Icon_Hollow_Bark.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Plank_Ash",
+    "display_name": "Ash Plank",
+    "icon": "T_Icon_Resource_Ash_Plank.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Plank_Oak",
+    "display_name": "Oak Plank",
+    "icon": "T_Icon_Resource_Oak_Plank.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Ash",
+    "display_name": "Ash Logs",
+    "icon": "T_Icon_Ash_Logs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Blightwood",
+    "display_name": "Blightwood",
+    "icon": "T_Icon_Blightwood.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Maple",
+    "display_name": "Maple Logs",
+    "icon": "T_Icon_Resources_Maple_Logs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Oak",
+    "display_name": "Oak Logs",
+    "icon": "T_Icon_Oak_Logs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Willow",
+    "display_name": "Willow Logs",
+    "icon": "T_Icon_Willow_Logs.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Mithril_Bleed",
+    "display_name": "Mithril Barbed Arrow",
+    "icon": "T_Icon_Mithril_Arrows.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Mithril_Bodkin",
+    "display_name": "Mithril Arrows",
+    "icon": "T_Icon_Mithril_Arrows.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Mithril_Fire",
+    "display_name": "Mithril Fire Arrow",
+    "icon": "T_Icon_Mithril_Arrows.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_Mithril_Poison",
+    "display_name": "Poisoned Mithril Arrow",
+    "icon": "T_Icon_Mithril_Arrows.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Mithril",
+    "display_name": "Enchanted Mithril Bolt",
+    "icon": "T_Icon_Mithril_Enchanted_Bolts.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Mithril",
+    "display_name": "Mithril Bolts",
+    "icon": "T_Icon_Mithril_Bolts.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_Black",
+    "display_name": "Black Knight Platebody",
+    "icon": "T_Icon_Dark_Knight_Platebody.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_BlackRanger",
+    "display_name": "Shadow Body",
+    "icon": "T_Icon_Dark_Knight_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_BlueDragonHide",
+    "display_name": "Blue Dragonhide Body",
+    "icon": "T_Icon_Blue_Dragonhide_Body.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_Mithril",
+    "display_name": "Mithril Platebody",
+    "icon": "T_Icon_Mithril_Platebody.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_Mystic",
+    "display_name": "Mystic Robes",
+    "icon": "T_Icon_Mystic_Robe.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Body_Zamorak",
+    "display_name": "Zamorak Robes",
+    "icon": "T_Icon_Zamorak_Robe.png"
+  },
+  {
+    "item_id": "ITEM_Cape_BlueDyad",
+    "display_name": "Blue Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Blue.png"
+  },
+  {
+    "item_id": "ITEM_Cape_BlueHex",
+    "display_name": "Blue Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Blue.png"
+  },
+  {
+    "item_id": "ITEM_Cape_DowdunReach",
+    "display_name": "Dowdun Reach Cape",
+    "icon": "T_Icon_Dowdun_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Cape_GreenDyad",
+    "display_name": "Green Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Green.png"
+  },
+  {
+    "item_id": "ITEM_Cape_GreenHex",
+    "display_name": "Green Hex Cape",
+    "icon": "T_Icon_Journal_Capes_Pattern_01_Green.png"
+  },
+  {
+    "item_id": "ITEM_Cape_PinkDyad",
+    "display_name": "Pink Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Pink.png"
+  },
+  {
+    "item_id": "ITEM_Cape_PinkHex",
+    "display_name": "Pink Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Pink.png"
+  },
+  {
+    "item_id": "ITEM_Cape_RedDyad",
+    "display_name": "Red Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Red.png"
+  },
+  {
+    "item_id": "ITEM_Cape_RedHex",
+    "display_name": "Red Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Red.png"
+  },
+  {
+    "item_id": "ITEM_Cape_YellowDyad",
+    "display_name": "Yellow Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Yellow.png"
+  },
+  {
+    "item_id": "ITEM_Cape_YellowHex",
+    "display_name": "Yellow Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Zamorak",
+    "display_name": "Zamorak Cape",
+    "icon": "T_Icon_Zamorak_Cape.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_ChickenHat",
+    "display_name": "Chicken Hat",
+    "icon": "T_Icon_Chef_Hat_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_Black",
+    "display_name": "Black Knight Helmet",
+    "icon": "T_Icon_Black_Knight_Helm.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_BlackRanger",
+    "display_name": "Shadow Cowl",
+    "icon": "T_Icon_Dark_Knight_Cowl.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_BlueDragonhide",
+    "display_name": "Blue Dragonhide Coif",
+    "icon": "T_Icon_Blue_Dragonhide_Cowl.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_Mithril",
+    "display_name": "Mithril Helmet",
+    "icon": "T_Icon_Mithril_Helm.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_Mystic",
+    "display_name": "Mystic Hat",
+    "icon": "T_Icon_Mystic_Hood.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_Zamorak",
+    "display_name": "Zamorak Hood",
+    "icon": "T_Icon_Zamorak_Hood.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_Maple",
+    "display_name": "Maple Longbow",
+    "icon": "T_Icon_Maple_Longbow.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_Maple",
+    "display_name": "Maple Shortbow",
+    "icon": "T_Icon_Maple_Shortbow.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Black",
+    "display_name": "Shadow Crossbow",
+    "icon": "T_Icon_Black_Sniper_Crossbow.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Mithril",
+    "display_name": "Mithril Crossbow",
+    "icon": "T_Icon_Mithril_Crossbow.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Mithril",
+    "display_name": "Mithril Dagger",
+    "icon": "T_Icon_Mithril_Dagger.png"
+  },
+  {
+    "item_id": "ITEM_GreatAxe_Black",
+    "display_name": "Black Greataxe",
+    "icon": "T_Icon_Black_Greataxe.png"
+  },
+  {
+    "item_id": "ITEM_GreatAxe_Mithril",
+    "display_name": "Mithril Greataxe",
+    "icon": "T_Icon_Mithril_Great_Axe.png"
+  },
+  {
+    "item_id": "ITEM_GreatSword_Mithril",
+    "display_name": "Mithril Greatsword",
+    "icon": "T_Icon_Mithril_Great_Sword.png"
+  },
+  {
+    "item_id": "ITEM_Masterworks_GreatSword_TitansWrath",
+    "display_name": "Titan's Wrath",
+    "icon": "T_Icon_Titans_Wrath.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_Mithril",
+    "display_name": "Mithril Warhammer",
+    "icon": "T_Icon_Mithril_Warhammer.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Mithril",
+    "display_name": "Mithril Logging Axe",
+    "icon": "T_Icon_Mithril_Logging_Axe.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Mithril",
+    "display_name": "Mithril Mace",
+    "icon": "T_Icon_Mithril_Mace.png"
+  },
+  {
+    "item_id": "ITEM_Mace_ZombieClub",
+    "display_name": "Zombie Arm",
+    "icon": "T_Icon_Mace_Iron_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Mithril",
+    "display_name": "Mithril Pickaxe",
+    "icon": "T_Icon_Mithril_Pickaxe.png"
+  },
+  {
+    "item_id": "ITEM_Scimitar_Mithril",
+    "display_name": "Mithril Scimitar",
+    "icon": "T_Icon_Mithril_Scimitar.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Black",
+    "display_name": "Black Shield",
+    "icon": "T_Icon_Black_Shield.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Mithril",
+    "display_name": "Mithril Shield",
+    "icon": "T_Icon_Mithril_Shield.png"
+  },
+  {
+    "item_id": "ITEM_Masterwork_Staff_Zamorak",
+    "display_name": "Zamorak Staff",
+    "icon": "T_Icon_Zamorak_Staff.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Maple",
+    "display_name": "Maple Battlestaff",
+    "icon": "T_Icon_Maple_Staff.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Subjugation",
+    "display_name": "Subjugation Staff",
+    "icon": "T_Icon_Subjugation_Staff.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Black",
+    "display_name": "Black Sword",
+    "icon": "T_Icon_Black_Sword.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Mithril",
+    "display_name": "Mithril Sword",
+    "icon": "T_Icon_Mithril_Sword.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Unholy_Symbol",
+    "display_name": "Unholy Symbol",
+    "icon": "T_Icon_Unholy_Symbol.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_Black",
+    "display_name": "Black Knight Platelegs",
+    "icon": "T_Icon_Black_Knight_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_BlackRanger",
+    "display_name": "Shadow Chaps",
+    "icon": "T_Icon_Dark_Knight_Chaps.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_BlueDragonhide",
+    "display_name": "Blue Dragonhide Chaps",
+    "icon": "T_Icon_Blue_Dragonhide_Chaps.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_Mithril",
+    "display_name": "Mithril Platelegs",
+    "icon": "T_Icon_Mithril_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_Mystic",
+    "display_name": "Mystic Robe Legs",
+    "icon": "T_Icon_Mystic_Robe_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Legs_Zamorak",
+    "display_name": "Zamorak Robe Legs",
+    "icon": "T_Icon_Zamorak_Robe_Legs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bones_CorruptedBonemeal",
+    "display_name": "Corrupted Bonemeal",
+    "icon": "T_Icon_Bonemeal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bones_CorruptedBones",
+    "display_name": "Corrupted Bones",
+    "icon": "T_Resources_Abyssal_Spine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_DemonicOil",
+    "display_name": "Demonic Oil",
+    "icon": "T_Icon_Demonic_Oil.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Essence_Cursed",
+    "display_name": "Cursed Essence",
+    "icon": "T_Icon_Cursed_Essence.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Cursed",
+    "display_name": "Cursed Leather",
+    "icon": "T_Icon_Cursed_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Dragon_Blue_Lesser",
+    "display_name": "Blue Dragon Leather",
+    "icon": "T_Icon_Blue_Dragon_Hide_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_HardLeather",
+    "display_name": "Hard Leather",
+    "icon": "T_Icon_Hard_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Scraps_Draconic",
+    "display_name": "Draconic Leather Scraps",
+    "icon": "T_Icon_Draconic_Leather_Scraps.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Skin_Dragon_Blue_Lesser",
+    "display_name": "Blue Dragonhide",
+    "icon": "T_Icon_Blue_Dragon_Hide.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BlackLimbs",
+    "display_name": "Black Crossbow Limbs",
+    "icon": "T_Icon_Black_Crossbow_Limbs.png"
+  },
+  {
+    "item_id": "ITEM_Resources_MithrilLimbs",
+    "display_name": "Mithril Crossbow Limbs",
+    "icon": "T_Icon_Mithril_Crossbow_Arms.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BlackMetal_Scraps",
+    "display_name": "Black Metal Scraps",
+    "icon": "T_Icon_Black_Metal_Scraps.png"
+  },
+  {
+    "item_id": "ITEM_Resources_BlackMetalBar",
+    "display_name": "Black Metal Bar",
+    "icon": "T_Icon_Black_Metal_Bar.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_BlackMetal",
+    "display_name": "Black Salvage Pile",
+    "icon": "T_Icon_Salvage_Black_Metal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Bronze",
+    "display_name": "Bronze Salvage Pile",
+    "icon": "T_Icon_Salvage_Bronze.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Copper",
+    "display_name": "Copper Salvage Pile",
+    "icon": "T_Icon_Salvage_Copper.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Gold",
+    "display_name": "Gold Salvage Pile",
+    "icon": "T_Icon_Salvage_Gold.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Iron",
+    "display_name": "Iron Salvage Pile",
+    "icon": "T_Icon_Salvage_Iron.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Mithril",
+    "display_name": "Mithril Salvage Pile",
+    "icon": "T_Icon_Salvage_Mithril.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Silver",
+    "display_name": "Silver Salvage Pile",
+    "icon": "T_Icon_Salvage_Silver.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Steel",
+    "display_name": "Steel Salvage Pile",
+    "icon": "T_Icon_Salvage_Steel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Salvage_Tin",
+    "display_name": "Tin Salvage Pile",
+    "icon": "T_Icon_Salvage_Tin.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Limestone",
+    "display_name": "Ground Limestone",
+    "icon": "T_Icon_Ground_Limestone.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Limestone",
+    "display_name": "Limestone",
+    "icon": "T_Icon_Limestone.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Lantern",
+    "display_name": "res_dreamstone_lantern",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_LensMould",
+    "display_name": "res_lens_mould",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Piece_1",
+    "display_name": "res_dreamstone_lantern_piece_1",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Piece_2",
+    "display_name": "res_dreamstone_lantern_piece_2",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Piece_3",
+    "display_name": "res_dreamstone_lantern_piece_3",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Piece_4",
+    "display_name": "res_dreamstone_lantern_piece_4",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Reforged_Gatekeeper_Greatsword",
+    "display_name": "res_reforged_gatekeeper_sword",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Trout_Burnt_QUEST",
+    "display_name": "Burnt Trout",
+    "icon": "T_Icon_Unusual_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Trout_QUEST",
+    "display_name": "Grilled Trout",
+    "icon": "T_Icon_Unusual_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_UnusualTrout_Quest",
+    "display_name": "Unusual Trout",
+    "icon": "T_Icon_Unusual_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_BlackKnightFortresssRewardPack1",
+    "display_name": "item_pack_blackknighrewardpack",
+    "icon": "T_Icon_Pack_Zamorak_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier0_DR_Main",
+    "display_name": "Tome of the Titan",
+    "icon": "T_Icon_Skill_Tome_of_the_Titan.png"
+  },
+  {
+    "item_id": "ITEM_DR_Main_Reforged_GreatSword_Gatekeeper",
+    "display_name": "Shadow Sword",
+    "icon": "T_icon_Shadow_2H_Greatsword.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword",
+    "display_name": "Broken Titan's Wrath",
+    "icon": "T_Icon_Broken_Titans_Sword.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_Main_Dreamstone_Shard",
+    "display_name": "Shard of the Dreaming Stone",
+    "icon": "T_Icon_Dreamstone_Shard.png"
+  },
+  {
+    "item_id": "ITEM_Quest_Glass_Owl",
+    "display_name": "Glass Owl",
+    "icon": "T_Icon_Glass_Owl.png"
+  },
+  {
+    "item_id": "ITEM_consumable_ThinkingWithPortalsBonusRewardPack",
+    "display_name": "item_pack_thinkingwithportalsbonuspack",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ1_PortalSigil",
+    "display_name": "res_dr_sq1_portal_sigil",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ2_DemonmasterJournal",
+    "display_name": "res_dr_sq2_demonmaster_journal",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ2_HoundmasterJournal",
+    "display_name": "res_dr_sq2_houndmaster_journal",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ2_JournalPages",
+    "display_name": "Beast-Training Notes",
+    "icon": "T_Icon_Torn_Journal_Pages.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ2_RatmasterJournal",
+    "display_name": "res_dr_sq2_ratmaster_journal",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ3_HolyWater",
+    "display_name": "Unholy Water",
+    "icon": "T_Icon_Unholy_Water.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ3_MidnightLillyLeaves",
+    "display_name": "Twilight Lily",
+    "icon": "T_Icon_Midnight_Flower.png"
+  },
+  {
+    "item_id": "ITEM_Quest_DR_SQ3_RavenEssence",
+    "display_name": "Corrupted Essence Sample",
+    "icon": "T_Icon_Plague_Sample.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Mystic",
+    "display_name": "Mystic Cloth",
+    "icon": "T_Icon_Mystic_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Fishing",
+    "display_name": "Fishing Cape",
+    "icon": "T_Icon_Cape_Skill_Fishing.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Fishing",
+    "display_name": "Fishing Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Fishing_Master.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_AnglersHat",
+    "display_name": "Angler's Hat",
+    "icon": "T_Icon_Anglers_Hat.png"
+  },
+  {
+    "item_id": "ITEM_FishingNet_CoarseNet",
+    "display_name": "Coarse Net",
+    "icon": "T_Icon_Net_1_Course.png"
+  },
+  {
+    "item_id": "ITEM_FishingNet_FineNet",
+    "display_name": "Fine Net",
+    "icon": "T_Icon_Net_3_Fine.png"
+  },
+  {
+    "item_id": "ITEM_FishingNet_MysticNet",
+    "display_name": "Mystic Net",
+    "icon": "T_Icon_Net_4_Mystic.png"
+  },
+  {
+    "item_id": "ITEM_FishingNet_WoolNet",
+    "display_name": "Wool Net",
+    "icon": "T_Icon_Net_2_Wool.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Anchovy",
+    "display_name": "Anchovy Bait",
+    "icon": "T_Icon_Anchovy_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_AnimatedFeather",
+    "display_name": "Animated Feather",
+    "icon": "T_Icon_Animated_Feather_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Boilies",
+    "display_name": "Giant Krill Bait",
+    "icon": "T_Icon_Krill_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Feather",
+    "display_name": "Feather Bait",
+    "icon": "T_Icon_Feather_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_FeatheredLure",
+    "display_name": "Feathered Lure",
+    "icon": "T_Icon_Feathered_Lure_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Lobster",
+    "display_name": "Lobster Bait",
+    "icon": "T_Icon_Lobster_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Shrimp",
+    "display_name": "Shrimp Bait",
+    "icon": "T_Icon_Shrimp_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishBait_Spooky",
+    "display_name": "Spooky Bait",
+    "icon": "T_Icon_Spooky_Bait.png"
+  },
+  {
+    "item_id": "ITEM_FishingBait_V2",
+    "display_name": "Fishing Bait",
+    "icon": "T_Icon_Placeholder.png"
+  },
+  {
+    "item_id": "ITEM_FishingRod_Ash",
+    "display_name": "Ash Rod",
+    "icon": "T_Icon_Ash_Rod.png"
+  },
+  {
+    "item_id": "ITEM_FishingRod_Maple",
+    "display_name": "Maple Rod",
+    "icon": "T_Icon_Maple_Rod.png"
+  },
+  {
+    "item_id": "ITEM_FishingRod_Oak",
+    "display_name": "Oak Rod",
+    "icon": "T_Icon_Oak_Rod.png"
+  },
+  {
+    "item_id": "ITEM_FishingRod_Willow",
+    "display_name": "Willow Rod",
+    "icon": "T_Icon_Willow_Rod.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Fishing",
+    "display_name": "Inspiring Ring of Fishing",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_BerryDrizzle_Pan",
+    "display_name": "Berry Drizzle Pan-Seared",
+    "icon": "T_Icon_Berry_Drizzle_Pan_Seared.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Eggs_Royale",
+    "display_name": "Eggs Royale",
+    "icon": "T_Icon_Eggs_Royale.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Fry",
+    "display_name": "Fish Fry",
+    "icon": "T_Icon_Stir_Fry.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_HerbBaked_Trout",
+    "display_name": "Herb Baked Trout",
+    "icon": "T_Icon_Herby_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Omelette_Shrimp",
+    "display_name": "Shrimp Omelette",
+    "icon": "T_Icon_Shrimp_Omelette.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Sauteed_Sardines",
+    "display_name": "Sauteed Sardines",
+    "icon": "T_Icon_Sauteed_Sardines.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stir",
+    "display_name": "Stir-Fry",
+    "icon": "T_Icon_Stir_Fry.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Stuffed_Catfish",
+    "display_name": "Stuffed Catfish",
+    "icon": "T_Icon_Stuffed_Catfish.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Undead_Delight",
+    "display_name": "Undead Delight",
+    "icon": "T_Icon_Undead_Delight.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Fishing",
+    "display_name": "Weak Focused Fishing Potion",
+    "icon": "T_Icon_Weak_Turquoise_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing",
+    "display_name": "Lesser Focused Fishing Potion",
+    "icon": "T_Icon_Lesser_Turquoise_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Fishing",
+    "display_name": "Focused Fishing Potion",
+    "icon": "T_Icon_Potion_Tier3_Turquoise.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Fishing",
+    "display_name": "Tome of Fishing - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Fishing.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Fishing",
+    "display_name": "Tome of Fishing - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Fishing.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Anchovies",
+    "display_name": "Seared Anchovies",
+    "icon": "T_Icon_Seared_Anchovy.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Anchovies_Burnt",
+    "display_name": "Burnt Anchovies",
+    "icon": "T_Icon_Seared_Anchovy.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Anchovies",
+    "display_name": "Raw Anchovies",
+    "icon": "T_Icon_Anchovy2.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Anchovies",
+    "display_name": "Pristine Anchovies",
+    "icon": "T_Icon_Anchovy.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_ArmouredCatfish",
+    "display_name": "Braised Catfish",
+    "icon": "T_Icon_Braised_Catfish.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_ArmouredCatfish_Burnt",
+    "display_name": "Burnt Armoured Catfish",
+    "icon": "T_Icon_Braised_Catfish.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_ArmouredCatfish",
+    "display_name": "Raw Armoured Catfish",
+    "icon": "T_Icon_Armoured_Catfish.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_ArmouredCatfish",
+    "display_name": "Pristine Armoured Catfish",
+    "icon": "T_Icon_Armoured_Catfish_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_GiantKrill",
+    "display_name": "Dried Giant Krill",
+    "icon": "T_Icon_Dried_Krill.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_GiantKrill_Burnt",
+    "display_name": "Burnt Giant Krill",
+    "icon": "T_Icon_Dried_Krill.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_GiantKrill",
+    "display_name": "Raw Giant Krill",
+    "icon": "T_Icon_Giant_Krill.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_GiantKrill",
+    "display_name": "Pristine Giant Krill",
+    "icon": "T_Icon_Giant_Krill.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Herring",
+    "display_name": "Smoked Herring",
+    "icon": "T_Icon_Herring_Cooked_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Herring_Burnt",
+    "display_name": "Burnt Herring",
+    "icon": "T_Icon_Herring_Cooked_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Herring",
+    "display_name": "Raw Herring",
+    "icon": "T_Icon_Herring.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Herring",
+    "display_name": "Pristine Herring",
+    "icon": "T_Icon_Herring_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_InfernalEel",
+    "display_name": "Smoked Infernal Eel",
+    "icon": "T_Icon_Smoked_Infernal_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_InfernalEel_Burnt",
+    "display_name": "Burnt Infernal Eel",
+    "icon": "T_Icon_Smoked_Infernal_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_InfernalEel",
+    "display_name": "Raw Infernal Eel",
+    "icon": "T_Icon_Infernal_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_InfernalEel",
+    "display_name": "Pristine Infernal Eel",
+    "icon": "T_Icon_Infernal_Eel_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Lobster",
+    "display_name": "Roasted Lobster",
+    "icon": "T_Icon_Roast_Lobster.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Lobster_Burnt",
+    "display_name": "Burnt Lobster",
+    "icon": "T_Icon_Roast_Lobster.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Lobster",
+    "display_name": "Raw Lobster",
+    "icon": "T_Icon_Lobster.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Lobster",
+    "display_name": "Pristine Lobster",
+    "icon": "T_Icon_Lobster_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Salmon",
+    "display_name": "Fried Salmon",
+    "icon": "T_Icon_Fried_Salmon.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Salmon_Burnt",
+    "display_name": "Burnt Salmon",
+    "icon": "T_Icon_Fried_Salmon.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Salmon",
+    "display_name": "Raw Salmon",
+    "icon": "T_Icon_Salmon.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Salmon",
+    "display_name": "Pristine Salmon",
+    "icon": "T_Icon_Salmon_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Sardine",
+    "display_name": "Fried Sardine",
+    "icon": "T_Icon_Fried_Sardine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Sardine_Burnt",
+    "display_name": "Burnt Sardine",
+    "icon": "T_Icon_Fried_Sardine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Sardine",
+    "display_name": "Raw Sardine",
+    "icon": "T_Icon_Sardine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Sardine",
+    "display_name": "Pristine Sardine",
+    "icon": "T_Icon_Sardine_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Shrimp",
+    "display_name": "Sauteed Shrimp",
+    "icon": "T_Icon_Sauteed_Shrimp.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Shrimp_Burnt",
+    "display_name": "Burnt Shrimp",
+    "icon": "T_Icon_Sauteed_Shrimp.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Shrimp",
+    "display_name": "Raw Shrimp",
+    "icon": "T_Icon_Shrimp.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Shrimp",
+    "display_name": "Pristine Shrimp",
+    "icon": "T_Icon_Shrimp.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Trout",
+    "display_name": "Grilled Trout",
+    "icon": "T_Icon_Grilled_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_Trout_Burnt",
+    "display_name": "Burnt Trout",
+    "icon": "T_Icon_Grilled_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Trout",
+    "display_name": "Raw Trout",
+    "icon": "T_Icon_Trout.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Trout",
+    "display_name": "Pristine Trout",
+    "icon": "T_Icon_Trout_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_UndeadBass",
+    "display_name": "Grilled Undead Bass",
+    "icon": "T_Icon_Grilled_Undead_Bass.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_UndeadBass_Burnt",
+    "display_name": "Burnt Undead Bass",
+    "icon": "T_Icon_Grilled_Undead_Bass.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_UndeadBass",
+    "display_name": "Raw Undead Bass",
+    "icon": "T_Icon_Undead_Bass.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_UndeadBass",
+    "display_name": "Pristine Undead Bass",
+    "icon": "T_Icon_Undead_Bass_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_UndeadEel",
+    "display_name": "Braised Undead Eel",
+    "icon": "T_Icon_Braised_Undead_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Fish_UndeadEel_Burnt",
+    "display_name": "Burnt Undead Eel",
+    "icon": "T_Icon_Braised_Undead_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_UndeadEel",
+    "display_name": "Raw Undead Eel",
+    "icon": "T_Icon_Undead_Eel.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_UndeadEel",
+    "display_name": "Pristine Undead Eel",
+    "icon": "T_Icon_Undead_Eel_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Throwable_FireOil",
+    "display_name": "Fire Oil",
+    "icon": "T_Icon_Wrapped_Liquid_Container_01.png"
+  },
+  {
+    "item_id": "ITEM_Saradomin_Symbol_Puzzle",
+    "display_name": "Saradomin Symbol",
+    "icon": "T_Icon_Saradomin_Symbol.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Bloodblight",
+    "display_name": "Bloodblight Cape",
+    "icon": "T_Icon_Cape_Bloodblight.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Bramblemead",
+    "display_name": "Bramblemead Cape",
+    "icon": "T_Icon_Cape_Bramblemead.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Fellhollow",
+    "display_name": "Fell Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Fractured",
+    "display_name": "Fractured Cape",
+    "icon": "T_Icon_Cape_Fractured.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Stormtouched",
+    "display_name": "Stormtouched Cape",
+    "icon": "T_Icon_Cape_Stormtouched.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Whispering",
+    "display_name": "Whispering Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Gargoyle_01",
+    "display_name": "PLAN: Dragonkin Gargoyle 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Gargoyle_02",
+    "display_name": "PLAN: Dragonkin Gargoyle 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Gargoyle_03",
+    "display_name": "PLAN: Dragonkin Gargoyle 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Obelisk_01",
+    "display_name": "PLAN: Dragonkin Obelisk 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Obelisk_02",
+    "display_name": "PLAN: Dragonkin Obelisk 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Obelisk_03",
+    "display_name": "PLAN: Dragonkin Obelisk 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Statue_01v1",
+    "display_name": "PLAN: Dragonkin Statue 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Dragonkin_Statue_02v1",
+    "display_name": "PLAN: Dragonkin Statue 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Coffin_01",
+    "display_name": "PLAN: Grave 2",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Coffin_02",
+    "display_name": "PLAN: Grave 3",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Grave_01",
+    "display_name": "PLAN: Grave 1",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Headstone_01",
+    "display_name": "PLAN: Headstone 1",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Headstone_02",
+    "display_name": "PLAN: Headstone 2",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Spectral_Book",
+    "display_name": "PLAN: Spectral Book",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Tombstone_01",
+    "display_name": "PLAN: Grave 4",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_01_Armadyl",
+    "display_name": "PLAN: Armadyl Banner 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_01_Bandos",
+    "display_name": "PLAN: Bandos Banner 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_01_Guthix",
+    "display_name": "PLAN: Guthix Banner 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_01_Saradomin",
+    "display_name": "PLAN: Saradomin Banner 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_01_Zamorak",
+    "display_name": "PLAN: Zamorak Banner 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_02_Armadyl",
+    "display_name": "PLAN: Armadyl Banner 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_02_Bandos",
+    "display_name": "PLAN: Bandos Banner 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_02_Guthix",
+    "display_name": "PLAN: Guthix Banner 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_02_Saradomin",
+    "display_name": "PLAN: Saradomin Banner 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_02_Zamorak",
+    "display_name": "PLAN: Zamorak Banner 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_03_Armadyl",
+    "display_name": "PLAN: Armadyl Banner 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_03_Bandos",
+    "display_name": "PLAN: Bandos Banner 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_03_Guthix",
+    "display_name": "PLAN: Guthix Banner 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_03_Saradomin",
+    "display_name": "PLAN: Saradomin Banner 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Banner_03_Zamorak",
+    "display_name": "PLAN: Zamorak Banner 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_01_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_01_Bandos",
+    "display_name": "PLAN: Bandos Flag 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_01_Guthix",
+    "display_name": "PLAN: Guthix Flag 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_01_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_01_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_02_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_02_Bandos",
+    "display_name": "PLAN: Bandos Flag 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_02_Guthix",
+    "display_name": "PLAN: Guthix Flag 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_02_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_02_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_03_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_03_Bandos",
+    "display_name": "PLAN: Bandos Flag 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_03_Guthix",
+    "display_name": "PLAN: Guthix Flag 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_03_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_03_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_04_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_04_Bandos",
+    "display_name": "PLAN: Bandos Flag 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_04_Guthix",
+    "display_name": "PLAN: Guthix Flag 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_04_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_04_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_05_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 05",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_05_Bandos",
+    "display_name": "PLAN: Bandos Flag 05",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_05_Guthix",
+    "display_name": "PLAN: Guthix Flag 05",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_05_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 05",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_05_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 05",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_06_Armadyl",
+    "display_name": "PLAN: Armadyl Flag 06",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_06_Bandos",
+    "display_name": "PLAN: Bandos Flag 06",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_06_Guthix",
+    "display_name": "PLAN: Guthix Flag 06",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_06_Saradomin",
+    "display_name": "PLAN: Saradomin Flag 06",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Flag_06_Zamorak",
+    "display_name": "PLAN: Zamorak Flag 06",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Food_Bowl_Onions",
+    "display_name": "PLAN: Bowl of Onions",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Food_Bowl_Peaches",
+    "display_name": "PLAN: Bowl of Peaches",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Food_Bowl_Stack_01",
+    "display_name": "PLAN: Stack of Bowls",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Banner_Wall",
+    "display_name": "PLAN: Garou Wall Banner",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Drum",
+    "display_name": "PLAN: Garou Drum",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Hanging_Ornament_01",
+    "display_name": "PLAN: Garou Hanging Ornament 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Hanging_Ornament_02",
+    "display_name": "PLAN: Garou Hanging Ornament 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Hanging_Ornament_03",
+    "display_name": "PLAN: Garou Hanging Ornament 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Hanging_Ornament_04",
+    "display_name": "PLAN: Garou Hanging Ornament 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Hanging_Pelt_01",
+    "display_name": "PLAN: Garou Hanging Pelt",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Stool",
+    "display_name": "PLAN: Garou Stool",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Trophy_01",
+    "display_name": "PLAN: Garou Trophy 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Trophy_02",
+    "display_name": "PLAN: Garou Trophy 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Trophy_03",
+    "display_name": "PLAN: Garou Trophy 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Trophy_04",
+    "display_name": "PLAN: Garou Trophy 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Tusks_01",
+    "display_name": "PLAN: Garou Tusks 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Tusks_02",
+    "display_name": "PLAN: Garou Tusks 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Garou_Tusks_03",
+    "display_name": "PLAN: Garou Tusks 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Barrel_01",
+    "display_name": "PLAN: Wooden Barrel",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Barrel_02",
+    "display_name": "PLAN: Open Wooden Barrel",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Barrel_Keg",
+    "display_name": "PLAN: Keg Barrel",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Barrel_Pile",
+    "display_name": "PLAN: Barrel Pile",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Bin_Empty",
+    "display_name": "PLAN: Wooden Bin",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Bin_Empty_Stack",
+    "display_name": "PLAN: Wooden Bin Pile",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Crate_Broken",
+    "display_name": "PLAN: Broken Wooden Crate",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Crate_Sealed",
+    "display_name": "PLAN: Sealed Wooden Crate",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_General_Wood_Crate_Sealed_Stack",
+    "display_name": "PLAN: Stacked Wooden Crates",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Standing_Blue",
+    "display_name": "PLAN: Blue Standing Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Standing_Green",
+    "display_name": "PLAN: Green Standing Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Standing_Purple",
+    "display_name": "PLAN: Purple Standing Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Standing_Red",
+    "display_name": "PLAN: Red Standing Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Wall_Blue",
+    "display_name": "PLAN: Blue Wall-Mounted Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Wall_Green",
+    "display_name": "PLAN: Green Wall-Mounted Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Wall_Purple",
+    "display_name": "PLAN: Purple Wall-Mounted Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Lighting_Torch_Wall_Red",
+    "display_name": "PLAN: Red Wall-Mounted Torch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Material_Processed_Textile_TextileKit",
+    "display_name": "PLAN: Textile Kit",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Plants_Potted_Dwellberry",
+    "display_name": "PLAN: Potted Dwellberry Bush",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Plants_Potted_Onion",
+    "display_name": "PLAN: Potted Onion",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Plants_Potted_Redberry",
+    "display_name": "PLAN: Potted Redberry Bush",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Storage_Shelf_Glass_Vials",
+    "display_name": "PLAN: Vial Shelf",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_Black",
+    "display_name": "Shard of Black Pauldron",
+    "icon": "T_Icon_Dark_Knight_Platebody.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_BlackRanger",
+    "display_name": "Limp Black Lining",
+    "icon": "T_Icon_Dark_Knight_Body.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_Necromancer",
+    "display_name": "Remnants of a Rotting Robe",
+    "icon": "T_icon_Necromancer_Body.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_Ranger",
+    "display_name": "Slightly Chaffing Chestguard",
+    "icon": "T_icon_Ranger_Body.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_White",
+    "display_name": "Dented White Pauldron",
+    "icon": "T_icon_White_Body.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Body_Zamorak",
+    "display_name": "Whispering Elbow Pad",
+    "icon": "T_Icon_Zamorak_Robe.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Black",
+    "display_name": "Bloodstained Black Visor",
+    "icon": "T_Icon_Black_Knight_Helm.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_BlackRanger",
+    "display_name": "Sodden Black Leather",
+    "icon": "T_Icon_Dark_Knight_Cowl.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Necromancer",
+    "display_name": "Curse Carrying Crown",
+    "icon": "T_icon_Necromancer_crown.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Ranger",
+    "display_name": "Simply Splendid Feather",
+    "icon": "T_icon_Ranger_Hat.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Sack",
+    "display_name": "A Threadbare Grain Sack",
+    "icon": "T_Icon_Bag_o__Noggin.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Sack_Spectral",
+    "display_name": "Scratchy Sackcloth",
+    "icon": "T_Icon_Spectral_Noggin.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_SkeletonRanger",
+    "display_name": "Cloying Damp Cowl",
+    "icon": "T_icon_Shadowscale_Hood.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_White",
+    "display_name": "Corroded White Visor",
+    "icon": "T_icon_White_Helmet.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Zamorak",
+    "display_name": "Fabric That Hums With You",
+    "icon": "T_Icon_Zamorak_Hood.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_Black",
+    "display_name": "Grim Black Codpiece",
+    "icon": "T_Icon_Black_Knight_Legs.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_BlackRanger",
+    "display_name": "Dusty Black Pocket",
+    "icon": "T_Icon_Dark_Knight_Chaps.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_Lightness",
+    "display_name": "Suspiciously Light Tattered Boots",
+    "icon": "T_Icon_Leggings_of_Lightness.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_Necromancer",
+    "display_name": "Burnished Belt Buckle",
+    "icon": "T_icon_Necromancer_Legs.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_Ranger",
+    "display_name": "Tastefully Torn Tights",
+    "icon": "T_icon_Ranger_Legs.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_White",
+    "display_name": "Crushed White Cuisse",
+    "icon": "T_icon_White_Legs.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Legs_Zamorak",
+    "display_name": "Wizard's Kneecap",
+    "icon": "T_Icon_Zamorak_Robe_Legs.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Black",
+    "display_name": "Moth Eaten Black Cloth",
+    "icon": "T_icon_Cape_Black.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Blue",
+    "display_name": "Moth Eaten Blue Cloth",
+    "icon": "T_icon_Cape_Blue.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Green",
+    "display_name": "Moth Eaten Green Cloth",
+    "icon": "T_icon_Cape_Green.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Orange",
+    "display_name": "Moth Eaten Orange Cloth",
+    "icon": "T_icon_Cape_Orange.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Pink",
+    "display_name": "Moth Eaten Pink Cloth",
+    "icon": "T_icon_Cape_Pink.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Purple",
+    "display_name": "Moth Eaten Purple Cloth",
+    "icon": "T_icon_Cape_Purple.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Red",
+    "display_name": "Moth Eaten Red Cloth",
+    "icon": "T_icon_Cape_Red.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_White",
+    "display_name": "Moth Eaten White Cloth",
+    "icon": "T_icon_Cape_White.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Yellow",
+    "display_name": "Moth Eaten Yellow Cloth",
+    "icon": "T_icon_Cape_Yellow.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_Shadowscale",
+    "display_name": "Tattered Time-lost Cloth",
+    "icon": "T_icon_Shadowscale_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Tool_Shovel_Undead",
+    "display_name": "Rotten Farming Tool",
+    "icon": "T_Icon_Undead_Shovel.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Amulet_of_Accuracy",
+    "display_name": "Arrowhead of Ancient Origin",
+    "icon": "T_Icon_Amulet_of_Accuracy.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Amulet_of_Defence",
+    "display_name": "Hardy Weathered Shell",
+    "icon": "T_Icon_Amulet_of_Defense.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Amulet_of_Magic",
+    "display_name": "Softly Vibrating Orb",
+    "icon": "T_Icon_Amulet_of_Magic.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Amulet_of_Strength",
+    "display_name": "Weighted Training Band",
+    "icon": "T_Icon_Amulet_of_Strength.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Ring_of_Life",
+    "display_name": "Sigil of a Phoenix",
+    "icon": "T_Icon_Ring_of_Life.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Ring_of_Pursuit",
+    "display_name": "Carved Bone Animal Lure",
+    "icon": "T_Icon_Ring_of_Pursuit.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Ring_of_Recoil",
+    "display_name": "Cracked Bronze Vanity Mirror",
+    "icon": "T_Icon_Ring_of_Recoil.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Symbol_Unholy",
+    "display_name": "Corroded Jewellery",
+    "icon": "T_Icon_Unholy_Symbol.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Club_Skullsplitter",
+    "display_name": "Remnants of a Shattered Skull",
+    "icon": "T_Icon_Club_Skull_Splitter.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Club_Swingslash",
+    "display_name": "A Cruel Goblin Blade",
+    "icon": "T_Icon_Swingslash.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Crossbow_Black",
+    "display_name": "Sinister Mechanism",
+    "icon": "T_Icon_Black_Sniper_Crossbow.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Crossbow_Blurite",
+    "display_name": "Azure Metal Contraption",
+    "icon": "T_Icon_Crossbow_Blurite_1H_01.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Greataxe_Black",
+    "display_name": "Bloodstained hilt",
+    "icon": "T_Icon_Black_Greataxe.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Greataxe_Thane",
+    "display_name": "A Brutal Bladehead",
+    "icon": "T_Icon_Greataxe_Thane_s_Authority.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Greatsword_Shadow",
+    "display_name": "Shard of Smoky Glass",
+    "icon": "T_icon_Shadow_2H_Greatsword.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Longbow_Adventurers",
+    "display_name": "A Simple Broken Bow",
+    "icon": "T_Longbow_Wood.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Longbow_HunterStag",
+    "display_name": "A String of Sinew",
+    "icon": "T_Icon_Longbor_Hunter_Stag.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Scimitar_Imaru",
+    "display_name": "Serrated Claw",
+    "icon": "T_Icon_Imaru_Scimitarr.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Shield_Black",
+    "display_name": "Battle-Scarred Black Metal",
+    "icon": "T_Icon_Black_Shield.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Shield_Hoplite",
+    "display_name": "Sundering Spiked Slab",
+    "icon": "T_icon_Hopelite_Shield.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Staff_Draconic",
+    "display_name": "Parts of a sinister looking staff",
+    "icon": "T_Icon_Staff_Draconic.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Staff_GrievingMoon",
+    "display_name": "A Mysterious Crescent Carving",
+    "icon": "T_Icon_Staff_Grieving_Moon.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Staff_Subjugation",
+    "display_name": "Demonic Metal Rod",
+    "icon": "T_Icon_Subjugation_Staff.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Sword_Black",
+    "display_name": "Shattered Black Blade",
+    "icon": "T_Icon_Black_Sword.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Sword_Chieftains",
+    "display_name": "A Corroded Serrated Blade",
+    "icon": "T_Icon_Sword_Chieftain_s_Blade.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Sword_Training",
+    "display_name": "An Educational Blade",
+    "icon": "T_Icon_Sword_Wooden_Training.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Scimitar_Imaru_Deprecated",
+    "display_name": "deleted_vestige_weapon_scimitar_imaru",
+    "icon": ""
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_BlueDyad",
+    "display_name": "Blue Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Blue.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_BlueHex",
+    "display_name": "Blue Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Blue.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_DowdunReach",
+    "display_name": "Torn tapestry",
+    "icon": "T_Icon_Dowdun_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_GreenDyad",
+    "display_name": "Green Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Green.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_GreenHex",
+    "display_name": "Green Hex Cape",
+    "icon": "T_Icon_Journal_Capes_Pattern_01_Green.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_PinkDyad",
+    "display_name": "Pink Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Pink.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_PinkHex",
+    "display_name": "Pink Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Pink.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_RedDyad",
+    "display_name": "Red Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Red.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_RedHex",
+    "display_name": "Red Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Red.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_YellowDyad",
+    "display_name": "Yellow Dyad Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Yellow.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_YellowHex",
+    "display_name": "Yellow Hex Cape",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Zamorak",
+    "display_name": "Zamorak Cape",
+    "icon": "T_Icon_Zamorak_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_BlueDyad",
+    "display_name": "Chewed Blue Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Blue.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_BlueHex",
+    "display_name": "Soiled Blue Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Blue.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_GreenDyad",
+    "display_name": "Chewed Green Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Green.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_GreenHex",
+    "display_name": "Soiled Green Cloth",
+    "icon": "T_Icon_Journal_Capes_Pattern_01_Green.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_PinkDyad",
+    "display_name": "Chewed Pink Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Pink.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_PinkHex",
+    "display_name": "Soiled Pink Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Pink.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_RedDyad",
+    "display_name": "Chewed Red Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Red.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_RedHex",
+    "display_name": "Soiled Red Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Red.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_YellowDyad",
+    "display_name": "Chewed Yellow Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_02_Yellow.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Cape_YellowHex",
+    "display_name": "Soiled Yellow Cloth",
+    "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
+  }
+]

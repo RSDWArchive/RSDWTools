@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FishingBaitAmmoData",
+    "Name": "ITEM_FishBait_Shrimp",
+    "Class": "UScriptClass'FishingBaitAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": "ELoadoutSlotStrategy::FishingBait",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ShrimpBait",
+        "SourceString": "Shrimp Bait",
+        "LocalizedString": "Shrimp Bait"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ShrimpBait",
+        "SourceString": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish.",
+        "LocalizedString": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Shrimp_Bait'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Bait_Icons/T_Icon_Shrimp_Bait"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 2,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bait.Shrimp"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingBait"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Bait"
+      },
+      "PersistenceID": "cO_JmkaXV2sn9qyROLNgOA",
+      "InternalName": "ammo_fishbait_shrimp"
+    }
+  }
+]

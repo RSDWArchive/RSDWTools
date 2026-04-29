@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "USD_GetWaterFromWaterSource",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_ExpireAfterDuration",
+    "Name": "SpellModule_ExpireAfterDuration_0",
+    "Outer": "USD_GetWaterFromWaterSource",
+    "Class": "UScriptClass'SpellModule_ExpireAfterDuration'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "ExpireAfterDuration",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting"
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "USD_GetWaterFromWaterSource",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Farming_Wateringcan_Fill'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/AM_PlayerM_Farming_Wateringcan_Fill.0"
+      },
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_GetWaterFromWaterSource",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpecialRequirementsText": {
+        "CultureInvariantString": null
+      },
+      "CooldownDuration": 0.0,
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::None",
+      "bNeedsUnlocking": false,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_GetWaterFromWaterSource:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.2"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_GetWaterFromWaterSource:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.0"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_ExpireAfterDuration'USD_GetWaterFromWaterSource:SpellModule_ExpireAfterDuration_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.1"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "FVQYBUF_XKesgUiJkT5lpQ",
+      "InternalName": "spell_GetWaterFromWaterSource"
+    }
+  }
+]

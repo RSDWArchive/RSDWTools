@@ -1,0 +1,103 @@
+[
+  {
+    "Type": "GE_Arrows_Bleeding_C",
+    "Name": "GE_Arrows_Bleeding_C_0",
+    "Outer": "ITEM_Ammo_Arrows_Bronze_Bleed",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/BleedArrows/GE_Arrows_Bleeding.GE_Arrows_Bleeding_C'",
+    "Template": {
+      "ObjectName": "GE_Arrows_Bleeding_C'Default__GE_Arrows_Bleeding_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/BleedArrows/GE_Arrows_Bleeding.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Arrows_Bronze_Bleed",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/ArrowHeads/SM_BroadheadArrowHead_Bronze_01.SM_BroadheadArrowHead_Bronze_01",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Arrows/SM_ArrowBody_Wood_01.SM_ArrowBody_Wood_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail_Bleed.NS_Player_Arrow_Trail_Bleed",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged"
+        ],
+        "GameplayEffectsToApply": [
+          {
+            "ObjectName": "GE_Arrows_Bleeding_C'ITEM_Ammo_Arrows_Bronze_Bleed:GE_Arrows_Bleeding_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bronze_Bleed.0"
+          }
+        ],
+        "AdditionalDamageFraction": 1.4
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+      },
+      "Tier": 3,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BarbedBronzeArrows",
+        "SourceString": "Bronze Barbed Arrow",
+        "LocalizedString": "Bronze Barbed Arrow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BarbedBronzeArrows",
+        "SourceString": "Lacerating arrows with barbed tips forged from bronze.",
+        "LocalizedString": "Lacerating arrows with barbed tips forged from bronze."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Arrows_Bronze'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Bronze.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 3,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Bronze"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Arrow"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Ammo.Arrow.Bleed"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "0Tp64UgXjCbF69aH3ZhQQA",
+      "InternalName": "ammo_arrows_bronze_bleed"
+    }
+  }
+]

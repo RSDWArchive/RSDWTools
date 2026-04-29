@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T4_Cape_Mining",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_Mining'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Mining.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 0,
+      "PersistenceID": "ia0ydkUm5yIUaQGi37gUlA",
+      "InternalName": "recipe_armour_t4_cape_mining",
+      "bSoftDeleted": true
+    }
+  }
+]

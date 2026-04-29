@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Dreamstone_Lantern",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Piece_1'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/Depreciated/ITEM_Quest_DR_Main_Piece_1"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Piece_2'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/Depreciated/ITEM_Quest_DR_Main_Piece_2"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Piece_3'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/Depreciated/ITEM_Quest_DR_Main_Piece_3"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Piece_4'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/Depreciated/ITEM_Quest_DR_Main_Piece_4"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Quest_DR_Main_Lantern'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Quest/Main/Depreciated/ITEM_Quest_DR_Main_Lantern"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Recipe"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "3CsdiEsZTY9aYx6cJfBbIw",
+      "InternalName": "recipe_craft_dreamstone_lantern"
+    }
+  }
+]

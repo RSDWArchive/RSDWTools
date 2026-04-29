@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Bone_Undead",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "UndeadBone",
+        "SourceString": "Undead Bone",
+        "LocalizedString": "Undead Bone"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "UndeadBone",
+        "SourceString": "Dropped from the restless dead. Use as a crafting material, or process at a grindstone.",
+        "LocalizedString": "Dropped from the restless dead. Use as a crafting material, or process at a grindstone."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Undead_Bone'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Bone.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Undead_Bone_01/SM_Undead_Bone_01.SM_Undead_Bone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Bone"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Animal_Crafting_Resource"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "wEJ4yUvsp9EeQvK1IvMN9g",
+      "InternalName": "res_bone_undead"
+    }
+  }
+]

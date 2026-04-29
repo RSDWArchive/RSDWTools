@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BrokenTitansSword",
+        "SourceString": "Broken Titan's Wrath",
+        "LocalizedString": "Broken Titan's Wrath"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BrokenTitansSword",
+        "SourceString": "The shattered remnant of the Black Knight Titan's sword.",
+        "LocalizedString": "The shattered remnant of the Black Knight Titan's sword."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Broken_Titans_Sword'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Broken_Titans_Sword"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Quest_Primary'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_LRG_Black_Knight_Titan_Sword_1H_01/SM_M_LRG_Black_Knight_Titan_Sword_1H_01.SM_M_LRG_Black_Knight_Titan_Sword_1H_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "B_9Rt0HRTRhbZfSgUrQNTg",
+      "InternalName": "res_broken_gatekeeper_sword"
+    }
+  }
+]

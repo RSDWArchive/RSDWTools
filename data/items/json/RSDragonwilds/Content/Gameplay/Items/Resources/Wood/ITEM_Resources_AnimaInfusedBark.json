@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_AnimaInfusedBark",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "AnimaInfusedBark",
+        "SourceString": "Anima-infused Bark",
+        "LocalizedString": "Anima-infused Bark"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "A136EBF0428FD45AA7EDA6B3BF09C3B5",
+        "SourceString": "Tree bark infused with magical energy.",
+        "LocalizedString": "Tree bark infused with magical energy."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Anima_Infused_Bark'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Anima_Infused_Bark.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Anima_Infused_Bark/SM_Anima_Infused_Bark_01.SM_Anima_Infused_Bark_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "tKokB0xYm6tJNHiWwmG2SQ",
+      "InternalName": "res_animainfusedbark"
+    }
+  }
+]

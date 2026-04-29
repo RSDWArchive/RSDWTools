@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BP_Consumables_Wardstone_C",
+    "Name": "ITEM_Consumable_Wardstone_Small",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.BP_Consumables_Wardstone_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Wardstone_C'Default__BP_Consumables_Wardstone_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StatDuration": {
+        "TableId": "/Game/Gameplay/SurvivalCore/ST_SurvivalCore.ST_SurvivalCore",
+        "Key": "Lifeward.TimeToUse",
+        "SourceString": "Activation",
+        "LocalizedString": "Activation"
+      },
+      "ConsumeXpEvent": {
+        "RowName": "Consume_Wardstone"
+      },
+      "Duration": 1.0,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SmallWardstone",
+        "SourceString": "Small Wardstone",
+        "LocalizedString": "Small Wardstone"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "1AAC7044457B4578DB237D82ED6A880E",
+        "SourceString": "Recharges your armour with a small amount of lifeward.",
+        "LocalizedString": "Recharges your armour with a small amount of lifeward."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'Wardstone_Small'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_08/Wardstone_Small.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wardstone/SM_Wardstone.SM_Wardstone",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 25,
+      "Weight": 5.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.RuneEssence"
+      },
+      "PersistenceID": "xAyLrEN_5B3KGXOjhpGzrg",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Wardstone_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Wardstone.0"
+      }
+    }
+  }
+]

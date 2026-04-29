@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Thread_Mystic",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MysticThread",
+        "SourceString": "Mystic Thread",
+        "LocalizedString": "Mystic Thread"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MysticThread",
+        "SourceString": "Spun from mystic fibre. Magic courses through every thread.",
+        "LocalizedString": "Spun from mystic fibre. Magic courses through every thread."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Mystic_Thread'",
+        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Thread"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/DowdunReach/Art/Item/Resources/Mystic_Thread/SM_Mystic_Thread_01.SM_Mystic_Thread_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.6,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Thread"
+      },
+      "PersistenceID": "hceXwEDdifvrgFCOaBsV-w",
+      "InternalName": "res_cloth_mystic_thread"
+    }
+  }
+]

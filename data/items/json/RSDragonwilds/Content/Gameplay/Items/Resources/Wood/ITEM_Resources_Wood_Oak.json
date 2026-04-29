@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Wood_Oak",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 90.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "Name": {
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "OakLogs",
+        "SourceString": "Oak Logs",
+        "LocalizedString": "Oak Logs"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "D81511164CDEE24E4A39E29F4BFA7B2F",
+        "SourceString": "Sturdy oak logs used for crafting equipment and furniture.",
+        "LocalizedString": "Sturdy oak logs used for crafting equipment and furniture."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Oak_Logs'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Oak_Logs.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Campsite/SM_Chopped_Oak_Log_02.SM_Chopped_Oak_Log_02",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "TsGMyBWLNEWhBdNu21CwCA",
+      "InternalName": "res_wood_oak"
+    }
+  }
+]

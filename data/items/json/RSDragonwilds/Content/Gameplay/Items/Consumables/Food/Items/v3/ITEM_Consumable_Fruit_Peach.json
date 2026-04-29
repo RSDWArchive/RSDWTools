@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Fruit_Peach",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "v3_Peach"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Peach"
+      },
+      "Duration": 0.0,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Peach",
+        "SourceString": "Peach",
+        "LocalizedString": "Peach"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Peach",
+        "SourceString": "A tasty fruit.",
+        "LocalizedString": "A tasty fruit."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Peach'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Peach.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 3,
+      "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "FPYmOkCqcOpLYpaP1DKYjA",
+      "InternalName": "food_fruit_peach",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  }
+]

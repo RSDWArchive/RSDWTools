@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Soup_Pumpkin",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "v3_Soup_Pumpkin"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier2_Food"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_WardFruit_C'ITEM_Consumable_Soup_Pumpkin:GE_WardFruit_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Soup_Pumpkin.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SoupPumpkin",
+        "SourceString": "Pumpkin Soup",
+        "LocalizedString": "Pumpkin Soup"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SoupPumpkin",
+        "SourceString": "Sweet, yet savory. ",
+        "LocalizedString": "Sweet, yet savory. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Pumpkin_soup'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Additional_Food_Icons/T_Icon_Pumpkin_soup.0"
+      },
+      "CategoryClassIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Cooking_Pot_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Wardfruit.Title",
+            "SourceString": "Soul Food",
+            "LocalizedString": "Soul Food"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Wardfruit.Description",
+            "SourceString": "Recharges WARD SHIELD over time",
+            "LocalizedString": "Recharges WARD SHIELD over time"
+          },
+          "BuffIcon": {
+            "ObjectName": "Texture2D'T_Icon_Buff_SoulFood_2'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SoulFood_2.0"
+          }
+        }
+      ],
+      "PersistenceID": "ziJyKkjO9ax3UsWGTvPMtw",
+      "InternalName": "food_soup_pumpkin",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_WardFruit_C",
+    "Name": "GE_WardFruit_C_0",
+    "Outer": "ITEM_Consumable_Soup_Pumpkin",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
+    "Template": {
+      "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false
+      }
+    }
+  }
+]
