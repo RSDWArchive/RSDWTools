@@ -67,7 +67,11 @@
   ];
 
   var REPO_URL = "https://github.com/RSDWArchive/RSDWTools";
-  var DISCORD_URL = "https://discord.gg/mgw9e2NeYW";
+  var DISCORD_LINKS = [
+    { name: "Official", href: "https://discord.com/invite/rsdragonwilds" },
+    { name: "Wiki", href: "https://discord.com/invite/rsdwwiki" },
+    { name: "Creative & Sharing", href: "https://discord.gg/hPJfrZxPss" },
+  ];
 
   function el(tag, attrs, children) {
     var node = document.createElement(tag);
@@ -108,7 +112,7 @@
         el("span", { class: "rsdw-brand__logo" }, [
           el("img", { src: "/shared/assets/logo.png", alt: "" }),
         ]),
-        el("span", { class: "rsdw-brand__title" }, ["RSDWTools"]),
+        el("span", { class: "rsdw-brand__title" }, ["RSDW Tools"]),
       ]
     );
     header.appendChild(brand);
@@ -120,20 +124,39 @@
 
     var actions = el("div", { class: "rsdw-actions" });
 
-    actions.appendChild(
-      el(
-        "a",
-        {
-          class: "rsdw-iconbtn",
-          href: DISCORD_URL,
-          target: "_blank",
-          rel: "noopener noreferrer",
-          "aria-label": "Open Discord",
-          title: "Discord",
-        },
-        [el("img", { src: "/shared/assets/tool-icons/discord.png", alt: "" })]
-      )
+    var discordWrap = el("div", { class: "rsdw-tools" });
+    var discordToggle = el(
+      "button",
+      {
+        class: "rsdw-iconbtn",
+        id: "rsdw-discord-toggle",
+        type: "button",
+        "aria-haspopup": "menu",
+        "aria-expanded": "false",
+        "aria-label": "Open Discord menu",
+        title: "Discord",
+      },
+      [el("img", { src: "/shared/assets/tool-icons/discord.png", alt: "" })]
     );
+    var discordMenu = el(
+      "div",
+      { class: "rsdw-tools__menu", id: "rsdw-discord-menu", role: "menu", hidden: "" },
+      DISCORD_LINKS.map(function (d) {
+        return el(
+          "a",
+          {
+            href: d.href,
+            role: "menuitem",
+            target: "_blank",
+            rel: "noopener noreferrer",
+          },
+          [d.name]
+        );
+      })
+    );
+    discordWrap.appendChild(discordToggle);
+    discordWrap.appendChild(discordMenu);
+    actions.appendChild(discordWrap);
 
     actions.appendChild(
       el(
@@ -184,18 +207,43 @@
       var open = menu.hidden;
       menu.hidden = !open;
       toggle.setAttribute("aria-expanded", String(open));
+      if (open) {
+        discordMenu.hidden = true;
+        discordToggle.setAttribute("aria-expanded", "false");
+      }
+    });
+    discordToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = discordMenu.hidden;
+      discordMenu.hidden = !open;
+      discordToggle.setAttribute("aria-expanded", String(open));
+      if (open) {
+        menu.hidden = true;
+        toggle.setAttribute("aria-expanded", "false");
+      }
     });
     document.addEventListener("click", function (e) {
       if (!toolsWrap.contains(e.target) && !menu.hidden) {
         menu.hidden = true;
         toggle.setAttribute("aria-expanded", "false");
       }
+      if (!discordWrap.contains(e.target) && !discordMenu.hidden) {
+        discordMenu.hidden = true;
+        discordToggle.setAttribute("aria-expanded", "false");
+      }
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && !menu.hidden) {
-        menu.hidden = true;
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.focus();
+      if (e.key === "Escape") {
+        if (!menu.hidden) {
+          menu.hidden = true;
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.focus();
+        }
+        if (!discordMenu.hidden) {
+          discordMenu.hidden = true;
+          discordToggle.setAttribute("aria-expanded", "false");
+          discordToggle.focus();
+        }
       }
     });
 
