@@ -1,4 +1,4 @@
-# DragonWildsWeb
+# RSDWTools.com
 
 Source for **RSDWTools.com** — a small set of save-file editors and
 reference tables for *RuneScape: Dragonwilds*. Sister site to
