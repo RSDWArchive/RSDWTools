@@ -9,7 +9,7 @@ from pathlib import Path
 
 JSON_SUFFIX = ".json"
 PNG_SUFFIX = ".png"
-CORE_CATEGORIES = ("recipes", "items", "consumables", "spells", "icons")
+CORE_CATEGORIES = ("recipes", "items", "consumables", "spells", "skills", "icons")
 ICON_PREFIXES = ("t_icon_", "t_skill_")
 
 
@@ -30,6 +30,10 @@ def classify_core_json(path: Path) -> str | None:
     upper_name = path.name.upper()
     if "_MESHDATA_" in upper_name:
         return None
+    if upper_name.startswith("SKILL_"):
+        if any(part.lower() == "deprecatedskills" for part in path.parts):
+            return None
+        return "skills"
     if upper_name.startswith("RECIPE_"):
         return "recipes"
     if upper_name.startswith("ITEM_"):

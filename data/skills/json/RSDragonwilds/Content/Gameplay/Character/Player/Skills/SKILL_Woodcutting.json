@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "GE_PerkV2_Woodcutting_LumberjackStamina_C",
+    "Name": "GE_PerkV2_Woodcutting_LumberjackStamina_C_0",
+    "Outer": "SKILL_Woodcutting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_LumberjackStamina.GE_PerkV2_Woodcutting_LumberjackStamina_C'",
+    "Template": {
+      "ObjectName": "GE_PerkV2_Woodcutting_LumberjackStamina_C'Default__GE_PerkV2_Woodcutting_LumberjackStamina_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_LumberjackStamina.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "OverrideTooltipStatName": {
+          "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+          "Key": "Woodcutting.MinorNode.Stat1",
+          "SourceString": "Woodcutting Stamina Costs",
+          "LocalizedString": "Woodcutting Stamina Costs"
+        },
+        "StatValueType": "EStatValueType::AddPercent",
+        "AmountToModify": {
+          "Value": -0.0072
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Woodcutting",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "3E51C72C442CAD76A059B48C794213BA",
+        "SourceString": "Woodcutting",
+        "LocalizedString": "Woodcutting"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "WoodcuttingLevelInstruction",
+        "SourceString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. ",
+        "LocalizedString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. "
+      },
+      "SkillType": "ESkill::Woodcutting",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Woodcutting.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_PerkV2_Woodcutting_LumberjackStamina_C'SKILL_Woodcutting:GE_PerkV2_Woodcutting_LumberjackStamina_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Woodcutting.T_Icon_SkillTree_Woodcutting",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Woodcutting"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'LoggingStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Woodcutting.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Woodcutting",
+        "SubPathString": ""
+      },
+      "PersistenceID": "4zYUGF5u_0KbMLkWJmmBbQ",
+      "InternalName": "skill_woodcutting"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "GE_Artisan_DurabilityPlus_C",
+    "Name": "GE_Artisan_DurabilityPlus_C_0",
+    "Outer": "SKILL_Artisan",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Artisan/GE_Artisan_DurabilityPlus.GE_Artisan_DurabilityPlus_C'",
+    "Template": {
+      "ObjectName": "GE_Artisan_DurabilityPlus_C'Default__GE_Artisan_DurabilityPlus_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Artisan/GE_Artisan_DurabilityPlus.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "AmountToModify": {
+          "Value": -0.005
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Artisan",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "73233E114CDC66133030CBB4585E0EB9",
+        "SourceString": "Artisan",
+        "LocalizedString": "Artisan"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "ArtisanLevelInstruction",
+        "SourceString": "Craft new weapons, armour or tools to level this skill. ",
+        "LocalizedString": "Craft new weapons, armour or tools to level this skill. "
+      },
+      "SkillType": "ESkill::Artisan",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Crafting.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Artisan.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_Artisan_DurabilityPlus_C'SKILL_Artisan:GE_Artisan_DurabilityPlus_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Crafting.T_Icon_SkillTree_Crafting",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Artisan"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Crafting.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Artisan.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Artisan",
+        "SubPathString": ""
+      },
+      "PersistenceID": "Wf3i7Ha-B06DH719j1vtBw",
+      "InternalName": "skill_artisan"
+    }
+  }
+]

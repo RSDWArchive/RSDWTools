@@ -15,6 +15,7 @@ The ingest step discovers files from the archive root by pattern:
 - Recipes: `RECIPE_*.json`
 - Consumables (plans/vestiges): `DA_Consumable_*.json`
 - Spells: `USD_*.json`
+- Skills: active `SKILL_*.json` files, excluding `DeprecatedSkills`
 - Icons: PNGs referenced by `ObjectPath` in discovered data, plus
   `t_icon_*` and `t_skill_*` fallback prefixes.
 
@@ -44,7 +45,7 @@ Runs ingest, all builders, and the character catalog step. Useful flags:
 5. `python tools/build_spell_catalog.py` → `website/tools/spell-editor/data/spells.json`
 6. `python tools/build_mapdata_index.py` → `website/data/mapdata_index.json`
 7. `python tools/export_docs_data_from_raw_core.py` → `website/data/{loot_data,location_data}.json`
-8. `python tools/build_character_catalog.py` → `website/tools/character-editor/data/`
+8. `python tools/build_character_catalog.py` → `website/tools/character-editor/data/` and skill icons in `website/shared/icons/`
 
 All icons land under `website/shared/icons/` and are referenced by catalogs
 as `/shared/icons/<name>.png`.

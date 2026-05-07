@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "GE_MagicAttack_Stamina_Cost_C",
+    "Name": "GE_MagicAttack_Stamina_Cost_C_0",
+    "Outer": "SKILL_Magic",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.GE_MagicAttack_Stamina_Cost_C'",
+    "Template": {
+      "ObjectName": "GE_MagicAttack_Stamina_Cost_C'Default__GE_MagicAttack_Stamina_Cost_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "StatValueType": "EStatValueType::AddPercent",
+        "AmountToModify": {
+          "Value": -0.005
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Magic",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "B9BFCD63421CA4D8C020B59BF70C50F2",
+        "SourceString": "Magic",
+        "LocalizedString": "Magic"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "MagicLevelInstruction",
+        "SourceString": "Defeat enemies with magic to level this skill.",
+        "LocalizedString": "Defeat enemies with magic to level this skill."
+      },
+      "SkillType": "ESkill::Magic",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Magic.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_MagicAttack_Stamina_Cost_C'SKILL_Magic:GE_MagicAttack_Stamina_Cost_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Magic.T_Icon_SkillTree_Magic",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Magic"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'MagicAttackStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Magic.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Magic.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Magic",
+        "SubPathString": ""
+      },
+      "PersistenceID": "0hreSMRVXUihq9qjDO2CFA",
+      "InternalName": "skill_magic"
+    }
+  }
+]

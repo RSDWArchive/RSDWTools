@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "UObject",
+    "Name": "GE_Fishing_ReduceStaminaDrain_C_0",
+    "Outer": "SKILL_Fishing",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Fishing",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+        "Key": "SkillName",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
+        "Key": "SkillDescription",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "SkillType": "ESkill::Fishing",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Notification_Skill_Fishing"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
+        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_Fishing_ReduceStaminaDrain_C'SKILL_Fishing:GE_Fishing_ReduceStaminaDrain_C_0'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Skills/SKILL_Fishing.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_SkillTree_Fishing.T_Icon_SkillTree_Fishing",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Fishing"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Crafting.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Fishing.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Fishing",
+        "SubPathString": ""
+      },
+      "PersistenceID": "vwY5IkQJJDwb2PKEfoc8MQ",
+      "InternalName": "skill_fishing"
+    }
+  }
+]

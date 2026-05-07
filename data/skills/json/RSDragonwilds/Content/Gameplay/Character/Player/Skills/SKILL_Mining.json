@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "GE_PerkV2_Mining_MiningCriticalHits_C",
+    "Name": "GE_PerkV2_Mining_MiningCriticalHits_C_0",
+    "Outer": "SKILL_Mining",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Mining_MiningCriticalHits.GE_PerkV2_Mining_MiningCriticalHits_C'",
+    "Template": {
+      "ObjectName": "GE_PerkV2_Mining_MiningCriticalHits_C'Default__GE_PerkV2_Mining_MiningCriticalHits_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Mining_MiningCriticalHits.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "OverrideTooltipStatName": {
+          "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+          "Key": "Mining.MinorNode.Stat1",
+          "SourceString": "Mining Critical Hit Chance",
+          "LocalizedString": "Mining Critical Hit Chance"
+        },
+        "StatValueType": "EStatValueType::AddPercent",
+        "AmountToModify": {
+          "Value": 0.005
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Mining",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "448B313843BE51D24E1924B6ADD476BD",
+        "SourceString": "Mining",
+        "LocalizedString": "Mining"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "MiningLevelInstruction",
+        "SourceString": "Mine ore, clay or stone, or gather stones from the floor to level this skill.",
+        "LocalizedString": "Mine ore, clay or stone, or gather stones from the floor to level this skill."
+      },
+      "SkillType": "ESkill::Mining",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Mining'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Mining.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Mining'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_PerkV2_Mining_MiningCriticalHits_C'SKILL_Mining:GE_PerkV2_Mining_MiningCriticalHits_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Mining.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Mining.T_Icon_SkillTree_Mining",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Mining"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'MiningStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Crafting.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Mining.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Mining",
+        "SubPathString": ""
+      },
+      "PersistenceID": "jqX0Gh6QI0GFFPCDFK_CJQ",
+      "InternalName": "skill_mining"
+    }
+  }
+]

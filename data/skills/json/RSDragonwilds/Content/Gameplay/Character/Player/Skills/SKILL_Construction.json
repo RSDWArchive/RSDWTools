@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Construction",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "F8CBA3FC49CFA6F0F8AF689D588DD769",
+        "SourceString": "Construction",
+        "LocalizedString": "Construction"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "ConstructionLevelInstruction",
+        "SourceString": "Build new structures to level this skill. ",
+        "LocalizedString": "Build new structures to level this skill. "
+      },
+      "SkillType": "ESkill::Construction",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Construction.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Construction.0"
+      },
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Construction"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Crafting.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Construction.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Construction",
+        "SubPathString": ""
+      },
+      "PersistenceID": "waK-8EyQFQ2xEjCGYmuTRQ",
+      "InternalName": "skill_construction"
+    }
+  }
+]

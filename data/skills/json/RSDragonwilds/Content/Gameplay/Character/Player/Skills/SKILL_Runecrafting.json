@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "GE_Runecrafting_AttunementPhaseDuration_C",
+    "Name": "GE_Runecrafting_AttunementPhaseDuration_C_0",
+    "Outer": "SKILL_Runecrafting",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Runecrafting/GE_Runecrafting_AttunementPhaseDuration.GE_Runecrafting_AttunementPhaseDuration_C'",
+    "Template": {
+      "ObjectName": "GE_Runecrafting_AttunementPhaseDuration_C'Default__GE_Runecrafting_AttunementPhaseDuration_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Runecrafting/GE_Runecrafting_AttunementPhaseDuration.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "AmountToModify": {
+          "Value": 0.006
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Runecrafting",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "87E917D74C01F90B647849A9F7F0EF55",
+        "SourceString": "Runecrafting",
+        "LocalizedString": "Runecrafting"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "RunecraftingLevelInstruction",
+        "SourceString": "Gather Rune Essence and craft Runes to level this skill. ",
+        "LocalizedString": "Gather Rune Essence and craft Runes to level this skill. "
+      },
+      "SkillType": "ESkill::Runecrafting",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Runecrafting.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_Runecrafting_AttunementPhaseDuration_C'SKILL_Runecrafting:GE_Runecrafting_AttunementPhaseDuration_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Runecrafting.T_Icon_SkillTree_Runecrafting",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Runecrafting"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Magic.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Runecrafting.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Runecrafting",
+        "SubPathString": ""
+      },
+      "PersistenceID": "NOqC-z-2ckqi0El22qMFlw",
+      "InternalName": "skill_runecrafting"
+    }
+  }
+]

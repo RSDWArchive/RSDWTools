@@ -9,7 +9,8 @@ const characterTypeSelect = document.getElementById("character-type");
 const characterGuidInput = document.getElementById("character-guid");
 const mountUnlockedSelect = document.getElementById("mount-unlocked");
 const mapUnlockedSelect = document.getElementById("map-unlocked");
-const skillInputs = Array.from(document.querySelectorAll("[data-skill-id]"));
+const skillsGrid = document.getElementById("skills-grid");
+let skillInputs = Array.from(document.querySelectorAll("[data-skill-id]"));
 const customizationInputs = Array.from(
   document.querySelectorAll("[data-customization]")
 );
@@ -32,6 +33,7 @@ let characterFileHandle = null;
 let activeUpkeep = null;
 let customizationCatalog = null;
 let pendingCustomization = null;
+let skillXpById = new Map();
 
 function setStatus(message, loaded) {
   if (!statusText || !statusBar || !statusIcon) {
@@ -69,6 +71,14 @@ function findUpkeep(data, key) {
 
 function findSkills(data) {
   return data?.Skills?.Skills || null;
+}
+
+function applySkillValuesToInputs() {
+  skillInputs.forEach((input) => {
+    const id = input.dataset.skillId;
+    const xp = id ? skillXpById.get(id) : undefined;
+    input.value = toIntegerDisplay(xp);
+  });
 }
 
 function applyUpkeepDisplay(tile, data) {
@@ -130,16 +140,12 @@ function handleCharacterFile(text) {
     });
 
     const skills = findSkills(data) || [];
-    const skillMap = new Map(
+    skillXpById = new Map(
       skills
         .filter((skill) => skill && typeof skill.Id === "string")
         .map((skill) => [skill.Id, skill.Xp])
     );
-    skillInputs.forEach((input) => {
-      const id = input.dataset.skillId;
-      const xp = id ? skillMap.get(id) : undefined;
-      input.value = toIntegerDisplay(xp);
-    });
+    applySkillValuesToInputs();
     setStatus("Character loaded.", true);
   } catch (error) {
     setStatus("Failed to parse character JSON.", false);
@@ -181,6 +187,92 @@ function setSelectValue(select, value) {
   select.value = value;
 }
 
+function skillIconSrc(skill) {
+  const icon = skill?.icon;
+  if (typeof icon === "string" && icon) {
+    return icon.startsWith("/") ? icon : `/shared/icons/${icon}`;
+  }
+  const name = skill?.display_name;
+  if (typeof name === "string" && name) {
+    return `/shared/game-ui/Character/${encodeURIComponent(name)}.png`;
+  }
+  return "/shared/game-ui/T_Icon_Placeholder.png";
+}
+
+function bindSkillInput(input) {
+  if (!input || input.dataset.skillBound === "true") {
+    return;
+  }
+  input.dataset.skillBound = "true";
+  input.addEventListener("input", () => {
+    const raw = Number(input.value ?? 0);
+    if (!Number.isFinite(raw)) {
+      return;
+    }
+    if (raw < 0) {
+      input.value = "0";
+      return;
+    }
+    if (!Number.isInteger(raw)) {
+      input.value = String(Math.floor(raw));
+    }
+  });
+  input.addEventListener("blur", () => normalizeSkillInput(input));
+}
+
+function bindSkillInputs() {
+  skillInputs.forEach(bindSkillInput);
+}
+
+function captureCurrentSkillValues() {
+  skillInputs.forEach((input) => {
+    const id = input.dataset.skillId;
+    if (id) {
+      skillXpById.set(id, parseNonNegativeInt(input.value));
+    }
+  });
+}
+
+function renderSkillCatalog() {
+  const skills = customizationCatalog?.Skills;
+  if (!skillsGrid || !Array.isArray(skills) || !skills.length) {
+    return;
+  }
+  captureCurrentSkillValues();
+  skillsGrid.innerHTML = "";
+  skills.forEach((skill) => {
+    if (!skill?.id) {
+      return;
+    }
+    const label = document.createElement("label");
+    label.className = "character-field";
+
+    const labelText = document.createElement("span");
+    labelText.className = "skill-label";
+
+    const icon = document.createElement("img");
+    icon.className = "skill-icon";
+    icon.src = skillIconSrc(skill);
+    icon.alt = "";
+    labelText.appendChild(icon);
+    labelText.append(skill.display_name || skill.internal_name || skill.id);
+
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.step = "1";
+    input.inputMode = "numeric";
+    input.dataset.skillId = skill.id;
+
+    label.appendChild(labelText);
+    label.appendChild(input);
+    skillsGrid.appendChild(label);
+  });
+  skillInputs = Array.from(document.querySelectorAll("[data-skill-id]"));
+  bindSkillInputs();
+  applySkillValuesToInputs();
+}
+
 function populateCustomizationOptions() {
   if (!customizationCatalog) {
     return;
@@ -209,6 +301,7 @@ async function loadCustomizationCatalog() {
   try {
     const response = await fetch("/tools/character-editor/data/character_catalog.json");
     customizationCatalog = await response.json();
+    renderSkillCatalog();
     populateCustomizationOptions();
   } catch (error) {
     console.error(error);
@@ -507,22 +600,7 @@ function bindEvents() {
       );
     });
   }
-  skillInputs.forEach((input) => {
-    input.addEventListener("input", () => {
-      const raw = Number(input.value ?? 0);
-      if (!Number.isFinite(raw)) {
-        return;
-      }
-      if (raw < 0) {
-        input.value = "0";
-        return;
-      }
-      if (!Number.isInteger(raw)) {
-        input.value = String(Math.floor(raw));
-      }
-    });
-    input.addEventListener("blur", () => normalizeSkillInput(input));
-  });
+  bindSkillInputs();
   if (characterTypeSelect) {
     characterTypeSelect.addEventListener("change", (event) => {
       setCharacterTypeIcon(event.target.value);

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-28T21:35:47.020511+00:00",
+  "generated_at_utc": "2026-05-07T02:05:32.878693+00:00",
   "game_root": "E:\\Github\\RSDWArchive\\0.11.1.4",
   "output_root": "data",
   "options": {
@@ -8,6 +8,7 @@
       "items",
       "consumables",
       "spells",
+      "skills",
       "icons"
     ],
     "location_data_root": "E:\\Github\\RSDWArchive\\website\\tools\\LocationData",
@@ -18,7 +19,7 @@
   },
   "summary": {
     "json_scanned": 57736,
-    "json_unmatched": 55722,
+    "json_unmatched": 55711,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "json/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.json",
@@ -59,8 +60,8 @@
       ]
     },
     "icons": {
-      "files_discovered": 1772,
-      "files_copied": 1772,
+      "files_discovered": 1783,
+      "files_copied": 1783,
       "source_roots": [],
       "sample_files": []
     },
@@ -90,6 +91,20 @@
         "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Fire.json",
         "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bone_Poison.json",
         "json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/RECIPE_Ammo_Arrows_Bronze_Bleed.json"
+      ]
+    },
+    "skills": {
+      "files_discovered": 11,
+      "files_copied": 11,
+      "source_roots": [
+        "json"
+      ],
+      "sample_files": [
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Construction.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.json",
+        "json/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.json"
       ]
     },
     "spells": {
@@ -146,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 2543,
-    "object_paths_resolved": 829,
+    "object_paths_found": 2572,
+    "object_paths_resolved": 840,
     "prefixes": [
       "t_icon_",
       "t_skill_"

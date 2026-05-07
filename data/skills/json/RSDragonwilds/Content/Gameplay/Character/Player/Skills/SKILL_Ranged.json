@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "GE_RangedAttack_ProjectileRefund_C",
+    "Name": "GE_RangedAttack_ProjectileRefund_C_0",
+    "Outer": "SKILL_Ranged",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.GE_RangedAttack_ProjectileRefund_C'",
+    "Template": {
+      "ObjectName": "GE_RangedAttack_ProjectileRefund_C'Default__GE_RangedAttack_ProjectileRefund_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "AmountToModify": {
+          "Value": 0.008
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Ranged",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "E8BE697A46872448782F2193446D8BA0",
+        "SourceString": "Ranged",
+        "LocalizedString": "Ranged"
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "RangedLevelInstruction",
+        "SourceString": "Defeat enemies with ranged weapons to level this skill. ",
+        "LocalizedString": "Defeat enemies with ranged weapons to level this skill. "
+      },
+      "SkillType": "ESkill::Ranged",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Ranged.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.0"
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_RangedAttack_ProjectileRefund_C'SKILL_Ranged:GE_RangedAttack_ProjectileRefund_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.0"
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+            "Key": "Ranged.RangedProjectileRefundChance.Desc",
+            "SourceString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die.",
+            "LocalizedString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die."
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Ranged.T_Icon_SkillTree_Ranged",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Ranged"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'RangedAttackStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Ranged.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Ranged",
+        "SubPathString": ""
+      },
+      "PersistenceID": "heq7u88Q2UuLXFqLGTVwQw",
+      "InternalName": "skill_ranged"
+    }
+  }
+]
