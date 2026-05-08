@@ -165,7 +165,11 @@ function buildRowsFromItems(items, label, setName, setChance) {
   return items.map((resource) => {
     const itemId = resource?.itemId || "";
     const catalogItem = itemId ? state.itemCatalog.get(itemId) : null;
+    const dataName = resource?.itemDisplayName
+      ? String(resource.itemDisplayName).trim()
+      : "";
     const displayName =
+      dataName ||
       catalogItem?.display_name ||
       prettifyName(itemId) ||
       itemId ||
@@ -184,6 +188,8 @@ function buildRowsFromItems(items, label, setName, setChance) {
       (typeof setChance === "number" ? setChance : 100) *
       (itemChance || 100) /
       100;
+    const setNameTrim = setName ? String(setName).trim() : "";
+    const sourceLabel = setNameTrim ? `${label}: ${setNameTrim}` : label;
     return {
       displayName,
       iconPath: catalogItem?.icon
@@ -195,10 +201,89 @@ function buildRowsFromItems(items, label, setName, setChance) {
         resource?.maximumDropAmount
       ),
       chance: chanceParts.join(" \u2022 ") || "",
-      source: `${label}: ${setName}`,
+      source: sourceLabel,
       chanceValue: combinedChance,
     };
   });
+}
+
+function rowsFromResolvedEntry(entry) {
+  const item = entry?.item;
+  if (!item) {
+    return [];
+  }
+  const flat = {
+    itemId: item.itemId,
+    minimumDropAmount: item.minimumDropAmount,
+    maximumDropAmount: item.maximumDropAmount,
+    dropChance: item.dropChance,
+    itemDisplayName: item.itemDisplayName,
+  };
+  switch (entry.source) {
+    case "guaranteedSet":
+      return buildRowsFromItems(
+        [flat],
+        "Guaranteed Set",
+        entry.setRow || "",
+        null
+      );
+    case "guaranteedStandalone":
+      return buildRowsFromItems(
+        [flat],
+        "Guaranteed Standalone",
+        "",
+        null
+      );
+    case "additionalSet":
+      return buildRowsFromItems(
+        [flat],
+        "Bonus Set",
+        entry.setRow || "",
+        entry.setRollChance
+      );
+    default:
+      return [];
+  }
+}
+
+function renderChestFromResolved(chest) {
+  const guaranteedRows = [];
+  const bonusRows = [];
+  for (const entry of chest.resolvedItems) {
+    const rows = rowsFromResolvedEntry(entry);
+    if (!rows.length) {
+      continue;
+    }
+    if (entry.source === "additionalSet") {
+      bonusRows.push(...rows);
+    } else if (
+      entry.source === "guaranteedSet" ||
+      entry.source === "guaranteedStandalone"
+    ) {
+      guaranteedRows.push(...rows);
+    }
+  }
+
+  const sections = [];
+  if (guaranteedRows.length) {
+    sections.push({ label: "Guaranteed Sets", rows: guaranteedRows });
+  }
+  if (bonusRows.length) {
+    const rollCap = (chest.additionalSetRows ?? []).length;
+    sections.push({
+      label:
+        rollCap > 0
+          ? `Bonus Sets (0-${rollCap} rolls)`
+          : "Bonus Sets",
+      rows: bonusRows.sort((a, b) => b.chanceValue - a.chanceValue),
+    });
+  }
+
+  if (!sections.length) {
+    showEmptyState("No loot data found for this chest.");
+    return;
+  }
+  renderTable(sections);
 }
 
 function renderChest(key) {
@@ -218,6 +303,14 @@ function renderChest(key) {
   const respawnText = formatRespawnTime(chest?.respawn?.inGameRespawnTime);
   if (respawnText) {
     chestSubtitle.textContent = `Respawn: ${respawnText}`;
+  }
+
+  if (
+    Array.isArray(chest.resolvedItems) &&
+    chest.resolvedItems.length > 0
+  ) {
+    renderChestFromResolved(chest);
+    return;
   }
 
   const sections = [];
@@ -262,8 +355,12 @@ function renderChest(key) {
   }
 
   if (bonusRows.length) {
+    const rollCap = additionalSetRows.length;
     sections.push({
-      label: `Bonus Sets (0-${additionalSetRows.length} rolls)`,
+      label:
+        rollCap > 0
+          ? `Bonus Sets (0-${rollCap} rolls)`
+          : "Bonus Sets",
       rows: bonusRows.sort((a, b) => b.chanceValue - a.chanceValue),
     });
   }

@@ -1,6 +1,6 @@
 {
   "version": "0.11.1.4",
-  "generatedAtUtc": "2026-04-28T20:52:46.041392+00:00",
+  "generatedAtUtc": "2026-05-08T00:50:09.463015+00:00",
   "sourceRoot": "E:\\Github\\RSDWArchive\\0.11.1.4\\json",
   "tables": {
     "DT_CompositeEnemyLootDropTable": {
@@ -7653,6 +7653,40 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_ColoredLights",
           "setRollChance": 5.0,
@@ -11313,6 +11347,23 @@
             "minimumDropAmount": 1,
             "maximumDropAmount": 1,
             "dropChance": 11.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Whispering",
+            "itemDisplayName": "Whispering Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Whispering'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Whispering.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -17208,6 +17259,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Bramblemead",
+            "itemDisplayName": "Bramblemead Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Bramblemead'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Bramblemead.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_RuneEssence",
           "setRollChance": 20.0,
@@ -17909,7 +17977,76 @@
       },
       "guaranteedSetRows": [],
       "additionalSetRows": [],
-      "resolvedItems": []
+      "resolvedItems": [
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Consumable_Tome_Tier2_Farming",
+            "itemDisplayName": "Tome of Farming - Vol 2",
+            "itemObjectName": "BP_Consumables_SkillTome_C'ITEM_Consumable_Tome_Tier2_Farming'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Farming.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Farming_TreeSeed_Ash",
+            "itemDisplayName": "Ash tree Seed",
+            "itemObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Ash'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 5,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Farming_TreeSeed_Oak",
+            "itemDisplayName": "Oak tree Seed",
+            "itemObjectName": "HeldTreeSeedData'ITEM_Farming_TreeSeed_Oak'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak.0",
+            "minimumDropAmount": 2,
+            "maximumDropAmount": 4,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Armour_T2_Head_FarmersHat",
+            "itemDisplayName": "Farmers' Hat",
+            "itemObjectName": "WearableEquipmentData'ITEM_Armour_T2_Head_FarmersHat'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T2_Head_FarmersHat.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        }
+      ]
     },
     "Tier2_World_Vestige_AdventurersLongbow": {
       "respawn": {
@@ -18236,6 +18373,23 @@
             "dropChance": 11.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Weapon_Longbow_Adventurers",
+            "itemDisplayName": "A Simple Broken Bow",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Longbow_Adventurers'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Longbow_Adventurers.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": true,
               "autoAddToInventory": false,
               "onlyForPlayersThatInflictedDamage": false
             }
@@ -19258,6 +19412,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Armour_Legs_Lightness",
+            "itemDisplayName": "Suspiciously Light Tattered Boots",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Legs_Lightness'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Legs_Lightness.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": true,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_RuneEssence",
           "setRollChance": 20.0,
@@ -20268,6 +20439,23 @@
             "dropChance": 11.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Armour_Head_Sack",
+            "itemDisplayName": "A Threadbare Grain Sack",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Head_Sack'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Head_Sack.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": true,
               "autoAddToInventory": false,
               "onlyForPlayersThatInflictedDamage": false
             }
@@ -21290,6 +21478,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Weapon_Sword_Training",
+            "itemDisplayName": "An Educational Blade",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Sword_Training'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Sword_Training.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": true,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_RuneEssence",
           "setRollChance": 20.0,
@@ -22214,6 +22419,40 @@
             "minimumDropAmount": 1,
             "maximumDropAmount": 1,
             "dropChance": 11.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -27262,6 +27501,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Fractured",
+            "itemDisplayName": "Fractured Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Fractured'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Fractured.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T2_Materials",
           "setRollChance": 20.0,
@@ -28426,6 +28682,40 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_ColoredLights",
           "setRollChance": 5.0,
@@ -28823,6 +29113,23 @@
             "minimumDropAmount": 1,
             "maximumDropAmount": 1,
             "dropChance": 17.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Weapon_Crossbow_Blurite",
+            "itemDisplayName": "Azure Metal Contraption",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Crossbow_Blurite'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Crossbow_Blurite.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -30015,6 +30322,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Weapon_Sword_Chieftains",
+            "itemDisplayName": "A Corroded Serrated Blade",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Sword_Chieftains'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Sword_Chieftains.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T2_Materials",
           "setRollChance": 20.0,
@@ -31193,6 +31517,23 @@
             "dropChance": 17.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Weapon_Staff_Draconic",
+            "itemDisplayName": "Parts of a sinister looking staff",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Weapon_Staff_Draconic'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Weapons/DA_Consumable_Vestige_Weapon_Staff_Draconic.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": true,
               "autoAddToInventory": false,
               "onlyForPlayersThatInflictedDamage": false
             }
@@ -36191,6 +36532,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Bloodblight",
+            "itemDisplayName": "Bloodblight Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Bloodblight'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Bloodblight.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T4_Plans",
           "setRollChance": 15.0,
@@ -39518,6 +39876,40 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_ColoredLights",
           "setRollChance": 5.0,
@@ -39891,6 +40283,23 @@
             "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.0",
             "minimumDropAmount": 6,
             "maximumDropAmount": 12,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Stormtouched",
+            "itemDisplayName": "Stormtouched Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Stormtouched'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Stormtouched.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
             "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -41826,6 +42235,40 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T0_ColoredLights",
           "setRollChance": 5.0,
@@ -42278,6 +42721,23 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Currency_SoulFragment",
+            "itemDisplayName": "Soul Fragment",
+            "itemObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0",
+            "minimumDropAmount": 80,
+            "maximumDropAmount": 100,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T5_Fellhollow_MovingSpectralPlatforming_Decorations",
           "setRollChance": 100.0,
@@ -42570,6 +43030,23 @@
             "minimumDropAmount": 1,
             "maximumDropAmount": 1,
             "dropChance": 9.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Currency_SoulFragment",
+            "itemDisplayName": "Soul Fragment",
+            "itemObjectName": "ItemData'ITEM_Currency_SoulFragment'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0",
+            "minimumDropAmount": 50,
+            "maximumDropAmount": 60,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -52778,6 +53255,74 @@
           }
         },
         {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_Stone",
+            "itemDisplayName": "Stone",
+            "itemObjectName": "ItemData'ITEM_Resources_Stone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 10,
+            "dropChance": 90.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_SilverOre",
+            "itemDisplayName": "Silver Ore",
+            "itemObjectName": "ItemData'ITEM_Resources_SilverOre'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverOre.0",
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_GoldOre",
+            "itemDisplayName": "Gold Ore",
+            "itemObjectName": "ItemData'ITEM_Resources_GoldOre'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldOre.0",
+            "minimumDropAmount": 2,
+            "maximumDropAmount": 4,
+            "dropChance": 60.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
           "source": "additionalSet",
           "setRow": "SET_T5_Fellhollow_TreasureHunter_Spade_Undead",
           "setRollChance": 5.0,
@@ -53710,6 +54255,23 @@
             "minimumDropAmount": 10,
             "maximumDropAmount": 20,
             "dropChance": 25.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_Fellhollow",
+            "itemDisplayName": "Fell Cape",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_Fellhollow'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Patterns/Capes/DA_Consumable_Pattern_Armor_Cape_Fellhollow.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -55098,6 +55660,91 @@
             "minimumDropAmount": 1,
             "maximumDropAmount": 1,
             "dropChance": 14.3,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_AnimalBone",
+            "itemDisplayName": "Animal Bone",
+            "itemObjectName": "ItemData'ITEM_Resources_AnimalBone'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0",
+            "minimumDropAmount": 3,
+            "maximumDropAmount": 5,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_SilverOre",
+            "itemDisplayName": "Silver Ore",
+            "itemObjectName": "ItemData'ITEM_Resources_SilverOre'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverOre.0",
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 10,
+            "dropChance": 80.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "ITEM_Resources_GoldOre",
+            "itemDisplayName": "Gold Ore",
+            "itemObjectName": "ItemData'ITEM_Resources_GoldOre'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldOre.0",
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
+            "dropChance": 60.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Vestige_Armour_Head_Sack_Spectral",
+            "itemDisplayName": "Scratchy Sackcloth",
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Head_Sack_Spectral'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Head_Sack_Spectral.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Plan_Decoration_Fellhollow_Spectral_Book",
+            "itemDisplayName": "PLAN: Spectral Book",
+            "itemObjectName": "BP_Consumables_Plan_Base_C'DA_Consumable_Plan_Decoration_Fellhollow_Spectral_Book'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/AncientDragonkin/DA_Consumable_Plan_Decoration_Fellhollow_Spectral_Book.0",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -57944,6 +58591,23 @@
             "minimumDropAmount": 10,
             "maximumDropAmount": 20,
             "dropChance": 25.0,
+            "flags": {
+              "oneInstancePerPlayerOnlyVisibleToThem": false,
+              "autoAddToInventory": false,
+              "onlyForPlayersThatInflictedDamage": false
+            }
+          }
+        },
+        {
+          "source": "guaranteedStandalone",
+          "item": {
+            "itemId": "DA_Consumable_Pattern_Armor_Cape_DowdunReach",
+            "itemDisplayName": null,
+            "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Pattern_Armor_Cape_DowdunReach'",
+            "itemObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/DA_Consumable_Pattern_Armor_Cape_DowdunReach",
+            "minimumDropAmount": 1,
+            "maximumDropAmount": 1,
+            "dropChance": 100.0,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
               "autoAddToInventory": false,
@@ -66099,6 +66763,27 @@
       ]
     },
     "itemToChestProfiles": {
+      "DA_Consumable_Pattern_Armor_Cape_Bloodblight": [
+        "Tier4_Vault_ToxicSwamp_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_Bramblemead": [
+        "Tier2_World_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_DowdunReach": [
+        "Tier6_World_DowdunReach_Chest_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_Fellhollow": [
+        "Tier5_World_Fellhollow_Chest_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_Fractured": [
+        "Tier3_World_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_Stormtouched": [
+        "Tier4_World_Highlands_Cape"
+      ],
+      "DA_Consumable_Pattern_Armor_Cape_Whispering": [
+        "Tier2+_World_Cape"
+      ],
       "DA_Consumable_Plan_Decoration_Banner_01_Armadyl": [
         "Tier6_World_Chest",
         "Tier6_World_DowdunReach_Chest_Cape",
@@ -66252,6 +66937,9 @@
       ],
       "DA_Consumable_Plan_Decoration_Fellhollow_Headstone_02": [
         "Tier5_MovingSpectralPlatforming_Fellhollow"
+      ],
+      "DA_Consumable_Plan_Decoration_Fellhollow_Spectral_Book": [
+        "Tier5_World_Fellhollow_XMarksTheSpot_Chest"
       ],
       "DA_Consumable_Plan_Decoration_Fellhollow_Tombstone_01": [
         "Tier5_MovingSpectralPlatforming_Fellhollow"
@@ -66827,20 +67515,47 @@
         "Tier4_World_Highlands_BuriedChest",
         "Tier4_World_ToxicSwamp_BuriedChest"
       ],
+      "DA_Consumable_Vestige_Armour_Head_Sack": [
+        "Tier2_World_Vestige_SackHead"
+      ],
+      "DA_Consumable_Vestige_Armour_Head_Sack_Spectral": [
+        "Tier5_World_Fellhollow_XMarksTheSpot_Chest"
+      ],
+      "DA_Consumable_Vestige_Armour_Legs_Lightness": [
+        "Tier2_World_Vestige_LeggingsLightness"
+      ],
       "DA_Consumable_Vestige_Tool_Shovel_Undead": [
         "Tier5_World_Fellhollow_BuriedChest"
       ],
       "DA_Consumable_Vestige_Weapon_Crossbow_Black": [
         "Tier6_World_DowdunReach_Chest_VestigeChance"
       ],
+      "DA_Consumable_Vestige_Weapon_Crossbow_Blurite": [
+        "Tier3_World_Vestige_BluriteCrossbow"
+      ],
       "DA_Consumable_Vestige_Weapon_Greataxe_Black": [
         "Tier6_World_DowdunReach_Chest_VestigeChance"
+      ],
+      "DA_Consumable_Vestige_Weapon_Longbow_Adventurers": [
+        "Tier2_World_Vestige_AdventurersLongbow"
+      ],
+      "DA_Consumable_Vestige_Weapon_Staff_Draconic": [
+        "Tier3_World_Vestige_DraconicStaff"
       ],
       "DA_Consumable_Vestige_Weapon_Staff_Subjugation": [
         "Tier6_World_DowdunReach_Chest_VestigeChance"
       ],
       "DA_Consumable_Vestige_Weapon_Sword_Black": [
         "Tier6_World_DowdunReach_Chest_VestigeChance"
+      ],
+      "DA_Consumable_Vestige_Weapon_Sword_Chieftains": [
+        "Tier3_World_Vestige_ChieftanBlade"
+      ],
+      "DA_Consumable_Vestige_Weapon_Sword_Training": [
+        "Tier2_World_Vestige_TrainingSword"
+      ],
+      "ITEM_Armour_T2_Head_FarmersHat": [
+        "Tier2_World_ScarecrowScavening_BuriedChest"
       ],
       "ITEM_Consumable_Fruit_Dried_Cadavaberry": [
         "Tier5_Vault_Chest",
@@ -67711,6 +68426,7 @@
         "Tier6_World_DowdunReach_Chest_VestigeChance"
       ],
       "ITEM_Consumable_Tome_Tier2_Farming": [
+        "Tier2_World_ScarecrowScavening_BuriedChest",
         "Tier5_MovingSpectralPlatforming_Fellhollow",
         "Tier5_SpectralPlatforming_Fellhollow",
         "Tier6_World_Chest",
@@ -67792,6 +68508,8 @@
         "Tier6_World_DowdunReach_Chest_VestigeChance"
       ],
       "ITEM_Currency_SoulFragment": [
+        "Tier5_MovingSpectralPlatforming_Fellhollow",
+        "Tier5_SpectralPlatforming_Fellhollow",
         "Tier5_Vault_Chest",
         "Tier5_Vault_Chest_FinalChest_Kalistrakthen",
         "Tier5_Vault_Chest_FinalChest_Skekven",
@@ -67825,6 +68543,12 @@
         "Tier2_Vault_FinalChest_Thishepen",
         "Tier2_World"
       ],
+      "ITEM_Farming_TreeSeed_Ash": [
+        "Tier2_World_ScarecrowScavening_BuriedChest"
+      ],
+      "ITEM_Farming_TreeSeed_Oak": [
+        "Tier2_World_ScarecrowScavening_BuriedChest"
+      ],
       "ITEM_Herb_Harralander": [
         "Tier2_World_WhisperingSwamp_BuriedChest"
       ],
@@ -67835,6 +68559,7 @@
         "Tier3_World_Ghornfell_BuriedChest"
       ],
       "ITEM_Resources_AnimalBone": [
+        "Tier1_World_Brynmoore_BuriedChest",
         "Tier2+_World",
         "Tier2+_World_Cape",
         "Tier2_World",
@@ -67843,11 +68568,15 @@
         "Tier2_World_Vestige_LeggingsLightness",
         "Tier2_World_Vestige_SackHead",
         "Tier2_World_Vestige_TrainingSword",
+        "Tier2_World_WhisperingSwamp_BuriedChest",
         "Tier3_World",
         "Tier3_World_Cape",
+        "Tier3_World_Ghornfell_BuriedChest",
         "Tier3_World_Vestige_BluriteCrossbow",
         "Tier3_World_Vestige_ChieftanBlade",
         "Tier3_World_Vestige_DraconicStaff",
+        "Tier4_World_Highlands_BuriedChest",
+        "Tier4_World_ToxicSwamp_BuriedChest",
         "Tier5_Vault_Chest",
         "Tier5_Vault_Chest_FinalChest_Kalistrakthen",
         "Tier5_Vault_Chest_FinalChest_Skekven",
@@ -67855,6 +68584,7 @@
         "Tier5_World_Chest",
         "Tier5_World_Fellhollow_BuriedChest",
         "Tier5_World_Fellhollow_Chest_Cape",
+        "Tier5_World_Fellhollow_XMarksTheSpot_Chest",
         "Tier6_World_Chest",
         "Tier6_World_DowdunReach_Chest_Cape",
         "Tier6_World_DowdunReach_Chest_VestigeChance"
@@ -68059,6 +68789,7 @@
         "Tier5_World_Chest",
         "Tier5_World_Fellhollow_BuriedChest",
         "Tier5_World_Fellhollow_Chest_Cape",
+        "Tier5_World_Fellhollow_XMarksTheSpot_Chest",
         "Tier6_World_Chest",
         "Tier6_World_DowdunReach_Chest_Cape",
         "Tier6_World_DowdunReach_Chest_VestigeChance"
@@ -68178,6 +68909,7 @@
         "Tier5_World_Chest",
         "Tier5_World_Fellhollow_BuriedChest",
         "Tier5_World_Fellhollow_Chest_Cape",
+        "Tier5_World_Fellhollow_XMarksTheSpot_Chest",
         "Tier6_World_Chest",
         "Tier6_World_DowdunReach_Chest_Cape",
         "Tier6_World_DowdunReach_Chest_VestigeChance"
@@ -68259,11 +68991,13 @@
         "Tier2_World_Vestige_LeggingsLightness",
         "Tier2_World_Vestige_SackHead",
         "Tier2_World_Vestige_TrainingSword",
+        "Tier2_World_WhisperingSwamp_BuriedChest",
         "Tier3_Vault",
         "Tier3_Vault_FinalChest_Skeclac",
         "Tier3_Vault_FinalChest_Takla",
         "Tier3_World",
         "Tier3_World_Cape",
+        "Tier3_World_Ghornfell_BuriedChest",
         "Tier3_World_Vestige_BluriteCrossbow",
         "Tier3_World_Vestige_ChieftanBlade",
         "Tier3_World_Vestige_DraconicStaff",
@@ -68273,8 +69007,10 @@
         "Tier4_Vault_ToxicSwamp_Cape",
         "Tier4_Vault_ToxicSwamp_FinalChest_Kletterbuja",
         "Tier4_World_Highlands",
+        "Tier4_World_Highlands_BuriedChest",
         "Tier4_World_Highlands_Cape",
         "Tier4_World_ToxicSwamp",
+        "Tier4_World_ToxicSwamp_BuriedChest",
         "Tier5_Vault_Chest",
         "Tier5_Vault_Chest_FinalChest_Kalistrakthen",
         "Tier5_Vault_Chest_FinalChest_Skekven",

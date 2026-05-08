@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-07T02:05:32.878693+00:00",
+  "generated_at_utc": "2026-05-08T01:03:09.177273+00:00",
   "game_root": "E:\\Github\\RSDWArchive\\0.11.1.4",
   "output_root": "data",
   "options": {
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 57736,
-    "json_unmatched": 55711,
+    "json_scanned": 57734,
+    "json_unmatched": 55709,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "json/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.json",
