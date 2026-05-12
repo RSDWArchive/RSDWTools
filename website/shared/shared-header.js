@@ -254,11 +254,15 @@
     return el("footer", { class: "rsdw-footer" }, [
       el("p", null, ["Game files & assets are property of Jagex Ltd."]),
       el("p", null, [
-        el("a", { href: "/" }, ["RSDWTools.com"]),
-        " — ",
         el("a", { href: "https://rsdwarchive.com", target: "_blank", rel: "noopener" }, [
-          "RSDWArchive.com",
+          "Archive",
         ]),
+        " \u2014 ",
+        el("a", { href: "https://rsdwbuilds.com", target: "_blank", rel: "noopener" }, [
+          "Builds",
+        ]),
+        " \u2014 ",
+        el("a", { href: "/" }, ["Tools"]),
       ]),
     ]);
   }
