@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FishingSkillcapeTrimmed",
-        "SourceString": "Fishing Cape (Trimmed)",
-        "LocalizedString": "Fishing Cape (Trimmed)"
+        "SourceString": "Fishing Cape - Trimmed",
+        "LocalizedString": "Fishing Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

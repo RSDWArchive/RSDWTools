@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AttackSkillcapeTrimmed",
-        "SourceString": "Attack Cape (Trimmed)",
-        "LocalizedString": "Attack Cape (Trimmed)"
+        "SourceString": "Attack Cape - Trimmed",
+        "LocalizedString": "Attack Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

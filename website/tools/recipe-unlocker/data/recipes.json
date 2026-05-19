@@ -1274,6 +1274,24 @@
     "items_consumed": []
   },
   {
+    "name": "RECIPE_Armour_T0_Cape_Community",
+    "internal_name": "recipe_armour_t0_cape_community",
+    "persistence_id": "PMFX5U9W9LvdMEqKnVv6Gw",
+    "row_name": "",
+    "display_name": "Community Cape",
+    "icon": "T_Icon_Community_Cape.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Community",
+        "count": 1,
+        "display_name": "Community Cape",
+        "persistence_id": "g0gdkUGeX4QUkk-_yPJ8zQ",
+        "icon": "T_Icon_Community_Cape.png"
+      }
+    ],
+    "items_consumed": []
+  },
+  {
     "name": "RECIPE_Armour_T0_Cape_EarlyAdopter",
     "internal_name": "recipe_armour_t0_cape_earlyadopter",
     "persistence_id": "O7LxzUEEazIIB6-Zd-DzaA",
@@ -1359,6 +1377,24 @@
         "display_name": "Goblin War Banner",
         "persistence_id": "24_UV0P2zlDAbcy48UOCkA",
         "icon": "T_Icon_Cape_HighWarGodBanner.png"
+      }
+    ],
+    "items_consumed": []
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Saradominist",
+    "internal_name": "recipe_armour_t0_cape_saradominist",
+    "persistence_id": "vzW7t03sYSXuT4WJK8s6YQ",
+    "row_name": "",
+    "display_name": "Saradominist Cloak",
+    "icon": "T_Icon_Saradomin_Cape.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Saradominist",
+        "count": 1,
+        "display_name": "Saradominist Cloak",
+        "persistence_id": "wEW2qEiffVgFFlmRJse7yg",
+        "icon": "T_Icon_Saradomin_Cape.png"
       }
     ],
     "items_consumed": []
@@ -1620,13 +1656,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_attack",
     "persistence_id": "kU0J_0xktjLPM8GKT3BJPQ",
     "row_name": "",
-    "display_name": "Attack Cape (Trimmed)",
+    "display_name": "Attack Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Attack_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Attack",
         "count": 1,
-        "display_name": "Attack Cape (Trimmed)",
+        "display_name": "Attack Cape - Trimmed",
         "persistence_id": "UnU39kGv8GrkK6mUAfzXww",
         "icon": "T_Icon_Cape_Skill_Attack_Master.png"
       }
@@ -1638,13 +1674,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_construction",
     "persistence_id": "zKbAp0E8mRxtfGm84pzvaA",
     "row_name": "",
-    "display_name": "Construction Cape (Trimmed)",
+    "display_name": "Construction Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Construction_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Construction",
         "count": 1,
-        "display_name": "Construction Cape (Trimmed)",
+        "display_name": "Construction Cape - Trimmed",
         "persistence_id": "JA0aYkWSKvomwwyEPugaew",
         "icon": "T_Icon_Cape_Skill_Construction_Master.png"
       }
@@ -1656,13 +1692,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_cooking",
     "persistence_id": "dzdq_Uyxhh30coag7qrpjg",
     "row_name": "",
-    "display_name": "Cooking Cape (Trimmed)",
+    "display_name": "Cooking Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Cooking_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Cooking",
         "count": 1,
-        "display_name": "Cooking Cape (Trimmed)",
+        "display_name": "Cooking Cape - Trimmed",
         "persistence_id": "0sNNgEVZ-PmegQSXC8jsVA",
         "icon": "T_Icon_Cape_Skill_Cooking_Master.png"
       }
@@ -1674,13 +1710,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_farming",
     "persistence_id": "IktMsUJyMqXDU5SnjYv5dA",
     "row_name": "",
-    "display_name": "Farming Cape (Trimmed)",
+    "display_name": "Farming Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Farming_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Farming",
         "count": 1,
-        "display_name": "Farming Cape (Trimmed)",
+        "display_name": "Farming Cape - Trimmed",
         "persistence_id": "Zy0OukyYj_d3176y0io0zQ",
         "icon": "T_Icon_Cape_Skill_Farming_Master.png"
       }
@@ -1692,13 +1728,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_magic",
     "persistence_id": "44YOdkHA_4KTySWcn7dq4w",
     "row_name": "",
-    "display_name": "Magic Cape (Trimmed)",
+    "display_name": "Magic Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Magic_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Magic",
         "count": 1,
-        "display_name": "Magic Cape (Trimmed)",
+        "display_name": "Magic Cape - Trimmed",
         "persistence_id": "Ze5ss0vtvZQvNiOaBhgXlw",
         "icon": "T_Icon_Cape_Skill_Magic_Master.png"
       }
@@ -1710,13 +1746,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_mining",
     "persistence_id": "rvjWlEig4drVr6WcoYMC7g",
     "row_name": "",
-    "display_name": "Mining Cape (Trimmed)",
+    "display_name": "Mining Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Mining_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Mining",
         "count": 1,
-        "display_name": "Mining Cape (Trimmed)",
+        "display_name": "Mining Cape - Trimmed",
         "persistence_id": "tPRZTkbhQOmzrMaV2Yk_WA",
         "icon": "T_Icon_Cape_Skill_Mining_Master.png"
       }
@@ -1746,13 +1782,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_runecrafting",
     "persistence_id": "M4DAEkn8SqAkw_GQdH3aMA",
     "row_name": "",
-    "display_name": "Runecrafting Cape (Trimmed)",
+    "display_name": "Runecrafting Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Runecrafting_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Runecrafting",
         "count": 1,
-        "display_name": "Runecrafting Cape (Trimmed)",
+        "display_name": "Runecrafting Cape - Trimmed",
         "persistence_id": "OlEZ-03KPyGi7U-IlAvobg",
         "icon": "T_Icon_Cape_Skill_Runecrafting_Master.png"
       }
@@ -1764,13 +1800,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_woodcutting",
     "persistence_id": "bhKQTkaFJJfdWuS8mQo7TA",
     "row_name": "",
-    "display_name": "Woodcutting Cape (Trimmed)",
+    "display_name": "Woodcutting Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Woodcutting_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Woodcutting",
         "count": 1,
-        "display_name": "Woodcutting Cape (Trimmed)",
+        "display_name": "Woodcutting Cape - Trimmed",
         "persistence_id": "bIwxyUxgeaVtw_-2_uCxKw",
         "icon": "T_Icon_Cape_Skill_Woodcutting_Master.png"
       }
@@ -9120,6 +9156,53 @@
         "display_name": "Sapphire",
         "persistence_id": "TvL1Ik7Vc-NHKlCx--22Cg",
         "icon": "T_Icon_Resource_Sapphire.png"
+      },
+      {
+        "item_id": "ITEM_Resources_VaultShard",
+        "count": 3,
+        "display_name": "Vault Shard",
+        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
+        "icon": "T_Icon_Resource_Vault_Shard.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Trinket_Ring_Ravanna",
+    "internal_name": "recipe_trinket_ring_ravanna",
+    "persistence_id": "UufnwENDSDFYKSG9v8yO8g",
+    "row_name": "",
+    "display_name": "Ravanna's Ring",
+    "icon": "T_Icon_Ravanna_Ring.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Ravannas_Ring",
+        "count": 1,
+        "display_name": "Ravanna's Ring",
+        "persistence_id": "mqzn-kOXtYJX-Qedojuu3Q",
+        "icon": "T_Icon_Ravanna_Ring.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Clay_Mould",
+        "count": 1,
+        "display_name": "Clay Mould",
+        "persistence_id": "zEg0M0VWEp6-wLOhkvYJ8A",
+        "icon": "T_Icon_Resource_Clay_Mould.png"
+      },
+      {
+        "item_id": "ITEM_Resources_SilverBar",
+        "count": 2,
+        "display_name": "Silver Bar",
+        "persistence_id": "gunABauXjk6khTFVIKifoA",
+        "icon": "T_Icon_Resource_Bar_Silver.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Red_Topaz",
+        "count": 2,
+        "display_name": "Red Topaz",
+        "persistence_id": "DY6MkEu_wT76ukyxwYr45g",
+        "icon": "T_Icon_Resource_Red_Topaz.png"
       },
       {
         "item_id": "ITEM_Resources_VaultShard",
@@ -16864,7 +16947,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Air",
-        "count": 10,
+        "count": 5,
         "display_name": "Air Rune",
         "persistence_id": "Dvo6TE2d7YNnoni8XbKYzw",
         "icon": "T_Icon_Rune_Air.png"
@@ -16890,7 +16973,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Astral",
-        "count": 10,
+        "count": 5,
         "display_name": "Astral Rune",
         "persistence_id": "4wdYZE-FFMhS9Iia0ftWDg",
         "icon": "T_Icon_Rune_Astral.png"
@@ -16916,7 +16999,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Earth",
-        "count": 10,
+        "count": 5,
         "display_name": "Earth Rune",
         "persistence_id": "lCE7i3iXGUuHv7FphIOcXg",
         "icon": "T_Icon_Rune_Earth.png"
@@ -16942,7 +17025,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Fire",
-        "count": 10,
+        "count": 5,
         "display_name": "Fire Rune",
         "persistence_id": "_QMgbMYhjU-9jAD_euFbyQ",
         "icon": "T_Icon_Rune_Fire.png"
@@ -16968,7 +17051,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Law",
-        "count": 10,
+        "count": 5,
         "display_name": "Law Rune",
         "persistence_id": "_c9JTkwKy8s88GWv586hbQ",
         "icon": "T_Icon_Rune_Law.png"
@@ -16994,7 +17077,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Nature",
-        "count": 10,
+        "count": 5,
         "display_name": "Nature Rune",
         "persistence_id": "iKbF7k2XvufGqqyg5rK-vQ",
         "icon": "T_Icon_Rune_Nature.png"
@@ -17020,7 +17103,7 @@
     "items_created": [
       {
         "item_id": "ITEM_Rune_Water",
-        "count": 10,
+        "count": 5,
         "display_name": "Water Rune",
         "persistence_id": "bbLdJRhwPEWt1ScENYRUCg",
         "icon": "T_Icon_Rune_Water.png"
@@ -23444,13 +23527,13 @@
     "internal_name": "recipe_armour_t0_cape_trimmedskillcape_fishing",
     "persistence_id": "1J5cf0pwNa-Kp8-7sw3C_Q",
     "row_name": "",
-    "display_name": "Fishing Cape (Trimmed)",
+    "display_name": "Fishing Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Fishing_Master.png",
     "items_created": [
       {
         "item_id": "ITEM_Cape_Trimmed_Skillcape_Fishing",
         "count": 1,
-        "display_name": "Fishing Cape (Trimmed)",
+        "display_name": "Fishing Cape - Trimmed",
         "persistence_id": "vngZF0HP2GhrnsOndqaoUQ",
         "icon": "T_Icon_Cape_Skill_Fishing_Master.png"
       }

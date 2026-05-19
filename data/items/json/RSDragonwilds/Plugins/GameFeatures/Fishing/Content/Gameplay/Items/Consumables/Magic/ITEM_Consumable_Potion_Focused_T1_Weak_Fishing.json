@@ -76,8 +76,8 @@
             "LocalizedString": null
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_WeakFocusedFishing'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_WeakFocusedFishing.0"
+            "ObjectName": "Texture2D'T_Icon_Buff_FocusedFishing'",
+            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedFishing.0"
           }
         }
       ],

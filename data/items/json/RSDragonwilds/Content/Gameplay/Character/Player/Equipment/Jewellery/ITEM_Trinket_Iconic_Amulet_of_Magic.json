@@ -61,7 +61,6 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.Trinket"
       },
-      "bDropOnDeath": false,
       "BaseDurability": 2500,
       "RepairCostRatios": [
         1.0

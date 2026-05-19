@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-05-08T01:03:09.177273+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\0.11.1.4",
+  "generated_at_utc": "2026-05-19T10:30:38.177390+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\0.11.2",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 57734,
-    "json_unmatched": 55709,
+    "json_scanned": 57814,
+    "json_unmatched": 55785,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "json/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.json",
@@ -60,14 +60,14 @@
       ]
     },
     "icons": {
-      "files_discovered": 1783,
-      "files_copied": 1783,
+      "files_discovered": 1788,
+      "files_copied": 1788,
       "source_roots": [],
       "sample_files": []
     },
     "items": {
-      "files_discovered": 922,
-      "files_copied": 922,
+      "files_discovered": 923,
+      "files_copied": 923,
       "source_roots": [
         "json"
       ],
@@ -80,8 +80,8 @@
       ]
     },
     "recipes": {
-      "files_discovered": 865,
-      "files_copied": 865,
+      "files_discovered": 868,
+      "files_copied": 868,
       "source_roots": [
         "json"
       ],
@@ -161,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 2572,
-    "object_paths_resolved": 840,
+    "object_paths_found": 2581,
+    "object_paths_resolved": 841,
     "prefixes": [
       "t_icon_",
       "t_skill_"

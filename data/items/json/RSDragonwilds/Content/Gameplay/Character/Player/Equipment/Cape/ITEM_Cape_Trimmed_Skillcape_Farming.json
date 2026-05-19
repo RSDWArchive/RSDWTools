@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FarmingSkillcapeTrimmed",
-        "SourceString": "Farming Cape (Trimmed)",
-        "LocalizedString": "Farming Cape (Trimmed)"
+        "SourceString": "Farming Cape - Trimmed",
+        "LocalizedString": "Farming Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

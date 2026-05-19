@@ -61,7 +61,8 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Food",
-        "Item.Farming.CanBeSummonedByHarvestSpell"
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.Compostable"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Plant"

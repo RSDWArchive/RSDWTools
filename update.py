@@ -52,7 +52,7 @@ def main() -> int:
     # Docs data rebuild options (forwarded to tools/rebuild_docs_data.py)
     parser.add_argument(
         "--game-root",
-        default="E:\\Github\\RSDWArchive\\0.11.1.4",
+        default="E:\\Github\\RSDWArchive\\0.11.2",
         help="Top-level game archive root used by ingest.",
     )
     parser.add_argument(

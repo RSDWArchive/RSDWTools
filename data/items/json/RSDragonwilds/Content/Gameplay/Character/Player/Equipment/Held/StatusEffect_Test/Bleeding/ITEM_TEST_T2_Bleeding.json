@@ -11,7 +11,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Bleeding_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Bleeding.0"
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/test/PA_Attack_TEST_Bleeding.0"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",

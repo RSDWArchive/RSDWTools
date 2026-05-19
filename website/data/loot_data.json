@@ -1,50 +1,50 @@
 {
-  "version": "0.11.1.4",
-  "generatedAtUtc": "2026-05-08T00:50:09.463015+00:00",
-  "sourceRoot": "E:\\Github\\RSDWArchive\\0.11.1.4\\json",
+  "version": "0.11.2",
+  "generatedAtUtc": "2026-05-19T10:23:20.761927+00:00",
+  "sourceRoot": "E:\\Github\\RSDWArchive\\0.11.2\\json",
   "tables": {
     "DT_CompositeEnemyLootDropTable": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
       "rowCount": 105,
       "type": "CompositeDataTable"
     },
     "DT_CompositeEnemyLootDropTable_DowdunReach": {
-      "file": "0.11.1.4/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
+      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "CompositeDataTable"
     },
     "DT_EnemyLootDropTable": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
       "rowCount": 78,
       "type": "DataTable"
     },
     "DT_EnemyLootDropTable_DowdunReach": {
-      "file": "0.11.1.4/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
+      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     },
     "DT_LootChest_RespawnProfiles": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
       "rowCount": 48,
       "type": "DataTable"
     },
     "DT_LootChest_Sets": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
       "rowCount": 44,
       "type": "DataTable"
     },
     "DT_LootChests_Prefabs": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
       "rowCount": 48,
       "type": "DataTable"
     },
     "DT_LootDropTable": {
-      "file": "0.11.1.4/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
+      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
       "rowCount": 78,
       "type": "DataTable"
     },
     "DT_LootDropTable_DowdunReach": {
-      "file": "0.11.1.4/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
+      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     }
@@ -7363,6 +7363,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -7980,6 +7982,8 @@
           "setRollChance": 25.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -9140,6 +9144,8 @@
           "setRollChance": 25.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -10292,6 +10298,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -11137,6 +11145,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -12011,6 +12021,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -13320,6 +13332,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -14629,6 +14643,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -15934,6 +15950,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -16969,6 +16987,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -17977,6 +17997,8 @@
       },
       "guaranteedSetRows": [],
       "additionalSetRows": [],
+      "additionalSetRollsMin": 1,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedStandalone",
@@ -18089,6 +18111,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -19122,6 +19146,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -20155,6 +20181,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -21188,6 +21216,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -22209,6 +22239,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -22750,6 +22782,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -23885,6 +23919,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -25020,6 +25056,8 @@
           "setRollChance": 50.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -26151,6 +26189,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -27373,6 +27413,8 @@
           "setRollChance": 15.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -28554,6 +28596,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -28993,6 +29037,8 @@
           "setRollChance": 15.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -30194,6 +30240,8 @@
           "setRollChance": 15.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -31395,6 +31443,8 @@
           "setRollChance": 15.0
         }
       ],
+      "additionalSetRollsMin": 2,
+      "additionalSetRollsMax": 3,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -32608,6 +32658,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -33876,6 +33928,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -35148,6 +35202,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -36404,6 +36460,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -37404,6 +37462,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 4,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -38793,6 +38853,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -39748,6 +39810,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -40164,6 +40228,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -41152,6 +41218,8 @@
           "setRollChance": 10.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 4,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -42107,6 +42175,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -42521,6 +42591,8 @@
           "setRollChance": 100.0
         }
       ],
+      "additionalSetRollsMin": 1,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -42838,6 +42910,8 @@
           "setRollChance": 100.0
         }
       ],
+      "additionalSetRollsMin": 1,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -43153,6 +43227,8 @@
           "setRollChance": 8.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -45047,6 +45123,8 @@
           "setRollChance": 8.0
         }
       ],
+      "additionalSetRollsMin": 6,
+      "additionalSetRollsMax": 8,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -47049,6 +47127,8 @@
           "setRollChance": 8.0
         }
       ],
+      "additionalSetRollsMin": 6,
+      "additionalSetRollsMax": 8,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -49051,6 +49131,8 @@
           "setRollChance": 8.0
         }
       ],
+      "additionalSetRollsMin": 6,
+      "additionalSetRollsMax": 8,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -51049,6 +51131,8 @@
           "setRollChance": 8.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -52839,6 +52923,8 @@
           "setRollChance": 95.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -53757,6 +53843,8 @@
           "setRollChance": 4.0
         }
       ],
+      "additionalSetRollsMin": 5,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -55540,6 +55628,8 @@
           "setRollChance": 100.0
         }
       ],
+      "additionalSetRollsMin": 0,
+      "additionalSetRollsMax": 1,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -56024,6 +56114,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 3,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -58129,6 +58221,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 5,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",
@@ -60233,6 +60327,8 @@
           "setRollChance": 5.0
         }
       ],
+      "additionalSetRollsMin": 5,
+      "additionalSetRollsMax": 6,
       "resolvedItems": [
         {
           "source": "guaranteedSet",

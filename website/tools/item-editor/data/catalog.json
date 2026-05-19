@@ -387,7 +387,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Attack Cape (Trimmed)",
+          "name": "Attack Cape - Trimmed",
           "itemData": "UnU39kGv8GrkK6mUAfzXww",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Attack_Master.png",
@@ -486,6 +486,17 @@
           "vitalShield": 0
         },
         {
+          "name": "Community Cape",
+          "itemData": "g0gdkUGeX4QUkk-_yPJ8zQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Community_Cape.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Community.json",
+          "category": "Armour/Cape",
+          "description": "A symbol of dedication and support, this cape is granted to those who leave a lasting mark on the community.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Construction Cape",
           "itemData": "zjqmfU9J000ZgI2KPmKn1A",
           "maxStack": 1,
@@ -497,7 +508,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Construction Cape (Trimmed)",
+          "name": "Construction Cape - Trimmed",
           "itemData": "JA0aYkWSKvomwwyEPugaew",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Construction_Master.png",
@@ -519,7 +530,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Cooking Cape (Trimmed)",
+          "name": "Cooking Cape - Trimmed",
           "itemData": "0sNNgEVZ-PmegQSXC8jsVA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Cooking_Master.png",
@@ -563,7 +574,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Farming Cape (Trimmed)",
+          "name": "Farming Cape - Trimmed",
           "itemData": "Zy0OukyYj_d3176y0io0zQ",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Farming_Master.png",
@@ -596,7 +607,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Fishing Cape (Trimmed)",
+          "name": "Fishing Cape - Trimmed",
           "itemData": "vngZF0HP2GhrnsOndqaoUQ",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Fishing_Master.png",
@@ -684,7 +695,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Magic Cape (Trimmed)",
+          "name": "Magic Cape - Trimmed",
           "itemData": "Ze5ss0vtvZQvNiOaBhgXlw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Magic_Master.png",
@@ -706,7 +717,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Mining Cape (Trimmed)",
+          "name": "Mining Cape - Trimmed",
           "itemData": "tPRZTkbhQOmzrMaV2Yk_WA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Mining_Master.png",
@@ -849,13 +860,24 @@
           "vitalShield": 0
         },
         {
-          "name": "Runecrafting Cape (Trimmed)",
+          "name": "Runecrafting Cape - Trimmed",
           "itemData": "OlEZ-03KPyGi7U-IlAvobg",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Runecrafting_Master.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Trimmed_Skillcape_Runecrafting.json",
           "category": "Armour/Cape",
           "description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Saradominist Cloak",
+          "itemData": "wEW2qEiffVgFFlmRJse7yg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Saradomin_Cape.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Saradominist.json",
+          "category": "Armour/Cape",
+          "description": "Worn by followers of Saradomin, this cloak reflects a commitment to justice and the light of reason.",
           "equipment": "Cape",
           "vitalShield": 0
         },
@@ -937,7 +959,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Woodcutting Cape (Trimmed)",
+          "name": "Woodcutting Cape - Trimmed",
           "itemData": "bIwxyUxgeaVtw_-2_uCxKw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Skill_Woodcutting_Master.png",
@@ -4331,7 +4353,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Equipment/Held/FishingNet/CoarseNet/ITEM_FishingNet_CoarseNet.json",
           "category": "Materials/CoarseNet",
           "description": "Made with two coarse threads at a crafting table. Rough but effective.",
-          "baseDurability": 180,
+          "baseDurability": 300,
           "powerLevel": 2,
           "weight": 1.0,
           "vitalShield": 0
@@ -4788,8 +4810,8 @@
           "itemData": "YMXvUEKL-S_EPFm7a5xvHA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Titans_Wrath.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_Masterworks_GreatSword_TitansWrath.json",
-          "category": "Materials/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Masterworks_GreatSword_TitansWrath.json",
+          "category": "Materials/GreatSword",
           "description": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel.",
           "baseDurability": 1300,
           "powerLevel": 6,
@@ -5063,6 +5085,7 @@
           "iconPath": "/shared/icons/T_Icon_Runic_Ring.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Runic_Ring.json",
           "category": "Materials/Jewellery",
+          "description": "A ring that once belonged to a powerful necromancer. ",
           "baseDurability": 100,
           "weight": 1.0,
           "equipment": "Jewellery",
@@ -5267,23 +5290,10 @@
           "name": "Ravanna's Ring",
           "itemData": "mqzn-kOXtYJX-Qedojuu3Q",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Ring_Inspiring.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Ravanas_Ring.json",
-          "category": "Materials/Jewellery",
-          "description": "A shiny silver ring. It has a strange aura around it.",
-          "baseDurability": 32000,
-          "weight": 2.0,
-          "equipment": "Jewellery",
-          "vitalShield": 0
-        },
-        {
-          "name": "Ravanna's Ring",
-          "itemData": "mqzn-kOXtYJX-Qedojuu3Q",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Ring_Inspiring.png",
+          "iconPath": "/shared/icons/T_Icon_Ravanna_Ring.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Ravannas_Ring.json",
           "category": "Materials/Jewellery",
-          "description": "A shiny silver ring. It has a strange aura around it.",
+          "description": "This item loses durability over time when equipped.",
           "baseDurability": 32000,
           "weight": 2.0,
           "equipment": "Jewellery",
@@ -5407,7 +5417,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Equipment/Held/FishingNet/LinenNet/ITEM_FishingNet_FineNet.json",
           "category": "Materials/LinenNet",
           "description": "Made with two fine threads at a crafting table. An elegant little net.",
-          "baseDurability": 420,
+          "baseDurability": 450,
           "powerLevel": 5,
           "weight": 1.0,
           "vitalShield": 0
@@ -6443,7 +6453,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Equipment/Held/FishingNet/MysticNet/ITEM_FishingNet_MysticNet.json",
           "category": "Materials/MysticNet",
           "description": "Made with two mystic threads at a crafting table. A stunningly well crafted net.",
-          "baseDurability": 420,
+          "baseDurability": 500,
           "powerLevel": 6,
           "weight": 1.0,
           "vitalShield": 0
@@ -7160,7 +7170,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T3_Bronze.json",
           "category": "Materials/Shovel",
           "description": "A basic Spade made from Bronze. \r\n\r\nUsed to clear farming plots.",
-          "baseDurability": 300,
+          "baseDurability": 650,
           "powerLevel": 2,
           "weight": 5.0,
           "vitalShield": 0
@@ -7173,7 +7183,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T5_Steel.json",
           "category": "Materials/Shovel",
           "description": "A robust Spade made from Steel. \r\n\r\nUsed to clear farming plots.",
-          "baseDurability": 450,
+          "baseDurability": 700,
           "powerLevel": 3,
           "weight": 5.0,
           "vitalShield": 0
@@ -7186,8 +7196,8 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T5_Undead.json",
           "category": "Materials/Shovel",
           "description": "A strangely spooky spade.\r\n\r\nUsed to clear farming plots.",
-          "baseDurability": 450,
-          "powerLevel": 5,
+          "baseDurability": 750,
+          "powerLevel": 3,
           "weight": 5.0,
           "vitalShield": 0
         },
@@ -7199,7 +7209,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T1_Wood.json",
           "category": "Materials/Shovel",
           "description": "A rudimentary Spade made from Ash wood. \r\n\r\nUsed to clear farming plots.",
-          "baseDurability": 300,
+          "baseDurability": 600,
           "powerLevel": 1,
           "weight": 5.0,
           "vitalShield": 0
@@ -7312,7 +7322,7 @@
           "iconPath": "/shared/icons/T_Icon_Mystic_Cloth.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Textiles/ITEM_Resources_Cloth_Mystic.json",
           "category": "Materials/Textiles",
-          "description": "A magical textile, woven from mythic thread.",
+          "description": "A magical textile, woven from mystic thread.",
           "weight": 0.6
         },
         {
@@ -7629,7 +7639,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Equipment/Held/FishingNet/WoolNet/ITEM_FishingNet_WoolNet.json",
           "category": "Materials/WoolNet",
           "description": "Made with two wool threads at a crafting table. Unwieldy but does a job.",
-          "baseDurability": 260,
+          "baseDurability": 400,
           "powerLevel": 3,
           "weight": 1.0,
           "vitalShield": 0
@@ -10093,8 +10103,8 @@
           "itemData": "PSWEV0JzVwxsalWCFqPbOw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_GreatSword_Bronze_2H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Bronze.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Bronze.json",
+          "category": "Weapons/GreatSword",
           "description": "A two-handed bronze sword for those who prefer power over speed.",
           "baseDurability": 1050,
           "powerLevel": 3,
@@ -10106,8 +10116,8 @@
           "itemData": "kpJmEG1D10ylMOFHGfJQrA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_GreatSword_Iron_2H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Iron.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Iron.json",
+          "category": "Weapons/GreatSword",
           "description": "A well-balanced, large, imposing sword for skilled warriors.",
           "baseDurability": 1300,
           "powerLevel": 4,
@@ -10119,8 +10129,8 @@
           "itemData": "pQc5DE2EQITw_c2lRJxZ9A",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Mithril_Great_Sword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Mithril.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Mithril.json",
+          "category": "Weapons/GreatSword",
           "description": "A sturdy two-handed sword, with strength to match its size. ",
           "baseDurability": 1600,
           "powerLevel": 6,
@@ -10132,8 +10142,8 @@
           "itemData": "Ewe_yEPwqy4Bx0ajfHlwvw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Shadow_2H_Greatsword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Shadow.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Shadow.json",
+          "category": "Weapons/GreatSword",
           "description": "This Greatsword exsists between the realms of the living and the dead.",
           "baseDurability": 1300,
           "powerLevel": 5,
@@ -10145,8 +10155,8 @@
           "itemData": "vI0ix0WJSchv2dysqMjcaw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Steel_2H_Greatsword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Steel.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Steel.json",
+          "category": "Weapons/GreatSword",
           "description": "A two handed Steel Sword made famous by Highland Warriors.",
           "baseDurability": 1300,
           "powerLevel": 5,
@@ -11290,30 +11300,6 @@
           "description": "A surprisingly well-preserved human torso, must be ancient. Doctor Fenkenstrain is looking for something just like it. "
         },
         {
-          "name": "ITEM_Quest_SaradominStatue_Key_Jade",
-          "itemData": "yXwumEWoFjSuJxm0ePb8hA",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Placeholder_790aa75d.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Jade.json",
-          "category": "Quest"
-        },
-        {
-          "name": "ITEM_Quest_SaradominStatue_Key_Opal",
-          "itemData": "tFEiwkn2jWc-676skm3W4w",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Placeholder_790aa75d.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Opal.json",
-          "category": "Quest"
-        },
-        {
-          "name": "ITEM_Quest_SaradominStatue_Key_Sapphire",
-          "itemData": "YTzOXk6aAesQ1yusHup5Mg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Placeholder_790aa75d.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Sapphire.json",
-          "category": "Quest"
-        },
-        {
           "name": "Imaru's Head",
           "itemData": "ALQSs0j7loBVpum0CaDH2w",
           "maxStack": 99,
@@ -11339,6 +11325,15 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Imbued_Leather_Wrappings.json",
           "category": "Quest",
           "description": "Strips of imbued dire wolf leather for the granite maul grips. Infused with primal savagery. "
+        },
+        {
+          "name": "Jade Emblem",
+          "itemData": "yXwumEWoFjSuJxm0ePb8hA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Saradomin_Symbol.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Jade.json",
+          "category": "Quest",
+          "description": "One of three emblem keys required to unlock a statue."
         },
         {
           "name": "Leonard The Bound",
@@ -11512,6 +11507,15 @@
           "description": "An orb obtained from a statue in the Magic Institute."
         },
         {
+          "name": "Opal Emblem",
+          "itemData": "tFEiwkn2jWc-676skm3W4w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Saradomin_Symbol.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Opal.json",
+          "category": "Quest",
+          "description": "One of three emblem keys required to unlock a statue."
+        },
+        {
           "name": "Ornate Maul Handle",
           "itemData": "RFgA4kE-5E71wiGpmjWkKA",
           "maxStack": 1,
@@ -11537,6 +11541,15 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_garou_purifiedkingstoken.json",
           "category": "Quest",
           "description": "A ritually cleansed token containing a piece of another world. "
+        },
+        {
+          "name": "Sapphire Emblem",
+          "itemData": "YTzOXk6aAesQ1yusHup5Mg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Saradomin_Symbol.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SaradominStatue_Key_Sapphire.json",
+          "category": "Quest",
+          "description": "One of three emblem keys required to unlock a statue."
         },
         {
           "name": "Scarecrow's Key",
@@ -11589,7 +11602,8 @@
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Spectral_Chinchompa_Skull.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_NightoftheSpectralBoom_Skull.json",
-          "category": "Quest"
+          "category": "Quest",
+          "description": "A ghostly chinchompa skull. Vannaka is looking for these. "
         },
         {
           "name": "Spectral Silver Thread",

@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MiningSkillcapeTrimmed",
-        "SourceString": "Mining Cape (Trimmed)",
-        "LocalizedString": "Mining Cape (Trimmed)"
+        "SourceString": "Mining Cape - Trimmed",
+        "LocalizedString": "Mining Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

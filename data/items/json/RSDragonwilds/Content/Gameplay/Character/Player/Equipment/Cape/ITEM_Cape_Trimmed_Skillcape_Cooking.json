@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "CookingSkillcapeTrimmed",
-        "SourceString": "Cooking Cape (Trimmed)",
-        "LocalizedString": "Cooking Cape (Trimmed)"
+        "SourceString": "Cooking Cape - Trimmed",
+        "LocalizedString": "Cooking Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

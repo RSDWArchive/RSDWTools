@@ -47,7 +47,7 @@
         {
           "Name": {
             "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "PerkDescription_AnglersHat",
+            "Key": "TooltipDescription_AnglersHat",
             "SourceString": null,
             "LocalizedString": null
           },

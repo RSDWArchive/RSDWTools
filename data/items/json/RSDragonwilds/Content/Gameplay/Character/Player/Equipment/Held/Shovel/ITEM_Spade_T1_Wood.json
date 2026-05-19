@@ -31,7 +31,7 @@
       "bLosesDurabilityOnDamageReceived": false,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
-      "Tier": 2,
+      "Tier": 1,
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Farming'",
@@ -70,7 +70,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Farming.Shovel.Wood"
       },
-      "BaseDurability": 300,
+      "BaseDurability": 600,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"

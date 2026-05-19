@@ -70,10 +70,10 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "Namespace": "",
-            "Key": "CFC3D4CD4F7ADB0956784AAE1B6FCC4B",
-            "SourceString": "[PH] +5% Increased FISHING XP",
-            "LocalizedString": "[PH] +5% Increased FISHING XP"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Trinket.InspiringRingOfFishing",
+            "SourceString": "+5% Increased FISHING XP",
+            "LocalizedString": "+5% Increased FISHING XP"
           },
           "BuffIcon": null
         }

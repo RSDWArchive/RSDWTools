@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ConstructionSkillcapeTrimmed",
-        "SourceString": "Construction Cape (Trimmed)",
-        "LocalizedString": "Construction Cape (Trimmed)"
+        "SourceString": "Construction Cape - Trimmed",
+        "LocalizedString": "Construction Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_GreatSword_Shadow'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Shadow.0"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Shadow.0"
           },
           "Count": 1
         }

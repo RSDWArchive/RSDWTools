@@ -70,7 +70,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Fishing.Net"
       },
-      "BaseDurability": 260,
+      "BaseDurability": 400,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"

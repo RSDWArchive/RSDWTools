@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MagicSkillcapeTrimmed",
-        "SourceString": "Magic Cape (Trimmed)",
-        "LocalizedString": "Magic Cape (Trimmed)"
+        "SourceString": "Magic Cape - Trimmed",
+        "LocalizedString": "Magic Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

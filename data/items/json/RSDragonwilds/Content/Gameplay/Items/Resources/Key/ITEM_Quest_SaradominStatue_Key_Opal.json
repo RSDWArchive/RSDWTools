@@ -6,21 +6,27 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Name": {
-        "CultureInvariantString": "Opal Saradomin Statue Key"
+        "TableId": "/Game/Gameplay/Quests/DragonStatue/ST_SaradominStatue.ST_SaradominStatue",
+        "Key": "Opal.Emblem.Name",
+        "SourceString": "Opal Emblem",
+        "LocalizedString": "Opal Emblem"
       },
       "FlavourText": {
-        "CultureInvariantString": "A key from a Saradomin statue in the Whispering Swamp."
+        "TableId": "/Game/Gameplay/Quests/DragonStatue/ST_SaradominStatue.ST_SaradominStatue",
+        "Key": "Emblem.Desc",
+        "SourceString": "One of three emblem keys required to unlock a statue.",
+        "LocalizedString": "One of three emblem keys required to unlock a statue."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "ObjectName": "Texture2D'T_Icon_Saradomin_Symbol'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.0"
       },
       "CategoryClassIcon": {
         "ObjectName": "Texture2D'T_Quest_Secondary'",
         "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/SaradominTemple_Key/SM_TempleKey.SM_TempleKey",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

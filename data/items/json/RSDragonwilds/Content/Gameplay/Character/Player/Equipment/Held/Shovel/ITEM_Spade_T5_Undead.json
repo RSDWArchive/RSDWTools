@@ -32,7 +32,7 @@
       "bLosesDurabilityOnDamageReceived": false,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
-      "Tier": 2,
+      "Tier": 5,
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Farming'",
@@ -58,7 +58,7 @@
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Shovel_Undead_2H_01/SM_Shovel_Undead_2H_01.SM_Shovel_Undead_2H_01",
         "SubPathString": ""
       },
-      "PowerLevel": 5,
+      "PowerLevel": 3,
       "Weight": 5.0,
       "Category": {
         "TagName": "Item.Equipment.Tool.Shovel"
@@ -73,7 +73,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Farming.Shovel.Steel"
       },
-      "BaseDurability": 450,
+      "BaseDurability": 750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"

@@ -26,7 +26,7 @@
         "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Book_1.Book_1",
+        "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Books/SM_Book_01.SM_Book_01",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

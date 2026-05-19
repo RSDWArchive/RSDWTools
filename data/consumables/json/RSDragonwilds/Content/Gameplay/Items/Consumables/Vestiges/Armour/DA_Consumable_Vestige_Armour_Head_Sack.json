@@ -35,7 +35,7 @@
       },
       "Icon": {
         "ObjectName": "Texture2D'T_Icon_Bag_o__Noggin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Bag_o__Noggin.0"
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Bag_o__Noggin.0"
       },
       "CategoryClassIcon": {
         "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",

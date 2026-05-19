@@ -12,6 +12,12 @@
         "ObjectName": "SkillData'SKILL_Attack'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
       },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_SpawnCorpseCottonFlower_RavannasRing_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_SpawnCorpseCottonFlower_RavannasRing.0"
+        }
+      ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Trinket.RavanasRing",
@@ -20,13 +26,13 @@
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "Trinket.RavanasRing",
-        "SourceString": "A shiny silver ring. It has a strange aura around it.",
-        "LocalizedString": "A shiny silver ring. It has a strange aura around it."
+        "Key": "Trinket.Inspiring.DurabilityWhenEquipped",
+        "SourceString": "This item loses durability over time when equipped.",
+        "LocalizedString": "This item loses durability over time when equipped."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ring_Inspiring'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_Inspiring.0"
+        "ObjectName": "Texture2D'T_Icon_Ravanna_Ring'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ravanna_Ring.0"
       },
       "CategoryClassIcon": {
         "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
@@ -55,8 +61,25 @@
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "RavannasRing.Description",
+            "SourceString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell",
+            "LocalizedString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell"
+          },
+          "BuffIcon": null
+        }
+      ],
       "PersistenceID": "mqzn-kOXtYJX-Qedojuu3Q",
-      "InternalName": "trinket_ravanas_ring"
+      "InternalName": "trinket_ravannas_ring"
     }
   }
 ]

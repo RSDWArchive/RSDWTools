@@ -39,7 +39,7 @@
       },
       "Icon": {
         "ObjectName": "Texture2D'T_Icon_Dragonkin_Dark_Mage_Hood'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/Test/test2/T_Icon_Dragonkin_Dark_Mage_Hood.0"
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Hood.0"
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

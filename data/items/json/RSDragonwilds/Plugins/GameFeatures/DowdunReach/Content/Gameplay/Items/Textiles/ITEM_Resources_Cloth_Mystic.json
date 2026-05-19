@@ -18,8 +18,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MysticCloth",
-        "SourceString": "A magical textile, woven from mythic thread.",
-        "LocalizedString": "A magical textile, woven from mythic thread."
+        "SourceString": "A magical textile, woven from mystic thread.",
+        "LocalizedString": "A magical textile, woven from mystic thread."
       },
       "Icon": {
         "ObjectName": "Texture2D'T_Icon_Mystic_Cloth'",

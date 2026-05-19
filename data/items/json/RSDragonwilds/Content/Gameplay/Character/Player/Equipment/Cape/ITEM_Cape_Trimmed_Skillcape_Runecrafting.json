@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RunecraftingSkillcapeTrimmed",
-        "SourceString": "Runecrafting Cape (Trimmed)",
-        "LocalizedString": "Runecrafting Cape (Trimmed)"
+        "SourceString": "Runecrafting Cape - Trimmed",
+        "LocalizedString": "Runecrafting Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

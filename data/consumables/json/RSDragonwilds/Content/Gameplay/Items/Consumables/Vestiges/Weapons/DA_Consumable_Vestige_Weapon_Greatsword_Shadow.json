@@ -12,7 +12,7 @@
       "RecipesToUnlock": [
         {
           "ObjectName": "RecipeData'RECIPE_Weapon_GreatSword_Shadow'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/RECIPE_Weapon_GreatSword_Shadow.0"
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/RECIPE_Weapon_GreatSword_Shadow.0"
         }
       ],
       "UseVerb": {

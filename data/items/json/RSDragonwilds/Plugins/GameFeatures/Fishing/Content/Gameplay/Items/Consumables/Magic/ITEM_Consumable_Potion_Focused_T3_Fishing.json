@@ -65,13 +65,13 @@
         {
           "Title": {
             "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Potion_T2_Lesser",
+            "Key": "Item_BuffData_Potion_T3",
             "SourceString": null,
             "LocalizedString": null
           },
           "Description": {
             "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Info_Potion_T2_Lesser",
+            "Key": "Item_BuffData_Info_Potion_T3",
             "SourceString": null,
             "LocalizedString": null
           },

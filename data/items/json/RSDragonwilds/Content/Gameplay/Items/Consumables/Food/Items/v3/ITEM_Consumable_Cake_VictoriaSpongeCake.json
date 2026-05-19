@@ -79,13 +79,16 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-            "Key": "VictoriaSpongeCake",
-            "SourceString": "Victoria Sponge Cake",
-            "LocalizedString": "Victoria Sponge Cake"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SugarRush.Title",
+            "SourceString": "Sugar Rush",
+            "LocalizedString": "Sugar Rush"
           },
           "Description": {
-            "CultureInvariantString": null
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SugarRush.Description",
+            "SourceString": "REDUCES REST drain by 25%",
+            "LocalizedString": "REDUCES REST drain by 25%"
           },
           "BuffIcon": {
             "ObjectName": "Texture2D'T_Icon_Buff_SugarRush'",
@@ -113,6 +116,7 @@
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Data": {
+        "bShowInTooltip": false,
         "StatValueType": "EStatValueType::Multiply",
         "AmountToModify": {
           "Value": 0.75

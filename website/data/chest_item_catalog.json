@@ -320,6 +320,11 @@
     "icon": "T_Icon_Spectral_chinchompa_Cape.png"
   },
   {
+    "item_id": "ITEM_Cape_Community",
+    "display_name": "Community Cape",
+    "icon": "T_Icon_Community_Cape.png"
+  },
+  {
     "item_id": "ITEM_Cape_Construction",
     "display_name": "armour_t4_cape_construction",
     "icon": "T_Icon_Cape_RoyalThaneCloak.png"
@@ -363,6 +368,11 @@
     "item_id": "ITEM_Cape_Runecrafting",
     "display_name": "armour_t4_cape_runecrafting",
     "icon": "T_Icon_Cape_RoyalThaneCloak.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Saradominist",
+    "display_name": "Saradominist Cloak",
+    "icon": "T_Icon_Saradomin_Cape.png"
   },
   {
     "item_id": "ITEM_Cape_Skeleton",
@@ -436,32 +446,32 @@
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Attack",
-    "display_name": "Attack Cape (Trimmed)",
+    "display_name": "Attack Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Attack_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Construction",
-    "display_name": "Construction Cape (Trimmed)",
+    "display_name": "Construction Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Construction_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Cooking",
-    "display_name": "Cooking Cape (Trimmed)",
+    "display_name": "Cooking Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Cooking_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Farming",
-    "display_name": "Farming Cape (Trimmed)",
+    "display_name": "Farming Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Farming_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Magic",
-    "display_name": "Magic Cape (Trimmed)",
+    "display_name": "Magic Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Magic_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Mining",
-    "display_name": "Mining Cape (Trimmed)",
+    "display_name": "Mining Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Mining_Master.png"
   },
   {
@@ -471,12 +481,12 @@
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Runecrafting",
-    "display_name": "Runecrafting Cape (Trimmed)",
+    "display_name": "Runecrafting Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Runecrafting_Master.png"
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Woodcutting",
-    "display_name": "Woodcutting Cape (Trimmed)",
+    "display_name": "Woodcutting Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Woodcutting_Master.png"
   },
   {
@@ -1435,14 +1445,9 @@
     "icon": ""
   },
   {
-    "item_id": "ITEM_Trinket_Ravanas_Ring",
-    "display_name": "Ravanna's Ring",
-    "icon": "T_Icon_Ring_Inspiring.png"
-  },
-  {
     "item_id": "ITEM_Trinket_Ravannas_Ring",
     "display_name": "Ravanna's Ring",
-    "icon": "T_Icon_Ring_Inspiring.png"
+    "icon": "T_Icon_Ravanna_Ring.png"
   },
   {
     "item_id": "ITEM_Armour_T1_Legs_Adventurers",
@@ -3076,18 +3081,18 @@
   },
   {
     "item_id": "ITEM_Quest_SaradominStatue_Key_Jade",
-    "display_name": "ITEM_Quest_SaradominStatue_Key_Jade",
-    "icon": "T_Icon_Placeholder.png"
+    "display_name": "Jade Emblem",
+    "icon": "T_Icon_Saradomin_Symbol.png"
   },
   {
     "item_id": "ITEM_Quest_SaradominStatue_Key_Opal",
-    "display_name": "ITEM_Quest_SaradominStatue_Key_Opal",
-    "icon": "T_Icon_Placeholder.png"
+    "display_name": "Opal Emblem",
+    "icon": "T_Icon_Saradomin_Symbol.png"
   },
   {
     "item_id": "ITEM_Quest_SaradominStatue_Key_Sapphire",
-    "display_name": "ITEM_Quest_SaradominStatue_Key_Sapphire",
-    "icon": "T_Icon_Placeholder.png"
+    "display_name": "Sapphire Emblem",
+    "icon": "T_Icon_Saradomin_Symbol.png"
   },
   {
     "item_id": "ITEM_quest_Scarecrow_Key",
@@ -4191,7 +4196,7 @@
   },
   {
     "item_id": "ITEM_Cape_Trimmed_Skillcape_Fishing",
-    "display_name": "Fishing Cape (Trimmed)",
+    "display_name": "Fishing Cape - Trimmed",
     "icon": "T_Icon_Cape_Skill_Fishing_Master.png"
   },
   {

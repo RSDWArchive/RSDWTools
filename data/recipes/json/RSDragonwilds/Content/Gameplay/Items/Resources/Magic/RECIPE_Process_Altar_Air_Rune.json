@@ -25,7 +25,7 @@
             "ObjectName": "MagicAmmoData'ITEM_Rune_Air'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.0"
           },
-          "Count": 10
+          "Count": 5
         }
       ],
       "ChanceToProduceExtraItems": 0.05,

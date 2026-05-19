@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WoodcuttingSkillcapeTrimmed",
-        "SourceString": "Woodcutting Cape (Trimmed)",
-        "LocalizedString": "Woodcutting Cape (Trimmed)"
+        "SourceString": "Woodcutting Cape - Trimmed",
+        "LocalizedString": "Woodcutting Cape - Trimmed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

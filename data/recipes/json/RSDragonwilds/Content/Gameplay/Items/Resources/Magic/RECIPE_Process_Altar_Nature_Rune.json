@@ -25,7 +25,7 @@
             "ObjectName": "ItemData'ITEM_Rune_Nature'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature.0"
           },
-          "Count": 10
+          "Count": 5
         }
       ],
       "ChanceToProduceExtraItems": 0.05,

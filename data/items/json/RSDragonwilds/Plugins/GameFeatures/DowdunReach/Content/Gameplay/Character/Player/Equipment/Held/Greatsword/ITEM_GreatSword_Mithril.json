@@ -23,12 +23,12 @@
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_GreatswordAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/FF_GreatswordAdaptiveTriggers.0"
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/FF_GreatswordAdaptiveTriggers.0"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses.0"
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/GreatSword/A_PlayerM_Idle_Greatsword_Poses.0"
       },
       "DamageMultiplier": 6.8,
       "BlockingDamageNegation": 44.0,
