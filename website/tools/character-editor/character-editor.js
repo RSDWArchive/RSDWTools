@@ -18,7 +18,7 @@ const upkeepTiles = Array.from(document.querySelectorAll(".upkeep-tile"));
 const upkeepContextMenu = document.getElementById("upkeep-context-menu");
 
 const INFINITE_BUFFER = 100000000;
-const MAP_UNLOCKED_VALUE = 65535;
+const MAP_UNLOCKED_VALUE = 2147483647;
 const CHARACTER_TYPE_VALUES = new Set(["0", "1", "2", "3"]);
 const CHARACTER_TYPE_ICONS = {
   "0": "/shared/game-ui/Character/Standard.png",
