@@ -12,8 +12,8 @@
 (function () {
   "use strict";
 
-  // Single source of truth for the tools list. Order = display order in
-  // both the dropdown menu and the landing-page tile grid.
+  // Single source of truth for internal tools. Order = display order in
+  // both the dropdown menu and the internal landing-page tile group.
   // `pageLabel` shows in the header center on that tool's page.
   var TOOLS = [
     {
@@ -30,7 +30,7 @@
       pageLabel: "Item Editor",
       desc: "Add, remove, and modify items in your character save.",
       href: "/tools/item-editor/",
-      icon: "/shared/assets/tool-icons/item_editor_icon.png",
+      icon: "/shared/assets/tool-icons/item_editor.png",
     },
     {
       id: "spell-editor",
@@ -54,7 +54,7 @@
       pageLabel: "Enemy Drop Tables",
       desc: "Look up loot tables for any NPC.",
       href: "/tools/enemy-drop-tables/",
-      icon: "/shared/assets/tool-icons/drop_table.png",
+      icon: "/shared/assets/tool-icons/enemy_drop_tables.png",
     },
     {
       id: "chest-drop-tables",
@@ -62,9 +62,30 @@
       pageLabel: "Chest Drop Tables",
       desc: "Browse chest loot rolls by chest type.",
       href: "/tools/chest-drop-tables/",
-      icon: "/shared/assets/tool-icons/chest-table.png",
+      icon: "/shared/assets/tool-icons/chest_drop_table.png",
     },
   ];
+
+  // The homepage also includes sibling community sites that should not appear
+  // in the in-page tools dropdown.
+  var LANDING_CARDS = TOOLS.concat([
+    {
+      id: "rsdw-archive",
+      name: "RSDWArchive",
+      desc: "An archive of the json/texture files of major RSDW versions.",
+      href: "https://rsdwarchive.com",
+      icon: "/shared/assets/tool-icons/rsdw_archive.png",
+      external: true,
+    },
+    {
+      id: "rsdw-builds",
+      name: "RSDWBuilds",
+      desc: "Bases created by the community, delivered to your World.",
+      href: "https://rsdwbuilds.com",
+      icon: "/shared/assets/tool-icons/rsdw_builds.png",
+      external: true,
+    },
+  ]);
 
   var REPO_URL = "https://github.com/RSDWArchive/RSDWTools";
   var DISCORD_LINKS = [
@@ -281,6 +302,7 @@
 
   // Expose tools list for landing page renderer.
   window.RSDW_TOOLS = TOOLS;
+  window.RSDW_LANDING_CARDS = LANDING_CARDS;
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

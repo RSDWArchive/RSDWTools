@@ -34,14 +34,19 @@
   <script defer>
     document.addEventListener("DOMContentLoaded", function () {
       var grid = document.getElementById("rsdw-landing-tools");
-      if (!grid || !window.RSDW_TOOLS) return;
-      window.RSDW_TOOLS.forEach(function (t) {
+      var cards = window.RSDW_LANDING_CARDS || window.RSDW_TOOLS;
+      if (!grid || !cards) return;
+      cards.forEach(function (t) {
         var tile = document.createElement("a");
         tile.className = "rsdw-landing__tile";
         tile.href = t.href;
         tile.role = "listitem";
         tile.dataset.name = t.name;
         tile.dataset.desc = t.desc;
+        if (t.external) {
+          tile.target = "_blank";
+          tile.rel = "noopener noreferrer";
+        }
         var img = document.createElement("img");
         img.src = t.icon;
         img.alt = "";
