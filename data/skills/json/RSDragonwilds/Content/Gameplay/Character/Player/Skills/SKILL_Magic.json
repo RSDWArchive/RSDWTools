@@ -2,7 +2,10 @@
   {
     "Type": "GE_MagicAttack_Stamina_Cost_C",
     "Name": "GE_MagicAttack_Stamina_Cost_C_0",
-    "Outer": "SKILL_Magic",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.GE_MagicAttack_Stamina_Cost_C'",
     "Template": {
       "ObjectName": "GE_MagicAttack_Stamina_Cost_C'Default__GE_MagicAttack_Stamina_Cost_C'",

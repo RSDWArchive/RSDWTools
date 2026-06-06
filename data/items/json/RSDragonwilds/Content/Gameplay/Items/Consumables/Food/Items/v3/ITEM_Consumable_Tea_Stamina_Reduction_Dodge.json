@@ -107,7 +107,10 @@
   {
     "Type": "GE_Skills_Agility_EvadeStaminaCost_C",
     "Name": "GE_Skills_Agility_EvadeStaminaCost_C_0",
-    "Outer": "ITEM_Consumable_Tea_Stamina_Reduction_Dodge",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Dodge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Dodge.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Agility/GE_Skills_Agility_EvadeStaminaCost.GE_Skills_Agility_EvadeStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Skills_Agility_EvadeStaminaCost_C'Default__GE_Skills_Agility_EvadeStaminaCost_C'",

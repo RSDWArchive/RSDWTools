@@ -103,7 +103,10 @@
   {
     "Type": "GE_ResistBuildup_Bleed_C",
     "Name": "GE_ResistBuildup_Bleed_C_0",
-    "Outer": "ITEM_Consumable_RoastDinner",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_RoastDinner'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_RoastDinner.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Bleed.GE_ResistBuildup_Bleed_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Bleed_C'Default__GE_ResistBuildup_Bleed_C'",

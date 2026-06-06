@@ -2,7 +2,10 @@
   {
     "Type": "AttackingEquipmentMatchesAnyTag_Condition",
     "Name": "AttackingEquipmentMatchesAnyTag_Condition_0",
-    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Magic",
+    "Outer": {
+      "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.1"
+    },
     "Class": "UScriptClass'AttackingEquipmentMatchesAnyTag_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

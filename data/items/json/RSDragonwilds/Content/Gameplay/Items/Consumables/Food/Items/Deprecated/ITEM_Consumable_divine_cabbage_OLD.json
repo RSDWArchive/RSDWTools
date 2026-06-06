@@ -88,7 +88,10 @@
   {
     "Type": "GE_ModifyHealth_Increase_C",
     "Name": "GE_ModifyHealth_Heal_C_0",
-    "Outer": "ITEM_Consumable_divine_cabbage_OLD",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
@@ -106,7 +109,10 @@
   {
     "Type": "GE_ModifyHealthRegen_C",
     "Name": "GE_ModifyHealthRegen_C_0",
-    "Outer": "ITEM_Consumable_divine_cabbage_OLD",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealthRegen.GE_ModifyHealthRegen_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealthRegen_C'Default__GE_ModifyHealthRegen_C'",
@@ -124,7 +130,10 @@
   {
     "Type": "GE_ModifyMaxHealth_C",
     "Name": "GE_ModifyMaxHealth_C_0",
-    "Outer": "ITEM_Consumable_divine_cabbage_OLD",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxHealth.GE_ModifyMaxHealth_C'",
     "Template": {
       "ObjectName": "GE_ModifyMaxHealth_C'Default__GE_ModifyMaxHealth_C'",
@@ -142,7 +151,10 @@
   {
     "Type": "GE_ModifyMaxStamina_C",
     "Name": "GE_ModifyMaxStamina_C_0",
-    "Outer": "ITEM_Consumable_divine_cabbage_OLD",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxStamina.GE_ModifyMaxStamina_C'",
     "Template": {
       "ObjectName": "GE_ModifyMaxStamina_C'Default__GE_ModifyMaxStamina_C'",

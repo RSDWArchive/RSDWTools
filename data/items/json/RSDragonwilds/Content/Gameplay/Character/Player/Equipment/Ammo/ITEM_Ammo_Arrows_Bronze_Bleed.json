@@ -2,7 +2,10 @@
   {
     "Type": "GE_Arrows_Bleeding_C",
     "Name": "GE_Arrows_Bleeding_C_0",
-    "Outer": "ITEM_Ammo_Arrows_Bronze_Bleed",
+    "Outer": {
+      "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Bronze_Bleed'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Bronze_Bleed.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/BleedArrows/GE_Arrows_Bleeding.GE_Arrows_Bleeding_C'",
     "Template": {
       "ObjectName": "GE_Arrows_Bleeding_C'Default__GE_Arrows_Bleeding_C'",

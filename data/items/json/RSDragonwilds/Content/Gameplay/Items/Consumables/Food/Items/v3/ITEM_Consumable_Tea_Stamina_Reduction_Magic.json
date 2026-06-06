@@ -107,7 +107,10 @@
   {
     "Type": "GE_MagicAttack_Stamina_Cost_C",
     "Name": "GE_MagicAttack_Stamina_Cost_C_0",
-    "Outer": "ITEM_Consumable_Tea_Stamina_Reduction_Magic",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.GE_MagicAttack_Stamina_Cost_C'",
     "Template": {
       "ObjectName": "GE_MagicAttack_Stamina_Cost_C'Default__GE_MagicAttack_Stamina_Cost_C'",

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-05-19T10:30:38.177390+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\0.11.2",
+  "generated_at_utc": "2026-06-06T07:33:57.799548+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\0.11.2.2",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,10 +18,11 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 57814,
-    "json_unmatched": 55785,
+    "json_scanned": 57816,
+    "json_unmatched": 55787,
     "duplicates_skipped": 0,
     "unmatched_samples": [
+      "ArchiveExtractManifest.json",
       "json/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.json",
       "json/Engine/Content/Animation/DefaultAnimCurveCompressionSettings.json",
       "json/Engine/Content/Animation/DefaultRecorderBoneCompression.json",
@@ -40,8 +41,7 @@
       "json/Engine/Content/EditorBlueprintResources/StandardMacros.json",
       "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial.json",
       "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial_MaskedRegion.json",
-      "json/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.json",
-      "json/Engine/Content/EditorLandscapeResources/LandscapeDirtyMaterial.json"
+      "json/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.json"
     ]
   },
   "categories": {

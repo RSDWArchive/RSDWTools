@@ -2,7 +2,10 @@
   {
     "Type": "GE_Attack_ReduceStaminaCost_C",
     "Name": "GE_Attack_ReduceStaminaCost_C_0",
-    "Outer": "SKILL_Attack",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Attack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Attack/GE_Attack_ReduceStaminaCost.GE_Attack_ReduceStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Attack_ReduceStaminaCost_C'Default__GE_Attack_ReduceStaminaCost_C'",

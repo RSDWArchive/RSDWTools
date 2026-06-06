@@ -92,7 +92,10 @@
   {
     "Type": "GE_Potion_FocusedAttack_C",
     "Name": "GE_Potion_FocusedAttack_C_0",
-    "Outer": "ITEM_Consumable_Potion_Focused_T3_Attack",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Attack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Attack.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedAttack.GE_Potion_FocusedAttack_C'",
     "Template": {
       "ObjectName": "GE_Potion_FocusedAttack_C'Default__GE_Potion_FocusedAttack_C'",

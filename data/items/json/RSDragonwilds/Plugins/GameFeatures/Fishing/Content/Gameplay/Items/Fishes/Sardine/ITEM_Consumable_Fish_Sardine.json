@@ -126,7 +126,10 @@
   {
     "Type": "GE_ModifyHealth_Increase_C",
     "Name": "GE_ModifyHealth_Increase_C_1",
-    "Outer": "ITEM_Consumable_Fish_Sardine",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Sardine'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Sardine/ITEM_Consumable_Fish_Sardine.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
@@ -149,9 +152,12 @@
     }
   },
   {
-    "Type": "UObject",
+    "Type": "GE_WardingFish_C",
     "Name": "GE_WardingFish_C_0",
-    "Outer": "ITEM_Consumable_Fish_Sardine",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Sardine'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Sardine/ITEM_Consumable_Fish_Sardine.0"
+    },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

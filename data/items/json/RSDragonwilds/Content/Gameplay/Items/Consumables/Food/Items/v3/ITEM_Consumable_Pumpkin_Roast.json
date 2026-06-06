@@ -108,7 +108,10 @@
   {
     "Type": "GE_WardFruit_C",
     "Name": "GE_WardFruit_C_0",
-    "Outer": "ITEM_Consumable_Pumpkin_Roast",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pumpkin_Roast'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pumpkin_Roast.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
     "Template": {
       "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",

@@ -2,7 +2,10 @@
   {
     "Type": "GE_RangedAttack_ProjectileRefund_C",
     "Name": "GE_RangedAttack_ProjectileRefund_C_0",
-    "Outer": "SKILL_Ranged",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Ranged'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.GE_RangedAttack_ProjectileRefund_C'",
     "Template": {
       "ObjectName": "GE_RangedAttack_ProjectileRefund_C'Default__GE_RangedAttack_ProjectileRefund_C'",

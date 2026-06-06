@@ -107,7 +107,10 @@
   {
     "Type": "GE_Quenched_C",
     "Name": "GE_Quenched_C_0",
-    "Outer": "ITEM_Consumable_Tea_Dwellberry",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Dwellberry'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Dwellberry.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Quenched.GE_Quenched_C'",
     "Template": {
       "ObjectName": "GE_Quenched_C'Default__GE_Quenched_C'",

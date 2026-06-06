@@ -1,8 +1,11 @@
 [
   {
-    "Type": "UObject",
+    "Type": "GE_Fishing_ReduceStaminaDrain_C",
     "Name": "GE_Fishing_ReduceStaminaDrain_C_0",
-    "Outer": "SKILL_Fishing",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Fishing'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Character/Player/Skills/SKILL_Fishing.1"
+    },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {

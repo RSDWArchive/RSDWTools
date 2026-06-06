@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_WeaponBarbs",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -21,7 +24,10 @@
   {
     "Type": "SpellModule_PlayMontageForHeldEquipment",
     "Name": "SpellModule_PlayMontageForHeldEquipment_0",
-    "Outer": "USD_WeaponBarbs",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontageForHeldEquipment'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

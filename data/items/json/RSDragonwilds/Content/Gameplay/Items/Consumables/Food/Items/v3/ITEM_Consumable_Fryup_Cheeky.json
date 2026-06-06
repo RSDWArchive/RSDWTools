@@ -103,7 +103,10 @@
   {
     "Type": "GE_ForemansFeast_C",
     "Name": "GE_ForemansFeast_C_0",
-    "Outer": "ITEM_Consumable_Fryup_Cheeky",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fryup_Cheeky'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fryup_Cheeky.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.GE_ForemansFeast_C'",
     "Template": {
       "ObjectName": "GE_ForemansFeast_C'Default__GE_ForemansFeast_C'",
@@ -171,7 +174,10 @@
   {
     "Type": "GE_Mining_MiningStaminaCost_C",
     "Name": "GE_Mining_MiningStaminaCost_C_1",
-    "Outer": "GE_ForemansFeast_C_0",
+    "Outer": {
+      "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Fryup_Cheeky:GE_ForemansFeast_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fryup_Cheeky.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Mining/GE_Mining_MiningStaminaCost.GE_Mining_MiningStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Mining_MiningStaminaCost_C'Default__GE_ForemansFeast_C:GE_Mining_MiningStaminaCost_C_1'",
@@ -182,8 +188,10 @@
   {
     "Type": "GE_Woodcutting_StaminaCost_C",
     "Name": "GE_Woodcutting_StaminaCost_C_0",
-    "Outer": "GE_ForemansFeast_C_0",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/WoodCutting/GE_Woodcutting_StaminaCost.GE_Woodcutting_StaminaCost_C'",
+    "Outer": {
+      "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Fryup_Cheeky:GE_ForemansFeast_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fryup_Cheeky.1"
+    },
     "Template": {
       "ObjectName": "GE_Woodcutting_StaminaCost_C'Default__GE_ForemansFeast_C:GE_Woodcutting_StaminaCost_C_0'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.3"

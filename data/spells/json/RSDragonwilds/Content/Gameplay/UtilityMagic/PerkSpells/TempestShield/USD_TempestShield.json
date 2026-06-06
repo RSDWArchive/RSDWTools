@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_TempestShield",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_TempestShield'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_1",
-    "Outer": "USD_TempestShield",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_TempestShield'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -57,7 +63,10 @@
   {
     "Type": "SpellModule_GameplayEffect",
     "Name": "SpellModule_GameplayEffect_0",
-    "Outer": "USD_TempestShield",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_TempestShield'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.4"
+    },
     "Class": "UScriptClass'SpellModule_GameplayEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -85,7 +94,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_TempestShield",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_TempestShield'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

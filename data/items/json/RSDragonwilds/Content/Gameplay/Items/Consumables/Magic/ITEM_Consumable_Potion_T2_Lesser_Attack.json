@@ -89,7 +89,10 @@
   {
     "Type": "GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance_C",
     "Name": "GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance_C_0",
-    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Attack",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Attack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Attack.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance.GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance_C'Default__GE_PerkV2_Attack_MeleeWeaponProficiency_CritChance_C'",

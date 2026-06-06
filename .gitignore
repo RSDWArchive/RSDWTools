@@ -1,0 +1,8 @@
+# Python/tool caches
+__pycache__/
+*.py[cod]
+
+# Local pipeline run output
+**/GitCommitPlan.json
+gitcommit-plan*.json
+*.log

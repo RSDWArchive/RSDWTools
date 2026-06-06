@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_EyeOfOculus",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EyeOfOculus'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EyeOfOculus/USD_EyeOfOculus.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -21,7 +24,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_EyeOfOculus",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EyeOfOculus'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EyeOfOculus/USD_EyeOfOculus.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -41,7 +47,10 @@
   {
     "Type": "SpellModule_GameplayEffect",
     "Name": "SpellModule_GameplayEffect_0",
-    "Outer": "USD_EyeOfOculus",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EyeOfOculus'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EyeOfOculus/USD_EyeOfOculus.4"
+    },
     "Class": "UScriptClass'SpellModule_GameplayEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -61,7 +70,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_EyeOfOculus",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EyeOfOculus'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EyeOfOculus/USD_EyeOfOculus.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

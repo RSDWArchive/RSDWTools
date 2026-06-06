@@ -2,7 +2,10 @@
   {
     "Type": "GE_Skill_Seed_Drop_Chance_C",
     "Name": "GE_Skill_Seed_Drop_Chance_C_0",
-    "Outer": "SKILL_Farming",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Farming'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Farming/GE_Skill_Seed_Drop_Chance.GE_Skill_Seed_Drop_Chance_C'",
     "Template": {
       "ObjectName": "GE_Skill_Seed_Drop_Chance_C'Default__GE_Skill_Seed_Drop_Chance_C'",

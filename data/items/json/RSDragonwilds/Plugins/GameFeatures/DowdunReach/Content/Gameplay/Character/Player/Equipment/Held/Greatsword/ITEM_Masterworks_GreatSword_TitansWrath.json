@@ -28,7 +28,7 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/GreatSword/A_PlayerM_Idle_Greatsword_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
       "DamageMultiplier": 7.3,
       "BlockingDamageNegation": 44.0,

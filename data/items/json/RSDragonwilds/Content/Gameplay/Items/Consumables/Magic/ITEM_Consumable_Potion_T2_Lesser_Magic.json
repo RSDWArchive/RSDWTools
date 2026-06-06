@@ -89,7 +89,10 @@
   {
     "Type": "GE_MagicAttack_CritChance_C",
     "Name": "GE_MagicAttack_CritChance_C_0",
-    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Magic",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_CritChance.GE_MagicAttack_CritChance_C'",
     "Template": {
       "ObjectName": "GE_MagicAttack_CritChance_C'Default__GE_MagicAttack_CritChance_C'",

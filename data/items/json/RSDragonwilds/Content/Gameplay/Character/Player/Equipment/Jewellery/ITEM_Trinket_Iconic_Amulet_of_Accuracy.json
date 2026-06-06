@@ -2,7 +2,10 @@
   {
     "Type": "HasDamageClass_Condition",
     "Name": "HasDamageClass_Condition_0",
-    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "Outer": {
+      "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Accuracy'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Accuracy.2"
+    },
     "Class": "UScriptClass'HasDamageClass_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -12,7 +15,10 @@
   {
     "Type": "IsCriticalHit_Condition",
     "Name": "IsCriticalHit_Condition_1",
-    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Accuracy",
+    "Outer": {
+      "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Accuracy'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Accuracy.2"
+    },
     "Class": "UScriptClass'IsCriticalHit_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },

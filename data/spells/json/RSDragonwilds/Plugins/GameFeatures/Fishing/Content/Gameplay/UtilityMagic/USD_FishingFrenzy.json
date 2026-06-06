@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_FishingFrenzy",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_FishingFrenzy'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_FishingFrenzy.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_1",
-    "Outer": "USD_FishingFrenzy",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_FishingFrenzy'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_FishingFrenzy.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -55,7 +61,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_FishingFrenzy",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_FishingFrenzy'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_FishingFrenzy.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -72,7 +81,10 @@
   {
     "Type": "SpellModule_UtilityMagic",
     "Name": "SpellModule_UtilityMagic_0",
-    "Outer": "USD_FishingFrenzy",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_FishingFrenzy'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_FishingFrenzy.4"
+    },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

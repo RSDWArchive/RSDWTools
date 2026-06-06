@@ -140,7 +140,10 @@
   {
     "Type": "GE_GurgleGuts_HydrationDecay_C",
     "Name": "GE_GurgleGuts_HydrationDecay_C_0",
-    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pie_Meat_Dubious'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_HydrationDecay.GE_GurgleGuts_HydrationDecay_C'",
     "Template": {
       "ObjectName": "GE_GurgleGuts_HydrationDecay_C'Default__GE_GurgleGuts_HydrationDecay_C'",
@@ -151,7 +154,10 @@
   {
     "Type": "GE_GurgleGuts_SustenanceDecay_C",
     "Name": "GE_GurgleGuts_SustenanceDecay_C_0",
-    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pie_Meat_Dubious'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_GurgleGuts_SustenanceDecay.GE_GurgleGuts_SustenanceDecay_C'",
     "Template": {
       "ObjectName": "GE_GurgleGuts_SustenanceDecay_C'Default__GE_GurgleGuts_SustenanceDecay_C'",
@@ -162,7 +168,10 @@
   {
     "Type": "GE_SteadfastStomach_C",
     "Name": "GE_SteadfastStomach_C_0",
-    "Outer": "ITEM_Consumable_Pie_Meat_Dubious",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pie_Meat_Dubious'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Pie_Meat_Dubious.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach.GE_SteadfastStomach_C'",
     "Template": {
       "ObjectName": "GE_SteadfastStomach_C'Default__GE_SteadfastStomach_C'",

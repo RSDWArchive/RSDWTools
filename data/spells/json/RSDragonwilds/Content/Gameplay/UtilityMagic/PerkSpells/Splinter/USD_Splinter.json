@@ -2,7 +2,10 @@
   {
     "Type": "DominionShape_Sphere",
     "Name": "DominionShape_Sphere_0",
-    "Outer": "SpellModule_Shape_0",
+    "Outer": {
+      "ObjectName": "SpellModule_Shape'USD_Splinter:SpellModule_Shape_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.5"
+    },
     "Class": "UScriptClass'DominionShape_Sphere'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -12,7 +15,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -38,7 +44,10 @@
   {
     "Type": "SpellModule_Collision",
     "Name": "SpellModule_Collision_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -64,7 +73,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -100,7 +112,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -117,7 +132,10 @@
   {
     "Type": "SpellModule_Shape",
     "Name": "SpellModule_Shape_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -131,7 +149,10 @@
   {
     "Type": "SpellModule_TransmuteDestructible",
     "Name": "SpellModule_TransmuteDestructible_0",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_TransmuteDestructible'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -232,7 +253,10 @@
   {
     "Type": "SpellModule_UtilityMagic",
     "Name": "SpellModule_UtilityMagic_1",
-    "Outer": "USD_Splinter",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -264,7 +288,7 @@
       "CooldownDuration": 45.0,
       "SpellIcon": {
         "ObjectName": "Texture2D'T_Skill_Woodcutting_Splinter'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/WoodCutting/T_Skill_Woodcutting_Splinter.0"
+        "ObjectPath": "/Game/Art/UI/Skills/Icons/Unlock/Woodcutting/T_Skill_Woodcutting_Splinter"
       },
       "SpellTagIcon": {
         "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",

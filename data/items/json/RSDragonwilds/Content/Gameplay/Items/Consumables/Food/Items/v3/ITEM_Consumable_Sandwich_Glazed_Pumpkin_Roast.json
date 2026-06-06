@@ -152,7 +152,10 @@
   {
     "Type": "GE_ForemansFeast_C",
     "Name": "GE_ForemansFeast_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.GE_ForemansFeast_C'",
     "Template": {
       "ObjectName": "GE_ForemansFeast_C'Default__GE_ForemansFeast_C'",
@@ -220,7 +223,10 @@
   {
     "Type": "GE_KnowledgeableNourishment_C",
     "Name": "GE_KnowledgeableNourishment_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_KnowledgeableNourishment.GE_KnowledgeableNourishment_C'",
     "Template": {
       "ObjectName": "GE_KnowledgeableNourishment_C'Default__GE_KnowledgeableNourishment_C'",
@@ -236,7 +242,10 @@
   {
     "Type": "GE_Mining_MiningStaminaCost_C",
     "Name": "GE_Mining_MiningStaminaCost_C_1",
-    "Outer": "GE_ForemansFeast_C_0",
+    "Outer": {
+      "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast:GE_ForemansFeast_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Mining/GE_Mining_MiningStaminaCost.GE_Mining_MiningStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Mining_MiningStaminaCost_C'Default__GE_ForemansFeast_C:GE_Mining_MiningStaminaCost_C_1'",
@@ -247,7 +256,10 @@
   {
     "Type": "GE_WardFruit_C",
     "Name": "GE_WardFruit_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
     "Template": {
       "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",
@@ -263,8 +275,10 @@
   {
     "Type": "GE_Woodcutting_StaminaCost_C",
     "Name": "GE_Woodcutting_StaminaCost_C_0",
-    "Outer": "GE_ForemansFeast_C_0",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/WoodCutting/GE_Woodcutting_StaminaCost.GE_Woodcutting_StaminaCost_C'",
+    "Outer": {
+      "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast:GE_ForemansFeast_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Glazed_Pumpkin_Roast.1"
+    },
     "Template": {
       "ObjectName": "GE_Woodcutting_StaminaCost_C'Default__GE_ForemansFeast_C:GE_Woodcutting_StaminaCost_C_0'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.3"

@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_EnchantWeapon_Air",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_EnchantWeapon_Air",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -64,7 +70,10 @@
   {
     "Type": "SpellModule_HeldEquipmentEffect",
     "Name": "SpellModule_HeldEquipmentEffect_0",
-    "Outer": "USD_EnchantWeapon_Air",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+    },
     "Class": "UScriptClass'SpellModule_HeldEquipmentEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -82,7 +91,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_EnchantWeapon_Air",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

@@ -2,7 +2,10 @@
   {
     "Type": "DamagedActorHasTag_Condition",
     "Name": "DamagedActorHasTag_Condition_0",
-    "Outer": "ITEM_Trinket_Quest_Salve_Amulet",
+    "Outer": {
+      "ObjectName": "TrinketItemData'ITEM_Trinket_Quest_Salve_Amulet'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Quest_Salve_Amulet.1"
+    },
     "Class": "UScriptClass'DamagedActorHasTag_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

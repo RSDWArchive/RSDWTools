@@ -92,7 +92,10 @@
   {
     "Type": "GE_Potion_FocusedRunecrafting_C",
     "Name": "GE_Potion_FocusedRunecrafting_C_0",
-    "Outer": "ITEM_Consumable_Potion_Focused_T3_Runecrafting",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Runecrafting'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Runecrafting.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedRunecrafting.GE_Potion_FocusedRunecrafting_C'",
     "Template": {
       "ObjectName": "GE_Potion_FocusedRunecrafting_C'Default__GE_Potion_FocusedRunecrafting_C'",

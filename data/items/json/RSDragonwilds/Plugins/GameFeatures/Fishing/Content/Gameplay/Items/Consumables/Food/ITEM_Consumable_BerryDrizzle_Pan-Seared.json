@@ -147,7 +147,10 @@
   {
     "Type": "GE_ModifyHealth_Increase_C",
     "Name": "GE_ModifyHealth_Increase_C_1",
-    "Outer": "ITEM_Consumable_BerryDrizzle_Pan-Seared",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_BerryDrizzle_Pan-Seared'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_BerryDrizzle_Pan-Seared.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
@@ -170,15 +173,21 @@
     }
   },
   {
-    "Type": "UObject",
+    "Type": "GE_SeaLegs_C",
     "Name": "GE_SeaLegs_C_0",
-    "Outer": "ITEM_Consumable_BerryDrizzle_Pan-Seared",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_BerryDrizzle_Pan-Seared'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_BerryDrizzle_Pan-Seared.0"
+    },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
-    "Type": "UObject",
+    "Type": "GE_WardingFish_C",
     "Name": "GE_WardingFish_C_0",
-    "Outer": "ITEM_Consumable_BerryDrizzle_Pan-Seared",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_BerryDrizzle_Pan-Seared'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_BerryDrizzle_Pan-Seared.0"
+    },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

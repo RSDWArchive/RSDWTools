@@ -79,7 +79,10 @@
   {
     "Type": "GE_Potion_FocusedArtisan_C",
     "Name": "GE_Potion_FocusedArtisan_C_0",
-    "Outer": "ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedArtisan.GE_Potion_FocusedArtisan_C'",
     "Template": {
       "ObjectName": "GE_Potion_FocusedArtisan_C'Default__GE_Potion_FocusedArtisan_C'",

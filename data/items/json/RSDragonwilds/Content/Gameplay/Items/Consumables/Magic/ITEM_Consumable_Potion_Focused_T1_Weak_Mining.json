@@ -86,7 +86,10 @@
   {
     "Type": "GE_Potion_FocusedMining_C",
     "Name": "GE_Potion_FocusedMining_C_0",
-    "Outer": "ITEM_Consumable_Potion_Focused_T1_Weak_Mining",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T1_Weak_Mining'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Mining.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedMining.GE_Potion_FocusedMining_C'",
     "Template": {
       "ObjectName": "GE_Potion_FocusedMining_C'Default__GE_Potion_FocusedMining_C'",

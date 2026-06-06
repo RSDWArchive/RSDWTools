@@ -128,7 +128,10 @@
   {
     "Type": "GE_KnowledgeableNourishment_C",
     "Name": "GE_KnowledgeableNourishment_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Veggie",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Veggie'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Veggie.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_KnowledgeableNourishment.GE_KnowledgeableNourishment_C'",
     "Template": {
       "ObjectName": "GE_KnowledgeableNourishment_C'Default__GE_KnowledgeableNourishment_C'",
@@ -144,7 +147,10 @@
   {
     "Type": "GE_ResistBuildup_Poison_C",
     "Name": "GE_Food_ResistPoison_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Veggie",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Veggie'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Veggie.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Poison.GE_ResistBuildup_Poison_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Poison_C'Default__GE_ResistBuildup_Poison_C'",

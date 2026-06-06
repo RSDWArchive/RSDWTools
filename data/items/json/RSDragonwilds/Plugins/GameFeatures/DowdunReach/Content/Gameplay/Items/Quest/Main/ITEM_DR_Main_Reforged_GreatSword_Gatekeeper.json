@@ -24,7 +24,7 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/GreatSword/A_PlayerM_Idle_Greatsword_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
       "DamageMultiplier": 5.4,
       "BlockingDamageNegation": 39.0,
@@ -42,7 +42,7 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Shadowsword_DamageModifierReceiverTypeSpectral_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/ShadowSword/GE_Shadowsword_DamageModifierReceiverTypeSpectral.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Equipment/Shadowsword/GE_Shadowsword_DamageModifierReceiverTypeSpectral"
         }
       ],
       "SkillUsed": {

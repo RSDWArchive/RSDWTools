@@ -107,7 +107,10 @@
   {
     "Type": "GE_WardFruit_C",
     "Name": "GE_WardFruit_C_0",
-    "Outer": "ITEM_Consumable_Tea_Pumpkin",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Pumpkin'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
     "Template": {
       "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",

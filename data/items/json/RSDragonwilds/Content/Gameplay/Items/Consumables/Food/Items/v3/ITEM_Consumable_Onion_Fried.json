@@ -111,7 +111,10 @@
   {
     "Type": "GE_ResistDamage_Shock_C",
     "Name": "GE_Food_ResistShock_C_0",
-    "Outer": "ITEM_Consumable_Onion_Fried",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Onion_Fried'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistDamage_Shock.GE_ResistDamage_Shock_C'",
     "Template": {
       "ObjectName": "GE_ResistDamage_Shock_C'Default__GE_ResistDamage_Shock_C'",

@@ -1,50 +1,50 @@
 {
-  "version": "0.11.2",
-  "generatedAtUtc": "2026-05-19T10:23:20.761927+00:00",
-  "sourceRoot": "E:\\Github\\RSDWArchive\\0.11.2\\json",
+  "version": "0.11.2.2",
+  "generatedAtUtc": "2026-06-05T03:03:16.480775+00:00",
+  "sourceRoot": "E:\\Github\\RSDWArchive\\0.11.2.2\\json",
   "tables": {
     "DT_CompositeEnemyLootDropTable": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
       "rowCount": 105,
       "type": "CompositeDataTable"
     },
     "DT_CompositeEnemyLootDropTable_DowdunReach": {
-      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "CompositeDataTable"
     },
     "DT_EnemyLootDropTable": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
       "rowCount": 78,
       "type": "DataTable"
     },
     "DT_EnemyLootDropTable_DowdunReach": {
-      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     },
     "DT_LootChest_RespawnProfiles": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
       "rowCount": 48,
       "type": "DataTable"
     },
     "DT_LootChest_Sets": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
       "rowCount": 44,
       "type": "DataTable"
     },
     "DT_LootChests_Prefabs": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
       "rowCount": 48,
       "type": "DataTable"
     },
     "DT_LootDropTable": {
-      "file": "0.11.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
       "rowCount": 78,
       "type": "DataTable"
     },
     "DT_LootDropTable_DowdunReach": {
-      "file": "0.11.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
+      "file": "0.11.2.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     }

@@ -92,7 +92,10 @@
   {
     "Type": "GE_Potion_Lumberjack_C",
     "Name": "GE_Potion_Lumberjack_C_0",
-    "Outer": "ITEM_Consumable_Potion_T3_Lumberjack",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T3_Lumberjack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_Lumberjack.GE_Potion_Lumberjack_C'",
     "Template": {
       "ObjectName": "GE_Potion_Lumberjack_C'Default__GE_Potion_Lumberjack_C'",

@@ -107,7 +107,10 @@
   {
     "Type": "GE_SugarRush_EnduranceReduction_Tier1_C",
     "Name": "GE_SugarRush_EnduranceReduction_Tier1_C_0",
-    "Outer": "ITEM_Consumable_Cake_VictoriaSpongeCake",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Cake_VictoriaSpongeCake'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Cake_VictoriaSpongeCake.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/SurvivalCore/GE_SugarRush_EnduranceReduction_Tier1.GE_SugarRush_EnduranceReduction_Tier1_C'",
     "Template": {
       "ObjectName": "GE_SugarRush_EnduranceReduction_Tier1_C'Default__GE_SugarRush_EnduranceReduction_Tier1_C'",

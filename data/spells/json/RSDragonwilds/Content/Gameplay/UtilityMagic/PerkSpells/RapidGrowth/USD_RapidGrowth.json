@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_RapidGrowth",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_RapidGrowth",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -45,7 +51,10 @@
   {
     "Type": "SpellModule_UtilityMagic",
     "Name": "SpellModule_UtilityMagic_0",
-    "Outer": "USD_RapidGrowth",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+    },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

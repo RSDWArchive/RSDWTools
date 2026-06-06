@@ -2,7 +2,10 @@
   {
     "Type": "AttackingEquipmentMatchesAnyTag_Condition",
     "Name": "AttackingEquipmentMatchesAnyTag_Condition_0",
-    "Outer": "ITEM_Trinket_Iconic_Amulet_of_Strength",
+    "Outer": {
+      "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Strength'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Strength.1"
+    },
     "Class": "UScriptClass'AttackingEquipmentMatchesAnyTag_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

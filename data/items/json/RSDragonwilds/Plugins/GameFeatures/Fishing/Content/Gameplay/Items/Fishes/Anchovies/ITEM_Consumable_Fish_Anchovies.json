@@ -100,7 +100,10 @@
   {
     "Type": "GE_ModifyHealth_Increase_C",
     "Name": "GE_ModifyHealth_Increase_C_1",
-    "Outer": "ITEM_Consumable_Fish_Anchovies",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Anchovies'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Anchovies/ITEM_Consumable_Fish_Anchovies.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",

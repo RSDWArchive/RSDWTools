@@ -86,7 +86,10 @@
   {
     "Type": "GE_Potion_FocusedWoodcutting_C",
     "Name": "GE_Potion_FocusedWoodcutting_C_0",
-    "Outer": "ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedWoodcutting.GE_Potion_FocusedWoodcutting_C'",
     "Template": {
       "ObjectName": "GE_Potion_FocusedWoodcutting_C'Default__GE_Potion_FocusedWoodcutting_C'",

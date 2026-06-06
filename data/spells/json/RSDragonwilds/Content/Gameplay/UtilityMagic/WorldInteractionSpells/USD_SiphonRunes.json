@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_SiphonRunes",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonRunes'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.3"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -15,7 +18,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_SiphonRunes",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonRunes'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.3"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -35,7 +41,10 @@
   {
     "Type": "SpellModule_SiphonRunes",
     "Name": "SpellModule_SiphonRunes_0",
-    "Outer": "USD_SiphonRunes",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonRunes'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonRunes.3"
+    },
     "Class": "UScriptClass'SpellModule_SiphonRunes'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

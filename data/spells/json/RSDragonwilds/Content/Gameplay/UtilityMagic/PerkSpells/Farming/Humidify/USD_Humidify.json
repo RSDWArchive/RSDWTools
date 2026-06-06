@@ -2,7 +2,10 @@
   {
     "Type": "DominionShape_Box",
     "Name": "DominionShape_Box_0",
-    "Outer": "SpellModule_Shape_0",
+    "Outer": {
+      "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.12"
+    },
     "Class": "UScriptClass'DominionShape_Box'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -16,7 +19,10 @@
   {
     "Type": "DominionShape_Capsule",
     "Name": "DominionShape_Capsule_0",
-    "Outer": "SpellModule_Shape_1",
+    "Outer": {
+      "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.13"
+    },
     "Class": "UScriptClass'DominionShape_Capsule'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -32,7 +38,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -51,7 +60,10 @@
   {
     "Type": "SpellModule_Collision",
     "Name": "SpellModule_Collision_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -80,7 +92,10 @@
   {
     "Type": "SpellModule_Collision",
     "Name": "SpellModule_Collision_1",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -106,7 +121,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -142,7 +160,10 @@
   {
     "Type": "SpellModule_DestroyActor",
     "Name": "SpellModule_DestroyActor_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_DestroyActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -164,7 +185,10 @@
   {
     "Type": "SpellModule_ExpireAfterDistance",
     "Name": "SpellModule_ExpireAfterDistance_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_ExpireAfterDistance'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -181,7 +205,10 @@
   {
     "Type": "SpellModule_Humidify",
     "Name": "SpellModule_Humidify_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Humidify'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -200,7 +227,10 @@
   {
     "Type": "SpellModule_Movement",
     "Name": "SpellModule_Movement_1",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Movement'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -221,7 +251,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -238,7 +271,10 @@
   {
     "Type": "SpellModule_RemoveCombinedContentAmount",
     "Name": "SpellModule_RemoveCombinedContentAmount_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_RemoveCombinedContentAmount'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -262,7 +298,10 @@
   {
     "Type": "SpellModule_Shape",
     "Name": "SpellModule_Shape_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -280,7 +319,10 @@
   {
     "Type": "SpellModule_Shape",
     "Name": "SpellModule_Shape_1",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -298,7 +340,10 @@
   {
     "Type": "SpellModule_SpawnActor",
     "Name": "SpellModule_SpawnActor_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_SpawnActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -317,7 +362,10 @@
   {
     "Type": "SpellModule_SpawnVFX",
     "Name": "SpellModule_SpawnVFX_0",
-    "Outer": "USD_Humidify",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Humidify'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+    },
     "Class": "UScriptClass'SpellModule_SpawnVFX'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

@@ -107,7 +107,10 @@
   {
     "Type": "GE_Attack_ReduceStaminaCost_C",
     "Name": "GE_Attack_ReduceStaminaCost_C_0",
-    "Outer": "ITEM_Consumable_Tea_Stamina_Reduction_Attack",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Attack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Attack.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Attack/GE_Attack_ReduceStaminaCost.GE_Attack_ReduceStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Attack_ReduceStaminaCost_C'Default__GE_Attack_ReduceStaminaCost_C'",

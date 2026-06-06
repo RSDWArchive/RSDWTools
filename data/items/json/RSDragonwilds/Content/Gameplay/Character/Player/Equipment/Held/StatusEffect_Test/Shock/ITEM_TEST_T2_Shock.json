@@ -11,7 +11,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Shocked_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/test/PA_Attack_TEST_Shocked.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Shocked"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",

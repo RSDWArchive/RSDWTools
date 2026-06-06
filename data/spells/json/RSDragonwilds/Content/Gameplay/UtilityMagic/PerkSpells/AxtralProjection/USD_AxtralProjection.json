@@ -2,7 +2,10 @@
   {
     "Type": "DominionShape_Box",
     "Name": "DominionShape_Box_0",
-    "Outer": "SpellModule_Shape_0",
+    "Outer": {
+      "ObjectName": "SpellModule_Shape'USD_AxtralProjection:SpellModule_Shape_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.9"
+    },
     "Class": "UScriptClass'DominionShape_Box'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -16,7 +19,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -35,7 +41,10 @@
   {
     "Type": "SpellModule_Collision",
     "Name": "SpellModule_Collision_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -74,7 +83,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -110,7 +122,10 @@
   {
     "Type": "SpellModule_DamageByEquipment",
     "Name": "SpellModule_DamageByEquipment_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_DamageByEquipment'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -136,7 +151,10 @@
   {
     "Type": "SpellModule_DestroyActor",
     "Name": "SpellModule_DestroyActor_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_DestroyActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -158,7 +176,10 @@
   {
     "Type": "SpellModule_ExpireAfterDistance",
     "Name": "SpellModule_ExpireAfterDistance_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_ExpireAfterDistance'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -175,7 +196,10 @@
   {
     "Type": "SpellModule_Movement",
     "Name": "SpellModule_Movement_1",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_Movement'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -198,7 +222,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -212,7 +239,10 @@
   {
     "Type": "SpellModule_Shape",
     "Name": "SpellModule_Shape_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -230,7 +260,10 @@
   {
     "Type": "SpellModule_SpawnActor",
     "Name": "SpellModule_SpawnActor_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_SpawnActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -250,7 +283,10 @@
   {
     "Type": "SpellModule_SpawnVFX",
     "Name": "SpellModule_SpawnVFX_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_SpawnVFX'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -273,7 +309,10 @@
   {
     "Type": "SpellModule_SpawnVFX",
     "Name": "SpellModule_SpawnVFX_1",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_SpawnVFX'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -297,7 +336,10 @@
   {
     "Type": "SpellModule_TrackDamageForAchievement",
     "Name": "SpellModule_TrackDamageForAchievement_0",
-    "Outer": "USD_AxtralProjection",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.14"
+    },
     "Class": "UScriptClass'SpellModule_TrackDamageForAchievement'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -335,7 +377,7 @@
       "CooldownDuration": 45.0,
       "SpellIcon": {
         "ObjectName": "Texture2D'T_Skill_Woodcutting_Axtral_Projection'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/WoodCutting/T_Skill_Woodcutting_Axtral_Projection.0"
+        "ObjectPath": "/Game/Art/UI/Skills/Icons/Unlock/Woodcutting/T_Skill_Woodcutting_Axtral_Projection"
       },
       "SpellTagIcon": {
         "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",

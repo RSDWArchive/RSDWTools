@@ -2,7 +2,10 @@
   {
     "Type": "GE_Arrows_Poison_C",
     "Name": "GE_Arrows_Poison_C_0",
-    "Outer": "ITEM_Ammo_Arrows_Iron_Poison",
+    "Outer": {
+      "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Iron_Poison'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Poison.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/PoisonArrows/GE_Arrows_Poison.GE_Arrows_Poison_C'",
     "Template": {
       "ObjectName": "GE_Arrows_Poison_C'Default__GE_Arrows_Poison_C'",

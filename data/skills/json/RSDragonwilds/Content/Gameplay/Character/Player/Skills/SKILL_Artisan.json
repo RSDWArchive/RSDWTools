@@ -2,7 +2,10 @@
   {
     "Type": "GE_Artisan_DurabilityPlus_C",
     "Name": "GE_Artisan_DurabilityPlus_C_0",
-    "Outer": "SKILL_Artisan",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Artisan'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Artisan/GE_Artisan_DurabilityPlus.GE_Artisan_DurabilityPlus_C'",
     "Template": {
       "ObjectName": "GE_Artisan_DurabilityPlus_C'Default__GE_Artisan_DurabilityPlus_C'",

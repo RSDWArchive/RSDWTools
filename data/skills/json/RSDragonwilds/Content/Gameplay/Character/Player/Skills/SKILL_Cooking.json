@@ -2,7 +2,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level1.GE_PerkV2_Cooking_ChanceToBurn_Level1_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level1_C'",
@@ -20,7 +23,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level2.GE_PerkV2_Cooking_ChanceToBurn_Level2_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level2_C'",
@@ -38,7 +44,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level3.GE_PerkV2_Cooking_ChanceToBurn_Level3_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level3_C'",
@@ -56,7 +65,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level4.GE_PerkV2_Cooking_ChanceToBurn_Level4_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level4_C'",
@@ -74,7 +86,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level5.GE_PerkV2_Cooking_ChanceToBurn_Level5_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level5_C'",
@@ -92,7 +107,10 @@
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C_0",
-    "Outer": "SKILL_Cooking",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Cooking'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level6.GE_PerkV2_Cooking_ChanceToBurn_Level6_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level6_C'",

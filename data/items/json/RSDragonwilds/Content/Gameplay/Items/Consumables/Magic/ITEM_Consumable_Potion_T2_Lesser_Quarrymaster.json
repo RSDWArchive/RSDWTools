@@ -86,7 +86,10 @@
   {
     "Type": "GE_Potion_QuarryMaster_C",
     "Name": "GE_Potion_QuarryMaster_C_0",
-    "Outer": "ITEM_Consumable_Potion_T2_Lesser_Quarrymaster",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Quarrymaster'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Quarrymaster.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_QuarryMaster.GE_Potion_QuarryMaster_C'",
     "Template": {
       "ObjectName": "GE_Potion_QuarryMaster_C'Default__GE_Potion_QuarryMaster_C'",

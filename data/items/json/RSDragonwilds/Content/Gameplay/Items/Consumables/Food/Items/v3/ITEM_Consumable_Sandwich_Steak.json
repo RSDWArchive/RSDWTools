@@ -152,7 +152,10 @@
   {
     "Type": "GE_ResistBuildup_Bleed_C",
     "Name": "GE_ResistBuildup_Bleed_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Steak",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Steak'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Steak.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Bleed.GE_ResistBuildup_Bleed_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Bleed_C'Default__GE_ResistBuildup_Bleed_C'",
@@ -170,7 +173,10 @@
   {
     "Type": "GE_ResistBuildup_Poison_C",
     "Name": "GE_Food_ResistPoison_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Steak",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Steak'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Steak.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Poison.GE_ResistBuildup_Poison_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Poison_C'Default__GE_ResistBuildup_Poison_C'",
@@ -197,7 +203,10 @@
   {
     "Type": "GE_ResistDamage_Shock_C",
     "Name": "GE_Food_ResistShock_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Steak",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Steak'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Steak.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistDamage_Shock.GE_ResistDamage_Shock_C'",
     "Template": {
       "ObjectName": "GE_ResistDamage_Shock_C'Default__GE_ResistDamage_Shock_C'",

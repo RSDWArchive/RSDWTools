@@ -2,7 +2,10 @@
   {
     "Type": "GE_PerkV2_Woodcutting_LumberjackStamina_C",
     "Name": "GE_PerkV2_Woodcutting_LumberjackStamina_C_0",
-    "Outer": "SKILL_Woodcutting",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Woodcutting'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_LumberjackStamina.GE_PerkV2_Woodcutting_LumberjackStamina_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Woodcutting_LumberjackStamina_C'Default__GE_PerkV2_Woodcutting_LumberjackStamina_C'",

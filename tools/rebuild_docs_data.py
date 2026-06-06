@@ -4,6 +4,12 @@ import sys
 import shutil
 from pathlib import Path
 
+from archive_sources import (
+    DEFAULT_ARCHIVE_ROOT,
+    print_archive_sources,
+    resolve_archive_sources,
+)
+
 
 def run_step(command: list[str], cwd: Path) -> None:
     printable = " ".join(command)
@@ -16,9 +22,20 @@ def main() -> int:
         description="Run the full docs data rebuild pipeline in one command."
     )
     parser.add_argument(
+        "--archive-root",
+        default=str(DEFAULT_ARCHIVE_ROOT),
+        help=(
+            "RSDWArchive checkout root. Used to auto-detect the latest "
+            "dataset from website/data.config.json when --game-root is omitted."
+        ),
+    )
+    parser.add_argument(
         "--game-root",
-        default="E:\\Github\\RSDWArchive\\0.11.0.3",
-        help="Top-level game archive root used by ingest.",
+        default="",
+        help=(
+            "Explicit top-level game archive root used by ingest. "
+            "Defaults to <archive-root>/<datasetVersion> from RSDWArchive."
+        ),
     )
     parser.add_argument(
         "--raw-core",
@@ -27,13 +44,19 @@ def main() -> int:
     )
     parser.add_argument(
         "--location-data-root",
-        default="E:\\Github\\RSDWArchive\\website\\tools\\LocationData",
-        help="External LocationData source folder.",
+        default="",
+        help=(
+            "External LocationData source folder. Defaults to "
+            "<archive-root>/website/tools/LocationData."
+        ),
     )
     parser.add_argument(
         "--loot-data-root",
-        default="E:\\Github\\RSDWArchive\\website\\tools\\LootData",
-        help="External LootData source folder.",
+        default="",
+        help=(
+            "External LootData source folder. Defaults to "
+            "<archive-root>/website/tools/LootData."
+        ),
     )
     parser.add_argument(
         "--python",
@@ -65,6 +88,20 @@ def main() -> int:
     repo_root = Path(__file__).resolve().parents[1]
     python_exe = args.python
     raw_core = args.raw_core
+    archive_sources = None
+
+    if not args.skip_ingest:
+        try:
+            archive_sources = resolve_archive_sources(
+                archive_root=args.archive_root,
+                game_root=args.game_root or None,
+                location_data_root=args.location_data_root or None,
+                loot_data_root=args.loot_data_root or None,
+            )
+        except ValueError as exc:
+            print(f"[ERROR] {exc}")
+            return 1
+        print_archive_sources(archive_sources)
 
     if args.clean_docs_icons:
         docs_icons = repo_root / "website" / "shared" / "icons"
@@ -77,13 +114,13 @@ def main() -> int:
             python_exe,
             "tools/ingest_game_data.py",
             "--game-root",
-            args.game_root,
+            str(archive_sources.game_root),
             "--output-root",
             raw_core,
             "--location-data-root",
-            args.location_data_root,
+            str(archive_sources.location_data_root),
             "--loot-data-root",
-            args.loot_data_root,
+            str(archive_sources.loot_data_root),
         ]
         if args.clean_ingest:
             ingest_cmd.append("--clean")

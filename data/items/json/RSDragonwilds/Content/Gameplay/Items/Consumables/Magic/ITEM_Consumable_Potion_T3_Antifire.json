@@ -98,7 +98,10 @@
   {
     "Type": "GE_ClearBuildup_Burning_C",
     "Name": "GE_ClearBuildup_Burning_C_0",
-    "Outer": "ITEM_Consumable_Potion_T3_Antifire",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T3_Antifire'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Burning.GE_ClearBuildup_Burning_C'",
     "Template": {
       "ObjectName": "GE_ClearBuildup_Burning_C'Default__GE_ClearBuildup_Burning_C'",
@@ -109,7 +112,10 @@
   {
     "Type": "GE_ResistBuildup_Burning_C",
     "Name": "GE_ResistBuildup_Burning_C_0",
-    "Outer": "ITEM_Consumable_Potion_T3_Antifire",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T3_Antifire'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Burning.GE_ResistBuildup_Burning_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Burning_C'Default__GE_ResistBuildup_Burning_C'",

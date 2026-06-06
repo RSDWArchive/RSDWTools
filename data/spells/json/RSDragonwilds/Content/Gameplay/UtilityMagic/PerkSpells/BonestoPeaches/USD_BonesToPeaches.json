@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_2",
-    "Outer": "USD_BonesToPeaches",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_BonesToPeaches",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -64,7 +70,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_BonesToPeaches",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -81,7 +90,10 @@
   {
     "Type": "SpellModule_UtilityMagic",
     "Name": "SpellModule_UtilityMagic_0",
-    "Outer": "USD_BonesToPeaches",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+    },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

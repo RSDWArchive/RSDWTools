@@ -2,7 +2,10 @@
   {
     "Type": "GE_PerkV2_Mining_MiningCriticalHits_C",
     "Name": "GE_PerkV2_Mining_MiningCriticalHits_C_0",
-    "Outer": "SKILL_Mining",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Mining'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Mining.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Mining_MiningCriticalHits.GE_PerkV2_Mining_MiningCriticalHits_C'",
     "Template": {
       "ObjectName": "GE_PerkV2_Mining_MiningCriticalHits_C'Default__GE_PerkV2_Mining_MiningCriticalHits_C'",

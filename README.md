@@ -63,12 +63,11 @@ python -m http.server 8000
 
 ## Update pipeline
 
-Before a full refresh, confirm:
-
-1. `--game-root` points at the newest game archive (default in `update.py`)
-2. External generated inputs are current:
-   - `LocationData` (`--location-data-root`)
-   - `LootData` (`--loot-data-root`)
+By default, the pipeline reads
+`E:\Github\RSDWArchive\website\data.config.json`, uses its `datasetVersion`,
+and ingests from `E:\Github\RSDWArchive\<datasetVersion>`.
+`LocationData` and `LootData` default to the matching generated outputs under
+`E:\Github\RSDWArchive\website\tools\`.
 
 Then:
 
@@ -78,4 +77,10 @@ python update.py
 
 By default this runs in `--fresh` mode (cleans and regenerates everything).
 All builders write directly into `website/` under the per-tool layout above.
-Pass alternate paths as CLI args instead of editing defaults.
+Use `--archive-root`, `--game-root`, `--location-data-root`, or
+`--loot-data-root` only when overriding the auto-detected RSDWArchive sources.
+
+At the end, the pipeline writes an ignored `GitCommitPlan.json` that splits
+the changed files into safe commit batches. To create those commits, rerun with
+`--git-commit-batches`; add `--git-push-each` only when each batch should be
+pushed immediately.

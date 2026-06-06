@@ -95,7 +95,10 @@
   {
     "Type": "GE_ModifyHealth_Increase_C",
     "Name": "GE_ModifyHealth_Increase_C_1",
-    "Outer": "ITEM_Consumable_Potion_T3_Healing",
+    "Outer": {
+      "ObjectName": "BP_Consumables_ChangeHealth_C'ITEM_Consumable_Potion_T3_Healing'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Healing.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
     "Template": {
       "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",

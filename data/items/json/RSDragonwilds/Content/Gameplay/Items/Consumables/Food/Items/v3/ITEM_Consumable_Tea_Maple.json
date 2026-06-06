@@ -107,7 +107,10 @@
   {
     "Type": "GE_Defence_BlockStaminaCost_C",
     "Name": "GE_Defence_BlockStaminaCost_C_2",
-    "Outer": "ITEM_Consumable_Tea_Maple",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Maple'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Maple.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Defence/GE_Defence_BlockStaminaCost.GE_Defence_BlockStaminaCost_C'",
     "Template": {
       "ObjectName": "GE_Defence_BlockStaminaCost_C'Default__GE_Defence_BlockStaminaCost_C'",

@@ -128,7 +128,10 @@
   {
     "Type": "GE_MeatyMeal_C",
     "Name": "GE_MeatyMeal_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Meat",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.GE_MeatyMeal_C'",
     "Template": {
       "ObjectName": "GE_MeatyMeal_C'Default__GE_MeatyMeal_C'",
@@ -144,7 +147,10 @@
   {
     "Type": "GE_ResistDamage_Shock_C",
     "Name": "GE_Food_ResistShock_C_0",
-    "Outer": "ITEM_Consumable_Sandwich_Meat",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistDamage_Shock.GE_ResistDamage_Shock_C'",
     "Template": {
       "ObjectName": "GE_ResistDamage_Shock_C'Default__GE_ResistDamage_Shock_C'",

@@ -23,7 +23,7 @@
       "Slot": "ELoadoutSlotStrategy::Cape",
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Woodcutting_Skillcape'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/WoodCutting/PerkV2_Woodcutting_Skillcape.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Woodcutting/PerkV2_Woodcutting_Skillcape"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",

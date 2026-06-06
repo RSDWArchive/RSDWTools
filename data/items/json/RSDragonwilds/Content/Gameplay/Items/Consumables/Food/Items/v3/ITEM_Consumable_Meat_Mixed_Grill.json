@@ -103,7 +103,10 @@
   {
     "Type": "GE_MeatyMeal_C",
     "Name": "GE_MeatyMeal_C_0",
-    "Outer": "ITEM_Consumable_Meat_Mixed_Grill",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Mixed_Grill'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Mixed_Grill.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.GE_MeatyMeal_C'",
     "Template": {
       "ObjectName": "GE_MeatyMeal_C'Default__GE_MeatyMeal_C'",

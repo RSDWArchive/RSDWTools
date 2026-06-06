@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Blueprint",
     "Name": "SpellModule_Blueprint_0",
-    "Outer": "USD_DetectOre",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_DetectOre'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/USD_DetectOre.4"
+    },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -27,7 +30,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_DetectOre",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_DetectOre'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/USD_DetectOre.4"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -53,7 +59,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_DetectOre",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_DetectOre'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/USD_DetectOre.4"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -89,7 +98,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_DetectOre",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_DetectOre'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/USD_DetectOre.4"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

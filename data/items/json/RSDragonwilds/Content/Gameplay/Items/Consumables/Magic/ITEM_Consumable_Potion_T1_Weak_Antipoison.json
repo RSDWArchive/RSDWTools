@@ -98,7 +98,10 @@
   {
     "Type": "GE_ClearBuildup_Poison_C",
     "Name": "GE_ClearBuildup_Poison_C_0",
-    "Outer": "ITEM_Consumable_Potion_T1_Weak_Antipoison",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T1_Weak_Antipoison'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Antipoison.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ClearBuildup_Poison.GE_ClearBuildup_Poison_C'",
     "Template": {
       "ObjectName": "GE_ClearBuildup_Poison_C'Default__GE_ClearBuildup_Poison_C'",
@@ -114,7 +117,10 @@
   {
     "Type": "GE_ResistBuildup_Poison_C",
     "Name": "GE_ResistBuildup_Poison_C_0",
-    "Outer": "ITEM_Consumable_Potion_T1_Weak_Antipoison",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T1_Weak_Antipoison'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Antipoison.0"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Poison.GE_ResistBuildup_Poison_C'",
     "Template": {
       "ObjectName": "GE_ResistBuildup_Poison_C'Default__GE_ResistBuildup_Poison_C'",

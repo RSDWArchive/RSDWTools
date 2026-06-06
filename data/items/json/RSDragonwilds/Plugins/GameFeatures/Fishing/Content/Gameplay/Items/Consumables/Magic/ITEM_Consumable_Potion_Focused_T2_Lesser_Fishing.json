@@ -90,9 +90,12 @@
     }
   },
   {
-    "Type": "UObject",
+    "Type": "GE_Potion_FocusedFishing_C",
     "Name": "GE_Potion_FocusedFishing_C_1",
-    "Outer": "ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing.0"
+    },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

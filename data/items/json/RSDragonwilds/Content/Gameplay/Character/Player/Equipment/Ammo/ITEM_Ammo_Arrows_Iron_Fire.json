@@ -2,7 +2,10 @@
   {
     "Type": "GE_Arrows_Burning_C",
     "Name": "GE_Arrows_Burning_C_0",
-    "Outer": "ITEM_Ammo_Arrows_Iron_Fire",
+    "Outer": {
+      "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Iron_Fire'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Fire.1"
+    },
     "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/FireArrows/GE_Arrows_Burning.GE_Arrows_Burning_C'",
     "Template": {
       "ObjectName": "GE_Arrows_Burning_C'Default__GE_Arrows_Burning_C'",

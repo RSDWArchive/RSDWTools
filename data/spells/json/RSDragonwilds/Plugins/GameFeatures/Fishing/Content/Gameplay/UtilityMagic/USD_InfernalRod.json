@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_InfernalRod",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_InfernalRod'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.5"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -21,7 +24,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_1",
-    "Outer": "USD_InfernalRod",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_InfernalRod'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.5"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -41,7 +47,10 @@
   {
     "Type": "SpellModule_ExpireAfterDuration",
     "Name": "SpellModule_ExpireAfterDuration_0",
-    "Outer": "USD_InfernalRod",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_InfernalRod'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.5"
+    },
     "Class": "UScriptClass'SpellModule_ExpireAfterDuration'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -56,7 +65,10 @@
   {
     "Type": "SpellModule_HeldEquipmentEffect",
     "Name": "SpellModule_HeldEquipmentEffect_0",
-    "Outer": "USD_InfernalRod",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_InfernalRod'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.5"
+    },
     "Class": "UScriptClass'SpellModule_HeldEquipmentEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -74,7 +86,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_InfernalRod",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_InfernalRod'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/UtilityMagic/USD_InfernalRod.5"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {

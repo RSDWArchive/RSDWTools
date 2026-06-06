@@ -2,7 +2,10 @@
   {
     "Type": "SpellModule_Blueprint",
     "Name": "SpellModule_Blueprint_0",
-    "Outer": "USD_Surge",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Surge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+    },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -28,7 +31,10 @@
   {
     "Type": "SpellModule_Cast",
     "Name": "SpellModule_Cast_0",
-    "Outer": "USD_Surge",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Surge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+    },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -54,7 +60,10 @@
   {
     "Type": "SpellModule_CostItems",
     "Name": "SpellModule_CostItems_0",
-    "Outer": "USD_Surge",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Surge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+    },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -90,7 +99,10 @@
   {
     "Type": "SpellModule_ExpireAfterDuration",
     "Name": "SpellModule_ExpireAfterDuration_0",
-    "Outer": "USD_Surge",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Surge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+    },
     "Class": "UScriptClass'SpellModule_ExpireAfterDuration'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -112,7 +124,10 @@
   {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
-    "Outer": "USD_Surge",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Surge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+    },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
