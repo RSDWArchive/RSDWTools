@@ -283,6 +283,10 @@
           "Builds",
         ]),
         " \u2014 ",
+        el("a", { href: "https://rsdwmodel.com", target: "_blank", rel: "noopener" }, [
+          "Model",
+        ]),
+        " \u2014 ",
         el("a", { href: "/" }, ["Tools"]),
       ]),
     ]);
