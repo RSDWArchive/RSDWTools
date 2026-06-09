@@ -279,6 +279,10 @@
           "Archive",
         ]),
         " \u2014 ",
+        el("a", { href: "https://rsdwbasebuilder.com/", target: "_blank", rel: "noopener" }, [
+          "BaseBuilder",
+        ]),
+        " \u2014 ",
         el("a", { href: "https://rsdwbuilds.com", target: "_blank", rel: "noopener" }, [
           "Builds",
         ]),
