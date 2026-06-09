@@ -337,11 +337,19 @@ html.rsdw body.rsdw-no-offset {
   display: none;
 }
 
+.rsdw-landing__tile[data-tool="dev-kit"] {
+  padding-block: 0.85rem;
+}
+
 .rsdw-landing__tile img {
   width: 36px;
   height: 36px;
   object-fit: contain;
   flex-shrink: 0;
+}
+
+.rsdw-landing__tile[data-tool="dev-kit"] img {
+  transform: scale(0.7);
 }
 
 .rsdw-landing__tile-label {
