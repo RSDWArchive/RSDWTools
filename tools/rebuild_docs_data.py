@@ -128,6 +128,7 @@ def main() -> int:
 
     run_step([python_exe, "tools/build_chest_item_catalog.py"], repo_root)
     run_step([python_exe, "tools/build_recipe_index.py"], repo_root)
+    run_step([python_exe, "tools/build_quest_catalog.py", "--archive-root", args.archive_root], repo_root)
     run_step([python_exe, "tools/build_spell_catalog.py"], repo_root)
     run_step([python_exe, "tools/build_mapdata_index.py"], repo_root)
     run_step([python_exe, "tools/export_docs_data_from_raw_core.py"], repo_root)

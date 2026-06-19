@@ -16,6 +16,7 @@ Required upstream inputs:
 - `E:\Github\RSDWArchive\<datasetVersion>`
 - `E:\Github\RSDWArchive\website\tools\LocationData`
 - `E:\Github\RSDWArchive\website\tools\LootData`
+- `E:\Github\RSDWArchive\website\tools\QuestData\QuestData.json`
 
 `datasetVersion` is read from `RSDWArchive\website\data.config.json`. By
 default, RSDWTools ingests from `E:\Github\RSDWArchive\<datasetVersion>`.
@@ -48,8 +49,8 @@ each batch. If the larger orchestrator needs centralized push control, use
 6. Push each created git batch when `--git-push-each` is present.
 
 `tools/rebuild_docs_data.py` runs ingest and the website data builders. It
-refreshes item catalogs, chest item catalogs, recipe data, spell data, map data,
-loot/location exports, and shared icons.
+refreshes item catalogs, chest item catalogs, recipe data, quest data, spell
+data, map data, loot/location exports, and shared icons.
 
 ## Produced Outputs
 
@@ -57,6 +58,7 @@ Primary generated outputs:
 
 - Website JSON under `website\data\`
 - Per-tool catalogs under `website\tools\*\data\`
+- Quest catalog under `website\tools\quest-editor\data\quests.json`
 - Generated item and skill icons under `website\shared\icons\`
 - Raw ingest manifest at `data\_ingest_manifest.json`
 - Git commit batches created by the pipeline command
@@ -87,6 +89,7 @@ Treat these as fatal for the larger orchestrator:
 - The resolved `E:\Github\RSDWArchive\<datasetVersion>` folder is missing.
 - The resolved archive dataset has no `json` directory.
 - `LocationData` or `LootData` is missing.
+- `QuestData\QuestData.json` is missing or invalid.
 - Git has staged changes before commit batching starts.
 - A changed file exceeds the git planner file limit.
 - Commit creation fails.

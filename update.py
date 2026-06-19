@@ -28,6 +28,7 @@ def clean_generated_data(repo_root: Path) -> None:
     generated_files = [
         repo_root / "website" / "tools" / "item-editor" / "data" / "catalog.json",
         repo_root / "website" / "tools" / "recipe-unlocker" / "data" / "recipes.json",
+        repo_root / "website" / "tools" / "quest-editor" / "data" / "quests.json",
         repo_root / "website" / "tools" / "spell-editor" / "data" / "spells.json",
         repo_root / "website" / "tools" / "character-editor" / "data" / "character_catalog.json",
         repo_root / "website" / "data" / "chest_item_catalog.json",

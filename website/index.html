@@ -49,7 +49,7 @@
           tile.rel = "noopener noreferrer";
         }
         var img = document.createElement("img");
-        img.src = t.icon;
+        img.src = t.landingIcon || t.icon;
         img.alt = "";
         var label = document.createElement("span");
         label.className = "rsdw-landing__tile-label";

@@ -10,6 +10,7 @@ reference tables for *RuneScape: Dragonwilds*. Sister site to
 - **Item Editor** — add, remove, modify items in your character save
 - **Spell Editor** — configure spellbooks and unlocked spells
 - **Recipe Unlocker** — browse all recipes and unlock them
+- **Quest Editor** — mark overall quest completion in a character save
 - **Enemy Drop Tables** — look up loot tables for any NPC
 - **Chest Drop Tables** — browse chest loot rolls by chest type
 
@@ -33,6 +34,7 @@ website/                       # GitHub Pages source (publish folder)
     ├── item-editor/           # index.html + item-editor.js + data/
     ├── spell-editor/          # index.html + spell-editor.js + data/ + assets/
     ├── recipe-unlocker/       # index.html + recipe-unlocker.js + data/
+    ├── quest-editor/          # index.html + quest-editor.js + data/
     ├── enemy-drop-tables/     # index.html + drop-tables.js
     └── chest-drop-tables/     # index.html + chest-drop-tables.js
 

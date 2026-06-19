@@ -25,6 +25,9 @@ Location and loot are imported from external generated outputs:
 - `E:\Github\RSDWArchive\website\tools\LocationData`
 - `E:\Github\RSDWArchive\website\tools\LootData`
 
+Quest metadata is imported from the generated archive output:
+- `E:\Github\RSDWArchive\website\tools\QuestData\QuestData.json`
+
 ## One-Command Rebuild
 ```
 python update.py
@@ -52,7 +55,7 @@ that version folder for ingest. Useful flags:
 
 `rebuild_docs_data.py` auto-detects RSDWArchive latest by default and runs
 ingest, item catalog, chest item catalog, recipe index, spell catalog, map
-index, and shared loot/location exports.
+index, quest catalog, and shared loot/location exports.
 
 `PlanGitCommits.py commit-batches` is a dry run unless `--execute` is passed.
 

@@ -49,6 +49,15 @@
       icon: "/shared/assets/tool-icons/recipe_unlocker.png",
     },
     {
+      id: "quest-editor",
+      name: "Quest Editor",
+      pageLabel: "Quest Editor",
+      desc: "Mark overall quest completion in your character save.",
+      href: "/tools/quest-editor/",
+      icon: "/shared/assets/tool-icons/Icon_Buff_LesserPotionMagic.png",
+      landingIcon: "/shared/assets/tool-icons/Icon_Buff_LesserPotionMagic.png",
+    },
+    {
       id: "enemy-drop-tables",
       name: "Enemy Drop Tables",
       pageLabel: "Enemy Drop Tables",

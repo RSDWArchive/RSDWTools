@@ -352,6 +352,11 @@ html.rsdw body.rsdw-no-offset {
   transform: scale(0.7);
 }
 
+.rsdw-landing__tile[data-tool="quest-editor"] img {
+  width: 36px;
+  height: 36px;
+}
+
 .rsdw-landing__tile-label {
   display: flex;
   flex-direction: column;

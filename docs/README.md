@@ -19,6 +19,7 @@ read-only browsers for recipes, spells, and drop tables.
 - `/tools/item-editor/` — add, remove, modify items in a character save.
 - `/tools/spell-editor/` — configure spellbooks and unlocked spells.
 - `/tools/recipe-unlocker/` — browse all recipes and toggle unlocks.
+- `/tools/quest-editor/` — mark overall quest completion in a character save.
 - `/tools/enemy-drop-tables/` — look up loot tables by NPC.
 - `/tools/chest-drop-tables/` — browse chest loot rolls.
 

@@ -1,0 +1,350 @@
+{
+  "version": "0.11.2.2",
+  "generatedAtUtc": "2026-06-19T20:26:22Z",
+  "quests": [
+    {
+      "persistence_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+      "internal_name": "Quest_DR_Black_Knight_Fortress",
+      "display_name": "Black Knight's Fortress",
+      "is_main_quest": true,
+      "quest_region": "Downdun_Reach",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "yrRZnkmro-IvH_OmZ3f-5A",
+      "internal_name": "dragon_slayer",
+      "display_name": "Dragon Slayer",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "luaLQEzPXjx9_ICiz5zkNg",
+      "internal_name": "ftue_fs2",
+      "display_name": "First Steps",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "AmuXOUitB08PYDCmdVA_Ug",
+      "internal_name": "ftue_gs",
+      "display_name": "First Steps",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "v9LCTEjS-igQFrq4bpvtsA",
+      "internal_name": "ftue_q1",
+      "display_name": "First Steps",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "7i8X403LNgw6uY-XK5OgnA",
+      "internal_name": "ftue_q7",
+      "display_name": "First Steps",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "xa8o60AbJZ23FymQeiH3bg",
+      "internal_name": "ftue_rtftj",
+      "display_name": "Getting Started",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "4lW6rU0i0js1e3qFEAVI4w",
+      "internal_name": "ftue_q5",
+      "display_name": "Ratcatcher",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "SDcUrkVqRiTKKEyzEh5DWw",
+      "internal_name": "ftue_rc",
+      "display_name": "Ratcatcher",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "YTzYzUk_2vcK4RSEwe-m3w",
+      "internal_name": "ftue_q2",
+      "display_name": "Right Tool for the Job",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "EWRW7Ux-jHohLEKQCrkJJw",
+      "internal_name": "ftue_q4",
+      "display_name": "Rune Mysteries",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "TgVnb0NCLvmEVRed59IgsQ",
+      "internal_name": "ftue_rm_prt1",
+      "display_name": "Rune Mysteries",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "zrqqFUNmx3lcF6umysJfvQ",
+      "internal_name": "ftue_rm_prt2",
+      "display_name": "Rune Mysteries",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "_8zxGkuJtgJeZgG_lEGXuw",
+      "internal_name": "ftue_q3",
+      "display_name": "Seeking Shelter",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "uftGB0es-CGrvXyPoxW31w",
+      "internal_name": "DeathQuestMain",
+      "display_name": "Withering Heights",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "2V1KS0R3XJX-UtiuP78EoA",
+      "internal_name": "Quest_SaradominStatue",
+      "display_name": "[PH] Saradomin Statue",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "O3ruOkgGHBqwIheSH_7BBg",
+      "internal_name": "Quest_AMelodyRemebered",
+      "display_name": "A Melody Remembered",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "4G_ph0XQeA1Nc72_CVO6HQ",
+      "internal_name": "ElderGarou",
+      "display_name": "A Room with a Garou",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "0WS3LUBsaPUDeuiPT_akhQ",
+      "internal_name": "Quest_AnimalMagnetism",
+      "display_name": "Animal Magnetism",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "2kXJ3kWFS38kZfmPnvUFXw",
+      "internal_name": "Quest_DR_Nevermore",
+      "display_name": "Biohazard",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "cZlfrUaPSsi4VfeVc6iIEw",
+      "internal_name": "Quest_CooksAssistant",
+      "display_name": "Cook's Assistant",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "Kdj6N0dEw05JjoyDP0pNvw",
+      "internal_name": "dog_days",
+      "display_name": "Dog Days",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "Fv3Rt0Dn18PT1DepNzEqtQ",
+      "internal_name": "FH_CollectorsCalling",
+      "display_name": "Doric's Quest",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "4QQuNkR6spTCXC6zj6VqxQ",
+      "internal_name": "FH_GhostQuest",
+      "display_name": "Even More Restless Ghosts",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "AsyEt0xjewNEzYmzr_kg_w",
+      "internal_name": "goblin_diplomacy",
+      "display_name": "Goblin Diplomacy",
+      "is_main_quest": false,
+      "quest_region": "Brynmoor",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "bsfNlkgT8D_Y5HCdCf-Seg",
+      "internal_name": "granite_mauled",
+      "display_name": "Granite Mauled",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "_L6IAEaHSVPnhhaTamBHBA",
+      "internal_name": "ftue_farm",
+      "display_name": "Growing Pains",
+      "is_main_quest": false,
+      "quest_region": "Brynmoor",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "xsgOzUS-M2iCLDe-XTDq3w",
+      "internal_name": "hearstrings",
+      "display_name": "Heartstrings",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "jP8SfEP3QLjisgaHyBzCPw",
+      "internal_name": "highlighting_the_problem",
+      "display_name": "Highlighting the Problem",
+      "is_main_quest": false,
+      "quest_region": "Brynmoor",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "4kbEAUJrs6mebhGkzFQxmA",
+      "internal_name": "FH_LettersForTheDead",
+      "display_name": "Letters For The Dead",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "KLBpt02O2AA_kaa_A8Av9w",
+      "internal_name": "FH_MirrorMirror",
+      "display_name": "Mirror Mirror",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "eKV5vkDqZH89aGWiY_T7GQ",
+      "internal_name": "restless_ghosts",
+      "display_name": "Restless Ghosts",
+      "is_main_quest": false,
+      "quest_region": "Brynmoor",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "kTD_70L2tJmsOiSW5iCYVw",
+      "internal_name": "Activity_Scarecrow_Scavenging",
+      "display_name": "Scarecrow Scavenging",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "Rov9uE687b2NkaKFCTFP3A",
+      "internal_name": "FH_WitherWard",
+      "display_name": "Seeking Salvation",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "8gKiWUPU3vW2sQesVHdrPA",
+      "internal_name": "Quest_DR_FTUE_Fishing",
+      "display_name": "Shrimp Catcher",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "db-ciknQnYrkNHuOcQXhkA",
+      "internal_name": "GreatBodyRobbery",
+      "display_name": "The Great Body Robbery",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "rai6k0UuXT_GPEixJM0boQ",
+      "internal_name": "FH_WitherBeast",
+      "display_name": "The Wild Hunt",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "wwEK50EPipTecO20yTquSQ",
+      "internal_name": "FH_NightoftheSpectralBoom",
+      "display_name": "Things That Go Boom In The Night",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "9Kod2UgSkm8YrJCwMgmAdQ",
+      "internal_name": "Quest_DR_SQ1_Wanted",
+      "display_name": "Wanted!",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "DSGuYE-gPNCI1yCzvZhT8Q",
+      "internal_name": "ftue_ws",
+      "display_name": "Warding Off Danger",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "WXRGL036pJRhAU-BWTZ_9g",
+      "internal_name": "FH_WhatRemainsIsWritten",
+      "display_name": "What Remains is Written",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "vxS7_kzdpGvmWKWwjqF7Jg",
+      "internal_name": "Quest_DR_WhatsTheirsIsMine",
+      "display_name": "What's Theirs is Mine",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "xmM520wY0W5Qw8qE3YnC5Q",
+      "internal_name": "whip_quest",
+      "display_name": "whip_quest",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    }
+  ]
+}
