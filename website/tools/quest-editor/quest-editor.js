@@ -18,7 +18,8 @@ let characterSource = null;
 let characterFileName = null;
 let characterFileHandle = null;
 let completedQuestIds = new Set();
-let pendingQuestIds = new Set();
+let pendingCompleteQuestIds = new Set();
+let pendingResetQuestIds = new Set();
 
 function setStatus(message, loaded) {
   if (!statusText || !statusBar || !statusIcon) {
@@ -44,11 +45,15 @@ function isComplete(quest) {
 }
 
 function isPending(quest) {
-  return pendingQuestIds.has(questId(quest));
+  return pendingCompleteQuestIds.has(questId(quest));
+}
+
+function isPendingReset(quest) {
+  return pendingResetQuestIds.has(questId(quest));
 }
 
 function checkedCount() {
-  return completedQuestIds.size + pendingQuestIds.size;
+  return completedQuestIds.size + pendingCompleteQuestIds.size - pendingResetQuestIds.size;
 }
 
 function characterName() {
@@ -75,9 +80,17 @@ function updateLoadedStatus(prefix) {
   }
   const total = allQuests.length;
   const complete = checkedCount();
-  const pending = pendingQuestIds.size;
-  const suffix = pending
-    ? `${complete}/${total} complete, ${pending} pending save`
+  const pendingComplete = pendingCompleteQuestIds.size;
+  const pendingReset = pendingResetQuestIds.size;
+  const pendingParts = [];
+  if (pendingComplete) {
+    pendingParts.push(`${pendingComplete} complete pending`);
+  }
+  if (pendingReset) {
+    pendingParts.push(`${pendingReset} reset pending`);
+  }
+  const suffix = pendingParts.length
+    ? `${complete}/${total} complete, ${pendingParts.join(", ")}`
     : `${complete}/${total} complete`;
   setStatus(`${prefix || characterName()}: ${suffix}`, true);
 }
@@ -95,19 +108,27 @@ function renderQuestRow(quest) {
   const id = questId(quest);
   const complete = isComplete(quest);
   const pending = isPending(quest);
+  const pendingReset = isPendingReset(quest);
   row.classList.toggle("quest-row--complete", complete);
   row.classList.toggle("quest-row--pending", pending);
+  row.classList.toggle("quest-row--reset", pendingReset);
 
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
-  checkbox.checked = complete || pending;
-  checkbox.disabled = complete || !characterSource;
+  checkbox.checked = (complete && !pendingReset) || pending;
+  checkbox.disabled = !characterSource;
   checkbox.dataset.questId = id;
   checkbox.addEventListener("change", () => {
-    if (checkbox.checked) {
-      pendingQuestIds.add(id);
+    if (complete) {
+      if (checkbox.checked) {
+        pendingResetQuestIds.delete(id);
+      } else {
+        pendingResetQuestIds.add(id);
+      }
+    } else if (checkbox.checked) {
+      pendingCompleteQuestIds.add(id);
     } else {
-      pendingQuestIds.delete(id);
+      pendingCompleteQuestIds.delete(id);
     }
     renderQuestLists();
     updateLoadedStatus(characterName());
@@ -131,7 +152,13 @@ function renderQuestRow(quest) {
 
   const state = document.createElement("span");
   state.className = "quest-row__state";
-  state.textContent = complete ? "Complete" : pending ? "Pending" : "Incomplete";
+  state.textContent = pendingReset
+    ? "Reset pending"
+    : complete
+      ? "Complete"
+      : pending
+        ? "Complete pending"
+        : "Incomplete";
   row.appendChild(state);
 
   return row;
@@ -221,9 +248,40 @@ function buildExportData() {
     return null;
   }
   const clone = JSON.parse(JSON.stringify(characterSource));
-  const questRows = ensureQuestProgress(clone);
+  let questRows = ensureQuestProgress(clone);
 
-  pendingQuestIds.forEach((id) => {
+  if (pendingResetQuestIds.size) {
+    questRows = questRows.filter(
+      (row) =>
+        !(
+          row &&
+          typeof row === "object" &&
+          pendingResetQuestIds.has(row.QuestId)
+        )
+    );
+    clone.QuestProgress.Quests = questRows;
+    if (Array.isArray(clone.QuestProgress.QuestLocations)) {
+      clone.QuestProgress.QuestLocations = clone.QuestProgress.QuestLocations.filter(
+        (row) =>
+          !(
+            row &&
+            typeof row === "object" &&
+            pendingResetQuestIds.has(row.QuestId)
+          )
+      );
+    }
+    if (
+      clone.QuestProgress.QuestTracked &&
+      pendingResetQuestIds.has(clone.QuestProgress.QuestTracked)
+    ) {
+      delete clone.QuestProgress.QuestTracked;
+    }
+  }
+
+  pendingCompleteQuestIds.forEach((id) => {
+    if (!id) {
+      return;
+    }
     const matches = questRows.filter(
       (row) => row && typeof row === "object" && row.QuestId === id
     );
@@ -254,7 +312,8 @@ function downloadJsonFile(data, filename) {
 function acceptSavedData(data, message) {
   characterSource = data;
   completedQuestIds = readCompletedQuestIds(data);
-  pendingQuestIds = new Set();
+  pendingCompleteQuestIds = new Set();
+  pendingResetQuestIds = new Set();
   renderQuestLists();
   updateLoadedStatus(message);
 }
@@ -319,7 +378,8 @@ function handleCharacterFile(text) {
     const data = JSON.parse(text);
     characterSource = data;
     completedQuestIds = readCompletedQuestIds(data);
-    pendingQuestIds = new Set();
+    pendingCompleteQuestIds = new Set();
+    pendingResetQuestIds = new Set();
     renderQuestLists();
     updateLoadedStatus(characterName());
   } catch (error) {

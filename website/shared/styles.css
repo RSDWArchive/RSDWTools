@@ -1010,12 +1010,21 @@ body.quest-editor-page {
   border-color: rgba(214, 183, 115, 0.72);
 }
 
+.quest-row--reset {
+  border-color: rgba(198, 96, 82, 0.72);
+  background: rgba(54, 25, 21, 0.68);
+}
+
 .quest-row--complete .quest-row__state {
   color: #bde2a6;
 }
 
 .quest-row--pending .quest-row__state {
   color: #f1d99f;
+}
+
+.quest-row--reset .quest-row__state {
+  color: #f2a096;
 }
 
 .item-grid {

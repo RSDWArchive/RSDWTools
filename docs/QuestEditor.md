@@ -22,9 +22,11 @@ Output:
 - A quest is complete when any matching row has `QuestState` set to `2`.
 
 ## Save Behavior
-- V1 is completion-only. Existing completed quests are locked in the UI.
-- Newly checked quests are saved by setting matching rows to `QuestState: 2`.
+- Checking an incomplete quest saves it by setting matching rows to
+  `QuestState: 2`.
 - If a checked quest has no existing row, the editor appends a minimal complete
   row with `QuestObjective: "None"`, empty `QuestInts`, and empty `QuestBools`.
-- The editor preserves `QuestLocations`, `QuestTracked`, metadata, GUID, and all
-  non-quest save sections.
+- Unchecking a completed quest resets it by removing matching rows from
+  `QuestProgress.Quests` and `QuestProgress.QuestLocations`.
+- If the reset quest is currently tracked, `QuestTracked` is removed.
+- The editor preserves metadata, GUID, and all non-quest save sections.
