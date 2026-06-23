@@ -1205,15 +1205,39 @@ function parseInventorySection(section) {
   return result;
 }
 
+function getInventoryContainer(character) {
+  const gameProgress = character?.GameProgress;
+  if (gameProgress && typeof gameProgress === "object" && !Array.isArray(gameProgress)) {
+    const hasNestedInventory =
+      gameProgress.Inventory || gameProgress.PersonalInventory || gameProgress.Loadout;
+    const hasTopLevelInventory =
+      character.Inventory || character.PersonalInventory || character.Loadout;
+    if (!hasNestedInventory && hasTopLevelInventory) {
+      return character;
+    }
+    return gameProgress;
+  }
+  return character;
+}
+
+function countInventoryItems(section) {
+  return Object.values(section ?? {}).filter((item) => item?.ItemData).length;
+}
+
 function handleCharacterFile(text) {
   try {
     const data = JSON.parse(text);
+    const inventoryContainer = getInventoryContainer(data);
     state.characterSource = data;
-    state.inventory = parseInventorySection(data.Inventory);
-    state.personalInventory = parseInventorySection(data.PersonalInventory);
-    state.loadout = parseInventorySection(data.Loadout);
+    state.inventory = parseInventorySection(inventoryContainer.Inventory);
+    state.personalInventory = parseInventorySection(inventoryContainer.PersonalInventory);
+    state.loadout = parseInventorySection(inventoryContainer.Loadout);
     setLoadUiState(true);
-    setStatus("Character loaded. Inventory slots are now visible.");
+    setStatus(
+      `Character loaded. ${countInventoryItems(state.inventory)} inventory, ` +
+        `${countInventoryItems(state.personalInventory)} personal, ` +
+        `${countInventoryItems(state.loadout)} equipped.`
+    );
     renderInventory();
   } catch (error) {
     setLoadUiState(false);
@@ -1226,22 +1250,27 @@ function buildExportData() {
     return null;
   }
   const clone = JSON.parse(JSON.stringify(state.characterSource));
+  const inventoryContainer = getInventoryContainer(clone);
   const inventorySection = buildInventorySection(
     state.inventory,
-    clone.Inventory,
+    inventoryContainer.Inventory,
     SLOT_LIMITS.inventory
   );
   const highestInventorySlot = getHighestSlotIndex(state.inventory);
   const existingInventoryMax = Number(inventorySection.MaxSlotIndex ?? 0);
   const nextInventoryMax = Math.max(existingInventoryMax, highestInventorySlot);
   inventorySection.MaxSlotIndex = Math.min(SLOT_LIMITS.inventory, nextInventoryMax);
-  clone.Inventory = inventorySection;
-  clone.PersonalInventory = buildPersonalInventorySection(
+  inventoryContainer.Inventory = inventorySection;
+  inventoryContainer.PersonalInventory = buildPersonalInventorySection(
     state.personalInventory,
-    clone.PersonalInventory,
+    inventoryContainer.PersonalInventory,
     SLOT_LIMITS.personal
   );
-  clone.Loadout = buildInventorySection(state.loadout, clone.Loadout, SLOT_LIMITS.loadout);
+  inventoryContainer.Loadout = buildInventorySection(
+    state.loadout,
+    inventoryContainer.Loadout,
+    SLOT_LIMITS.loadout
+  );
   return clone;
 }
 
