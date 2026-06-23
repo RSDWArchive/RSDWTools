@@ -4,20 +4,20 @@
     "display_name": "Personal Chest",
     "requirements": "",
     "cooldown": 5.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Construction_Access_Personal_Chest.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Construction.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Law",
         "count": 20,
         "display_name": "Law Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Law.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 15,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_accesspersonalchest"
@@ -27,20 +27,20 @@
     "display_name": "Axtral Projection",
     "requirements": "Logging Axe",
     "cooldown": 45.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Woodcutting_Axtral_Projection.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Woodcutting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       },
       {
         "item_id": "ITEM_Rune_Air",
         "count": 10,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       }
     ],
     "internal_name": "spell_axtralprojection"
@@ -50,20 +50,20 @@
     "display_name": "Bones to Peaches",
     "requirements": "",
     "cooldown": 3.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Cooking_Spell_BonesToPeaches.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Cooking.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 10,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_bonestopeaches"
@@ -83,14 +83,14 @@
     "display_name": "Confuse",
     "requirements": "",
     "cooldown": 120.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Magic_Spell_Confuse.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Magic.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 25,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_confuse"
@@ -100,20 +100,20 @@
     "display_name": "Spectral Arrows",
     "requirements": "2-Handed Bow.",
     "cooldown": 90.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Ranged_Spell_SpectralArrows.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Ranged.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 15,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       },
       {
         "item_id": "ITEM_Rune_Air",
         "count": 5,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       }
     ],
     "internal_name": "spell_corruptionarrows"
@@ -123,20 +123,20 @@
     "display_name": "Summon Elemental Spirits",
     "requirements": "",
     "cooldown": null,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Runecrafting_Spell_DetectAnimaVent.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_detectanimavents"
@@ -146,14 +146,14 @@
     "display_name": "Detect Ore (Alt)",
     "requirements": "",
     "cooldown": 30.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
+    "spell_icon": "T_Skill_Mining_Detect_Ore.png",
     "spell_tag_icon": "",
     "costs": [
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 5,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       }
     ],
     "internal_name": "spell_detectore_alt"
@@ -163,20 +163,20 @@
     "display_name": "Summon Stone Spirits",
     "requirements": "",
     "cooldown": null,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Mining_Detect_Ore.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_detectore"
@@ -186,20 +186,20 @@
     "display_name": "Divine Rock",
     "requirements": "",
     "cooldown": 120.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Mining_Spell_DivineRock.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 50,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 50,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       }
     ],
     "internal_name": "spell_divinerock"
@@ -219,20 +219,20 @@
     "display_name": "Enchant Weapon: Air",
     "requirements": "A held melee weapon",
     "cooldown": 90.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Air.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Air",
         "count": 15,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_enchantweapon_air"
@@ -242,20 +242,20 @@
     "display_name": "Enchant Weapon: Fire",
     "requirements": "A held melee weapon",
     "cooldown": 90.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Fire.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 15,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_enchantweapon_fire"
@@ -265,14 +265,14 @@
     "display_name": "Eye Of Oculus",
     "requirements": "",
     "cooldown": 3.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Construction_Eye_Of_Oculus.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Construction.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 3,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_eyeofoculus"
@@ -282,20 +282,20 @@
     "display_name": "Humidify",
     "requirements": "50 units of water (clean or dirty)",
     "cooldown": 45.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Farming_Humidity.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Farming.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Water",
         "count": 15,
         "display_name": "Water Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Water.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 10,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_humidify"
@@ -305,20 +305,20 @@
     "display_name": "Uproot",
     "requirements": "",
     "cooldown": 5.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Farming_Uproot.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Farming.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 10,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_harvest"
@@ -328,20 +328,20 @@
     "display_name": "Superheat",
     "requirements": "",
     "cooldown": null,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Artisan_Ferocious_Furnace.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Artisan.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 15,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       },
       {
         "item_id": "ITEM_Rune_Air",
         "count": 5,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       }
     ],
     "internal_name": "spell_ferociousfurnace"
@@ -351,14 +351,14 @@
     "display_name": "Fire Spirit",
     "requirements": "",
     "cooldown": 3.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Artisan_Fire_Spirit.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 10,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       }
     ],
     "internal_name": "spell_firespirit"
@@ -368,14 +368,14 @@
     "display_name": "Internal Alchemy",
     "requirements": "",
     "cooldown": 210.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Cooking_Spell_InternalAlchemy.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Cooking.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 10,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       }
     ],
     "internal_name": "spell_internalalchemy"
@@ -385,20 +385,20 @@
     "display_name": "Magical Mending",
     "requirements": "",
     "cooldown": 60.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Artisan_Magical_Mending.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Artisan.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 10,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 20,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_magicalmending"
@@ -418,20 +418,20 @@
     "display_name": "Trunk Totem",
     "requirements": "",
     "cooldown": 600.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Woodcutting_Spell_PileEmUp.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Woodcutting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 30,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       },
       {
         "item_id": "ITEM_Rune_Law",
         "count": 10,
         "display_name": "Law Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Law.png"
       }
     ],
     "internal_name": "spell_pileemup"
@@ -441,8 +441,8 @@
     "display_name": "Rapid Growth",
     "requirements": "",
     "cooldown": 60.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Mining_Detect_Ore.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [],
     "internal_name": "spell_rapidgrowth"
   },
@@ -451,20 +451,20 @@
     "display_name": "Rocksplosion",
     "requirements": "Pickaxe",
     "cooldown": 60.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Mining_Rocksplosian.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 30,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 15,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       }
     ],
     "internal_name": "spell_rocksplosion"
@@ -474,20 +474,20 @@
     "display_name": "Runes To Rune Essence",
     "requirements": "",
     "cooldown": 3.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Runecrafting_Spell_RuneToRuneEssence.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Water",
         "count": 5,
         "display_name": "Water Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Water.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_runestoruneessence"
@@ -498,13 +498,13 @@
     "requirements": "",
     "cooldown": 3.0,
     "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Ranged.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 20,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_shadowveil"
@@ -514,20 +514,20 @@
     "display_name": "Snare",
     "requirements": "",
     "cooldown": 60.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Ranged_Spell_Snare.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Ranged.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 15,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 10,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       }
     ],
     "internal_name": "spell_snaretrap"
@@ -537,20 +537,20 @@
     "display_name": "Splinter",
     "requirements": "",
     "cooldown": 45.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Woodcutting_Splinter.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Woodcutting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 5,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_splinter"
@@ -560,20 +560,20 @@
     "display_name": "Summon Shelter",
     "requirements": "",
     "cooldown": 15.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Construction_Summon_Shelter.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Construction.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 10,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_summonshelter"
@@ -583,20 +583,20 @@
     "display_name": "Surge",
     "requirements": "",
     "cooldown": 45.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Magic_Spell_Surge.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Magic.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Law",
         "count": 10,
         "display_name": "Law Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Law.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 10,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_surge"
@@ -606,14 +606,14 @@
     "display_name": "Tempest Shield",
     "requirements": "",
     "cooldown": 60.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Attack_Spell_Tempestshield.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Air",
         "count": 15,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       }
     ],
     "internal_name": "spell_tempestshield"
@@ -623,20 +623,20 @@
     "display_name": "Bark to Bones",
     "requirements": "Cast on a Tree",
     "cooldown": 300.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Artisan_Treequipment.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Artisan.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 10,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       },
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_barktobones"
@@ -676,14 +676,14 @@
     "display_name": "Windstep",
     "requirements": "",
     "cooldown": 3.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Runecrafting_Spell_Windstep.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Air",
         "count": 5,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       }
     ],
     "internal_name": "spell_windstep"
@@ -713,20 +713,20 @@
     "display_name": "USD_FishCyclone",
     "requirements": "Fishing Rod",
     "cooldown": 300.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Fishing_Spell_FishCyclone.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Fishing.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Air",
         "count": 15,
         "display_name": "Air Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Air.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
         "count": 5,
         "display_name": "Nature Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Nature.png"
       }
     ],
     "internal_name": "spell_fishcyclone"
@@ -736,20 +736,20 @@
     "display_name": "USD_FishingFrenzy",
     "requirements": "",
     "cooldown": 300.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Fishing_Spell_FishingFrenzy.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Fishing.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Water",
         "count": 15,
         "display_name": "Water Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Water.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
         "count": 5,
         "display_name": "Astral Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Astral.png"
       }
     ],
     "internal_name": "spell_fishingfrenzy"
@@ -759,14 +759,14 @@
     "display_name": "USD_InfernalRod",
     "requirements": "Fishing Rod Equipped",
     "cooldown": 180.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
-    "spell_tag_icon": "",
+    "spell_icon": "T_Skill_Fishing_Spell_InfernalRod.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Fishing.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Fire",
         "count": 50,
         "display_name": "Fire Rune",
-        "icon": ""
+        "icon": "T_Icon_Rune_Fire.png"
       }
     ],
     "internal_name": "spell_infernalrod"

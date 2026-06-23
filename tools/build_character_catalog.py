@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from icon_paths import extract_asset_reference, normalize_asset_path_to_png_rel
+
 
 SKILL_DISPLAY_ORDER = (
     "Woodcutting",
@@ -70,24 +72,7 @@ def pick_skill_entry(data: object) -> dict[str, Any] | None:
 
 
 def normalize_object_path(object_path: str) -> Path | None:
-    raw = str(object_path or "").strip()
-    if not raw:
-        return None
-    cleaned = raw.replace("\\", "/")
-    if cleaned.endswith(".0"):
-        cleaned = cleaned[:-2]
-    cleaned = cleaned.lstrip("/")
-    if not cleaned:
-        return None
-    parts = cleaned.split("/")
-    leaf = parts[-1]
-    if "." in leaf:
-        leaf = leaf.split(".")[0]
-    parts[-1] = leaf
-    rel = Path("/".join(parts))
-    if rel.suffix.lower() != ".png":
-        rel = rel.with_suffix(".png")
-    return rel
+    return normalize_asset_path_to_png_rel(object_path)
 
 
 def file_hash(path: Path) -> str:
@@ -199,11 +184,7 @@ def build_skill_catalog(
 
         icon_file = ""
         icon_props = props.get("Icon")
-        icon_path = (
-            (icon_props.get("ObjectPath") or "")
-            if isinstance(icon_props, dict)
-            else ""
-        )
+        icon_path = extract_asset_reference(icon_props)
         icon_abs = resolve_icon_abs(icon_path, icon_root, png_index)
         if icon_abs:
             icon_file = copy_icon(icon_abs, icons_dir)
@@ -213,11 +194,7 @@ def build_skill_catalog(
 
         tag_icon_file = ""
         tag_icon_props = props.get("TagIcon")
-        tag_icon_path = (
-            (tag_icon_props.get("ObjectPath") or "")
-            if isinstance(tag_icon_props, dict)
-            else ""
-        )
+        tag_icon_path = extract_asset_reference(tag_icon_props)
         tag_icon_abs = resolve_icon_abs(tag_icon_path, icon_root, png_index)
         if tag_icon_abs:
             tag_icon_file = copy_icon(tag_icon_abs, icons_dir)

@@ -6,6 +6,8 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from icon_paths import iter_asset_references, normalize_asset_path_to_png_rel
+
 
 JSON_SUFFIX = ".json"
 PNG_SUFFIX = ".png"
@@ -50,24 +52,7 @@ def is_icon_file(path: Path) -> bool:
 
 
 def normalize_object_path_to_png_rel(object_path: str) -> Path | None:
-    raw = str(object_path or "").strip()
-    if not raw:
-        return None
-    cleaned = raw.replace("\\", "/")
-    cleaned = cleaned.replace("RSDragonwilds/Content/", "")
-    cleaned = cleaned.rstrip(".0")
-    cleaned = cleaned.lstrip("/")
-    if not cleaned:
-        return None
-    parts = cleaned.split("/")
-    leaf = parts[-1]
-    if "." in leaf:
-        leaf = leaf.split(".")[0]
-    parts[-1] = leaf
-    rel = Path("/".join(parts))
-    if rel.suffix.lower() != PNG_SUFFIX:
-        rel = rel.with_suffix(PNG_SUFFIX)
-    return rel
+    return normalize_asset_path_to_png_rel(object_path)
 
 
 def iter_object_paths(value: object):
@@ -213,7 +198,7 @@ def discover_and_copy(
         except (OSError, json.JSONDecodeError):
             parsed = None
         if parsed is not None:
-            for object_path in iter_object_paths(parsed):
+            for object_path in iter_asset_references(parsed):
                 rel_png = normalize_object_path_to_png_rel(object_path)
                 if rel_png:
                     referenced_icon_rels.add(rel_png)

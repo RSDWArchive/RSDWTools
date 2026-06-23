@@ -5,6 +5,8 @@ import re
 from pathlib import Path
 from typing import Any
 
+from icon_paths import extract_asset_reference, normalize_asset_path_to_png_rel
+
 
 ITEM_ID_PATTERN = re.compile(r"(ITEM_[A-Za-z0-9_]+|DA_[A-Za-z0-9_]+)")
 
@@ -29,11 +31,7 @@ def extract_entry(data: list[dict[str, Any]]) -> dict[str, Any] | None:
 
 
 def resolve_object_path(object_path: str) -> Path | None:
-    if not object_path:
-        return None
-    cleaned = object_path.replace("RSDragonwilds/Content/", "")
-    cleaned = cleaned.rstrip(".0")
-    return Path(cleaned + ".png")
+    return normalize_asset_path_to_png_rel(object_path)
 
 
 def file_hash(path: Path) -> str:
@@ -133,7 +131,7 @@ def build_item_lookup(
                     or props.get("InternalName")
                     or item_id
                 )
-                icon_obj = props.get("Icon", {}).get("ObjectPath") or ""
+                icon_obj = extract_asset_reference(props.get("Icon"))
                 icon_file = ""
                 icon_abs = resolve_icon_abs(icon_obj, content_root, png_index)
                 if icon_abs and icon_abs.exists():

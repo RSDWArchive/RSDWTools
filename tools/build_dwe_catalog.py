@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from icon_paths import build_png_name_index, extract_asset_reference, resolve_png_reference
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_FILE = ROOT / "website" / "tools" / "item-editor" / "data" / "catalog.json"
@@ -67,16 +69,16 @@ def filter_tag(props: dict[str, Any]) -> str:
     return "Misc"
 
 
-def resolve_icon_abs(props: dict[str, Any], icon_root: Path) -> Path | None:
-    obj_path = ((props.get("Icon") or {}).get("ObjectPath") or "").strip()
-    if not obj_path:
-        return None
-    cleaned = obj_path.replace("RSDragonwilds/Content/", "").rstrip(".0")
-    stem = Path(cleaned).name
-    candidates = list(icon_root.rglob(f"{stem}.png"))
-    if not candidates:
-        return None
-    return candidates[0]
+def resolve_icon_abs(
+    props: dict[str, Any],
+    icon_root: Path,
+    png_index: dict[str, list[Path]],
+) -> Path | None:
+    return resolve_png_reference(
+        extract_asset_reference(props.get("Icon")),
+        icon_root,
+        png_index,
+    )
 
 
 def sha1_file(path: Path) -> str:
@@ -167,6 +169,7 @@ def is_equippable_ammo_row_type(item_type: str) -> bool:
 def build_catalog(data_root: Path, icon_root: Path, docs_icons_dir: Path) -> dict[str, Any]:
     tabs: dict[str, list[dict[str, Any]]] = {"bag": [], "rune": [], "ammo": [], "quest": []}
     fallback_icon_name = resolve_placeholder_icon(icon_root, docs_icons_dir)
+    png_index = build_png_name_index(icon_root)
 
     sources = [
         (data_root / "items", "ITEM_*.json"),
@@ -216,7 +219,7 @@ def build_catalog(data_root: Path, icon_root: Path, docs_icons_dir: Path) -> dic
             tag = filter_tag(props)
             tab_key, category = classify_tab_and_category(json_path, tag)
 
-            icon_abs = resolve_icon_abs(props, icon_root)
+            icon_abs = resolve_icon_abs(props, icon_root, png_index)
             icon_name = copy_icon(icon_abs, docs_icons_dir) if icon_abs else fallback_icon_name
             icon_path = f"/shared/icons/{icon_name}" if icon_name else ""
             source_path = json_path.as_posix()
