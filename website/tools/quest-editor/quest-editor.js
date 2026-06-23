@@ -209,8 +209,38 @@ function applyFilter(query) {
   renderQuestLists();
 }
 
+function questProgressHost(data) {
+  if (!data || typeof data !== "object") {
+    return null;
+  }
+  const gameProgress =
+    data.GameProgress &&
+    typeof data.GameProgress === "object" &&
+    !Array.isArray(data.GameProgress)
+      ? data.GameProgress
+      : null;
+  if (
+    gameProgress?.QuestProgress &&
+    typeof gameProgress.QuestProgress === "object"
+  ) {
+    return gameProgress;
+  }
+  if (data.QuestProgress && typeof data.QuestProgress === "object") {
+    return data;
+  }
+  return gameProgress || data;
+}
+
+function getQuestProgress(data) {
+  const host = questProgressHost(data);
+  if (!host?.QuestProgress || typeof host.QuestProgress !== "object") {
+    return null;
+  }
+  return host.QuestProgress;
+}
+
 function readCompletedQuestIds(data) {
-  const quests = data?.QuestProgress?.Quests;
+  const quests = getQuestProgress(data)?.Quests;
   if (!Array.isArray(quests)) {
     return new Set();
   }
@@ -224,13 +254,14 @@ function readCompletedQuestIds(data) {
 }
 
 function ensureQuestProgress(data) {
-  if (!data.QuestProgress || typeof data.QuestProgress !== "object") {
-    data.QuestProgress = {};
+  const host = questProgressHost(data) || data;
+  if (!host.QuestProgress || typeof host.QuestProgress !== "object") {
+    host.QuestProgress = {};
   }
-  if (!Array.isArray(data.QuestProgress.Quests)) {
-    data.QuestProgress.Quests = [];
+  if (!Array.isArray(host.QuestProgress.Quests)) {
+    host.QuestProgress.Quests = [];
   }
-  return data.QuestProgress.Quests;
+  return host.QuestProgress;
 }
 
 function minimalCompletedQuestRow(id) {
@@ -248,7 +279,8 @@ function buildExportData() {
     return null;
   }
   const clone = JSON.parse(JSON.stringify(characterSource));
-  let questRows = ensureQuestProgress(clone);
+  const questProgress = ensureQuestProgress(clone);
+  let questRows = questProgress.Quests;
 
   if (pendingResetQuestIds.size) {
     questRows = questRows.filter(
@@ -259,9 +291,9 @@ function buildExportData() {
           pendingResetQuestIds.has(row.QuestId)
         )
     );
-    clone.QuestProgress.Quests = questRows;
-    if (Array.isArray(clone.QuestProgress.QuestLocations)) {
-      clone.QuestProgress.QuestLocations = clone.QuestProgress.QuestLocations.filter(
+    questProgress.Quests = questRows;
+    if (Array.isArray(questProgress.QuestLocations)) {
+      questProgress.QuestLocations = questProgress.QuestLocations.filter(
         (row) =>
           !(
             row &&
@@ -271,10 +303,10 @@ function buildExportData() {
       );
     }
     if (
-      clone.QuestProgress.QuestTracked &&
-      pendingResetQuestIds.has(clone.QuestProgress.QuestTracked)
+      questProgress.QuestTracked &&
+      pendingResetQuestIds.has(questProgress.QuestTracked)
     ) {
-      delete clone.QuestProgress.QuestTracked;
+      delete questProgress.QuestTracked;
     }
   }
 
