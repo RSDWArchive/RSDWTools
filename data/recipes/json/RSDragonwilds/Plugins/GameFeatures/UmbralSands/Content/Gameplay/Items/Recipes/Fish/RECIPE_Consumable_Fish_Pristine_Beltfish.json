@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Fish_Pristine_Beltfish",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fish_Raw_Pristine_Beltfish'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Pristine_Beltfish"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Beltfish'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Beltfish"
+          },
+          "Count": 3
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Beltfish_Burnt'",
+          "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Beltfish_Burnt"
+        },
+        "Count": 3
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel1'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Fish.Pristine"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Fishing'",
+          "ObjectPath": "/Fishing/Gameplay/Progress/DT_XPEvents_Fishing"
+        },
+        "RowName": "Fishing_Cook_Fish_Base"
+      },
+      "PersistenceID": "xbdqtkdS_4lTIkOfxl9eFQ",
+      "InternalName": "recipe_fish_pristine_beltfish"
+    }
+  }
+]

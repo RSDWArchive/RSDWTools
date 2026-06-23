@@ -27,8 +27,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FarmersHat",
-        "SourceString": "Farmers' Hat",
-        "LocalizedString": "Farmers' Hat"
+        "SourceString": "Farmer's Hat",
+        "LocalizedString": "Farmer's Hat"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
@@ -37,15 +37,15 @@
         "LocalizedString": "A delightful piece of headwear, popular with those who toil the land. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Farmers_Hat'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Farmers_Hat.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Farmers_Hat.T_Icon_Farmers_Hat",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
         "SubPathString": ""
       },
       "PowerLevel": 1,
-      "Weight": 6.0,
+      "Weight": 2.0,
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

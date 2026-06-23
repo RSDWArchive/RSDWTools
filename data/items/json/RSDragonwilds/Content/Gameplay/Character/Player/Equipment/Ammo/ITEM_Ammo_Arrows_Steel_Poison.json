@@ -40,7 +40,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Arrows"
         ],
         "GameplayEffectsToApply": [
           {
@@ -72,16 +72,16 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "PoisonedSteelArrows",
-        "SourceString": "Arrows with tips forged from Steel coated in Weapon Poison.",
-        "LocalizedString": "Arrows with tips forged from Steel coated in Weapon Poison."
+        "SourceString": "Arrows with tips forged from steel coated in weapon poison.",
+        "LocalizedString": "Arrows with tips forged from steel coated in weapon poison."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arrow_Steel'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Arrow_Steel.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Arrow_Steel.T_Icon_Arrow_Steel",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Poison'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.T_Icon_Sml_Poison",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

@@ -37,8 +37,8 @@
         "LocalizedString": "A trusty lightsource - now in blue. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Tool_Torch'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Tool_Torch.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Torch_Flame_Blue.T_Icon_Torch_Flame_Blue",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Torch_1H_01/SM_Torch_1H_01.SM_Torch_1H_01",

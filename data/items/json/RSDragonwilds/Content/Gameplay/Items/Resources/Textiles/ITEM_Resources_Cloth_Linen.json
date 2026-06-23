@@ -22,8 +22,8 @@
         "LocalizedString": "A versatile textile used for crafting equipment and furniture. It is woven at a loom from linen thread."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Linen_Cloth'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Linen_Cloth.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Linen_Cloth.T_Icon_Resource_Linen_Cloth",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Linen_Cloth_01.SM_Linen_Cloth_01",
@@ -31,8 +31,8 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 1.5,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],

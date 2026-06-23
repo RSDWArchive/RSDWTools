@@ -22,8 +22,8 @@
         "LocalizedString": "A sketched map... but to what?"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Treasure_Map'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Treasure_Map.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Treasure_Map.T_Icon_Treasure_Map",
+        "SubPathString": ""
       },
       "bGoIntoHotbarOnPickup": false,
       "bCanBeDestroyed": false,

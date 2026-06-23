@@ -28,10 +28,16 @@
         {
           "Effect": {
             "ObjectName": "GE_Potion_FocusedFishing_C'ITEM_Consumable_Potion_Focused_T3_Fishing:GE_Potion_FocusedFishing_C_1'",
-            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.1"
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T3_Fishing:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "StandardFishingPotion",
@@ -41,16 +47,16 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "StandardFishingPotion",
-        "SourceString": "Increases XP gain for the Fishing skill. Made with irit and trout.",
-        "LocalizedString": "Increases XP gain for the Fishing skill. Made with irit and trout."
+        "SourceString": "Increases XP gain for the Fishing skill. ",
+        "LocalizedString": "Increases XP gain for the Fishing skill. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Turquoise'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Potion_Tier3_Turquoise"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Potion_Tier3_Turquoise.T_Icon_Potion_Tier3_Turquoise",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -76,8 +82,8 @@
             "LocalizedString": null
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_FocusedFishing'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedFishing.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedFishing.T_Icon_Buff_FocusedFishing",
+            "SubPathString": ""
           }
         }
       ],
@@ -88,6 +94,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Fishing'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Potion_FocusedFishing_C",

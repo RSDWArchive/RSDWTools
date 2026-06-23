@@ -22,8 +22,8 @@
         "LocalizedString": "Fine sand ground from sandstone, with the proper tools it can be made into glass in the Furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Ground_Sandstone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Sandstone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Sandstone.T_Icon_Resources_Ground_Sandstone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Sand/SM_Sand_01.SM_Sand_01",

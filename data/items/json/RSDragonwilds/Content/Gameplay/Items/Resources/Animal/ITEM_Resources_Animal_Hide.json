@@ -22,8 +22,8 @@
         "LocalizedString": "Gathered from big creatures, this hide is essential for crafting leather equipment."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Animal_Hide'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Hide.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Hide.T_Icon_Animal_Hide",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 2.0,
+      "Weight": 0.3,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

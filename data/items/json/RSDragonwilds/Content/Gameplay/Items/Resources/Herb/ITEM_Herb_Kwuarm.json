@@ -18,8 +18,8 @@
         "LocalizedString": "A bitter green bulb."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Kwarm_Herb'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Kwarm_Herb.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Kwarm_Herb.T_Icon_Kwarm_Herb",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

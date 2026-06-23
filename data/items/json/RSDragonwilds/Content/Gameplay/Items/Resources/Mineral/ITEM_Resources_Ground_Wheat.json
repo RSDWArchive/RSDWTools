@@ -22,8 +22,8 @@
         "LocalizedString": "Cultivated grains ground to a fine powder."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bag_of_flour'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Additional_Food_Icons/T_Icon_Bag_of_flour.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Additional_Food_Icons/T_Icon_Bag_of_flour.T_Icon_Bag_of_flour",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Sand/SM_Sand_01.SM_Sand_01",
@@ -33,12 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 0.3,
+      "Weight": 0.4,
       "Category": {
         "TagName": "Item.BuildingResource"
-      },
-      "WeightReductionTag": {
-        "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

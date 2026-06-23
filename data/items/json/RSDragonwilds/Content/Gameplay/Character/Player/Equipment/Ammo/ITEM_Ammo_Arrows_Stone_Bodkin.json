@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Arrows"
         ],
         "AdditionalDamageFraction": 0.5
       },
@@ -52,8 +52,8 @@
         "LocalizedString": "Arrows with tips of splintered stone."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arrows_Stone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Stone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Stone.T_Icon_Arrows_Stone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

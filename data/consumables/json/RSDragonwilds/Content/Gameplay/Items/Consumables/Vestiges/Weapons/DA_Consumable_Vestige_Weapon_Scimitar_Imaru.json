@@ -21,6 +21,13 @@
         "SourceString": "Study",
         "LocalizedString": "Study"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "VestigeScimitarImaru",
@@ -34,12 +41,12 @@
         "LocalizedString": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Imaru_Scimitarr'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Imaru_Scimitarr.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Imaru_Scimitarr.T_Icon_Imaru_Scimitarr",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_RewardingRewards_Vestige.T_RewardingRewards_Vestige",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

@@ -56,8 +56,8 @@
         "LocalizedString": "A small blade forged from bronze, suitable for close combat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dagger_Bronze_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Dagger_Bronze_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Dagger_Bronze_1H_01.T_Icon_Dagger_Bronze_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Bronze_1H_01/SM_Dagger_Bronze_1H_01.SM_Dagger_Bronze_1H_01",

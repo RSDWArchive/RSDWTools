@@ -18,12 +18,12 @@
         "LocalizedString": "One of three emblem keys required to unlock a statue."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Saradomin_Symbol'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.T_Icon_Saradomin_Symbol",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/SaradominTemple_Key/SM_TempleKey.SM_TempleKey",

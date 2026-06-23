@@ -26,7 +26,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -44,7 +45,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -62,7 +64,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -80,7 +83,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -98,7 +102,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -116,7 +121,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -134,25 +140,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Healing.ITEM_Consumable_Potion_T1_Weak_Healing",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -170,7 +159,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -188,7 +178,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "ItemUsageDelay": 0.5,
@@ -205,12 +196,12 @@
         "LocalizedString": "A cloth shoulder bag, grimy and poorly kept. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Goblin_Pack'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Goblin_Pack.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Goblin_Pack.T_Icon_Resources_Goblin_Pack",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Container'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Goblin_Napsack_01.SM_Goblin_Napsack_01",

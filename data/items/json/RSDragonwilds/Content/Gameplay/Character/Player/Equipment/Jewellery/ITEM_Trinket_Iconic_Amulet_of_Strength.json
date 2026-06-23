@@ -51,12 +51,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Trinket.AmuletOfStrength.FlavourText",
-        "SourceString": "An enchanted amulet favoured by warriors. ",
-        "LocalizedString": "An enchanted amulet favoured by warriors. "
+        "SourceString": "An enchanted amulet favoured by warriors.",
+        "LocalizedString": "An enchanted amulet favoured by warriors."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Amulet_of_Strength'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Strength.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Strength.T_Icon_Amulet_of_Strength",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -96,7 +96,10 @@
             "SourceString": "Increased MELEE DAMAGE",
             "LocalizedString": "Increased MELEE DAMAGE"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "4EKck0Gae8VbebeQZ0DANA",

@@ -78,8 +78,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GarouBow",
-        "SourceString": "With it's aerodynamic antlers, this bow is very popular with Garou scouts.",
-        "LocalizedString": "With it's aerodynamic antlers, this bow is very popular with Garou scouts."
+        "SourceString": "With it's aerodynamic antlers, this bow is very popular with garou scouts.",
+        "LocalizedString": "With it's aerodynamic antlers, this bow is very popular with garou scouts."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [
@@ -99,8 +99,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Longbor_Hunter_Stag'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Longbor_Hunter_Stag.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Longbor_Hunter_Stag.T_Icon_Longbor_Hunter_Stag",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Longbow_HunterStag_2H_01/SM_Longbow_HunterStag_2H_01.SM_Longbow_HunterStag_2H_01",

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Tea_Leaves",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 120.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "TeaLeaves",
+        "SourceString": "Tea Leaves",
+        "LocalizedString": "Tea Leaves"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Tea_Leaves_01.T_Icon_Tea_Leaves_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "Item.Farming.CompostableSuper",
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Type.Resource"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "zqqZoknd3VuU-Wu26LdVcg",
+      "InternalName": "res_herb_tea_leaves"
+    }
+  }
+]

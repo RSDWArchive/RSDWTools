@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Staff_PharaohsSceptre",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Staff/BP_Staff_PharaohsSceptre.BP_Staff_PharaohsSceptre_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PA_PharaohsSceptre_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/PharaohsSceptre/BP_PA_PharaohsSceptre_Special.0"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Staff_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/A_PlayerM_Idle_Staff_Poses.0"
+      },
+      "DamageMultiplier": 8.4,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_PharaohSceptre_ConfuseCost_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/PharaohSceptre/GE_PharaohSceptre_ConfuseCost.0"
+        }
+      ],
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Pharaohssceptre",
+        "SourceString": "Pharaoh's Sceptre",
+        "LocalizedString": "Pharaoh's Sceptre"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Pharaohssceptre",
+        "SourceString": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers.",
+        "LocalizedString": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_IconIcthlarin_Staff_01.T_IconIcthlarin_Staff_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/NPC/Icthlarin_Staff_01/SM_Icthlarin_Staff_01.SM_Icthlarin_Staff_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Staff"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Magic"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.PharoahsSceptre"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "pharaohsSceptreSpecial.Title",
+            "SourceString": "Sworn Servant",
+            "LocalizedString": "Sworn Servant"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "pharaohsSceptreSpecial.Description",
+            "SourceString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat. \r\nResummoning while your summon is still active will resummon it with the same HP as when dispelled.",
+            "LocalizedString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat. \r\nResummoning while your summon is still active will resummon it with the same HP as when dispelled."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "PharaohsSceptre.Boon.Title",
+            "SourceString": "Royal Mandate",
+            "LocalizedString": "Royal Mandate"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "PharaohsSceptre.Boon.Description",
+            "SourceString": "While holding the Sceptre, the wielder is able to use the CONFUSE spell WITHOUT CONSUMING RUNES.",
+            "LocalizedString": "While holding the Sceptre, the wielder is able to use the CONFUSE spell WITHOUT CONSUMING RUNES."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "PharaohsSceptre.Bane.Title",
+            "SourceString": "Hollow Vessel",
+            "LocalizedString": "Hollow Vessel"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "PharaohsSceptre.Bane.Description",
+            "SourceString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal.",
+            "LocalizedString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "bX9UBEoiAtt5nqa6myg-YA",
+      "InternalName": "weap_staff_Pharaohssceptre"
+    }
+  }
+]

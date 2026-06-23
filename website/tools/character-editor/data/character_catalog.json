@@ -139,8 +139,8 @@
       "internal_name": "skill_woodcutting",
       "skill_type": "ESkill::Woodcutting",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Woodcutting.png",
-      "tag_icon": "T_Icon_Tag_Skill_Woodcutting.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "Wf3i7Ha-B06DH719j1vtBw",
@@ -148,8 +148,8 @@
       "internal_name": "skill_artisan",
       "skill_type": "ESkill::Artisan",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Crafting.png",
-      "tag_icon": "T_Icon_Tag_Skill_Artisan.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "4pefO9k1lUqfA6mvHNi1SA",
@@ -157,8 +157,8 @@
       "internal_name": "skill_attack",
       "skill_type": "ESkill::Attack",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Attack.png",
-      "tag_icon": "T_Icon_Tag_Skill_Attack.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "waK-8EyQFQ2xEjCGYmuTRQ",
@@ -166,8 +166,8 @@
       "internal_name": "skill_construction",
       "skill_type": "ESkill::Construction",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Construction.png",
-      "tag_icon": "T_Icon_Tag_Skill_Construction.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "Tn7t6DQyX0-Q0cM5K7B90A",
@@ -175,8 +175,8 @@
       "internal_name": "skill_cooking",
       "skill_type": "ESkill::Cooking",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Cooking.png",
-      "tag_icon": "T_Icon_Tag_Skill_Cooking.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "PyUi-0LU_riFY46AnnFiWg",
@@ -184,8 +184,8 @@
       "internal_name": "skill_farming",
       "skill_type": "ESkill::Farming",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Farming.png",
-      "tag_icon": "T_Icon_Tag_Skill_Farming.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "vwY5IkQJJDwb2PKEfoc8MQ",
@@ -193,8 +193,8 @@
       "internal_name": "skill_fishing",
       "skill_type": "ESkill::Fishing",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Fishing.png",
-      "tag_icon": "T_Icon_Tag_Skill_Fishing.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "0hreSMRVXUihq9qjDO2CFA",
@@ -202,8 +202,8 @@
       "internal_name": "skill_magic",
       "skill_type": "ESkill::Magic",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Magic.png",
-      "tag_icon": "T_Icon_Tag_Skill_Magic.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "jqX0Gh6QI0GFFPCDFK_CJQ",
@@ -211,8 +211,8 @@
       "internal_name": "skill_mining",
       "skill_type": "ESkill::Mining",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Mining.png",
-      "tag_icon": "T_Icon_Tag_Skill_Mining.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "heq7u88Q2UuLXFqLGTVwQw",
@@ -220,8 +220,8 @@
       "internal_name": "skill_ranged",
       "skill_type": "ESkill::Ranged",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Ranged.png",
-      "tag_icon": "T_Icon_Tag_Skill_Ranged.png"
+      "icon": "",
+      "tag_icon": ""
     },
     {
       "id": "NOqC-z-2ckqi0El22qMFlw",
@@ -229,8 +229,8 @@
       "internal_name": "skill_runecrafting",
       "skill_type": "ESkill::Runecrafting",
       "max_level": 99,
-      "icon": "T_Notification_Skill_Runecrafting.png",
-      "tag_icon": "T_Icon_Tag_Skill_Runecrafting.png"
+      "icon": "",
+      "tag_icon": ""
     }
   ]
 }

@@ -22,8 +22,8 @@
         "LocalizedString": "Resource needed for teleportation.\r\n\r\nRunes are retained if you happen to die."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Rune_Law'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Law.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Law.T_Icon_Rune_Law",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",

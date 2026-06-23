@@ -21,10 +21,16 @@
         {
           "Effect": {
             "ObjectName": "GE_Potion_FocusedArtisan_C'ITEM_Consumable_Potion_Focused_T3_Artisan:GE_Potion_FocusedArtisan_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T3_Artisan:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FocusedArtisanPotion",
@@ -34,16 +40,16 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "StandardArtisanPotion",
-        "SourceString": "Increases XP gain for the Artisan skill. Made with irit and necrotic bonemeal.",
-        "LocalizedString": "Increases XP gain for the Artisan skill. Made with irit and necrotic bonemeal."
+        "SourceString": "Increases XP gain for the Artisan skill. ",
+        "LocalizedString": "Increases XP gain for the Artisan skill. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Clay'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Clay"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Clay.T_Icon_Potion_Tier3_Clay",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Artisan.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Artisan.T_Icon_Tag_Skill_Artisan",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -69,8 +75,8 @@
             "LocalizedString": "Grants a 30% XP BOOST for the ARTISAN Skill"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_FocusedArtisan'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedArtisan.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedArtisan.T_Icon_Buff_FocusedArtisan",
+            "SubPathString": ""
           }
         }
       ],
@@ -81,6 +87,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Artisan'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Potion_FocusedArtisan_C",

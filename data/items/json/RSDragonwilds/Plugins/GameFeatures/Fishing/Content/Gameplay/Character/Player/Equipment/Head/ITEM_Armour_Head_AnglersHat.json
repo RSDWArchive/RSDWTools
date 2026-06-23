@@ -60,8 +60,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Anglers_Hat'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Anglers_Hat"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Anglers_Hat.T_Icon_Anglers_Hat",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

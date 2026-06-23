@@ -42,8 +42,8 @@
         "LocalizedString": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Fishing.T_Icon_Cape_Skill_Fishing",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

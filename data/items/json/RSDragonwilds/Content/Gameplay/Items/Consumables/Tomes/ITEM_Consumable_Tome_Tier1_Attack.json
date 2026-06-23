@@ -29,12 +29,12 @@
         "LocalizedString": "A book filled with knowledge on the use of melee weapons. Awards a small amount of Attack XP. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Attack.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Attack.T_Icon_Skill_Tome_Attack",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.T_Icon_Tag_Skill_Attack",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Attack.SM_Skill_Tome_Attack",

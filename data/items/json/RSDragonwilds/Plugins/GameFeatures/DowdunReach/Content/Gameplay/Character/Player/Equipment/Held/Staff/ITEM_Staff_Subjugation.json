@@ -58,8 +58,8 @@
         "LocalizedString": "A powerful battlestaff, once owned and used by Archmage Alric."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Subjugation_Staff'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Subjugation_Staff"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Subjugation_Staff.T_Icon_Subjugation_Staff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Magic/Subjugation_Staff_2H_01/SM_Subjugation_Staff_2H_01.SM_Subjugation_Staff_2H_01",
@@ -95,7 +95,10 @@
             "SourceString": "Increased DAMAGE against DEMONS",
             "LocalizedString": "Increased DAMAGE against DEMONS"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "v7vIfkOdeCdyHqa8oMhdDQ",

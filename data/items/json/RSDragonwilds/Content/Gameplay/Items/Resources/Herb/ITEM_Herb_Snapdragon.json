@@ -18,8 +18,8 @@
         "LocalizedString": "A sweet-smelling herb used in restorative potions. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Snap_Dragon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Snap_Dragon.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Snap_Dragon.T_Icon_Resource_Snap_Dragon",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

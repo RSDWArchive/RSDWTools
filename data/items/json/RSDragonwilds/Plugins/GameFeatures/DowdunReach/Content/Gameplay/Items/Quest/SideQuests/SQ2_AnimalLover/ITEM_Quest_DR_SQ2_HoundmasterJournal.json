@@ -16,12 +16,12 @@
         "CultureInvariantString": "[PH] Journal entry from the Houndmaster, it describes their bond with the hounds they've nurtured and their love shared."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.T_Icon_Placeholder",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Env/Props/Env_Props/Library/SM_DR_Page_02.SM_DR_Page_02",

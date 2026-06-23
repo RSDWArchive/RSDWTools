@@ -22,8 +22,8 @@
         "LocalizedString": "A mysterious porous rock used as a base for powerful runes."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Rune_Essence'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Essence.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Essence.T_Icon_Rune_Essence",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Rune_Fragment/SM_RuneEssence_Fragment_01.SM_RuneEssence_Fragment_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 0.25,
+      "Weight": 0.2,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.RuneEssence"
       },

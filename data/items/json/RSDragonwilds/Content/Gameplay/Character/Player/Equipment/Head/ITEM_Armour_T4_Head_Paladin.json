@@ -38,8 +38,8 @@
         "LocalizedString": "A metal helm, worn by paladins in service to the church of Saradomin."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Paladin_s_Helmet'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Paladin_s_Helmet.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Paladin_s_Helmet.T_Icon_Paladin_s_Helmet",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

@@ -76,8 +76,8 @@
         "LocalizedString": "An agile Shortbow crafted from Willow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Willow_Shortbow'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_icon_Willow_Shortbow.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_icon_Willow_Shortbow.T_icon_Willow_Shortbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Shortbow_Willow_2H_01/SM_Shortbow_Willow_2H_01.SM_Shortbow_Willow_2H_01",

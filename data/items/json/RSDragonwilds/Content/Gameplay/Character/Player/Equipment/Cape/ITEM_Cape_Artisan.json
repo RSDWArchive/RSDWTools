@@ -38,8 +38,8 @@
         "LocalizedString": null
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_RoyalThaneCloak'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_RoyalThaneCloak.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_RoyalThaneCloak.T_Icon_Cape_RoyalThaneCloak",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -57,6 +57,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ArtisanSkillcape",
+            "SourceString": "Repairing gear costs no resources when this cape is worn.",
+            "LocalizedString": "Repairing gear costs no resources when this cape is worn."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "YE5XYUqrSVkPXp6byr7VMw",
       "InternalName": "armour_t4_cape_artisan",
       "bSoftDeleted": true

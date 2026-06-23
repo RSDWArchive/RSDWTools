@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from beasts in Fellhollow. Combined at the tannery to create hard leather."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Hard_Leather_Scraps'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather_Scraps.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather_Scraps.T_Icon_Hard_Leather_Scraps",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 0.3,
+      "Weight": 0.15,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

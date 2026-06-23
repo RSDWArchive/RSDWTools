@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_Contact_HelixCrystal_Complete",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "CrystalHelix.Name",
+        "SourceString": "Crystal Helix",
+        "LocalizedString": "Crystal Helix"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
+        "Key": "CrystalHelix.Desc",
+        "SourceString": "This is the fully restored Crystal Helix, which will grant passage through the magical barrier within the Kalphite Hive",
+        "LocalizedString": "This is the fully restored Crystal Helix, which will grant passage through the magical barrier within the Kalphite Hive"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Crystal_Helix.T_Icon_Crystal_Helix",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Marketplace/Crystals/Mesh/SM_Crystal_1.SM_Crystal_1",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "SxYBrEAYX94K2IO8AZRbIw",
+      "InternalName": "ITEM_Quest_Contact_HelixCrystal_Complete"
+    }
+  }
+]

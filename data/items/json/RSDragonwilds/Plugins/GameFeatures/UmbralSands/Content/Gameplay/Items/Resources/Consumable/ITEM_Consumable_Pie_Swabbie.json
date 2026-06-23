@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Pie_Swabbie",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "Pie_Swabbie"
+      },
+      "AmountToHealOnConsume": 220.0,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Pie_Swabbie:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Pie_Swabbie.1"
+        }
+      },
+      "AchievementGameplayTags": [
+        "Item.Food.Fish"
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PieSwabbie",
+        "SourceString": "Swabbie Pie",
+        "LocalizedString": "Swabbie Pie"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "PieSwabbie",
+        "SourceString": "A pie reserved for the less prestigious members of a ship's crew.",
+        "LocalizedString": "A pie reserved for the less prestigious members of a ship's crew."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "SourceFmt": {
+              "Namespace": "",
+              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
+              "SourceString": "+{NewHealAmount} Health",
+              "LocalizedString": "+{NewHealAmount} Health"
+            },
+            "Arguments": [
+              {
+                "ArgumentName": "NewHealAmount",
+                "ArgumentValue": {
+                  "Type": 3,
+                  "Value": 220.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Swabbyl_Pie.T_Icon_Swabbyl_Pie",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 1.5,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "jn-lBkTydrV69QC4jTEByA",
+      "InternalName": "food_pie_swabbie"
+    }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Pie_Swabbie'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Pie_Swabbie.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

@@ -126,12 +126,12 @@
       },
       "CooldownDuration": 3.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Placeholder_Active_Spells'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Placeholder/T_Skill_Placeholder_Active_Spells.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Placeholder/T_Skill_Placeholder_Active_Spells.T_Skill_Placeholder_Active_Spells",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.T_Icon_Tag_Skill_Ranged",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "TraceProfile": {

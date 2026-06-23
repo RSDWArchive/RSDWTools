@@ -126,12 +126,12 @@
       },
       "CooldownDuration": 3.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Artisan_Fire_Spirit'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Artisan/T_Skill_Artisan_Fire_Spirit.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Artisan/T_Skill_Artisan_Fire_Spirit.T_Skill_Artisan_Fire_Spirit",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Runecrafting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.T_Icon_Tag_Skill_Runecrafting",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "TraceProfile": {
@@ -140,6 +140,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourOrange'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourOrange.1"
       },
       "Modules": {
         "Modules": [

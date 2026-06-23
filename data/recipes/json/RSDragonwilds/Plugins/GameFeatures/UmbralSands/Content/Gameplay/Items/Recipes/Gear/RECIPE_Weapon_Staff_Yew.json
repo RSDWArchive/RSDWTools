@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Staff_Yew",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Refined_Obsidian'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Refined_Obsidian"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Infinity'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Infinity"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Gem_Dragonstone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Mineral/ITEM_Resources_Gem_Dragonstone"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Gypsum'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Gypsum"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Staff_Master'",
+            "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Master"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "piI_kU_00mgWRgu7ZwAnrw",
+      "InternalName": "recipe_staff_yew"
+    }
+  }
+]

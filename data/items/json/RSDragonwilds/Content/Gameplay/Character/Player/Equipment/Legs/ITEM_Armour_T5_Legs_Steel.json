@@ -35,12 +35,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelPlatelegs",
-        "SourceString": "Sturdy and well-made Steel leg armour for Melee users.",
-        "LocalizedString": "Sturdy and well-made Steel leg armour for Melee users."
+        "SourceString": "Sturdy and well-made steel leg armour for melee users.",
+        "LocalizedString": "Sturdy and well-made steel leg armour for melee users."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Legs'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Legs.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Legs.T_icon_Steel_Legs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

@@ -4,12 +4,12 @@
     "Name": "DominionShape_Sphere_0",
     "Outer": {
       "ObjectName": "SpellModule_Shape'USD_Splinter:SpellModule_Shape_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.5"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.6"
     },
     "Class": "UScriptClass'DominionShape_Sphere'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Radius": 150.0
+      "Radius": 230.0
     }
   },
   {
@@ -110,6 +110,38 @@
     }
   },
   {
+    "Type": "SpellModule_DamageByEquipment",
+    "Name": "SpellModule_DamageByEquipment_1",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Splinter'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+    },
+    "Class": "UScriptClass'SpellModule_DamageByEquipment'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EquipmentCategory": {
+        "TagName": "Item.Equipment.Tool.Hatchet"
+      },
+      "DamageStrategy": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SDS_Splinter_SpellDamage_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/BP_SDS_Splinter_SpellDamage.0"
+      },
+      "DamageTypes": [
+        "DamageType.Spell.Splinter"
+      ],
+      "DamageClass": "EDamageClass::None",
+      "CollisionModule": {
+        "ModuleName": "Collision"
+      },
+      "ModuleName": "DamageByEquipment",
+      "Triggers": {
+        "CollisionRef": {
+          "ModuleName": "Collision"
+        }
+      }
+    }
+  },
+  {
     "Type": "SpellModule_PlayMontage",
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
@@ -144,110 +176,6 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.0"
       },
       "ModuleName": "Shape"
-    }
-  },
-  {
-    "Type": "SpellModule_TransmuteDestructible",
-    "Name": "SpellModule_TransmuteDestructible_0",
-    "Outer": {
-      "ObjectName": "UtilitySpellData'USD_Splinter'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
-    },
-    "Class": "UScriptClass'SpellModule_TransmuteDestructible'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "TransmutationTargetFilters": [
-        {
-          "ActorClassFilters": [
-            {
-              "ObjectName": "Class'TreeLog'",
-              "ObjectPath": "/Script/Dominion"
-            }
-          ],
-          "ActorFilter": {
-            "ObjectName": "BlueprintGeneratedClass'BP_TTFS_WholeLog_C'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/TransmutationTargetFilterStrategies/BP_TTFS_WholeLog.0"
-          },
-          "ReplacementItemsToDrop": [],
-          "AdditionalItemsToDrop": [],
-          "TransmuteXpEvent": {
-            "DataTable": {
-              "ObjectName": "DataTable'DT_XPEvents_Spells'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
-            },
-            "RowName": "Transmute_Splinter_WholeLog"
-          }
-        },
-        {
-          "ActorClassFilters": [
-            {
-              "ObjectName": "Class'TreeLog'",
-              "ObjectPath": "/Script/Dominion"
-            }
-          ],
-          "ActorFilter": {
-            "ObjectName": "BlueprintGeneratedClass'BP_TTFS_ThreeQuarterLog_C'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/TransmutationTargetFilterStrategies/BP_TTFS_ThreeQuarterLog.0"
-          },
-          "ReplacementItemsToDrop": [],
-          "AdditionalItemsToDrop": [],
-          "TransmuteXpEvent": {
-            "DataTable": {
-              "ObjectName": "DataTable'DT_XPEvents_Spells'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
-            },
-            "RowName": "Transmute_Splinter_ThreeQuarterLog"
-          }
-        },
-        {
-          "ActorClassFilters": [
-            {
-              "ObjectName": "Class'TreeLog'",
-              "ObjectPath": "/Script/Dominion"
-            }
-          ],
-          "ActorFilter": {
-            "ObjectName": "BlueprintGeneratedClass'BP_TTFS_HalfLog_C'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/TransmutationTargetFilterStrategies/BP_TTFS_HalfLog.0"
-          },
-          "ReplacementItemsToDrop": [],
-          "AdditionalItemsToDrop": [],
-          "TransmuteXpEvent": {
-            "DataTable": {
-              "ObjectName": "DataTable'DT_XPEvents_Spells'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
-            },
-            "RowName": "Transmute_Splinter_HalfLog"
-          }
-        },
-        {
-          "ActorClassFilters": [
-            {
-              "ObjectName": "Class'TreeLog'",
-              "ObjectPath": "/Script/Dominion"
-            }
-          ],
-          "ActorFilter": {
-            "ObjectName": "BlueprintGeneratedClass'BP_TTDS_QuarterLog_C'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/TransmutationTargetFilterStrategies/BP_TTDS_QuarterLog.0"
-          },
-          "ReplacementItemsToDrop": [],
-          "AdditionalItemsToDrop": [],
-          "TransmuteXpEvent": {
-            "DataTable": {
-              "ObjectName": "DataTable'DT_XPEvents_Spells'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
-            },
-            "RowName": "Transmute_Splinter_QuarterLog"
-          }
-        }
-      ],
-      "ModuleName": "TransmuteDestructible_Logs",
-      "Triggers": {
-        "CollisionRef": {
-          "ModuleName": "Collision"
-        }
-      }
     }
   },
   {
@@ -287,12 +215,12 @@
       ],
       "CooldownDuration": 45.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Woodcutting_Splinter'",
-        "ObjectPath": "/Game/Art/UI/Skills/Icons/Unlock/Woodcutting/T_Skill_Woodcutting_Splinter"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Woodcutting/T_Skill_Woodcutting_Splinter.T_Skill_Woodcutting_Splinter",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.T_Icon_Tag_Skill_Woodcutting",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "CastType": "EUtilitySpellCastType::Placed",
@@ -312,12 +240,16 @@
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
       },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourGreen'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen.1"
+      },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_Splinter:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.4"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.5"
             }
           },
           {
@@ -340,12 +272,6 @@
           },
           {
             "Module": {
-              "ObjectName": "SpellModule_TransmuteDestructible'USD_Splinter:SpellModule_TransmuteDestructible_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.6"
-            }
-          },
-          {
-            "Module": {
               "ObjectName": "SpellModule_CostItems'USD_Splinter:SpellModule_CostItems_0'",
               "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.3"
             }
@@ -353,7 +279,13 @@
           {
             "Module": {
               "ObjectName": "SpellModule_Shape'USD_Splinter:SpellModule_Shape_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.5"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.6"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_DamageByEquipment'USD_Splinter:SpellModule_DamageByEquipment_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.4"
             }
           }
         ]

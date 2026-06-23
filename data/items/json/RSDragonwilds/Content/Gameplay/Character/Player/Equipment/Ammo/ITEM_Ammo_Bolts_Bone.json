@@ -32,7 +32,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Bolts"
         ],
         "GameplayEffectsToApply": [
           {
@@ -69,12 +69,12 @@
         "LocalizedString": "Lightweight, but very sharp. Can be fired using the Dorgeshuun Crossbow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bone_Bolt'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Bone_Bolt.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Bone_Bolt.T_Icon_Bone_Bolt",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.T_Icon_Sml_Bleed",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",
@@ -107,7 +107,10 @@
             "SourceString": "HITS cause BLEED build up on targets",
             "LocalizedString": "HITS cause BLEED build up on targets"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "DOsOLkIUyXaO8-yRed2iUg",

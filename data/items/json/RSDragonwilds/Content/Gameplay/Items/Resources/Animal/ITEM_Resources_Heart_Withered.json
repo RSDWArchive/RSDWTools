@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from withered enemies. Used as a crafting ingredient."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_WitherHeart'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_WitherHeart.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_WitherHeart.T_Icon_WitherHeart",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wither_Heart_01/SM_Wither_Heart_01.SM_Wither_Heart_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 10.0,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

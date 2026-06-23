@@ -39,12 +39,12 @@
         "LocalizedString": "Pointy! \r\n\r\nUsed to craft Barbed Arrows or to coat your equipped melee weapon with barbs, causing Bleed buildup for a short duration."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Weapon_Barbs2'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Weapon_Barbs2.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Barbs2.T_Icon_Weapon_Barbs2",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.T_Icon_Sml_Bleed",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

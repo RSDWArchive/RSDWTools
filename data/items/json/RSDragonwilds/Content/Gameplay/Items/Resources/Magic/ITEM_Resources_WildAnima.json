@@ -1,10 +1,11 @@
 [
   {
-    "Type": "ItemData",
+    "Type": "FuelItemData",
     "Name": "ITEM_Resources_WildAnima",
-    "Class": "UScriptClass'ItemData'",
+    "Class": "UScriptClass'FuelItemData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "FuelValue": 800.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
@@ -22,8 +23,8 @@
         "LocalizedString": "Raw magical essence, extremely useful in magical recipes and equipment. Refined by herblore masters from Anima-Infused Bark."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Anima_Wild_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Start/T_Icon_Anima_Wild_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Start/T_Icon_Anima_Wild_01.T_Icon_Anima_Wild_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Anima_Wild/SM_Anima_Wild_01.SM_Anima_Wild_01",
@@ -31,7 +32,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 2.0,
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.WildAnima"

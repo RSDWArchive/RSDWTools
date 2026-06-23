@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_KutPack",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Items to Drop": [
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Elder_Curiosities.ITEM_Resources_Elder_Curiosities",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 3,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Obsidian_Device.ITEM_Resources_Obsidian_Device",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.2,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.ITEM_Rune_Essence",
+            "SubPathString": ""
+          },
+          "MinToDrop": 5,
+          "MaxToDrop": 10,
+          "MaximumGrouping": 10,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
+        }
+      ],
+      "ItemUsageDelay": 0.5,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KutPack",
+        "SourceString": "Kot Pack",
+        "LocalizedString": "Kot Pack"
+      },
+      "FlavourText": {
+        "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+        "Key": "KotPack",
+        "SourceString": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves.",
+        "LocalizedString": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kothaar_Pack.T_Icon_Kothaar_Pack",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Crystal_01/SM_Crystal_01.SM_Crystal_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Container"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Packs"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
+      },
+      "PersistenceID": "sH2kLkPI7HM-Fr67B5jIDQ",
+      "InternalName": "item_pack_kut",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  }
+]

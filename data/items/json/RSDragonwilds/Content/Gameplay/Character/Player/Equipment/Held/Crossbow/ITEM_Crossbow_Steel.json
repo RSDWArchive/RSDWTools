@@ -65,12 +65,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelCrossbow",
-        "SourceString": "A 1-Handed Crossbow made from Steel.",
-        "LocalizedString": "A 1-Handed Crossbow made from Steel."
+        "SourceString": "A 1-Handed crossbow made from steel.",
+        "LocalizedString": "A 1-Handed crossbow made from steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Crossbow'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Crossbow.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Crossbow.T_icon_Steel_Crossbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Crossbow_Steel_1H_01/SM_Crossbow_Steel_1H_01.SM_Crossbow_Steel_1H_01",

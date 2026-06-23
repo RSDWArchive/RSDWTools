@@ -38,8 +38,8 @@
         "LocalizedString": "An artistic, if unusual, cape."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Spectral_chinchompa_Cape'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_chinchompa_Cape.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_chinchompa_Cape.T_Icon_Spectral_chinchompa_Cape",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

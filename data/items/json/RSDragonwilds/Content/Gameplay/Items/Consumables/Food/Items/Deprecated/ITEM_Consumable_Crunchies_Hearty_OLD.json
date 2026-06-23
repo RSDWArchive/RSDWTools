@@ -18,11 +18,12 @@
       },
       "VitalShieldRowHandle": {
         "DataTable": {
-          "ObjectName": "DataTable'DT_VitalShield_V2'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield_V2.0"
+          "ObjectName": "GridlyDataTable'DT_VitalShield'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield.0"
         },
         "RowName": "T1_Minimal_VS_10"
       },
+      "AmountToHealOnConsume": 70.0,
       "DurationMultiplierAttribute": null,
       "ConsumeXpEvent": {
         "DataTable": {
@@ -31,7 +32,13 @@
         },
         "RowName": "Consume_Tier1_Food"
       },
-      "Duration": 0.0,
+      "Duration": 0.1,
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Crunchies_Hearty_OLD:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_Crunchies_Hearty_OLD.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "HeartyCrunchies",
@@ -44,13 +51,38 @@
         "SourceString": "Yum! Smells delicious!",
         "LocalizedString": "Yum! Smells delicious!"
       },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "SourceFmt": {
+              "Namespace": "",
+              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
+              "SourceString": "+{NewHealAmount} Health",
+              "LocalizedString": "+{NewHealAmount} Health"
+            },
+            "Arguments": [
+              {
+                "ArgumentName": "NewHealAmount",
+                "ArgumentValue": {
+                  "Type": 3,
+                  "Value": 70.0
+                }
+              }
+            ]
+          }
+        }
+      ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Hearty_Crunchies'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Hearty_Crunchies.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Hearty_Crunchies.T_Icon_Hearty_Crunchies",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
@@ -84,5 +116,19 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Crunchies_Hearty_OLD'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_Crunchies_Hearty_OLD.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

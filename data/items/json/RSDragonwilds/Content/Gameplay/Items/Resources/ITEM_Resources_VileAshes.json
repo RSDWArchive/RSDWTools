@@ -22,8 +22,8 @@
         "LocalizedString": "Remains of a demonic creature. A crafting material used to make demonic oil. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Vile_Ashes'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Vile_Ashes"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Vile_Ashes.T_Icon_Vile_Ashes",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Vile_Ash/SM_Vile_Ash_01.SM_Vile_Ash_01",

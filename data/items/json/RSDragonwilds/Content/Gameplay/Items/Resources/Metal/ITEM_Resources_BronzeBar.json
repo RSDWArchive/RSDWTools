@@ -22,8 +22,8 @@
         "LocalizedString": "A versatile crafting material, smelted from copper and tin bars."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Bronze'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Bronze.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Bronze.T_Icon_Resource_Bar_Bronze",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Bronze_01.SM_Ingot_Bronze_01",
@@ -31,10 +31,14 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 4.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ingot"
+      },
       "ItemFilterTags": [
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Metal"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

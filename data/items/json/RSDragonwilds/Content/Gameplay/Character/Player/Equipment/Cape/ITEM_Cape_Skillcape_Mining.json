@@ -21,6 +21,12 @@
         "RowName": "Cape_Adventurers_Black"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Skillcape_Mining_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SkillCapes/GE_Skillcape_Mining.0"
+        }
+      ],
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Mining_Skillcape'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Mining/PerkV2_Mining_Skillcape.0"
@@ -42,8 +48,8 @@
         "LocalizedString": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Mining'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Mining"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Mining.T_Icon_Cape_Skill_Mining",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -61,6 +67,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "MiningSkillcape",
+            "SourceString": "You have a small chance to instantly finish mining an ore rock.",
+            "LocalizedString": "You have a small chance to instantly finish mining an ore rock."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "ombTOkWnPt1RdyKucOTA3A",
       "InternalName": "armour_t0_cape_skillcape_mining"
     }

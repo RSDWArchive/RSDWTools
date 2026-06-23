@@ -51,12 +51,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelSword",
-        "SourceString": "For fighting monsters and swearing Oaths.",
-        "LocalizedString": "For fighting monsters and swearing Oaths."
+        "SourceString": "For fighting monsters and swearing oaths.",
+        "LocalizedString": "For fighting monsters and swearing oaths."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_1H_Sword'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Sword.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Sword.T_icon_Steel_1H_Sword",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Sword_Steel_1H_01/SM_Sword_Steel_1H_01.SM_Sword_Steel_1H_01",

@@ -69,6 +69,10 @@
         }
       ],
       "bUseMagicAmmo": false,
+      "ItemCostMultiplierAttribute": {
+        "ObjectName": "Class'ConfuseRuneCostMultiplierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "ModuleName": "CostItems",
       "Triggers": {
         "PlayMontageRef": {
@@ -115,12 +119,12 @@
       },
       "CooldownDuration": 120.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Magic_Spell_Confuse'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Confuse.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Confuse.T_Skill_Magic_Spell_Confuse",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "CastType": "EUtilitySpellCastType::Aimed",
@@ -146,6 +150,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourPink'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink.1"
       },
       "Modules": {
         "Modules": [

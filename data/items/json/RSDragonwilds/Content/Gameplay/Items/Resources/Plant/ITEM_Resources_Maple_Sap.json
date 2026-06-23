@@ -22,8 +22,8 @@
         "LocalizedString": "Harvested from maple trees. An ingredient that can be cooked on a campfire."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Maple_Sap'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Sap"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Sap.T_Icon_Maple_Sap",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 999,
+      "MaxStackSize": 99,
       "PowerLevel": 4,
       "bCanBeDestroyed": false,
       "Weight": 2.0,

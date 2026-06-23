@@ -37,15 +37,15 @@
         "LocalizedString": "The only thing this protects is your identity."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bag_o__Noggin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Bag_o__Noggin.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Bag_o__Noggin.T_Icon_Bag_o__Noggin",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
         "SubPathString": ""
       },
       "PowerLevel": 1,
-      "Weight": 2.0,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

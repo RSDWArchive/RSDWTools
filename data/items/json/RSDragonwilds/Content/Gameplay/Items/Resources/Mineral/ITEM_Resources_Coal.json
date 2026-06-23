@@ -22,8 +22,8 @@
         "LocalizedString": "Typically found in rocky areas and caves. Combine with metal ores at an upgraded smelter to create higher tiered metal bars."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Coal'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Coal.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Coal.T_Icon_Coal",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Mining_Nodes/Coal/SM_Mining_Ore_Coal_02.SM_Mining_Ore_Coal_02",
@@ -40,7 +40,9 @@
         "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"

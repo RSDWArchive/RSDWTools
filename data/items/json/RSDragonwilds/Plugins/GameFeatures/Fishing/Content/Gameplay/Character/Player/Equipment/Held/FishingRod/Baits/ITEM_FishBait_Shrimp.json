@@ -27,12 +27,12 @@
         "LocalizedString": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shrimp_Bait'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Bait_Icons/T_Icon_Shrimp_Bait"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Bait_Icons/T_Icon_Shrimp_Bait.T_Icon_Shrimp_Bait",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",

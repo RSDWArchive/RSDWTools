@@ -71,8 +71,8 @@
         "LocalizedString": "A crossbow made from black metal. Similar to those used by Black Knight snipers."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Sniper_Crossbow'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Sniper_Crossbow"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Sniper_Crossbow.T_Icon_Black_Sniper_Crossbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Black_Knight_Ranged_Crossbow_1H_01/SM_M_MED_Black_Knight_Ranged_Crossbow_1H_01.SM_M_MED_Black_Knight_Ranged_Crossbow_1H_01",
@@ -108,7 +108,10 @@
             "SourceString": "Increased WEAK POINT damage. Slower FIRE RATE",
             "LocalizedString": "Increased WEAK POINT damage. Slower FIRE RATE"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "H95eaEnwm89xf7GyHBhdsQ",

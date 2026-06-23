@@ -21,6 +21,12 @@
         "RowName": "Cape_Adventurers_Black"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Skillcape_Runecrafting_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SkillCapes/GE_Skillcape_Runecrafting.0"
+        }
+      ],
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Runecrafting_Skillcape'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Runecrafting/PerkV2_Runecrafting_Skillcape.0"
@@ -42,8 +48,8 @@
         "LocalizedString": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Runecrafting'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Runecrafting"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Runecrafting.T_Icon_Cape_Skill_Runecrafting",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

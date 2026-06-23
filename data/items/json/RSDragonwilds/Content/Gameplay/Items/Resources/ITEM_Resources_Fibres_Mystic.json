@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from Zamorak magi. Can be spun at a spinning wheel into mystic thread."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mystic_Fibres'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Fibres"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Fibres.T_Icon_Mystic_Fibres",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Corpse_Cotton/SM_Corpse_Cotton.SM_Corpse_Cotton",
@@ -31,8 +31,8 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 0.6,
+      "MaxStackSize": 99,
+      "Weight": 0.1,
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth.Thread"
       },

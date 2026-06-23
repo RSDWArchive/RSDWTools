@@ -55,8 +55,8 @@
         "LocalizedString": "The sword of a Goblin Chieftan, used to spread war in the name of the Big High War God."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Sword_Chieftain_s_Blade'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Sword_Chieftain_s_Blade.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Sword_Chieftain_s_Blade.T_Icon_Sword_Chieftain_s_Blade",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Sword_CheiftainsBlade_1H_01/SM_Sword_CheiftainsBlade_1H_01.SM_Sword_CheiftainsBlade_1H_01",

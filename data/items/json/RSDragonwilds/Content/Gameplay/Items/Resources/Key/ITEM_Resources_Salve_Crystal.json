@@ -22,8 +22,8 @@
         "LocalizedString": "A crystal that Doric obtained from a cave near the river Salve, back in Misthalin. Used in creating the Salve amulet. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Salve_Stone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Salve_Stone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Salve_Stone.T_Icon_Salve_Stone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Sapphire_01.SM_Gemstone_Sapphire_01",

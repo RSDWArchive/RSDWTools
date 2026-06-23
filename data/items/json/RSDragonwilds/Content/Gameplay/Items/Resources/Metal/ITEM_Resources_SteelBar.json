@@ -22,8 +22,8 @@
         "LocalizedString": "Made by smelting coal and iron ore together. A primary ingredient for steel weapons, armour and tools."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Steel_Bar'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Steel_Bar.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Steel_Bar.T_Icon_Steel_Bar",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Metal/SM_SteelBar_01.SM_SteelBar_01",
@@ -31,10 +31,14 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 5.0,
+      "MaxStackSize": 99,
+      "Weight": 4.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ingot"
+      },
       "ItemFilterTags": [
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Metal"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

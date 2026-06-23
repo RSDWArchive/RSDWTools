@@ -22,8 +22,8 @@
         "LocalizedString": "A precious metal found in the deepest parts of Ghornfell, used for crafting valuable items."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Bar_Gold'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Gold.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Bar_Gold.T_Icon_Resource_Bar_Gold",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Gold_01.SM_Ingot_Gold_01",
@@ -31,10 +31,14 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 5.0,
+      "MaxStackSize": 99,
+      "Weight": 4.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ingot"
+      },
       "ItemFilterTags": [
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Metal"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

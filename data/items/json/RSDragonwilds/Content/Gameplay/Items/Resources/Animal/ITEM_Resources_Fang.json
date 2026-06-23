@@ -22,8 +22,8 @@
         "LocalizedString": "Sharp little teeth used in weaponry."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Animal_Fang'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Fang.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Fang.T_Icon_Animal_Fang",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Animal_Fang/SM_Animal_Fang_01.SM_Animal_Fang_01",

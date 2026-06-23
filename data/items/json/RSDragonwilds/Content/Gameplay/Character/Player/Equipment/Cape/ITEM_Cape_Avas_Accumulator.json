@@ -44,12 +44,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AvasAttractor",
-        "SourceString": "A bagged chicken ready to serve you, magnet in claw. \r\n\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
-        "LocalizedString": "A bagged chicken ready to serve you, magnet in claw. \r\n\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows."
+        "SourceString": "A bagged chicken ready to serve you, magnet in claw.\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
+        "LocalizedString": "A bagged chicken ready to serve you, magnet in claw.\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Avas_Attractor'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Avas_Attractor.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Avas_Attractor.T_Icon_Avas_Attractor",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Armour/U_MED/Avas_Attractor_01/SM_Avas_Attractor_01.SM_Avas_Attractor_01",
@@ -67,6 +67,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AvasAccumulator.Title",
+            "SourceString": "Ammo Attraction",
+            "LocalizedString": "Ammo Attraction"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AvasAccumulator.Description",
+            "SourceString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance",
+            "LocalizedString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "AA0zK0IPgo4C4e6V39Cmjg",
       "InternalName": "armour_t0_cape_avas_accumulator"
     }

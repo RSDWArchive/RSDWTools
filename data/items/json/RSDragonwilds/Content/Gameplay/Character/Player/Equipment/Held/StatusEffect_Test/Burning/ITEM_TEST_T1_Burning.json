@@ -11,7 +11,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Burning_C'",
-        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Burning"
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Burning.0"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
@@ -47,8 +47,8 @@
         "LocalizedString": "A rudimentary dagger, handy in close combat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Dagger_Stone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Dagger_Stone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Dagger_Stone.T_Dagger_Stone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Stone_1H_01/SM_Dagger_Stone_1H_01.SM_Dagger_Stone_1H_01",

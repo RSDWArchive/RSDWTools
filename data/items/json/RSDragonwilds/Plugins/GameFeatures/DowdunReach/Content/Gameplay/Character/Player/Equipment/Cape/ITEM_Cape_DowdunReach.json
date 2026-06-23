@@ -38,8 +38,8 @@
         "LocalizedString": "There is no better display of mastery of the Dowdun Reach area."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dowdun_Cape'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dowdun_Cape"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dowdun_Cape.T_Icon_Dowdun_Cape",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

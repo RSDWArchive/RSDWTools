@@ -22,8 +22,8 @@
         "LocalizedString": "Ground from blue dragon scales. Integral to making antifire potions."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Dust'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Dust"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Dust.T_Icon_Blue_Dragon_Dust",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Ash/SM_Abyssal_Ash_01.SM_Abyssal_Ash_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.5,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.BasicMaterial"

@@ -26,7 +26,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -44,7 +45,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -62,7 +64,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "UseVerb": {
@@ -85,19 +88,19 @@
         "LocalizedString": "There seems to be something solid within the ash pile."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Small_Ashes'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Small_Ashes"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Small_Ashes.T_Icon_Small_Ashes",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Container'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 3.0,
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

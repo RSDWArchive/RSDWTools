@@ -22,8 +22,8 @@
         "LocalizedString": "Scraps that can be searched through. Take a look inside."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Salvage_Silver'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Silver"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Silver.T_Icon_Salvage_Silver",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.8,
       "Category": {
         "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
       },

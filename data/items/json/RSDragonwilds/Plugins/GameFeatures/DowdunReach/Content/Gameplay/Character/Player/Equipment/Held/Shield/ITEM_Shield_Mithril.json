@@ -38,8 +38,8 @@
         "LocalizedString": "A sturdy shield crafted from mithril. Perfect for holding your ground. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Shield'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Shield"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Shield.T_Icon_Mithril_Shield",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Shields/Kite_Mithril_1H_01/SM_Kite_Mithril_1H_01.SM_Kite_Mithril_1H_01",

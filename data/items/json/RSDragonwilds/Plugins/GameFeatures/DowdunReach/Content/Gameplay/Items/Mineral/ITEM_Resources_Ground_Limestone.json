@@ -22,8 +22,8 @@
         "LocalizedString": "Ground from limestone. With the proper tools, it can be made into glass at a furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ground_Limestone'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Ground_Limestone"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Ground_Limestone.T_Icon_Ground_Limestone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Soda_Ash/SM_Soda_Ash_01.SM_Soda_Ash_01",

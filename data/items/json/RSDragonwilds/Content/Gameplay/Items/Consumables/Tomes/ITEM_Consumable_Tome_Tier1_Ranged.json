@@ -29,12 +29,12 @@
         "LocalizedString": "A book filled with knowledge about the intricacies of archery. Awards a small amount of Ranged XP. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Ranged.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Ranged.T_Icon_Skill_Tome_Ranged",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Ranged.T_Icon_Tag_Skill_Ranged",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Ranged.SM_Skill_Tome_Ranged",

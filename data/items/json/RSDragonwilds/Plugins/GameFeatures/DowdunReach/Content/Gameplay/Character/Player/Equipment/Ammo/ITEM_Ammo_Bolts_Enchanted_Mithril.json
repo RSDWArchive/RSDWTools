@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Bolts"
         ],
         "AdditionalDamageFraction": 3.4
       },
@@ -59,8 +59,8 @@
         "LocalizedString": "These crossbow bolts offer a chance to create a toxic burst, poisoning all nearby enemies."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Enchanted_Bolts'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Enchanted_Bolts"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Enchanted_Bolts.T_Icon_Mithril_Enchanted_Bolts",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",

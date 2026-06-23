@@ -22,8 +22,8 @@
         "LocalizedString": "An unusually large Sardine, worthy of putting it on the wall as trophy or cook it to gain more food."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Sardine_Pristine'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Sardine_Pristine"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Sardine_Pristine.T_Icon_Sardine_Pristine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Sardine_01/SM_Fish_Sardine_01.SM_Fish_Sardine_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 3.0,
+      "Weight": 1.0,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

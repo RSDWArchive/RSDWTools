@@ -28,10 +28,16 @@
         {
           "Effect": {
             "ObjectName": "GE_MagicAttack_CritChance_C'ITEM_Consumable_Potion_T2_Lesser_Magic:GE_MagicAttack_CritChance_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_T2_Lesser_Magic:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LesserMagicPotion",
@@ -42,12 +48,12 @@
         "CultureInvariantString": null
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Lesser_Pink_Potion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Pink_Potion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Pink_Potion.T_Icon_Lesser_Pink_Potion",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Pink_Potion.SM_Lesser_Pink_Potion",
@@ -73,8 +79,8 @@
             "LocalizedString": "INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_LesserPotionMagic'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserPotionMagic.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserPotionMagic.T_Icon_Buff_LesserPotionMagic",
+            "SubPathString": ""
           }
         }
       ],
@@ -85,6 +91,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_MagicAttack_CritChance_C",

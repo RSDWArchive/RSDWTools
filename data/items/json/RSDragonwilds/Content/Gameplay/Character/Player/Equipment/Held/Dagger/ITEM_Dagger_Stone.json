@@ -55,15 +55,15 @@
         "LocalizedString": "A rudimentary blade, handy in close combat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dagger_Stone_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Dagger_Stone_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Dagger_Stone_1H_01.T_Icon_Dagger_Stone_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Stone_1H_01/SM_Dagger_Stone_1H_01.SM_Dagger_Stone_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 1,
-      "Weight": 5.0,
+      "Weight": 3.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Dagger"
       },

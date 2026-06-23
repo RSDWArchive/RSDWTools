@@ -29,8 +29,8 @@
         "LocalizedString": "A magical ring to punish enemy aggression. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ring_of_Recoil'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Recoil.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Recoil.T_Icon_Ring_of_Recoil",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -43,7 +43,6 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.Trinket"
       },
-      "bDropOnDeath": false,
       "BaseDurability": 2500,
       "RepairCostRatios": [
         1.0
@@ -70,7 +69,10 @@
             "SourceString": "A PERCENTAGE of DAMAGE received is DEALT back to ATTACKERS",
             "LocalizedString": "A PERCENTAGE of DAMAGE received is DEALT back to ATTACKERS"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "hN41hUB2BvFbvyiqYpSgyg",

@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Steak_Cactus_Burnt",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "Cactus_Steak_Burnt"
+      },
+      "ToxicityRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Toxicity_V2'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Toxicity_V2.0"
+        },
+        "RowName": "+20"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Steak_Cactus_Burnt:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Burnt.1"
+        }
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "CactusSteakBurnt",
+        "SourceString": "Burnt Cactus Steak",
+        "LocalizedString": "Burnt Cactus Steak"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GenericBurnt",
+        "SourceString": "Too well done, but still edible. ",
+        "LocalizedString": "Too well done, but still edible. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Cactus_Steak_Cooked.T_Icon_Cactus_Steak_Cooked",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemStatus": {
+        "TagName": "Item.Status.Burnt"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Burnt"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "PersistenceID": "eP4Lj0re9u0Exa2wOWXl9A",
+      "InternalName": "food_cactus_burnt"
+    }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Cactus_Burnt'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Burnt.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

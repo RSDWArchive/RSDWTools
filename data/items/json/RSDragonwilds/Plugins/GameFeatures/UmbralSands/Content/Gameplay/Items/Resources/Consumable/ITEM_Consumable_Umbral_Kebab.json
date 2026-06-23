@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "BP_Consumables_Food_C",
+    "Name": "ITEM_Consumable_Umbral_Kebab",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SustenanceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_FoodSustenance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
+        },
+        "RowName": "Umbral_Kebab"
+      },
+      "AmountToHealOnConsume": 80.0,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ResistBuildup_Scorch_C'ITEM_Consumable_Umbral_Kebab:GE_ResistBuildup_Scorch_C_0'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.3"
+          }
+        },
+        {
+          "Effect": {
+            "ObjectName": "GE_HealthFruit_C'ITEM_Consumable_Umbral_Kebab:GE_HealthFruit_C_0'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.2"
+          }
+        }
+      ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Umbral_Kebab:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.1"
+        }
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "UmbralKebab",
+        "SourceString": "Umbral Kebab",
+        "LocalizedString": "Umbral Kebab"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "UmbralKebab",
+        "SourceString": "A garou delicacy, ideal for those night-time munchies.",
+        "LocalizedString": "A garou delicacy, ideal for those night-time munchies."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "SourceFmt": {
+              "Namespace": "",
+              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
+              "SourceString": "+{NewHealAmount} Health",
+              "LocalizedString": "+{NewHealAmount} Health"
+            },
+            "Arguments": [
+              {
+                "ArgumentName": "NewHealAmount",
+                "ArgumentValue": {
+                  "Type": 3,
+                  "Value": 80.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Umbral_Kebab.T_Icon_Umbral_Kebab",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 4,
+      "Weight": 1.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableSuper"
+      ],
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FrostedFlask.Title",
+            "SourceString": "Frosted Flavours",
+            "LocalizedString": "Frosted Flavours"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FrostedFlask.Description",
+            "SourceString": "Grants RESISTANCE to SCORCH buildup",
+            "LocalizedString": "Grants RESISTANCE to SCORCH buildup"
+          },
+          "BuffIcon": {
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_ReduceScorchRate.T_Icon_Buff_ReduceScorchRate",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Wardfruit.Title",
+            "SourceString": "Soul Food",
+            "LocalizedString": "Soul Food"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Wardfruit.Description",
+            "SourceString": "Restores HEALTH over time",
+            "LocalizedString": "Restores HEALTH over time"
+          },
+          "BuffIcon": {
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SoulFood_2.T_Icon_Buff_SoulFood_2",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "Xs4cAk1L3Nenuk6JA-Htzg",
+      "InternalName": "item_food_umbral_kebab"
+    }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Umbral_Kebab'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_HealthFruit_C",
+    "Name": "GE_HealthFruit_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Umbral_Kebab'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.GE_HealthFruit_C'",
+    "Template": {
+      "ObjectName": "GE_HealthFruit_C'Default__GE_HealthFruit_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_ResistBuildup_Scorch_C",
+    "Name": "GE_ResistBuildup_Scorch_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Umbral_Kebab'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Scorch.GE_ResistBuildup_Scorch_C'",
+    "Template": {
+      "ObjectName": "GE_ResistBuildup_Scorch_C'Default__GE_ResistBuildup_Scorch_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Scorch.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "bShowInTooltip": false,
+        "AmountToModifyScale": 0.33
+      }
+    }
+  }
+]

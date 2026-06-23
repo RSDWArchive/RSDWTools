@@ -62,8 +62,8 @@
         "LocalizedString": "This Greatsword exsists between the realms of the living and the dead."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Shadow_2H_Greatsword'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Shadow_2H_Greatsword.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Shadow_2H_Greatsword.T_icon_Shadow_2H_Greatsword",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/GreatSword_Steel_2H_01/SM_ShadowSword_Steel_2H_01.SM_ShadowSword_Steel_2H_01",
@@ -99,7 +99,10 @@
             "SourceString": "Increased DAMAGE against SPECTRAL enemies",
             "LocalizedString": "Increased DAMAGE against SPECTRAL enemies"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "48BYVkZfcyg3uoyx2hBHmQ",

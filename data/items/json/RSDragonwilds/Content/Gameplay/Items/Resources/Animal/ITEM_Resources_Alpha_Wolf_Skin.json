@@ -22,8 +22,8 @@
         "LocalizedString": "The skin of a savage beast."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dire_Wolf_Skin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/T_Icon_Dire_Wolf_Skin.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/T_Icon_Dire_Wolf_Skin.T_Icon_Dire_Wolf_Skin",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 4.0,
+      "Weight": 0.6,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

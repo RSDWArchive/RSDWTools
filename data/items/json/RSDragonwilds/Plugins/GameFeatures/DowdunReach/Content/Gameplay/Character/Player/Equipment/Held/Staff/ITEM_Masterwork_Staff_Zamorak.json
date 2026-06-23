@@ -74,8 +74,8 @@
         "LocalizedString": "Standard issue for any mage in Dowdun Reach."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Zamorak_Staff'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Staff"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Staff.T_Icon_Zamorak_Staff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Zamorak_Mage_Battlestaff_01/SM_M_MED_Zamorak_Mage_Battlestaff_01.SM_M_MED_Zamorak_Mage_Battlestaff_01",
@@ -111,7 +111,10 @@
             "SourceString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you.",
             "LocalizedString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you."
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         },
         {
           "Title": {
@@ -126,7 +129,10 @@
             "SourceString": "Increases BURNING damage from FIRE SPELLS",
             "LocalizedString": "Increases BURNING damage from FIRE SPELLS"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         },
         {
           "Title": {
@@ -141,7 +147,10 @@
             "SourceString": "AIR, WATER and EARTH spell damage REDUCED",
             "LocalizedString": "AIR, WATER and EARTH spell damage REDUCED"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "IpM2CEjR22G7q_eELH0Iow",

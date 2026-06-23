@@ -25,8 +25,8 @@
         "LocalizedString": "Ring of Life"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ring_of_Life'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Life.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Life.T_Icon_Ring_of_Life",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -39,7 +39,6 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.Trinket"
       },
-      "bDropOnDeath": false,
       "BaseDurability": 1,
       "RepairCostRatios": [
         1.0
@@ -66,7 +65,10 @@
             "SourceString": "When close to DEATH, TELEPORTS you to your current BED",
             "LocalizedString": "When close to DEATH, TELEPORTS you to your current BED"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "xPzAAUqcRS8ZetuUKSJG5Q",

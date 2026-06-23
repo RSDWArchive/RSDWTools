@@ -29,12 +29,12 @@
         "LocalizedString": "A book filled with knowledge about how to apply dirt and water to seeds. Awards a decent amount of Farming XP. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Farming.T_Icon_Skill_Tome_Farming",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Farming.SM_Skill_Tome_Farming",

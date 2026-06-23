@@ -22,8 +22,8 @@
         "LocalizedString": "Pulverised stone, used in building, and as an Herblore ingredient."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Ground_Clay'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Clay.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Clay.T_Icon_Resources_Ground_Clay",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Mineral/SM_Stone_01.SM_Stone_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.2,
       "Category": {
         "TagName": "Item.BuildingResource"
       },

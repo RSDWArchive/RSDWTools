@@ -39,12 +39,12 @@
         "LocalizedString": "A vial of Weapon Poison. \r\n\r\nUsed in crafting Poison Arrows or to coat your equipped Melee Weapon with Poison for a short time."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Weapon_Poison'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Weapon_Poison.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Poison.T_Icon_Weapon_Poison",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Poison'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Poison.T_Icon_Sml_Poison",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",

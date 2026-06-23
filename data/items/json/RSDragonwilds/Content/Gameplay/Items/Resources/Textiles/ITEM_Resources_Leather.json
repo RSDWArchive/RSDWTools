@@ -22,8 +22,8 @@
         "LocalizedString": "A basic crafting material created from animal hide and commonly used for making equipment."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Leather'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Leather.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Leather.T_Icon_Resources_Leather",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Leather/SM_Leather_01.SM_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.3,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

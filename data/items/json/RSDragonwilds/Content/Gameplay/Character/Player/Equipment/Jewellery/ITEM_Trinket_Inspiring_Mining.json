@@ -31,12 +31,12 @@
         "LocalizedString": "This item loses durability over time when equipped."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ring_Inspiring'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_Inspiring.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_Inspiring.T_Icon_Ring_Inspiring",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Mining'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.T_Icon_Tag_Skill_Mining",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -75,7 +75,10 @@
             "SourceString": "+5% Increased MINING XP",
             "LocalizedString": "+5% Increased MINING XP"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "GFXou0YGkMmxiM2yPMitnw",

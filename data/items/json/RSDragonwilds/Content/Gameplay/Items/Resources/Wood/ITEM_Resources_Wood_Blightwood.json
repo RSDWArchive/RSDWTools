@@ -5,7 +5,7 @@
     "Class": "UScriptClass'FuelItemData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "FuelValue": 25.0,
+      "FuelValue": 120.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
@@ -23,8 +23,8 @@
         "LocalizedString": "Logs cut from ancient trees or roots."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blightwood'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Blightwood.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Blightwood.T_Icon_Blightwood",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Campsite/SM_Chopped_Blight_log_01.SM_Chopped_Blight_log_01",
@@ -33,20 +33,26 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.5,
+      "Weight": 1.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial",
-        "ItemFilter.Type.Resource"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
       "CompostAmount": 10,
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "CxUwQN-Me0qnNfyc207f0g",
       "InternalName": "res_wood_blightwood"
     }

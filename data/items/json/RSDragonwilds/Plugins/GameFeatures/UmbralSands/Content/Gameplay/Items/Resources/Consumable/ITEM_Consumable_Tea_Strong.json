@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "BP_Consumables_Drink_C",
+    "Name": "ITEM_Consumable_Tea_Strong",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.BP_Consumables_Drink_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Drink_C'Default__BP_Consumables_Drink_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HydrationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_DrinkHydration'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_DrinkHydration.0"
+        },
+        "RowName": "v3_Tea_Strong"
+      },
+      "EnduranceRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_RestEndurance'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_RestEndurance.0"
+        },
+        "RowName": "Tea_Strong"
+      },
+      "DurationMultiplierAttribute": null,
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Tier1_Food"
+      },
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Tea_Strong:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Tea_Strong.1"
+        }
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "TeaStrong",
+        "SourceString": "Strong Tea",
+        "LocalizedString": "Strong Tea"
+      },
+      "bUseCustomStatDetails": true,
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Strong_Tea.T_Icon_Strong_Tea",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Instant_Water.T_Instant_Water",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Herbal_Tea/SM_Herbal_Tea_01.SM_Herbal_Tea_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 7,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Food"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.CompostableSuper"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Food.Gulp"
+      },
+      "PickupXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "z4qLlkT2ULHmcfeycAar-Q",
+      "InternalName": "food_tea_strong"
+    }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Strong'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Tea_Strong.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Drink_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

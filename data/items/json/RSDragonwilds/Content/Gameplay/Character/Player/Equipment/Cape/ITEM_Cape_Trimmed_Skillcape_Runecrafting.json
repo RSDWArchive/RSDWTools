@@ -21,6 +21,12 @@
         "RowName": "Cape_Adventurers_Black"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Skillcape_Runecrafting_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SkillCapes/GE_Skillcape_Runecrafting.0"
+        }
+      ],
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Runecrafting_Skillcape'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Runecrafting/PerkV2_Runecrafting_Skillcape.0"
@@ -32,8 +38,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RunecraftingSkillcapeTrimmed",
-        "SourceString": "Runecrafting Cape - Trimmed",
-        "LocalizedString": "Runecrafting Cape - Trimmed"
+        "SourceString": "Runecrafting Cape (Trimmed)",
+        "LocalizedString": "Runecrafting Cape (Trimmed)"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
@@ -42,8 +48,8 @@
         "LocalizedString": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Runecrafting_Master'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Runecrafting_Master"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Runecrafting_Master.T_Icon_Cape_Skill_Runecrafting_Master",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -61,6 +67,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "RunecraftingSkillcape",
+            "SourceString": "You siphon double the amount of runes from Anima Vents.",
+            "LocalizedString": "You siphon double the amount of runes from Anima Vents."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "OlEZ-03KPyGi7U-IlAvobg",
       "InternalName": "armour_t0_cape_skillcape_runecrafting_trimmed"
     }

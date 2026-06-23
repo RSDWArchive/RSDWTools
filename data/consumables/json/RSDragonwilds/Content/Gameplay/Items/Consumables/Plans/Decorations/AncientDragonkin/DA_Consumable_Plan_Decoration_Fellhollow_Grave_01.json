@@ -13,6 +13,13 @@
         "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Grave_01'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/AncientDragonkin/DA_BaseBuilding_Decoration_Grave_01.0"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "Namespace": "",
         "Key": "194D360D43352DED0F0EE1A28946594C",
@@ -20,12 +27,12 @@
         "LocalizedString": "PLAN: Grave 1"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Plans'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Plans.T_Icon_Plans",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Vestige3'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Icon_Vestige3.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Icon_Vestige3.T_Icon_Vestige3",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",

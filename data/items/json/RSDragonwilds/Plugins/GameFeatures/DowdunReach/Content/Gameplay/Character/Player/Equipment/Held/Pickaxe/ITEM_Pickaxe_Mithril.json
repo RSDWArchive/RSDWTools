@@ -51,8 +51,8 @@
         "LocalizedString": "A tool for mining. Few rocks can withstand its strength."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Pickaxe'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Pickaxe"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Pickaxe.T_Icon_Mithril_Pickaxe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Tool/Pickaxe_Mithril_2H_01/SM_Pickaxe_Mithril_2H_01.SM_Pickaxe_Mithril_2H_01",
@@ -69,7 +69,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Pickaxe"
       },
-      "BaseDurability": 1800,
+      "BaseDurability": 2400,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"

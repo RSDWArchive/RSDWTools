@@ -39,8 +39,8 @@
         "LocalizedString": "The finest magical thread, spun into fabulous mage gear."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mystic_Robe'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Robe"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Robe.T_Icon_Mystic_Robe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

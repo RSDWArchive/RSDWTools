@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Bolts"
         ],
         "AdditionalDamageFraction": 2.0
       },
@@ -59,8 +59,8 @@
         "LocalizedString": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_CrossbowBoltGem_Iron_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_CrossbowBoltGem_Iron_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_CrossbowBoltGem_Iron_01.T_Icon_CrossbowBoltGem_Iron_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",

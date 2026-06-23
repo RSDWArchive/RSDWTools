@@ -22,8 +22,8 @@
         "LocalizedString": "A figurine made from clay. Now, much more solid. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Fired_Clay_Decoration'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Fired_Clay_Decoration.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Fired_Clay_Decoration.T_Icon_Fired_Clay_Decoration",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Base_Building/Decorations/Dragonkin/SM_Dec_Dragonkin_Clay_Figure_01.SM_Dec_Dragonkin_Clay_Figure_01",
@@ -31,8 +31,8 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 1.0,
+      "MaxStackSize": 99,
+      "Weight": 3.0,
       "Category": {
         "TagName": "Item.BuildingResource"
       },

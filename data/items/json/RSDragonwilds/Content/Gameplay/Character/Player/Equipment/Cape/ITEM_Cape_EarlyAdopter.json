@@ -42,8 +42,8 @@
         "LocalizedString": "A cape worn by Ashenfall's first explorers."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pioneer_Mantle'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pioneer_Mantle.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pioneer_Mantle.T_Icon_Pioneer_Mantle",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

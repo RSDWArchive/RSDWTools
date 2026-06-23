@@ -22,8 +22,8 @@
         "LocalizedString": "A sheaf of wheat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Weat_Banch'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weat_Banch.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weat_Banch.T_Icon_Weat_Banch",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wheat/SM_Wheat_Drop_01.SM_Wheat_Drop_01",

@@ -22,8 +22,8 @@
         "LocalizedString": "Made from combining necrotic bonemeal and ectoplasm. Used as a crafting component."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Sacred_Oil'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Sacred_Oil.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Sacred_Oil.T_Icon_Sacred_Oil",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -31,8 +31,8 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
-      "Weight": 0.5,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],

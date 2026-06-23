@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Tea_Strong_Sweet",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Tea_Ground'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Tea_Ground"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Syrup_Maple'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Syrup_Maple.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Strong_Sweet'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Tea_Strong_Sweet"
+          },
+          "Count": 1
+        }
+      ],
+      "AlternativeItemCreated": {
+        "Count": 1
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Gulp"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Cooking_Range_Recipe"
+      },
+      "PersistenceID": "HggJRkQUn0nwRu-vRUUXMg",
+      "InternalName": "recipe_tea_strong_sweet"
+    }
+  }
+]

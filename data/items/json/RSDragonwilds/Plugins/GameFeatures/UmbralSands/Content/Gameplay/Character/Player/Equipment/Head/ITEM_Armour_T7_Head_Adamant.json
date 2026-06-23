@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T7_Head_Adamant",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Adamant_MeshData_Male'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Adamant_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Adamant_MeshData_Female'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Adamant_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T7_Head_Adamant"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AdamantHelmet",
+        "SourceString": "Adamant Helmet",
+        "LocalizedString": "Adamant Helmet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AdamantHelmet",
+        "SourceString": "A durable adamant helmet forged for the strongest of warriors.",
+        "LocalizedString": "A durable adamant helmet forged for the strongest of warriors."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_HEAD_AdamantArmour_01.T_Icon_HEAD_AdamantArmour_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 8.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "g5iAg0Pdkhgoqbe7MdrFGQ",
+      "InternalName": "armour_head_adamant"
+    }
+  }
+]

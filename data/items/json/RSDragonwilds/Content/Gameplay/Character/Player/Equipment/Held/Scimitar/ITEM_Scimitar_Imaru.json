@@ -61,8 +61,8 @@
         "LocalizedString": "A Scimitar forged from the Visage of Imaru."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Imaru_Scimitarr'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Imaru_Scimitarr.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Imaru_Scimitarr.T_Icon_Imaru_Scimitarr",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Scimitar_Imaru_1H_01/SM_Scimitar_Imaru_1H_01.SM_Scimitar_Imaru_1H_01",
@@ -95,10 +95,13 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ImaruScimitar.Description",
-            "SourceString": "GRANTS a portion of LIFEWARD when killing an ENEMY",
-            "LocalizedString": "GRANTS a portion of LIFEWARD when killing an ENEMY"
+            "SourceString": "GRANTS a portion of HEALTH when killing an ENEMY",
+            "LocalizedString": "GRANTS a portion of HEALTH when killing an ENEMY"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "X_OJeEp1PR4l08yW6_vpUQ",

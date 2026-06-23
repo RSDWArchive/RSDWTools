@@ -22,8 +22,8 @@
         "LocalizedString": "Made from ground up undead bone. A useful crafting ingredient."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bonemeal'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.T_Icon_Bonemeal",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Bone_Meal/SM_Bone_Meal_01.SM_Bone_Meal_01",
@@ -32,12 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 3.0,
       "Category": {
         "TagName": "Item.BuildingResource"
-      },
-      "WeightReductionTag": {
-        "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

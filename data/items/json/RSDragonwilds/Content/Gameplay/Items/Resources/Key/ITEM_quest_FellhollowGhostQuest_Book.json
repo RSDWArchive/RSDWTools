@@ -22,12 +22,12 @@
         "LocalizedString": "A ruined notebook, buried beneath the earth. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Artisan.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Artisan.T_Icon_Skill_Tome_Artisan",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Artisan.SM_Skill_Tome_Artisan",

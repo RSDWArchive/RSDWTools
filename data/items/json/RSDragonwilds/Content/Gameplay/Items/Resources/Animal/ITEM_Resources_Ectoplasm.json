@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from aggressive spirits or extracted from wither hearts. Used in crafting."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ectoplasm'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ectoplasm.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ectoplasm.T_Icon_Ectoplasm",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Generic_Spectral_Drop/SM_Generic_Spectral_Drop_01.SM_Generic_Spectral_Drop_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.5,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"

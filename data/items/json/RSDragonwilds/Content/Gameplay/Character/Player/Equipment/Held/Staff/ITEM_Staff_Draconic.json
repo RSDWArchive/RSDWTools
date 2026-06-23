@@ -84,8 +84,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Staff_Draconic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Draconic.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Draconic.T_Icon_Staff_Draconic",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Battlestaff_Draconic_2H_01/SM_Battlestaff_Draconic_2H_01.SM_Battlestaff_Draconic_2H_01",

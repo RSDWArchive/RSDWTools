@@ -22,8 +22,8 @@
         "LocalizedString": "A sturdy bone from a sizeable creature."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Animal_Bone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Bone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Bone.T_Icon_Animal_Bone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Animal_Bone/SM_Animal_Bone_01.SM_Animal_Bone_01",

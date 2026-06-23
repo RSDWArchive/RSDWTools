@@ -22,8 +22,8 @@
         "LocalizedString": "Scraps that can be searched through. All that glitters may not be gold. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Salvage_Gold'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Gold"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Gold.T_Icon_Salvage_Gold",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.8,
       "Category": {
         "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
       },

@@ -29,12 +29,12 @@
         "LocalizedString": "A book filled with knowledge about how best to chop down trees. Awards a small amount of Woodcutting XP. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Woodcutting.T_Icon_Skill_Tome_Woodcutting",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.T_Icon_Tag_Skill_Woodcutting",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Woodcutting.SM_Skill_Tome_Woodcutting",

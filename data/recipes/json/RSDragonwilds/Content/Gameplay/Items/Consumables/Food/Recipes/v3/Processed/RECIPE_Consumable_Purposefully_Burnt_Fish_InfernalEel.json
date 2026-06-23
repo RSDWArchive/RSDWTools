@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Purposefully_Burnt_Fish_InfernalEel",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_InfernalEel'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/InfernalEel/ITEM_Consumable_Fish_InfernalEel"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_InfernalEel_Burnt'",
+            "ObjectPath": "/Fishing/Gameplay/Items/Fishes/InfernalEel/ITEM_Consumable_Fish_InfernalEel_Burnt"
+          },
+          "Count": 1
+        }
+      ],
+      "AlternativeItemCreated": {
+        "Count": 1
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Plant.Chewy"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "PersistenceID": "SUa2hkmbgNCVVu-KfWpvsQ",
+      "InternalName": "recipe_purposefully_burnt_fish_infernaleel"
+    }
+  }
+]

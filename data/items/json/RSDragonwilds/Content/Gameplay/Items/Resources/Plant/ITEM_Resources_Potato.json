@@ -18,8 +18,8 @@
         "LocalizedString": "Definitely not a carrot."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Potato'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Potato.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Potato.T_Icon_Resource_Potato",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

@@ -39,8 +39,8 @@
         "LocalizedString": "Robes styled after the ancient overlords of Ashenfall."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dragonkin_Dark_Mage_Robes'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Robes.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Robes.T_Icon_Dragonkin_Dark_Mage_Robes",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

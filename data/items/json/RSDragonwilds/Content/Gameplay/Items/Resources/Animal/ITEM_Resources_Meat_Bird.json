@@ -22,8 +22,8 @@
         "LocalizedString": "Freshly harvested from avian creatures, a staple for cooking."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Raw_bird_meat'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_bird_meat.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_bird_meat.T_Icon_Resource_Raw_bird_meat",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Bird/SM_Bird_Raw_01.SM_Bird_Raw_01",

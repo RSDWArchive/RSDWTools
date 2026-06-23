@@ -52,12 +52,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelDagger",
-        "SourceString": "A fine dagger made from high quality Steel.",
-        "LocalizedString": "A fine dagger made from high quality Steel."
+        "SourceString": "A fine dagger made from high quality steel.",
+        "LocalizedString": "A fine dagger made from high quality steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_1H_Dagger'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Dagger.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Dagger.T_icon_Steel_1H_Dagger",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/DaggerSteel_1H_01/SM_DaggerSteel_1H_01.SM_DaggerSteel_1H_01",

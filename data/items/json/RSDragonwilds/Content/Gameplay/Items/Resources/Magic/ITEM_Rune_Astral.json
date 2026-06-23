@@ -22,8 +22,8 @@
         "LocalizedString": "Astral runes are used for casting advanced magic spells and attacks. \r\n\r\nRunes are retained if you happen to die."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Rune_Astral'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Astral.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Astral.T_Icon_Rune_Astral",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",

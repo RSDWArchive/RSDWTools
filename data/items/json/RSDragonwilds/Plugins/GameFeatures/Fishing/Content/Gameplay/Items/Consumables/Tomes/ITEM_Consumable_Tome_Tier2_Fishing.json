@@ -29,12 +29,12 @@
         "LocalizedString": "A book filled with knowledge about how to efficiently tire out fish. Awards a decent amount of Fishing XP."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Skill_Tome_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Skill_Tome_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Skill_Tome_Fishing.T_Icon_Skill_Tome_Fishing",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Fishing.SM_Skill_Tome_Fishing",

@@ -27,14 +27,34 @@
         "SourceString": null,
         "LocalizedString": null
       },
+      "MaxLevelFormatText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.MaxLevelFormat",
+        "SourceString": "/{0} XP",
+        "LocalizedString": "/{0} XP"
+      },
+      "StaminaCostDescriptionText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.StaminaCostDescription",
+        "SourceString": "{0} STAMINA COSTS",
+        "LocalizedString": "{0} STAMINA COSTS"
+      },
       "SkillType": "ESkill::Fishing",
       "Icon": {
-        "ObjectName": "Texture2D'T_Notification_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Notification_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Notification_Skill_Fishing.T_Notification_Skill_Fishing",
+        "SubPathString": ""
+      },
+      "BackgroundIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Artwork/T_Skill_Fishing_Bg.T_Skill_Fishing_Bg",
+        "SubPathString": ""
       },
       "TagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
+      },
+      "Symbol": {
+        "AssetPathName": "/Game/Art/UI/Skills/Watermark/T_SW_Fishing.T_SW_Fishing",
+        "SubPathString": ""
       },
       "MinorPerkConfigs": [
         {

@@ -22,8 +22,8 @@
         "LocalizedString": "A cartilaginous extension of an animal skull. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icons_Resource_Antlers'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icons_Resource_Antlers.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Icons_Resource_Antlers.T_Icons_Resource_Antlers",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",

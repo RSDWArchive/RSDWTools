@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Lumber_Backpack",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Atractor_MeshData_Uni'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Atractor_MeshData_Uni.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Atractor_MeshData_Uni'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Atractor_MeshData_Uni.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_AvasAttractor"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Woodcutting_LumberBackpack_WeightReduction_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Woodcutting/GE_Woodcutting_LumberBackpack_WeightReduction"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Woodcutting_LumberBackpack_XPModifier_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Woodcutting/GE_Woodcutting_LumberBackpack_XPModifier"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Woodcutting_LumberBackpack_DropAmountModifier_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Woodcutting/GE_Woodcutting_LumberBackpack_DropAmountModifier"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Woodcutting_LumberBackpack_SpecialItemDropChangeModifier_C'",
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Woodcutting/GE_Woodcutting_LumberBackpack_SpecialItemDropChangeModifier"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LumberBackpack",
+        "SourceString": "Lumber Backpack",
+        "LocalizedString": "Lumber Backpack"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LumberBackpack",
+        "SourceString": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression.",
+        "LocalizedString": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Lumberjack_Backpack.T_Icon_Lumberjack_Backpack",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "y0A46USRM-v66t6TJtGIVg",
+      "InternalName": "armour_t0_cape_lumber_backpack"
+    }
+  }
+]

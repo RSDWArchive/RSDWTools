@@ -22,8 +22,8 @@
         "LocalizedString": "A dragon's tooth. Extracted from lesser dragons or mined from a dragon's skull found in the Highlands. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Dragon_Tooth'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Dragon_Tooth.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Dragon_Tooth.T_Icon_Resource_Dragon_Tooth",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Dragon_Tooth/SM_Dragon_Tooth_01.SM_Dragon_Tooth_01",
@@ -37,12 +37,12 @@
         "TagName": "Item.BuildingResource"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Dust"
       },
-      "bDropOnDeath": false,
       "PersistenceID": "qelCL0cKP9oFmYaJkKg6wA",
       "InternalName": "res_dragon_tooth"
     }

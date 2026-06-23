@@ -31,6 +31,12 @@
         },
         "RowName": "Consume_Tier1_Food"
       },
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Water_Dirty:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DirtyWater",
@@ -44,12 +50,12 @@
         "LocalizedString": "A source of hydration, tainted by the residue of a cataclysmic event."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dirty_Water'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/New_Food_07/T_Icon_Dirty_Water.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/New_Food_07/T_Icon_Dirty_Water.T_Icon_Dirty_Water",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Instant_Water'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Instant_Water.T_Instant_Water",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -81,5 +87,19 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Dirty'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Dirty.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Drink_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

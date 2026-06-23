@@ -39,8 +39,8 @@
         "LocalizedString": "A heavy mithril plate, providing welcome protection in battle."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Platebody'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Platebody"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Platebody.T_Icon_Mithril_Platebody",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

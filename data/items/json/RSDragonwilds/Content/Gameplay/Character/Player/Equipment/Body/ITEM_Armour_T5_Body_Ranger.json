@@ -39,8 +39,8 @@
         "LocalizedString": "Ranger armour that's as dangerous as it is dapper!"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Ranger_Body'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Ranger_Body.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Ranger_Body.T_icon_Ranger_Body",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

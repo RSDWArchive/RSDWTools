@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_ScarabStaff",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/ScarabStaff/BP_ScarabStaff_HeldItem.BP_ScarabStaff_HeldItem_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PA_Drop_HeldItem_C'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/ScarabStaff/BP_PA_Drop_HeldItem"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "HeldForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_LH_Torch_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Torch/A_PlayerM_Idle_LH_Torch_Poses.0"
+      },
+      "DamageMultiplier": 8.4,
+      "bExclusiveLoadoutOnlyEquipment": true,
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_ModifyMovement_ScarabStaff_C'",
+          "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/ScarabStaff/GE_ModifyMovement_ScarabStaff"
+        }
+      ],
+      "bShouldRestOnGround": true,
+      "Name": {
+        "TableId": "/UmbralSands/Gameplay/Quests/ST_UmS_VaultPuzzles.ST_UmS_VaultPuzzles",
+        "Key": "ScarabStaff.Item",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "YewStaff",
+        "SourceString": "A magical staff fashioned for a master of the mystic arts. It radiates with power.",
+        "LocalizedString": "A magical staff fashioned for a master of the mystic arts. It radiates with power."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Splitbark_Staff.T_icon_Splitbark_Staff",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Vault_Traps/Vault_Staff/SM_Vault_Staff_01.SM_Vault_Staff_01",
+        "SubPathString": ""
+      },
+      "bDisplayPlayerCharacterThatDropped": false,
+      "PowerLevel": 7,
+      "bCanBeDestroyed": false,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Staff"
+      },
+      "ItemFilterTags": [
+        "Item.Equipment.Weapon.Staff"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "DroppedItemOverrideClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/ScarabStaff/BP_ScarabStaff_RuntimeWorldItem.BP_ScarabStaff_RuntimeWorldItem_C",
+        "SubPathString": ""
+      },
+      "PersistenceID": "2RjA2k8zJCMRRoeUnzucJA",
+      "InternalName": "weap_staff_ScarabStaffBugs"
+    }
+  }
+]

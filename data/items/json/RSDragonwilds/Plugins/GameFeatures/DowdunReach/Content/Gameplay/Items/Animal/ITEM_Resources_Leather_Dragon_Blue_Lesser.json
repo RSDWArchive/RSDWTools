@@ -22,8 +22,8 @@
         "LocalizedString": "Made by tanning blue dragonhide. A key component for ranged armour."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Hide_Leather'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide_Leather"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide_Leather.T_Icon_Blue_Dragon_Hide_Leather",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Blue_Dragonhide_Leather/SM_Blue_Dragonhide_Leather_01.SM_Blue_Dragonhide_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"

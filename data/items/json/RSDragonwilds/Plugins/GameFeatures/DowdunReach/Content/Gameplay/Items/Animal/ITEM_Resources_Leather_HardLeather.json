@@ -22,8 +22,8 @@
         "LocalizedString": "Toughened leather."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Hard_Leather'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hard_Leather.T_Icon_Hard_Leather",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Leather/SM_Hard_Leather_01.SM_Hard_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"

@@ -22,8 +22,8 @@
         "LocalizedString": "Someone may have use for this. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Soul_Fragment'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Soul_Fragment.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Soul_Fragment.T_Icon_Soul_Fragment",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Soul_Stone/SM_Soul_Shard_01.SM_Soul_Shard_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 999,
+      "MaxStackSize": 9999,
       "ItemFilterTags": [
         "ItemFilter.Material.SpecialMaterial"
       ],

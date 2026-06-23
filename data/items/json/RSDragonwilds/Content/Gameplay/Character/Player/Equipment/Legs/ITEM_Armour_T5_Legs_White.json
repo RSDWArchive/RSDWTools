@@ -39,8 +39,8 @@
         "LocalizedString": "White Platelegs worn by a member of the Holy Order of White Knights."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_White_Legs'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_White_Legs.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_White_Legs.T_icon_White_Legs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

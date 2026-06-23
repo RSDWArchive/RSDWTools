@@ -22,8 +22,8 @@
         "LocalizedString": "Obtained from felled Lesser Green Dragons. Can be processed at the tannery."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Green_Dragon_Hide'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Green_Dragon_Hide.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Green_Dragon_Hide.T_Icon_Green_Dragon_Hide",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Green_Dragon_Hide/SM_Dragon_Hide_01.SM_Dragon_Hide_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 3.0,
+      "Weight": 1.2,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

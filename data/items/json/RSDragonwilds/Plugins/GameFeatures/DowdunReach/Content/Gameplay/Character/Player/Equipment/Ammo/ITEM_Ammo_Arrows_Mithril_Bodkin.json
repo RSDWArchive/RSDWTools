@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Arrows"
         ],
         "AdditionalDamageFraction": 3.4
       },
@@ -52,8 +52,8 @@
         "LocalizedString": "Arrows with tips forged from mithril."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Arrows'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Arrows"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Arrows.T_Icon_Mithril_Arrows",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

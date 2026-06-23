@@ -21,6 +21,13 @@
         "SourceString": "Study",
         "LocalizedString": "Study"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "Namespace": "",
         "Key": "0661C0D241851BF60F91EBB322C51AAC",
@@ -34,12 +41,12 @@
         "LocalizedString": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bag_o__Noggin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Bag_o__Noggin.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Bag_o__Noggin.T_Icon_Bag_o__Noggin",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_RewardingRewards_Vestige.T_RewardingRewards_Vestige",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

@@ -26,7 +26,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -44,7 +45,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "ItemUsageDelay": 1.0,
@@ -61,12 +63,12 @@
         "LocalizedString": null
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pack_Zamorak_01'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Pack_Zamorak_01"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Pack_Zamorak_01.T_Icon_Pack_Zamorak_01",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Container'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",

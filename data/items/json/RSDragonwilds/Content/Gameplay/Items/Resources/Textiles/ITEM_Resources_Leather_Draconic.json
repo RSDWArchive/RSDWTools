@@ -22,8 +22,8 @@
         "LocalizedString": "A sturdy leather made from draconic hide, or from tanning hard leather with dragon blood."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Draconic_leather'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Draconic_leather.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Draconic_leather.T_Icon_Draconic_leather",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Dragonic_Leather/SM__Dragonic_Leather_01.SM__Dragonic_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

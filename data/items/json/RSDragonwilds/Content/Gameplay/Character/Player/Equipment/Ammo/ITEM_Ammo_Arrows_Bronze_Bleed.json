@@ -36,7 +36,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Arrows"
         ],
         "GameplayEffectsToApply": [
           {
@@ -72,12 +72,12 @@
         "LocalizedString": "Lacerating arrows with barbed tips forged from bronze."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arrows_Bronze'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Bronze.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Bronze.T_Icon_Arrows_Bronze",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Bleed'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Bleed.T_Icon_Sml_Bleed",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

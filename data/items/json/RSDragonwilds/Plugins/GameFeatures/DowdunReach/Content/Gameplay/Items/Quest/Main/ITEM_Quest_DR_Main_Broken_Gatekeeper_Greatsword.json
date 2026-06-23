@@ -22,12 +22,12 @@
         "LocalizedString": "The shattered remnant of the Black Knight Titan's sword."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Broken_Titans_Sword'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Broken_Titans_Sword"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Broken_Titans_Sword.T_Icon_Broken_Titans_Sword",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Primary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Primary.T_Quest_Primary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_LRG_Black_Knight_Titan_Sword_1H_01/SM_M_LRG_Black_Knight_Titan_Sword_1H_01.SM_M_LRG_Black_Knight_Titan_Sword_1H_01",

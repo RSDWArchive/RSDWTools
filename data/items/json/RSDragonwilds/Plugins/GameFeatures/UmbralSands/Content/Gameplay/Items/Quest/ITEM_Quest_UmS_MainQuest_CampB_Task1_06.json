@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "JournalItemData",
+    "Name": "ITEM_Quest_UmS_MainQuest_CampB_Task1_06",
+    "Class": "UScriptClass'JournalItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "JournalData": {
+        "AssetPathName": "/UmbralSands/UI/JournalData/Entries/Knowledge/LoreScraps/JOURNAL_Know_UmS_CampA_Task1_06.JOURNAL_Know_UmS_CampA_Task1_06",
+        "SubPathString": ""
+      },
+      "Name": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Songmap.Item.Name",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "FlavourText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
+        "Key": "Songmap.Item.Description",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",
+        "SubPathString": ""
+      },
+      "bGoIntoHotbarOnPickup": false,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.TreasureMap"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "qGFy9kugI4GwPYajWcROAQ",
+      "InternalName": "Quest_Item_UmS_Quest_CampB_Task1_06"
+    }
+  }
+]

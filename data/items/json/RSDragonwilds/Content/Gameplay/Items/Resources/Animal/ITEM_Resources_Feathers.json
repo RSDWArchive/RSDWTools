@@ -22,8 +22,8 @@
         "LocalizedString": "Gathered from avian creatures and nests, feathers are used to fletch arrows."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Feathers'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Feathers.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Feathers.T_Icon_Resource_Feathers",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Feather/SM_Feather_01.SM_Feather_01",

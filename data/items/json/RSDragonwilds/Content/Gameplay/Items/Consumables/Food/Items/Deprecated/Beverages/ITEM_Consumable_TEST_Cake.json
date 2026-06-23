@@ -10,6 +10,12 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Duration": 1200.0,
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_TEST_Cake:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/Beverages/ITEM_Consumable_TEST_Cake.1"
+        }
+      },
       "Name": {
         "Namespace": "",
         "Key": "77B7A27242281654E2D2FFB77D56AAEF",
@@ -23,8 +29,8 @@
         "LocalizedString": "WIP"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Food_Cake'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Food_Cake.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Food_Cake.T_Food_Cake",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Consumable/Food/SM_Cake_01.SM_Cake_01",
@@ -44,5 +50,19 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_TEST_Cake'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/Beverages/ITEM_Consumable_TEST_Cake.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

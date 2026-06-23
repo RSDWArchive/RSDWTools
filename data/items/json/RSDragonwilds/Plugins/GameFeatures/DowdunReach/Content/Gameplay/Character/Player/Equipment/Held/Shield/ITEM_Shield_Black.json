@@ -38,8 +38,8 @@
         "LocalizedString": "A shield popularised by the Black Knights and made from black metal. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Shield'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Shield"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Shield.T_Icon_Black_Shield",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Black_Knight_Melee_Kite_1H_01/SM_M_MED_Black_Knight_Melee_Kite_1H_01.SM_M_MED_Black_Knight_Melee_Kite_1H_01",

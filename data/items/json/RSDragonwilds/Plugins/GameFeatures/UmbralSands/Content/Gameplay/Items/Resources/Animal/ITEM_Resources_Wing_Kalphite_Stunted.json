@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Wing_Kalphite_Stunted",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KalphiteWingStunted",
+        "SourceString": "Stunted Kalphite Wing",
+        "LocalizedString": "Stunted Kalphite Wing"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "KalphiteWingStunted",
+        "SourceString": "An underdeveloped kalphite wing. Once powdered, has many uses.",
+        "LocalizedString": "An underdeveloped kalphite wing. Once powdered, has many uses."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Stunted_Kalaphite_Wing.T_Icon_Stunted_Kalaphite_Wing",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Kalphite_Drop_01/SM_Kalphite_Drop_01.SM_Kalphite_Drop_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Chitin"
+      },
+      "PersistenceID": "d1Lsm0R5eAGsany1031bmA",
+      "InternalName": "res_wing_kalphite_stunted"
+    }
+  }
+]

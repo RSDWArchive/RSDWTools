@@ -22,8 +22,8 @@
         "LocalizedString": "Stone imbued with remnants of dragonkin magic. Found only in dragonkin vaults. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Vault_Shard'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Shard.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Shard.T_Icon_Resource_Vault_Shard",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Vault_Shard/SM_Vault_Shard_01.SM_Vault_Shard_01",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 5.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.Vaultshard"
       },

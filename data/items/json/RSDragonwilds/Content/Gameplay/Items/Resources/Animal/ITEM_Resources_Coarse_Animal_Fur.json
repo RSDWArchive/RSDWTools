@@ -22,8 +22,8 @@
         "LocalizedString": "It's not much but it'll keep you warm, required to craft a basic bed."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Coarse_Animal_Fur'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Coarse_Animal_Fur.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Coarse_Animal_Fur.T_Icon_Resource_Coarse_Animal_Fur",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",

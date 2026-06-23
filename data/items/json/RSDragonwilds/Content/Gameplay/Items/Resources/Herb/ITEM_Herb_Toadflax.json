@@ -18,8 +18,8 @@
         "LocalizedString": "A spicy tasting herb used in resistance potions. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Toadflax'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Toadflax.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Toadflax.T_Icon_Resource_Toadflax",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

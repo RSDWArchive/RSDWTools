@@ -21,6 +21,13 @@
         "SourceString": "Learn",
         "LocalizedString": "Learn"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AdventureCape10DowdunReach",
@@ -34,8 +41,8 @@
         "LocalizedString": "A cape made for its looks more than any kind of magical potency. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Adventurer_Capes_Pattern_01_Red'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Adventurer_Capes_Pattern_01_Red"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Adventurer_Capes_Pattern_01_Red.T_Icon_Adventurer_Capes_Pattern_01_Red",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

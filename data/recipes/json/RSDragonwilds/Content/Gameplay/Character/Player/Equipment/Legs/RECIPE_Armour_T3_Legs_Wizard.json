@@ -22,7 +22,7 @@
         },
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Resources_WildAnima'",
+            "ObjectName": "FuelItemData'ITEM_Resources_WildAnima'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_WildAnima.0"
           },
           "Count": 2

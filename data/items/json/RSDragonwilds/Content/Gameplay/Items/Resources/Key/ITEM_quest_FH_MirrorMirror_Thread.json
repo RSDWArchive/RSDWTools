@@ -22,12 +22,12 @@
         "LocalizedString": "A spooky silver thread. Used to repair mirrors from the inside."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Silver_Ash_Thread'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Silver_Ash_Thread.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Silver_Ash_Thread.T_Icon_Silver_Ash_Thread",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Thread/SM_Thread_01.SM_Thread_01",

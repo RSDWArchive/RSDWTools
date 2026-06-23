@@ -22,8 +22,8 @@
         "LocalizedString": "A chunk of rare and unrefined Blurite."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Ore_Blurite'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Blurite.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Blurite.T_Icon_Resource_Ore_Blurite",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Blurite_Ore_Small_01.SM_Blurite_Ore_Small_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 2.3,
+      "Weight": 1.7,
       "Category": {
         "TagName": "Item.BuildingResource"
       },
@@ -40,10 +40,16 @@
         "TagName": "ItemFilter.WeightReduction.Ore"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Metal",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Debris"
+      },
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'MiningDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
       },
       "PersistenceID": "HgH49UolaqYHza6Zg1IFYw",
       "InternalName": "res_ore_blurite"

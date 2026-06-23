@@ -26,7 +26,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -44,7 +45,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -62,7 +64,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -80,7 +83,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -98,7 +102,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -116,7 +121,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -134,7 +140,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -152,7 +159,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -170,7 +178,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -188,7 +197,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -206,7 +216,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "ItemUsageDelay": 0.5,
@@ -223,12 +234,12 @@
         "LocalizedString": "A moist and squishly bag of bits.  "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Zombie_lootbag'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Zombie_lootbag.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Zombie_lootbag.T_Icon_Zombie_lootbag",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Container'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

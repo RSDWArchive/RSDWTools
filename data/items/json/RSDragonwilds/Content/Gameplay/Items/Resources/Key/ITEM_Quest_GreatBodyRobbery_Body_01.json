@@ -22,15 +22,15 @@
         "LocalizedString": "A surprisingly well-preserved human torso, must be ancient. Doctor Fenkenstrain is looking for something just like it. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Torso.T_Icon_Torso",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Skeleton/NPC/Mechanical/TrainingDummy_01/SM_TrainingDummy_Torso_01.SM_TrainingDummy_Torso_01",
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Examination_Table/SM_Human_Torso.SM_Human_Torso",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

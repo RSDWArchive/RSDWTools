@@ -87,8 +87,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dagger_Dragonbone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Dagger_Dragonbone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Dagger_Dragonbone.T_Icon_Dagger_Dragonbone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Dragonbone_1H_01/SM_Dagger_Dragonbone_1H_01_LOD0.SM_Dagger_Dragonbone_1H_01_LOD0",

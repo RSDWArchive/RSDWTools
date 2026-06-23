@@ -56,8 +56,8 @@
         "CultureInvariantString": "A debug asset"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Food_Carrot'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Food_Carrot.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Food_Carrot.T_Food_Carrot",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Prop/Template/SM_Crossbow_01.SM_Crossbow_01",

@@ -30,8 +30,8 @@
         "LocalizedString": "A magical ring that makes you sneakier. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ring_of_Pursuit'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Pursuit.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Pursuit.T_Icon_Ring_of_Pursuit",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -70,7 +70,10 @@
             "SourceString": "ANIMALS are less AWARE of your PRESENCE",
             "LocalizedString": "ANIMALS are less AWARE of your PRESENCE"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "3NlCk0PLvMeVQ06pQp2V8g",

@@ -22,12 +22,12 @@
         "LocalizedString": "Notes, from the beastmasters of Dowdun Reach, on how to train various creatures. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Torn_Journal_Pages'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Torn_Journal_Pages"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Torn_Journal_Pages.T_Icon_Torn_Journal_Pages",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Env/Props/Env_Props/Library/SM_DR_PaperStack_01.SM_DR_PaperStack_01",

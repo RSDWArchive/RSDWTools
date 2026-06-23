@@ -51,19 +51,19 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelMace",
-        "SourceString": "A brutal crush weapon forged from high quality Steel.",
-        "LocalizedString": "A brutal crush weapon forged from high quality Steel."
+        "SourceString": "A brutal crush weapon forged from high quality steel.",
+        "LocalizedString": "A brutal crush weapon forged from high quality steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_1H_Mace'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Mace.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Mace.T_icon_Steel_1H_Mace",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Mace_Steel_1H_01/SM_Mace_Steel_1H_01.SM_Mace_Steel_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 5,
-      "Weight": 6.0,
+      "Weight": 15.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Mace"
       },

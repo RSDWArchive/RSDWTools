@@ -22,8 +22,8 @@
         "LocalizedString": "A versatile metal used for crafting weapons and armour."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Bar'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Bar"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Bar.T_Icon_Mithril_Bar",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Mithril_Bar/SM_Mithril_Bar_01.SM_Mithril_Bar_01",
@@ -31,10 +31,14 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 5.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ingot"
+      },
       "ItemFilterTags": [
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Metal"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

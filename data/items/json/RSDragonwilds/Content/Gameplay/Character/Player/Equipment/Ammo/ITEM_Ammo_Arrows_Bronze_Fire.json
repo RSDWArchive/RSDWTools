@@ -76,12 +76,12 @@
         "LocalizedString": "Burning arrows with tips forged from bronze coated in fire oil."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arrows_Bronze'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Bronze.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Bronze.T_Icon_Arrows_Bronze",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Sml_Burning'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/StatusEffects/T_Icon_Sml_Burning.0"
+        "AssetPathName": "/Game/Art/UI/Icons/StatusEffects/T_Icon_Sml_Burning.T_Icon_Sml_Burning",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

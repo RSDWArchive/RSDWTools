@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T7_Head_ObsidianHelmet",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_ObsidianHelmet_MeshData_Male'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_ObsidianHelmet_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_ObsidianHelmet_MeshData_Female'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_ObsidianHelmet_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Armour_T7_Head_ObsidianHelmet"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "ObsidianHelmet",
+        "SourceString": "Obsidian Helmet",
+        "LocalizedString": "Obsidian Helmet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ObsidianHelmet",
+        "SourceString": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
+        "LocalizedString": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_M_MED_HEAD_ObsidianArmour_01.T_Icon_M_MED_HEAD_ObsidianArmour_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 8.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Armour.Steel"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "_RC22U77s72dRjuGLxYfqg",
+      "InternalName": "armour_head_obsidianhelmet"
+    }
+  }
+]

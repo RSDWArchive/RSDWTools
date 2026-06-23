@@ -22,8 +22,8 @@
         "LocalizedString": "The spine from a deceased Abyssal Demon"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Abyssal_Spine'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Abyssal_Spine.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Abyssal_Spine.T_Icon_Resource_Abyssal_Spine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Spine/SM_Abysall_Spine_01.SM_Abysall_Spine_01",

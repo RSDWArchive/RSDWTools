@@ -69,8 +69,8 @@
         "LocalizedString": "A 1-Handed Crossbow made from Bronze."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Crossbow_Bronze_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Crossbow_Bronze_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Crossbow_Bronze_1H_01.T_Icon_Crossbow_Bronze_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Crossbow_Bronze_1H_01/SM_Crossbow_Bronze_1H_01.SM_Crossbow_Bronze_1H_01",

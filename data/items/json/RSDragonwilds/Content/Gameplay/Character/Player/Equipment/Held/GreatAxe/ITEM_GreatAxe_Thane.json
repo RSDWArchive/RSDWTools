@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Greataxe_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_Greataxe_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_GreataxeAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatAxe/FF_GreataxeAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_GreatAxe_Poses'",
@@ -76,8 +72,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Greataxe_Thane_s_Authority'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Greataxe_Thane_s_Authority.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Greataxe_Thane_s_Authority.T_Icon_Greataxe_Thane_s_Authority",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Greataxe_ThanesAuthority_2H_01/SM_Greataxe_ThanesAuthority_2H_01.SM_Greataxe_ThanesAuthority_2H_01",

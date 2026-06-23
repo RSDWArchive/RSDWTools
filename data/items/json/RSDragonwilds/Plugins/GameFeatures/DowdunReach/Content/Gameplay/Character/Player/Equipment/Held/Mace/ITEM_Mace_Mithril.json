@@ -55,15 +55,15 @@
         "LocalizedString": "Crush your foes with this heavy, spiked mithril mace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Mace'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Mace"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Mace.T_Icon_Mithril_Mace",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Mace_Mithril_1H_01/SM_Mace_Mithril_1H_01.SM_Mace_Mithril_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 6,
-      "Weight": 6.0,
+      "Weight": 15.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Mace"
       },

@@ -22,8 +22,8 @@
         "LocalizedString": "Spun from mystic fibre. Magic courses through every thread."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mystic_Thread'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Thread"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Thread.T_Icon_Mystic_Thread",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Mystic_Thread/SM_Mystic_Thread_01.SM_Mystic_Thread_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth.Thread"

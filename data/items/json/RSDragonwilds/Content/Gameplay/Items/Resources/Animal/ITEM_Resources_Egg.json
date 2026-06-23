@@ -22,8 +22,8 @@
         "LocalizedString": "A nutritious ingredient."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Resources_Egg'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Resources_Egg.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Resources_Egg.T_Resources_Egg",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 1,
-      "Weight": 0.9,
+      "Weight": 0.2,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient"

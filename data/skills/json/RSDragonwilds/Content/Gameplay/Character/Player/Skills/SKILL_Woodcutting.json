@@ -1,28 +1,21 @@
 [
   {
-    "Type": "GE_PerkV2_Woodcutting_LumberjackStamina_C",
-    "Name": "GE_PerkV2_Woodcutting_LumberjackStamina_C_0",
+    "Type": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C",
+    "Name": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Woodcutting'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_LumberjackStamina.GE_PerkV2_Woodcutting_LumberjackStamina_C'",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_WoodcuttingCriticalHits.GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'",
     "Template": {
-      "ObjectName": "GE_PerkV2_Woodcutting_LumberjackStamina_C'Default__GE_PerkV2_Woodcutting_LumberjackStamina_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_LumberjackStamina.1"
+      "ObjectName": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'Default__GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_WoodcuttingCriticalHits.1"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Data": {
-        "OverrideTooltipStatName": {
-          "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
-          "Key": "Woodcutting.MinorNode.Stat1",
-          "SourceString": "Woodcutting Stamina Costs",
-          "LocalizedString": "Woodcutting Stamina Costs"
-        },
-        "StatValueType": "EStatValueType::AddPercent",
         "AmountToModify": {
-          "Value": -0.0072
+          "Value": 0.3
         }
       }
     }
@@ -46,20 +39,40 @@
         "SourceString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. ",
         "LocalizedString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. "
       },
+      "MaxLevelFormatText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.MaxLevelFormat",
+        "SourceString": "/{0} XP",
+        "LocalizedString": "/{0} XP"
+      },
+      "StaminaCostDescriptionText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.StaminaCostDescription",
+        "SourceString": "{0} STAMINA COSTS",
+        "LocalizedString": "{0} STAMINA COSTS"
+      },
       "SkillType": "ESkill::Woodcutting",
       "Icon": {
-        "ObjectName": "Texture2D'T_Notification_Skill_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/T_Notification_Skill_Woodcutting.T_Notification_Skill_Woodcutting",
+        "SubPathString": ""
+      },
+      "BackgroundIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Artwork/T_Skill_Woodcutting_Bg.T_Skill_Woodcutting_Bg",
+        "SubPathString": ""
       },
       "TagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.T_Icon_Tag_Skill_Woodcutting",
+        "SubPathString": ""
+      },
+      "Symbol": {
+        "AssetPathName": "/Game/Art/UI/Skills/Watermark/T_SW_Woodcutting.T_SW_Woodcutting",
+        "SubPathString": ""
       },
       "MinorPerkConfigs": [
         {
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
-            "ObjectName": "GE_PerkV2_Woodcutting_LumberjackStamina_C'SKILL_Woodcutting:GE_PerkV2_Woodcutting_LumberjackStamina_C_0'",
+            "ObjectName": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'SKILL_Woodcutting:GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C_0'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.0"
           },
           "DescriptionText": {

@@ -40,8 +40,8 @@
         "LocalizedString": "NO EFFECT"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Resource_Ring_Of_Pursuit'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_icon_Resource_Ring_Of_Pursuit.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_icon_Resource_Ring_Of_Pursuit.T_icon_Resource_Ring_Of_Pursuit",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/LevelDesign/District1/BlockoutMeshes/SM_BO_Opal.SM_BO_Opal",

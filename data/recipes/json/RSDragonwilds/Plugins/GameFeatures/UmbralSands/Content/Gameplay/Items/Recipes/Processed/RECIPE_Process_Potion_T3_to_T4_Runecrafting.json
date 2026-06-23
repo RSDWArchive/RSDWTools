@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Potion_T3_to_T4_Runecrafting",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Runecrafting'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Runecrafting.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T4_Runecrafting_Super'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Runecrafting_Super"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Potion"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "MinProcessingTime": 120.0,
+      "MaxProcessingTime": 120.0,
+      "PersistenceID": "4s2Z20zeUWGAbqW2_uyvCQ",
+      "InternalName": "recipe_potion_t3_to_t4_runecrafting"
+    }
+  }
+]

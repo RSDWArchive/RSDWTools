@@ -76,12 +76,12 @@
         "ObjectPath": "RSDragonwilds/Content/UI/Inventory/CustomSlots/WBP_ContainerCustomInventorySlot.8"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Wooden_Bucket'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Bucket.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Bucket.T_icon_Wooden_Bucket",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Bucket_2H_01/SM_Bucket_2H_01.SM_Bucket_2H_01",

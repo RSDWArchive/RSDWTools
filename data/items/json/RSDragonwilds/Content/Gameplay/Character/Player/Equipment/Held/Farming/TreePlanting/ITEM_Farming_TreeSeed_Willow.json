@@ -57,12 +57,12 @@
         "LocalizedString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Willow_Seed'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Seeds/T_Icon_Willow_Seed.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Willow_Seed.T_Icon_Willow_Seed",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_03_Drop.SM_SeedBag_1H_03_Drop",
@@ -80,6 +80,10 @@
       },
       "MaxDrawDistance": 4000.0,
       "RepairCostRatios": [],
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "QezLIU6YRuQdDUKbCkZqBA",
       "InternalName": "farming_treeseed_willow"
     }

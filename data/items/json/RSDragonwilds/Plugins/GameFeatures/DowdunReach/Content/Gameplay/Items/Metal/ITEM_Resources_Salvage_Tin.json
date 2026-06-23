@@ -22,8 +22,8 @@
         "LocalizedString": "Scraps that can be searched through. There might be nowt tin there. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Salvage_Tin'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Tin"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Tin.T_Icon_Salvage_Tin",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.8,
       "Category": {
         "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
       },

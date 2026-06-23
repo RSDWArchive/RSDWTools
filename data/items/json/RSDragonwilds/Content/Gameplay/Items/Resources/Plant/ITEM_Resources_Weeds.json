@@ -22,8 +22,8 @@
         "LocalizedString": "A bunch of weeds."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Weeds'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weeds.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weeds.T_Icon_Weeds",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Goblin_Napsack_01.SM_Goblin_Napsack_01",

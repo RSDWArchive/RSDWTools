@@ -41,7 +41,7 @@
       "ItemsCostInfo": [
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Rune_Water'",
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Water'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.0"
           },
           "Count": 15
@@ -113,12 +113,12 @@
       },
       "CooldownDuration": 300.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Fishing_Spell_FishingFrenzy'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Skill_Fishing_Spell_FishingFrenzy"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Skill_Fishing_Spell_FishingFrenzy.T_Skill_Fishing_Spell_FishingFrenzy",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "CastType": "EUtilitySpellCastType::Placed",
@@ -142,6 +142,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourBlue'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourBlue.1"
       },
       "Modules": {
         "Modules": [

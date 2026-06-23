@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_FishingNet_DesertNet",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/FishingNet/BP_Fishing_DesertNet.BP_Fishing_DesertNet_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_CastNet_C'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Spells/Fishing/PA_CastNet"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Fishing_Net_2H_Poses_01'",
+        "ObjectPath": "/Fishing/Art/Animation/Animations/PlayerM/Skills/Fishing/A_PlayerM_Fishing_Net_2H_Poses_01"
+      },
+      "LeftHandIKBoneName": "Prop_SecondHandSocket",
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "Tier": 2,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DesertNet",
+        "SourceString": "Desert Net",
+        "LocalizedString": "Desert Net"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DesertNet",
+        "SourceString": "A reliable and hard-wearing net made from desert thread.",
+        "LocalizedString": "A reliable and hard-wearing net made from desert thread."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Net_Desert.T_Icon_Net_Desert",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Net_2H_02/SM_Fishing_Net_Wool.SM_Fishing_Net_Wool",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Fishing.Net"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingNet"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Fishing.Net"
+      },
+      "BaseDurability": 500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "Ve_85UMS9lL7i2OdRA2Zkw",
+      "InternalName": "tool_fishing_net_desert"
+    }
+  }
+]

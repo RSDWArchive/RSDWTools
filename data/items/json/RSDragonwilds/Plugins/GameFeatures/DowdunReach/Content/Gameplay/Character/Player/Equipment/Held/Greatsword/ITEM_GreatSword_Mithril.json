@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_GreatswordAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/FF_GreatswordAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
@@ -60,8 +56,8 @@
         "LocalizedString": "A sturdy two-handed sword, with strength to match its size. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Great_Sword'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Great_Sword"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Great_Sword.T_Icon_Mithril_Great_Sword",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/GreatSword_Mithril_2H_01/SM_GreatSword_Mithril_2H_01.SM_GreatSword_Mithril_2H_01",

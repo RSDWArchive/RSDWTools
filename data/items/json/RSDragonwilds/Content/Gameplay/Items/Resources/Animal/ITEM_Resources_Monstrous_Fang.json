@@ -22,8 +22,8 @@
         "LocalizedString": "Large fangs used in creating deadly weaponry. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Monstrous_Fang'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Monstrous_Fang.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Monstrous_Fang.T_Icon_Resource_Monstrous_Fang",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Monstrous_Fang/SM_Monstrous_Fang_01.SM_Monstrous_Fang_01",

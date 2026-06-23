@@ -71,8 +71,8 @@
         "LocalizedString": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Titans_Wrath'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Titans_Wrath"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Titans_Wrath.T_Icon_Titans_Wrath",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Black_Knight_Titan_Sword_2H/SM_Black_Knight_Titan_Sword_2H_01.SM_Black_Knight_Titan_Sword_2H_01",
@@ -106,10 +106,13 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "TitansWrath.Description",
-            "SourceString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them. ",
-            "LocalizedString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them. "
+            "SourceString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them.",
+            "LocalizedString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them."
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         },
         {
           "Title": {
@@ -124,7 +127,10 @@
             "SourceString": "SPECIAL ATTACK kills cause this weapon to become ENCHANTED with FIRE MAGIC. Kills REFRESH the FIRE ENCHANTMENT effect",
             "LocalizedString": "SPECIAL ATTACK kills cause this weapon to become ENCHANTED with FIRE MAGIC. Kills REFRESH the FIRE ENCHANTMENT effect"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         },
         {
           "Title": {
@@ -139,7 +145,10 @@
             "SourceString": "You cannot cast additonal ENCHANTMENTS on this weapon.",
             "LocalizedString": "You cannot cast additonal ENCHANTMENTS on this weapon."
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "YMXvUEKL-S_EPFm7a5xvHA",

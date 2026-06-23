@@ -18,12 +18,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "HollowBark",
-        "SourceString": "Found lying around Fellhollow, around long-dead trees. Used in the crafting.",
-        "LocalizedString": "Found lying around Fellhollow, around long-dead trees. Used in the crafting."
+        "SourceString": "Found lying around Fellhollow, around long-dead trees. Used in crafting.",
+        "LocalizedString": "Found lying around Fellhollow, around long-dead trees. Used in crafting."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Hollow_Bark'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hollow_Bark.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hollow_Bark.T_Icon_Hollow_Bark",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Anima_Infused_Bark/SM_Anima_Infused_Bark_01.SM_Anima_Infused_Bark_01",
@@ -32,7 +32,10 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 2.0,
+      "Weight": 2.8,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
+      },
       "ItemFilterTags": [
         "Item.Farming.CompostableSuper",
         "ItemFilter.Material.BasicMaterial",

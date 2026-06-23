@@ -22,8 +22,8 @@
         "LocalizedString": "While it might be edible now, you'll need to fry it in this game."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Salmon'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Salmon"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Salmon.T_Icon_Salmon",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Salmon_01/SM_Fish_Salmon_01.SM_Fish_Salmon_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 3,
-      "Weight": 1.8,
+      "Weight": 1.0,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

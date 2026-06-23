@@ -21,6 +21,13 @@
         "SourceString": "Learn",
         "LocalizedString": "Learn"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "Namespace": "",
         "Key": "EB14E8694A4ACFC02F57B9B4CB3598B1",
@@ -28,12 +35,12 @@
         "LocalizedString": "Bramblemead Cape"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Bramblemead'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Bramblemead.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Bramblemead.T_Icon_Cape_Bramblemead",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_RewardingRewards_Vestige.T_RewardingRewards_Vestige",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Silk_Cloth_01.SM_Silk_Cloth_01",

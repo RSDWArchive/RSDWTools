@@ -22,8 +22,8 @@
         "LocalizedString": "A pair of iron crossbow limbs. Used in crafting an Iron Crossbow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_CrossbowLimb_Iron_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_CrossbowLimb_Iron_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_CrossbowLimb_Iron_1H_01.T_Icon_CrossbowLimb_Iron_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -31,6 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "Weight": 4.5,
       "ItemFilterTags": [
         "ItemFilter.Material.Component"

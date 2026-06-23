@@ -62,8 +62,8 @@
         "LocalizedString": "A silver dagger that brings fear to all those who howl in the night."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Wolfsbane_1H_Dagger'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Wolfsbane_1H_Dagger.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Wolfsbane_1H_Dagger.T_icon_Wolfsbane_1H_Dagger",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Wolfsbane_1H_01/SM_Dagger_Wolfsbane_1H_01.SM_Dagger_Wolfsbane_1H_01",
@@ -99,7 +99,10 @@
             "SourceString": "Increased DAMAGE against WOLVES",
             "LocalizedString": "Increased DAMAGE against WOLVES"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "sJPSNEYJF6H5AqaDdl0pQQ",

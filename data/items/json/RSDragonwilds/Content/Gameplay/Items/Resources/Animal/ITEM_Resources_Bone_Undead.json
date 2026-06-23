@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from the restless dead. Use as a crafting material, or process at a grindstone."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Undead_Bone'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Bone.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Bone.T_Icon_Undead_Bone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Undead_Bone_01/SM_Undead_Bone_01.SM_Undead_Bone_01",

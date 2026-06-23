@@ -22,12 +22,12 @@
         "LocalizedString": "A ghostly chinchompa skull. Vannaka is looking for these. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Spectral_Chinchompa_Skull'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_Chinchompa_Skull.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_Chinchompa_Skull.T_Icon_Spectral_Chinchompa_Skull",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Chinchompa_Skull_Spectral/SM_Chinchompa_Skull_Spectral_01.SM_Chinchompa_Skull_Spectral_01",

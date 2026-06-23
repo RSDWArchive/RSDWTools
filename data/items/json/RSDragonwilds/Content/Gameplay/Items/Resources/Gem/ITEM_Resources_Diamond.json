@@ -22,8 +22,8 @@
         "LocalizedString": "A rare and precious gem, coveted by jewelers."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Diamond'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Diamond.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Diamond.T_Icon_Resource_Diamond",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Diamond_01.SM_Gemstone_Diamond_01",

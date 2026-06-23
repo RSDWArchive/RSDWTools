@@ -39,19 +39,19 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ShroudOfNoggin",
-        "SourceString": "A ghostly sackcloth mask. Reduces Wither buildup while worn. ",
-        "LocalizedString": "A ghostly sackcloth mask. Reduces Wither buildup while worn. "
+        "SourceString": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
+        "LocalizedString": "A ghostly sackcloth mask. Reduces Wither buildup while worn."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Spectral_Noggin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Spectral_Noggin.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Spectral_Noggin.T_Icon_Spectral_Noggin",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Generic_Spectral_Drop/SM_Generic_Spectral_Drop_01.SM_Generic_Spectral_Drop_01",
         "SubPathString": ""
       },
       "PowerLevel": 1,
-      "Weight": 2.0,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

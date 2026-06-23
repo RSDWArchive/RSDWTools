@@ -23,8 +23,8 @@
         "LocalizedString": "Basic building material."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Ash_Plank'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ash_Plank.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ash_Plank.T_Icon_Resource_Ash_Plank",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Planks/SM_Plank_Ash_01.SM_Plank_Ash_01",
@@ -34,6 +34,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.5,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "ItemFilter.Material.ProcessedMaterial",

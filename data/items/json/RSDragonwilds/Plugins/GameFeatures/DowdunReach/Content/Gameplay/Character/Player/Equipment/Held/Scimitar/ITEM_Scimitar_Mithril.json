@@ -55,8 +55,8 @@
         "LocalizedString": "A curved sword of Eastern influence, forged from mithril."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Scimitar'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Scimitar"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Scimitar.T_Icon_Mithril_Scimitar",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Scimitar_Mithril_1H_01/SM_Scimitar_Mithril_1H_01.SM_Scimitar_Mithril_1H_01",

@@ -64,8 +64,8 @@
         "LocalizedString": "A magical amulet worn by keen-eyed Rangers. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Amulet_of_Accuracy'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Accuracy.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Accuracy.T_Icon_Amulet_of_Accuracy",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -105,7 +105,10 @@
             "SourceString": "Increased WEAK POINT damage with RANGED weapons",
             "LocalizedString": "Increased WEAK POINT damage with RANGED weapons"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "u0YGp0XHrNClFea2YgtqHQ",

@@ -22,8 +22,8 @@
         "LocalizedString": "A glass item made by glassblowing. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Glass_Vessel'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Vessel"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Vessel.T_Icon_Glass_Vessel",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -31,8 +31,8 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 20,
-      "Weight": 0.1,
+      "MaxStackSize": 99,
+      "Weight": 0.5,
       "Category": {
         "TagName": "Item.BuildingResource"
       },

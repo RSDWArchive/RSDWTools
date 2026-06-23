@@ -22,15 +22,15 @@
         "LocalizedString": "A pair of well-preserved garou arms, the perfect gift for any mad scientist. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Arms.T_Icon_Arms",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Skeleton/NPC/Mechanical/Vault_Guardian_Melee_01/SM_Vault_Guardian_Melee_01_Parts_SM_VaultGuardian_Melee_R_Forearm_01.SM_Vault_Guardian_Melee_01_Parts_SM_VaultGuardian_Melee_R_Forearm_01",
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Examination_Table/SM_Garou_Arms.SM_Garou_Arms",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

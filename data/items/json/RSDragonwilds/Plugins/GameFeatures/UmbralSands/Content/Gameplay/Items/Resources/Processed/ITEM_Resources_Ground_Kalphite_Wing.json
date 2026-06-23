@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ground_Kalphite_Wing",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GroundKalphiteWing",
+        "SourceString": "Shimmerscale Powder",
+        "LocalizedString": "Shimmerscale Powder"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GroundKaphiteWing",
+        "SourceString": "A shimmering iridescent powder. Its shifting hues are almost hypnotic. ",
+        "LocalizedString": "A shimmering iridescent powder. Its shifting hues are almost hypnotic. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Shimmer_Scale_Powder.T_Icon_Shimmer_Scale_Powder",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/ShimmerScale_Powder/SM_ShimmerScale_Powder_01.SM_ShimmerScale_Powder_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Potion"
+      },
+      "PersistenceID": "i30UB0HkMiCruH-4DPwjDg",
+      "InternalName": "res_ground_kalphite_wing"
+    }
+  }
+]

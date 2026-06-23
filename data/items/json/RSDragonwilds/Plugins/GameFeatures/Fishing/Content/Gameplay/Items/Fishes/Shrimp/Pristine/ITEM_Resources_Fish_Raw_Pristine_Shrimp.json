@@ -22,8 +22,8 @@
         "LocalizedString": "An unusually large Shrimp, cook it to gain more food."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shrimp'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Shrimp"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Shrimp.T_Icon_Shrimp",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Shrimp/SM_Shrimp_Raw_01.SM_Shrimp_Raw_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 0.4,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

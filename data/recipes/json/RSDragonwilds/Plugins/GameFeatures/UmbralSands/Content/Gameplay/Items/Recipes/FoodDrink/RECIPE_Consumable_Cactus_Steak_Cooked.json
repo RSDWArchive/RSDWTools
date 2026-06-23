@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Consumable_Cactus_Steak_Cooked",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Steak_Cactus'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Steak_Cactus"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Cactus_Cooked'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Cooked"
+          },
+          "Count": 1
+        }
+      ],
+      "AlternativeItemCreated": {
+        "ItemData": {
+          "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Steak_Cactus_Burnt'",
+          "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Burnt"
+        },
+        "Count": 1
+      },
+      "AlternativeItemChanceAttribute": {
+        "ObjectName": "Class'ChanceToBurnFoodLevel4'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AudioTag": {
+        "TagName": "Audio.Food.Chewy"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+        },
+        "RowName": "Pickup_Campfire_Processed_Item"
+      },
+      "PersistenceID": "sThfc0ISTbicHzGIpL_3kw",
+      "InternalName": "recipe_cactus_steak_cooked"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_T6_Upgrade_Shard",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AscensionShard",
+        "SourceString": "Ascension Shard",
+        "LocalizedString": "Ascension Shard"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Ascension.Shard.T6",
+        "SourceString": "Used to craft a Tier 6 Ascension Core - COMING SOON",
+        "LocalizedString": "Used to craft a Tier 6 Ascension Core - COMING SOON"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Upgrade_Core_small_Blue.T_Icon_Upgrade_Core_small_Blue",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Upgrade_Shard_01/SM_Upgrade_Shard_01.SM_Upgrade_Shard_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 6,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Vaultshard"
+      },
+      "PersistenceID": "6hDDS0E5hHRfaXCv_VVWGQ",
+      "InternalName": "res_t6_upgrade_shard"
+    }
+  }
+]

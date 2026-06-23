@@ -22,8 +22,8 @@
         "LocalizedString": "Obtained from felled Lesser Blue Dragons. Can be ground into blue dragon dust."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Scale'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Scale"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Scale.T_Icon_Blue_Dragon_Scale",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",

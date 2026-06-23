@@ -23,8 +23,8 @@
         "LocalizedString": "It's Sticky!"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Swamp_Tar_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Swamp_Tar_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Swamp_Tar_01.T_Icon_Swamp_Tar_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -38,7 +38,8 @@
         "TagName": "Item.BuildingResource"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Gloop"

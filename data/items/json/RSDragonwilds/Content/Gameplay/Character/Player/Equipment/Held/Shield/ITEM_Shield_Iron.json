@@ -38,8 +38,8 @@
         "LocalizedString": "A reliable, durable shield crafted from iron, perfect for tanking big hits."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Kite_Iron_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Kite_Iron_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Kite_Iron_1H_01.T_Icon_Kite_Iron_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_Iron_1H_01/SM_Kite_Iron_1H_01.SM_Kite_Iron_1H_01",

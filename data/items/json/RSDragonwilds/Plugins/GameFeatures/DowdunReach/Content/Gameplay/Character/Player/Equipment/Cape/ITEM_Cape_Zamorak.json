@@ -21,6 +21,9 @@
         "RowName": "Cape_Zamorak"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedTags": [
+        "Perk.Magic.AfterImage.Burning"
+      ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
@@ -38,8 +41,8 @@
         "LocalizedString": "A cape that proudly displays obeisance to the god Zamorak."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Zamorak_Cape'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Cape"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Cape.T_Icon_Zamorak_Cape",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -71,7 +74,10 @@
             "SourceString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES",
             "LocalizedString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "8L37OE7i2JOHvnKTu-_-xw",

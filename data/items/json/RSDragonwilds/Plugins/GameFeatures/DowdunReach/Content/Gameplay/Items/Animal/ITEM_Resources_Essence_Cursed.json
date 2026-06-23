@@ -22,8 +22,8 @@
         "LocalizedString": "Harvested from demons. Can be used as a tanning agent at the tannery."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cursed_Essence'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cursed_Essence"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Cursed_Essence.T_Icon_Cursed_Essence",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Cursed_Essence/SM_CursedEssence_01.SM_CursedEssence_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 0.5,
+      "Weight": 3.0,
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.CursedEssence"
       },

@@ -50,8 +50,8 @@
         "LocalizedString": "A basic mining tool made from tough animal bone. It is hard enough to mine Copper and Tin deposits."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pickaxe_Bone_2H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Bone_2H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Bone_2H_01.T_Icon_Pickaxe_Bone_2H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Pickaxe_Bone_2H_01/SM_Pickaxe_Bone_2H_01.SM_Pickaxe_Bone_2H_01",

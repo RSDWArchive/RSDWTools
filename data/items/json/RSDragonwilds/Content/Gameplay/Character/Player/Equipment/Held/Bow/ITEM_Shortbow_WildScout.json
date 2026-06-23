@@ -82,8 +82,8 @@
         "LocalizedString": "A bow used by Wild Knight scout. Maintaining balance, one arrow at a time."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shortbow_Wild_Scout'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shortbow_Wild_Scout.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shortbow_Wild_Scout.T_Icon_Shortbow_Wild_Scout",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Shortbow_WildScout_2H_01/SM_Shortbow_WildScout_2H_01.SM_Shortbow_WildScout_2H_01",
@@ -105,6 +105,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "wildscoutbow.Description",
+            "SourceString": "Increased DRAW SPEED",
+            "LocalizedString": "Increased DRAW SPEED"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "NqTlRkd7Zw4BE9GM_mDbtw",
       "InternalName": "weap_shortbow_wildscout"
     }

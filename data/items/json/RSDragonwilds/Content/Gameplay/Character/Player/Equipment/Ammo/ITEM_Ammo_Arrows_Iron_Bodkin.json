@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Arrows"
         ],
         "AdditionalDamageFraction": 2.0
       },
@@ -52,8 +52,8 @@
         "LocalizedString": "Arrows with tips forged from iron."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arrows_Iron_'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Iron_.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Iron_.T_Icon_Arrows_Iron_",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",

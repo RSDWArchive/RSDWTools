@@ -39,12 +39,12 @@
         "LocalizedString": "Imbue your staff to increase the damage of your magical attacks for a limited time."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Magic_Focus'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Furniture_Storage/T_Icon_Magic_Focus.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Magic_Focus.T_Icon_Magic_Focus",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Magic_Focus/SM_magic_focus_01.SM_magic_focus_01",

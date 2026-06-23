@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_AnimaOrb",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/AnimaOrb/BP_HeldAnimaOrb.BP_HeldAnimaOrb_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Wateringcan_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Wateringcan_Poses.0"
+      },
+      "bExclusiveLoadoutOnlyEquipment": true,
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AnimaOrb",
+        "SourceString": "Anima Orb",
+        "LocalizedString": "Anima Orb"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/AnimaOrb_Temp/SM_Placeholder_AnimaOrb.SM_Placeholder_AnimaOrb",
+        "SubPathString": ""
+      },
+      "Category": {
+        "TagName": "Item.Equipment.Tool.AnimaOrb"
+      },
+      "PersistenceID": "odfOvk6NqNf4lb2AiMsD5Q",
+      "InternalName": "held_animaorb"
+    }
+  }
+]

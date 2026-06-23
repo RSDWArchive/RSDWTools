@@ -48,12 +48,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SplitbarkStaff",
-        "SourceString": "A Mage's Weapon crafted from Wither rotted Hollow Bark. It has Strange Magical Properties.",
-        "LocalizedString": "A Mage's Weapon crafted from Wither rotted Hollow Bark. It has Strange Magical Properties."
+        "SourceString": "A mage's weapon crafted from wither-rotted hollow bark. It has strange magical properties.",
+        "LocalizedString": "A mage's weapon crafted from wither-rotted hollow bark. It has strange magical properties."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Splitbark_Staff'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Splitbark_Staff.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Splitbark_Staff.T_icon_Splitbark_Staff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Splitbark_Staff_2H_01/SM_Splitbark_Staff_2H_01.SM_Splitbark_Staff_2H_01",

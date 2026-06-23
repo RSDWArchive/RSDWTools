@@ -52,8 +52,8 @@
         "LocalizedString": "A magical weapon carved from maple wood."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Maple_Staff'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Staff"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Staff.T_Icon_Maple_Staff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Magic/Battlestaff_Maple_2H_01/SM_Battlestaff_Maple_2H_01.SM_Battlestaff_Maple_2H_01",

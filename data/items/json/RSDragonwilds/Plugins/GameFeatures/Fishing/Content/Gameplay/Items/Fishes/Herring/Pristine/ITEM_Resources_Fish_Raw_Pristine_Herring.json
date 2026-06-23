@@ -22,8 +22,8 @@
         "LocalizedString": "An unusually large Herring, worthy of putting it on the wall as trophy or cook it to gain more food."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Herring_Pristine'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Herring_Pristine"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Herring_Pristine.T_Icon_Herring_Pristine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Herring_01/SM_Fish_Herring_01.SM_Fish_Herring_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 3,
-      "Weight": 3.5,
+      "Weight": 2.0,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

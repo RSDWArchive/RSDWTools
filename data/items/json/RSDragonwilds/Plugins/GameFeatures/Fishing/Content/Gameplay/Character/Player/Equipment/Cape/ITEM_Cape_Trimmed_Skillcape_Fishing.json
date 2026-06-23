@@ -32,8 +32,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FishingSkillcapeTrimmed",
-        "SourceString": "Fishing Cape - Trimmed",
-        "LocalizedString": "Fishing Cape - Trimmed"
+        "SourceString": "Fishing Cape (Trimmed)",
+        "LocalizedString": "Fishing Cape (Trimmed)"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
@@ -42,8 +42,8 @@
         "LocalizedString": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Skill_Fishing_Master'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Fishing_Master"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Inventory/T_Icon_Cape_Skill_Fishing_Master.T_Icon_Cape_Skill_Fishing_Master",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

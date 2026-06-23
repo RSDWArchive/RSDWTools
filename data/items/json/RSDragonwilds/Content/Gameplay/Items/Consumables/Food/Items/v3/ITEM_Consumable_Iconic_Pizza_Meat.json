@@ -16,6 +16,7 @@
         },
         "RowName": "v3_Pizza_Meat"
       },
+      "AmountToHealOnConsume": 90.0,
       "ConsumeXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
@@ -28,16 +29,22 @@
         {
           "Effect": {
             "ObjectName": "GE_ResistBuildup_Bleed_C'ITEM_Consumable_Iconic_Pizza_Meat:GE_ResistBuildup_Bleed_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.2"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.3"
           }
         },
         {
           "Effect": {
             "ObjectName": "GE_MeatyMeal_C'ITEM_Consumable_Iconic_Pizza_Meat:GE_MeatyMeal_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Iconic_Pizza_Meat:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MeatPizza",
@@ -50,13 +57,38 @@
         "SourceString": "A pizza with bits of meat on it.",
         "LocalizedString": "A pizza with bits of meat on it."
       },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "SourceFmt": {
+              "Namespace": "",
+              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
+              "SourceString": "+{NewHealAmount} Health",
+              "LocalizedString": "+{NewHealAmount} Health"
+            },
+            "Arguments": [
+              {
+                "ArgumentName": "NewHealAmount",
+                "ArgumentValue": {
+                  "Type": 3,
+                  "Value": 90.0
+                }
+              }
+            ]
+          }
+        }
+      ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Iconic_Pizza_Meat'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/New_Food_07/T_Icon_Iconic_Pizza_Meat.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/New_Food_07/T_Icon_Iconic_Pizza_Meat.T_Icon_Iconic_Pizza_Meat",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
@@ -93,8 +125,8 @@
             "LocalizedString": "REDUCES HUNGER drain by 25%"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_MeatyMeal'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_MeatyMeal.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_MeatyMeal.T_Icon_Buff_MeatyMeal",
+            "SubPathString": ""
           }
         },
         {
@@ -111,8 +143,8 @@
             "LocalizedString": "Grants RESISTANCE to BLEED effects"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_Coagulate'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Coagulate.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Coagulate.T_Icon_Buff_Coagulate",
+            "SubPathString": ""
           }
         }
       ],
@@ -123,6 +155,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Iconic_Pizza_Meat'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Iconic_Pizza_Meat.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_MeatyMeal_C",

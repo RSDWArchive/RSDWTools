@@ -21,6 +21,13 @@
         "SourceString": "Study",
         "LocalizedString": "Study"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "VestigeBlackKnightBody",
@@ -30,16 +37,16 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Vestige.BlackKnightBody",
-        "SourceString": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it. ",
-        "LocalizedString": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it. "
+        "SourceString": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it.",
+        "LocalizedString": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dark_Knight_Body'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dark_Knight_Body"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dark_Knight_Body.T_Icon_Dark_Knight_Body",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_RewardingRewards_Vestige.T_RewardingRewards_Vestige",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

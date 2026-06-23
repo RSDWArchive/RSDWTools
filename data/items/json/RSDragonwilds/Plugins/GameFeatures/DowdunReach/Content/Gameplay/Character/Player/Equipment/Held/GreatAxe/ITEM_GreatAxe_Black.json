@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Greataxe_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_Greataxe_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_GreataxeAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatAxe/FF_GreataxeAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_GreatAxe_Poses'",
@@ -59,8 +55,8 @@
         "LocalizedString": "A hulking greataxe made from black metal."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Greataxe'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Greataxe"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Greataxe.T_Icon_Black_Greataxe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Black_Knight_Melee_GreatAxe_2H_01/SM_M_MED_Black_Knight_GreatAxe_2H_01.SM_M_MED_Black_Knight_GreatAxe_2H_01",
@@ -96,7 +92,10 @@
             "SourceString": "Increased DAMAGE\r\nIncreased STAMINA cost",
             "LocalizedString": "Increased DAMAGE\r\nIncreased STAMINA cost"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "W7PDB08-GCsvRcCkJBJM9w",

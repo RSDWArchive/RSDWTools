@@ -22,8 +22,8 @@
         "LocalizedString": "It looks as if it is meant to sit on top of something."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Saradomin_Symbol'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.T_Icon_Saradomin_Symbol",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -32,6 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bDisplayPlayerCharacterThatDropped": false,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "AudioSwitchTag": {
         "TagName": "Audio.QuestItem"
       },

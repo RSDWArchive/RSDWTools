@@ -18,12 +18,12 @@
         "LocalizedString": "Deliver to: Miner's Cottage Ruins - Coalridge Pass - Fellhollow"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Envelope'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Envelope.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Envelope.T_Icon_Envelope",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Letter/SM_Letter.SM_Letter",

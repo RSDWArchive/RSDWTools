@@ -22,8 +22,8 @@
         "LocalizedString": "Raw sheepskin that can be processed into wool."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Fleece'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Fleece.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Fleece.T_Icon_Fleece",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Fleece/SM_Fleece_01.SM_Fleece_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 3.0,
+      "Weight": 0.45,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

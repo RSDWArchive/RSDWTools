@@ -42,8 +42,8 @@
         "LocalizedString": "This provides partial protection from dragonbreath attacks."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shield_AntiDragon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shield_AntiDragon.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shield_AntiDragon.T_Icon_Shield_AntiDragon",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_AntiDragon_1H_01/SM_Kite_AntiDragon_1H_01.SM_Kite_AntiDragon_1H_01",
@@ -61,7 +61,6 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Shield"
       },
-      "bDropOnDeath": false,
       "BaseDurability": 1050,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",

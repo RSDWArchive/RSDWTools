@@ -34,12 +34,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelShield",
-        "SourceString": "A reliable, durable shield crafted from Steel, perfect for tanking big hits.",
-        "LocalizedString": "A reliable, durable shield crafted from Steel, perfect for tanking big hits."
+        "SourceString": "A reliable, durable shield crafted from steel, perfect for tanking big hits.",
+        "LocalizedString": "A reliable, durable shield crafted from steel, perfect for tanking big hits."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Shield'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Shield.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Shield.T_icon_Steel_Shield",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_Steel_1H_01/SM_Kite_Steel_1H_01.SM_Kite_Steel_1H_01",

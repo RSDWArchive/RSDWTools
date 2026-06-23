@@ -22,8 +22,8 @@
         "LocalizedString": "It may not look edible, but trust us: grill it and you're in for a treat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Undead_Bass'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Undead_Bass"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Undead_Bass.T_Icon_Undead_Bass",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Bass_Undead_01/SM_Fish_Bass_Undead_01.SM_Fish_Bass_Undead_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 4,
-      "Weight": 3.0,
+      "Weight": 2.5,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

@@ -22,12 +22,12 @@
         "LocalizedString": "A strange, glowing lily, with magical properties. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Midnight_Flower'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Midnight_Flower"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Midnight_Flower.T_Icon_Midnight_Flower",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Goblin_Napsack_01.SM_Goblin_Napsack_01",

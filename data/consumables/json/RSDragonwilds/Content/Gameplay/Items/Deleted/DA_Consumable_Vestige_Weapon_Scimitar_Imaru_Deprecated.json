@@ -9,6 +9,14 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
+      "MaxStackSize": 99,
       "PersistenceID": "-1vd50NlcWym832IAO5Srw",
       "InternalName": "deleted_vestige_weapon_scimitar_imaru",
       "bSoftDeleted": true,

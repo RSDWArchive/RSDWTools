@@ -38,8 +38,8 @@
         "LocalizedString": "Lightweight ranged headgear crafted from blue dragonhide."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blue_Dragonhide_Cowl'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragonhide_Cowl"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragonhide_Cowl.T_Icon_Blue_Dragonhide_Cowl",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

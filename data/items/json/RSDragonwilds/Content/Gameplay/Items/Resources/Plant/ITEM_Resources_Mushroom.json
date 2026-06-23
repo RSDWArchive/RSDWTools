@@ -18,8 +18,8 @@
         "LocalizedString": "A tasty mushroom. Can be used in a variety of cooking recipes."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bittercap_Mushroom'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bittercap_Mushroom.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bittercap_Mushroom.T_Icon_Bittercap_Mushroom",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Bittercap_Mushroom/SM_Bittercap_Mushroom.SM_Bittercap_Mushroom",
@@ -29,7 +29,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 0.1,
+      "Weight": 0.2,
       "Category": {
         "TagName": "Item.Food"
       },

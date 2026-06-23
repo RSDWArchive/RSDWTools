@@ -21,6 +21,13 @@
         "SourceString": "Learn",
         "LocalizedString": "Learn"
       },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "LearnRecipe"
+      },
       "Name": {
         "Namespace": "",
         "Key": "A6E1D7D64754A26B1F576690A73321D9",
@@ -28,12 +35,12 @@
         "LocalizedString": "Fell Cape"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Whispering'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Whispering.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Whispering.T_Icon_Cape_Whispering",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_RewardingRewards_Vestige'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_RewardingRewards_Vestige.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_RewardingRewards_Vestige.T_RewardingRewards_Vestige",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Silk_Cloth_01.SM_Silk_Cloth_01",

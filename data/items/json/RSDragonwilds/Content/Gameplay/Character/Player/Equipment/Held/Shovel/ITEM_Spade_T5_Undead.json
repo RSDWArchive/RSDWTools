@@ -51,14 +51,14 @@
         "LocalizedString": "A strangely spooky spade.\r\n\r\nUsed to clear farming plots."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Undead_Shovel'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Undead_Shovel.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Undead_Shovel.T_Icon_Undead_Shovel",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Shovel_Undead_2H_01/SM_Shovel_Undead_2H_01.SM_Shovel_Undead_2H_01",
         "SubPathString": ""
       },
-      "PowerLevel": 3,
+      "PowerLevel": 5,
       "Weight": 5.0,
       "Category": {
         "TagName": "Item.Equipment.Tool.Shovel"

@@ -55,15 +55,15 @@
         "LocalizedString": "Causes damage to their self esteem more than anything really."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Sword_Wooden_Training'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Sword_Wooden_Training.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Sword_Wooden_Training.T_Icon_Sword_Wooden_Training",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/TrainingWoodenSword_1H_01/SM_Sword_WoodenTraining_1H_01.SM_Sword_WoodenTraining_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 2,
-      "Weight": 15.0,
+      "Weight": 10.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Sword"
       },

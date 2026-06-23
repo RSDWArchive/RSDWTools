@@ -22,8 +22,8 @@
         "LocalizedString": "Pulverised stone, used in building, and as an Herblore ingredient."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Ground_Granite'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Granite.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Ground_Granite.T_Icon_Resources_Ground_Granite",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Mineral/SM_Granite_01.SM_Granite_01",

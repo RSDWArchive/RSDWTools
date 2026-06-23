@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_AdamantiteBar",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AdamantiteBar",
+        "SourceString": "Adamant Bar",
+        "LocalizedString": "Adamant Bar"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AdamantiteBar",
+        "SourceString": "A sturdy metal used for crafting weapons and armour. ",
+        "LocalizedString": "A sturdy metal used for crafting weapons and armour. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Adamantite_Bar.T_Icon_Adamantite_Bar",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ingots/SM_Ingot_Adamantite_01.SM_Ingot_Adamantite_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 5.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ingot"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Metal"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Block"
+      },
+      "PersistenceID": "Nk1A7U8zr0iWSJr-3AVh6g",
+      "InternalName": "res_bar_adamantite"
+    }
+  }
+]

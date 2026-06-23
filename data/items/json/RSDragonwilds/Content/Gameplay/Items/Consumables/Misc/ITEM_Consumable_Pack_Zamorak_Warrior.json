@@ -26,7 +26,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -44,7 +45,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -62,7 +64,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -80,7 +83,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -98,7 +102,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         },
         {
           "ItemDataClass": {
@@ -116,7 +121,8 @@
             "UserDescription": "",
             "AutoDescription": ""
           },
-          "ProbabilityModifierAttribute": null
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "ItemUsageDelay": 0.5,
@@ -133,12 +139,12 @@
         "LocalizedString": "A sack holding the personal effects of a Zamorakian."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Zamorak_Warrior_Pack'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Warrior_Pack"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Zamorak_Warrior_Pack.T_Icon_Zamorak_Warrior_Pack",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Container'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Container.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Container.T_Container",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Zamorak_Napsack/SM_Zamorak_Napsack.SM_Zamorak_Napsack",

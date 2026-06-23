@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Shell_Kalphite_Fragments",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KalphiteShellFragments",
+        "SourceString": "Kalphite Shell Fragments",
+        "LocalizedString": "Kalphite Shell Fragments"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "KalphiteShellFragments",
+        "SourceString": "Shattered kaphite chitin. Could be salvaged with the right adhesive. ",
+        "LocalizedString": "Shattered kaphite chitin. Could be salvaged with the right adhesive. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_KalphiteShellFragment.T_Icon_KalphiteShellFragment",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Kalphite_Drop_01/SM_Kalphite_Drop_01.SM_Kalphite_Drop_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Chitin"
+      },
+      "PersistenceID": "ENsQgEwZgPqaNZKgoEgT7Q",
+      "InternalName": "res_shell_kalphite_fragments"
+    }
+  }
+]

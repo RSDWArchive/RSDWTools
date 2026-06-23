@@ -38,8 +38,8 @@
         "LocalizedString": "The Spirit of Imaru lives on within this shield. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Imaru_Dragon_Shield'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Imaru_Dragon_Shield.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Imaru_Dragon_Shield.T_icon_Imaru_Dragon_Shield",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_DragonCurse_1H_01/SM_Kite_DragonCurse_1H_01.SM_Kite_DragonCurse_1H_01",
@@ -61,6 +61,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ImaruDragonFireShield.Description",
+            "SourceString": "PARRYING sends a GHOSTLY CLAW forwards and DAMAGES enemies",
+            "LocalizedString": "PARRYING sends a GHOSTLY CLAW forwards and DAMAGES enemies"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "qFp5MUMthbeEIx6vWCRNJA",
       "InternalName": "shield_dragonfire_imaru"
     }

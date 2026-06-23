@@ -144,14 +144,34 @@
         "SourceString": "Cook meals to level this skill. ",
         "LocalizedString": "Cook meals to level this skill. "
       },
+      "MaxLevelFormatText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.MaxLevelFormat",
+        "SourceString": "/{0} XP",
+        "LocalizedString": "/{0} XP"
+      },
+      "StaminaCostDescriptionText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.StaminaCostDescription",
+        "SourceString": "{0} STAMINA COSTS",
+        "LocalizedString": "{0} STAMINA COSTS"
+      },
       "SkillType": "ESkill::Cooking",
       "Icon": {
-        "ObjectName": "Texture2D'T_Notification_Skill_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Cooking.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/T_Notification_Skill_Cooking.T_Notification_Skill_Cooking",
+        "SubPathString": ""
+      },
+      "BackgroundIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Artwork/T_Skill_Cooking_Bg.T_Skill_Cooking_Bg",
+        "SubPathString": ""
       },
       "TagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
+        "SubPathString": ""
+      },
+      "Symbol": {
+        "AssetPathName": "/Game/Art/UI/Skills/Watermark/T_SW_Cooking.T_SW_Cooking",
+        "SubPathString": ""
       },
       "MinorPerkConfigs": [
         {
@@ -264,6 +284,7 @@
         },
         "RowName": "SkillDamage_Cooking"
       },
+      "bShowMinorPerkStatSummary": false,
       "LevelUpSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"

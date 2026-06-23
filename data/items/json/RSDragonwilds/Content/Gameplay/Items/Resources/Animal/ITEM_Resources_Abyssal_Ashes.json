@@ -22,8 +22,8 @@
         "LocalizedString": "The sinister remnants of an abyssal creature. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Abyssal_Ashes'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Abyssal_Ashes.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Abyssal_Ashes.T_Icon_Abyssal_Ashes",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 3.0,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

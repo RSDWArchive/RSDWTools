@@ -22,8 +22,8 @@
         "LocalizedString": "Sturdy material for crafting durable armour."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Hard_leather'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Hard_leather.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Hard_leather.T_Icon_Resources_Hard_leather",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Leather/SM_Hard_Leather_01.SM_Hard_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

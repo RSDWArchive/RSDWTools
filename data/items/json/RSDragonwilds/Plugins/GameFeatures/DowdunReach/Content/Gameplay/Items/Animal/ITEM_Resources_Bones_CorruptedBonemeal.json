@@ -22,8 +22,8 @@
         "LocalizedString": "Bonemeal from corrupted bones."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Bonemeal'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.T_Icon_Bonemeal",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Spine/SM_Abysall_Spine_01.SM_Abysall_Spine_01",

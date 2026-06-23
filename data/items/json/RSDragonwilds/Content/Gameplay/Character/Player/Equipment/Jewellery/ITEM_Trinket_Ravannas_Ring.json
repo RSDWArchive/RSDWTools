@@ -31,18 +31,18 @@
         "LocalizedString": "This item loses durability over time when equipped."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ravanna_Ring'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ravanna_Ring.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ravanna_Ring.T_Icon_Ravanna_Ring",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
         "SubPathString": ""
       },
-      "Weight": 2.0,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -75,7 +75,10 @@
             "SourceString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell",
             "LocalizedString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "mqzn-kOXtYJX-Qedojuu3Q",

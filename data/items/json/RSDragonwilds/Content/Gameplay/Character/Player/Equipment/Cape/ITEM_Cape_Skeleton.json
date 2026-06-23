@@ -38,8 +38,8 @@
         "LocalizedString": "A cape worn by those from the lands of death and decay."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Shadowscale_Cape'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Shadowscale_Cape.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Shadowscale_Cape.T_icon_Shadowscale_Cape",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

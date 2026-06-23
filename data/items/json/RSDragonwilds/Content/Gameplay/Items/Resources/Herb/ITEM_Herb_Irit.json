@@ -14,12 +14,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Irit",
-        "SourceString": "Havested from Thorny Irit Roots, used in potion making at the brewing cauldron.",
-        "LocalizedString": "Havested from Thorny Irit Roots, used in potion making at the brewing cauldron."
+        "SourceString": "Harvested from thorny irit roots and used when making meals.",
+        "LocalizedString": "Harvested from thorny irit roots and used when making meals."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Irit_Leaf'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Irit_Leaf.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Irit_Leaf.T_Icon_Irit_Leaf",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

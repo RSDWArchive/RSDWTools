@@ -55,15 +55,15 @@
         "LocalizedString": "A primitive weapon made from bone, perfect for smashing other bones."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Club_Bone_1H'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Club_Bone_1H.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Club_Bone_1H.T_Icon_Club_Bone_1H",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_Bone_1H_01/SM_Club_Bone_1H.SM_Club_Bone_1H",
         "SubPathString": ""
       },
       "PowerLevel": 2,
-      "Weight": 4.5,
+      "Weight": 8.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Club"
       },

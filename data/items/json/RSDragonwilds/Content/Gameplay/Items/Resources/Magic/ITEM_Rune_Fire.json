@@ -34,8 +34,8 @@
         "LocalizedString": "Equippable as ammo when using a Magic Weapon (provided the required Skill Perk is unlocked).\r\n\r\nA symbol of blazing heat, essential for fire-based magic. \r\n\r\nRunes are retained if you happen to die."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Rune_Fire'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Fire.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Fire.T_Icon_Rune_Fire",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Rune_Pouch/SM_Rune_Pouch_01.SM_Rune_Pouch_01",
@@ -51,6 +51,23 @@
         "TagName": "Audio.Magic.Rune"
       },
       "bDropOnDeath": false,
+      "BuffDatas": [
+        {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Rune.Fire.SpecialEffect",
+            "SourceString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME.",
+            "LocalizedString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "_QMgbMYhjU-9jAD_euFbyQ",
       "InternalName": "res_rune_fire"
     }

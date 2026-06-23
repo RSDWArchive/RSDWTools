@@ -38,8 +38,8 @@
         "LocalizedString": "It provides some warmth... barely."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_TatteredCape'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_TatteredCape.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_TatteredCape.T_Icon_Cape_TatteredCape",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

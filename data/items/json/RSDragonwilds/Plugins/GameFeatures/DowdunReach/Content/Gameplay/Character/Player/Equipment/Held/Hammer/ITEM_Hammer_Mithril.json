@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_HammerAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hammer/FF_HammerAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
@@ -59,8 +55,8 @@
         "LocalizedString": "An imposing two-handed weapon, capable of crushing any enemy."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Warhammer'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Warhammer"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Warhammer.T_Icon_Mithril_Warhammer",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Warhammer_Mithril_2H_01/SM_Warhammer_Mithril_2H_01.SM_Warhammer_Mithril_2H_01",

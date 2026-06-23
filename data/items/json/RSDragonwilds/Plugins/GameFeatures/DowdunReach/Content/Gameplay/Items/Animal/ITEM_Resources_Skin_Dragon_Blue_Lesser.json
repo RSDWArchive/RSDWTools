@@ -22,8 +22,8 @@
         "LocalizedString": "Obtained from felling lesser blue dragons. Can be processed at the tannery. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Blue_Dragon_Hide'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide.T_Icon_Blue_Dragon_Hide",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Blue_Dragonhide/SM_Dragon_Hide_Blue_01.SM_Dragon_Hide_Blue_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 3.0,
+      "Weight": 1.2,
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },

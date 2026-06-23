@@ -64,12 +64,12 @@
         "LocalizedString": "A favourite fishing rod, effective in Ghornfell."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Oak_Rod'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fishing_Tool_Icons/T_Icon_Oak_Rod"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fishing_Tool_Icons/T_Icon_Oak_Rod.T_Icon_Oak_Rod",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Fishing'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Rod_2H_02/SM_Fishing_Rod_2H_02.SM_Fishing_Rod_2H_02",

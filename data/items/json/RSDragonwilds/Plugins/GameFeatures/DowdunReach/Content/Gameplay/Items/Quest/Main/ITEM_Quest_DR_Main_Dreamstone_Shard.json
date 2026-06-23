@@ -22,12 +22,12 @@
         "LocalizedString": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dreamstone_Shard'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dreamstone_Shard"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dreamstone_Shard.T_Icon_Dreamstone_Shard",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Primary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Primary.T_Quest_Primary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Env/Architecture/DowdunReach/Nexus/SM_Dreamstone_Shard_01.SM_Dreamstone_Shard_01",

@@ -22,8 +22,8 @@
         "LocalizedString": "Mined from Copper deposits, it can be smelted at a Furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Ore_Copper'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Copper.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Copper.T_Icon_Resource_Ore_Copper",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Copper_Ore_Small_01.SM_Copper_Ore_Small_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 2.3,
+      "Weight": 2.4,
       "Category": {
         "TagName": "Item.BuildingResource"
       },
@@ -40,10 +40,16 @@
         "TagName": "ItemFilter.WeightReduction.Ore"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Metal",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Debris"
+      },
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'MiningDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
       },
       "PersistenceID": "A8Lx3sZhHEeG4GXsl4ZLZw",
       "InternalName": "res_ore_copper"

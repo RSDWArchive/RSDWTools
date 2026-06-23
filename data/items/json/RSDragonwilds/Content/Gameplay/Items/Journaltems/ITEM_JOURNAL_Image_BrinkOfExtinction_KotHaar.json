@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "JournalItemData",
+    "Name": "ITEM_JOURNAL_Image_BrinkOfExtinction_KotHaar",
+    "Class": "UScriptClass'JournalItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bSetQuestBoolOnUse": true,
+      "QuestBoolName": "HasReadPamphlet",
+      "QuestData": {
+        "ObjectName": "QuestData'Quest_BrinkOfExtinction'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/Quest_BrinkOfExtinction.0"
+      },
+      "JournalData": {
+        "AssetPathName": "/Game/UI/JournalData/Entries/Knowledge/LoreScraps/JOURNAL_BrinkOfExtinction_KotHaar.JOURNAL_BrinkOfExtinction_KotHaar",
+        "SubPathString": ""
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
+        "Key": "KotHaar.Numbering.Book",
+        "SourceString": "KotHaar Numbering For Dummies",
+        "LocalizedString": "KotHaar Numbering For Dummies"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
+        "Key": "KotHaar.Numbering.Book.Desc",
+        "SourceString": "A book for understanding the KotHaar numbering system (Base 12).",
+        "LocalizedString": "A book for understanding the KotHaar numbering system (Base 12)."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
+        "SubPathString": ""
+      },
+      "bGoIntoHotbarOnPickup": false,
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "PersistenceID": "y8YYukfXgKcSGnCdF05m5Q",
+      "InternalName": "QuestItem_BrinkOfExtinction_KotHaar_Book"
+    }
+  }
+]

@@ -23,8 +23,8 @@
         "LocalizedString": "A milled piece of lumber."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Oak_Plank'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Oak_Plank.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Oak_Plank.T_Icon_Resource_Oak_Plank",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Planks/SM_Plank_Oak_01.SM_Plank_Oak_01",
@@ -36,6 +36,9 @@
       "Weight": 0.75,
       "Category": {
         "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",

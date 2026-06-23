@@ -61,8 +61,8 @@
         "LocalizedString": "A sword in the style of the Black Knights, forged from black metal."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Sword'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Sword"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Sword.T_Icon_Black_Sword",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Faction/M_MED_Black_Knight_Melee_Sword_1H_01/SM_M_MED_Black_Knight_Melee_Sword_1H_01.SM_M_MED_Black_Knight_Melee_Sword_1H_01",
@@ -98,7 +98,10 @@
             "SourceString": "Increased DAMAGE against MAGES",
             "LocalizedString": "Increased DAMAGE against MAGES"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "_mTHz0WtLkARIJOwX01_Dw",

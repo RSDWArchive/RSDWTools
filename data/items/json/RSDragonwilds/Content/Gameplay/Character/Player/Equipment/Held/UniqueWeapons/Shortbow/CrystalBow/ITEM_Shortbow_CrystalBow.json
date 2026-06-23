@@ -80,8 +80,8 @@
         "LocalizedString": "A powerful Shortbow fashioned from crystal of Elven origin."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shortbow_Crystal_2H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Shortbow_Crystal_2H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Shortbow_Crystal_2H_01.T_Icon_Shortbow_Crystal_2H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Shortbow_Crystal_2H_01/SM_Shortbow_Crystal_2H_01.SM_Shortbow_Crystal_2H_01",

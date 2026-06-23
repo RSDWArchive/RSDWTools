@@ -22,8 +22,8 @@
         "LocalizedString": "Mined from Mithril deposits. It can be smelted into bars at a furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Ore'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/T_Icon_Mithril_Ore"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/T_Icon_Mithril_Ore.T_Icon_Mithril_Ore",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Mithril_Ore_Small_01.SM_Mithril_Ore_Small_01",
@@ -32,15 +32,21 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 4.0,
+      "Weight": 3.6,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ore"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Metal",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Debris"
+      },
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'MiningDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
       },
       "PersistenceID": "NE9ro1p-LEeiL-80nPPyhw",
       "InternalName": "res_ore_mithril"

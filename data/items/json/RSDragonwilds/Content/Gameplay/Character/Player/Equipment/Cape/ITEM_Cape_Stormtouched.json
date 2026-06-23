@@ -38,8 +38,8 @@
         "LocalizedString": "A cloak depicting ancient monsters and a mage's fury."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Stormtouched'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Stormtouched.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Stormtouched.T_Icon_Cape_Stormtouched",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

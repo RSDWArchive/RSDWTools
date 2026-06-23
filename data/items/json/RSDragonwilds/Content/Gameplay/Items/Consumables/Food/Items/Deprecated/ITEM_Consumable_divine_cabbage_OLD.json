@@ -9,6 +9,7 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "AmountToHealOnConsume": 60.0,
       "ConsumeXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
@@ -32,17 +33,17 @@
         },
         {
           "Effect": {
-            "ObjectName": "GE_ModifyHealth_Increase_C'ITEM_Consumable_divine_cabbage_OLD:GE_ModifyHealth_Heal_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.1"
-          }
-        },
-        {
-          "Effect": {
             "ObjectName": "GE_ModifyHealthRegen_C'ITEM_Consumable_divine_cabbage_OLD:GE_ModifyHealthRegen_C_0'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_divine_cabbage_OLD:GE_Cooldown_Eat_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.1"
+        }
+      },
       "Name": {
         "Namespace": "",
         "Key": "FBF29BA64B0E51EC81BD48B2BE61DFBC",
@@ -55,13 +56,37 @@
         "SourceString": "Deliciousness is power!",
         "LocalizedString": "Deliciousness is power!"
       },
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "SourceFmt": {
+              "Namespace": "",
+              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
+              "SourceString": "+{NewHealAmount} Health",
+              "LocalizedString": "+{NewHealAmount} Health"
+            },
+            "Arguments": [
+              {
+                "ArgumentName": "NewHealAmount",
+                "ArgumentValue": {
+                  "Type": 3,
+                  "Value": 60.0
+                }
+              }
+            ]
+          }
+        }
+      ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Food_Cabbage'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Food_Cabbage.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Food_Cabbage.T_Food_Cabbage",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Health_Stamina_Buff'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Health_Stamina_Buff.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Health_Stamina_Buff.T_Health_Stamina_Buff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Consumable/Food/SM_Cabbage_01.SM_Cabbage_01",
@@ -86,25 +111,18 @@
     }
   },
   {
-    "Type": "GE_ModifyHealth_Increase_C",
-    "Name": "GE_ModifyHealth_Heal_C_0",
+    "Type": "GE_Cooldown_Eat_C",
+    "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
     "Template": {
-      "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.3"
+      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 30.0
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_ModifyHealthRegen_C",

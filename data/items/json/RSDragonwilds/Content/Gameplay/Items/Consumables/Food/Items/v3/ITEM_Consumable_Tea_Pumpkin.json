@@ -28,11 +28,17 @@
       "GameplayEffectsToApply": [
         {
           "Effect": {
-            "ObjectName": "GE_WardFruit_C'ITEM_Consumable_Tea_Pumpkin:GE_WardFruit_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.1"
+            "ObjectName": "GE_HealthFruit_C'ITEM_Consumable_Tea_Pumpkin:GE_HealthFruit_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Tea_Pumpkin:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "InfusionSpicePumpkin",
@@ -46,12 +52,12 @@
         "LocalizedString": "A seasonal treat, popular with some."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pumpkin_spice_infusion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Pumpkin_spice_infusion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Pumpkin_spice_infusion.T_Icon_Pumpkin_spice_infusion",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Instant_Water'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Instant_Water.T_Instant_Water",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -87,12 +93,12 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Wardfruit.Description",
-            "SourceString": "Recharges WARD SHIELD over time",
-            "LocalizedString": "Recharges WARD SHIELD over time"
+            "SourceString": "Restores HEALTH over time",
+            "LocalizedString": "Restores HEALTH over time"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_SoulFood_2'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SoulFood_2.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SoulFood_2.T_Icon_Buff_SoulFood_2",
+            "SubPathString": ""
           }
         }
       ],
@@ -105,22 +111,31 @@
     }
   },
   {
-    "Type": "GE_WardFruit_C",
-    "Name": "GE_WardFruit_C_0",
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
     "Outer": {
       "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Pumpkin'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
     "Template": {
-      "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.1"
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Drink_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "bShowInTooltip": false
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_HealthFruit_C",
+    "Name": "GE_HealthFruit_C_0",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Pumpkin'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Pumpkin.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.GE_HealthFruit_C'",
+    "Template": {
+      "ObjectName": "GE_HealthFruit_C'Default__GE_HealthFruit_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

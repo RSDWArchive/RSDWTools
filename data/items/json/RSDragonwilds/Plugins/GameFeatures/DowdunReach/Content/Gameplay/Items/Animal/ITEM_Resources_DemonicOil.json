@@ -22,8 +22,8 @@
         "LocalizedString": "Made by combining necrotic bonemeal and vile ashes. A crafting component."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Demonic_Oil'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Demonic_Oil"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Demonic_Oil.T_Icon_Demonic_Oil",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 3.0,
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.DemonicOil"

@@ -22,12 +22,12 @@
         "LocalizedString": "An ornate dragonkin horn, traditionally used to challenge someone to a duel of honour. Bring it to the dragonkin altar to challenge Velgar."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Challenge_Horn_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Challenge_Horn_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Challenge_Horn_01.T_Icon_Challenge_Horn_01",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Primary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Primary.T_Quest_Primary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Challenge_Horn/SM_ChallengeHorn.SM_ChallengeHorn",

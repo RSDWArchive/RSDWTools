@@ -28,23 +28,35 @@
         {
           "Effect": {
             "ObjectName": "GE_Potion_Lumberjack_C'ITEM_Consumable_Potion_T2_Lesser_Lumberjack:GE_Potion_Lumberjack_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_T2_Lesser_Lumberjack:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LesserLumberjackPotion",
         "SourceString": "Lesser Lumberjack Potion",
         "LocalizedString": "Lesser Lumberjack Potion"
       },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SuperLumberjackPotion",
+        "SourceString": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+        "LocalizedString": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. "
+      },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Lesser_Green_Potion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.T_Icon_Lesser_Green_Potion",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Stamina'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Lifeward_Health_Stamina/T_Icon_Stamina.0"
+        "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Lifeward_Health_Stamina/T_Icon_Stamina.T_Icon_Stamina",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Green_Potion.SM_Lesser_Green_Potion",
@@ -70,8 +82,8 @@
             "LocalizedString": "REDUCES the STAMINA cost of WOODCUTTING by 33%"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_Lumberjack'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Lumberjack.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Lumberjack.T_Icon_Buff_Lumberjack",
+            "SubPathString": ""
           }
         }
       ],
@@ -82,6 +94,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Lumberjack'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Potion_Lumberjack_C",

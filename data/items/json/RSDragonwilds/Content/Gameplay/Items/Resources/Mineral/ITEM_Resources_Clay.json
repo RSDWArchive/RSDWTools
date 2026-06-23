@@ -22,8 +22,8 @@
         "LocalizedString": "Essential for pottery and construction, dig it up from nearby water sources."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Clay'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Clay.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Clay.T_Icon_Resources_Clay",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Clay/SM_Clay_Ore_Small_01.SM_Clay_Ore_Small_01",
@@ -40,7 +40,9 @@
         "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Clay"

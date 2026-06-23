@@ -72,15 +72,15 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Swingslash'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Swingslash.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Swingslash.T_Icon_Swingslash",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_Swingslash_1H_01/SM_Club_Swingslash_1H_01.SM_Club_Swingslash_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 2,
-      "Weight": 4.5,
+      "Weight": 8.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Club"
       },

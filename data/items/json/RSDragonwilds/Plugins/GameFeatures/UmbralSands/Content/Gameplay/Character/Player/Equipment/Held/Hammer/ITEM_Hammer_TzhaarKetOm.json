@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Hammer_TzhaarKetOm",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Hammer/BP_Hammer_TzhaarKetOm.BP_Hammer_TzhaarKetOm_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_TzhaarKetOm_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_TzhaarKetOm.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_TzhaarKetOm_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special_TzhaarKetOm.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses.0"
+      },
+      "DamageMultiplier": 8.4,
+      "BlockingDamageNegation": 44.0,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "bIsAWeapon": true,
+      "DistanceOffset": 30.0,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Tzhaarketom",
+        "SourceString": "TzHaar-Ket-Om",
+        "LocalizedString": "TzHaar-Ket-Om"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Tzhaarketom",
+        "SourceString": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
+        "LocalizedString": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient."
+      },
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
+            "Key": "BleedApplication",
+            "SourceString": "Bleed Build Up",
+            "LocalizedString": "Bleed Build Up"
+          },
+          "Value": {
+            "CultureInvariantString": null
+          }
+        }
+      ],
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kothaar_Mace.T_Icon_Kothaar_Mace",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Melee/KotHaar_Ket_Hammer_2H_01/SM_TzhaarKetOm_2H_01.SM_TzhaarKetOm_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 25.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.2H.Warhammer"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.BludgeonLarge"
+      },
+      "BaseDurability": 1200,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ObsidianHammer.Description",
+            "SourceString": "HITS cause BLEED build up on targets\r\nReduced DURABILITY",
+            "LocalizedString": "HITS cause BLEED build up on targets\r\nReduced DURABILITY"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "d7VKQ0Pi4TZ60FSYIDUUxw",
+      "InternalName": "weap_hammer_Tzhaarketom"
+    }
+  }
+]

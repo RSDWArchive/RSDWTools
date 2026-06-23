@@ -156,12 +156,12 @@
       },
       "CooldownDuration": 45.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Magic_Spell_Surge'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Surge.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Magic/T_Skill_Magic_Spell_Surge.T_Skill_Magic_Spell_Surge",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.T_Icon_Tag_Skill_Magic",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "TraceProfile": {
@@ -170,6 +170,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourCyan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourCyan.1"
       },
       "Modules": {
         "Modules": [

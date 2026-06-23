@@ -58,7 +58,7 @@
         },
         "RowName": "Craft_Cooking_Range_Recipe"
       },
-      "AchievementUnlockedOnCraft": "IconicMeal",
+      "AchievementUnlockedOnCraft": "CookingVeteran",
       "PersistenceID": "7Ju6zEAXn7b6C1axlyhmGA",
       "InternalName": "recipe_iconic_kebab"
     }

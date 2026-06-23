@@ -38,8 +38,8 @@
         "LocalizedString": "The shield of an Undead Hoplite."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Hopelite_Shield'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Hopelite_Shield.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Hopelite_Shield.T_icon_Hopelite_Shield",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/FutureMajorVersion/Art/Skeleton/Weapons/Faction/U_MED_Skeleton_Human_Melee_Heavy_Shield_01/SM_U_MED_Skeleton_Human_Melee_Heavy_Shield_01.SM_U_MED_Skeleton_Human_Melee_Heavy_Shield_01",

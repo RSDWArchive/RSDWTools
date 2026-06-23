@@ -28,10 +28,16 @@
         {
           "Effect": {
             "ObjectName": "GE_Potion_FocusedWoodcutting_C'ITEM_Consumable_Potion_Focused_T3_Woodcutting:GE_Potion_FocusedWoodcutting_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T3_Woodcutting:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FocusedWoodcuttingPotion",
@@ -41,16 +47,16 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "StandardWoodcuttingPotion",
-        "SourceString": "Increases XP gain for the Woodcutting skill. Made with irit and feathers.",
-        "LocalizedString": "Increases XP gain for the Woodcutting skill. Made with irit and feathers."
+        "SourceString": "Increases XP gain for the Woodcutting skill.",
+        "LocalizedString": "Increases XP gain for the Woodcutting skill."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Green'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Green"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Green.T_Icon_Potion_Tier3_Green",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.T_Icon_Tag_Skill_Woodcutting",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -76,8 +82,8 @@
             "LocalizedString": "Grants an a 30% XP BOOST for the WOODCUTTING Skill"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_FocusedWoodcutting'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedWoodcutting.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedWoodcutting.T_Icon_Buff_FocusedWoodcutting",
+            "SubPathString": ""
           }
         }
       ],
@@ -88,6 +94,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Woodcutting'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Potion_FocusedWoodcutting_C",

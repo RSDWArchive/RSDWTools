@@ -46,12 +46,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelPickaxe",
-        "SourceString": "A Miner's tool, forged from Steel.",
-        "LocalizedString": "A Miner's tool, forged from Steel."
+        "SourceString": "A miner's tool, forged from steel.",
+        "LocalizedString": "A miner's tool, forged from steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Pickaxe'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Pickaxe.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Pickaxe.T_icon_Steel_Pickaxe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Pickaxe_Steel_2H_01/SM_Pickaxe_Steel_2H_01.SM_Pickaxe_Steel_2H_01",

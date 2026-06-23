@@ -22,12 +22,12 @@
         "LocalizedString": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Charged_Lightning_Bolt.T_Icon_Charged_Lightning_Bolt",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Blue_Potion.SM_Lesser_Blue_Potion",

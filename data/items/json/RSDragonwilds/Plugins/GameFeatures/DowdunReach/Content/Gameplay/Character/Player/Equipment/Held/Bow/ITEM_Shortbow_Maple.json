@@ -76,8 +76,8 @@
         "LocalizedString": "A limber shortbow carved from maple wood"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Maple_Shortbow'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Shortbow"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Shortbow.T_Icon_Maple_Shortbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/Shortbow_Maple_2H_01/SM_Shortbow_Maple_2H_01.SM_Shortbow_Maple_2H_01",

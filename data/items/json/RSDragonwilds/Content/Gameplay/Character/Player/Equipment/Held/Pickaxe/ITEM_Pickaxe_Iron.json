@@ -50,8 +50,8 @@
         "LocalizedString": "Essential for mining hard, valuable rocks, this iron pickaxe is a miner's best friend."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pickaxe_Iron_2H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Iron_2H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Pickaxe_Iron_2H_01.T_Icon_Pickaxe_Iron_2H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Pickaxe_Iron_2H_01/SM_Pickaxe_Iron_2H_01.SM_Pickaxe_Iron_2H_01",

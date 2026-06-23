@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Longbow_BowofElidinis",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/Bow/BP_Longbow_BowofElidinis.BP_Longbow_BowofElidinis_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PA_BowOfElidinis_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/BowOfElidinis/BP_PA_BowOfElidinis_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Ranged",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+      },
+      "AimSweepSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+      },
+      "AimSweepCrouchedSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+      },
+      "WindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+      },
+      "FullWindUpSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+      },
+      "WindUpMaxMovementSpeedOverride": 150.0,
+      "DamageMultiplier": 4.2,
+      "bAssignDamageTypesToLaunchedProjectiles": true,
+      "DamageTypes": [
+        "DamageType.Magical.Water"
+      ],
+      "AmmoType": "EHeldEquipmentAmmoType::Arrows",
+      "ProjectileClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
+        "SubPathString": ""
+      },
+      "RangedAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 3,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_BowOfElidinis_OnFatalHit_Data_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/BowOfElidinis/GE_BowOfElidinis_OnFatalHit_Data.0"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BowofElidinis",
+        "SourceString": "Bow of Elidinis",
+        "LocalizedString": "Bow of Elidinis"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BowofElidinis",
+        "SourceString": "This ancient bow is a relic of Elidinis: Goddess of the Moon, Rivers, Growth and Fertility. ",
+        "LocalizedString": "This ancient bow is a relic of Elidinis: Goddess of the Moon, Rivers, Growth and Fertility. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Longbow_Elidin.T_Icon_Longbow_Elidin",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Ranged/Longbow_Elidinis_01/SM_Longbow_Elidinis_01.SM_Longbow_Elidinis_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 7,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Bow.Longbow"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Ranged"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Masterwork.BowofEldenis"
+      },
+      "BaseDurability": 1300,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinisSpecial.Title",
+            "SourceString": "Lunar Rain",
+            "LocalizedString": "Lunar Rain"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinisSpecial.Description",
+            "SourceString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB.",
+            "LocalizedString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Boon.Title",
+            "SourceString": "Blessing of Elidinis",
+            "LocalizedString": "Blessing of Elidinis"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Boon.Description",
+            "SourceString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up.",
+            "LocalizedString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Bane.Title",
+            "SourceString": "Purity of the Moon",
+            "LocalizedString": "Purity of the Moon"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "BowOfElidinis.Bane.Description",
+            "SourceString": "Elidinis's virtues prevent the use of POISON, BLEED and FIRE ARROWS when using this bow.",
+            "LocalizedString": "Elidinis's virtues prevent the use of POISON, BLEED and FIRE ARROWS when using this bow."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "THi5wk7TfEUjXhWEkP6oZQ",
+      "InternalName": "weap_longbow_BowofElidinis"
+    }
+  }
+]

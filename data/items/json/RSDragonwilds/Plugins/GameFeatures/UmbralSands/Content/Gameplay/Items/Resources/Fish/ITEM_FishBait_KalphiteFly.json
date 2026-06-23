@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "FishingBaitAmmoData",
+    "Name": "ITEM_FishBait_KalphiteFly",
+    "Class": "UScriptClass'FishingBaitAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": "ELoadoutSlotStrategy::FishingBait",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "KalphiteBait",
+        "SourceString": "Kalphite Bait",
+        "LocalizedString": "Kalphite Bait"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "KalphiteBait",
+        "SourceString": "Kalphite bait. Increases the catch chance of fish.",
+        "LocalizedString": "Kalphite bait. Increases the catch chance of fish."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kalphite_Fly_Bait.T_Icon_Kalphite_Fly_Bait",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/T_Icon_Tag_Skill_Fishing.T_Icon_Tag_Skill_Fishing",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "PowerLevel": 7,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Bait.FeatheredLure"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.FishingBait"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth.Thread"
+      },
+      "PersistenceID": "_TYsk0qA_d1z0AefNv9vnQ",
+      "InternalName": "ammo_fishbait_kalphitefly"
+    }
+  }
+]

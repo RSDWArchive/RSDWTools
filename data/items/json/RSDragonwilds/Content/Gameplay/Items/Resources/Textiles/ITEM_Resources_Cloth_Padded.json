@@ -22,8 +22,8 @@
         "LocalizedString": "A strong and lightweight crafting material."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Padded_Cloth'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Padded_Cloth.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Padded_Cloth.T_Icon_Resource_Padded_Cloth",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Padded_Cloth_01.SM_Padded_Cloth_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 2.0,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

@@ -22,8 +22,8 @@
         "LocalizedString": "A rare gemstone used to craft enchanted jewellery"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Opal'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Opal.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Opal.T_Icon_Resource_Opal",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Opal_01.SM_Gemstone_Opal_01",

@@ -129,12 +129,12 @@
         "LocalizedString": "Summon Stone Spirits"
       },
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Mining_Detect_Ore'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Detect_Ore.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Detect_Ore.T_Skill_Mining_Detect_Ore",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Mining'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.T_Icon_Tag_Skill_Mining",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "TraceProfile": {
@@ -143,6 +143,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourPink'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink.1"
       },
       "Modules": {
         "Modules": [

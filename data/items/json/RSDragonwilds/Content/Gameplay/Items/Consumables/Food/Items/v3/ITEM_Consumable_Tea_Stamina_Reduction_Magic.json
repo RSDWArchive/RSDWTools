@@ -29,10 +29,16 @@
         {
           "Effect": {
             "ObjectName": "GE_MagicAttack_Stamina_Cost_C'ITEM_Consumable_Tea_Stamina_Reduction_Magic:GE_MagicAttack_Stamina_Cost_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Magic:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ArcaneInfusion",
@@ -46,12 +52,12 @@
         "LocalizedString": "Puts the whiz in wizard."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Arcane_infusion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Food_30/T_Icon_Arcane_infusion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Food_30/T_Icon_Arcane_infusion.T_Icon_Arcane_infusion",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Instant_Water'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Water.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Instant_Water.T_Instant_Water",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -91,8 +97,8 @@
             "LocalizedString": "REDUCES the STAMINA cost of MAGIC ATTACKS by 33%"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_Arcanealigned'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Arcanealigned.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Arcanealigned.T_Icon_Buff_Arcanealigned",
+            "SubPathString": ""
           }
         }
       ],
@@ -103,6 +109,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Magic'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Magic.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Drink_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Drink.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_MagicAttack_Stamina_Cost_C",

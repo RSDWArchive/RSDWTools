@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_MenaphiteCape_Pink",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_MenaphiteCape_Pink_MeshData_Male'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_MenaphiteCape_Pink_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_MenaphiteCape_Pink_MeshData_Female'",
+        "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_MenaphiteCape_Pink_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_MenaphiteCape_Pink"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "MenaphiteCapePink",
+        "SourceString": "Pink Desert Cape",
+        "LocalizedString": "Pink Desert Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "MenaphiteCapePink",
+        "SourceString": "A pink cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+        "LocalizedString": "A pink cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Menaphite_Cape_04.T_Icon_Menaphite_Cape_04",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "BqaEfUsE_zpfkE-nynz0Sw",
+      "InternalName": "armour_t0_cape_menaphitecape_pink"
+    }
+  }
+]

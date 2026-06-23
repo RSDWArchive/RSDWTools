@@ -22,8 +22,8 @@
         "LocalizedString": "A pair of Black crossbow limbs. Used in crafting a Black Knight Crossbow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Crossbow_Limbs'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Crossbow_Limbs"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Crossbow_Limbs.T_Icon_Black_Crossbow_Limbs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -31,6 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "Weight": 4.5,
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

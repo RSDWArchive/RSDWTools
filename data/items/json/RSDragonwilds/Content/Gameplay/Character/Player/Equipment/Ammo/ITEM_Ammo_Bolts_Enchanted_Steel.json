@@ -22,7 +22,7 @@
         "OverrideGravityZ": -600.0,
         "TimeWithoutGravity": 0.2,
         "BaseDamageTypes": [
-          "DamageType.Ranged"
+          "DamageType.Ranged.Bolts"
         ],
         "AdditionalDamageFraction": 2.7
       },
@@ -55,12 +55,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "EnchantedSteelBolts",
-        "SourceString": "Steel crossbow bolts tipped with enchanted Red Topaz. Has a chance to create a necrotic bolt that heals your lifeward for a proportion of the damage dealt.",
-        "LocalizedString": "Steel crossbow bolts tipped with enchanted Red Topaz. Has a chance to create a necrotic bolt that heals your lifeward for a proportion of the damage dealt."
+        "SourceString": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a proportion of the damage dealt.",
+        "LocalizedString": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a proportion of the damage dealt."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Steel_Enchanted_Bolt'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Steel_Enchanted_Bolt.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Steel_Enchanted_Bolt.T_Icon_Steel_Enchanted_Bolt",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Bolt_Stack_01.SM_Bolt_Stack_01",

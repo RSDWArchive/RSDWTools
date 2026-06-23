@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_HammerAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hammer/FF_HammerAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
@@ -59,8 +55,8 @@
         "LocalizedString": "A heavy-hitting, two-handed weapon crafted from bronze."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Warhammer_Bronze_2H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Warhammer_Bronze_2H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Warhammer_Bronze_2H_01.T_Icon_Warhammer_Bronze_2H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Warhammer_Bronze_2H_01/SM_Warhammer_Bronze_2H_01.SM_Warhammer_Bronze_2H_01",

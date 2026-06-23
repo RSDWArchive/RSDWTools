@@ -51,12 +51,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelScimitar",
-        "SourceString": "A vicious, curved sword of Eastern Origins forged from Steel.",
-        "LocalizedString": "A vicious, curved sword of Eastern Origins forged from Steel."
+        "SourceString": "A vicious, curved sword of eastern origins forged from steel.",
+        "LocalizedString": "A vicious, curved sword of eastern origins forged from steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_1H_Scimitar'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Scimitar.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_1H_Scimitar.T_icon_Steel_1H_Scimitar",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Scimitar_Steel_1H_01/SM_Scimitar_Steel_1H_01.SM_Scimitar_Steel_1H_01",

@@ -22,8 +22,8 @@
         "LocalizedString": "A dragonkin energy source, found only within dragonkin vaults. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Vault_Core'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Core.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Core.T_Icon_Resource_Vault_Core",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Vault_Core/SM_Vault_Core_01.SM_Vault_Core_01",
@@ -31,8 +31,11 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 25,
+      "MaxStackSize": 99,
       "Weight": 50.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.VaultCore"
       },

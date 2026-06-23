@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "FuelItemData",
+    "Name": "ITEM_Resources_Plank_Yew",
+    "Class": "UScriptClass'FuelItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FuelValue": 60.0,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PlankYew",
+        "SourceString": "Yew Plank",
+        "LocalizedString": "Yew Plank"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "YewPlank",
+        "SourceString": "A milled piece of yew timber. ",
+        "LocalizedString": "A milled piece of yew timber. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Yew_Plank.T_Icon_Yew_Plank",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Planks/SM_Plank_Yew_01.SM_Plank_Yew_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.75,
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Light"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "Arp89Et82NIcX52Sb54tow",
+      "InternalName": "res_plank_yew"
+    }
+  }
+]

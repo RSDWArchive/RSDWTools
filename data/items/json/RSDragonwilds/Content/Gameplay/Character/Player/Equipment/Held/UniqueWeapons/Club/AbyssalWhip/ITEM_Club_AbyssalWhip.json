@@ -72,8 +72,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Abyssal_Whip'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Abyssal_Whip.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Abyssal_Whip.T_Icon_Abyssal_Whip",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Whip_AbyssalDemon_1H_01/SM_Whip_AbyssalDemon_1H_01.SM_Whip_AbyssalDemon_1H_01",

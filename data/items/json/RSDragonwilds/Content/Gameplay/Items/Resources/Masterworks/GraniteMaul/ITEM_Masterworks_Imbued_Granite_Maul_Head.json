@@ -22,12 +22,12 @@
         "LocalizedString": "A massive granite war hammer head. The Garou masons imbue their stone weapons with with Wild Anima to make them stronger than metal. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Imbued_Maul_Head'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Imbued_Maul_Head.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Imbued_Maul_Head.T_Icon_Imbued_Maul_Head",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Mineral/SM_Granite_01.SM_Granite_01",

@@ -22,8 +22,8 @@
         "LocalizedString": "Flammable and volatile, handle with care!\r\n\r\nUsed to craft Fire arrows."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Fire_Oil'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Fire_Oil.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Fire_Oil.T_Icon_Fire_Oil",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

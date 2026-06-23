@@ -82,8 +82,8 @@
         "LocalizedString": "Once the bow of a silent hunter. Deals additional damage to unaware targets."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ulvs_Bow'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_0_10_02/T_Icon_Ulvs_Bow.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Ulvs_Bow.T_Icon_Ulvs_Bow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Longbow_Ulvs_2H_01/SM_Longbow_Ulvs_2H_01.SM_Longbow_Ulvs_2H_01",
@@ -119,7 +119,10 @@
             "SourceString": "Increased DAMAGE to UNSUSPECTING targets",
             "LocalizedString": "Increased DAMAGE to UNSUSPECTING targets"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "5Y972kmdvcs4vSqWaXZltw",

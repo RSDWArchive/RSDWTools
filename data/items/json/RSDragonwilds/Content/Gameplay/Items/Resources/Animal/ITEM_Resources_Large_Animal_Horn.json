@@ -22,8 +22,8 @@
         "LocalizedString": "A large horn belonging to an animal. Used in crafting"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Large_Animal_Horn'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Large_Animal_Horn.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Large_Animal_Horn.T_Icon_Resources_Large_Animal_Horn",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",

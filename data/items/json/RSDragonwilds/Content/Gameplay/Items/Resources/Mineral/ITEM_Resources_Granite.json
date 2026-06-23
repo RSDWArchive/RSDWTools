@@ -22,8 +22,8 @@
         "LocalizedString": "A dense stone used for construction and crafting. Very commonly found underground, in mines and dungeons."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Granite'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Granite.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Granite.T_Icon_Resource_Granite",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Stone/SM_Stone_01.SM_Stone_01",
@@ -40,7 +40,8 @@
         "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Chunky"

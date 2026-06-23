@@ -39,8 +39,8 @@
         "LocalizedString": "Durable armour crafted from hard leather reinforced with iron studs."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_M_MED_LEGS_StuddedLeather_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_LEGS_StuddedLeather_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_LEGS_StuddedLeather_01.T_Icon_M_MED_LEGS_StuddedLeather_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

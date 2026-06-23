@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from Black Knights. Can be reforged into black metal at a blast furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Black_Metal_Scraps'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Metal_Scraps"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Metal_Scraps.T_Icon_Black_Metal_Scraps",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Metal_Ingot/SM_Metal_Ingot_01.SM_Metal_Ingot_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 1.0,
+      "Weight": 0.8,
       "Category": {
         "TagName": "Item.Resource.Metal.TarnishedBlackMetal"
       },

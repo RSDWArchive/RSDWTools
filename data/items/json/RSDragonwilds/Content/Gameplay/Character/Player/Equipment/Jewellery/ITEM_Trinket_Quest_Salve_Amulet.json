@@ -52,8 +52,8 @@
         "LocalizedString": "A powerful amulet made from a crystal that has absorbed the magical blessings of the River Salve."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Amulet_Salve'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_Salve.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_Salve.T_Icon_Amulet_Salve",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -93,7 +93,10 @@
             "SourceString": "Increased DAMAGE to UNDEAD enemies",
             "LocalizedString": "Increased DAMAGE to UNDEAD enemies"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "LD2aYUnB_pK6aHOn64cemw",

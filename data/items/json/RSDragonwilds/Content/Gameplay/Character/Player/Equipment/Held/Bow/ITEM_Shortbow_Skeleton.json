@@ -76,8 +76,8 @@
         "LocalizedString": "This bow still fires with undeadly precision."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Undead_Shortbow'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_icon_Undead_Shortbow.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_icon_Undead_Shortbow.T_icon_Undead_Shortbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/HuntersShortbow_OakWood_2H_01/SM_HuntersShortbow_OakWood_2H_02.SM_HuntersShortbow_OakWood_2H_02",
@@ -113,7 +113,10 @@
             "SourceString": "Increased DAMAGE\r\nReduced DURABILITY",
             "LocalizedString": "Increased DAMAGE\r\nReduced DURABILITY"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "cEEQVE9__6Ch0naJHHXmvQ",

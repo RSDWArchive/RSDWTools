@@ -76,8 +76,8 @@
         "LocalizedString": "A precise Longbow crafted from Willow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Willow_Longbow4'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_icon_Willow_Longbow4.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_icon_Willow_Longbow4.T_icon_Willow_Longbow4",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Longbow_Willow_2H_01/SM_Longbow_Willow_2H_01.SM_Longbow_Willow_2H_01",

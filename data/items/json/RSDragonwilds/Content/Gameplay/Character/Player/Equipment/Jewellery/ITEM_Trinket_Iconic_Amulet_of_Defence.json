@@ -29,8 +29,8 @@
         "LocalizedString": "A mystical amulet that strengthens your defences."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Amulet_of_Defense'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Defense.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Defense.T_Icon_Amulet_of_Defense",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -69,7 +69,10 @@
             "SourceString": "Increased ARMOUR VALUE",
             "LocalizedString": "Increased ARMOUR VALUE"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "bkZosEFhzpZdonqm9gx-vA",

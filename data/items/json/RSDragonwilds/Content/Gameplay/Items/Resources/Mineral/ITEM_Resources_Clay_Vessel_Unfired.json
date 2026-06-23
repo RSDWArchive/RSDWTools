@@ -22,8 +22,8 @@
         "LocalizedString": "A formed clay bowl, ready to be fired in a kiln."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Unfired_Clay_Vessel'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Unfired_Clay_Vessel.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Unfired_Clay_Vessel.T_Icon_Unfired_Clay_Vessel",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Clay_Bowls/SM_Clay_Bowl_Unfired_01.SM_Clay_Bowl_Unfired_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 1.0,
       "Category": {
         "TagName": "Item.BuildingResource"

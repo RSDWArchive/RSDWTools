@@ -22,8 +22,8 @@
         "LocalizedString": "An unusually large Trout, worthy of putting it on the wall as trophy or cook it to gain more food."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Trout_Pristine'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Trout_Pristine"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Trout_Pristine.T_Icon_Trout_Pristine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Trout_01/SM_Fish_Trout_01.SM_Fish_Trout_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 4.2,
+      "Weight": 2.0,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

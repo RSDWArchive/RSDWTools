@@ -22,8 +22,8 @@
         "LocalizedString": "Raw material used in the art of glassblowing."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Molten_Glass'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Molten_Glass.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Molten_Glass.T_Icon_Resource_Molten_Glass",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Molten_Glass/SM_Molten_Glass_01.SM_Molten_Glass_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.5,
       "Category": {
         "TagName": "Item.BuildingResource"

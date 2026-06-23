@@ -22,8 +22,8 @@
         "LocalizedString": "Used to craft magical equipment. Postie Pete also has a use for them."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Infernal_Fragments'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Infernal_Fragments"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Infernal_Fragments.T_Icon_Infernal_Fragments",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Infernal_Fragments/SM_Infernal_Fragments_01.SM_Infernal_Fragments_01",
@@ -31,10 +31,13 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 999,
+      "MaxStackSize": 9999,
       "Category": {
         "TagName": "Item.QuestItem.KeyItem"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Material.SpecialMaterial"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.Vaultshard"
       },

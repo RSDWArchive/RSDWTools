@@ -38,8 +38,8 @@
         "LocalizedString": "A magically resonant hood, perfect for staying warm. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mystic_Hood'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Hood"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Hood.T_Icon_Mystic_Hood",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

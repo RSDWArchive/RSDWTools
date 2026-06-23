@@ -131,7 +131,7 @@
       "ItemsCostInfo": [
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Rune_Water'",
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Water'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.0"
           },
           "Count": 15
@@ -402,12 +402,12 @@
       },
       "CooldownDuration": 45.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Farming_Humidity'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Farming/T_Skill_Farming_Humidity.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Farming/T_Skill_Farming_Humidity.T_Skill_Farming_Humidity",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "CastType": "EUtilitySpellCastType::Aimed",
@@ -431,6 +431,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourCyan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourCyan.1"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresWaterAmount_Humidify_C'",

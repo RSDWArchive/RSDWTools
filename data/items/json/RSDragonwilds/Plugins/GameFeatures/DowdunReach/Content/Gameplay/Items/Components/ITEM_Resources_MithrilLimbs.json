@@ -22,8 +22,8 @@
         "LocalizedString": "A pair of mithril crossbow limbs. Essential for the crafting of a mithril crossbow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Crossbow_Arms'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Crossbow_Arms"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Crossbow_Arms.T_Icon_Mithril_Crossbow_Arms",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -31,6 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "Weight": 4.5,
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"

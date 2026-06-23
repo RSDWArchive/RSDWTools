@@ -57,15 +57,15 @@
       },
       "bUseCustomStatDetails": true,
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Undead_Axe'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Undead_Axe.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Undead_Axe.T_Icon_Undead_Axe",
+        "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_Swingslash_1H_01/SM_Club_Swingslash_1H_01.SM_Club_Swingslash_1H_01",
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Club_UnbrokenZombieAxe_1H_01/SM_Club_UnbrokenZombieAxe_1H_01.SM_Club_UnbrokenZombieAxe_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 5,
-      "Weight": 6.0,
+      "Weight": 15.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Mace"
       },

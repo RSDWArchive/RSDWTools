@@ -12,8 +12,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DraconicVisage.Velgar",
-        "SourceString": "Draconic Visage",
-        "LocalizedString": "Draconic Visage"
+        "SourceString": "Noxious Draconic Visage",
+        "LocalizedString": "Noxious Draconic Visage"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
@@ -22,8 +22,8 @@
         "LocalizedString": "The image of a fearsome dragon. Used in crafting powerful equipment. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dragon_Visage'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragon_Visage.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragon_Visage.T_Icon_Dragon_Visage",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -31,6 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "Weight": 0.5,
       "ItemFilterTags": [
         "ItemFilter.Material.Component"

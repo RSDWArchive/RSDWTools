@@ -11,7 +11,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Heart_Withered'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Heart_Withered.0"
           },
-          "Count": 3
+          "Count": 1
         }
       ],
       "ItemsCreated": [
@@ -20,7 +20,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Ectoplasm'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Ectoplasm.0"
           },
-          "Count": 1
+          "Count": 3
         }
       ],
       "AudioTag": {

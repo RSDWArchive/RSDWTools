@@ -39,8 +39,8 @@
         "LocalizedString": "Durable mithril leg armour."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Legs'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Legs"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Legs.T_Icon_Mithril_Legs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

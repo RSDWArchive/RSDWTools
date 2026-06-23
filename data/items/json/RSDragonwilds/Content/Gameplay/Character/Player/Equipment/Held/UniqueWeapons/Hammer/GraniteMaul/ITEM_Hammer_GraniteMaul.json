@@ -21,10 +21,6 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Granite_Maul_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Granite_Maul/PA_Attack_Granite_Maul_Special.0"
       },
-      "HeldForceFeedback": {
-        "ObjectName": "ForceFeedbackEffect'FF_HammerAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hammer/FF_HammerAdaptiveTriggers.0"
-      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
@@ -59,8 +55,8 @@
         "LocalizedString": "The power of this warhammer should not be taken for granite."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Warhammer_Granite_Maul'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Warhammer_Granite_Maul.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Warhammer_Granite_Maul.T_Icon_Warhammer_Granite_Maul",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Warhammer_GraniteMaul_2H_01/SM_Warhammer_GraniteMaul_2H_01.SM_Warhammer_GraniteMaul_2H_01",

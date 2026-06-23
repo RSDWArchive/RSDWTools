@@ -22,8 +22,8 @@
         "LocalizedString": "A delightful ornament that will really tie your home together."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Glass_Decoration'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Decoration"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Glass_Decoration.T_Icon_Glass_Decoration",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.1,
       "Category": {
         "TagName": "Audio.Glass.Pane"

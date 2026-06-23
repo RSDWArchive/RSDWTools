@@ -22,8 +22,8 @@
         "LocalizedString": "A vegetable that often brings a tear to your eye."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Onion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Onion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Onion.T_Icon_Onion",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",

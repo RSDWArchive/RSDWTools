@@ -42,8 +42,8 @@
         "LocalizedString": "The Spirit of Velgar lives on within this shield corrupting your enemies."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Shield_Poison_Dragonfire'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shield_Poison_Dragonfire.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shield_Poison_Dragonfire.T_Icon_Shield_Poison_Dragonfire",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Shields/Kite_PoisonDragonfire_1H_01/SM_Kite_PoisonDragonfire_1H_01.SM_Kite_PoisonDragonfire_1H_01",
@@ -79,7 +79,10 @@
             "SourceString": "PARRYING causes POISON build up on enemies.",
             "LocalizedString": "PARRYING causes POISON build up on enemies."
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "RyuOEkWEWdGcvQqo2dPOgA",

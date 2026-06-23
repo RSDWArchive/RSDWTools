@@ -22,8 +22,8 @@
         "LocalizedString": "Mined from Iron deposits, it can be smelted at a Furnace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Ore_Iron'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Iron.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ore_Iron.T_Icon_Resource_Ore_Iron",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Ores/SM_Iron_Ore_Small_01.SM_Iron_Ore_Small_01",
@@ -40,10 +40,16 @@
         "TagName": "ItemFilter.WeightReduction.Ore"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Metal",
+        "ItemFilter.Material.Ore"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Debris"
+      },
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'MiningDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
       },
       "PersistenceID": "rTRm3cGOmUm1h1BMEYzTwA",
       "InternalName": "res_ore_iron"

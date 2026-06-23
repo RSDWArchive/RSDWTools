@@ -22,8 +22,8 @@
         "LocalizedString": "This trout has seen things. You almost feel apologetic for catching it."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Unusual_Trout'",
-        "ObjectPath": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/T_Icon_Unusual_Trout"
+        "AssetPathName": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/T_Icon_Unusual_Trout.T_Icon_Unusual_Trout",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/SM_Fish_Unusual_Trout_01.SM_Fish_Unusual_Trout_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 2.1,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

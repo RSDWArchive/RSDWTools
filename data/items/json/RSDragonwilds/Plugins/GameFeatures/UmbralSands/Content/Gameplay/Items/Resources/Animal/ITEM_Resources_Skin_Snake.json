@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Skin_Snake",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SnakeSkin",
+        "SourceString": "Snake Skin",
+        "LocalizedString": "Snake Skin"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SnakeSkin",
+        "SourceString": "Skin from a snake. Can be processed at a Tannery.",
+        "LocalizedString": "Skin from a snake. Can be processed at a Tannery."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/DesignPlaceholders/fish-scales.fish-scales",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/SM_Item_Placeholder.SM_Item_Placeholder",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 0.3,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Chitin"
+      },
+      "PersistenceID": "GZ0sikPuLLsR2HCONjES8Q",
+      "InternalName": "res_skin_snake"
+    }
+  }
+]

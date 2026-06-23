@@ -37,14 +37,14 @@
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
           },
-          "Count": 15
+          "Count": 30
         },
         {
           "ItemData": {
             "ObjectName": "MagicAmmoData'ITEM_Rune_Fire'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.0"
           },
-          "Count": 5
+          "Count": 15
         }
       ],
       "bUseMagicAmmo": false,
@@ -115,14 +115,14 @@
         "SourceString": "Pickaxe",
         "LocalizedString": "Pickaxe"
       },
-      "CooldownDuration": 45.0,
+      "CooldownDuration": 60.0,
       "SpellIcon": {
-        "ObjectName": "Texture2D'T_Skill_Mining_Rocksplosian'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Rocksplosian.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Rocksplosian.T_Skill_Mining_Rocksplosian",
+        "SubPathString": ""
       },
       "SpellTagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Mining'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Mining.T_Icon_Tag_Skill_Mining",
+        "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "CastType": "EUtilitySpellCastType::Placed",
@@ -135,6 +135,12 @@
         "SubPathString": ""
       },
       "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
+      "bOverrideMaxPlacementDistanceFromCamera": true,
+      "MaxPlacementDistanceFromCamera": 2500.0,
+      "RequiredPerkForMaxPlacementDistanceOverride": {
+        "ObjectName": "SkillPerkData'PerkV2_Mining_RocksplosionUpgrade'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Mining/PerkV2_Mining_RocksplosionUpgrade.0"
+      },
       "DistanceAboveGroundToPlaceSpell": 100.0,
       "TraceProfile": {
         "Name": "NoCollision"
@@ -142,6 +148,10 @@
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourGreen'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen.1"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresPickaxe_C'",

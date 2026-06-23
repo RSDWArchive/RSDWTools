@@ -43,8 +43,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GarouStaff",
-        "SourceString": "Grieving Moon Staff",
-        "LocalizedString": "Grieving Moon Staff"
+        "SourceString": "Grieving Moonstaff",
+        "LocalizedString": "Grieving Moonstaff"
       },
       "FlavourText": {
         "Namespace": "",
@@ -70,8 +70,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Staff_Grieving_Moon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Grieving_Moon.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Grieving_Moon.T_Icon_Staff_Grieving_Moon",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Battlestaff_GrievingMoon_2H_01/SM_Battlestaff_GrievingMoon_2H_01.SM_Battlestaff_GrievingMoon_2H_01",

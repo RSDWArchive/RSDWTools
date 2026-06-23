@@ -38,8 +38,8 @@
         "LocalizedString": "Protect your head with this durable mithril headgear."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Helm'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Helm"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Helm.T_Icon_Mithril_Helm",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

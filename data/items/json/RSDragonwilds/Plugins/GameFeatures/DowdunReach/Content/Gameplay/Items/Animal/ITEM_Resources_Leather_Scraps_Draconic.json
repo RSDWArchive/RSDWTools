@@ -22,8 +22,8 @@
         "LocalizedString": "Scruffy organic bits and pieces that can be combined to make draconic leather."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Draconic_Leather_Scraps'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Draconic_Leather_Scraps"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Draconic_Leather_Scraps.T_Icon_Draconic_Leather_Scraps",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Furs_and_Bones_Bundle/SM_Furs_and_Bones_Bundle_01.SM_Furs_and_Bones_Bundle_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 0.6,
+      "Weight": 0.15,
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },

@@ -100,8 +100,8 @@
         }
       ],
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Crossbow_Blurite_1H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Ranged/T_Icon_Crossbow_Blurite_1H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Crossbow_Blurite_1H_01.T_Icon_Crossbow_Blurite_1H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Crossbow_Blurite_1H_01/SM_Crossbow_Blurite_1H_01.SM_Crossbow_Blurite_1H_01",

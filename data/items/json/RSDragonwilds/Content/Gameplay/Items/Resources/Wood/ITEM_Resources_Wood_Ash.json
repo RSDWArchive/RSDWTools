@@ -23,8 +23,8 @@
         "LocalizedString": "Pieces of wood collected from branches, saplings and Ash trees."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Ash_Logs'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ash_Logs.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ash_Logs.T_Icon_Ash_Logs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Campsite/SM_Chopped_Ash_log_01.SM_Chopped_Ash_log_01",
@@ -35,18 +35,24 @@
       "MaxStackSize": 99,
       "Weight": 1.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial",
-        "ItemFilter.Type.Resource"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
       "CompostAmount": 10,
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "2rxJ495rm0GDn4h5OWKiyQ",
       "InternalName": "res_wood_ash"
     }

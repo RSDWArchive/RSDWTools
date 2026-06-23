@@ -22,8 +22,8 @@
         "LocalizedString": "An unusually large Anchovy, cook it to gain more food."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Anchovy'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Anchovy"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Anchovy.T_Icon_Anchovy",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Item/Resources/Anchovy/SM_Anchovy_Raw_01.SM_Anchovy_Raw_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 3,
-      "Weight": 2.0,
+      "Weight": 1.0,
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

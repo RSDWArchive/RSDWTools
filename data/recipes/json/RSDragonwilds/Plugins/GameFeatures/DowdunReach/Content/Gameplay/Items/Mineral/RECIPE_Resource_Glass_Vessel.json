@@ -32,10 +32,10 @@
       },
       "OnCraftXpEvent": {
         "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Mining'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Mining.0"
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
         },
-        "RowName": "Ore_Base"
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },
       "PersistenceID": "v2AUXESdBC_f-6qgr2kn8w",
       "InternalName": "recipe_glass_vessel"

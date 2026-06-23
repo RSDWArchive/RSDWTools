@@ -28,10 +28,16 @@
         {
           "Effect": {
             "ObjectName": "GE_Potion_QuarryMaster_C'ITEM_Consumable_Potion_T3_Quarrymaster:GE_Potion_QuarryMaster_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.1"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.2"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_T3_Quarrymaster:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.1"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "QuarrymasterPotion",
@@ -45,12 +51,12 @@
         "LocalizedString": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Potion_Tier3_Black'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Black"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Black.T_Icon_Potion_Tier3_Black",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Stamina'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Lifeward_Health_Stamina/T_Icon_Stamina.0"
+        "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Lifeward_Health_Stamina/T_Icon_Stamina.T_Icon_Stamina",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -76,8 +82,8 @@
             "LocalizedString": "REDUCES the STAMINA cost of MINING by 66%"
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_Fleet__Quarrymaster'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Fleet__Quarrymaster.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Fleet__Quarrymaster.T_Icon_Buff_Fleet__Quarrymaster",
+            "SubPathString": ""
           }
         }
       ],
@@ -88,6 +94,20 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T3_Quarrymaster'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Potion_QuarryMaster_C",

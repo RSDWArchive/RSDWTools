@@ -39,8 +39,8 @@
         "LocalizedString": "Magical robes for those who believe that death is only the beginning."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Necromancer_Body'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Necromancer_Body.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Necromancer_Body.T_icon_Necromancer_Body",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

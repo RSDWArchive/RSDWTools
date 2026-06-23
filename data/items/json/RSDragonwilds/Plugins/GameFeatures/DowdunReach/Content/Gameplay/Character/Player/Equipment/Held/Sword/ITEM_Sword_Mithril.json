@@ -55,8 +55,8 @@
         "LocalizedString": "A well-forged mithril blade for trained combatants."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Sword'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Sword"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Sword.T_Icon_Mithril_Sword",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Sword_Mithril_1H_01/SM_Sword_Mithril_1H_01.SM_Sword_Mithril_1H_01",

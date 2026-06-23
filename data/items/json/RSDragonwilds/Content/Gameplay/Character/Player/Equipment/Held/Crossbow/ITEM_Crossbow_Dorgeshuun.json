@@ -69,15 +69,15 @@
         "LocalizedString": "The signature weapon of the Dorgeshuun Goblin tribe. It fires Bone bolts and is surprisingly well made!"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Dorgeshuun_Crossbow'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Dorgeshuun_Crossbow.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Dorgeshuun_Crossbow.T_icon_Dorgeshuun_Crossbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Crossbow_Dorgeshuun_1H_01/SM_Crossbow_Dorgeshuun_1H_01.SM_Crossbow_Dorgeshuun_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 5,
-      "Weight": 6.0,
+      "Weight": 10.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.Crossbow"
       },

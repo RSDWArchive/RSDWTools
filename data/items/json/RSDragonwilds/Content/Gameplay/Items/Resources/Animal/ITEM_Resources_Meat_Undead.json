@@ -22,8 +22,8 @@
         "LocalizedString": "Obtained from undead beasts. Can be cooked for... interesting results."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Undead_Meat'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Meat.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Meat.T_Icon_Undead_Meat",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Cooked_Mutton_01.SM_Cooked_Mutton_01",

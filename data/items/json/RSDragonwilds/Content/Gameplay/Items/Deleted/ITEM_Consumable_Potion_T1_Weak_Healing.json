@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "BP_Consumables_ItemEmitter_C",
+    "Name": "ITEM_Consumable_Potion_T1_Weak_Healing",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.BP_Consumables_ItemEmitter_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'Default__BP_Consumables_ItemEmitter_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UseVerb": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+        "Key": "DrinkNoun",
+        "SourceString": "Drink",
+        "LocalizedString": "Drink"
+      },
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_ModifyHealth_Increase_C'ITEM_Consumable_Potion_T1_Weak_Healing:GE_ModifyHealth_Increase_C_1'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing.1"
+          }
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "WeakHealingPotion",
+        "SourceString": "Weak Healing Potion (Expired)",
+        "LocalizedString": "Weak Healing Potion (Expired)"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Potion.WeakHealing",
+        "SourceString": "Once restored lost health, now inert.",
+        "LocalizedString": "Once restored lost health, now inert."
+      },
+      "bUseCustomStatDetails": true,
+      "CustomStatDetails": [
+        {
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "Value": {
+            "Namespace": "",
+            "Key": "67E80F4E4D5FA592654D4E9F7499CB95",
+            "SourceString": "+40 Health",
+            "LocalizedString": "+40 Health"
+          }
+        }
+      ],
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Weak_Red_Potion.T_Icon_Weak_Red_Potion",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/T_Icon_Health.T_Icon_Health",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Weak_Red_Potion.SM_Weak_Red_Potion",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Potion"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "PersistenceID": "qRA1TEfZJkMoanWXc_l-Sg",
+      "InternalName": "potion_t1_weak_healing",
+      "bSoftDeleted": true,
+      "MigrationDataAsset": {
+        "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_Potion_Healing_Weak_RefundPack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_Potion_Healing_Weak_RefundPack.0"
+      },
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_ItemEmitter_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_ItemEmitter.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_ModifyHealth_Increase_C",
+    "Name": "GE_ModifyHealth_Increase_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_Potion_T1_Weak_Healing'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.GE_ModifyHealth_Increase_C'",
+    "Template": {
+      "ObjectName": "GE_ModifyHealth_Increase_C'Default__GE_ModifyHealth_Increase_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealth_Increase.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "bShowInTooltip": false,
+        "OverrideTooltipStatName": {
+          "Namespace": "",
+          "Key": "42822F874D02507DAFD78B9EEBC83B1C",
+          "SourceString": "+40 Health",
+          "LocalizedString": "+40 Health"
+        },
+        "AmountToModify": {
+          "Value": 40.0
+        }
+      }
+    }
+  }
+]

@@ -56,8 +56,8 @@
         "LocalizedString": "A concealable weapon, perfect for backstabbing your enemies."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Dagger'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Dagger"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Dagger.T_Icon_Mithril_Dagger",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Melee/Dagger_Mithril_1H_01/SM_Dagger_Mithril_1H_01.SM_Dagger_Mithril_1H_01",

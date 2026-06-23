@@ -11,7 +11,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_TEST_Bleeding_C'",
-        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Bleeding"
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Test/PA_Attack_TEST_Bleeding.0"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
@@ -48,8 +48,8 @@
         "LocalizedString": "A basic but reliable blade, suitable for close combat."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Dagger_Bronze'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Dagger_Bronze.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Dagger_Bronze.T_Dagger_Bronze",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Dagger_Bronze_1H_01/SM_Dagger_Bronze_1H_01.SM_Dagger_Bronze_1H_01",

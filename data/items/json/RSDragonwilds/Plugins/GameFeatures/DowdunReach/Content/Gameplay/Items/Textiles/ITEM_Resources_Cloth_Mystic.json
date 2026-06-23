@@ -22,8 +22,8 @@
         "LocalizedString": "A magical textile, woven from mystic thread."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mystic_Cloth'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Cloth"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Cloth.T_Icon_Mystic_Cloth",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Cloths/SM_Mystic_Cloth_01.SM_Mystic_Cloth_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth"

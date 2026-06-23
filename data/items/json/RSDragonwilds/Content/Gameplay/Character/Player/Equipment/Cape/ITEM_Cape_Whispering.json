@@ -38,8 +38,8 @@
         "LocalizedString": "A cloak that makes you shiver, even as it protects against the cold. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Cape_Whispering'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Whispering.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Cape_Whispering.T_Icon_Cape_Whispering",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

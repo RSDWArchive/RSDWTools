@@ -22,8 +22,8 @@
         "LocalizedString": "Bones stained with the taint of Dowdun."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Resources_Abyssal_Spine'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Resources_Abyssal_Spine.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Resources_Abyssal_Spine.T_Resources_Abyssal_Spine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Abyssal_Spine/SM_Abysall_Spine_01.SM_Abysall_Spine_01",

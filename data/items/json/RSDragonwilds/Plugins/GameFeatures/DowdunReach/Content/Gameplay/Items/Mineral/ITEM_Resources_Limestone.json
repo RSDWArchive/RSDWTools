@@ -22,8 +22,8 @@
         "LocalizedString": "A building material. It can also be ground into dust."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Limestone'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Limestone"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Limestone.T_Icon_Limestone",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Item/Resources/Limestone/SM_Limestone_Rock_01.SM_Limestone_Rock_01",

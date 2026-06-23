@@ -22,8 +22,8 @@
         "LocalizedString": "Raw meat from wild animals, it can be cooked on a campfire."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Raw_Tough_Meat_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_09_24/T_Icon_Raw_Tough_Meat_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Raw_Tough_Meat_01.T_Icon_Raw_Tough_Meat_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Raw_Venison_01.SM_Raw_Venison_01",

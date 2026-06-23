@@ -46,14 +46,34 @@
         "SourceString": "Defeat enemies with melee weapons to level this skill.",
         "LocalizedString": "Defeat enemies with melee weapons to level this skill."
       },
+      "MaxLevelFormatText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.MaxLevelFormat",
+        "SourceString": "/{0} XP",
+        "LocalizedString": "/{0} XP"
+      },
+      "StaminaCostDescriptionText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.StaminaCostDescription",
+        "SourceString": "{0} STAMINA COSTS",
+        "LocalizedString": "{0} STAMINA COSTS"
+      },
       "SkillType": "ESkill::Attack",
       "Icon": {
-        "ObjectName": "Texture2D'T_Notification_Skill_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Attack.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/T_Notification_Skill_Attack.T_Notification_Skill_Attack",
+        "SubPathString": ""
+      },
+      "BackgroundIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Artwork/T_Skill_Attack_Bg.T_Skill_Attack_Bg",
+        "SubPathString": ""
       },
       "TagIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Attack.T_Icon_Tag_Skill_Attack",
+        "SubPathString": ""
+      },
+      "Symbol": {
+        "AssetPathName": "/Game/Art/UI/Skills/Watermark/T_SW_Attack.T_SW_Attack",
+        "SubPathString": ""
       },
       "MinorPerkConfigs": [
         {

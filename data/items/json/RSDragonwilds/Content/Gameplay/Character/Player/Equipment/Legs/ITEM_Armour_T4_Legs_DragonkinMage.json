@@ -39,8 +39,8 @@
         "LocalizedString": "Leggings styled after the ancient overlords of Ashenfall."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dragonkin_Dark_Mage_Leggings'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Leggings.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Leggings.T_Icon_Dragonkin_Dark_Mage_Leggings",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

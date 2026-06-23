@@ -22,8 +22,8 @@
         "LocalizedString": "The tanned hide of a savage beast."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dire_Wolf_Leather_NEW'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dire_Wolf_Leather_NEW.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dire_Wolf_Leather_NEW.T_Icon_Dire_Wolf_Leather_NEW",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Textile/SM_Leather_01.SM_Leather_01",
@@ -31,7 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.6,
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

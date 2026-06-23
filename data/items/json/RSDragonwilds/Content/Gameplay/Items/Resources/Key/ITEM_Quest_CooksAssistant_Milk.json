@@ -10,24 +10,18 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "Name": {
-        "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
-        "Key": "Milk.ItemName",
-        "SourceString": "Bucket of Milk",
-        "LocalizedString": "Bucket of Milk"
+        "CultureInvariantString": "Bucket of Milk"
       },
       "FlavourText": {
-        "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
-        "Key": "Milk.Desc",
-        "SourceString": "A bucket of milk from a stubborn cow.",
-        "LocalizedString": "A bucket of milk from a stubborn cow."
+        "CultureInvariantString": "A bucket of milk from a stubborn cow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Wooden_Bucket'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Bucket.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Bucket.T_icon_Wooden_Bucket",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/FutureMajorVersion/Art/Skeleton/Weapons/Tool/Bucket_Placeholder/SM_Bucket_01.SM_Bucket_01",

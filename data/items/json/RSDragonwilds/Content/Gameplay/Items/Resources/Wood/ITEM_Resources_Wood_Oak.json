@@ -23,8 +23,8 @@
         "LocalizedString": "Sturdy oak logs used for crafting equipment and furniture."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Oak_Logs'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Oak_Logs.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Oak_Logs.T_Icon_Oak_Logs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Campsite/SM_Chopped_Oak_Log_02.SM_Chopped_Oak_Log_02",
@@ -35,18 +35,24 @@
       "MaxStackSize": 99,
       "Weight": 1.5,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial",
-        "ItemFilter.Type.Resource"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
       "CompostAmount": 10,
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "TsGMyBWLNEWhBdNu21CwCA",
       "InternalName": "res_wood_oak"
     }

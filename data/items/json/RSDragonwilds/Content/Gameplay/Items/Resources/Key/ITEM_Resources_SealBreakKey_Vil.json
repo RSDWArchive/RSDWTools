@@ -22,12 +22,12 @@
         "LocalizedString": "A crystallised part of a curse, imbued with Imaru's grief. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Imaru_Curse_Seal_Grief_nofx'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/QuestItems/T_Icon_Imaru_Curse_Seal_Grief_nofx.0"
+        "AssetPathName": "/Game/Art/UI/Icons/QuestItems/T_Icon_Imaru_Curse_Seal_Grief_nofx.T_Icon_Imaru_Curse_Seal_Grief_nofx",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Primary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Primary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Primary.T_Quest_Primary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Gemstones/SM_Gemstone_Sapphire_01.SM_Gemstone_Sapphire_01",

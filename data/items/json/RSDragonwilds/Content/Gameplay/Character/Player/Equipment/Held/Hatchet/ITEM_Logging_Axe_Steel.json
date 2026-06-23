@@ -46,12 +46,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelLoggingAxe",
-        "SourceString": "A woodcutter's tool, forged from Steel.",
-        "LocalizedString": "A woodcutter's tool, forged from Steel."
+        "SourceString": "A woodcutter's tool, forged from steel.",
+        "LocalizedString": "A woodcutter's tool, forged from steel."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Logging_Axe'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Steel_Logging_Axe.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_icon_Steel_Logging_Axe.T_icon_Steel_Logging_Axe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/LoggingAxe_Steel_2H_01/SM_LoggingAxe_Steel_2H_01.SM_LoggingAxe_Steel_2H_01",

@@ -1,13 +1,13 @@
 {
-  "version": "0.11.2.2",
-  "generatedAtUtc": "2026-06-19T20:26:22Z",
+  "version": "0.12.0.0",
+  "generatedAtUtc": "2026-06-23T14:26:14Z",
   "quests": [
     {
       "persistence_id": "3MpWS0mD8A6yFVmjVAA2Qg",
       "internal_name": "Quest_DR_Black_Knight_Fortress",
       "display_name": "Black Knight's Fortress",
       "is_main_quest": true,
-      "quest_region": "Downdun_Reach",
+      "quest_region": "MAX",
       "duplicate_display_name": false
     },
     {
@@ -54,6 +54,14 @@
       "persistence_id": "xa8o60AbJZ23FymQeiH3bg",
       "internal_name": "ftue_rtftj",
       "display_name": "Getting Started",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "kPtTW0exXrqw2BqELR_bFA",
+      "internal_name": "UmS_MainQuest",
+      "display_name": "Icthlarin's Little Helper",
       "is_main_quest": true,
       "quest_region": null,
       "duplicate_display_name": false
@@ -131,11 +139,19 @@
       "duplicate_display_name": false
     },
     {
+      "persistence_id": "UPSTQ0y_YVdTjyO6nWKZiQ",
+      "internal_name": "FH_UmS_Vannaka",
+      "display_name": "[PH] Vannaka UmS",
+      "is_main_quest": false,
+      "quest_region": "Umbral_Sands",
+      "duplicate_display_name": false
+    },
+    {
       "persistence_id": "O3ruOkgGHBqwIheSH_7BBg",
       "internal_name": "Quest_AMelodyRemebered",
       "display_name": "A Melody Remembered",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -143,13 +159,21 @@
       "internal_name": "ElderGarou",
       "display_name": "A Room with a Garou",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
       "persistence_id": "0WS3LUBsaPUDeuiPT_akhQ",
       "internal_name": "Quest_AnimalMagnetism",
       "display_name": "Animal Magnetism",
+      "is_main_quest": false,
+      "quest_region": "Ghornfell",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "0cB0D0QD_L4nrpu6CxZEsw",
+      "internal_name": "UmS_MainQuest_TribeC_Task1",
+      "display_name": "Beast in the Sand",
       "is_main_quest": false,
       "quest_region": null,
       "duplicate_display_name": false
@@ -159,7 +183,23 @@
       "internal_name": "Quest_DR_Nevermore",
       "display_name": "Biohazard",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Dowdun_Reach",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "sQ91eUA55bcQx0OQ0m59sg",
+      "internal_name": "Quest_BrinkOfExtinction",
+      "display_name": "Brink of Extinction",
+      "is_main_quest": false,
+      "quest_region": "Umbral_Sands",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "A3DOkkGZxXUHc82rPKHznA",
+      "internal_name": "Quest_Contact",
+      "display_name": "Contact!",
+      "is_main_quest": false,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -167,7 +207,7 @@
       "internal_name": "Quest_CooksAssistant",
       "display_name": "Cook's Assistant",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -175,7 +215,7 @@
       "internal_name": "dog_days",
       "display_name": "Dog Days",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -183,7 +223,7 @@
       "internal_name": "FH_CollectorsCalling",
       "display_name": "Doric's Quest",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -191,7 +231,7 @@
       "internal_name": "FH_GhostQuest",
       "display_name": "Even More Restless Ghosts",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -207,7 +247,7 @@
       "internal_name": "granite_mauled",
       "display_name": "Granite Mauled",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -223,7 +263,7 @@
       "internal_name": "hearstrings",
       "display_name": "Heartstrings",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -239,6 +279,30 @@
       "internal_name": "FH_LettersForTheDead",
       "display_name": "Letters For The Dead",
       "is_main_quest": false,
+      "quest_region": "Fellhollow",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "NjeUO0TBeyQGzSCmu2b3bA",
+      "internal_name": "Quest_UMS_MappingTheSands",
+      "display_name": "Mapping the Sands I",
+      "is_main_quest": false,
+      "quest_region": "Umbral_Sands",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "rI4VkUT_8837ayKcLgxWwQ",
+      "internal_name": "Quest_UMS_MappingTheSands2",
+      "display_name": "Mapping the Sands II",
+      "is_main_quest": false,
+      "quest_region": "Umbral_Sands",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "nIvEyEv-kvSwgqOLc5VopQ",
+      "internal_name": "UmS_MainQuest_TribeB_Task3",
+      "display_name": "Mark Day",
+      "is_main_quest": false,
       "quest_region": null,
       "duplicate_display_name": false
     },
@@ -246,6 +310,14 @@
       "persistence_id": "KLBpt02O2AA_kaa_A8Av9w",
       "internal_name": "FH_MirrorMirror",
       "display_name": "Mirror Mirror",
+      "is_main_quest": false,
+      "quest_region": "Fellhollow",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "1BhNkkkP6y7ireu6yVR5tg",
+      "internal_name": "UmS_MainQuest_TribeA_Task1",
+      "display_name": "Rag and Bone Garou",
       "is_main_quest": false,
       "quest_region": null,
       "duplicate_display_name": false
@@ -256,6 +328,30 @@
       "display_name": "Restless Ghosts",
       "is_main_quest": false,
       "quest_region": "Brynmoor",
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "d6s4dUyoCduLy7eRc2KndQ",
+      "internal_name": "UmS_MainQuest_TribeA_Task2",
+      "display_name": "Rogue Trader",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "XElCtUmXXqK35p63tua9og",
+      "internal_name": "UmS_MainQuest_TribeB_Task1",
+      "display_name": "Saga of the Adventurer",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "Bnon4kzm_EdvZz-bma5HBg",
+      "internal_name": "UmS_MainQuest_TribeC_Task2",
+      "display_name": "Scaling Difficulties",
+      "is_main_quest": false,
+      "quest_region": null,
       "duplicate_display_name": false
     },
     {
@@ -271,13 +367,29 @@
       "internal_name": "FH_WitherWard",
       "display_name": "Seeking Salvation",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
       "persistence_id": "8gKiWUPU3vW2sQesVHdrPA",
       "internal_name": "Quest_DR_FTUE_Fishing",
       "display_name": "Shrimp Catcher",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "Xb1KUkU_wOIHvzahULr6yA",
+      "internal_name": "UmS_MainQuest_TribeC_Task3",
+      "display_name": "Song of the Ancients",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
+      "persistence_id": "8Rb0t0upslwKHXWYGnTKgg",
+      "internal_name": "UmS_MainQuest_TribeB_Task2",
+      "display_name": "The Dig Site",
       "is_main_quest": false,
       "quest_region": null,
       "duplicate_display_name": false
@@ -291,11 +403,19 @@
       "duplicate_display_name": false
     },
     {
+      "persistence_id": "d6M5Dkpx9Pjw_V2mNJh6eA",
+      "internal_name": "UmS_MainQuest_TribeA_Task3",
+      "display_name": "The Mirror Crack'd",
+      "is_main_quest": false,
+      "quest_region": null,
+      "duplicate_display_name": false
+    },
+    {
       "persistence_id": "rai6k0UuXT_GPEixJM0boQ",
       "internal_name": "FH_WitherBeast",
       "display_name": "The Wild Hunt",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -303,7 +423,7 @@
       "internal_name": "FH_NightoftheSpectralBoom",
       "display_name": "Things That Go Boom In The Night",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -311,7 +431,7 @@
       "internal_name": "Quest_DR_SQ1_Wanted",
       "display_name": "Wanted!",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Dowdun_Reach",
       "duplicate_display_name": false
     },
     {
@@ -327,7 +447,7 @@
       "internal_name": "FH_WhatRemainsIsWritten",
       "display_name": "What Remains is Written",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -335,7 +455,7 @@
       "internal_name": "Quest_DR_WhatsTheirsIsMine",
       "display_name": "What's Theirs is Mine",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Dowdun_Reach",
       "duplicate_display_name": false
     },
     {

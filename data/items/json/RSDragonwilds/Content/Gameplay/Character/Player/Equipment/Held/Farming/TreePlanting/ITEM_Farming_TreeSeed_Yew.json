@@ -6,14 +6,15 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "TreeGrowStagesData": {
-        "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Willow_GrowStages'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Willow/DA_Farming_GrowingTree_Willow_GrowStages.0"
+        "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Yew_GrowStages'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Yew/DA_Farming_GrowingTree_Yew_GrowStages.0"
       },
       "ValidPlantingRegions": [
         "Location.Region.Brynmoor",
         "Location.Region.DowdunReach",
         "Location.Region.Fellhollow",
-        "Location.Region.Ghornfell"
+        "Location.Region.Ghornfell",
+        "Location.Region.UmbralSands"
       ],
       "HeldEquipmentActorClass": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/BP_Farming_TreeSeed_Yew.BP_Farming_TreeSeed_Yew_C",
@@ -46,23 +47,23 @@
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
-        "Key": "Name_Seed_Tree_Willow",
-        "SourceString": "Willow tree seed",
-        "LocalizedString": "Willow tree seed"
+        "Key": "Name_Seed_Tree_Yew",
+        "SourceString": "Yew tree Seed",
+        "LocalizedString": "Yew tree Seed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
-        "Key": "FlavourText_Seed_Tree_Willow",
-        "SourceString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "Key": "FlavourText_Seed_Tree_Yew",
+        "SourceString": "Yew tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
+        "LocalizedString": "Yew tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Willow_Seed'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Seeds/T_Icon_Willow_Seed.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Yew_Seed.T_Icon_Yew_Seed",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.0"
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_03_Drop.SM_SeedBag_1H_03_Drop",
@@ -80,6 +81,10 @@
       },
       "MaxDrawDistance": 4000.0,
       "RepairCostRatios": [],
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "ztu0Ik00blWibq6-8Y9f2g",
       "InternalName": "farming_treeseed_yew"
     }

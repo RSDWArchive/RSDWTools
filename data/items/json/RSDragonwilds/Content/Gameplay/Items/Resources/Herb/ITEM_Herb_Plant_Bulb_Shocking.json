@@ -18,8 +18,8 @@
         "LocalizedString": "A bitter green bulb."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Shocking_Plant_Bulb'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Shocking_Plant_Bulb.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Shocking_Plant_Bulb.T_Icon_Resources_Shocking_Plant_Bulb",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Plant_Satchel/SM_Plant_Satchel_01.SM_Plant_Satchel_01",
@@ -28,7 +28,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 0.4,
+      "Weight": 0.2,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.BasicMaterial"

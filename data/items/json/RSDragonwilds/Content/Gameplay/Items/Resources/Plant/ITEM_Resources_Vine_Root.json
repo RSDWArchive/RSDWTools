@@ -18,8 +18,8 @@
         "LocalizedString": "A fibrous root with unique properties."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resources_Vine'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icon_Resources_Vine.0"
+        "AssetPathName": "/Game/Art/UI/Icons/T_Icon_Resources_Vine.T_Icon_Resources_Vine",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resource/Plant/SM_VineResource.SM_VineResource",
@@ -27,7 +27,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 20,
+      "MaxStackSize": 99,
       "Weight": 0.2,
       "ItemFilterTags": [
         "ItemFilter.Type.Resource",

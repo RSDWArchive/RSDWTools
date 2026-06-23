@@ -55,15 +55,15 @@
         "LocalizedString": "Crush your foes with this heavy, spiked bronze mace."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mace_Bronze_1H'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_Mace_Bronze_1H.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_Mace_Bronze_1H.T_Icon_Mace_Bronze_1H",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Mace_Bronze_1H_01/SM_Mace_Bronze_1H.SM_Mace_Bronze_1H",
         "SubPathString": ""
       },
       "PowerLevel": 3,
-      "Weight": 6.0,
+      "Weight": 15.0,
       "Category": {
         "TagName": "Item.Equipment.Weapon.1H.Mace"
       },

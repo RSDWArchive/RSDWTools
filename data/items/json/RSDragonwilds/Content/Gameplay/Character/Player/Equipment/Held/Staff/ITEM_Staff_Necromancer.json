@@ -52,8 +52,8 @@
         "LocalizedString": "Necromantic essence still eminates from this staff."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Necromancer_Staff'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_tools_Placables/T_icon_Necromancer_Staff.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Necromancer_Staff.T_icon_Necromancer_Staff",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Staff_Skeletal_Mage_2H_01/SM_Staff_Skeletal_Mage_2H_01.SM_Staff_Skeletal_Mage_2H_01",
@@ -89,7 +89,10 @@
             "SourceString": "Increased DAMAGE\r\nReduced DURABILITY",
             "LocalizedString": "Increased DAMAGE\r\nReduced DURABILITY"
           },
-          "BuffIcon": null
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
         }
       ],
       "PersistenceID": "6khNUkAOBBavR761Jxbj3g",

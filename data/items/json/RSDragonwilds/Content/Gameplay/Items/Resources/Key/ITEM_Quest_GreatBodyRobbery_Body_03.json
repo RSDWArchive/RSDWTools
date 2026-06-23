@@ -22,15 +22,15 @@
         "LocalizedString": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Placeholder'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Placeholder.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Legs.T_Icon_Legs",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Env/Props/Env_Props/Human_Props/Skeletons/SM_Leg_R.SM_Leg_R",
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Examination_Table/SM_Goblin_Legs.SM_Goblin_Legs",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

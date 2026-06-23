@@ -39,8 +39,8 @@
         "LocalizedString": "Ranged body armour crafted from Green Dragonhide. Form fitting yet intimidating."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Green_Dragonhide_Body'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Green_Dragonhide_Body.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Green_Dragonhide_Body.T_icon_Green_Dragonhide_Body",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",

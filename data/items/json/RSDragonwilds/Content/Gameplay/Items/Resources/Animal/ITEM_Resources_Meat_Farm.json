@@ -22,8 +22,8 @@
         "LocalizedString": "Raw meat from farm animals, it can be cooked on a campfire."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Resource_Raw_Farm_Meat'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_Farm_Meat.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Raw_Farm_Meat.T_Icon_Resource_Raw_Farm_Meat",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Meat/SM_Raw_Mutton_01.SM_Raw_Mutton_01",

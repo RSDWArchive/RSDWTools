@@ -76,8 +76,8 @@
         "LocalizedString": "A supple longbow carved from maple wood."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Maple_Longbow'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Longbow"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Longbow.T_Icon_Maple_Longbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/Longbow_Maple_2H_01/SM_Longbow_Maple_2H_01.SM_Longbow_Maple_2H_01",

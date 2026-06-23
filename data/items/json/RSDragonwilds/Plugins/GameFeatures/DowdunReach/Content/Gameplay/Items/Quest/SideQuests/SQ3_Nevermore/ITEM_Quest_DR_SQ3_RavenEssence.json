@@ -22,12 +22,12 @@
         "LocalizedString": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Plague_Sample'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Plague_Sample"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Plague_Sample.T_Icon_Plague_Sample",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Quest_Secondary'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Quest_Secondary.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Env/Props/Env_Props/PlagueMud/SM_DR_PlagueMud_Drop.SM_DR_PlagueMud_Drop",
@@ -37,12 +37,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.QuestItem"
       },
+      "bDropOnDeath": false,
       "PickupXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",

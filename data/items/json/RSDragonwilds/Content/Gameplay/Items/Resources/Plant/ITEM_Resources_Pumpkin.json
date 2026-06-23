@@ -18,8 +18,8 @@
         "LocalizedString": "More treat than trick. Can be cooked by itself or used as an ingredient in cooking meals."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Pumpkin'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pumpkin.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pumpkin.T_Icon_Pumpkin",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Pumpkin/SM_Pumpkin_01v1.SM_Pumpkin_01v1",
@@ -29,7 +29,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 4,
-      "Weight": 0.2,
+      "Weight": 1.0,
       "Category": {
         "TagName": "Item.Food"
       },

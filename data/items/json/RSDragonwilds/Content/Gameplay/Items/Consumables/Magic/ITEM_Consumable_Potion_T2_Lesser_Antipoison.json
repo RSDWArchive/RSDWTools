@@ -27,10 +27,16 @@
         {
           "Effect": {
             "ObjectName": "GE_ResistBuildup_Poison_C'ITEM_Consumable_Potion_T2_Lesser_Antipoison:GE_ResistBuildup_Poison_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.2"
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.3"
           }
         }
       ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_T2_Lesser_Antipoison:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.2"
+        }
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LesserAntiPoisonPotion",
@@ -38,18 +44,18 @@
         "LocalizedString": "Lesser Antipoison Potion"
       },
       "FlavourText": {
-        "Namespace": "",
-        "Key": "7BD74D9C4C57B05E8B1F8E922AF413BE",
-        "SourceString": " ",
-        "LocalizedString": " "
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "StandardAntipoisonPotion",
+        "SourceString": "Removes poison and grants resistance to it. ",
+        "LocalizedString": "Removes poison and grants resistance to it. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Lesser_Green_Potion'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.T_Icon_Lesser_Green_Potion",
+        "SubPathString": ""
       },
       "CategoryClassIcon": {
-        "ObjectName": "Texture2D'T_Instant_Poison'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Types/T_Instant_Poison.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Instant_Poison.T_Instant_Poison",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
@@ -75,8 +81,8 @@
             "LocalizedString": "NEGATES and grants RESISTENCE to POISON effects "
           },
           "BuffIcon": {
-            "ObjectName": "Texture2D'T_Icon_Buff_FocusedAntiPoison'",
-            "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiPoison.0"
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiPoison.T_Icon_Buff_FocusedAntiPoison",
+            "SubPathString": ""
           }
         }
       ],
@@ -106,6 +112,20 @@
         "DurationType": "EDominionGameplayEffectDurationType::Infinite"
       }
     }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_T2_Lesser_Antipoison'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_ResistBuildup_Poison_C",

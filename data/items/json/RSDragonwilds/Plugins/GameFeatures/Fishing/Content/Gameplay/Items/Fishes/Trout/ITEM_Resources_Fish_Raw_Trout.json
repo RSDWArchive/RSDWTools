@@ -22,8 +22,8 @@
         "LocalizedString": "Grill this trout on a fire. You will thank us later."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Trout'",
-        "ObjectPath": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Trout"
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Trout.T_Icon_Trout",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Fishing/Art/Skeleton/NPC/Aquatic/Fish_Trout_01/SM_Fish_Trout_01.SM_Fish_Trout_01",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "PowerLevel": 2,
-      "Weight": 2.1,
+      "Weight": 1.0,
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

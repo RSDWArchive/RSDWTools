@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Journal_Materials_Basic_Kalphite_Wing",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioTag": {
+        "TagName": "Audio.Food.Meat"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "cGGRPkrn7UPlVNajZQJ6Pg",
+      "InternalName": "recipe_journal_materials_basic_kalphite_wing"
+    }
+  }
+]

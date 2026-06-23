@@ -65,8 +65,8 @@
         "LocalizedString": "A one-handed crossbow composed mainly from mithril."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Crossbow'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Crossbow"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Crossbow.T_Icon_Mithril_Crossbow",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Ranged/Crossbow_Mithril_1H_01/SM_Crossbow_Mithril_1H_01.SM_Crossbow_Mithril_1H_01",

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Iconic_Skills_Necklace",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOverTimeEquipped": true,
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_SkillsNecklace_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SkillsNecklace/GE_SkillsNecklace.0"
+        }
+      ],
+      "GrantedTags": [
+        "Item.Equipment.Trinket.SkillsNecklace"
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Trinket.SkillsNecklace",
+        "SourceString": "Skills Necklace",
+        "LocalizedString": "Skills Necklace"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Trinket.SkillsNecklace",
+        "SourceString": "Provides a small chance to get extra resources when gathering them in the world.",
+        "LocalizedString": "Provides a small chance to get extra resources when gathering them in the world."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Skill_Necklace.T_Icon_Skill_Necklace",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 2500,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Trinket.Amulet.Of.Plenty",
+            "SourceString": "Grants a BONUS when gathering FISHING, MINING and WOODCUTTING resources in the world",
+            "LocalizedString": "Grants a BONUS when gathering FISHING, MINING and WOODCUTTING resources in the world"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "QLUcE0_Hp9EJpD-294xu4Q",
+      "InternalName": "trinket_skills_necklace"
+    }
+  }
+]

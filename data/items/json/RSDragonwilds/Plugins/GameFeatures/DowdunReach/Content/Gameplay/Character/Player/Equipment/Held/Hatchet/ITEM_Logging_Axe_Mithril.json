@@ -50,8 +50,8 @@
         "LocalizedString": "A tool for chopping trees. Make sure to hit them with the sharp side. "
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Mithril_Logging_Axe'",
-        "ObjectPath": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Logging_Axe"
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Logging_Axe.T_Icon_Mithril_Logging_Axe",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/DowdunReach/Art/Skeleton/Weapons/Tool/LoggingAxe_Mithril_2H_01/SM_LoggingAxe_Mithril_2H_01.SM_LoggingAxe_Mithril_2H_01",

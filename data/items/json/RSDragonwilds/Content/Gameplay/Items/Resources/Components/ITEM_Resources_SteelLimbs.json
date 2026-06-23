@@ -18,12 +18,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelLimbs",
-        "SourceString": "A pair of Steel crossbow limbs. Used in crafting a Steel Crossbow.",
-        "LocalizedString": "A pair of Steel crossbow limbs. Used in crafting a Steel Crossbow."
+        "SourceString": "A pair of steel crossbow limbs. Used in crafting a steel crossbow.",
+        "LocalizedString": "A pair of steel crossbow limbs. Used in crafting a steel crossbow."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_icon_Steel_Crossbow_arms'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Crossbow_arms.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Crossbow_arms.T_icon_Steel_Crossbow_arms",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
@@ -31,6 +31,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "Weight": 4.5,
       "ItemFilterTags": [
         "ItemFilter.Material.Component"

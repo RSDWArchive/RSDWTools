@@ -52,8 +52,8 @@
         "LocalizedString": "A magical weapon fit for a Wizard."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_BattleStaff_MindspikeStaff_2H_01'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Weapons_09_24/T_Icon_BattleStaff_MindspikeStaff_2H_01.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Weapons_09_24/T_Icon_BattleStaff_MindspikeStaff_2H_01.T_Icon_BattleStaff_MindspikeStaff_2H_01",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/BattleStaff_MindspikeStaff_2H_01/SM_BattleStaff_MindspikeStaff_2H_01.SM_BattleStaff_MindspikeStaff_2H_01",

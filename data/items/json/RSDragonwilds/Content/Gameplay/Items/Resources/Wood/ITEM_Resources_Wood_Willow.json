@@ -5,7 +5,7 @@
     "Class": "UScriptClass'FuelItemData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "FuelValue": 120.0,
+      "FuelValue": 150.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
@@ -19,12 +19,12 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WillowLogs",
-        "SourceString": "A highly efficient fuel. Required for smelting more advanced metals. ",
-        "LocalizedString": "A highly efficient fuel. Required for smelting more advanced metals. "
+        "SourceString": "A supple material that is ideal for making rods and bows.",
+        "LocalizedString": "A supple material that is ideal for making rods and bows."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Willow_Logs'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Willow_Logs.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Willow_Logs.T_Icon_Willow_Logs",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Logs/Willow/SM_Chopped_Willow_log_01.SM_Chopped_Willow_log_01",
@@ -35,18 +35,24 @@
       "MaxStackSize": 99,
       "Weight": 1.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "Item.Farming.CompostableSuper",
-        "ItemFilter.Material.BasicMaterial",
-        "ItemFilter.Type.Resource"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
       "CompostAmount": 10,
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
       "PersistenceID": "rwa8v0ugnp7LnvGKd3V29g",
       "InternalName": "res_wood_willow"
     }

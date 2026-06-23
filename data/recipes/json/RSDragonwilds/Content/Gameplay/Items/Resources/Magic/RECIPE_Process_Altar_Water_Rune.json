@@ -22,7 +22,7 @@
       "ItemsCreated": [
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Rune_Water'",
+            "ObjectName": "MagicAmmoData'ITEM_Rune_Water'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.0"
           },
           "Count": 5

@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_RuniteOre",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "D606AC9E4FADBD2787CE0D8A7837B1A4",
+        "SourceString": "Runite Ore",
+        "LocalizedString": "Runite Ore"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "F94EAB434840630328EE4787618304A4",
+        "SourceString": "WIP",
+        "LocalizedString": "WIP"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Resources_IronOre.T_Resources_IronOre",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Metal/SM_RuniteOre_01.SM_RuniteOre_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 2.4,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Ore"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Metal",
+        "ItemFilter.Material.Ore"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Debris"
+      },
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'MiningDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "PersistenceID": "cGGgxuSpjEmvSKUBkJQQUg",
+      "InternalName": "res_ore_runite"
+    }
+  }
+]

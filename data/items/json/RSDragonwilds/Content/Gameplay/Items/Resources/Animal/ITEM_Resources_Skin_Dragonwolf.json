@@ -22,8 +22,8 @@
         "LocalizedString": "Dropped from felled draconic beasts. Can be processed at the tannery."
       },
       "Icon": {
-        "ObjectName": "Texture2D'T_Icon_Dragonwolf_Hide'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragonwolf_Hide.0"
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragonwolf_Hide.T_Icon_Dragonwolf_Hide",
+        "SubPathString": ""
       },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Dragonwolf_Hide/SM_Dragonwolf_Hide_01.SM_Dragonwolf_Hide_01",
@@ -32,7 +32,7 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 3.0,
+      "Weight": 0.6,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],
