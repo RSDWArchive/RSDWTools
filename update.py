@@ -239,7 +239,21 @@ def main() -> int:
         run_step(rebuild_cmd, repo_root)
 
     if not args.skip_character_catalog:
-        run_step([python_exe, "tools/build_character_catalog.py"], repo_root)
+        character_cmd = [
+            python_exe,
+            "tools/build_character_catalog.py",
+            "--archive-root",
+            args.archive_root,
+            "--skills-source",
+            str(Path(args.raw_core) / "skills"),
+            "--content-root",
+            str(Path(args.raw_core) / "icons"),
+        ]
+        if archive_sources:
+            character_cmd.extend(["--game-root", str(archive_sources.game_root)])
+        elif args.game_root:
+            character_cmd.extend(["--game-root", args.game_root])
+        run_step(character_cmd, repo_root)
 
     if not args.skip_git_plan:
         git_plan_output = args.git_plan_output or (repo_root / "GitCommitPlan.json")

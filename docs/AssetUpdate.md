@@ -20,6 +20,9 @@ The ingest step discovers files from the archive root by pattern:
 - Skills: active `SKILL_*.json` files, excluding `DeprecatedSkills`
 - Icons: PNGs referenced by `ObjectPath` in discovered data, plus
   `t_icon_*` and `t_skill_*` fallback prefixes.
+- Character Editor extras: mount assets, mount unlock consumables, vendor
+  recipes, and Umbral Sands quest reputation modifiers from the resolved
+  archive dataset.
 
 Location and loot are imported from external generated outputs:
 - `E:\Github\RSDWArchive\website\tools\LocationData`
@@ -56,6 +59,10 @@ that version folder for ingest. Useful flags:
 `rebuild_docs_data.py` auto-detects RSDWArchive latest by default and runs
 ingest, item catalog, chest item catalog, recipe index, spell catalog, map
 index, quest catalog, and shared loot/location exports.
+
+`build_character_catalog.py` auto-detects the same archive latest by default
+and writes customization rows, skills, mounts, and vendor reputation tiers to
+`website/tools/character-editor/data/character_catalog.json`.
 
 `PlanGitCommits.py commit-batches` is a dry run unless `--execute` is passed.
 

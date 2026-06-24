@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/shared/assets/favicon_io/favicon-16x16.png" />
   <link rel="icon" href="/shared/assets/favicon_io/favicon.ico" />
   <link rel="manifest" href="/shared/assets/favicon_io/site.webmanifest" />
-  <link rel="stylesheet" href="/shared/styles.css" />
+  <link rel="stylesheet" href="/shared/styles.css?v=0.12-mount-vendor" />
   <link rel="stylesheet" href="/shared/shared-header.css" />
   <link rel="stylesheet" href="/shared/site-shell.css" />
 </head>
@@ -21,7 +21,7 @@
     <summary class="landing-logo__dropdown-summary">How do I use this?</summary>
     <div class="landing-logo__dropdown-content">
       <p>Click on the plus (+) icon in the Character Editor section and select your Save file.</p>
-      <p>Change your name, customize your character, set infinite upkeep if you want... and hit Save!</p>
+      <p>Change your name, customize your character, tune mounts and reputation, set infinite upkeep if you want... and hit Save!</p>
       <br />
       <p>Your Save file is here (paste this into your file explorer):</p>
       <p class="landing-logo__dropdown-path"><code>%localappdata%\RSDragonwilds\Saved\SaveCharacters\</code></p>
@@ -180,13 +180,10 @@
         </div>
 
         <div class="panel-title">Unlocker</div>
-        <div class="character-section">
+        <div class="character-section unlocker-grid">
           <label class="character-field">
-            <span>Mount Unlocked</span>
-            <select id="mount-unlocked">
-              <option value="true">True</option>
-              <option value="false">False</option>
-            </select>
+            <span>Equipped Mount</span>
+            <select id="mount-equipped"></select>
           </label>
           <label class="character-field">
             <span>Map Unlocked</span>
@@ -196,6 +193,10 @@
             </select>
           </label>
         </div>
+        <div class="character-section mount-grid" id="mount-list"></div>
+
+        <div class="panel-title">Vendor Reputation</div>
+        <div class="character-section vendor-reputation-grid" id="vendor-reputation-grid"></div>
       </section>
     </main>
   </div>
@@ -244,6 +245,6 @@
   <div id="rsdw-footer-mount"></div>
 
   <script src="/shared/shared-header.js" defer></script>
-  <script src="/tools/character-editor/character-editor.js" defer></script>
+  <script src="/tools/character-editor/character-editor.js?v=0.12-mount-vendor" defer></script>
 </body>
 </html>

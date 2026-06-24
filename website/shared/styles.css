@@ -185,6 +185,63 @@ body.quest-editor-page {
   grid-template-columns: repeat(2, minmax(240px, 1fr));
 }
 
+.unlocker-grid,
+.vendor-reputation-grid {
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+}
+
+.mount-grid {
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+}
+
+.mount-toggle {
+  display: grid;
+  grid-template-columns: 22px 42px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 10px;
+  border: 1px solid rgba(157, 134, 83, 0.36);
+  border-radius: 8px;
+  background: rgba(12, 12, 15, 0.76);
+  color: #f5f1e8;
+}
+
+.mount-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: #d9bf70;
+}
+
+.mount-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.mount-label {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.mount-name,
+.mount-meta {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mount-name {
+  font-size: 14px;
+  color: #f5f1e8;
+}
+
+.mount-meta {
+  font-size: 12px;
+  color: #b7ad9a;
+}
+
 .skill-label {
   display: inline-flex;
   align-items: center;
@@ -291,7 +348,14 @@ body.quest-editor-page {
 }
 
 @media (max-width: 900px) {
-  .customization-grid {
+  .customization-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .unlocker-grid,
+  .mount-grid,
+  .vendor-reputation-grid {
     grid-template-columns: 1fr;
   }
 
@@ -573,6 +637,11 @@ body.quest-editor-page {
   font-family: "Crimson Pro", serif;
 }
 
+.landing-logo__dropdown-path code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
 .top-header__nav {
   margin-left: auto;
   display: flex;
@@ -654,6 +723,10 @@ body.quest-editor-page {
 .item-browser .corner-overlay--tr {
   right: 0;
   background-image: none;
+}
+
+.character-editor-page .character-editor-panel {
+  width: min(920px, 100%);
 }
 
 .bag-categories {

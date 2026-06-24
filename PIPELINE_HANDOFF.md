@@ -17,6 +17,8 @@ Required upstream inputs:
 - `E:\Github\RSDWArchive\website\tools\LocationData`
 - `E:\Github\RSDWArchive\website\tools\LootData`
 - `E:\Github\RSDWArchive\website\tools\QuestData\QuestData.json`
+- Mount assets, mount unlock items, vendor recipes, and Umbral Sands quest
+  files under `E:\Github\RSDWArchive\<datasetVersion>\json\RSDragonwilds`
 
 `datasetVersion` is read from `RSDWArchive\website\data.config.json`. By
 default, RSDWTools ingests from `E:\Github\RSDWArchive\<datasetVersion>`.
@@ -58,6 +60,9 @@ Primary generated outputs:
 
 - Website JSON under `website\data\`
 - Per-tool catalogs under `website\tools\*\data\`
+- Character catalog under
+  `website\tools\character-editor\data\character_catalog.json`, including
+  customization rows, skills, mounts, and vendor reputation tiers
 - Quest catalog under `website\tools\quest-editor\data\quests.json`
 - Generated item and skill icons under `website\shared\icons\`
 - Raw ingest manifest at `data\_ingest_manifest.json`

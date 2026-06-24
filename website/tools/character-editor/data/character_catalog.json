@@ -232,5 +232,201 @@
       "icon": "T_Notification_Skill_Runecrafting.png",
       "tag_icon": "T_Icon_Tag_Skill_Runecrafting.png"
     }
+  ],
+  "Mounts": [
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_03_03",
+      "display_name": "Applefeather Mosstail",
+      "internal_name": "DA_Mount_Terrorbird_03_03",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_03_03.png",
+      "unlock_item_persistence_id": "Xg3BhkI63JO23Z-5ULwMAQ",
+      "unlock_item_internal_name": "mountunlock_terrorbird_03_03"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_01",
+      "display_name": "Coastal Sunbeak",
+      "internal_name": "DA_Mount_Terrorbird_02_01",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_02_01.png",
+      "unlock_item_persistence_id": "lcJlXETtrVwvcgebWj6SSg",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_01"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_03_04",
+      "display_name": "Crimson Crybaby",
+      "internal_name": "DA_Mount_Terrorbird_03_04",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_03_04.png",
+      "unlock_item_persistence_id": "vfV1XUyxfEDT5viqjY3SPQ",
+      "unlock_item_internal_name": "mountunlock_terrorbird_03_04"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_03",
+      "display_name": "Grassfoot Screecher",
+      "internal_name": "DA_Mount_Terrorbird_01_03",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_01_03.png",
+      "unlock_item_persistence_id": "78Ww_0BDj9gSu_q7vjTaNA",
+      "unlock_item_internal_name": "mountunlock_terrorbird_01_03"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_03_05",
+      "display_name": "Infernal Blightbeak",
+      "internal_name": "DA_Mount_Terrorbird_03_05",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_03_05.png",
+      "unlock_item_persistence_id": "iuFnzkM2LWsYwAOF-Rw2Ew",
+      "unlock_item_internal_name": "mountunlock_terrorbird_03_05"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_04",
+      "display_name": "Leafwood Strider",
+      "internal_name": "DA_Mount_Terrorbird_01_04",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_01_04.png",
+      "unlock_item_persistence_id": "tEbOQUJHbmw1idiqMskKZw",
+      "unlock_item_internal_name": "mountunlock_terrorbird_01_04"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_01",
+      "display_name": "Mossbreak Hunter",
+      "internal_name": "DA_Mount_Terrorbird_01_01",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_01_01.png",
+      "unlock_item_persistence_id": "G_PRT0wNYtIEJhmCyjFWTg",
+      "unlock_item_internal_name": "mountunlock_terrorbird_01_01"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_05",
+      "display_name": "Oakfeather Raptor",
+      "internal_name": "DA_Mount_Terrorbird_01_05",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_01_05.png",
+      "unlock_item_persistence_id": "yOmxK0snJXe8rUaejPppOg",
+      "unlock_item_internal_name": "mountunlock_terrorbird_01_05"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_03_02",
+      "display_name": "Scorchsummer Ashbeak",
+      "internal_name": "DA_Mount_Terrorbird_03_02",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_03_02.png",
+      "unlock_item_persistence_id": "xQ2NA0sTOrNdDVipZ84Duw",
+      "unlock_item_internal_name": "mountunlock_terrorbird_03_02"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_02",
+      "display_name": "Springdown Runner",
+      "internal_name": "DA_Mount_Terrorbird_01_02",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_01_02.png",
+      "unlock_item_persistence_id": "Pe0qNkhM_YJwoKOL1nMQqQ",
+      "unlock_item_internal_name": "mountunlock_terrorbird_01_02"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_02",
+      "display_name": "Summerbellied Wagtail",
+      "internal_name": "DA_Mount_Terrorbird_02_02",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_02_02.png",
+      "unlock_item_persistence_id": "SOIze0O8KKn97Zm5vTPmUg",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_05"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_00_00",
+      "display_name": "Terrorbird Mount",
+      "internal_name": "DA_Mount_Terrorbird_00_00",
+      "mount_type": "Terrorbird",
+      "icon": "",
+      "unlock_item_persistence_id": "",
+      "unlock_item_internal_name": ""
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_03_01",
+      "display_name": "Zamorakian Pledgesaddle",
+      "internal_name": "DA_Mount_Terrorbird_03_01",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_03_01.png",
+      "unlock_item_persistence_id": "oCqxXUuAYnTlC_6D5EVkQQ",
+      "unlock_item_internal_name": "mountunlock_terrorbird_03_01"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_FlyingCarpet_01_01",
+      "display_name": "Magic Carpet",
+      "internal_name": "DA_Mount_FlyingCarpet_01_01",
+      "mount_type": "Magic Carpet",
+      "icon": "T_Icon_SM_Carpet_01_01.png",
+      "unlock_item_persistence_id": "",
+      "unlock_item_internal_name": ""
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_FlyingCarpet_01_03",
+      "display_name": "Manafem Midnight",
+      "internal_name": "DA_Mount_FlyingCarpet_01_03",
+      "mount_type": "Magic Carpet",
+      "icon": "T_Icon_SM_Carpet_01_03.png",
+      "unlock_item_persistence_id": "",
+      "unlock_item_internal_name": ""
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_FlyingCarpet_01_02",
+      "display_name": "Moonsilk Weave",
+      "internal_name": "DA_Mount_FlyingCarpet_01_02",
+      "mount_type": "Magic Carpet",
+      "icon": "T_Icon_SM_Carpet_01_02.png",
+      "unlock_item_persistence_id": "V_SMY0gQ26031casGI3gMg",
+      "unlock_item_internal_name": "mountunlock_flyingcarpet_01_02"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_FlyingCarpet_01_04",
+      "display_name": "Scorchweave Rug",
+      "internal_name": "DA_Mount_FlyingCarpet_01_04",
+      "mount_type": "Magic Carpet",
+      "icon": "T_Icon_SM_Carpet_01_04.png",
+      "unlock_item_persistence_id": "",
+      "unlock_item_internal_name": ""
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_FlyingCarpet_01_05",
+      "display_name": "Uzzerian Umber",
+      "internal_name": "DA_Mount_FlyingCarpet_01_05",
+      "mount_type": "Magic Carpet",
+      "icon": "T_Icon_SM_Carpet_01_05.png",
+      "unlock_item_persistence_id": "oNjmFkSop-xAzwGUFsKbXg",
+      "unlock_item_internal_name": "mountunlock_flyingcarpet_01_05"
+    }
+  ],
+  "VendorReputations": [
+    {
+      "tag": "Vendor.MoonGarou.Hawker",
+      "display_name": "Moon Garou Hawker",
+      "tiers": [
+        0,
+        1000,
+        2000,
+        3000
+      ]
+    },
+    {
+      "tag": "Vendor.MoonGarou.Hunter",
+      "display_name": "Moon Garou Hunter",
+      "tiers": [
+        0,
+        1000,
+        2000,
+        3000
+      ]
+    },
+    {
+      "tag": "Vendor.MoonGarou.Smith",
+      "display_name": "Moon Garou Smith",
+      "tiers": [
+        0,
+        1000,
+        2000,
+        3000
+      ]
+    }
   ]
 }

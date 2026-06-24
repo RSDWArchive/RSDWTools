@@ -7,10 +7,16 @@ const statusText = document.getElementById("status-text");
 const playerNameInput = document.getElementById("player-name");
 const characterTypeSelect = document.getElementById("character-type");
 const characterGuidInput = document.getElementById("character-guid");
-const mountUnlockedSelect = document.getElementById("mount-unlocked");
+const mountEquippedSelect = document.getElementById("mount-equipped");
 const mapUnlockedSelect = document.getElementById("map-unlocked");
 const skillsGrid = document.getElementById("skills-grid");
+const mountList = document.getElementById("mount-list");
+const vendorReputationGrid = document.getElementById("vendor-reputation-grid");
 let skillInputs = Array.from(document.querySelectorAll("[data-skill-id]"));
+let mountInputs = Array.from(document.querySelectorAll("[data-mount-value]"));
+let vendorReputationInputs = Array.from(
+  document.querySelectorAll("[data-vendor-reputation]")
+);
 const customizationInputs = Array.from(
   document.querySelectorAll("[data-customization]")
 );
@@ -34,6 +40,9 @@ let activeUpkeep = null;
 let customizationCatalog = null;
 let pendingCustomization = null;
 let skillXpById = new Map();
+let unlockedMountValues = new Set();
+let equippedMountValue = "";
+let vendorReputationByTag = new Map();
 
 function setStatus(message, loaded) {
   if (!statusText || !statusBar || !statusIcon) {
@@ -57,20 +66,151 @@ function toIntegerDisplay(value) {
   return String(Math.floor(Number(value)));
 }
 
+function isObject(value) {
+  return value && typeof value === "object" && !Array.isArray(value);
+}
+
+function gameProgressRoot(data) {
+  return isObject(data?.GameProgress) ? data.GameProgress : null;
+}
+
+function characterHost(data) {
+  if (!isObject(data)) {
+    return null;
+  }
+  const gameProgress = gameProgressRoot(data);
+  if (isObject(gameProgress?.Character)) {
+    return gameProgress;
+  }
+  if (isObject(data.Character)) {
+    return data;
+  }
+  return gameProgress || data;
+}
+
 function findCharacterRoot(data) {
-  return data?.Character || null;
+  return characterHost(data)?.Character || null;
+}
+
+function ensureCharacterRoot(target) {
+  const host = characterHost(target) || target;
+  if (!isObject(host.Character)) {
+    host.Character = {};
+  }
+  return host.Character;
+}
+
+function customizationHost(data) {
+  if (!isObject(data)) {
+    return null;
+  }
+  const gameProgress = gameProgressRoot(data);
+  if (isObject(data.Customization)) {
+    return data;
+  }
+  if (isObject(gameProgress?.Customization)) {
+    return gameProgress;
+  }
+  if (isObject(gameProgress?.Character?.Customization)) {
+    return gameProgress.Character;
+  }
+  if (isObject(data.Character?.Customization)) {
+    return data.Character;
+  }
+  if (isObject(data.Character) && !gameProgress) {
+    return data.Character;
+  }
+  return data;
 }
 
 function findCustomization(data) {
-  return data?.Character?.Customization?.CustomizationData || null;
+  return customizationHost(data)?.Customization?.CustomizationData || null;
 }
 
 function findUpkeep(data, key) {
-  return data?.Character?.[key] || null;
+  return findCharacterRoot(data)?.[key] || null;
+}
+
+function revealedFogHost(data) {
+  if (!isObject(data)) {
+    return null;
+  }
+  const gameProgress = gameProgressRoot(data);
+  if (isObject(gameProgress?.RevealedFog)) {
+    return gameProgress;
+  }
+  if (isObject(data.RevealedFog)) {
+    return data;
+  }
+  return gameProgress || data;
+}
+
+function findRevealedFog(data) {
+  return revealedFogHost(data)?.RevealedFog || null;
+}
+
+function skillsHost(data) {
+  if (!isObject(data)) {
+    return null;
+  }
+  const gameProgress = gameProgressRoot(data);
+  if (isObject(gameProgress?.Skills)) {
+    return gameProgress;
+  }
+  if (isObject(data.Skills)) {
+    return data;
+  }
+  return gameProgress || data;
 }
 
 function findSkills(data) {
-  return data?.Skills?.Skills || null;
+  return skillsHost(data)?.Skills?.Skills || null;
+}
+
+function findMount(data) {
+  return findCharacterRoot(data)?.Mount || null;
+}
+
+function progressHost(data) {
+  if (!isObject(data)) {
+    return null;
+  }
+  const gameProgress = gameProgressRoot(data);
+  if (isObject(gameProgress?.Progress)) {
+    return gameProgress;
+  }
+  if (isObject(data.Progress)) {
+    return data;
+  }
+  return gameProgress || data;
+}
+
+function findProgress(data) {
+  return progressHost(data)?.Progress || null;
+}
+
+function ensureProgressRoot(target) {
+  const host = progressHost(target) || target;
+  if (!isObject(host.Progress)) {
+    host.Progress = {};
+  }
+  return host.Progress;
+}
+
+function findVendorReputations(data) {
+  return findProgress(data)?.VendorReputations || null;
+}
+
+function catalogMountValues() {
+  const mounts = customizationCatalog?.Mounts;
+  if (!Array.isArray(mounts)) {
+    return new Set();
+  }
+  return new Set(
+    mounts
+      .map((mount) => mount?.save_value)
+      .filter((value) => typeof value === "string" && value)
+  );
 }
 
 function applySkillValuesToInputs() {
@@ -78,6 +218,36 @@ function applySkillValuesToInputs() {
     const id = input.dataset.skillId;
     const xp = id ? skillXpById.get(id) : undefined;
     input.value = toIntegerDisplay(xp);
+  });
+}
+
+function applyMountValuesToInputs() {
+  mountInputs.forEach((input) => {
+    const value = input.dataset.mountValue;
+    input.checked = Boolean(value && unlockedMountValues.has(value));
+  });
+  if (!mountEquippedSelect) {
+    return;
+  }
+  if (
+    equippedMountValue &&
+    !Array.from(mountEquippedSelect.options).some(
+      (option) => option.value === equippedMountValue
+    )
+  ) {
+    const option = document.createElement("option");
+    option.value = equippedMountValue;
+    option.textContent = `Unknown - ${equippedMountValue}`;
+    mountEquippedSelect.appendChild(option);
+  }
+  mountEquippedSelect.value = equippedMountValue;
+}
+
+function applyVendorReputationValuesToInputs() {
+  vendorReputationInputs.forEach((select) => {
+    const tag = select.dataset.vendorReputation;
+    const amount = tag ? vendorReputationByTag.get(tag) : undefined;
+    setSelectValue(select, toIntegerDisplay(amount));
   });
 }
 
@@ -113,12 +283,17 @@ function handleCharacterFile(text) {
     if (characterGuidInput) {
       characterGuidInput.value = data?.meta_data?.char_guid ?? "";
     }
-    if (mountUnlockedSelect) {
-      const mountUnlocked = Boolean(data?.Character?.Mount?.MountUnlocked);
-      mountUnlockedSelect.value = mountUnlocked ? "true" : "false";
-    }
+    const mount = findMount(data) || {};
+    unlockedMountValues = new Set(
+      Array.isArray(mount.MountsUnlockedList)
+        ? mount.MountsUnlockedList.filter((value) => typeof value === "string")
+        : []
+    );
+    equippedMountValue =
+      typeof mount.MountEquipped === "string" ? mount.MountEquipped : "";
+    applyMountValuesToInputs();
     if (mapUnlockedSelect) {
-      const revealed = data?.RevealedFog?.RevealedRegionsBitmap;
+      const revealed = findRevealedFog(data)?.RevealedRegionsBitmap;
       const isUnlocked = Number(revealed) === MAP_UNLOCKED_VALUE;
       mapUnlockedSelect.value = isUnlocked ? "true" : "false";
     }
@@ -146,6 +321,19 @@ function handleCharacterFile(text) {
         .map((skill) => [skill.Id, skill.Xp])
     );
     applySkillValuesToInputs();
+
+    const vendorReputations = findVendorReputations(data) || [];
+    vendorReputationByTag = new Map(
+      Array.isArray(vendorReputations)
+        ? vendorReputations
+            .filter((row) => row && typeof row.VendorReputationTag === "string")
+            .map((row) => [
+              row.VendorReputationTag,
+              parseNonNegativeInt(row.VendorReputationAmount),
+            ])
+        : []
+    );
+    applyVendorReputationValuesToInputs();
     setStatus("Character loaded.", true);
   } catch (error) {
     setStatus("Failed to parse character JSON.", false);
@@ -195,6 +383,14 @@ function skillIconSrc(skill) {
   const name = skill?.display_name;
   if (typeof name === "string" && name) {
     return `/shared/game-ui/Character/${encodeURIComponent(name)}.png`;
+  }
+  return "/shared/game-ui/T_Icon_Placeholder.png";
+}
+
+function mountIconSrc(mount) {
+  const icon = mount?.icon;
+  if (typeof icon === "string" && icon) {
+    return icon.startsWith("/") ? icon : `/shared/icons/${icon}`;
   }
   return "/shared/game-ui/T_Icon_Placeholder.png";
 }
@@ -273,6 +469,109 @@ function renderSkillCatalog() {
   applySkillValuesToInputs();
 }
 
+function renderMountCatalog() {
+  const mounts = customizationCatalog?.Mounts;
+  if (!Array.isArray(mounts)) {
+    return;
+  }
+  if (mountEquippedSelect) {
+    mountEquippedSelect.innerHTML = "";
+    const noneOption = document.createElement("option");
+    noneOption.value = "";
+    noneOption.textContent = "None";
+    mountEquippedSelect.appendChild(noneOption);
+    mounts.forEach((mount) => {
+      if (!mount?.save_value) {
+        return;
+      }
+      const option = document.createElement("option");
+      option.value = mount.save_value;
+      option.textContent = mount.display_name || mount.internal_name;
+      mountEquippedSelect.appendChild(option);
+    });
+  }
+  if (mountList) {
+    mountList.innerHTML = "";
+    mounts.forEach((mount) => {
+      if (!mount?.save_value) {
+        return;
+      }
+      const label = document.createElement("label");
+      label.className = "mount-toggle";
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.dataset.mountValue = mount.save_value;
+      checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+          unlockedMountValues.add(mount.save_value);
+        } else {
+          unlockedMountValues.delete(mount.save_value);
+        }
+      });
+      label.appendChild(checkbox);
+
+      const icon = document.createElement("img");
+      icon.className = "mount-icon";
+      icon.src = mountIconSrc(mount);
+      icon.alt = "";
+      label.appendChild(icon);
+
+      const content = document.createElement("span");
+      content.className = "mount-label";
+      const name = document.createElement("span");
+      name.className = "mount-name";
+      name.textContent = mount.display_name || mount.internal_name || "Mount";
+      content.appendChild(name);
+      const meta = document.createElement("span");
+      meta.className = "mount-meta";
+      meta.textContent = mount.mount_type || mount.internal_name || mount.save_value;
+      content.appendChild(meta);
+      label.appendChild(content);
+      mountList.appendChild(label);
+    });
+    mountInputs = Array.from(document.querySelectorAll("[data-mount-value]"));
+  }
+  applyMountValuesToInputs();
+}
+
+function renderVendorReputationCatalog() {
+  const reputations = customizationCatalog?.VendorReputations;
+  if (!vendorReputationGrid || !Array.isArray(reputations)) {
+    return;
+  }
+  vendorReputationGrid.innerHTML = "";
+  reputations.forEach((reputation) => {
+    if (!reputation?.tag) {
+      return;
+    }
+    const label = document.createElement("label");
+    label.className = "character-field";
+    const labelText = document.createElement("span");
+    labelText.textContent = reputation.display_name || reputation.tag;
+    label.appendChild(labelText);
+
+    const select = document.createElement("select");
+    select.dataset.vendorReputation = reputation.tag;
+    const tiers = Array.isArray(reputation.tiers) && reputation.tiers.length
+      ? reputation.tiers
+      : [0, 1000, 2000, 3000];
+    tiers.forEach((tier) => {
+      const value = toIntegerDisplay(tier);
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    });
+    label.appendChild(select);
+    vendorReputationGrid.appendChild(label);
+  });
+  vendorReputationInputs = Array.from(
+    document.querySelectorAll("[data-vendor-reputation]")
+  );
+  applyVendorReputationValuesToInputs();
+}
+
 function populateCustomizationOptions() {
   if (!customizationCatalog) {
     return;
@@ -299,9 +598,13 @@ function populateCustomizationOptions() {
 
 async function loadCustomizationCatalog() {
   try {
-    const response = await fetch("/tools/character-editor/data/character_catalog.json");
+    const response = await fetch("/tools/character-editor/data/character_catalog.json", {
+      cache: "no-store",
+    });
     customizationCatalog = await response.json();
     renderSkillCatalog();
+    renderMountCatalog();
+    renderVendorReputationCatalog();
     populateCustomizationOptions();
   } catch (error) {
     console.error(error);
@@ -309,62 +612,111 @@ async function loadCustomizationCatalog() {
 }
 
 function setCustomizationRowName(target, key, value) {
-  if (!target.Character) {
-    target.Character = {};
+  const host = customizationHost(target) || target;
+  if (!isObject(host.Customization)) {
+    host.Customization = {};
   }
-  if (!target.Character.Customization) {
-    target.Character.Customization = {};
+  if (!isObject(host.Customization.CustomizationData)) {
+    host.Customization.CustomizationData = {};
   }
-  if (!target.Character.Customization.CustomizationData) {
-    target.Character.Customization.CustomizationData = {};
-  }
-  if (!target.Character.Customization.CustomizationData[key]) {
-    target.Character.Customization.CustomizationData[key] = { rowName: value };
+  if (!isObject(host.Customization.CustomizationData[key])) {
+    host.Customization.CustomizationData[key] = { rowName: value };
   } else {
-    target.Character.Customization.CustomizationData[key].rowName = value;
+    host.Customization.CustomizationData[key].rowName = value;
   }
 }
 
 function setUpkeepValue(target, key, value, decayBuffer) {
-  if (!target.Character) {
-    target.Character = {};
+  const character = ensureCharacterRoot(target);
+  if (!isObject(character[key])) {
+    character[key] = {};
   }
-  if (!target.Character[key]) {
-    target.Character[key] = {};
-  }
-  target.Character[key][`${key}Value`] = value;
+  character[key][`${key}Value`] = value;
   if (typeof decayBuffer !== "undefined") {
-    target.Character[key][`${key}DecayBuffer`] = decayBuffer;
+    character[key][`${key}DecayBuffer`] = decayBuffer;
   }
 }
 
-function setMountUnlocked(target, value) {
-  if (!target.Character) {
-    target.Character = {};
+function ensureMountRoot(target) {
+  const character = ensureCharacterRoot(target);
+  if (!isObject(character.Mount)) {
+    character.Mount = {};
   }
-  if (!target.Character.Mount) {
-    target.Character.Mount = {};
+  return character.Mount;
+}
+
+function setMountState(target) {
+  const mount = ensureMountRoot(target);
+  const knownCatalogValues = catalogMountValues();
+  const selected = mountInputs
+    .filter((input) => input.checked && input.dataset.mountValue)
+    .map((input) => input.dataset.mountValue);
+  unlockedMountValues.forEach((value) => {
+    if (!knownCatalogValues.has(value)) {
+      selected.push(value);
+    }
+  });
+  const equipped = mountEquippedSelect?.value || "";
+  if (equipped) {
+    selected.push(equipped);
+    mount.MountEquipped = equipped;
+  } else {
+    delete mount.MountEquipped;
   }
-  target.Character.Mount.MountUnlocked = Boolean(value);
+  mount.MountsUnlockedList = Array.from(new Set(selected));
 }
 
 function setMapUnlocked(target, isUnlocked) {
-  if (!target.RevealedFog) {
-    target.RevealedFog = {};
+  const host = revealedFogHost(target) || target;
+  if (!isObject(host.RevealedFog)) {
+    host.RevealedFog = {};
   }
   if (isUnlocked) {
-    target.RevealedFog.RevealedRegionsBitmap = MAP_UNLOCKED_VALUE;
+    host.RevealedFog.RevealedRegionsBitmap = MAP_UNLOCKED_VALUE;
   }
 }
 
 function ensureSkillsContainer(target) {
-  if (!target.Skills) {
-    target.Skills = {};
+  const host = skillsHost(target) || target;
+  if (!isObject(host.Skills)) {
+    host.Skills = {};
   }
-  if (!Array.isArray(target.Skills.Skills)) {
-    target.Skills.Skills = [];
+  if (!Array.isArray(host.Skills.Skills)) {
+    host.Skills.Skills = [];
   }
-  return target.Skills.Skills;
+  return host.Skills.Skills;
+}
+
+function setVendorReputations(target) {
+  const progress = ensureProgressRoot(target);
+  const knownTags = new Set(
+    vendorReputationInputs
+      .map((input) => input.dataset.vendorReputation)
+      .filter((tag) => typeof tag === "string" && tag)
+  );
+  const existing = Array.isArray(progress.VendorReputations)
+    ? progress.VendorReputations.filter(
+        (row) =>
+          row &&
+          typeof row.VendorReputationTag === "string" &&
+          !knownTags.has(row.VendorReputationTag)
+      )
+    : [];
+
+  vendorReputationInputs.forEach((input) => {
+    const tag = input.dataset.vendorReputation;
+    if (!tag) {
+      return;
+    }
+    const amount = parseNonNegativeInt(input.value);
+    if (amount > 0) {
+      existing.push({
+        VendorReputationTag: tag,
+        VendorReputationAmount: amount,
+      });
+    }
+  });
+  progress.VendorReputations = existing;
 }
 
 function parseNonNegativeInt(value) {
@@ -425,12 +777,15 @@ function buildExportData() {
     setUpkeepValue(clone, key, value, decay);
   });
 
-  if (mountUnlockedSelect) {
-    setMountUnlocked(clone, mountUnlockedSelect.value === "true");
+  if (mountEquippedSelect || mountInputs.length) {
+    setMountState(clone);
   }
   if (mapUnlockedSelect) {
     const isUnlocked = mapUnlockedSelect.value === "true";
     setMapUnlocked(clone, isUnlocked);
+  }
+  if (vendorReputationInputs.length) {
+    setVendorReputations(clone);
   }
 
   if (skillInputs.length) {
@@ -604,6 +959,15 @@ function bindEvents() {
   if (characterTypeSelect) {
     characterTypeSelect.addEventListener("change", (event) => {
       setCharacterTypeIcon(event.target.value);
+    });
+  }
+  if (mountEquippedSelect) {
+    mountEquippedSelect.addEventListener("change", () => {
+      equippedMountValue = mountEquippedSelect.value || "";
+      if (equippedMountValue) {
+        unlockedMountValues.add(equippedMountValue);
+      }
+      applyMountValuesToInputs();
     });
   }
   upkeepTiles.forEach((tile) => {

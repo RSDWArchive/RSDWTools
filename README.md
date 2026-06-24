@@ -6,7 +6,7 @@ reference tables for *RuneScape: Dragonwilds*. Sister site to
 
 ## Tools
 
-- **Character Editor** — edit player name, type, GUID, customization, skills, unlocks
+- **Character Editor** — edit player name, type, GUID, customization, skills, mounts, vendor reputation, and unlocks
 - **Item Editor** — add, remove, modify items in your character save
 - **Spell Editor** — configure spellbooks and unlocked spells
 - **Recipe Unlocker** — browse all recipes and unlock them
@@ -70,6 +70,8 @@ By default, the pipeline reads
 and ingests from `E:\Github\RSDWArchive\<datasetVersion>`.
 `LocationData` and `LootData` default to the matching generated outputs under
 `E:\Github\RSDWArchive\website\tools\`.
+Character Editor mount and vendor reputation data is generated from the same
+resolved archive dataset.
 
 Then:
 

@@ -15,7 +15,7 @@ read-only browsers for recipes, spells, and drop tables.
 
 ## Tools (live pages)
 - `/tools/character-editor/` — edit player name, type, GUID, customization,
-  skills, and unlocks.
+  skills, mounts, vendor reputation, and unlocks.
 - `/tools/item-editor/` — add, remove, modify items in a character save.
 - `/tools/spell-editor/` — configure spellbooks and unlocked spells.
 - `/tools/recipe-unlocker/` — browse all recipes and toggle unlocks.
