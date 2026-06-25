@@ -124,6 +124,8 @@ def classify_tab_and_category(path: Path, tag: str) -> tuple[str, str]:
         return "rune", "Runes"
     if lowered == "arrow":
         return "ammo", "Arrows"
+    if lowered == "bolt":
+        return "ammo", "Bolts"
     if lowered == "questitem":
         return "quest", "Quest"
 

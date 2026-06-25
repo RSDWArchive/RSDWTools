@@ -4197,105 +4197,6 @@
           "weight": 3.0
         },
         {
-          "name": "Adamant Bolt",
-          "itemData": "RNurF0W7JRiX6iKByxv1uA",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Steel_Bolt.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Adamant.json",
-          "category": "Materials/Ammo",
-          "description": "A crossbow bolt with an adamant tip.",
-          "powerLevel": 7,
-          "vitalShield": 0
-        },
-        {
-          "name": "Blurite Bolt",
-          "itemData": "HogQf0rvQPyH3MWRnZKfGw",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Blurite_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Blurite.json",
-          "category": "Materials/Ammo",
-          "description": "Crossbow Bolts made from Blurite.",
-          "powerLevel": 4,
-          "vitalShield": 0
-        },
-        {
-          "name": "Bone Bolt",
-          "itemData": "DOsOLkIUyXaO8-yRed2iUg",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Bone_Bolt.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bone.json",
-          "category": "Materials/Ammo",
-          "description": "Lightweight, but very sharp. Can be fired using the Dorgeshuun Crossbow.",
-          "powerLevel": 5,
-          "vitalShield": 0
-        },
-        {
-          "name": "Bronze Bolt",
-          "itemData": "jgYiuU8aQY7BNHaUKFjZpQ",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Bronze_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bronze.json",
-          "category": "Materials/Ammo",
-          "description": "Crossbow Bolts made from Bronze.",
-          "powerLevel": 3,
-          "vitalShield": 0
-        },
-        {
-          "name": "Enchanted Blurite Bolt",
-          "itemData": "SrnYYkzaT5NgG0qSqB2wWg",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Blurite_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Blurite.json",
-          "category": "Materials/Ammo",
-          "description": "Blurite crossbow bolts tipped with enchanted Jade, that have a chance of dealing Earth magic damage and knocking your target down.",
-          "powerLevel": 4,
-          "vitalShield": 0
-        },
-        {
-          "name": "Enchanted Bronze Bolt",
-          "itemData": "lNc-PUngnrFoIP-h6Vlugg",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Bronze_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Bronze.json",
-          "category": "Materials/Ammo",
-          "description": "Bronze crossbow bolts tipped with enchanted opal, that have a chance to summon a lightning strike around your target, dealing Air magic damage to all nearby enemies.",
-          "powerLevel": 3,
-          "vitalShield": 0
-        },
-        {
-          "name": "Enchanted Iron Bolt",
-          "itemData": "HMZvK0ItELqUlmm4i5HqSQ",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Iron_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Iron.json",
-          "category": "Materials/Ammo",
-          "description": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. ",
-          "powerLevel": 4,
-          "vitalShield": 0
-        },
-        {
-          "name": "Enchanted Mithril Bolt",
-          "itemData": "J1kfmEkc5vYMULq4SD95pw",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Mithril_Enchanted_Bolts.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Mithril.json",
-          "category": "Materials/Ammo",
-          "description": "These crossbow bolts offer a chance to create a toxic burst, poisoning all nearby enemies.",
-          "powerLevel": 6,
-          "vitalShield": 0
-        },
-        {
-          "name": "Enchanted Steel Bolt",
-          "itemData": "sPbq7UpGgQcvbduqbSGJOg",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Steel_Enchanted_Bolt.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Steel.json",
-          "category": "Materials/Ammo",
-          "description": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a proportion of the damage dealt.",
-          "powerLevel": 5,
-          "vitalShield": 0
-        },
-        {
           "name": "Fang Arrow",
           "itemData": "2vSF4Se4MkWaZG0pHYcb8g",
           "maxStack": 999,
@@ -4304,39 +4205,6 @@
           "category": "Materials/Ammo",
           "description": "Arrows with tips carved from animal fangs. ",
           "powerLevel": 2,
-          "vitalShield": 0
-        },
-        {
-          "name": "Iron Bolt",
-          "itemData": "zqjy1Eimxm0DyYOgnCMLrQ",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Iron_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Iron.json",
-          "category": "Materials/Ammo",
-          "description": "Crossbow Bolts made from Iron.",
-          "powerLevel": 4,
-          "vitalShield": 0
-        },
-        {
-          "name": "Mithril Bolts",
-          "itemData": "nFcRVkw9jTo4lpC5TG6Fcg",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Mithril_Bolts.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Mithril.json",
-          "category": "Materials/Ammo",
-          "description": "Crossbow bolts made from mithril.",
-          "powerLevel": 6,
-          "vitalShield": 0
-        },
-        {
-          "name": "Steel Bolt",
-          "itemData": "_1UJR0bdUz0CNMyyUwbTig",
-          "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Steel_Bolt.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Steel.json",
-          "category": "Materials/Ammo",
-          "description": "Crossbow Bolts made from steel.",
-          "powerLevel": 5,
           "vitalShield": 0
         },
         {
@@ -13586,6 +13454,138 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Wood.json",
           "category": "Arrows",
           "description": "A very basic arrow.",
+          "vitalShield": 0
+        },
+        {
+          "name": "Adamant Bolt",
+          "itemData": "RNurF0W7JRiX6iKByxv1uA",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Steel_Bolt.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Adamant.json",
+          "category": "Bolts",
+          "description": "A crossbow bolt with an adamant tip.",
+          "powerLevel": 7,
+          "vitalShield": 0
+        },
+        {
+          "name": "Blurite Bolt",
+          "itemData": "HogQf0rvQPyH3MWRnZKfGw",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Blurite_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Blurite.json",
+          "category": "Bolts",
+          "description": "Crossbow Bolts made from Blurite.",
+          "powerLevel": 4,
+          "vitalShield": 0
+        },
+        {
+          "name": "Bone Bolt",
+          "itemData": "DOsOLkIUyXaO8-yRed2iUg",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Bone_Bolt.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bone.json",
+          "category": "Bolts",
+          "description": "Lightweight, but very sharp. Can be fired using the Dorgeshuun Crossbow.",
+          "powerLevel": 5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Bronze Bolt",
+          "itemData": "jgYiuU8aQY7BNHaUKFjZpQ",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Bronze_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bronze.json",
+          "category": "Bolts",
+          "description": "Crossbow Bolts made from Bronze.",
+          "powerLevel": 3,
+          "vitalShield": 0
+        },
+        {
+          "name": "Enchanted Blurite Bolt",
+          "itemData": "SrnYYkzaT5NgG0qSqB2wWg",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Blurite_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Blurite.json",
+          "category": "Bolts",
+          "description": "Blurite crossbow bolts tipped with enchanted Jade, that have a chance of dealing Earth magic damage and knocking your target down.",
+          "powerLevel": 4,
+          "vitalShield": 0
+        },
+        {
+          "name": "Enchanted Bronze Bolt",
+          "itemData": "lNc-PUngnrFoIP-h6Vlugg",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Bronze_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Bronze.json",
+          "category": "Bolts",
+          "description": "Bronze crossbow bolts tipped with enchanted opal, that have a chance to summon a lightning strike around your target, dealing Air magic damage to all nearby enemies.",
+          "powerLevel": 3,
+          "vitalShield": 0
+        },
+        {
+          "name": "Enchanted Iron Bolt",
+          "itemData": "HMZvK0ItELqUlmm4i5HqSQ",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBoltGem_Iron_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Iron.json",
+          "category": "Bolts",
+          "description": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. ",
+          "powerLevel": 4,
+          "vitalShield": 0
+        },
+        {
+          "name": "Enchanted Mithril Bolt",
+          "itemData": "J1kfmEkc5vYMULq4SD95pw",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Mithril_Enchanted_Bolts.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Mithril.json",
+          "category": "Bolts",
+          "description": "These crossbow bolts offer a chance to create a toxic burst, poisoning all nearby enemies.",
+          "powerLevel": 6,
+          "vitalShield": 0
+        },
+        {
+          "name": "Enchanted Steel Bolt",
+          "itemData": "sPbq7UpGgQcvbduqbSGJOg",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Steel_Enchanted_Bolt.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Steel.json",
+          "category": "Bolts",
+          "description": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a proportion of the damage dealt.",
+          "powerLevel": 5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Iron Bolt",
+          "itemData": "zqjy1Eimxm0DyYOgnCMLrQ",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBolt_Iron_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Iron.json",
+          "category": "Bolts",
+          "description": "Crossbow Bolts made from Iron.",
+          "powerLevel": 4,
+          "vitalShield": 0
+        },
+        {
+          "name": "Mithril Bolts",
+          "itemData": "nFcRVkw9jTo4lpC5TG6Fcg",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Mithril_Bolts.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Mithril.json",
+          "category": "Bolts",
+          "description": "Crossbow bolts made from mithril.",
+          "powerLevel": 6,
+          "vitalShield": 0
+        },
+        {
+          "name": "Steel Bolt",
+          "itemData": "_1UJR0bdUz0CNMyyUwbTig",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Steel_Bolt.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Steel.json",
+          "category": "Bolts",
+          "description": "Crossbow Bolts made from steel.",
+          "powerLevel": 5,
           "vitalShield": 0
         }
       ]

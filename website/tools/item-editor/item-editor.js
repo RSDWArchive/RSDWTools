@@ -1569,7 +1569,7 @@ if (countModal) {
   });
 }
 
-fetch("/tools/item-editor/data/catalog.json")
+fetch("/tools/item-editor/data/catalog.json", { cache: "no-store" })
   .then((response) => response.json())
   .then((catalog) => {
     state.catalog = normalizeCatalogPaths(catalog);
