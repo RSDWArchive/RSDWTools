@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "MiningMastery",
       "PersistenceID": "iSzQfErT8EF4VFiBXVOd5Q",
       "InternalName": "recipe_armour_t0_cape_skillcape_mining"
     }

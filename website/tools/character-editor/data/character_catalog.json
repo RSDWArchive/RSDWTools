@@ -244,6 +244,15 @@
       "unlock_item_internal_name": "mountunlock_terrorbird_03_03"
     },
     {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_05",
+      "display_name": "Astralbeak Warbler",
+      "internal_name": "DA_Mount_Terrorbird_02_05",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_02_05.png",
+      "unlock_item_persistence_id": "SOIze0O8KKn97Zm5vTPmUg",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_05"
+    },
+    {
       "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_01",
       "display_name": "Coastal Sunbeak",
       "internal_name": "DA_Mount_Terrorbird_02_01",
@@ -260,6 +269,15 @@
       "icon": "T_Icon_SM_Terro_bird_03_04.png",
       "unlock_item_persistence_id": "vfV1XUyxfEDT5viqjY3SPQ",
       "unlock_item_internal_name": "mountunlock_terrorbird_03_04"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_03",
+      "display_name": "Eclipseborn Sharpbeak",
+      "internal_name": "DA_Mount_Terrorbird_02_03",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_02_03.png",
+      "unlock_item_persistence_id": "6Dd-I0aw3guW21ydsq6X9w",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_03"
     },
     {
       "save_value": "MountDataAsset:DA_Mount_Terrorbird_01_03",
@@ -330,8 +348,17 @@
       "internal_name": "DA_Mount_Terrorbird_02_02",
       "mount_type": "Terrorbird",
       "icon": "T_Icon_SM_Terro_bird_02_02.png",
-      "unlock_item_persistence_id": "SOIze0O8KKn97Zm5vTPmUg",
-      "unlock_item_internal_name": "mountunlock_terrorbird_02_05"
+      "unlock_item_persistence_id": "PXvItkvCvfQ5xJuXsuuuaw",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_02"
+    },
+    {
+      "save_value": "MountDataAsset:DA_Mount_Terrorbird_02_04",
+      "display_name": "Sunkissed Clawfoot",
+      "internal_name": "DA_Mount_Terrorbird_02_04",
+      "mount_type": "Terrorbird",
+      "icon": "T_Icon_SM_Terro_bird_02_04.png",
+      "unlock_item_persistence_id": "tqc2vkKleWh6BmavOpsvxw",
+      "unlock_item_internal_name": "mountunlock_terrorbird_02_04"
     },
     {
       "save_value": "MountDataAsset:DA_Mount_Terrorbird_00_00",

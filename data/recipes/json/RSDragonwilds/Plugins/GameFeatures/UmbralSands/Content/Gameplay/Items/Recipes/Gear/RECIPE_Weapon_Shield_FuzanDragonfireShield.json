@@ -15,8 +15,8 @@
         },
         {
           "ItemData": {
-            "ObjectName": "ShieldData'ITEM_Masterworks_Shield_Dragonfire'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Dragonfire.0"
+            "ObjectName": "ShieldData'ITEM_Masterworks_Shield_Anti_Dragon'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Anti_Dragon.0"
           },
           "Count": 1
         },

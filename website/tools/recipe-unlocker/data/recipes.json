@@ -28952,14 +28952,14 @@
     "persistence_id": "myqnDkdJSshMLUq3sMlSLA",
     "row_name": "Craft_Smithing_Forge_Tier4",
     "display_name": "Dragonfire Shield",
-    "icon": "T_icon_Steel_Shield.png",
+    "icon": "T_icon_Fuzan_kite.png",
     "items_created": [
       {
         "item_id": "ITEM_Shield_FuzanDragonfireShield",
         "count": 1,
         "display_name": "Dragonfire Shield",
         "persistence_id": "syP9PEGY4yRZ902vJya10w",
-        "icon": "T_icon_Steel_Shield.png"
+        "icon": "T_icon_Fuzan_kite.png"
       }
     ],
     "items_consumed": [
@@ -28971,11 +28971,11 @@
         "icon": "T_Icon_Dragon_Visage.png"
       },
       {
-        "item_id": "ITEM_Masterworks_Shield_Dragonfire",
+        "item_id": "ITEM_Masterworks_Shield_Anti_Dragon",
         "count": 1,
-        "display_name": "Dragonblight Shield",
-        "persistence_id": "RyuOEkWEWdGcvQqo2dPOgA",
-        "icon": "T_Icon_Shield_Poison_Dragonfire.png"
+        "display_name": "Anti-dragon Shield",
+        "persistence_id": "BNb1F0xxIE_NlYq3ypX6LA",
+        "icon": "T_Icon_Shield_AntiDragon.png"
       },
       {
         "item_id": "ITEM_Resources_VaultShard",

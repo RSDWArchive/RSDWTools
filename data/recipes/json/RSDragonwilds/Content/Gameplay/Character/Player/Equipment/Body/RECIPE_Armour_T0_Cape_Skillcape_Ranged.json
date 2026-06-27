@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "RangedMastery",
       "PersistenceID": "1Vfh-kjskMudwY-Obj_Xig",
       "InternalName": "recipe_armour_t0_cape_skillcape_ranged"
     }

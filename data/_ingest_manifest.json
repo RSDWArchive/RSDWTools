@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-25T09:22:13.696852+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\0.12.0.0",
+  "generated_at_utc": "2026-06-27T19:47:58.696601+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\0.12.0.8",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 67324,
-    "json_unmatched": 64856,
+    "json_scanned": 67334,
+    "json_unmatched": 64866,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "ArchiveExtractManifest.json",
@@ -60,8 +60,8 @@
       ]
     },
     "icons": {
-      "files_discovered": 2267,
-      "files_copied": 2267,
+      "files_discovered": 2269,
+      "files_copied": 2269,
       "source_roots": [],
       "sample_files": []
     },
@@ -161,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 3809,
-    "object_paths_resolved": 1050,
+    "object_paths_found": 3810,
+    "object_paths_resolved": 1051,
     "prefixes": [
       "t_icon_",
       "t_skill_"

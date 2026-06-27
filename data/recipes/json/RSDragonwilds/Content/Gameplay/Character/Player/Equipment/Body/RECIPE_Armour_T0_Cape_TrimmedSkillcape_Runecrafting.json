@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "RunecraftingMastery",
       "PersistenceID": "M4DAEkn8SqAkw_GQdH3aMA",
       "InternalName": "recipe_armour_t0_cape_trimmedskillcape_runecrafting"
     }

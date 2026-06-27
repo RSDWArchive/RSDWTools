@@ -8573,7 +8573,7 @@
           "name": "Dragonfire Shield",
           "itemData": "syP9PEGY4yRZ902vJya10w",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_icon_Steel_Shield.png",
+          "iconPath": "/shared/icons/T_icon_Fuzan_kite.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Shield_FuzanDragonfireShield.json",
           "category": "Materials/Shield",
           "description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
@@ -13616,7 +13616,7 @@
           "itemData": "NndX3U-UM-JVFaKvgrz8Eg",
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Fire_Cape.png",
-          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_Fire.json",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/AlwaysCook/DA_Consumable_Vestige_Armour_Cape_Fire.json",
           "category": "Quest",
           "description": "Perhaps you could learn from it"
         },

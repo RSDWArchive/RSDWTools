@@ -1,50 +1,50 @@
 {
-  "version": "0.12.0.0",
-  "generatedAtUtc": "2026-06-23T10:49:35.254859+00:00",
-  "sourceRoot": "E:\\Github\\RSDWArchive\\0.12.0.0\\json",
+  "version": "0.12.0.8",
+  "generatedAtUtc": "2026-06-27T16:58:12.724118+00:00",
+  "sourceRoot": "E:\\Github\\RSDWArchive\\0.12.0.8\\json",
   "tables": {
     "DT_CompositeEnemyLootDropTable": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
       "rowCount": 122,
       "type": "CompositeDataTable"
     },
     "DT_CompositeEnemyLootDropTable_DowdunReach": {
-      "file": "0.12.0.0/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "CompositeDataTable"
     },
     "DT_EnemyLootDropTable": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
       "rowCount": 95,
       "type": "DataTable"
     },
     "DT_EnemyLootDropTable_DowdunReach": {
-      "file": "0.12.0.0/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     },
     "DT_LootChest_RespawnProfiles": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
       "rowCount": 56,
       "type": "DataTable"
     },
     "DT_LootChest_Sets": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
       "rowCount": 64,
       "type": "DataTable"
     },
     "DT_LootChests_Prefabs": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
       "rowCount": 56,
       "type": "DataTable"
     },
     "DT_LootDropTable": {
-      "file": "0.12.0.0/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
       "rowCount": 94,
       "type": "DataTable"
     },
     "DT_LootDropTable_DowdunReach": {
-      "file": "0.12.0.0/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
+      "file": "0.12.0.8/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     }
@@ -2061,22 +2061,6 @@
         }
       ],
       "drops": [
-        {
-          "sourceTable": "DT_LootDropTable",
-          "sourceRow": "DragonFuzan_ChallengeMode",
-          "itemId": "DA_Consumable_Vestige_Armour_Cape_Fire",
-          "itemDisplayName": null,
-          "itemObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Cape_Fire'",
-          "itemObjectPath": "/UmbralSands/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_Fire",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 1,
-          "dropChance": 100.0,
-          "flags": {
-            "oneInstancePerPlayerOnlyVisibleToThem": true,
-            "autoAddToInventory": true,
-            "onlyForPlayersThatInflictedDamage": true
-          }
-        },
         {
           "sourceTable": "DT_LootDropTable",
           "sourceRow": "DragonFuzan_ChallengeMode",
@@ -5271,23 +5255,6 @@
         }
       ]
     },
-    "Kot_Xil": {
-      "sources": [
-        {
-          "fromTable": "DT_CompositeEnemyLootDropTable",
-          "minimumPowerLevel": 0,
-          "targetTable": "DT_LootDropTable",
-          "targetRow": "Kot_Xil"
-        },
-        {
-          "fromTable": "DT_EnemyLootDropTable",
-          "minimumPowerLevel": 0,
-          "targetTable": "DT_LootDropTable",
-          "targetRow": "Kot_Xil"
-        }
-      ],
-      "drops": []
-    },
     "MagicBeast": {
       "sources": [
         {
@@ -5578,6 +5545,120 @@
           "minimumDropAmount": 1,
           "maximumDropAmount": 1,
           "dropChance": 100.0,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        }
+      ]
+    },
+    "Ogre_Kot_Xil": {
+      "sources": [
+        {
+          "fromTable": "DT_CompositeEnemyLootDropTable",
+          "minimumPowerLevel": 0,
+          "targetTable": "DT_LootDropTable",
+          "targetRow": "Ogre_Kot_Xil"
+        },
+        {
+          "fromTable": "DT_EnemyLootDropTable",
+          "minimumPowerLevel": 0,
+          "targetTable": "DT_LootDropTable",
+          "targetRow": "Ogre_Kot_Xil"
+        }
+      ],
+      "drops": [
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "DA_Consumabe_Mount_FlyingCarpet_01_05",
+          "itemDisplayName": null,
+          "itemObjectName": "ConsumableMountUnlocker'DA_Consumabe_Mount_FlyingCarpet_01_05'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Mounts/DA_Consumabe_Mount_FlyingCarpet_01_05",
+          "minimumDropAmount": 1,
+          "maximumDropAmount": 1,
+          "dropChance": 5.0,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        },
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "ITEM_Consumable_KutPack",
+          "itemDisplayName": null,
+          "itemObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_KutPack'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Resources/Consumable/ITEM_Consumable_KutPack",
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 3,
+          "dropChance": 100.0,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        },
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "ITEM_Resources_Key_NC_UmS_01",
+          "itemDisplayName": null,
+          "itemObjectName": "ItemData'ITEM_Resources_Key_NC_UmS_01'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Key_NC_UmS_01",
+          "minimumDropAmount": 1,
+          "maximumDropAmount": 1,
+          "dropChance": 0.25,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        },
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "ITEM_Resources_Key_NC_UmS_02",
+          "itemDisplayName": null,
+          "itemObjectName": "ItemData'ITEM_Resources_Key_NC_UmS_02'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Key_NC_UmS_02",
+          "minimumDropAmount": 1,
+          "maximumDropAmount": 1,
+          "dropChance": 0.25,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        },
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "ITEM_Resources_Key_NC_UmS_03",
+          "itemDisplayName": null,
+          "itemObjectName": "ItemData'ITEM_Resources_Key_NC_UmS_03'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Key_NC_UmS_03",
+          "minimumDropAmount": 1,
+          "maximumDropAmount": 1,
+          "dropChance": 0.25,
+          "flags": {
+            "oneInstancePerPlayerOnlyVisibleToThem": false,
+            "autoAddToInventory": false,
+            "onlyForPlayersThatInflictedDamage": false
+          }
+        },
+        {
+          "sourceTable": "DT_LootDropTable",
+          "sourceRow": "Ogre_Kot_Xil",
+          "itemId": "ITEM_Resources_Key_NC_UmS_04",
+          "itemDisplayName": null,
+          "itemObjectName": "ItemData'ITEM_Resources_Key_NC_UmS_04'",
+          "itemObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Key_NC_UmS_04",
+          "minimumDropAmount": 1,
+          "maximumDropAmount": 1,
+          "dropChance": 0.25,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
             "autoAddToInventory": false,
@@ -66522,10 +66603,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -67594,10 +67675,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -69173,10 +69254,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -70245,10 +70326,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -71784,10 +71865,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -72856,10 +72937,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -74395,10 +74476,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -75467,10 +75548,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -77006,10 +77087,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -78078,10 +78159,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -79617,10 +79698,10 @@
           "source": "guaranteedSet",
           "setRow": "SET_T7_Materials",
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -80706,10 +80787,10 @@
           "setRow": "SET_T7_Materials",
           "setRollChance": 35.0,
           "item": {
-            "itemId": "ITEM_Resources_Leather_HardLeather",
-            "itemDisplayName": null,
-            "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-            "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+            "itemId": "ITEM_Resources_Leather_Hard",
+            "itemDisplayName": "Hard Leather",
+            "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+            "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
             "minimumDropAmount": 3,
             "maximumDropAmount": 4,
             "dropChance": 4.16,
@@ -86535,10 +86616,10 @@
         }
       },
       {
-        "itemId": "ITEM_Resources_Leather_HardLeather",
-        "itemDisplayName": null,
-        "itemObjectName": "ItemData'ITEM_Resources_Leather_HardLeather'",
-        "itemObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Leather_HardLeather",
+        "itemId": "ITEM_Resources_Leather_Hard",
+        "itemDisplayName": "Hard Leather",
+        "itemObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
+        "itemObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0",
         "minimumDropAmount": 3,
         "maximumDropAmount": 4,
         "dropChance": 4.16,
@@ -87831,6 +87912,9 @@
       "DA_Consumabe_Mount_FlyingCarpet_01_02": [
         "Kalphite_Queen"
       ],
+      "DA_Consumabe_Mount_FlyingCarpet_01_05": [
+        "Ogre_Kot_Xil"
+      ],
       "DA_Consumabe_Mount_TerrorBird_01_02": [
         "Dragon_Lesser_Green",
         "Ghost_SoulstoneGuardian",
@@ -87887,9 +87971,6 @@
         "Dragon_Lesser_Red_UmS_MQ",
         "Kalphite_Guardian",
         "KotHaar_Xil"
-      ],
-      "DA_Consumable_Vestige_Armour_Cape_Fire": [
-        "DragonFuzan_ChallengeMode"
       ],
       "DA_Consumable_Vestige_Armour_Head_SkeletonRanger": [
         "Skeleton_Archer"
@@ -87978,7 +88059,8 @@
       "ITEM_Consumable_KutPack": [
         "KotHaar_Hur",
         "KotHaar_Ket",
-        "KotHaar_Xil"
+        "KotHaar_Xil",
+        "Ogre_Kot_Xil"
       ],
       "ITEM_Consumable_Pack_Ashes_Demonic_Lesser": [
         "Demon_Lesser",
@@ -88231,7 +88313,8 @@
         "Kalphite_Worker",
         "KotHaar_Hur",
         "KotHaar_Ket",
-        "KotHaar_Xil"
+        "KotHaar_Xil",
+        "Ogre_Kot_Xil"
       ],
       "ITEM_Resources_Key_NC_UmS_02": [
         "DragonFuzan",
@@ -88243,7 +88326,8 @@
         "Kalphite_Worker",
         "KotHaar_Hur",
         "KotHaar_Ket",
-        "KotHaar_Xil"
+        "KotHaar_Xil",
+        "Ogre_Kot_Xil"
       ],
       "ITEM_Resources_Key_NC_UmS_03": [
         "DragonFuzan",
@@ -88255,7 +88339,8 @@
         "Kalphite_Worker",
         "KotHaar_Hur",
         "KotHaar_Ket",
-        "KotHaar_Xil"
+        "KotHaar_Xil",
+        "Ogre_Kot_Xil"
       ],
       "ITEM_Resources_Key_NC_UmS_04": [
         "DragonFuzan",
@@ -88267,7 +88352,8 @@
         "Kalphite_Worker",
         "KotHaar_Hur",
         "KotHaar_Ket",
-        "KotHaar_Xil"
+        "KotHaar_Xil",
+        "Ogre_Kot_Xil"
       ],
       "ITEM_Resources_Large_Animal_Horn": [
         "Goat",
@@ -91225,9 +91311,7 @@
         "Tier5_World_Fellhollow_Chest_Cape",
         "Tier6_World_Chest",
         "Tier6_World_DowdunReach_Chest_Cape",
-        "Tier6_World_DowdunReach_Chest_VestigeChance"
-      ],
-      "ITEM_Resources_Leather_HardLeather": [
+        "Tier6_World_DowdunReach_Chest_VestigeChance",
         "Tier7_Vault_UmbralSands_Chest",
         "Tier7_Vault_UmbralSands_Chest_Vault_FinalChest_Vault01",
         "Tier7_Vault_UmbralSands_Chest_Vault_FinalChest_Vault02",
@@ -91955,23 +92039,9 @@
       {
         "chain": "enemy->lootDrop",
         "fromTable": "DT_EnemyLootDropTable",
-        "fromRow": "Kot_Xil",
-        "targetTable": "DT_LootDropTable",
-        "targetRow": "Kot_Xil"
-      },
-      {
-        "chain": "enemy->lootDrop",
-        "fromTable": "DT_EnemyLootDropTable",
         "fromRow": "KotHaar_Mej",
         "targetTable": "DT_LootDropTable",
         "targetRow": "KotHaar_Mej"
-      },
-      {
-        "chain": "enemy->lootDrop",
-        "fromTable": "DT_CompositeEnemyLootDropTable",
-        "fromRow": "Kot_Xil",
-        "targetTable": "DT_LootDropTable",
-        "targetRow": "Kot_Xil"
       },
       {
         "chain": "enemy->lootDrop",

@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "WoodcuttingMastery",
       "PersistenceID": "h_6rGU9tjBO5zIeUjz5m9Q",
       "InternalName": "recipe_armour_t0_cape_skillcape_woodcutting"
     }

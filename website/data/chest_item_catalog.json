@@ -4972,7 +4972,7 @@
   {
     "item_id": "ITEM_Shield_FuzanDragonfireShield",
     "display_name": "Dragonfire Shield",
-    "icon": "T_icon_Steel_Shield.png"
+    "icon": "T_icon_Fuzan_kite.png"
   },
   {
     "item_id": "ITEM_Shield_ToktzKetXil",
@@ -6585,6 +6585,11 @@
     "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Armour_Cape_Fire",
+    "display_name": "An Ember Edged Remnant of Cloth",
+    "icon": "T_Icon_Fire_Cape.png"
+  },
+  {
     "item_id": "DA_Consumable_Plan_Decoration_UmS_Armchair_01",
     "display_name": "PLAN: Moon Garou Armchair",
     "icon": "T_Icon_Plans.png"
@@ -6698,11 +6703,6 @@
     "item_id": "DA_Consumable_Plan_Decoration_UmS_Table_02",
     "display_name": "PLAN: Moon Garou Table 02",
     "icon": "T_Icon_Plans.png"
-  },
-  {
-    "item_id": "DA_Consumable_Vestige_Armour_Cape_Fire",
-    "display_name": "An Ember Edged Remnant of Cloth",
-    "icon": "T_Icon_Fire_Cape.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Armour_Cape_Menaphite_Black",

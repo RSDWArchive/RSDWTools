@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "FarmingMastery",
       "PersistenceID": "IktMsUJyMqXDU5SnjYv5dA",
       "InternalName": "recipe_armour_t0_cape_trimmedskillcape_farming"
     }

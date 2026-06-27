@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "MagicMastery",
       "PersistenceID": "f7WTqk6ZjW9_KTyyvnTzjg",
       "InternalName": "recipe_armour_t0_cape_skillcape_magic"
     }

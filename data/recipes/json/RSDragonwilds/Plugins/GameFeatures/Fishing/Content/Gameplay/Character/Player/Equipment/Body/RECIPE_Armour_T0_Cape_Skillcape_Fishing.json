@@ -22,6 +22,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "SkillXPAwardedOnCraft": 0,
+      "AchievementUnlockedOnCraft": "FishingMastery",
       "PersistenceID": "BEpm4UAZX_jKQii2YqWaXA",
       "InternalName": "recipe_armour_t0_cape_skillcape_fishing"
     }

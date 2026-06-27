@@ -38,7 +38,7 @@
         "LocalizedString": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Steel_Shield.T_icon_Steel_Shield",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_icon_Fuzan_kite.T_icon_Fuzan_kite",
         "SubPathString": ""
       },
       "StaticMesh": {

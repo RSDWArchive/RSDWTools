@@ -35,6 +35,13 @@
           "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/FireCape/GE_OnFatalHit_FireCape.0"
         }
       ],
+      "RecipeRequiredToEquip": {
+        "ObjectName": "RecipeData'RECIPE_Armour_T0_Cape_Fire'",
+        "ObjectPath": "/UmbralSands/Gameplay/Items/Recipes/Gear/RECIPE_Armour_T0_Cape_Fire"
+      },
+      "RecipeCannotEquipReasonTag": {
+        "TagName": "UI.Notification.Inventory.CannotEquipDueToEntitlement"
+      },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"

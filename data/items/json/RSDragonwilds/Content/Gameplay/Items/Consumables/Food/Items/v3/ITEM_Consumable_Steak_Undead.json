@@ -73,21 +73,7 @@
             "CultureInvariantString": null
           },
           "Value": {
-            "SourceFmt": {
-              "Namespace": "",
-              "Key": "8403CA264CF01BCEEB8347BAADE6C9F9",
-              "SourceString": "+{NewHealAmount} Health",
-              "LocalizedString": "+{NewHealAmount} Health"
-            },
-            "Arguments": [
-              {
-                "ArgumentName": "NewHealAmount",
-                "ArgumentValue": {
-                  "Type": 3,
-                  "Value": 2.0
-                }
-              }
-            ]
+            "CultureInvariantString": null
           }
         }
       ],

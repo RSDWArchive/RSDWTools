@@ -42,7 +42,7 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Shadowsword_DamageModifierReceiverTypeSpectral_C'",
-          "ObjectPath": "/Game/Gameplay/GameplayEffects/Equipment/Shadowsword/GE_Shadowsword_DamageModifierReceiverTypeSpectral"
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/Shadowsword/GE_Shadowsword_DamageModifierReceiverTypeSpectral.0"
         }
       ],
       "SkillUsed": {
