@@ -6,3 +6,5 @@ __pycache__/
 **/GitCommitPlan.json
 gitcommit-plan*.json
 *.log
+PipelineLogs/
+PipelineRun.json

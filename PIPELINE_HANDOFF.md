@@ -3,7 +3,8 @@
 This is the automation handoff contract for RSDWTools.
 
 Use this document when an external orchestrator needs to run RSDWTools as one
-stage in a larger multi-project pipeline.
+stage in a larger multi-project pipeline. The machine-readable version of this
+contract lives in `pipeline.contract.json`.
 
 ## Pipeline Position
 
@@ -25,30 +26,69 @@ default, RSDWTools ingests from `E:\Github\RSDWArchive\<datasetVersion>`.
 
 ## Execution Contract
 
-Default orchestration command:
+Historical full build and publish command:
 
 ```powershell
 cd E:\Github\RSDWTools
 python update.py --git-commit-batches --git-push-each
 ```
 
+Preferred explicit orchestration commands:
+
+```powershell
+cd E:\Github\RSDWTools
+python update.py --mode build-local
+python update.py --mode validate-local
+python update.py --mode publish --git-mode plan-only
+python update.py --mode publish --git-mode commit-only
+python update.py --mode publish --git-mode push-each
+python update.py --mode validate-published
+```
+
 The orchestrator should treat a nonzero exit code as fatal and stop the larger
 pipeline before downstream projects run.
 
-The default command lets RSDWTools create its own git commit batches and push
-each batch. If the larger orchestrator needs centralized push control, use
-`python update.py --git-commit-batches` instead.
+`build-local` performs a fresh rebuild without Git. `validate-local` is
+read-only. `publish` validates the existing generated outputs first, then runs
+the Git planner, commit batches, or push-each flow requested by `--git-mode`.
+
+## Structured Artifacts
+
+Every build or publish run writes a timestamped run directory:
+
+```text
+PipelineLogs\<timestamp>\
+  PipelineRun.json
+  warnings.json
+  warnings.md
+  GitCommitPlan.json
+  logs\
+```
+
+The repo root `PipelineRun.json` is a latest-run compatibility copy of the
+canonical timestamped summary. It includes `canonicalPath` pointing back to the
+timestamped summary.
+
+The canonical Git plan path is:
+
+```text
+PipelineLogs\<timestamp>\GitCommitPlan.json
+```
+
+The root `GitCommitPlan.json` remains an ignored compatibility copy.
 
 ## Internal Stage Order
 
-`update.py` runs these stages in order:
+`update.py --mode full` and the historical command run these stages in order:
 
 1. Resolve archive sources from `RSDWArchive`.
 2. Clean generated RSDWTools data because `--fresh` is enabled by default.
 3. Run `tools/rebuild_docs_data.py`.
 4. Run `tools/build_character_catalog.py`.
-5. Run `tools/PlanGitCommits.py commit-batches --execute`.
-6. Push each created git batch when `--git-push-each` is present.
+5. Run `tools/PlanGitCommits.py`.
+6. Commit batches when requested.
+7. Push each created batch when requested.
+8. Write `PipelineRun.json`, warning summaries, and artifact metadata.
 
 `tools/rebuild_docs_data.py` runs ingest and the website data builders. It
 refreshes item catalogs, chest item catalogs, recipe data, quest data, spell
@@ -66,21 +106,31 @@ Primary generated outputs:
 - Quest catalog under `website\tools\quest-editor\data\quests.json`
 - Generated item and skill icons under `website\shared\icons\`
 - Raw ingest manifest at `data\_ingest_manifest.json`
+- Structured run summary at `PipelineLogs\<timestamp>\PipelineRun.json`
+- Latest-run summary copy at `PipelineRun.json`
+- Warning summary at `PipelineLogs\<timestamp>\warnings.json`
+- Git plan at `PipelineLogs\<timestamp>\GitCommitPlan.json`
 - Git commit batches created by the pipeline command
-- Pushed commits when `--git-push-each` is used
-
-The git planner writes `GitCommitPlan.json` in the repo root. This file is an
-ignored local artifact and should not be committed.
+- Pushed commits when `--git-push-each` or `--git-mode push-each` is used
 
 ## Success Criteria
 
 The RSDWTools stage is successful when all of these are true:
 
 - The process exits with code `0`.
-- Output includes `[INFO] Update pipeline complete.`
-- Generated website data has been refreshed under `website\`.
-- If files changed, git commit batches were created.
-- With `--git-push-each`, created commits were pushed to the configured remote.
+- Output includes `[INFO] Update pipeline complete.` for build/full/publish
+  runs that complete successfully.
+- `PipelineRun.json` has schema `RSDWTools.UpdatePipeline.v1` and status
+  `complete`.
+- `PipelineRun.json` records the Archive dataset identity consumed.
+- Required generated JSON files exist, parse, and have nonempty expected
+  catalog sections.
+- Warning policy passes: known nonfatal categories pass, fatal categories fail,
+  and `unknown_warning` fails unless `--allow-unknown-warnings` is explicitly
+  used.
+- If files changed during commit/push modes, git commit batches were created.
+- With `--git-mode push-each`, created commits were pushed to the configured
+  remote.
 
 No changed files is a valid successful outcome if the upstream data did not
 produce any RSDWTools changes.
@@ -95,13 +145,42 @@ Treat these as fatal for the larger orchestrator:
 - The resolved archive dataset has no `json` directory.
 - `LocationData` or `LootData` is missing.
 - `QuestData\QuestData.json` is missing or invalid.
+- Required generated JSON is missing or invalid.
+- The summary Archive identity does not match the current or requested Archive
+  dataset.
+- A fatal or unknown warning category is present without an explicit override.
 - Git has staged changes before commit batching starts.
 - A changed file exceeds the git planner file limit.
 - Commit creation fails.
 - Push fails because of authentication, permissions, network, or remote changes.
 
 Missing-icon warnings for deprecated, test, or mesh-only assets can be
-non-fatal when the pipeline still exits with code `0`.
+non-fatal when they are classified as known warning categories.
+
+## Validation
+
+Project-owned validation command:
+
+```powershell
+python tools/validate_pipeline_outputs.py --summary PipelineRun.json
+```
+
+Equivalent orchestration wrapper:
+
+```powershell
+python update.py --mode validate-local
+```
+
+Published validation:
+
+```powershell
+python update.py --mode validate-published
+```
+
+`validate-local` compares the summary Archive dataset against the current
+`RSDWArchive\website\data.config.json` by default. Pass
+`--expected-dataset-version` or `--game-root` for intentional historical or
+recovery validation.
 
 ## Useful Overrides
 
@@ -112,13 +191,22 @@ behavior:
 - `--game-root <path>`: use an explicit archive dataset folder.
 - `--location-data-root <path>`: use explicit LocationData.
 - `--loot-data-root <path>`: use explicit LootData.
+- `--pipeline-log-dir <path>`: choose a run artifact directory.
+- `--pipeline-summary-output <path>`: choose the latest-summary copy path.
 - `--no-fresh`: skip the default clean rebuild behavior.
 - `--skip-git-plan`: rebuild data without git planning.
 - `--git-commit-batches`: create commits without pushing.
+- `--git-mode plan-only`: create only the Git plan.
+- `--git-mode commit-only`: create commits without pushing.
+- `--git-mode push-each`: create commits and push each batch.
+- `--allow-unknown-warnings`: permit unknown warning categories for an
+  intentional run.
 
 ## References
 
+- `pipeline.contract.json`: machine-readable command and artifact contract.
 - `README.md`: project layout and human-facing update instructions.
 - `docs\AssetUpdate.md`: detailed data pipeline notes.
 - `update.py`: authoritative top-level orchestration entrypoint.
+- `tools\validate_pipeline_outputs.py`: project-owned validator.
 - `tools\archive_sources.py`: archive source resolution rules.

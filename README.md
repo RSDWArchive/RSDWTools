@@ -84,7 +84,19 @@ All builders write directly into `website/` under the per-tool layout above.
 Use `--archive-root`, `--game-root`, `--location-data-root`, or
 `--loot-data-root` only when overriding the auto-detected RSDWArchive sources.
 
-At the end, the pipeline writes an ignored `GitCommitPlan.json` that splits
-the changed files into safe commit batches. To create those commits, rerun with
-`--git-commit-batches`; add `--git-push-each` only when each batch should be
-pushed immediately.
+Useful orchestration aliases:
+
+```powershell
+python update.py --mode build-local
+python update.py --mode validate-local
+python update.py --mode publish --git-mode plan-only
+python update.py --mode publish --git-mode commit-only
+python update.py --mode publish --git-mode push-each
+```
+
+Build and publish runs write structured artifacts under
+`PipelineLogs/<timestamp>/` plus a latest-run `PipelineRun.json` copy at the
+repo root. The canonical Git plan is
+`PipelineLogs/<timestamp>/GitCommitPlan.json`; the root `GitCommitPlan.json`
+remains an ignored compatibility copy. See `PIPELINE_HANDOFF.md` and
+`pipeline.contract.json` for the master-pipeline contract.

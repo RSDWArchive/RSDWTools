@@ -10,7 +10,9 @@ read-only browsers for recipes, spells, and drop tables.
   by `tools/ingest_game_data.py` from the `RSDWArchive` game files.
 - `tools/` — Python builders that read `data/` and write straight into
   `website/` (catalogs, icons, map index, etc.).
-- `update.py` — top-level orchestrator: ingest → builders → optional cleanup.
+- `update.py` — top-level orchestrator: ingest → builders → validation → optional Git.
+- `PIPELINE_HANDOFF.md` — root-level contract for external orchestration.
+- `pipeline.contract.json` — root-level machine-readable pipeline contract.
 - `docs/` — these developer notes (this folder).
 
 ## Tools (live pages)

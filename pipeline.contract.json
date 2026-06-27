@@ -1,0 +1,132 @@
+{
+  "schema": "RSDW.PipelineContract.v1",
+  "project": "RSDWTools",
+  "handoff": "PIPELINE_HANDOFF.md",
+  "workingDirectory": "E:\\Github\\RSDWTools",
+  "requires": [
+    {
+      "project": "RSDWArchive",
+      "artifact": "website\\data.config.json"
+    },
+    {
+      "project": "RSDWArchive",
+      "artifact": "<datasetVersion>"
+    },
+    {
+      "project": "RSDWArchive",
+      "artifact": "website\\tools\\LocationData"
+    },
+    {
+      "project": "RSDWArchive",
+      "artifact": "website\\tools\\LootData"
+    },
+    {
+      "project": "RSDWArchive",
+      "artifact": "website\\tools\\QuestData\\QuestData.json"
+    }
+  ],
+  "commands": {
+    "full": [
+      "python",
+      "update.py",
+      "--git-commit-batches",
+      "--git-push-each"
+    ],
+    "build_local": [
+      "python",
+      "update.py",
+      "--mode",
+      "build-local"
+    ],
+    "validate_local": [
+      "python",
+      "update.py",
+      "--mode",
+      "validate-local"
+    ],
+    "publish_plan_only": [
+      "python",
+      "update.py",
+      "--mode",
+      "publish",
+      "--git-mode",
+      "plan-only"
+    ],
+    "publish_commit_only": [
+      "python",
+      "update.py",
+      "--mode",
+      "publish",
+      "--git-mode",
+      "commit-only"
+    ],
+    "publish_push_each": [
+      "python",
+      "update.py",
+      "--mode",
+      "publish",
+      "--git-mode",
+      "push-each"
+    ],
+    "validate_published": [
+      "python",
+      "update.py",
+      "--mode",
+      "validate-published"
+    ]
+  },
+  "features": {
+    "fresh_rebuild_default": true,
+    "structured_summary": true,
+    "stage_timings": true,
+    "warning_summary": true,
+    "commit_batches": true,
+    "project_commit": true,
+    "push_each": true,
+    "push_at_end": false,
+    "resume": false,
+    "unknown_warnings_fail_by_default": true
+  },
+  "artifacts": {
+    "run_summary": "PipelineLogs\\<timestamp>\\PipelineRun.json",
+    "latest_run_summary": "PipelineRun.json",
+    "warning_summary": "PipelineLogs\\<timestamp>\\warnings.json",
+    "git_plan": "PipelineLogs\\<timestamp>\\GitCommitPlan.json",
+    "git_plan_compatibility": "GitCommitPlan.json",
+    "ingest_manifest": "data\\_ingest_manifest.json",
+    "item_editor_catalog": "website\\tools\\item-editor\\data\\catalog.json",
+    "recipe_catalog": "website\\tools\\recipe-unlocker\\data\\recipes.json",
+    "quest_catalog": "website\\tools\\quest-editor\\data\\quests.json",
+    "spell_catalog": "website\\tools\\spell-editor\\data\\spells.json",
+    "character_catalog": "website\\tools\\character-editor\\data\\character_catalog.json",
+    "mapdata_index": "website\\data\\mapdata_index.json",
+    "loot_data": "website\\data\\loot_data.json",
+    "location_data": "website\\data\\location_data.json"
+  },
+  "releaseGates": [
+    "required_generated_files_exist",
+    "required_generated_json_parses",
+    "expected_catalog_sections_nonempty",
+    "archive_dataset_identity_matches",
+    "fatal_warning_categories_absent",
+    "unknown_warning_categories_absent_unless_allowed",
+    "git_file_limit_checks_pass_before_publish"
+  ],
+  "trendCounts": [
+    "itemsIndexed",
+    "recipesIndexed",
+    "questsIndexed",
+    "spellsIndexed",
+    "mapPointsIndexed",
+    "characterSkillsIndexed",
+    "mountsIndexed",
+    "vendorReputationsIndexed",
+    "ingestJsonScanned",
+    "ingestJsonUnmatched",
+    "missingItemIcons",
+    "missingRecipeIcons",
+    "missingSpellIcons",
+    "missingSkillIcons",
+    "missingMountIcons"
+  ]
+}
