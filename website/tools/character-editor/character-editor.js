@@ -25,6 +25,7 @@ const upkeepContextMenu = document.getElementById("upkeep-context-menu");
 
 const INFINITE_BUFFER = 100000000;
 const MAP_UNLOCKED_VALUE = 2147483647;
+const NO_MOUNT_VALUE = "None";
 const CHARACTER_TYPE_VALUES = new Set(["0", "1", "2", "3"]);
 const CHARACTER_TYPE_ICONS = {
   "0": "/shared/game-ui/Character/Standard.png",
@@ -213,6 +214,14 @@ function catalogMountValues() {
   );
 }
 
+function normalizeMountValue(value) {
+  return typeof value === "string" && value !== NO_MOUNT_VALUE ? value : "";
+}
+
+function isUnlockableMountValue(value) {
+  return typeof value === "string" && value && value !== NO_MOUNT_VALUE;
+}
+
 function applySkillValuesToInputs() {
   skillInputs.forEach((input) => {
     const id = input.dataset.skillId;
@@ -286,11 +295,10 @@ function handleCharacterFile(text) {
     const mount = findMount(data) || {};
     unlockedMountValues = new Set(
       Array.isArray(mount.MountsUnlockedList)
-        ? mount.MountsUnlockedList.filter((value) => typeof value === "string")
+        ? mount.MountsUnlockedList.filter(isUnlockableMountValue)
         : []
     );
-    equippedMountValue =
-      typeof mount.MountEquipped === "string" ? mount.MountEquipped : "";
+    equippedMountValue = normalizeMountValue(mount.MountEquipped);
     applyMountValuesToInputs();
     if (mapUnlockedSelect) {
       const revealed = findRevealedFog(data)?.RevealedRegionsBitmap;
@@ -649,19 +657,21 @@ function setMountState(target) {
   const mount = ensureMountRoot(target);
   const knownCatalogValues = catalogMountValues();
   const selected = mountInputs
-    .filter((input) => input.checked && input.dataset.mountValue)
+    .filter(
+      (input) => isUnlockableMountValue(input.dataset.mountValue) && input.checked
+    )
     .map((input) => input.dataset.mountValue);
   unlockedMountValues.forEach((value) => {
-    if (!knownCatalogValues.has(value)) {
+    if (isUnlockableMountValue(value) && !knownCatalogValues.has(value)) {
       selected.push(value);
     }
   });
-  const equipped = mountEquippedSelect?.value || "";
+  const equipped = normalizeMountValue(mountEquippedSelect?.value);
   if (equipped) {
     selected.push(equipped);
     mount.MountEquipped = equipped;
   } else {
-    delete mount.MountEquipped;
+    mount.MountEquipped = NO_MOUNT_VALUE;
   }
   mount.MountsUnlockedList = Array.from(new Set(selected));
 }
@@ -963,7 +973,7 @@ function bindEvents() {
   }
   if (mountEquippedSelect) {
     mountEquippedSelect.addEventListener("change", () => {
-      equippedMountValue = mountEquippedSelect.value || "";
+      equippedMountValue = normalizeMountValue(mountEquippedSelect.value);
       if (equippedMountValue) {
         unlockedMountValues.add(equippedMountValue);
       }
