@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T5_Body_White"
+        "RowName": "T05_Armour_Body_Heavy"
       },
       "ArmorWeight": "EArmorWeight::Heavy",
       "Slot": "ELoadoutSlotStrategy::Body",
@@ -59,6 +59,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "ayHkBEYv_2a4B12L34FYzg",
       "InternalName": "armour_body_White"
     }

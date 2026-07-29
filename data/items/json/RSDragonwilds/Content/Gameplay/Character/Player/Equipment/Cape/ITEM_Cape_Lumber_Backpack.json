@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Cape_AvasAttractor"
+        "RowName": "Cape_LumberjackBackpack"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
       "GrantedEffects": [

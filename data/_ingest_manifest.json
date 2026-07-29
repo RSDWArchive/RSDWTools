@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-27T19:47:58.696601+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\0.12.0.8",
+  "generated_at_utc": "2026-07-29T12:43:36.660227+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\0.12.1.0",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 67334,
-    "json_unmatched": 64866,
+    "json_scanned": 68304,
+    "json_unmatched": 65748,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "ArchiveExtractManifest.json",
@@ -46,8 +46,8 @@
   },
   "categories": {
     "consumables": {
-      "files_discovered": 246,
-      "files_copied": 246,
+      "files_discovered": 256,
+      "files_copied": 256,
       "source_roots": [
         "json"
       ],
@@ -60,14 +60,14 @@
       ]
     },
     "icons": {
-      "files_discovered": 2269,
-      "files_copied": 2269,
+      "files_discovered": 2348,
+      "files_copied": 2348,
       "source_roots": [],
       "sample_files": []
     },
     "items": {
-      "files_discovered": 1129,
-      "files_copied": 1129,
+      "files_discovered": 1175,
+      "files_copied": 1175,
       "source_roots": [
         "json"
       ],
@@ -80,8 +80,8 @@
       ]
     },
     "recipes": {
-      "files_discovered": 1041,
-      "files_copied": 1041,
+      "files_discovered": 1068,
+      "files_copied": 1068,
       "source_roots": [
         "json"
       ],
@@ -94,8 +94,8 @@
       ]
     },
     "skills": {
-      "files_discovered": 11,
-      "files_copied": 11,
+      "files_discovered": 12,
+      "files_copied": 12,
       "source_roots": [
         "json"
       ],
@@ -108,8 +108,8 @@
       ]
     },
     "spells": {
-      "files_discovered": 41,
-      "files_copied": 41,
+      "files_discovered": 45,
+      "files_copied": 45,
       "source_roots": [
         "json"
       ],
@@ -133,17 +133,17 @@
       "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_01_BCC.png",
       "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_01_BCC_Mask.png",
       "textures/RSDragonwilds/Content/Art/Env/Props/Gameplay_Props/Skill_Tomes/Textures/T_Skill_Tome_Icons_01_BCC.png",
+      "textures/RSDragonwilds/Content/Art/UI/Agility/T_Icon_Challenge_Bronze.png",
+      "textures/RSDragonwilds/Content/Art/UI/Agility/T_Icon_Challenge_Gold.png",
+      "textures/RSDragonwilds/Content/Art/UI/Agility/T_Icon_Challenge_Silver.png",
+      "textures/RSDragonwilds/Content/Art/UI/Agility/T_Icon_Orb.png",
+      "textures/RSDragonwilds/Content/Art/UI/Agility/T_Icon_Requirements_Container.png",
       "textures/RSDragonwilds/Content/Art/UI/Common/T_Icon_Clipboard.png",
       "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Building.png",
       "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Chat.png",
       "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Chat_With_X.png",
       "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Inventory.png",
-      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Map.png",
-      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Radial.png",
-      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Radial_Fill.png",
-      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Spells.png",
-      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Weight.png",
-      "textures/RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Air.png"
+      "textures/RSDragonwilds/Content/Art/UI/ContextualInputLegends/T_Icon_Map.png"
     ]
   },
   "external_imports": {
@@ -161,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 3810,
-    "object_paths_resolved": 1051,
+    "object_paths_found": 3941,
+    "object_paths_resolved": 1089,
     "prefixes": [
       "t_icon_",
       "t_skill_"

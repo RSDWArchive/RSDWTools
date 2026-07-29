@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T2_Legs_Linen"
+        "RowName": "T02_Armour_Legs_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "Slot": "ELoadoutSlotStrategy::Legs",

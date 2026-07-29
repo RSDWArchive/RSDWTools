@@ -26,6 +26,20 @@
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Whip_Poses'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/AbyssalWhip/A_PlayerM_Idle_Whip_Poses.0"
       },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "AbyssalWhip"
+      },
       "DamageMultiplier": 4.1,
       "BlockingDamageNegation": 5.0,
       "DamageTypes": [
@@ -95,6 +109,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
       "PersistenceID": "P3_Aq0nAXu5dlFuBNGgyaw",
       "InternalName": "masterworks_weap_abyssal_whip"
     }

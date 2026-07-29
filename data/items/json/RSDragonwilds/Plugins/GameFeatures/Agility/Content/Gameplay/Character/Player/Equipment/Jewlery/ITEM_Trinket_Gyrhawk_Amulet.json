@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Gyrhawk_Amulet",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Agility'",
+        "ObjectPath": "/Agility/Gameplay/Character/Player/Skills/SKILL_Agility"
+      },
+      "GrantedTags": [
+        "Item.Equipment.Trinket.SilverhawkAmulet"
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SilverhawkAmulet",
+        "SourceString": "Gyrhawk Amulet",
+        "LocalizedString": "Gyrhawk Amulet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AgilitySilverhawkAmulet.Desc",
+        "SourceString": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world.",
+        "LocalizedString": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world."
+      },
+      "Icon": {
+        "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_GyrhawkAmulet.T_Icon_GyrhawkAmulet",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "bDropOnDeath": false,
+      "BaseDurability": 250,
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "AgilitySilverhawkAmulet.EffectDescription",
+            "SourceString": "+100% Increased AGILITY XP when exploring the world.",
+            "LocalizedString": "+100% Increased AGILITY XP when exploring the world."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "0tiXEUpXPMTUvgGRZLeRIw",
+      "InternalName": "trinket_gyrhawk_amulet"
+    }
+  }
+]

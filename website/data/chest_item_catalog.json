@@ -785,23 +785,28 @@
     "icon": ""
   },
   {
+    "item_id": "ITEM_Farming_Seed_Avantoe",
+    "display_name": "Avantoe Seeds",
+    "icon": "T_Icon_Avantoe_seeds_v2.png"
+  },
+  {
     "item_id": "ITEM_Farming_Seed_Cabbage",
-    "display_name": "Cabbage seeds",
+    "display_name": "Cabbage Seeds",
     "icon": "T_Icon_Cabbage_seeds.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Cactus_Barrel",
-    "display_name": "Barrel Cactus Seed",
+    "display_name": "Barrel Cactus Seeds",
     "icon": "T_Icon_Barrel_Seed.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Cactus_Bunny",
-    "display_name": "Bunny Cactus Seed",
+    "display_name": "Bunny Cactus Seeds",
     "icon": "T_Icon_Bunny_Cactus_Seed.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Cactus_Pipe",
-    "display_name": "Pipe Cactus Seed",
+    "display_name": "Pipe Cactus Seeds",
     "icon": "T_Icon_Pipe_Cactus_Seed_v2.png"
   },
   {
@@ -816,12 +821,12 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Dwellberry",
-    "display_name": "Dwellberry seeds",
+    "display_name": "Dwellberry Seeds",
     "icon": "T_Icon_Dwellberry_seeds.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Flax",
-    "display_name": "Flax seeds",
+    "display_name": "Flax Seeds",
     "icon": "T_Icon_Flax_seeds.png"
   },
   {
@@ -846,12 +851,12 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Onion",
-    "display_name": "Onion seeds",
+    "display_name": "Onion Seeds",
     "icon": "T_Icon_Onion_seeds.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Potato",
-    "display_name": "Potato seeds",
+    "display_name": "Potato Seeds",
     "icon": "T_Icon_Potato_seeds.png"
   },
   {
@@ -861,7 +866,7 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Redberry",
-    "display_name": "Redberry seeds",
+    "display_name": "Redberry Seeds",
     "icon": "T_Icon_Redberry_seeds.png"
   },
   {
@@ -881,12 +886,12 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Tomato",
-    "display_name": "Tomato seeds",
+    "display_name": "Tomato Seeds",
     "icon": "T_Icon_Tomato_seeds.png"
   },
   {
     "item_id": "ITEM_Farming_Seed_Watermelon",
-    "display_name": "Watermelon seeds",
+    "display_name": "Watermelon Seeds",
     "icon": "T_Icon_Watermelon_seeds.png"
   },
   {
@@ -896,7 +901,7 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Wheat",
-    "display_name": "Wheat seeds",
+    "display_name": "Wheat Seeds",
     "icon": "T_Icon_Wheat_Seed.png"
   },
   {
@@ -921,7 +926,7 @@
   },
   {
     "item_id": "ITEM_Farming_TreeSeed_Willow",
-    "display_name": "Willow tree seed",
+    "display_name": "Willow tree Seed",
     "icon": "T_Icon_Willow_Seed.png"
   },
   {
@@ -3016,7 +3021,7 @@
   },
   {
     "item_id": "ITEM_Quest_CooksAssistant_Milk",
-    "display_name": "ITEM_Quest_CooksAssistant_Milk",
+    "display_name": "Bucket of Milk",
     "icon": "T_icon_Wooden_Bucket.png"
   },
   {
@@ -3743,6 +3748,231 @@
     "item_id": "ITEM_Resources_Wood_Willow",
     "display_name": "Willow Logs",
     "icon": "T_Icon_Willow_Logs.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Skillcape_Agility",
+    "display_name": "Agility Cape",
+    "icon": "T_Icon_Cape_Skill_Agility.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Trimmed_Skillcape_Agility",
+    "display_name": "Agility Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Agility_Master.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Bramblemead_Golden",
+    "display_name": "Golden Bramblemead Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Bramblemead_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Whispering_Golden",
+    "display_name": "Golden Whispering Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Whispering_Swamp_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_DowdunReach_Golden",
+    "display_name": "Golden Dowdun Reach Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Dowdun_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Fellhollow_Golden",
+    "display_name": "Golden Fellhollow Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Fellhollow_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Bloodblight_Golden",
+    "display_name": "Golden Bloodblight Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Bloodblight_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Fractured_Golden",
+    "display_name": "Golden Fractured Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Fractured_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Stormtouched_Golden",
+    "display_name": "Golden Stormtouched Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Stormtouched_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_ScornedWilderness_Golden",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "ITEM_Cape_UmbralSands_Golden",
+    "display_name": "Golden Umbral Sands Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Umbral_Sands_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Gyrhawk_Amulet",
+    "display_name": "Gyrhawk Amulet",
+    "icon": "T_Icon_GyrhawkAmulet.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Gyrhawk_Amulet_Golden",
+    "display_name": "Gilded Gyrhawk Amulet",
+    "icon": "T_Icon_Gold_GyrhawkAmulet.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Inspiring_Agility",
+    "display_name": "Inspiring Ring of Agility",
+    "icon": "T_Icon_Ring_Inspiring.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Brynmoor_Bronze",
+    "display_name": "Reward Pack: Brynmoor Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Brynmoor_Gold",
+    "display_name": "Reward Pack: Brynmoor Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Brynmoor_Silver",
+    "display_name": "Reward Pack: Brynmoor Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_DowdunReach_Bronze",
+    "display_name": "Reward Pack: Dowdun Reach Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_DowdunReach_Gold",
+    "display_name": "Reward Pack: Dowdun Reach Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_DowdunReach_Silver",
+    "display_name": "Reward Pack: Dowdun Reach Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Fellhollow_Bronze",
+    "display_name": "Reward Pack: Fellhollow Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Fellhollow_Gold",
+    "display_name": "Reward Pack: Fellhollow Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Fellhollow_Silver",
+    "display_name": "Reward Pack: Fellhollow Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Bronze",
+    "display_name": "Reward Pack: Ghornfell Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Course1_Bronze",
+    "display_name": "Reward Pack: Ghornfell Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Course1_Gold",
+    "display_name": "Reward Pack: Ghornfell Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Course1_Silver",
+    "display_name": "Reward Pack: Ghornfell Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Gold",
+    "display_name": "Reward Pack: Ghornfell Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_Ghornfell_Silver",
+    "display_name": "Reward Pack: Ghornfell Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_UmbralSands_Bronze",
+    "display_name": "Reward Pack: Umbral Sands Bronze",
+    "icon": "T_Icon_BronzeAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_UmbralSands_Gold",
+    "display_name": "Reward Pack: Umbral Sands Gold",
+    "icon": "T_Icon_GoldenAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_AgilityPack_UmbralSands_Silver",
+    "display_name": "Reward Pack: Umbral Sands Silver",
+    "icon": "T_Icon_SilverAgilityCompletionReward.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Agility",
+    "display_name": "Weak Focused Agility Potion",
+    "icon": "T_Icon_Weak_Red_Potion.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Agility",
+    "display_name": "Lesser Focused Agility Potion",
+    "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T3_Agility",
+    "display_name": "Focused Agility Potion",
+    "icon": "T_Icon_Potion_Tier3_Red.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Focused_T4_Super_Agility",
+    "display_name": "Super Focused Agility Potion",
+    "icon": "T_Icon_Super_Potion__T4_Red.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Potion_Stamina",
+    "display_name": "Stamina Potion",
+    "icon": "T_Icon_Super_Potion__T4_Yellow.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Amylase_Crystal",
+    "display_name": "Amylase Crystal",
+    "icon": "T_Icon_AmylaseCrystal.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Avantoe",
+    "display_name": "Avantoe",
+    "icon": "T_Icon_Avantoe_Herb_v2.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Bronze_Leaf",
+    "display_name": "Bronze Leaf",
+    "icon": "T_Icon_Bronze_Leaf.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+    "display_name": "Gold Leaf",
+    "icon": "T_Icon_Gold_Leaf.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Silver_Leaf",
+    "display_name": "Silver Leaf",
+    "icon": "T_Icon_Silver_Leaf.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Agility_Warped_Feathers",
+    "display_name": "Warped Feathers",
+    "icon": "T_Icon_Warped_Feathers.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier1_Agility",
+    "display_name": "Tome of Agility - Vol 1",
+    "icon": "T_Icon_Skill_Tome_Agility.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_Tome_Tier2_Agility",
+    "display_name": "Tome of Agility - Vol 2",
+    "icon": "T_Icon_Skill_Tome_Agility.png"
   },
   {
     "item_id": "ITEM_Ammo_Arrows_Mithril_Bleed",
@@ -4722,27 +4952,27 @@
   {
     "item_id": "ITEM_Ammo_Arrows_Adamant_Bleed",
     "display_name": "Adamant Barbed Arrow",
-    "icon": "T_Icon_Arrow_Steel.png"
+    "icon": "T_Icon_Arrows_Adamant.png"
   },
   {
     "item_id": "ITEM_Ammo_Arrows_Adamant_Bodkin",
     "display_name": "Adamant Arrow",
-    "icon": "T_Icon_Arrow_Steel.png"
+    "icon": "T_Icon_Arrows_Adamant.png"
   },
   {
     "item_id": "ITEM_Ammo_Arrows_Adamant_Fire",
     "display_name": "Adamant Fire Arrow",
-    "icon": "T_Icon_Arrow_Steel.png"
+    "icon": "T_Icon_Arrows_Adamant.png"
   },
   {
     "item_id": "ITEM_Ammo_Arrows_Adamant_Poison",
     "display_name": "Poisoned Adamant Arrow",
-    "icon": "T_Icon_Arrow_Steel.png"
+    "icon": "T_Icon_Arrows_Adamant.png"
   },
   {
     "item_id": "ITEM_Ammo_Bolts_Adamant",
     "display_name": "Adamant Bolt",
-    "icon": "T_Icon_Steel_Bolt.png"
+    "icon": "T_Icon_Bolts_Adamant.png"
   },
   {
     "item_id": "ITEM_Armour_T7_Body_Adamant",
@@ -5496,43 +5726,43 @@
   },
   {
     "item_id": "ITEM_Resources_T4_Upgrade_Core",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_White.png"
-  },
-  {
-    "item_id": "ITEM_Resources_T4_Upgrade_Shard",
-    "display_name": "Ascension Shard",
-    "icon": "T_Icon_Upgrade_Core_small_White.png"
-  },
-  {
-    "item_id": "ITEM_Resources_T5_Upgrade_Core",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Green.png"
-  },
-  {
-    "item_id": "ITEM_Resources_T5_Upgrade_Shard",
-    "display_name": "Ascension Shard",
-    "icon": "T_Icon_Upgrade_Core_small_Green.png"
-  },
-  {
-    "item_id": "ITEM_Resources_T6_Upgrade_Core",
-    "display_name": "Ascension Core",
+    "display_name": "Ascension Core 4",
     "icon": "T_Icon_Nightmare_Crucible_Keys_01_Blue.png"
   },
   {
-    "item_id": "ITEM_Resources_T6_Upgrade_Shard",
-    "display_name": "Ascension Shard",
+    "item_id": "ITEM_Resources_T4_Upgrade_Shard",
+    "display_name": "Ascension Shard 4",
     "icon": "T_Icon_Upgrade_Core_small_Blue.png"
   },
   {
-    "item_id": "ITEM_Resources_T7_Upgrade_Core",
-    "display_name": "Ascension Core",
+    "item_id": "ITEM_Resources_T5_Upgrade_Core",
+    "display_name": "Ascension Core 5",
     "icon": "T_Icon_Nightmare_Crucible_Keys_01_Purple.png"
   },
   {
-    "item_id": "ITEM_Resources_T7_Upgrade_Shard",
-    "display_name": "Ascension Shard",
+    "item_id": "ITEM_Resources_T5_Upgrade_Shard",
+    "display_name": "Ascension Shard 5",
     "icon": "T_Icon_Upgrade_Core_small_Purple.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T6_Upgrade_Core",
+    "display_name": "Ascension Core 6",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Pink.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T6_Upgrade_Shard",
+    "display_name": "Ascension Shard 6",
+    "icon": "T_Icon_Upgrade_Core_small_Pink.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T7_Upgrade_Core",
+    "display_name": "Ascension Core 7",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Red.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T7_Upgrade_Shard",
+    "display_name": "Ascension Shard 7",
+    "icon": "T_Icon_Upgrade_Core_small_Red.png"
   },
   {
     "item_id": "ITEM_Resources_Cactus_Pipe",
@@ -6475,6 +6705,51 @@
     "icon": ""
   },
   {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Bramblemead_Golden",
+    "display_name": "Golden Bramblemead Cape",
+    "icon": "T_Icon_Cape_Bramblemead.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Whispering_Golden",
+    "display_name": "Golden Whispering Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Dowdun_Reach_Golden",
+    "display_name": "Golden Dowdun Reach Cape",
+    "icon": "T_Icon_Dowdun_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Fellhollow_Golden",
+    "display_name": "Golden Fellhollow Cape",
+    "icon": "T_icon_Fellhollow_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Bloodblight_Golden",
+    "display_name": "Golden Bloodblight Cape",
+    "icon": "T_Icon_Cape_Bloodblight.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Fractured_Golden",
+    "display_name": "Golden Fractured Cape",
+    "icon": "T_Icon_Cape_Fractured.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Stormtouched_Golden",
+    "display_name": "Golden Stormtouched Cape",
+    "icon": "T_Icon_Cape_Stormtouched.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Umbral_Sands_Golden",
+    "display_name": "Golden Umbral Sands Cape",
+    "icon": "T_Icon_Umbral_Sands_Cape.png"
+  },
+  {
     "item_id": "DA_Consumable_Pattern_Armor_Cape_BlueDyad",
     "display_name": "Blue Dyad Cape",
     "icon": "T_Icon_Adventurer_Capes_Pattern_02_Blue.png"
@@ -6588,6 +6863,11 @@
     "item_id": "DA_Consumable_Vestige_Armour_Cape_Fire",
     "display_name": "An Ember Edged Remnant of Cloth",
     "icon": "T_Icon_Fire_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Weapon_Staff_PharaohSceptre",
+    "display_name": "Icthlarian Fetish",
+    "icon": "T_IconIcthlarin_Staff_01.png"
   },
   {
     "item_id": "DA_Consumable_Plan_Decoration_UmS_Armchair_01",
@@ -6747,7 +7027,7 @@
   {
     "item_id": "DA_Consumable_Vestige_Armour_Cape_UmbralSands",
     "display_name": "Shred of Sunbleached Weave",
-    "icon": "T_Icon_Placeholder.png"
+    "icon": "T_Icon_Umbral_Sands_Cape.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Armour_T7_Body_Desert",
@@ -6855,9 +7135,9 @@
     "icon": "T_Icon_Kothaar_Mace.png"
   },
   {
-    "item_id": "DA_Consumable_Vestige_Weapon_Staff_PharaohSceptre",
-    "display_name": "Icthlarian Fetish",
-    "icon": "T_IconIcthlarin_Staff_01.png"
+    "item_id": "DA_Consumable_Vestige_Weapon_Shield_ToktzKetXil",
+    "display_name": "Unyielding Obsidian Construct",
+    "icon": "T_Icon_Kohtar_Shield.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Weapon_Staff_Scarab",

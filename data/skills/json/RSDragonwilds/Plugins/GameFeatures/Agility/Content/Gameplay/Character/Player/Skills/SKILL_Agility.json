@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "GE_Skills_Agility_MinorPerk_C",
+    "Name": "GE_Skills_Agility_MinorPerk_C_0",
+    "Outer": {
+      "ObjectName": "SkillData'SKILL_Agility'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Skills/SKILL_Agility.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Agility",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Agility/UI/Agility/ST_Agility.ST_Agility",
+        "Key": "SkillName.Agility",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "MaxLevel": 99,
+      "LevelUpDescriptionText": {
+        "TableId": "/Agility/UI/Agility/ST_Agility.ST_Agility",
+        "Key": "LevelInstruction.Agility",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "MaxLevelFormatText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.MaxLevelFormat",
+        "SourceString": "/{0} XP",
+        "LocalizedString": "/{0} XP"
+      },
+      "StaminaCostDescriptionText": {
+        "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
+        "Key": "Skills.StaminaCostDescription",
+        "SourceString": "{0} STAMINA COSTS",
+        "LocalizedString": "{0} STAMINA COSTS"
+      },
+      "SkillType": "ESkill::Agility",
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/T_Notification_Skill_Agility.T_Notification_Skill_Agility",
+        "SubPathString": ""
+      },
+      "BackgroundIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Artwork/T_Skill_Agility_Bg.T_Skill_Agility_Bg",
+        "SubPathString": ""
+      },
+      "TagIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Agility.T_Icon_Tag_Skill_Agility",
+        "SubPathString": ""
+      },
+      "Symbol": {
+        "AssetPathName": "/Game/Art/UI/Skills/Watermark/T_SW_Agility.T_SW_Agility",
+        "SubPathString": ""
+      },
+      "MinorPerkConfigs": [
+        {
+          "LevelRangeEnd": 99,
+          "GameplayEffectDataPerLevel": {
+            "ObjectName": "GE_Skills_Agility_MinorPerk_C'SKILL_Agility:GE_Skills_Agility_MinorPerk_C_0'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Skills/SKILL_Agility.0"
+          },
+          "DescriptionText": {
+            "CultureInvariantString": null
+          },
+          "MinorSkillPerkImage": {
+            "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Agility.T_Icon_SkillTree_Agility",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Agility"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Dexterity'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Dexterity.0"
+      },
+      "TrimmedCapeRecipe": {
+        "AssetPathName": "/Agility/Gameplay/Character/Player/Equipment/Cape/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Agility.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Agility",
+        "SubPathString": ""
+      },
+      "PersistenceID": "pJggvotwOkuoc98igUn7xA",
+      "InternalName": "skill_agility"
+    }
+  }
+]

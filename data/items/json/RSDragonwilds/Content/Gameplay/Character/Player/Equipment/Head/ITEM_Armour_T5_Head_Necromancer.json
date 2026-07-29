@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T5_Head_Necromancer"
+        "RowName": "T05_Armour_Head_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "SkillUsed": {
@@ -58,6 +58,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "9lHlikx8lMT7K8eLUajs1A",
       "InternalName": "armour_head_Necromancer"
     }

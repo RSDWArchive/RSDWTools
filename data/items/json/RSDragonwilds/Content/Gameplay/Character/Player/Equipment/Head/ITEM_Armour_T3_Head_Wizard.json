@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T3_Head_Wizard"
+        "RowName": "T03_Armour_Head_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "SkillUsed": {

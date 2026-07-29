@@ -39,8 +39,7 @@
             "ObjectName": "GE_Arrows_Bleeding_C'ITEM_Ammo_Bolts_Bone:GE_Arrows_Bleeding_C_0'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Bone.0"
           }
-        ],
-        "AdditionalDamageFraction": 2.7
+        ]
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_CrossbowBolts'",

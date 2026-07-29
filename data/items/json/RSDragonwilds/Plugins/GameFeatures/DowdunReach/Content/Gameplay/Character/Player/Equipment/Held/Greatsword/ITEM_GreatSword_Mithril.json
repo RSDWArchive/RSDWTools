@@ -26,8 +26,22 @@
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
         "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Greatsword"
+      },
       "DamageMultiplier": 6.8,
-      "BlockingDamageNegation": 44.0,
+      "BlockingDamageNegation": 59.0,
       "DamageTypes": [
         "DamageType.Physical.Slash"
       ],

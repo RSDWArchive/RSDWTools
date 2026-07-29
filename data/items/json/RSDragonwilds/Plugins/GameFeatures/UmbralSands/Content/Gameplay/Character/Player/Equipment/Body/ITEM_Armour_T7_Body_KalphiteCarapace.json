@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T7_Body_KalphiteCarapaceArmourChest"
+        "RowName": "T07_Armour_Body_Medium"
       },
       "ArmorWeight": "EArmorWeight::Medium",
       "Slot": "ELoadoutSlotStrategy::Body",
@@ -59,6 +59,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "GtlzREOjbFQ2wUGX-1S4tg",
       "InternalName": "armour_body_kalphitecarapace"
     }

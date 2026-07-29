@@ -11,18 +11,18 @@
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "AscensionShard",
-        "SourceString": "Ascension Shard",
-        "LocalizedString": "Ascension Shard"
+        "Key": "AscensionShard5",
+        "SourceString": "Ascension Shard 5",
+        "LocalizedString": "Ascension Shard 5"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ascension.Shard.T5",
-        "SourceString": "Used to craft a Tier 5 Ascension Core - COMING SOON",
-        "LocalizedString": "Used to craft a Tier 5 Ascension Core - COMING SOON"
+        "SourceString": "Used to craft a Tier 5 Ascension Core",
+        "LocalizedString": "Used to craft a Tier 5 Ascension Core"
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Upgrade_Core_small_Green.T_Icon_Upgrade_Core_small_Green",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Upgrade_Core_small_Purple.T_Icon_Upgrade_Core_small_Purple",
         "SubPathString": ""
       },
       "StaticMesh": {

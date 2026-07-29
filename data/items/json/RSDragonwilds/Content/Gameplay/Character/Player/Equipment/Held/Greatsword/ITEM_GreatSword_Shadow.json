@@ -26,8 +26,22 @@
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
         "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Greatsword"
+      },
       "DamageMultiplier": 5.4,
-      "BlockingDamageNegation": 39.0,
+      "BlockingDamageNegation": 52.0,
       "DamageTypes": [
         "DamageType.Physical.Slash"
       ],
@@ -42,7 +56,7 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Shadowsword_DamageModifierReceiverTypeSpectral_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/Shadowsword/GE_Shadowsword_DamageModifierReceiverTypeSpectral.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Equipment/Shadowsword/GE_Shadowsword_DamageModifierReceiverTypeSpectral"
         }
       ],
       "SkillUsed": {
@@ -105,6 +119,8 @@
           }
         }
       ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "Ewe_yEPwqy4Bx0ajfHlwvw",
       "InternalName": "weap_greatsword_shadow"
     }

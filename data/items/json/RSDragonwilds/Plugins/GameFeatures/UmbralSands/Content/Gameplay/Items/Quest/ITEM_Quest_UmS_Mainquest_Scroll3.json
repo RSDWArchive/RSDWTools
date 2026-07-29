@@ -30,7 +30,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/Scroll_2.Scroll_2",
+        "AssetPathName": "/Game/Marketplace/AlchemistsHouse/Assets/Models/SM_Scroll_2.SM_Scroll_2",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

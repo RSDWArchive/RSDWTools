@@ -24,7 +24,23 @@
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Shovel_Poses.0"
       },
       "LeftHandIKBoneName": "Prop_SecondHandSocket",
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Tools"
+      },
       "DamageMultiplier": 0.0,
+      "AdditionalDamageMultiplier": -8.3,
+      "AdditionalBlockingDamageNegation": -33.0,
       "DamageTypes": [
         "DamageType.Physical.Crush"
       ],

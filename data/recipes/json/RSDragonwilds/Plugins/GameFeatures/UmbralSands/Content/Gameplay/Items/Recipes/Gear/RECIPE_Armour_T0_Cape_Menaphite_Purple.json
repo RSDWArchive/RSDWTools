@@ -21,13 +21,6 @@
         "ObjectName": "SkillData'SKILL_Artisan'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
-      "OnCraftXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
-        },
-        "RowName": "Craft_Smithing_Forge_Tier4"
-      },
       "SkillXPAwardedOnCraft": 125,
       "PersistenceID": "6TTFREl4uoFVI4W5i1H49w",
       "InternalName": "recipe_armour_cape_menaphite_purple"

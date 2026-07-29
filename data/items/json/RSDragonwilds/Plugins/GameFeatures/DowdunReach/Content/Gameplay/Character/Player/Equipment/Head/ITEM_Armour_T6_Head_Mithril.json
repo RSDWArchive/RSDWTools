@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T6_Head_Mithril"
+        "RowName": "T06_Armour_Head_Heavy"
       },
       "ArmorWeight": "EArmorWeight::Heavy",
       "SkillUsed": {

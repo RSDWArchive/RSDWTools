@@ -29,8 +29,8 @@
         },
         {
           "ItemData": {
-            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.0"
+            "ObjectName": "ItemData'ITEM_Resources_Bark_Hollow'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Bark_Hollow.0"
           },
           "Count": 3
         }

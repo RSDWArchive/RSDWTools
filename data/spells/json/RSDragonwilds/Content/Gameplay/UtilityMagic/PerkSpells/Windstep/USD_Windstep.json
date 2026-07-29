@@ -153,6 +153,7 @@
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Windstep'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Windstep.0"
       },
+      "bShouldBlockMovement": false,
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -178,7 +179,7 @@
         "SubPathString": ""
       },
       "SpellTagIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.T_Icon_Tag_Skill_Runecrafting",
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Agility.T_Icon_Tag_Skill_Agility",
         "SubPathString": ""
       },
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",

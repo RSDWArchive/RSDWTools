@@ -242,10 +242,11 @@
         "TagName": "Item.Equipment.Tool.Hatchet"
       },
       "DamageStrategy": {
-        "ObjectName": "BlueprintGeneratedClass'SDS_AxtralProjectionSpellDamage_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/SDS_AxtralProjectionSpellDamage.0"
+        "ObjectName": "BlueprintGeneratedClass'BP_SDS_AxtralProjectionSpellDamage_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/BP_SDS_AxtralProjectionSpellDamage.0"
       },
       "DamageClass": "EDamageClass::None",
+      "bCanCauseCrits": false,
       "CollisionModule": {
         "ModuleName": "CollisionAxeUpgraded_2"
       },
@@ -275,10 +276,11 @@
         "TagName": "Item.Equipment.Tool.Hatchet"
       },
       "DamageStrategy": {
-        "ObjectName": "BlueprintGeneratedClass'SDS_AxtralProjectionSpellDamage_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/SDS_AxtralProjectionSpellDamage.0"
+        "ObjectName": "BlueprintGeneratedClass'BP_SDS_AxtralProjectionSpellDamage_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/BP_SDS_AxtralProjectionSpellDamage.0"
       },
       "DamageClass": "EDamageClass::None",
+      "bCanCauseCrits": false,
       "CollisionModule": {
         "ModuleName": "Collision"
       },
@@ -304,10 +306,11 @@
         "TagName": "Item.Equipment.Tool.Hatchet"
       },
       "DamageStrategy": {
-        "ObjectName": "BlueprintGeneratedClass'SDS_AxtralProjectionSpellDamage_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/SDS_AxtralProjectionSpellDamage.0"
+        "ObjectName": "BlueprintGeneratedClass'BP_SDS_AxtralProjectionSpellDamage_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/BP_SDS_AxtralProjectionSpellDamage.0"
       },
       "DamageClass": "EDamageClass::None",
+      "bCanCauseCrits": false,
       "CollisionModule": {
         "ModuleName": "CollisionAxeUpgraded_1"
       },
@@ -695,6 +698,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/BP_Spell_AxtralProjection.0"
       },
       "SpawnMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "bUseSpellTargetTransform": true,
       "OptionalTransformModule": {
         "ModuleName": "TransformAxeUpgraded_1"
       },
@@ -724,6 +728,7 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/BP_Spell_AxtralProjection.0"
       },
       "SpawnMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "bUseSpellTargetTransform": true,
       "OptionalTransformModule": {
         "ModuleName": "TransformAxeUpgraded_2"
       },
@@ -927,6 +932,7 @@
       "NumDamagedActorsRequirement": 3,
       "ActorType": "EAchievementDamageActorType::FELLABLE_TREE",
       "DamageClass": "EDamageClass::None",
+      "bCanCauseCrits": false,
       "CollisionModule": {
         "ModuleName": "Collision"
       },
@@ -944,9 +950,9 @@
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "PositionOffset": {
-        "X": 160.0,
+        "X": 0.0,
         "Y": 260.0,
-        "Z": 50.0
+        "Z": 0.0
       },
       "TraceProfile": {
         "Name": "NoCollision"
@@ -972,9 +978,9 @@
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "PositionOffset": {
-        "X": 160.0,
-        "Y": -240.0,
-        "Z": 50.0
+        "X": 0.0,
+        "Y": -260.0,
+        "Z": 0.0
       },
       "TraceProfile": {
         "Name": "NoCollision"

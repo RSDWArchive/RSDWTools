@@ -23,6 +23,20 @@
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Crossbow/A_PlayerM_CrossBow_Poses.0"
       },
       "WindUpMaxMovementSpeedOverride": 300.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Crossbow"
+      },
       "DamageMultiplier": 2.7,
       "DamageTypes": [
         "DamageType.Ranged"
@@ -92,6 +106,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
       "PersistenceID": "eWL0U0dnOlww-eCyIIbDFA",
       "InternalName": "weap_crossbow_dorgeshuun"
     }

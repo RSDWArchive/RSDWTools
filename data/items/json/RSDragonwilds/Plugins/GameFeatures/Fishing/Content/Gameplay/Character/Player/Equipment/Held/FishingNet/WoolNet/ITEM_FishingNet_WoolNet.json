@@ -24,6 +24,14 @@
       },
       "LeftHandIKBoneName": "Prop_SecondHandSocket",
       "WindUpMaxMovementSpeedOverride": 150.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "AdditionalDamageMultiplier": -1.8,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "Tier": 2,

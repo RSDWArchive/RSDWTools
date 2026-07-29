@@ -4,14 +4,14 @@
     "Name": "SpellModule_Blueprint_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_PileEmUp'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.4"
     },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BlueprintGraphClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_SMBG_PileEmUp_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/BP_SMBG_PileEmUp.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/PileEmUp/BP_SMBG_PileEmUp"
       },
       "ModuleName": "Blueprint",
       "Triggers": {
@@ -32,7 +32,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_PileEmUp'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -54,7 +54,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_PileEmUp'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -93,7 +93,7 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_PileEmUp'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -120,7 +120,7 @@
         "SourceString": "Trunk Totem",
         "LocalizedString": "Trunk Totem"
       },
-      "CooldownDuration": 600.0,
+      "CooldownDuration": 180.0,
       "SpellIcon": {
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Woodcutting/T_Skill_Woodcutting_Spell_PileEmUp.T_Skill_Woodcutting_Spell_PileEmUp",
         "SubPathString": ""
@@ -168,25 +168,25 @@
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_PileEmUp:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.3"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_PileEmUp:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.1"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_PileEmUp:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.2"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Blueprint'USD_PileEmUp:SpellModule_Blueprint_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/PileEmUp/USD_PileEmUp.0"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Pileemup/USD_PileEmUp.0"
             }
           }
         ]

@@ -1,0 +1,326 @@
+[
+  {
+    "Type": "DominionShape_Sphere",
+    "Name": "DominionShape_Sphere_0",
+    "Outer": {
+      "ObjectName": "SpellModule_Shape'USD_Farming_Compost:SpellModule_Shape_0'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.7"
+    },
+    "Class": "UScriptClass'DominionShape_Sphere'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_Collision",
+    "Name": "SpellModule_Collision_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_Collision'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Profile": {
+        "Name": "BlockAll"
+      },
+      "TargetedProfile": {
+        "Name": "NoCollision"
+      },
+      "OptionalShapeModule": {
+        "ModuleName": "Shape"
+      },
+      "OptionalUtilityMagicModule": {
+        "ModuleName": "UtilityMagic"
+      },
+      "ModuleName": "Collision",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting"
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_Compost",
+    "Name": "SpellModule_Compost_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_Compost'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoveCombinedContentAmountRef": {
+        "ModuleName": "RemoveCombinedContentAmount"
+      },
+      "ModuleName": "Compost",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting",
+        "CollisionRef": {
+          "ModuleName": "Collision"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_CostItems",
+    "Name": "SpellModule_CostItems_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_CostItems'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCostInfo": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Earth'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+          },
+          "Count": 20
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Astral'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+          },
+          "Count": 15
+        }
+      ],
+      "bUseMagicAmmo": false,
+      "ModuleName": "CostItems",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Mucksplosion'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Mucksplosion.0"
+      },
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_RemoveCombinedContentAmount",
+    "Name": "SpellModule_RemoveCombinedContentAmount_1",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_RemoveCombinedContentAmount'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AmountToRemove": 150,
+      "ContentTypesToRemove": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Regular'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Compost_Regular.0"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Super'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Compost_Super.0"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Ultra'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Compost_Ultra.0"
+        }
+      ],
+      "bStoreDispenseResults": true,
+      "ModuleName": "RemoveCombinedContentAmount",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_Shape",
+    "Name": "SpellModule_Shape_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_Shape'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Shape": {
+        "ObjectName": "DominionShape_Sphere'USD_Farming_Compost:SpellModule_Shape_0.DominionShape_Sphere_0'",
+        "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.0"
+      },
+      "ModuleName": "Shape"
+    }
+  },
+  {
+    "Type": "SpellModule_UtilityMagic",
+    "Name": "SpellModule_UtilityMagic_1",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_Farming_Compost'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.9"
+    },
+    "Class": "UScriptClass'SpellModule_UtilityMagic'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UtilitySpellClass": {
+        "AssetPathName": "/Agility/Gameplay/UtilityMagic/PerkSpells/Farming/BP_Magic_Compost.BP_Magic_Compost_C",
+        "SubPathString": ""
+      },
+      "ModuleName": "UtilityMagic",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_Farming_Compost",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "TableId": "/Agility/Gameplay/Items/ST_Farming_AgilityPlugin.ST_Farming_AgilityPlugin",
+        "Key": "SpellDisplayName.Compost",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "SpecialRequirementsText": {
+        "TableId": "/Agility/Gameplay/Items/ST_Farming_AgilityPlugin.ST_Farming_AgilityPlugin",
+        "Key": "Farming.CompostSpell.SpecialRequirement",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "BlockingTags": [
+        "Player.Status.Mounted"
+      ],
+      "CooldownDuration": 45.0,
+      "SpellIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Farming/T_Skill_Farming_LivingComposter.T_Skill_Farming_LivingComposter",
+        "SubPathString": ""
+      },
+      "SpellTagIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
+      },
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
+      "CastType": "EUtilitySpellCastType::Placed",
+      "SpellPlacementMontage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Nature_SpellCastMode_Targeting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Nature_SpellCastMode_Targeting.0"
+      },
+      "PlacementActorClass": {
+        "AssetPathName": "/Agility/Gameplay/UtilityMagic/PerkSpells/Farming/BP_SpellPlacementVisualizer_Compost.BP_SpellPlacementVisualizer_Compost_C",
+        "SubPathString": ""
+      },
+      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "SpellUIPlacementSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+      },
+      "PadColourForceFeedback": {
+        "ObjectName": "ForceFeedbackEffect'SpellPadColourGreen'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen.1"
+      },
+      "SpecialRequirementsStrategy": {
+        "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresCompostAmount_Compost_C'",
+        "ObjectPath": "/Agility/Gameplay/UtilityMagic/PerkSpells/Farming/BP_USSRS_RequiresCompostAmount_Compost"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_Farming_Compost:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.5"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_Farming_Compost:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_UtilityMagic'USD_Farming_Compost:SpellModule_UtilityMagic_1'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.8"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Collision'USD_Farming_Compost:SpellModule_Collision_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.2"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_CostItems'USD_Farming_Compost:SpellModule_CostItems_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.4"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Shape'USD_Farming_Compost:SpellModule_Shape_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.7"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Compost'USD_Farming_Compost:SpellModule_Compost_0'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_RemoveCombinedContentAmount'USD_Farming_Compost:SpellModule_RemoveCombinedContentAmount_1'",
+              "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Farming_Compost.6"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "NqMJuEh6VbJ-YGunK9RWYw",
+      "InternalName": "spell_farming_compost"
+    }
+  }
+]

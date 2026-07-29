@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T4_Body_DragonkinMage"
+        "RowName": "T04_Armour_Body_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "Slot": "ELoadoutSlotStrategy::Body",
@@ -59,6 +59,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "rXtN2EZOq9NpnL-WyVpF8Q",
       "InternalName": "armour_body_dragonkinmage"
     }

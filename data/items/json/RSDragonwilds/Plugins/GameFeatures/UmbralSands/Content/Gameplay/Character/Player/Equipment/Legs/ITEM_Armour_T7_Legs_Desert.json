@@ -51,7 +51,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
         "SubPathString": ""
       },
-      "PowerLevel": 1,
+      "PowerLevel": 7,
       "Weight": 6.0,
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"

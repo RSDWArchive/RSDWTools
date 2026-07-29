@@ -68,8 +68,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Trinket.Amulet.Of.Plenty",
-            "SourceString": "Grants a BONUS when gathering FISHING, MINING and WOODCUTTING resources in the world",
-            "LocalizedString": "Grants a BONUS when gathering FISHING, MINING and WOODCUTTING resources in the world"
+            "SourceString": "Whilst mining or woodcutting there is a chance to double the received resources.",
+            "LocalizedString": "Whilst mining or woodcutting there is a chance to double the received resources."
           },
           "BuffIcon": {
             "AssetPathName": "",

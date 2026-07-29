@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BP_Consumables_Potion_C",
+    "Name": "ITEM_Consumable_Potion_Focused_T3_Agility",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
+    "Template": {
+      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConsumeXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
+        },
+        "RowName": "Consume_Weak_Potion"
+      },
+      "Duration": 300.0,
+      "SimpleMontageRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_Consumable_Montages'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
+        },
+        "RowName": "Drink"
+      },
+      "GameplayEffectsToApply": [
+        {
+          "Effect": {
+            "ObjectName": "GE_Potion_FocusedAgility_C'ITEM_Consumable_Potion_Focused_T3_Agility:GE_Potion_FocusedAgility_C_1'",
+            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.2"
+          }
+        }
+      ],
+      "ConsumeCooldownEffectToApply": {
+        "Effect": {
+          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T3_Agility:GE_Cooldown_Drink_C_1'",
+          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.1"
+        }
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "FocusedAgilityPotion",
+        "SourceString": "Focused Agility Potion",
+        "LocalizedString": "Focused Agility Potion"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "FocusedAgilityPotion",
+        "SourceString": "Increases XP gain for the Agility skill.",
+        "LocalizedString": "Increases XP gain for the Agility skill."
+      },
+      "Icon": {
+        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Potion_Tier3_Red.T_Icon_Potion_Tier3_Red",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Agility.T_Icon_Tag_Skill_Agility",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Liquid_Container/SM_Wrapped_Liquid_Container_01.SM_Wrapped_Liquid_Container_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 50,
+      "Weight": 1.0,
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.Bottle"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedAgility2.Title",
+            "SourceString": "Focused Agility II",
+            "LocalizedString": "Focused Agility II"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "FocusedAgility2.Description",
+            "SourceString": "Grants a 30% XP BOOST for the AGILITY Skill",
+            "LocalizedString": "Grants a 30% XP BOOST for the AGILITY Skill"
+          },
+          "BuffIcon": {
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserFocusedAgility.T_Icon_Buff_LesserFocusedAgility",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "-AnBxkV80dPyh1CuYCzItg",
+      "InternalName": "potion_focused_t3_agility",
+      "NativeClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
+      }
+    }
+  },
+  {
+    "Type": "GE_Cooldown_Drink_C",
+    "Name": "GE_Cooldown_Drink_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Agility'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.0"
+    },
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
+    "Template": {
+      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GE_Potion_FocusedAgility_C",
+    "Name": "GE_Potion_FocusedAgility_C_1",
+    "Outer": {
+      "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T3_Agility'",
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

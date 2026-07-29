@@ -40,7 +40,8 @@
         "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "ItemFilter.Material.Mineral"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"

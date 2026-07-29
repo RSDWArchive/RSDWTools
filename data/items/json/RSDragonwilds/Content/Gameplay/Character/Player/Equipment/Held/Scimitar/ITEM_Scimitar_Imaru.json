@@ -26,8 +26,23 @@
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Sword_Poses'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sword/A_PlayerM_Idle_Sword_Poses.0"
       },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Scimitar"
+      },
       "DamageMultiplier": 5.6,
-      "BlockingDamageNegation": 26.0,
+      "BlockingDamageNegation": 52.0,
+      "AdditionalDamageMultiplier": 0.19999981,
       "DamageTypes": [
         "DamageType.Physical.Slash"
       ],
@@ -104,6 +119,8 @@
           }
         }
       ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "X_OJeEp1PR4l08yW6_vpUQ",
       "InternalName": "weap_scimitar_imaru"
     }

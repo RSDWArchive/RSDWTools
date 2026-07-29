@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T7_Head_ObsidianHelmet"
+        "RowName": "T07_Armour_Head_Heavy"
       },
       "ArmorWeight": "EArmorWeight::Heavy",
       "SkillUsed": {
@@ -58,6 +58,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "_RC22U77s72dRjuGLxYfqg",
       "InternalName": "armour_head_obsidianhelmet"
     }

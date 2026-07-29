@@ -22,8 +22,23 @@
         "ObjectName": "AnimSequence'A_PlayerM_Idle_1H_Hatchet_Poses'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Hatchet/A_PlayerM_Idle_1H_Hatchet_Poses.0"
       },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Tools"
+      },
       "DamageMultiplier": 8.4,
       "BlockingDamageNegation": 39.5,
+      "AdditionalDamageMultiplier": 0.09999943,
       "DamageTypes": [
         "DamageType.Physical.Slash"
       ],

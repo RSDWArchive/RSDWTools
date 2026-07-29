@@ -105,6 +105,8 @@
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Firesprite'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Firesprite.0"
       },
+      "bShouldBlockMovement": false,
+      "MaxMovementSpeedDuringMontage": 300.0,
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage",
       "Triggers": {

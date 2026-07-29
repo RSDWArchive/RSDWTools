@@ -417,7 +417,7 @@
     "persistence_id": "Pi5kU0qnNabvHWOLZ74LVQ",
     "display_name": "Trunk Totem",
     "requirements": "",
-    "cooldown": 600.0,
+    "cooldown": 180.0,
     "spell_icon": "T_Skill_Woodcutting_Spell_PileEmUp.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Woodcutting.png",
     "costs": [
@@ -677,7 +677,7 @@
     "requirements": "",
     "cooldown": 3.0,
     "spell_icon": "T_Skill_Runecrafting_Spell_Windstep.png",
-    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Agility.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Air",
@@ -707,6 +707,98 @@
     "spell_tag_icon": "",
     "costs": [],
     "internal_name": "spell_RetrieveAnima"
+  },
+  {
+    "persistence_id": "r7jgSkvRMo9RL0uHQ5Yekg",
+    "display_name": "USD_PhaseDash",
+    "requirements": "",
+    "cooldown": 45.0,
+    "spell_icon": "T_Skill_Agility_Spell_EnchantedSpirit_PhaseDash.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Magic.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Air",
+        "count": 20,
+        "display_name": "Air Rune",
+        "icon": "T_Icon_Rune_Air.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 10,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      }
+    ],
+    "internal_name": "spell_phase_dash"
+  },
+  {
+    "persistence_id": "NqMJuEh6VbJ-YGunK9RWYw",
+    "display_name": "USD_Farming_Compost",
+    "requirements": "",
+    "cooldown": 45.0,
+    "spell_icon": "T_Skill_Farming_LivingComposter.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Farming.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Earth",
+        "count": 20,
+        "display_name": "Earth Rune",
+        "icon": "T_Icon_Rune_Earth.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 15,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      }
+    ],
+    "internal_name": "spell_farming_compost"
+  },
+  {
+    "persistence_id": "1852PEis1RAMvSeplB-ShQ",
+    "display_name": "USD_Farming_RapidGrowth",
+    "requirements": "",
+    "cooldown": 1500.0,
+    "spell_icon": "T_Skill_Farming_RapidGrowth.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Farming.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Earth",
+        "count": 30,
+        "display_name": "Earth Rune",
+        "icon": "T_Icon_Rune_Earth.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Nature",
+        "count": 30,
+        "display_name": "Nature Rune",
+        "icon": "T_Icon_Rune_Nature.png"
+      }
+    ],
+    "internal_name": "spell_farming_rapidgrowth"
+  },
+  {
+    "persistence_id": "ly7NnUR8OkU0rcKV_MtN7A",
+    "display_name": "USD_Recall",
+    "requirements": "",
+    "cooldown": 75.0,
+    "spell_icon": "T_Skill_Agility_Spell_Recall.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Agility.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Air",
+        "count": 30,
+        "display_name": "Air Rune",
+        "icon": "T_Icon_Rune_Air.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Law",
+        "count": 15,
+        "display_name": "Law Rune",
+        "icon": "T_Icon_Rune_Law.png"
+      }
+    ],
+    "internal_name": "spell_recall"
   },
   {
     "persistence_id": "aKXhokOnAiey95SSRB91Kw",

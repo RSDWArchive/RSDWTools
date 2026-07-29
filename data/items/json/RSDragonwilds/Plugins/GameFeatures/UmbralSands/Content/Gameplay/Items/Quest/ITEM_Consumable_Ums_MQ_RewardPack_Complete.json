@@ -50,7 +50,7 @@
         },
         {
           "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Cabbage.ITEM_Resources_Cabbage",
+            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Animal/ITEM_Resources_Visage_Dragon_Fuzan.ITEM_Resources_Visage_Dragon_Fuzan",
             "SubPathString": ""
           },
           "MinToDrop": 1,

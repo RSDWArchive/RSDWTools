@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T4_Body_DarkMage"
+        "RowName": "T04_Armour_Body_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "Slot": "ELoadoutSlotStrategy::Body",

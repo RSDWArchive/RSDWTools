@@ -39,7 +39,15 @@
         "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/A_GameJam_PlayerM_Throw_Loop"
       },
       "WindUpMaxMovementSpeedOverride": 150.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Bows"
+      },
       "DamageMultiplier": 3.25,
+      "AdditionalBlockingDamageNegation": -5.0,
       "DamageTypes": [
         "DamageType.Magical.Fire"
       ],

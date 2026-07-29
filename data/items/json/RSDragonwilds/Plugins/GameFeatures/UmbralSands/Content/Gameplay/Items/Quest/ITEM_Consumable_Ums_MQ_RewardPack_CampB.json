@@ -17,7 +17,7 @@
           },
           "MinToDrop": 300,
           "MaxToDrop": 300,
-          "MaximumGrouping": 1,
+          "MaximumGrouping": 300,
           "ProbabilityOfDrop": 1.0,
           "RequiredTagQuery": {
             "TokenStreamVersion": 0,

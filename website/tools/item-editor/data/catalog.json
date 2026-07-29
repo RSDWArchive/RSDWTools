@@ -4,6 +4,17 @@
       "label": "Bag Items",
       "items": [
         {
+          "name": "Golden Bloodblight Cape",
+          "itemData": "HuIAAEaKrXsAwCK8H0tWfw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Bloodblight_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Bloodblight/ITEM_Cape_Bloodblight_Golden.json",
+          "category": "Armour/Bloodblight",
+          "description": "A cloak commemorating a dragon's vengeance.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Adamant Platebody",
           "itemData": "oAUjCkgTFW7Xx9-8yDqUTw",
           "maxStack": 1,
@@ -438,6 +449,39 @@
           "vitalShield": 0
         },
         {
+          "name": "Golden Bramblemead Cape",
+          "itemData": "0NWSREdc38j-yzegadxzCw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Bramblemead_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Brynmoor/Bramblemead/ITEM_Cape_Bramblemead_Golden.json",
+          "category": "Armour/Bramblemead",
+          "description": "A cloak to remember the simpler times.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Agility Cape",
+          "itemData": "2gcM1EPLyMw2VHCGD1pZHQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Skill_Agility.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Skillcape_Agility.json",
+          "category": "Armour/Cape",
+          "description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Agility Cape (Trimmed)",
+          "itemData": "ocqDGE89vibNJAe55FOoHA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Skill_Agility_Master.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Trimmed_Skillcape_Agility.json",
+          "category": "Armour/Cape",
+          "description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Artisan Cape",
           "itemData": "JceCAk6MoBgJWc209l6akw",
           "maxStack": 1,
@@ -708,7 +752,7 @@
           "iconPath": "/shared/icons/T_Icon_Fire_Cape.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Fire.json",
           "category": "Armour/Cape",
-          "description": "Taking or Blocking damage has a chance to trigger burning on the attacker. Melee Killls on Burning enemies refills stamina.",
+          "description": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina.",
           "equipment": "Cape",
           "vitalShield": 0
         },
@@ -1307,6 +1351,39 @@
           "iconPath": "/shared/icons/T_Icon_Cape_RoyalThaneCloak.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Woodcutting.json",
           "category": "Armour/Cape",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Dowdun Reach Cape",
+          "itemData": "MQinJEhrS3RatBGGcDv87g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Dowdun_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/DowdunReach/ITEM_Cape_DowdunReach_Golden.json",
+          "category": "Armour/DowdunReach",
+          "description": "There is no better display of mastery of the Dowdun Reach area.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Fellhollow Cape",
+          "itemData": "jqArXUWDqzwOKQCcmHhpTg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Fellhollow_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Fellhollow/ITEM_Cape_Fellhollow_Golden.json",
+          "category": "Armour/Fellhollow",
+          "description": "A cloak depicting the ethereal beauty of Fellhollow. ",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Fractured Cape",
+          "itemData": "jJt7jk-NhijjFVuxP2FXfA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Fractured_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Fractured/ITEM_Cape_Fractured_Golden.json",
+          "category": "Armour/Fractured",
+          "description": "A cloak warning against the danger of hubris. ",
           "equipment": "Cape",
           "vitalShield": 0
         },
@@ -2207,6 +2284,50 @@
           "vitalShield": 0
         },
         {
+          "name": "Golden Scorned Wilderness Cape",
+          "itemData": "-iZRtEKn4sDgLbu0ikhT2g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/ScornedWilderness/ITEM_Cape_ScornedWilderness_Golden.json",
+          "category": "Armour/ScornedWilderness",
+          "description": "An upgraded version of the Scorned Wilderness Cape.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Stormtouched Cape",
+          "itemData": "qrl1V0_2wgflo9Cscl3gBg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Stormtouched_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Stormtouched/ITEM_Cape_Stormtouched_Golden.json",
+          "category": "Armour/Stormtouched",
+          "description": "A cloak depicting ancient monsters and a mage's fury.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Umbral Sands Cape",
+          "itemData": "sjIZQ0LSydKUmrqtcnNaVg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Umbral_Sands_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/UmbralSands/ITEM_Cape_UmbralSands_Golden.json",
+          "category": "Armour/UmbralSands",
+          "description": "A light desert cape designed to shield against sun and sand. Offers comfort during long journeys across the dunes.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Whispering Cape",
+          "itemData": "LZlgSkvDmvAguaSaODXhYw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_Cape_Whispering_Swamp_Gilded.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Brynmoor/Whispering/ITEM_Cape_Whispering_Golden.json",
+          "category": "Armour/Whispering",
+          "description": "A cloak that makes you shiver, even as it protects against the cold.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Burnt Anchovies",
           "itemData": "x1MVSE9r2Po9v7ytXGJDGw",
           "maxStack": 99,
@@ -2955,6 +3076,26 @@
           "description": "A simple meal but one that will hold back the hunger.",
           "powerLevel": 2,
           "weight": 0.5
+        },
+        {
+          "name": "Tome of Agility - Vol 1",
+          "itemData": "yuSAzUIjRFXpOg6HuCmWcQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Agility.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Tomes/ITEM_Consumable_Tome_Tier1_Agility.json",
+          "category": "Consumables/Tomes",
+          "description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP. ",
+          "weight": 2.0
+        },
+        {
+          "name": "Tome of Agility - Vol 2",
+          "itemData": "48shkE6vr9QLm_ajg2t7aA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Agility.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Tomes/ITEM_Consumable_Tome_Tier2_Agility.json",
+          "category": "Consumables/Tomes",
+          "description": "A book filled with knowledge on how to move more efficiently. Awards a decent amount of Agility XP. ",
+          "weight": 2.0
         },
         {
           "name": "Tome of Attack - Vol 1",
@@ -4197,6 +4338,66 @@
           "weight": 3.0
         },
         {
+          "name": "Amylase Crystal",
+          "itemData": "JkkgFEcMSlbLJ8CVW7Z22Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_AmylaseCrystal.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Amylase_Crystal.json",
+          "category": "Materials/Agility",
+          "description": "A crystallised mass of amylase enzymes, can be used as a reagent potions.",
+          "weight": 0.1
+        },
+        {
+          "name": "Avantoe",
+          "itemData": "awC3tEtnaioupsqub2UC2A",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Avantoe_Herb_v2.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Avantoe.json",
+          "category": "Materials/Agility",
+          "description": "Can be used for potions.",
+          "weight": 0.2
+        },
+        {
+          "name": "Bronze Leaf",
+          "itemData": "lLdg5kHhPe_aH7Ge0q0-cA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Bronze_Leaf.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Bronze_Leaf.json",
+          "category": "Materials/Agility",
+          "description": "A thin sheet of purest bronze, can be used for demonstrating your prowess, potion making or even recycling into bronze bars.",
+          "weight": 0.1
+        },
+        {
+          "name": "Gold Leaf",
+          "itemData": "DHtOEU6KRL_vY9WiVQlLOA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Gold_Leaf.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Golden_Leaf.json",
+          "category": "Materials/Agility",
+          "description": "A thin sheet of brilliant gold, can be used for demonstrating your prowess, potion making or even recycling into gold bars.",
+          "weight": 0.1
+        },
+        {
+          "name": "Silver Leaf",
+          "itemData": "kLtMy0b8zZGUNXqOnIO1TQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Silver_Leaf.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Silver_Leaf.json",
+          "category": "Materials/Agility",
+          "description": "A thin sheet of finest silver, can be used for demonstrating your prowess, potion making or even recycling into silver bars.",
+          "weight": 0.1
+        },
+        {
+          "name": "Warped Feathers",
+          "itemData": "9yk1XkCxmFjwO1SwsRw3vQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Warped_Feathers.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Warped_Feathers.json",
+          "category": "Materials/Agility",
+          "description": "Beautiful feathers used to power the Gyrhawk Amulet, which grants additional experience for exploration.",
+          "weight": 0.1
+        },
+        {
           "name": "Fang Arrow",
           "itemData": "2vSF4Se4MkWaZG0pHYcb8g",
           "maxStack": 999,
@@ -4915,7 +5116,7 @@
           "category": "Materials/Body",
           "description": "Loose-fitting and breathable, this robe protects against the sun\u2019s harsh glare while allowing air to flow freely.",
           "baseDurability": 1500,
-          "powerLevel": 1,
+          "powerLevel": 7,
           "weight": 8.0,
           "equipment": "Body",
           "vitalShield": 0
@@ -5865,7 +6066,7 @@
           "category": "Materials/Head",
           "description": "A lightweight hood woven for the harsh desert sun. It shields the wearer from heat and drifting sands.",
           "baseDurability": 1500,
-          "powerLevel": 1,
+          "powerLevel": 7,
           "weight": 4.0,
           "equipment": "Head",
           "vitalShield": 0
@@ -6331,6 +6532,39 @@
           "weight": 2.0
         },
         {
+          "name": "Gilded Gyrhawk Amulet",
+          "itemData": "c58uRUng_7z6S82IC3vYdA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Gold_GyrhawkAmulet.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Jewlery/ITEM_Trinket_Gyrhawk_Amulet_Golden.json",
+          "category": "Materials/Jewlery",
+          "description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world. Additionally increases the amount of experience gained from courses.",
+          "baseDurability": 500,
+          "weight": 2.0
+        },
+        {
+          "name": "Gyrhawk Amulet",
+          "itemData": "0tiXEUpXPMTUvgGRZLeRIw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_GyrhawkAmulet.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Jewlery/ITEM_Trinket_Gyrhawk_Amulet.json",
+          "category": "Materials/Jewlery",
+          "description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world.",
+          "baseDurability": 250,
+          "weight": 2.0
+        },
+        {
+          "name": "Inspiring Ring of Agility",
+          "itemData": "5kDKqUKN-DPKZQi97nYTCw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Ring_Inspiring.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Jewlery/ITEM_Trinket_Inspiring_Agility.json",
+          "category": "Materials/Jewlery",
+          "description": "This item loses durability over time when equipped.",
+          "baseDurability": 32000,
+          "weight": 1.0
+        },
+        {
           "name": "Salve Crystal",
           "itemData": "f_tlM0y-QfSP8Ha6vD6Rmg",
           "maxStack": 99,
@@ -6372,7 +6606,7 @@
           "category": "Materials/Legs",
           "description": "Lightweight leggings made for desert travel, offering protection from heat while allowing easy movement across the sands.",
           "baseDurability": 1500,
-          "powerLevel": 1,
+          "powerLevel": 7,
           "weight": 6.0,
           "equipment": "Legs",
           "vitalShield": 0
@@ -7427,90 +7661,90 @@
           "weight": 2.0
         },
         {
-          "name": "Ascension Core",
+          "name": "Ascension Core 4",
           "itemData": "nU6Fg0T66QR19Q66XKbv8Q",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_White.png",
+          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Blue.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade a Masterwork Weapon from Power Level 3 to Power Level 4 - COMING SOON",
+          "description": "Used to Upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
           "powerLevel": 4,
           "weight": 0.3
         },
         {
-          "name": "Ascension Core",
+          "name": "Ascension Core 5",
           "itemData": "b1LuN0tOkAVnfz2UuoqgSQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Green.png",
+          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Purple.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T5_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade a Masterwork Weapon from Power Level 4 to Power Level 5 - COMING SOON",
+          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5.",
           "powerLevel": 5,
           "weight": 0.3
         },
         {
-          "name": "Ascension Core",
+          "name": "Ascension Core 6",
           "itemData": "h3u7Rk41zjjzfq6u0_n7Ug",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Blue.png",
+          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Pink.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T6_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade a Masterwork Weapon from Power Level 5 to Power Level 6 - COMING SOON",
+          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 5 to Power Level 6.",
           "powerLevel": 6,
           "weight": 0.3
         },
         {
-          "name": "Ascension Core",
+          "name": "Ascension Core 7",
           "itemData": "wg4KnETWmNL1cbO6KKgs7A",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Purple.png",
+          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Red.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T7_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade a Masterwork Weapon from Power Level 6 to Power Level 7 - COMING SOON",
+          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7.",
           "powerLevel": 7,
           "weight": 0.3
         },
         {
-          "name": "Ascension Shard",
+          "name": "Ascension Shard 4",
           "itemData": "H8Ib6kekRERuiGKtbEvpmQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_White.png",
+          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Blue.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 4 Ascension Core - COMING SOON",
+          "description": "Used to craft a Tier 4 Ascension Core",
           "powerLevel": 4,
           "weight": 0.1
         },
         {
-          "name": "Ascension Shard",
+          "name": "Ascension Shard 5",
           "itemData": "xPsMjk-6CC6Loxyd8lnjnw",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Green.png",
+          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Purple.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T5_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 5 Ascension Core - COMING SOON",
+          "description": "Used to craft a Tier 5 Ascension Core",
           "powerLevel": 5,
           "weight": 0.1
         },
         {
-          "name": "Ascension Shard",
+          "name": "Ascension Shard 6",
           "itemData": "6hDDS0E5hHRfaXCv_VVWGQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Blue.png",
+          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Pink.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T6_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 6 Ascension Core - COMING SOON",
+          "description": "Used to craft a Tier 6 Ascension Core",
           "powerLevel": 6,
           "weight": 0.1
         },
         {
-          "name": "Ascension Shard",
+          "name": "Ascension Shard 7",
           "itemData": "jV870UJVpUaRId6E8wQYVA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Purple.png",
+          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Red.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T7_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 7 Ascension Core - COMING SOON",
+          "description": "Used to craft a Tier 7 Ascension Core",
           "powerLevel": 7,
           "weight": 0.1
         },
@@ -7929,6 +8163,56 @@
           "weight": 1.5
         },
         {
+          "name": "Focused Agility Potion",
+          "itemData": "-AnBxkV80dPyh1CuYCzItg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Red.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.json",
+          "category": "Materials/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Agility Potion",
+          "itemData": "OD5pQEsin7INsTO67zlr6w",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Red_Potion_cdb28c9a.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T2_Lesser_Agility.json",
+          "category": "Materials/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Stamina Potion",
+          "itemData": "W0iKvUtaCMML_3iPRANO6Q",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Yellow.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.json",
+          "category": "Materials/Potions",
+          "description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body.",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Agility Potion",
+          "itemData": "olhcdkOUSa_5VkyiSxchdg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Red.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T4_Super_Agility.json",
+          "category": "Materials/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Agility Potion",
+          "itemData": "7w8X70Js0v6MxTenuDRGSg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Red_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T1_Weak_Agility.json",
+          "category": "Materials/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
           "name": "Pristine Anchovies",
           "itemData": "ebQ3hkrWl5kQDdCvqx-NTQ",
           "maxStack": 99,
@@ -8262,7 +8546,17 @@
           "vitalShield": 0
         },
         {
-          "name": "Barrel Cactus Seed",
+          "name": "Avantoe Seeds",
+          "itemData": "-6OQn0vK8wqfGn2Wh1TeXA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Avantoe_seeds_v2.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Avantoe.json",
+          "category": "Materials/Seeds",
+          "description": "Equip and use these seeds to scatter them in a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
+          "vitalShield": 0
+        },
+        {
+          "name": "Barrel Cactus Seeds",
           "itemData": "HDqIfUGt2TS8Rv-epmS83A",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Barrel_Seed.png",
@@ -8272,7 +8566,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Bunny Cactus Seed",
+          "name": "Bunny Cactus Seeds",
           "itemData": "enaDskFVNHwlmmyAI6Q-Gw",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Bunny_Cactus_Seed.png",
@@ -8282,7 +8576,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Cabbage seeds",
+          "name": "Cabbage Seeds",
           "itemData": "LRrgT0uxL009Hq-oGeINEg",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Cabbage_seeds.png",
@@ -8322,7 +8616,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Dwellberry seeds",
+          "name": "Dwellberry Seeds",
           "itemData": "9TCHHEYRZOvy0KWszdfntA",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Dwellberry_seeds.png",
@@ -8332,7 +8626,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Flax seeds",
+          "name": "Flax Seeds",
           "itemData": "A9hQfkjtyPUlXI-8vKm2mA",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Flax_seeds.png",
@@ -8382,7 +8676,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Onion seeds",
+          "name": "Onion Seeds",
           "itemData": "s7eNFE3W-S0tBnKewniiKQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Onion_seeds.png",
@@ -8392,7 +8686,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Pipe Cactus Seed",
+          "name": "Pipe Cactus Seeds",
           "itemData": "T8r9B08LE-0n1rGU6Qp4BQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Pipe_Cactus_Seed_v2.png",
@@ -8402,7 +8696,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Potato seeds",
+          "name": "Potato Seeds",
           "itemData": "cW7jv0WM_XgkG_OsOz_YgQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Potato_seeds.png",
@@ -8422,7 +8716,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Redberry seeds",
+          "name": "Redberry Seeds",
           "itemData": "7lSIik5yoOFoPX-5w38Ytg",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Redberry_seeds.png",
@@ -8462,7 +8756,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Tomato seeds",
+          "name": "Tomato Seeds",
           "itemData": "McU9BUE_ZXBScBa7M6QZRw",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Tomato_seeds.png",
@@ -8472,7 +8766,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Watermelon seeds",
+          "name": "Watermelon Seeds",
           "itemData": "GX_XpEZAZdX7koKAEyFSKQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Watermelon_seeds.png",
@@ -8482,7 +8776,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Wheat seeds",
+          "name": "Wheat Seeds",
           "itemData": "muWQNEPDzvIGl3ekVbIVRQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Wheat_Seed.png",
@@ -8996,7 +9290,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.json",
           "category": "Materials/TreePlanting",
           "description": "Ash tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-          "powerLevel": 1,
           "vitalShield": 0
         },
         {
@@ -9007,7 +9300,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Maple.json",
           "category": "Materials/TreePlanting",
           "description": "Maple tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-          "powerLevel": 1,
           "vitalShield": 0
         },
         {
@@ -9018,11 +9310,10 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak.json",
           "category": "Materials/TreePlanting",
           "description": "Oak Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-          "powerLevel": 1,
           "vitalShield": 0
         },
         {
-          "name": "Willow tree seed",
+          "name": "Willow tree Seed",
           "itemData": "QezLIU6YRuQdDUKbCkZqBA",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Willow_Seed.png",
@@ -9281,6 +9572,96 @@
           "category": "Plans"
         },
         {
+          "name": "Golden Bloodblight Cape",
+          "itemData": "WGlzLUBxiaCC0Q-Ztn6twg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Bloodblight.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Bloodblight/DA_Consumable_Pattern_Armor_Cape_Bloodblight_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Bramblemead Cape",
+          "itemData": "yUbb1Ux2VsGK_5CDtc1QOQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Bramblemead.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Brynmoor/Bramblemead/DA_Consumable_Pattern_Armor_Cape_Bramblemead_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Dowdun Reach Cape",
+          "itemData": "N1C4CE-VAvql0vm9UaA9VA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Dowdun_Cape.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/DowdunReach/DA_Consumable_Pattern_Armor_Cape_Dowdun_Reach_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Fellhollow Cape",
+          "itemData": "N3DM1kb_UZyEup2Ao3AONg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_icon_Fellhollow_Cape.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Fellhollow/DA_Consumable_Pattern_Armor_Cape_Fellhollow_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Fractured Cape",
+          "itemData": "wf1ju0IBvUYPjg-ED6uE5A",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Fractured.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Fractured/DA_Consumable_Pattern_Armor_Cape_Fractured_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Scorned Wilderness Cape",
+          "itemData": "TYUGe0jPjWy85Yih7pa7kw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/ScornedWilderness/DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Stormtouched Cape",
+          "itemData": "7W2f9kpS5PMeSmaInHlMGQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Stormtouched.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Ghornfell/Stormtouched/DA_Consumable_Pattern_Armor_Cape_Stormtouched_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Umbral Sands Cape",
+          "itemData": "Ut_Aik-0Nd5zj9mE0onyyA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Umbral_Sands_Cape.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/UmbralSands/DA_Consumable_Pattern_Armor_Cape_Umbral_Sands_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Whispering Cape",
+          "itemData": "KrOdPk-42i4gIdGFJXunIg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/Brynmoor/Whispering/DA_Consumable_Pattern_Armor_Cape_Whispering_Golden.json",
+          "category": "Plans",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Green Dyad Cape",
           "itemData": "2JkcIEt3XWU4szCyT0fVqg",
           "maxStack": 99,
@@ -9301,6 +9682,15 @@
           "description": "A cape made for its looks more than any kind of magical potency. ",
           "equipment": "Cape",
           "vitalShield": 0
+        },
+        {
+          "name": "Icthlarian Fetish",
+          "itemData": "a5rs9Ub7jmlX89io81drhw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_IconIcthlarin_Staff_01.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/AlwaysCook/DA_Consumable_Vestige_Weapon_Staff_PharaohSceptre.json",
+          "category": "Plans",
+          "description": "Perhaps you could learn from it"
         },
         {
           "name": "PLAN: Armadyl Banner 01",
@@ -10762,6 +11152,186 @@
           "weight": 1.0
         },
         {
+          "name": "Reward Pack: Brynmoor Bronze",
+          "itemData": "gckjak_2fGlTn7yr7ofe1Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Brynmoor_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Brynmoor Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Brynmoor Gold",
+          "itemData": "bdV4aE-TtcL0_hKsE4J3KA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Brynmoor_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Brynmoor Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Brynmoor Silver",
+          "itemData": "6aW6zkqGQV6O-N-xKlDJvA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Brynmoor_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Brynmoor Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Dowdun Reach Bronze",
+          "itemData": "scJknEhZNRQKc3unHI2sYw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Dowdun Reach Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Dowdun Reach Gold",
+          "itemData": "KiK0M0sde5xzeJG6w1YP4w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Dowdun Reach Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Dowdun Reach Silver",
+          "itemData": "iADeWE_-Kzkk9t2kZk0lRQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Dowdun Reach Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Fellhollow Bronze",
+          "itemData": "AEmSM0lTgxA8umyNlfx3EQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Fellhollow Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Fellhollow Gold",
+          "itemData": "jRH7pU0sT22VwiWgRTk5YA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Fellhollow Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Fellhollow Silver",
+          "itemData": "UxksR0L6Kjj4Sna4zpCLAA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Fellhollow Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Bronze",
+          "itemData": "TeA5BUrJOZABJ0mfxbwKcA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Bronze",
+          "itemData": "yPyQLU0N7NxbkmyH4ZJoKw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Gold",
+          "itemData": "qorRfkB0RMdMnkCuyrRv7Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Gold",
+          "itemData": "pszRYEf7qauXLG-OFWjkYg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Silver",
+          "itemData": "GGK52U43Q6shdjm0FC0zJw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Ghornfell Silver",
+          "itemData": "pNLgNED5fkTnlnyAVxThkw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Umbral Sands Bronze",
+          "itemData": "AeAxpELhD4HULACEveX33w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Bronze.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Umbral Sands Agility Course with a bronze medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Umbral Sands Gold",
+          "itemData": "m9otvkEed_SW446WWJ2qAg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Gold.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Umbral Sands Agility Course with a gold medal.",
+          "weight": 1.0
+        },
+        {
+          "name": "Reward Pack: Umbral Sands Silver",
+          "itemData": "7qTJG0iGkQC4MMqhpDK1vQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Silver.json",
+          "category": "Tools/Packs",
+          "description": "A reward for finishing Umbral Sands Agility Course with a silver medal.",
+          "weight": 1.0
+        },
+        {
           "name": "item_pack_RewardPack_Camp_A",
           "itemData": "vFTf1ESz99oYbRuJ-BnJyg",
           "maxStack": 10,
@@ -11194,15 +11764,6 @@
           "description": "Nothing is breaking this. Perhaps you could learn from it."
         },
         {
-          "name": "Icthlarian Fetish",
-          "itemData": "a5rs9Ub7jmlX89io81drhw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_IconIcthlarin_Staff_01.png",
-          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Weapon_Staff_PharaohSceptre.json",
-          "category": "Vestiges",
-          "description": "Perhaps you could learn from it"
-        },
-        {
           "name": "Inspiring Insignia",
           "itemData": "6uxEu0X34rg-BvWpLEwLDw",
           "maxStack": 99,
@@ -11467,7 +12028,7 @@
           "name": "Shred of Sunbleached Weave",
           "itemData": "jLL-nUIrmltWy7i3Ccp3Ww",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Placeholder.png",
+          "iconPath": "/shared/icons/T_Icon_Umbral_Sands_Cape.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_UmbralSands.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
@@ -11595,6 +12156,15 @@
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_HEAD_Kal_ceVestigeArmour_01.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_T7_Head_KalpiteCarapace.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn from it"
+        },
+        {
+          "name": "Unyielding Obsidian Construct",
+          "itemData": "Ff7O70nGmOBlTMSvSlF2Fg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Kohtar_Shield.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Weapon_Shield_ToktzKetXil.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
         },
@@ -13186,7 +13756,7 @@
           "name": "Adamant Arrow",
           "itemData": "ZT1Lf0dvi6G6vbSbllOXtw",
           "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Arrow_Steel.png",
+          "iconPath": "/shared/icons/T_Icon_Arrows_Adamant.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Adamant_Bodkin.json",
           "category": "Arrows",
           "description": "Arrows with tips forged from adamant.",
@@ -13197,7 +13767,7 @@
           "name": "Adamant Barbed Arrow",
           "itemData": "RP4tj0NiI5KT1SS0PzbA0g",
           "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Arrow_Steel.png",
+          "iconPath": "/shared/icons/T_Icon_Arrows_Adamant.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Adamant_Bleed.json",
           "category": "Arrows",
           "description": "Lacerating arrows with tips forged from adamant.",
@@ -13208,7 +13778,7 @@
           "name": "Adamant Fire Arrow",
           "itemData": "SLm1L0ZdMPSDkRmrf0eHsA",
           "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Arrow_Steel.png",
+          "iconPath": "/shared/icons/T_Icon_Arrows_Adamant.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Adamant_Fire.json",
           "category": "Arrows",
           "description": "Arrows with tips forged from adamant, coated in fire oil.",
@@ -13340,7 +13910,7 @@
           "name": "Poisoned Adamant Arrow",
           "itemData": "tnZBDk_v_ASuC9OJHq00fw",
           "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Arrow_Steel.png",
+          "iconPath": "/shared/icons/T_Icon_Arrows_Adamant.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Adamant_Poison.json",
           "category": "Arrows",
           "description": "Arrows with tips forged from adamant coated in Weapon Poison.",
@@ -13460,7 +14030,7 @@
           "name": "Adamant Bolt",
           "itemData": "RNurF0W7JRiX6iKByxv1uA",
           "maxStack": 999,
-          "iconPath": "/shared/icons/T_Icon_Steel_Bolt.png",
+          "iconPath": "/shared/icons/T_Icon_Bolts_Adamant.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Adamant.json",
           "category": "Bolts",
           "description": "A crossbow bolt with an adamant tip.",
@@ -13655,6 +14225,15 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/Main/ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword.json",
           "category": "Quest",
           "description": "The shattered remnant of the Black Knight Titan's sword."
+        },
+        {
+          "name": "Bucket of Milk",
+          "itemData": "rQ0QSU-IDvSacAiYVFKVVg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_icon_Wooden_Bucket.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_CooksAssistant_Milk.json",
+          "category": "Quest",
+          "description": "A bucket of milk from a stubborn cow."
         },
         {
           "name": "Bundle of Undead Twigs",
@@ -13864,14 +14443,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_GreatBodyRobbery_Body_01.json",
           "category": "Quest",
           "description": "A surprisingly well-preserved human torso, must be ancient. Doctor Fenkenstrain is looking for something just like it. "
-        },
-        {
-          "name": "ITEM_Quest_CooksAssistant_Milk",
-          "itemData": "rQ0QSU-IDvSacAiYVFKVVg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_icon_Wooden_Bucket.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_CooksAssistant_Milk.json",
-          "category": "Quest"
         },
         {
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",

@@ -138,6 +138,10 @@
         "ObjectName": "ForceFeedbackEffect'SpellPadColourYellow'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourYellow.1"
       },
+      "SpecialRequirementsStrategy": {
+        "ObjectName": "BlueprintGeneratedClass'BP_USSRS_NotRunningAgilityCourse_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_NotRunningAgilityCourse.0"
+      },
       "Modules": {
         "Modules": [
           {

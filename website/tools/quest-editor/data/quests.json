@@ -1,6 +1,6 @@
 {
-  "version": "0.12.0.8",
-  "generatedAtUtc": "2026-06-27T19:48:54Z",
+  "version": "0.12.1.0",
+  "generatedAtUtc": "2026-07-29T12:44:00Z",
   "quests": [
     {
       "persistence_id": "3MpWS0mD8A6yFVmjVAA2Qg",
@@ -375,7 +375,7 @@
       "internal_name": "Quest_DR_FTUE_Fishing",
       "display_name": "Shrimp Catcher",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": false
     },
     {

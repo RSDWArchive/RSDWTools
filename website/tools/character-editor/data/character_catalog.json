@@ -231,6 +231,15 @@
       "max_level": 99,
       "icon": "T_Notification_Skill_Runecrafting.png",
       "tag_icon": "T_Icon_Tag_Skill_Runecrafting.png"
+    },
+    {
+      "id": "pJggvotwOkuoc98igUn7xA",
+      "display_name": "Agility",
+      "internal_name": "skill_agility",
+      "skill_type": "ESkill::Agility",
+      "max_level": 99,
+      "icon": "T_Notification_Skill_Agility.png",
+      "tag_icon": "T_Icon_Tag_Skill_Agility.png"
     }
   ],
   "Mounts": [

@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T6_Legs_Zamorak"
+        "RowName": "T06_Armour_Legs_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "Slot": "ELoadoutSlotStrategy::Legs",
@@ -59,6 +59,8 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "qoTWm0fCuyU02EaXPn_WYw",
       "InternalName": "armour_legs_zamorak"
     }

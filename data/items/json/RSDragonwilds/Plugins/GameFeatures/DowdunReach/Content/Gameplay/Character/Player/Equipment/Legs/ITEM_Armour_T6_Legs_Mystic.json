@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T6_Legs_Mystic"
+        "RowName": "T06_Armour_Legs_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "Slot": "ELoadoutSlotStrategy::Legs",

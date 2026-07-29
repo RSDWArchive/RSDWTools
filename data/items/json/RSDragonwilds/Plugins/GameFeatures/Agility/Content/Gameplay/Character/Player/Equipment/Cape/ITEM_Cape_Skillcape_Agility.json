@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_Skillcape_Agility",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Skillcape_Agility_MeshData_Male'",
+        "ObjectPath": "/Agility/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Skillcape_Agility_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Skillcape_Agility_MeshData_Female'",
+        "ObjectPath": "/Agility/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Skillcape_Agility_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Adventurers_Black"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Skillcape_Agility_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SkillCapes/GE_Skillcape_Agility.0"
+        }
+      ],
+      "SkillPerkRequiredToEquip": {
+        "ObjectName": "SkillPerkData'PerkV2_Agility_SkillCape'",
+        "ObjectPath": "/Agility/Gameplay/Character/Player/PerksV2/PerkV2_Agility_SkillCape"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AgilityCape",
+        "SourceString": "Agility Cape",
+        "LocalizedString": "Agility Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AgilityCape",
+        "SourceString": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+        "LocalizedString": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride."
+      },
+      "Icon": {
+        "AssetPathName": "/Agility/Art/UI/Inventory/T_Icon_Cape_Skill_Agility.T_Icon_Cape_Skill_Agility",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AgilitySkillcape",
+            "SourceString": "You have a small chance to not consume stamina for the following actions: Jump, Dash and Evade.",
+            "LocalizedString": "You have a small chance to not consume stamina for the following actions: Jump, Dash and Evade."
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "PersistenceID": "2gcM1EPLyMw2VHCGD1pZHQ",
+      "InternalName": "armour_t0_cape_skillcape_Agility"
+    }
+  }
+]

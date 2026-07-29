@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T2_Body_Leather"
+        "RowName": "T02_Armour_Body_Medium"
       },
       "ArmorWeight": "EArmorWeight::Medium",
       "Slot": "ELoadoutSlotStrategy::Body",

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "SeedHeldEquipmentData",
+    "Name": "ITEM_Farming_Seed_Avantoe",
+    "Class": "UScriptClass'SeedHeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FarmPlantData": {
+        "ObjectName": "FarmPlantDataAsset'FPD_Avantoe'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Plants/FPD_Avantoe.0"
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/BP_Farming_Seed_Avantoe.BP_Farming_Seed_Avantoe_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Farming_TryPlantSeed_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Seeds/PA_Farming_TryPlantSeed.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Farming_Seedbag_pose'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose.0"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_Seed_Avantoe",
+        "SourceString": "Avantoe Seeds",
+        "LocalizedString": "Avantoe Seeds"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Seed_Avantoe",
+        "SourceString": "Equip and use these seeds to scatter them in a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
+        "LocalizedString": "Equip and use these seeds to scatter them in a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots."
+      },
+      "Icon": {
+        "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_Avantoe_seeds_v2.T_Icon_Avantoe_seeds_v2",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_01_Drop.SM_SeedBag_1H_01_Drop",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 99,
+      "ItemFilterTags": [
+        "Item.Farming.CanBeSummonedByHarvestSpell",
+        "Item.Farming.ShowProgress",
+        "ItemFilter.Material.Seed"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.Seed"
+      },
+      "PersistenceID": "-6OQn0vK8wqfGn2Wh1TeXA",
+      "InternalName": "tool_farming_seed_avantoe"
+    }
+  }
+]

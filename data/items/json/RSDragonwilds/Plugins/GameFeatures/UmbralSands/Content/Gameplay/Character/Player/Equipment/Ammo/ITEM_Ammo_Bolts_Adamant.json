@@ -49,7 +49,7 @@
         "LocalizedString": "A crossbow bolt with an adamant tip."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Steel_Bolt.T_Icon_Steel_Bolt",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Bolts_Adamant.T_Icon_Bolts_Adamant",
         "SubPathString": ""
       },
       "StaticMesh": {

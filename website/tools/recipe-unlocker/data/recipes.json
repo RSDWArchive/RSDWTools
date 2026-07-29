@@ -1420,11 +1420,11 @@
         "icon": "T_Icon_LoggingAxe_Iron_2H_01.png"
       },
       {
-        "item_id": "ITEM_Resources_Wood_Ash",
+        "item_id": "ITEM_Resources_Bark_Hollow",
         "count": 3,
-        "display_name": "Ash Logs",
-        "persistence_id": "2rxJ495rm0GDn4h5OWKiyQ",
-        "icon": "T_Icon_Ash_Logs.png"
+        "display_name": "Hollow Bark",
+        "persistence_id": "kSC5h08_DEq2H7CMAVDN9Q",
+        "icon": "T_Icon_Hollow_Bark.png"
       }
     ]
   },
@@ -6755,7 +6755,7 @@
       },
       {
         "item_id": "ITEM_Scimitar_Steel",
-        "count": 5,
+        "count": 1,
         "display_name": "Steel Scimitar",
         "persistence_id": "-AMBe0n3DyCGhIWsqB8r-Q",
         "icon": "T_icon_Steel_1H_Scimitar.png"
@@ -20898,6 +20898,794 @@
     ]
   },
   {
+    "name": "RECIPE_Armour_T0_Cape_Skillcape_Agility",
+    "internal_name": "recipe_armour_t0_cape_skillcape_agility",
+    "persistence_id": "r0J5zUHguBJAQry__NStRg",
+    "row_name": "",
+    "display_name": "Agility Cape",
+    "icon": "T_Icon_Cape_Skill_Agility.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Skillcape_Agility",
+        "count": 1,
+        "display_name": "Agility Cape",
+        "persistence_id": "2gcM1EPLyMw2VHCGD1pZHQ",
+        "icon": "T_Icon_Cape_Skill_Agility.png"
+      }
+    ],
+    "items_consumed": []
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_TrimmedSkillcape_Agility",
+    "internal_name": "recipe_armour_t0_cape_trimmedskillcape_agility",
+    "persistence_id": "HNAkqUlcdWN8u-OrSKxbVQ",
+    "row_name": "",
+    "display_name": "Agility Cape (Trimmed)",
+    "icon": "T_Icon_Cape_Skill_Agility_Master.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Trimmed_Skillcape_Agility",
+        "count": 1,
+        "display_name": "Agility Cape (Trimmed)",
+        "persistence_id": "ocqDGE89vibNJAe55FOoHA",
+        "icon": "T_Icon_Cape_Skill_Agility_Master.png"
+      }
+    ],
+    "items_consumed": []
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Bramblemead_Golden",
+    "internal_name": "recipe_armour_t0_cape_bramblemead_golden",
+    "persistence_id": "UJedIEqg_N3LUGaafyHpOg",
+    "row_name": "",
+    "display_name": "Golden Bramblemead Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Bramblemead_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Bramblemead_Golden",
+        "count": 1,
+        "display_name": "Golden Bramblemead Cape",
+        "persistence_id": "0NWSREdc38j-yzegadxzCw",
+        "icon": "T_Icon_SM_M_MED_Cape_Bramblemead_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Bramblemead",
+        "count": 1,
+        "display_name": "Bramblemead Cape",
+        "persistence_id": "4hYWzULKMjNsgOuwHL7UAA",
+        "icon": "T_Icon_Cape_Bramblemead.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Whispering_Golden",
+    "internal_name": "recipe_armour_t0_cape_whispering_golden",
+    "persistence_id": "7YlwNk9CXukMsHCPqeWJdQ",
+    "row_name": "",
+    "display_name": "Golden Whispering Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Whispering_Swamp_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Whispering_Golden",
+        "count": 1,
+        "display_name": "Golden Whispering Cape",
+        "persistence_id": "LZlgSkvDmvAguaSaODXhYw",
+        "icon": "T_Icon_SM_M_MED_Cape_Whispering_Swamp_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Whispering",
+        "count": 1,
+        "display_name": "Whispering Cape",
+        "persistence_id": "qANQGE8VKB_lSNeI-PHxGQ",
+        "icon": "T_Icon_Cape_Whispering.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_DowdunReach_Golden",
+    "internal_name": "recipe_armour_t0_cape_dowdunreach_golden",
+    "persistence_id": "1gxcnkbWnXYwjESl6cWurQ",
+    "row_name": "",
+    "display_name": "Dowdun Reach Cape",
+    "icon": "T_Icon_Dowdun_Cape.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_DowdunReach",
+        "count": 1,
+        "display_name": "Dowdun Reach Cape",
+        "persistence_id": "riwrC0Y5m40rZQmr4XkJoQ",
+        "icon": "T_Icon_Dowdun_Cape.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_DowdunReach",
+        "count": 1,
+        "display_name": "Dowdun Reach Cape",
+        "persistence_id": "riwrC0Y5m40rZQmr4XkJoQ",
+        "icon": "T_Icon_Dowdun_Cape.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Fellhollow_Golden",
+    "internal_name": "recipe_armour_t0_cape_fellhollow_golden",
+    "persistence_id": "tFHye05kTasv1pG9SstvYQ",
+    "row_name": "",
+    "display_name": "Golden Fellhollow Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Fellhollow_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Fellhollow_Golden",
+        "count": 1,
+        "display_name": "Golden Fellhollow Cape",
+        "persistence_id": "jqArXUWDqzwOKQCcmHhpTg",
+        "icon": "T_Icon_SM_M_MED_Cape_Fellhollow_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Fellhollow",
+        "count": 1,
+        "display_name": "Fellhollow Cape",
+        "persistence_id": "bseydkEw3fTibEODEw9VJw",
+        "icon": "T_icon_Fellhollow_Cape.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Bloodblight_Golden",
+    "internal_name": "recipe_armour_t0_cape_bloodblight_golden",
+    "persistence_id": "7rlMMUnx_68Kg7ivewrfYw",
+    "row_name": "",
+    "display_name": "Golden Bloodblight Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Bloodblight_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Bloodblight_Golden",
+        "count": 1,
+        "display_name": "Golden Bloodblight Cape",
+        "persistence_id": "HuIAAEaKrXsAwCK8H0tWfw",
+        "icon": "T_Icon_SM_M_MED_Cape_Bloodblight_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Bloodblight",
+        "count": 1,
+        "display_name": "Bloodblight Cape",
+        "persistence_id": "emA_O0RntNNsrNuNVOTmow",
+        "icon": "T_Icon_Cape_Bloodblight.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Fractured_Golden",
+    "internal_name": "recipe_armour_t0_cape_fractured_golden",
+    "persistence_id": "Quh6zUR93yPOQbaLBmQ-kw",
+    "row_name": "",
+    "display_name": "Golden Fractured Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Fractured_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Fractured_Golden",
+        "count": 1,
+        "display_name": "Golden Fractured Cape",
+        "persistence_id": "jJt7jk-NhijjFVuxP2FXfA",
+        "icon": "T_Icon_SM_M_MED_Cape_Fractured_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Fractured",
+        "count": 1,
+        "display_name": "Fractured Cape",
+        "persistence_id": "71LhGUmAvrlALY6KcS8W3Q",
+        "icon": "T_Icon_Cape_Fractured.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_Stormtouched_Golden",
+    "internal_name": "recipe_armour_t0_cape_stormtouched_golden",
+    "persistence_id": "T-95O007QUq1kOyZfeHrzQ",
+    "row_name": "",
+    "display_name": "Golden Stormtouched Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Stormtouched_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Stormtouched_Golden",
+        "count": 1,
+        "display_name": "Golden Stormtouched Cape",
+        "persistence_id": "qrl1V0_2wgflo9Cscl3gBg",
+        "icon": "T_Icon_SM_M_MED_Cape_Stormtouched_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Stormtouched",
+        "count": 1,
+        "display_name": "Stormtouched Cape",
+        "persistence_id": "KMexB0_3MwL8rEC0g0xd5g",
+        "icon": "T_Icon_Cape_Stormtouched.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_ScornedWilderness_Golden",
+    "internal_name": "recipe_armour_t0_cape_ScornedWilderness_golden",
+    "persistence_id": "RENSUU8lGk61FCqViRN_6g",
+    "row_name": "",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_ScornedWilderness_Golden",
+        "count": 1,
+        "display_name": "Golden Scorned Wilderness Cape",
+        "persistence_id": "-iZRtEKn4sDgLbu0ikhT2g",
+        "icon": "T_Icon_Cape_Whispering.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Whispering",
+        "count": 1,
+        "display_name": "Whispering Cape",
+        "persistence_id": "qANQGE8VKB_lSNeI-PHxGQ",
+        "icon": "T_Icon_Cape_Whispering.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_UmbralSands_Golden",
+    "internal_name": "recipe_armour_t0_cape_UmbralSands_golden",
+    "persistence_id": "cTIIPUiW2eMvh4y-XvQyOg",
+    "row_name": "",
+    "display_name": "Golden Umbral Sands Cape",
+    "icon": "T_Icon_SM_M_MED_Cape_Umbral_Sands_Gilded.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_UmbralSands_Golden",
+        "count": 1,
+        "display_name": "Golden Umbral Sands Cape",
+        "persistence_id": "sjIZQ0LSydKUmrqtcnNaVg",
+        "icon": "T_Icon_SM_M_MED_Cape_Umbral_Sands_Gilded.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_UmbralSands",
+        "count": 1,
+        "display_name": "Umbral Sands Cape",
+        "persistence_id": "Zpa3i0jDJOSNw5eyojsvNA",
+        "icon": "T_Icon_Umbral_Sands_Cape.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Trinket_Gyrhawk_Amulet",
+    "internal_name": "recipe_trinket_silverhawk_amulet",
+    "persistence_id": "Z7_aw0OrCnI3CEyH4lb3HA",
+    "row_name": "",
+    "display_name": "Gyrhawk Amulet",
+    "icon": "T_Icon_GyrhawkAmulet.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Gyrhawk_Amulet",
+        "count": 1,
+        "display_name": "Gyrhawk Amulet",
+        "persistence_id": "0tiXEUpXPMTUvgGRZLeRIw",
+        "icon": "T_Icon_GyrhawkAmulet.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Thread_Coarse",
+        "count": 5,
+        "display_name": "Coarse Thread",
+        "persistence_id": "Dns4MEGuhT5fcRWocI5o9Q",
+        "icon": "T_Icon_Resource_Thread.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Warped_Feathers",
+        "count": 8,
+        "display_name": "Warped Feathers",
+        "persistence_id": "9yk1XkCxmFjwO1SwsRw3vQ",
+        "icon": "T_Icon_Warped_Feathers.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Trinket_Gyrhawk_Golden",
+    "internal_name": "recipe_trinket_silverhawk_amulet_golden",
+    "persistence_id": "093tNkQnbpi9sH6d4j7TuA",
+    "row_name": "",
+    "display_name": "Gilded Gyrhawk Amulet",
+    "icon": "T_Icon_Gold_GyrhawkAmulet.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Gyrhawk_Amulet_Golden",
+        "count": 1,
+        "display_name": "Gilded Gyrhawk Amulet",
+        "persistence_id": "c58uRUng_7z6S82IC3vYdA",
+        "icon": "T_Icon_Gold_GyrhawkAmulet.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Trinket_Gyrhawk_Amulet",
+        "count": 1,
+        "display_name": "Gyrhawk Amulet",
+        "persistence_id": "0tiXEUpXPMTUvgGRZLeRIw",
+        "icon": "T_Icon_GyrhawkAmulet.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 20,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Trinket_Inspiring_Agility",
+    "internal_name": "recipe_trinket_inspiring_agility",
+    "persistence_id": "Tf08a0a5_LDeVkC4VgliMg",
+    "row_name": "",
+    "display_name": "Inspiring Ring of Agility",
+    "icon": "T_Icon_Ring_Inspiring.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Inspiring_Agility",
+        "count": 1,
+        "display_name": "Inspiring Ring of Agility",
+        "persistence_id": "5kDKqUKN-DPKZQi97nYTCw",
+        "icon": "T_Icon_Ring_Inspiring.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Clay_Mould",
+        "count": 1,
+        "display_name": "Clay Mould",
+        "persistence_id": "zEg0M0VWEp6-wLOhkvYJ8A",
+        "icon": "T_Icon_Resource_Clay_Mould.png"
+      },
+      {
+        "item_id": "ITEM_Resources_SilverBar",
+        "count": 2,
+        "display_name": "Silver Bar",
+        "persistence_id": "gunABauXjk6khTFVIKifoA",
+        "icon": "T_Icon_Resource_Bar_Silver.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Opal",
+        "count": 2,
+        "display_name": "Opal",
+        "persistence_id": "GAnIKkuMoUfiGC2wiSfmqg",
+        "icon": "T_Icon_Resource_Opal.png"
+      },
+      {
+        "item_id": "ITEM_Resources_VaultShard",
+        "count": 3,
+        "display_name": "Vault Shard",
+        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
+        "icon": "T_Icon_Resource_Vault_Shard.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Potion_Focused_T1_Weak_Agility",
+    "internal_name": "RECIPE_Consumable_Potion_Focused_T1_Weak_Agility",
+    "persistence_id": "AVyR9kOaPpr-G4Cc5dygVw",
+    "row_name": "Craft_Herblore_Lab_Recipe",
+    "display_name": "Weak Focused Agility Potion",
+    "icon": "T_Icon_Weak_Red_Potion.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Focused_T1_Weak_Agility",
+        "count": 1,
+        "display_name": "Weak Focused Agility Potion",
+        "persistence_id": "7w8X70Js0v6MxTenuDRGSg",
+        "icon": "T_Icon_Weak_Red_Potion.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Herb_Marrentill",
+        "count": 1,
+        "display_name": "Marrentill",
+        "persistence_id": "U3fAKU2mI0apYz-rc0qWcQ",
+        "icon": "T_Icon_Resource_Marrentil.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Bronze_Leaf",
+        "count": 1,
+        "display_name": "Bronze Leaf",
+        "persistence_id": "lLdg5kHhPe_aH7Ge0q0-cA",
+        "icon": "T_Icon_Bronze_Leaf.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Clay_Vessel",
+        "count": 1,
+        "display_name": "Clay Vessel",
+        "persistence_id": "uTmDj0pXttZKU7qob4UvNw",
+        "icon": "T_Icon_Fired_Clay_Vessel.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Potion_Focused_T2_Lesser_Agility",
+    "internal_name": "RECIPE_Consumable_Potion_Focused_T2_Lesser_Agility",
+    "persistence_id": "FOUp2E_eYb3xJ32MODA_vQ",
+    "row_name": "Craft_Herblore_Lab_Recipe",
+    "display_name": "Lesser Focused Agility Potion",
+    "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Agility",
+        "count": 1,
+        "display_name": "Lesser Focused Agility Potion",
+        "persistence_id": "OD5pQEsin7INsTO67zlr6w",
+        "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Herb_Snapdragon",
+        "count": 1,
+        "display_name": "Snapdragon",
+        "persistence_id": "VP4HYkC55gMC4pGC3c6L4w",
+        "icon": "T_Icon_Resource_Snap_Dragon.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Silver_Leaf",
+        "count": 1,
+        "display_name": "Silver Leaf",
+        "persistence_id": "kLtMy0b8zZGUNXqOnIO1TQ",
+        "icon": "T_Icon_Silver_Leaf.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Clay_Vessel",
+        "count": 1,
+        "display_name": "Clay Vessel",
+        "persistence_id": "uTmDj0pXttZKU7qob4UvNw",
+        "icon": "T_Icon_Fired_Clay_Vessel.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Potion_Focused_T3_Agility",
+    "internal_name": "RECIPE_Consumable_Potion_Focused_T3_Agility",
+    "persistence_id": "W-VvQEvEX2MXO1a-Wpatkw",
+    "row_name": "Craft_Herblore_Lab_Recipe",
+    "display_name": "Focused Agility Potion",
+    "icon": "T_Icon_Potion_Tier3_Red.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Focused_T3_Agility",
+        "count": 1,
+        "display_name": "Focused Agility Potion",
+        "persistence_id": "-AnBxkV80dPyh1CuYCzItg",
+        "icon": "T_Icon_Potion_Tier3_Red.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Agility_Avantoe",
+        "count": 1,
+        "display_name": "Avantoe",
+        "persistence_id": "awC3tEtnaioupsqub2UC2A",
+        "icon": "T_Icon_Avantoe_Herb_v2.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 1,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Glass_Vessel",
+        "count": 1,
+        "display_name": "Glass Vessel",
+        "persistence_id": "fliBkkBZfNJwhpej98Q2xA",
+        "icon": "T_Icon_Glass_Vessel.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Potion_Stamina",
+    "internal_name": "RECIPE_Consumable_Potion_Stamina",
+    "persistence_id": "dik58kBZcjleziyFAcmCYw",
+    "row_name": "Craft_Herblore_Lab_Recipe",
+    "display_name": "Stamina Potion",
+    "icon": "T_Icon_Super_Potion__T4_Yellow.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Stamina",
+        "count": 1,
+        "display_name": "Stamina Potion",
+        "persistence_id": "W0iKvUtaCMML_3iPRANO6Q",
+        "icon": "T_Icon_Super_Potion__T4_Yellow.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Agility_Amylase_Crystal",
+        "count": 1,
+        "display_name": "Amylase Crystal",
+        "persistence_id": "JkkgFEcMSlbLJ8CVW7Z22Q",
+        "icon": "T_Icon_AmylaseCrystal.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Avantoe",
+        "count": 1,
+        "display_name": "Avantoe",
+        "persistence_id": "awC3tEtnaioupsqub2UC2A",
+        "icon": "T_Icon_Avantoe_Herb_v2.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Glass_Vessel",
+        "count": 1,
+        "display_name": "Glass Vessel",
+        "persistence_id": "fliBkkBZfNJwhpej98Q2xA",
+        "icon": "T_Icon_Glass_Vessel.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Potion_T3_to_T4_Agility",
+    "internal_name": "recipe_potion_t3_to_t4_agility",
+    "persistence_id": "ZSNKp0dhzQkvP1CeG5dU0A",
+    "row_name": "Craft_Crafting_Table_Recipe_Tier2",
+    "display_name": "Super Focused Agility Potion",
+    "icon": "T_Icon_Super_Potion__T4_Red.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Focused_T4_Super_Agility",
+        "count": 1,
+        "display_name": "Super Focused Agility Potion",
+        "persistence_id": "olhcdkOUSa_5VkyiSxchdg",
+        "icon": "T_Icon_Super_Potion__T4_Red.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Consumable_Potion_Focused_T3_Agility",
+        "count": 1,
+        "display_name": "Focused Agility Potion",
+        "persistence_id": "-AnBxkV80dPyh1CuYCzItg",
+        "icon": "T_Icon_Potion_Tier3_Red.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Bar_Bronze_From_Leaf",
+    "internal_name": "recipe_bar_bronze_from_leaf",
+    "persistence_id": "29yFKE7Nuju271ifj0DXCA",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Bronze Bar",
+    "icon": "T_Icon_Resource_Bar_Bronze.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_BronzeBar",
+        "count": 1,
+        "display_name": "Bronze Bar",
+        "persistence_id": "Y2Y48OMHukKIilN4srd7cA",
+        "icon": "T_Icon_Resource_Bar_Bronze.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Agility_Bronze_Leaf",
+        "count": 10,
+        "display_name": "Bronze Leaf",
+        "persistence_id": "lLdg5kHhPe_aH7Ge0q0-cA",
+        "icon": "T_Icon_Bronze_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Bar_Gold_From_Leaf",
+    "internal_name": "recipe_bar_gold_from_leaf",
+    "persistence_id": "ps65Hkl4n9Fzm6qLfQfnEQ",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Gold Bar",
+    "icon": "T_Icon_Resource_Bar_Gold.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_GoldBar",
+        "count": 1,
+        "display_name": "Gold Bar",
+        "persistence_id": "9jFU2lh9l0qPbNTspGCBFA",
+        "icon": "T_Icon_Resource_Bar_Gold.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 10,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Bar_Silver_From_Leaf",
+    "internal_name": "recipe_bar_silver_from_leaf",
+    "persistence_id": "UnCKOkCRE5gWdzqG8Hvjyg",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Silver Bar",
+    "icon": "T_Icon_Resource_Bar_Silver.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_SilverBar",
+        "count": 1,
+        "display_name": "Silver Bar",
+        "persistence_id": "gunABauXjk6khTFVIKifoA",
+        "icon": "T_Icon_Resource_Bar_Silver.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Agility_Silver_Leaf",
+        "count": 10,
+        "display_name": "Silver Leaf",
+        "persistence_id": "kLtMy0b8zZGUNXqOnIO1TQ",
+        "icon": "T_Icon_Silver_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Bronze_Leaf_From_Bar",
+    "internal_name": "recipe_leaf_bronze_from_bar",
+    "persistence_id": "-XLXcEnXKCJRASGKuup-Bg",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Bronze Leaf",
+    "icon": "T_Icon_Bronze_Leaf.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_Agility_Bronze_Leaf",
+        "count": 10,
+        "display_name": "Bronze Leaf",
+        "persistence_id": "lLdg5kHhPe_aH7Ge0q0-cA",
+        "icon": "T_Icon_Bronze_Leaf.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_BronzeBar",
+        "count": 1,
+        "display_name": "Bronze Bar",
+        "persistence_id": "Y2Y48OMHukKIilN4srd7cA",
+        "icon": "T_Icon_Resource_Bar_Bronze.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Gold_Leaf_From_Bar",
+    "internal_name": "recipe_leaf_gold_from_bar",
+    "persistence_id": "1MvUH0PHx6kKgf-YWMHdcA",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Gold Leaf",
+    "icon": "T_Icon_Gold_Leaf.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 10,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_GoldBar",
+        "count": 1,
+        "display_name": "Gold Bar",
+        "persistence_id": "9jFU2lh9l0qPbNTspGCBFA",
+        "icon": "T_Icon_Resource_Bar_Gold.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Process_Silver_Leaf_From_Bar",
+    "internal_name": "recipe_leaf_silver_from_bar",
+    "persistence_id": "xUiJWEPpQ8Pnp6CHLF7NOQ",
+    "row_name": "Process_Smelting_Tier4",
+    "display_name": "Silver Leaf",
+    "icon": "T_Icon_Silver_Leaf.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_Agility_Silver_Leaf",
+        "count": 10,
+        "display_name": "Silver Leaf",
+        "persistence_id": "kLtMy0b8zZGUNXqOnIO1TQ",
+        "icon": "T_Icon_Silver_Leaf.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_SilverBar",
+        "count": 1,
+        "display_name": "Silver Bar",
+        "persistence_id": "gunABauXjk6khTFVIKifoA",
+        "icon": "T_Icon_Resource_Bar_Silver.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Ammo_Arrows_Mithril_Bleed",
     "internal_name": "recipe_ammo_arrows_mithril_bleed",
     "persistence_id": "KgFnT0y9wE3QflWNBiULtQ",
@@ -25752,14 +26540,14 @@
     "persistence_id": "kXQhwExyFISh3j28DfDppA",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
     "display_name": "Adamant Barbed Arrow",
-    "icon": "T_Icon_Arrow_Steel.png",
+    "icon": "T_Icon_Arrows_Adamant.png",
     "items_created": [
       {
         "item_id": "ITEM_Ammo_Arrows_Adamant_Bleed",
         "count": 33,
         "display_name": "Adamant Barbed Arrow",
         "persistence_id": "RP4tj0NiI5KT1SS0PzbA0g",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       }
     ],
     "items_consumed": [
@@ -25768,7 +26556,7 @@
         "count": 33,
         "display_name": "Adamant Arrow",
         "persistence_id": "ZT1Lf0dvi6G6vbSbllOXtw",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       },
       {
         "item_id": "ITEM_Consumable_WeaponBarbs",
@@ -25785,14 +26573,14 @@
     "persistence_id": "q3mAI0ksel604mu9FmvpNQ",
     "row_name": "Craft_Smithing_Forge_Tier4",
     "display_name": "Adamant Arrow",
-    "icon": "T_Icon_Arrow_Steel.png",
+    "icon": "T_Icon_Arrows_Adamant.png",
     "items_created": [
       {
         "item_id": "ITEM_Ammo_Arrows_Adamant_Bodkin",
         "count": 33,
         "display_name": "Adamant Arrow",
         "persistence_id": "ZT1Lf0dvi6G6vbSbllOXtw",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       }
     ],
     "items_consumed": [
@@ -25825,14 +26613,14 @@
     "persistence_id": "5IxtkUjp__WoW8WZRy2kVw",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
     "display_name": "Adamant Fire Arrow",
-    "icon": "T_Icon_Arrow_Steel.png",
+    "icon": "T_Icon_Arrows_Adamant.png",
     "items_created": [
       {
         "item_id": "ITEM_Ammo_Arrows_Adamant_Fire",
         "count": 33,
         "display_name": "Adamant Fire Arrow",
         "persistence_id": "SLm1L0ZdMPSDkRmrf0eHsA",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       }
     ],
     "items_consumed": [
@@ -25841,7 +26629,7 @@
         "count": 33,
         "display_name": "Adamant Arrow",
         "persistence_id": "ZT1Lf0dvi6G6vbSbllOXtw",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       },
       {
         "item_id": "ITEM_Resources_FireOil",
@@ -25858,14 +26646,14 @@
     "persistence_id": "JexrykTRXyzthAOl-UlTCQ",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
     "display_name": "Poisoned Adamant Arrow",
-    "icon": "T_Icon_Arrow_Steel.png",
+    "icon": "T_Icon_Arrows_Adamant.png",
     "items_created": [
       {
         "item_id": "ITEM_Ammo_Arrows_Adamant_Poison",
         "count": 33,
         "display_name": "Poisoned Adamant Arrow",
         "persistence_id": "tnZBDk_v_ASuC9OJHq00fw",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       }
     ],
     "items_consumed": [
@@ -25874,7 +26662,7 @@
         "count": 33,
         "display_name": "Adamant Arrow",
         "persistence_id": "ZT1Lf0dvi6G6vbSbllOXtw",
-        "icon": "T_Icon_Arrow_Steel.png"
+        "icon": "T_Icon_Arrows_Adamant.png"
       },
       {
         "item_id": "ITEM_Consumable_WeaponPoison",
@@ -25891,14 +26679,14 @@
     "persistence_id": "RevgUE5_pbjpb9GHU5IzOg",
     "row_name": "Craft_Smithing_Forge_Tier3",
     "display_name": "Adamant Bolt",
-    "icon": "T_Icon_Steel_Bolt.png",
+    "icon": "T_Icon_Bolts_Adamant.png",
     "items_created": [
       {
         "item_id": "ITEM_Ammo_Bolts_Adamant",
         "count": 33,
         "display_name": "Adamant Bolt",
         "persistence_id": "RNurF0W7JRiX6iKByxv1uA",
-        "icon": "T_Icon_Steel_Bolt.png"
+        "icon": "T_Icon_Bolts_Adamant.png"
       }
     ],
     "items_consumed": [
@@ -25949,24 +26737,24 @@
     "internal_name": "recipe_t4_upgrade_core",
     "persistence_id": "ajGeEkgw6ZMP4I-V1ox6wg",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_White.png",
+    "display_name": "Ascension Core 4",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Blue.png",
     "items_created": [
       {
         "item_id": "ITEM_Resources_T4_Upgrade_Core",
         "count": 1,
-        "display_name": "Ascension Core",
+        "display_name": "Ascension Core 4",
         "persistence_id": "nU6Fg0T66QR19Q66XKbv8Q",
-        "icon": "T_Icon_Nightmare_Crucible_Keys_01_White.png"
+        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Blue.png"
       }
     ],
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_T4_Upgrade_Shard",
         "count": 99,
-        "display_name": "Ascension Shard",
+        "display_name": "Ascension Shard 4",
         "persistence_id": "H8Ib6kekRERuiGKtbEvpmQ",
-        "icon": "T_Icon_Upgrade_Core_small_White.png"
+        "icon": "T_Icon_Upgrade_Core_small_Blue.png"
       },
       {
         "item_id": "ITEM_Resources_IronBar",
@@ -25996,24 +26784,24 @@
     "internal_name": "recipe_t5_upgrade_core",
     "persistence_id": "oKTk5kJrrqcDZPmswRmE8g",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Green.png",
+    "display_name": "Ascension Core 5",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Purple.png",
     "items_created": [
       {
         "item_id": "ITEM_Resources_T5_Upgrade_Core",
         "count": 1,
-        "display_name": "Ascension Core",
+        "display_name": "Ascension Core 5",
         "persistence_id": "b1LuN0tOkAVnfz2UuoqgSQ",
-        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Green.png"
+        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Purple.png"
       }
     ],
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_T5_Upgrade_Shard",
         "count": 99,
-        "display_name": "Ascension Shard",
+        "display_name": "Ascension Shard 5",
         "persistence_id": "xPsMjk-6CC6Loxyd8lnjnw",
-        "icon": "T_Icon_Upgrade_Core_small_Green.png"
+        "icon": "T_Icon_Upgrade_Core_small_Purple.png"
       },
       {
         "item_id": "ITEM_Resources_SteelBar",
@@ -26043,24 +26831,24 @@
     "internal_name": "recipe_t6_upgrade_core",
     "persistence_id": "ZH1ldEUoly0IlLWDaus80A",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Blue.png",
+    "display_name": "Ascension Core 6",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Pink.png",
     "items_created": [
       {
         "item_id": "ITEM_Resources_T6_Upgrade_Core",
         "count": 1,
-        "display_name": "Ascension Core",
+        "display_name": "Ascension Core 6",
         "persistence_id": "h3u7Rk41zjjzfq6u0_n7Ug",
-        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Blue.png"
+        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Pink.png"
       }
     ],
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_T6_Upgrade_Shard",
         "count": 99,
-        "display_name": "Ascension Shard",
+        "display_name": "Ascension Shard 6",
         "persistence_id": "6hDDS0E5hHRfaXCv_VVWGQ",
-        "icon": "T_Icon_Upgrade_Core_small_Blue.png"
+        "icon": "T_Icon_Upgrade_Core_small_Pink.png"
       },
       {
         "item_id": "ITEM_Resources_MithrilBar",
@@ -26090,24 +26878,24 @@
     "internal_name": "recipe_t7_upgrade_core",
     "persistence_id": "tJOcOElNu8_k2hCwPvRIaw",
     "row_name": "Craft_Crafting_Table_Recipe_Tier2",
-    "display_name": "Ascension Core",
-    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Purple.png",
+    "display_name": "Ascension Core 7",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Red.png",
     "items_created": [
       {
         "item_id": "ITEM_Resources_T7_Upgrade_Core",
         "count": 1,
-        "display_name": "Ascension Core",
+        "display_name": "Ascension Core 7",
         "persistence_id": "wg4KnETWmNL1cbO6KKgs7A",
-        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Purple.png"
+        "icon": "T_Icon_Nightmare_Crucible_Keys_01_Red.png"
       }
     ],
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_T7_Upgrade_Shard",
         "count": 99,
-        "display_name": "Ascension Shard",
+        "display_name": "Ascension Shard 7",
         "persistence_id": "jV870UJVpUaRId6E8wQYVA",
-        "icon": "T_Icon_Upgrade_Core_small_Purple.png"
+        "icon": "T_Icon_Upgrade_Core_small_Red.png"
       },
       {
         "item_id": "ITEM_Resources_AdamantiteBar",
@@ -26824,7 +27612,7 @@
     "name": "RECIPE_Armour_T0_Cape_Fire",
     "internal_name": "recipe_armour_cape_fire",
     "persistence_id": "1RBw-UqvGfavD2KdV-65Jg",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Fire Cape",
     "icon": "T_Icon_Fire_Cape.png",
     "items_created": [
@@ -26842,7 +27630,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Black",
     "internal_name": "recipe_armour_cape_menaphite_black",
     "persistence_id": "QN6kpkaDRFju_KCDGCOz5w",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Black Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_07.png",
     "items_created": [
@@ -26860,7 +27648,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Blue",
     "internal_name": "recipe_armour_cape_menaphite_blue",
     "persistence_id": "5llkxkJl1yTlLWO2yyxvaA",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Blue Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_01.png",
     "items_created": [
@@ -26878,7 +27666,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Green",
     "internal_name": "recipe_armour_cape_menaphite_green",
     "persistence_id": "E1WNS0fVmAnN8r-mfZEyHg",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Green Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_05.png",
     "items_created": [
@@ -26896,7 +27684,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Orange",
     "internal_name": "recipe_armour_cape_menaphite_orange",
     "persistence_id": "Avmul0fDbhF-Ww64mxKeDg",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Orange Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_06.png",
     "items_created": [
@@ -26914,7 +27702,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Pink",
     "internal_name": "recipe_armour_cape_menaphite_pink",
     "persistence_id": "f6frc0p4A5lOlSu9YDhlLA",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Pink Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_04.png",
     "items_created": [
@@ -26932,7 +27720,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Purple",
     "internal_name": "recipe_armour_cape_menaphite_purple",
     "persistence_id": "6TTFREl4uoFVI4W5i1H49w",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Purple Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_03.png",
     "items_created": [
@@ -26950,7 +27738,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Red",
     "internal_name": "recipe_armour_cape_menaphite_red",
     "persistence_id": "gI5RRUjOy1Frk7iXCjd0IQ",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Red Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_08.png",
     "items_created": [
@@ -26968,7 +27756,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_White",
     "internal_name": "recipe_armour_cape_menaphite_white",
     "persistence_id": "BrNQmkXJ688DQ-O-vIZMLQ",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "White Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_09.png",
     "items_created": [
@@ -26986,7 +27774,7 @@
     "name": "RECIPE_Armour_T0_Cape_Menaphite_Yellow",
     "internal_name": "recipe_armour_cape_menaphite_yellow",
     "persistence_id": "Jdc_1EnCfs3LEpKlRXccPA",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Yellow Desert Cape",
     "icon": "T_Icon_Menaphite_Cape_02.png",
     "items_created": [
@@ -27004,7 +27792,7 @@
     "name": "RECIPE_Armour_T0_Cape_Obsidian",
     "internal_name": "recipe_armour_cape_obsidian",
     "persistence_id": "Y3BPSkumg2BOIe6kEtr1Vw",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Obsidian Cape",
     "icon": "T_Icon_Obsidian_Cape.png",
     "items_created": [
@@ -27022,7 +27810,7 @@
     "name": "RECIPE_Armour_T0_Cape_UmbralSands",
     "internal_name": "recipe_armour_cape_umbralsands",
     "persistence_id": "BVJ7CEavZcLckp6VnL7DUA",
-    "row_name": "Craft_Smithing_Forge_Tier4",
+    "row_name": "",
     "display_name": "Umbral Sands Cape",
     "icon": "T_Icon_Umbral_Sands_Cape.png",
     "items_created": [

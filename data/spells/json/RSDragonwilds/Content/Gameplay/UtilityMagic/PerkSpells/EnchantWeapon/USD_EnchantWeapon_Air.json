@@ -102,7 +102,10 @@
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_EnchantWeapon_Air'",
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_EnchantWeapon_Air.0"
       },
+      "bShouldBlockMovement": false,
+      "MaxMovementSpeedDuringMontage": 300.0,
       "bShouldRotateToCameraForward": false,
+      "bShouldEnableStrafing": true,
       "ModuleName": "PlayMontage",
       "Triggers": {
         "bHasStateTrigger": true

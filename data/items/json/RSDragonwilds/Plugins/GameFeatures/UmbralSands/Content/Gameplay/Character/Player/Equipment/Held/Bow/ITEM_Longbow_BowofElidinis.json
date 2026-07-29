@@ -43,7 +43,23 @@
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
       },
       "WindUpMaxMovementSpeedOverride": 150.0,
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Bows"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Unarmed"
+      },
       "DamageMultiplier": 4.2,
+      "AdditionalDamageMultiplier": 0.1,
+      "AdditionalBlockingDamageNegation": -5.0,
       "bAssignDamageTypesToLaunchedProjectiles": true,
       "DamageTypes": [
         "DamageType.Magical.Water"
@@ -166,6 +182,8 @@
           }
         }
       ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
       "PersistenceID": "THi5wk7TfEUjXhWEkP6oZQ",
       "InternalName": "weap_longbow_BowofElidinis"
     }

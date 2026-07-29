@@ -52,7 +52,7 @@
         "LocalizedString": "Arrows with tips forged from adamant."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Arrow_Steel.T_Icon_Arrow_Steel",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Arrows_Adamant.T_Icon_Arrows_Adamant",
         "SubPathString": ""
       },
       "StaticMesh": {

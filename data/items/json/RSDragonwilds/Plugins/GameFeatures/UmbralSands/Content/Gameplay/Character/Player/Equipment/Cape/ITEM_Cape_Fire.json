@@ -55,8 +55,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "FireCape",
-        "SourceString": "Taking or Blocking damage has a chance to trigger burning on the attacker. Melee Killls on Burning enemies refills stamina.",
-        "LocalizedString": "Taking or Blocking damage has a chance to trigger burning on the attacker. Melee Killls on Burning enemies refills stamina."
+        "SourceString": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina.",
+        "LocalizedString": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fire_Cape.T_Icon_Fire_Cape",
@@ -89,8 +89,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "FireCape.Description",
-            "SourceString": "Recieving or blocking DAMAGE has a chance to trigger BURNING on your attacker\r\nMelee KILLS on BURNING enemies refills STAMINA",
-            "LocalizedString": "Recieving or blocking DAMAGE has a chance to trigger BURNING on your attacker\r\nMelee KILLS on BURNING enemies refills STAMINA"
+            "SourceString": "Receiving or blocking DAMAGE has a chance to trigger BURNING on your attacker\r\nMelee KILLS on BURNING enemies refills STAMINA",
+            "LocalizedString": "Receiving or blocking DAMAGE has a chance to trigger BURNING on your attacker\r\nMelee KILLS on BURNING enemies refills STAMINA"
           },
           "BuffIcon": {
             "AssetPathName": "",

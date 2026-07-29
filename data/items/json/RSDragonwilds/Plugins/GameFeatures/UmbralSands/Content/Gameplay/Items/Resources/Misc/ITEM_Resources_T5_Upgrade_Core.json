@@ -11,18 +11,18 @@
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "AscensionCore",
-        "SourceString": "Ascension Core",
-        "LocalizedString": "Ascension Core"
+        "Key": "AscensionCore5",
+        "SourceString": "Ascension Core 5",
+        "LocalizedString": "Ascension Core 5"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ascension.Core.T5",
-        "SourceString": "Used to Upgrade a Masterwork Weapon from Power Level 4 to Power Level 5 - COMING SOON",
-        "LocalizedString": "Used to Upgrade a Masterwork Weapon from Power Level 4 to Power Level 5 - COMING SOON"
+        "SourceString": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5.",
+        "LocalizedString": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Nightmare_Crucible_Keys_01_Green.T_Icon_Nightmare_Crucible_Keys_01_Green",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Nightmare_Crucible_Keys_01_Purple.T_Icon_Nightmare_Crucible_Keys_01_Purple",
         "SubPathString": ""
       },
       "StaticMesh": {
