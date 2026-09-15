@@ -25,10 +25,6 @@
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_WitherBeast_Heart.T_Icon_WitherBeast_Heart",
         "SubPathString": ""
       },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
-        "SubPathString": ""
-      },
       "StaticMesh": {
         "AssetPathName": "/Game/Marketplace/Crystals/Mesh/SM_Crystal_1.SM_Crystal_1",
         "SubPathString": ""
@@ -38,11 +34,8 @@
       "MaxStackSize": 99,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
-      "Category": {
-        "TagName": "Item.QuestItem.KeyItem"
-      },
       "ItemFilterTags": [
-        "ItemFilter.Type.QuestItem"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.QuestItem"

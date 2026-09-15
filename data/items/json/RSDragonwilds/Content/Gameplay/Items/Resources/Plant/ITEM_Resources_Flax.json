@@ -26,7 +26,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Flax/SM_Flax_02.SM_Flax_02",
+        "AssetPathName": "/Game/Art/Item/Resources/Flax/SM_Flax_03_Item.SM_Flax_03_Item",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

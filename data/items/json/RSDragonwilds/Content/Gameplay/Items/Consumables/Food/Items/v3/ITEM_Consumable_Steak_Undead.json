@@ -135,8 +135,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "SteadfastStomach.Description",
-            "SourceString": "Grants RESISTENCE to WITHER effects",
-            "LocalizedString": "Grants RESISTENCE to WITHER effects"
+            "SourceString": "Grants RESISTANCE to WITHER effects",
+            "LocalizedString": "Grants RESISTANCE to WITHER effects"
           },
           "BuffIcon": {
             "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SteadfastStomach_2.T_Icon_Buff_SteadfastStomach_2",

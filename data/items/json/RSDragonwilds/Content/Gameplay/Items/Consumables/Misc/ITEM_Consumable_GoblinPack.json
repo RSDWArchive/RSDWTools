@@ -182,7 +182,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GoblinPack",
@@ -214,10 +213,6 @@
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth.Packs"
-      },
-      "OnBreakSound": {
-        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Rg_GenericClothFlap'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/Interactions/ResourceGathering/MSS_Pl_Rg_GenericClothFlap.0"
       },
       "PersistenceID": "zm9DtUc8ieNZpWe7ioL_KA",
       "InternalName": "item_pack_goblin",

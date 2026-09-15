@@ -14,12 +14,12 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
       },
       "SecondaryActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
-      },
-      "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PA_PharaohsSceptre_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/PharaohsSceptre/BP_PA_PharaohsSceptre_Special.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
@@ -38,16 +38,16 @@
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 8.4,
-      "AdditionalDamageMultiplier": 0.09999943,
       "AdditionalBlockingDamageNegation": -5.0,
       "AmmoType": "EHeldEquipmentAmmoType::Runes",
+      "MagicAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Staff_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff.0"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "bIsAWeapon": true,
@@ -113,8 +113,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "pharaohsSceptreSpecial.Description",
-            "SourceString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat. \r\nResummoning while your summon is still active will resummon it with the same HP as when dispelled.",
-            "LocalizedString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat. \r\nResummoning while your summon is still active will resummon it with the same HP as when dispelled."
+            "SourceString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat\r\nResummoning while your SUMMON is still active will RE-SUMMON it with the SAME HEALTH as when dispelled",
+            "LocalizedString": "SUMMON a FRIENDLY KALPHITE to ATTACK and distract enemies in combat\r\nResummoning while your SUMMON is still active will RE-SUMMON it with the SAME HEALTH as when dispelled"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -131,8 +131,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "PharaohsSceptre.Boon.Description",
-            "SourceString": "While holding the Sceptre, the wielder is able to use the CONFUSE spell WITHOUT CONSUMING RUNES.",
-            "LocalizedString": "While holding the Sceptre, the wielder is able to use the CONFUSE spell WITHOUT CONSUMING RUNES."
+            "SourceString": "Cast CONFUSE without consuming RUNES while wielding the PHARAOH'S SCEPTRE",
+            "LocalizedString": "Cast CONFUSE without consuming RUNES while wielding the PHARAOH'S SCEPTRE"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -149,8 +149,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "PharaohsSceptre.Bane.Description",
-            "SourceString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal.",
-            "LocalizedString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal."
+            "SourceString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal",
+            "LocalizedString": "While a SUMMON is ACTIVE, you regain STAMINA slower than normal"
           },
           "BuffIcon": {
             "AssetPathName": "",

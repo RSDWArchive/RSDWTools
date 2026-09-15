@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T5_Head_SteelMed",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SteelMed_MeshData_Male'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SteelMed_MeshData_Male.0"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SteelMed_MeshData_Female'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SteelMed_MeshData_Female.0"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "T05_Armour_Head_Heavy"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "EntitlementRequiredToEquip": {
+        "ObjectName": "EntitlementData'ED_DeluxeEdition'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Entitlements/ED_DeluxeEdition.0"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SteelMedHelm",
+        "SourceString": "Steel Med Helm",
+        "LocalizedString": "Steel Med Helm"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "SteelMedHelm",
+        "SourceString": "A dependable helm trusted by countless adventurers.",
+        "LocalizedString": "A dependable helm trusted by countless adventurers."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Steel_01.T_Icon_SM_U_MED_HEAD_MediumHelmet_Steel_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 5,
+      "Weight": 8.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Armour.Steel"
+      },
+      "BaseDurability": 1500,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "TTFC3k9GVEfgOCeuJKdZqQ",
+      "InternalName": "armour_head_steelMed"
+    }
+  }
+]

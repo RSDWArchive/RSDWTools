@@ -25,10 +25,6 @@
         "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_Chinchompa_Skull.T_Icon_Spectral_Chinchompa_Skull",
         "SubPathString": ""
       },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
-        "SubPathString": ""
-      },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Chinchompa_Skull_Spectral/SM_Chinchompa_Skull_Spectral_01.SM_Chinchompa_Skull_Spectral_01",
         "SubPathString": ""
@@ -37,11 +33,8 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "bBoundToPlayer": true,
-      "Category": {
-        "TagName": "Item.QuestItem.KeyItem"
-      },
       "ItemFilterTags": [
-        "ItemFilter.Type.QuestItem"
+        "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.QuestItem"

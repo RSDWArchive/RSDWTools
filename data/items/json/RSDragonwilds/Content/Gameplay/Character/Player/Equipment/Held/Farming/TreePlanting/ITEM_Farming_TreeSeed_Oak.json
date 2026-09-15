@@ -54,14 +54,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Tree_Oak",
-        "SourceString": "Oak tree Seed",
-        "LocalizedString": "Oak tree Seed"
+        "SourceString": "Oak Tree Seed",
+        "LocalizedString": "Oak Tree Seed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Tree_Oak",
-        "SourceString": "Oak Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Oak Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "SourceString": "Plant this directly into the ground to grow your own tree!",
+        "LocalizedString": "Plant this directly into the ground to grow your own tree!"
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Oal_Tree_Seed.T_Icon_Oal_Tree_Seed",

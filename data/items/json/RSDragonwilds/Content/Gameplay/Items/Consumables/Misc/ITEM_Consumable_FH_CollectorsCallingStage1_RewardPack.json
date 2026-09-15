@@ -106,7 +106,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
         "Key": "Doric.CollectorsCalling.Reward.1",

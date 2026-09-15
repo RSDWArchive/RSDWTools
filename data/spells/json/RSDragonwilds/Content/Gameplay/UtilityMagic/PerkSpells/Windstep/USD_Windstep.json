@@ -91,6 +91,10 @@
         }
       ],
       "bUseMagicAmmo": false,
+      "ItemCostMultiplierAttribute": {
+        "ObjectName": "BlueprintGeneratedClass'ATT_WindstepRuneCostMultiplierAttribute_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Attributes/ATT_WindstepRuneCostMultiplierAttribute.1"
+      },
       "ModuleName": "CostItems",
       "Triggers": {
         "PlayMontageRef": {

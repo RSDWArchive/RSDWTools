@@ -72,9 +72,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "UnholySymbol.Description",
-            "SourceString": "Increases DAMAGE but reduces HEALTH while worn",
-            "LocalizedString": "Increases DAMAGE but reduces HEALTH while worn"
+            "Key": "UnholySymbol.Boon",
+            "SourceString": "Increases DAMAGE\r\nReduces HEALTH while worn",
+            "LocalizedString": "Increases DAMAGE\r\nReduces HEALTH while worn"
           },
           "BuffIcon": {
             "AssetPathName": "",

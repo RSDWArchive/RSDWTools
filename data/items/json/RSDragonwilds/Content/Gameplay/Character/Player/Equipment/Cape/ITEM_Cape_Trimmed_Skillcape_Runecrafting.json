@@ -78,8 +78,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "RunecraftingSkillcape",
-            "SourceString": "You siphon double the amount of runes from Anima Vents.",
-            "LocalizedString": "You siphon double the amount of runes from Anima Vents."
+            "SourceString": "You siphon double the number of runes from Anima Vents",
+            "LocalizedString": "You siphon double the number of runes from Anima Vents"
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -152,6 +152,14 @@
       "ObjectName": "GE_HealthFruit_C'Default__GE_HealthFruit_C'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "PeriodicInterval": {
+          "Value": 1.0
+        },
+        "AmountToModifyScale": 0.01
+      }
+    }
   }
 ]

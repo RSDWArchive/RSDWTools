@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Leather_Draconic_Black_From_Hide_Dragon_Black",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DragonBlood'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_DragonBlood.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ground_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Ground_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Leather"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "e84vnEpSYXwwlZ-btFFPEw",
+      "InternalName": "recipe_leather_draconic_black_from_hide_dragon_black"
+    }
+  }
+]

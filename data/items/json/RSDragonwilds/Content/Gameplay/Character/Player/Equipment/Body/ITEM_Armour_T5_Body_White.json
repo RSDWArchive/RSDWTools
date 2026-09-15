@@ -34,9 +34,9 @@
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "WhitePlatelegs",
-        "SourceString": "White Platelegs worn by a member of the Holy Order of White Knights.",
-        "LocalizedString": "White Platelegs worn by a member of the Holy Order of White Knights."
+        "Key": "WhitePlatebody",
+        "SourceString": "White platemail armour worn by a member of the Holy Order of White Knights.",
+        "LocalizedString": "White platemail armour worn by a member of the Holy Order of White Knights."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_White_Body.T_icon_White_Body",

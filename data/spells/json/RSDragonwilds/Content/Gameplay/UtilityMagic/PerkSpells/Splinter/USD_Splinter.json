@@ -232,7 +232,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Splinter/BP_SpellPlacementVisualizer_Splinter.BP_SpellPlacementVisualizer_Splinter_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

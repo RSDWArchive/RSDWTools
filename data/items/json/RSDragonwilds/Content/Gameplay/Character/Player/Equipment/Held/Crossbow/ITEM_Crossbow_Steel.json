@@ -17,6 +17,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Crossbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Crossbow.0"
       },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_CrossBow_Poses'",
@@ -58,6 +62,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Crossbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
       "HandPreference": "EHandPreference::Right",
       "Tier": 4,

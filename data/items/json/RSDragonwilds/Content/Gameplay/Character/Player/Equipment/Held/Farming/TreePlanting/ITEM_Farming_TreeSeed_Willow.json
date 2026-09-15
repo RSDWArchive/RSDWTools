@@ -54,14 +54,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Tree_Willow",
-        "SourceString": "Willow tree Seed",
-        "LocalizedString": "Willow tree Seed"
+        "SourceString": "Willow Tree Seed",
+        "LocalizedString": "Willow Tree Seed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Tree_Willow",
-        "SourceString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "SourceString": "Plant this directly into the ground to grow your own tree!",
+        "LocalizedString": "Plant this directly into the ground to grow your own tree!"
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Willow_Seed.T_Icon_Willow_Seed",
@@ -76,7 +76,6 @@
         "SubPathString": ""
       },
       "MaxStackSize": 999,
-      "PowerLevel": 1,
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

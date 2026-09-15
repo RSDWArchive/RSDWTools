@@ -35,7 +35,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 3,
+      "MaxStackSize": 99,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
       "Category": {

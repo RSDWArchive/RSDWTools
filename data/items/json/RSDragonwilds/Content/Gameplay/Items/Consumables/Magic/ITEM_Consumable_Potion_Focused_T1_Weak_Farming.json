@@ -82,7 +82,7 @@
             "LocalizedString": "Grants a 15% XP BOOST for the FARMING Skill"
           },
           "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedArtisan.T_Icon_Buff_FocusedArtisan",
+            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_LesserFocusedFarming.T_Icon_Buff_LesserFocusedFarming",
             "SubPathString": ""
           }
         }

@@ -106,7 +106,7 @@
         "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Firesprite.0"
       },
       "bShouldBlockMovement": false,
-      "MaxMovementSpeedDuringMontage": 300.0,
+      "MaxMovementSpeedDuringMontage": 200.0,
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -135,7 +135,6 @@
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Runecrafting.T_Icon_Tag_Skill_Runecrafting",
         "SubPathString": ""
       },
-      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
       "TraceProfile": {
         "Name": "NoCollision"
       },

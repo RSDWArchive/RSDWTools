@@ -136,7 +136,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SpellPlacementVisualizer_Confuse.BP_SpellPlacementVisualizer_Confuse_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "AimedSpellSpawnLocationRelativeToPlayer": {
         "X": 25.0,
         "Y": 25.0,

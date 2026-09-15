@@ -38,7 +38,6 @@
         "RowName": "Shield"
       },
       "BlockingDamageNegation": 46.0,
-      "AdditionalDamageMultiplier": -3.1,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
@@ -51,8 +50,8 @@
         "LocalizedString": "Dragonblight Shield"
       },
       "FlavourText": {
-        "Namespace": "",
-        "Key": "CB9EA72C46C44CE25485D681E95020B5",
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "VelgarDragonShield",
         "SourceString": "The Spirit of Velgar lives on within this shield corrupting your enemies.",
         "LocalizedString": "The Spirit of Velgar lives on within this shield corrupting your enemies."
       },
@@ -83,16 +82,34 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
-            "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "VelgarDragonFireShield.Special.Title",
+            "SourceString": "Velgar's Vengeance",
+            "LocalizedString": "Velgar's Vengeance"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "VelgarDragonfireShield.Description",
-            "SourceString": "PARRYING causes POISON build up on enemies.",
-            "LocalizedString": "PARRYING causes POISON build up on enemies."
+            "SourceString": "PARRYING releases a BURST OF POISON that inflicts POISON build up on nearby enemies",
+            "LocalizedString": "PARRYING releases a BURST OF POISON that inflicts POISON build up on nearby enemies"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "VelgarDragonFireShieldBoon.Title",
+            "SourceString": "Dragon Breath Resistance",
+            "LocalizedString": "Dragon Breath Resistance"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "VelgarDragonFireShieldBoon.Description",
+            "SourceString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE",
+            "LocalizedString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE"
           },
           "BuffIcon": {
             "AssetPathName": "",

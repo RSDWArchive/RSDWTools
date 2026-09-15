@@ -14,6 +14,10 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet.0"
       },
       "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_PickAxe_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_PickAxe.0"
+      },
+      "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Hatchet_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Axe/PA_Attack_Hatchet_Special.0"
       },

@@ -24,6 +24,7 @@
         },
         "RowName": "Consume_Tier1_Food"
       },
+      "Duration": 0.0,
       "ConsumeCooldownEffectToApply": {
         "Effect": {
           "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Pie_Swabbie:GE_Cooldown_Eat_C_0'",
@@ -72,7 +73,6 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 4,
       "Weight": 1.5,
       "Category": {
         "TagName": "Item.Food"

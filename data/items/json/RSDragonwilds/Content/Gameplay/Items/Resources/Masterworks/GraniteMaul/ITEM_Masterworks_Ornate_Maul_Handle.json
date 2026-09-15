@@ -25,10 +25,6 @@
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ornate_Maul_Handle.T_Icon_Ornate_Maul_Handle",
         "SubPathString": ""
       },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
-        "SubPathString": ""
-      },
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Env/LevelDesign/District1/BlockoutMeshes/SM_BO_Ash_Branch.SM_BO_Ash_Branch",
         "SubPathString": ""
@@ -40,9 +36,6 @@
       "Category": {
         "TagName": "Item.BossSoul"
       },
-      "ItemFilterTags": [
-        "ItemFilter.Type.QuestItem"
-      ],
       "AudioSwitchTag": {
         "TagName": "Audio.QuestItem"
       },

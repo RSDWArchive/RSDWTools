@@ -29,8 +29,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RedDragonLegs",
-        "SourceString": "Red Dragon Legs",
-        "LocalizedString": "Red Dragon Legs"
+        "SourceString": "Red Dragonhide Legs",
+        "LocalizedString": "Red Dragonhide Legs"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

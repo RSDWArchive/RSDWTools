@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Sword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Sword.0"

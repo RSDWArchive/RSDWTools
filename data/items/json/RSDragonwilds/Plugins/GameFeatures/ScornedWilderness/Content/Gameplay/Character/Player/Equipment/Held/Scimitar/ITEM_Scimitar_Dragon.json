@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Scimitar_Dragon",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Scimitar/BP_Scimitar_Dragon.BP_Scimitar_Dragon_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar.0"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar_Visceral.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Scimitar_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Scimitar.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar_Special.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Sword_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sword/A_PlayerM_Idle_Sword_Poses.0"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Scimitar"
+      },
+      "DamageMultiplier": 9.5,
+      "BlockingDamageNegation": 35.0,
+      "DamageTypes": [
+        "DamageType.Physical.Slash"
+      ],
+      "CriticalHitChanceIncrease": 0.02,
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Attack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_DragonScimitar_DamageModifierReceiverTypeDragon_C'",
+          "ObjectPath": "/ScornedWilderness/Gameplay/GameplayEffects/Equipment/DragonScimitar/GE_DragonScimitar_DamageModifierReceiverTypeDragon"
+        }
+      ],
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "DragonScimitar",
+        "SourceString": "Dragon Scimitar",
+        "LocalizedString": "Dragon Scimitar"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DragonScimitar",
+        "SourceString": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength.",
+        "LocalizedString": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_Scimitar_Dragon_1H_01.T_Icon_SM_Scimitar_Dragon_1H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Melee/Scimitar_Dragon_1H_01/SM_Scimitar_Dragon_1H_01.SM_Scimitar_Dragon_1H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 9,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H.Sword"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Melee"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Blade"
+      },
+      "BaseDurability": 1900,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DragonScimitar.Boon",
+            "SourceString": "Deals increased DAMAGE to DRAGONS",
+            "LocalizedString": "Deals increased DAMAGE to DRAGONS"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMasterworkItem": true,
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
+      "PersistenceID": "PMrhcEKEQJlJR-WE16jbQA",
+      "InternalName": "weap_scimitar_dragon"
+    }
+  }
+]

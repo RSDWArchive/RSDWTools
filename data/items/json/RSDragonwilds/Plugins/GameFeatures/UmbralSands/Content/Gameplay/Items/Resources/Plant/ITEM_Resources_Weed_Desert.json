@@ -40,7 +40,7 @@
         "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Gloop"
+        "TagName": "Audio.Plant"
       },
       "PersistenceID": "xV6lAUZ18-ZLpkK8sBL6QQ",
       "InternalName": "res_weed_desert"

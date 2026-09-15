@@ -22,7 +22,7 @@
         "LocalizedString": "Raw meat from wild animals, it can be cooked on a campfire."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Raw_Tough_Meat_01.T_Icon_Raw_Tough_Meat_01",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Deer_Meat_Raw.T_Icon_Deer_Meat_Raw",
         "SubPathString": ""
       },
       "StaticMesh": {

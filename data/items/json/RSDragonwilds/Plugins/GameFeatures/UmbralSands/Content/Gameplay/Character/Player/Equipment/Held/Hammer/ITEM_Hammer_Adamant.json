@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer.0"
@@ -42,7 +50,6 @@
       },
       "DamageMultiplier": 8.4,
       "BlockingDamageNegation": 44.0,
-      "AdditionalDamageMultiplier": 0.09999943,
       "DamageTypes": [
         "DamageType.Physical.Crush"
       ],

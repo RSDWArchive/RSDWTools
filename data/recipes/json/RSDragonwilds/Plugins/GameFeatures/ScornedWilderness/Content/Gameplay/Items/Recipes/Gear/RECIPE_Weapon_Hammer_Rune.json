@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Hammer_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Hammer_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Hammer/ITEM_Hammer_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.BludgeonLarge"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 300,
+      "PersistenceID": "g8VWdk6Xx-dN9JGie-zihA",
+      "InternalName": "recipe_hammer_rune"
+    }
+  }
+]

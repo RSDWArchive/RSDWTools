@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T8_Head_Ancestral",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Ancestral_MeshData_Male'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Ancestral_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_Ancestral_MeshData_Female'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Ancestral_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "T08_Armour_Head_Light"
+      },
+      "ArmorWeight": "EArmorWeight::Light",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AncestralHat",
+        "SourceString": "Ancestral Hat",
+        "LocalizedString": "Ancestral Hat"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AncestralHat",
+        "SourceString": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
+        "LocalizedString": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_F_MED_HEAD_AncestralRobes_01.T_Icon_SM_F_MED_HEAD_AncestralRobes_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 4.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Light"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "pRfnP0RAM_O9OweO7joHnw",
+      "InternalName": "armour_head_ancestral"
+    }
+  }
+]

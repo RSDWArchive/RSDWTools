@@ -42,7 +42,7 @@
         "LocalizedString": "A cape worn by Ashenfall's first explorers."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pioneer_Mantle.T_Icon_Pioneer_Mantle",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Cape_Pioneer.T_Icon_Cape_Pioneer",
         "SubPathString": ""
       },
       "StaticMesh": {

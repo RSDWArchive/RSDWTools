@@ -22,7 +22,7 @@
         "LocalizedString": "An unusually large Giant Krill, cook it to gain more food."
       },
       "Icon": {
-        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Giant_Krill.T_Icon_Giant_Krill",
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Fish_Gaint_Krill_Pristine_03.T_Icon_Fish_Gaint_Krill_Pristine_03",
         "SubPathString": ""
       },
       "StaticMesh": {

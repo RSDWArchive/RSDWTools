@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Scimitar_Dragon",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Scimitar_Dragon'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Dragon"
+          },
+          "Count": 1
+        }
+      ],
+      "PersistenceID": "R_k9lkO5EXrBaQaJ4fYUyA",
+      "InternalName": "RECIPE_Weapon_Scimitar_Dragon"
+    }
+  }
+]

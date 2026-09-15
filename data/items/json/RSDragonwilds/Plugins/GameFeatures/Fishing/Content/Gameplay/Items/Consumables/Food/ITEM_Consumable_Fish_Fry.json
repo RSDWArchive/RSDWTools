@@ -24,7 +24,7 @@
         },
         "RowName": "Consume_Tier1_Food"
       },
-      "Duration": 1200.0,
+      "Duration": 0.0,
       "ConsumeCooldownEffectToApply": {
         "Effect": {
           "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Fish_Fry:GE_Cooldown_Eat_C_0'",
@@ -61,7 +61,7 @@
         }
       ],
       "Icon": {
-        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Meals_Icons/T_Icon_Stir_Fry.T_Icon_Stir_Fry",
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Meals_Icons/T_Icon_Fish_Fry.T_Icon_Fish_Fry",
         "SubPathString": ""
       },
       "CategoryClassIcon": {
@@ -72,7 +72,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
         "SubPathString": ""
       },
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.7,
       "Category": {
         "TagName": "Item.Food"

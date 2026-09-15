@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Scimitar_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Scimitar_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Blade"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "zrQ5z0taJWa_weiFewxdwg",
+      "InternalName": "recipe_scimitar_rune"
+    }
+  }
+]

@@ -64,10 +64,10 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "Trinket.RingOfRecoil.Description",
-            "SourceString": "A PERCENTAGE of DAMAGE received is DEALT back to ATTACKERS",
-            "LocalizedString": "A PERCENTAGE of DAMAGE received is DEALT back to ATTACKERS"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "RingOfRecoil.Boon",
+            "SourceString": "REFLECT a portion of DAMAGE back to the ATTACKER",
+            "LocalizedString": "REFLECT a portion of DAMAGE back to the ATTACKER"
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -41,7 +41,7 @@
         "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Gloop"
+        "TagName": "Audio.Food.Plant.Chunky"
       },
       "PersistenceID": "rwsHuURIjnLzTLeZxqUjGw",
       "InternalName": "res_steak_cactus"

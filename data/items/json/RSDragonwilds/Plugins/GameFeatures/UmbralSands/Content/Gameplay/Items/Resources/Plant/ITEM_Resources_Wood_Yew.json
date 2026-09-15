@@ -37,6 +37,9 @@
       "Category": {
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
         "Item.Farming.CompostableSuper",

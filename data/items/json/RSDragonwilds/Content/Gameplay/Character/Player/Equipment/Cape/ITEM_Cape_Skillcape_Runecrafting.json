@@ -67,6 +67,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "RunecraftingSkillcape",
+            "SourceString": "You siphon double the number of runes from Anima Vents",
+            "LocalizedString": "You siphon double the number of runes from Anima Vents"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "8IK7e0kOy0gVVDKoVnHucA",
       "InternalName": "armour_t0_cape_skillcape_runecrafting"
     }

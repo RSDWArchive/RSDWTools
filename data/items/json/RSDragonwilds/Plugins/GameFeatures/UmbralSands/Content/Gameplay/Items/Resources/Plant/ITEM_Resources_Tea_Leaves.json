@@ -32,13 +32,12 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.Wood",
         "Item.Farming.CompostableSuper",
         "ItemFilter.Material.BasicMaterial",
         "ItemFilter.Type.Resource"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Wood.Chunky"
+        "TagName": "Audio.Plant"
       },
       "CompostAmount": 10,
       "PersistenceID": "zqqZoknd3VuU-Wu26LdVcg",

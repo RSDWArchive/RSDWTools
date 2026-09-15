@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Armour_T8_Legs_Rune",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Rune_MeshData_Male'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Rune_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Rune_MeshData_Female'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Rune_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "T08_Armour_Legs_Heavy"
+      },
+      "ArmorWeight": "EArmorWeight::Heavy",
+      "Slot": "ELoadoutSlotStrategy::Legs",
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RunePlateLegs",
+        "SourceString": "Rune Platelegs",
+        "LocalizedString": "Rune Platelegs"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RunePlateLegs",
+        "SourceString": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
+        "LocalizedString": "Durable rune platelegs designed for warriors who spend more time fighting than running."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_M_MED_LEGS_RuneArmour_01.T_Icon_SM_M_MED_LEGS_RuneArmour_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 12.0,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour.Heavy"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "BaseDurability": 1750,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "ISY_y080WUFFE_KJm75w1g",
+      "InternalName": "armour_legs_rune"
+    }
+  }
+]

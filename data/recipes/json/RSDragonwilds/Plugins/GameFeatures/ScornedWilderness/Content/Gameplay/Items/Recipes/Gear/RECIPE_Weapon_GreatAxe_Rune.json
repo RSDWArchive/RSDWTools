@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_GreatAxe_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
+          },
+          "Count": 5
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Greataxe_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Greataxe/ITEM_Greataxe_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.ChopperLarge"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 300,
+      "PersistenceID": "aI8MwUBsC19_DrK6KXeyeQ",
+      "InternalName": "recipe_greataxe_rune"
+    }
+  }
+]

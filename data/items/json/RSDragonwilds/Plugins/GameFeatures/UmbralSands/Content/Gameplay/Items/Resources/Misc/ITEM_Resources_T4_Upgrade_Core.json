@@ -18,8 +18,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ascension.Core.T4",
-        "SourceString": "Used to Upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
-        "LocalizedString": "Used to Upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4."
+        "SourceString": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
+        "LocalizedString": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Nightmare_Crucible_Keys_01_Blue.T_Icon_Nightmare_Crucible_Keys_01_Blue",

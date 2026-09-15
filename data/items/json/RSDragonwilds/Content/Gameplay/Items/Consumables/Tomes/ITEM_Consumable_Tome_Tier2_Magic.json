@@ -29,7 +29,7 @@
         "LocalizedString": "A book filled with knowledge about how to wield deadlier spells. Awards a decent amount of Magic XP. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Magic.T_Icon_Skill_Tome_Magic",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Dec_Skill_Tome_Standing_Magic.T_Icon_Dec_Skill_Tome_Standing_Magic",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

@@ -16,12 +16,6 @@
         },
         "RowName": "v3_Haunch"
       },
-      "VitalShieldRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_VitalShield_V2'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield_V2.0"
-        }
-      },
       "AmountToHealOnConsume": 30.0,
       "DurationMultiplierAttribute": null,
       "ConsumeXpEvent": {
@@ -65,7 +59,7 @@
         }
       ],
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Cooked_Tough_Meat_01.T_Icon_Cooked_Tough_Meat_01",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Deer_Meat_Cooked.T_Icon_Deer_Meat_Cooked",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

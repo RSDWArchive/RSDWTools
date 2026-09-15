@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Leather_Dragon_Black",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackDragonLeather",
+        "SourceString": "Black Dragon Leather",
+        "LocalizedString": "Black Dragon Leather"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlackDragonhideLeather",
+        "SourceString": "Made by tanning black dragonhide. A key component for ranged armour.",
+        "LocalizedString": "Made by tanning black dragonhide. A key component for ranged armour."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Black_Dragon_Leather.T_Icon_Black_Dragon_Leather",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Black_Dragon_Leather/SM_Black_Dragonhide_Leather_01.SM_Black_Dragonhide_Leather_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "ZLzKi0u0PLEP1W-e2f02RA",
+      "InternalName": "res_leather_dragon_black"
+    }
+  }
+]

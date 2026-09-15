@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Wand_Oak",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/BP_Wand_Oak.BP_Wand_Oak_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_Wand_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Wand.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Sword_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sword/A_PlayerM_Idle_Sword_Poses.0"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Wands"
+      },
+      "DamageMultiplier": 2.8,
+      "AmmoType": "EHeldEquipmentAmmoType::Runes",
+      "MagicAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Wand_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Wand.0"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
+      "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
+      "HandPreference": "EHandPreference::Right",
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+      },
+      "bShouldRestOnGround": true,
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Wand.Oak",
+        "SourceString": "Oak Wand",
+        "LocalizedString": "Oak Wand"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "OakWand",
+        "SourceString": "A sturdy oak wand that offers reliability far beyond its humble appearance.",
+        "LocalizedString": "A sturdy oak wand that offers reliability far beyond its humble appearance."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_Wand_Oak_01.T_Icon_SM_Wand_Oak_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Magic/Wand_Oak_01/SM_Wand_Oak_01.SM_Wand_Oak_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 3,
+      "Weight": 15.0,
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.Wand"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Weapon.Magic"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "BaseDurability": 1050,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "ENR9RUjpFh6xxeCfza7-2Q",
+      "InternalName": "weap_wand_oak"
+    }
+  }
+]

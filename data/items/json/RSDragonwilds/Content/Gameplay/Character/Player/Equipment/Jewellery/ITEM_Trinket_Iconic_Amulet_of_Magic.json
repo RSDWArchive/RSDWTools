@@ -85,8 +85,8 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "Trinket.AmuletOfMagic.Description",
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AmuletOfMagic.Boon",
             "SourceString": "Increased MAGIC DAMAGE",
             "LocalizedString": "Increased MAGIC DAMAGE"
           },

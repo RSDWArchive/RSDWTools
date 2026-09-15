@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Hatchet_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 8
+        },
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Logging_Axe_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Chopper"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "f-gsIESmhNXjUT62XBknmw",
+      "InternalName": "recipe_hatchet_rune"
+    }
+  }
+]

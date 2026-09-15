@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Dagger.0"
@@ -70,36 +78,6 @@
         "LocalizedString": "A ferocious blade, filled with primal draconic rage. "
       },
       "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "2679190B439F0CFD85BBBCB3E11FF216",
-            "SourceString": "Crit Hit Chance",
-            "LocalizedString": "Crit Hit Chance"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "2E56B55E471BA130F8100686A4771D16",
-            "SourceString": "+15%",
-            "LocalizedString": "+15%"
-          }
-        },
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "9A27EA7E4F442F8A2374EBBD1AE8B7C0",
-            "SourceString": "Durability",
-            "LocalizedString": "Durability"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "0B77072E4B5950645A3E31B9205C2E51",
-            "SourceString": "-15%",
-            "LocalizedString": "-15%"
-          }
-        }
-      ],
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Dagger_Dragonbone.T_Icon_Dagger_Dragonbone",
         "SubPathString": ""
@@ -124,6 +102,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DragonboneDagger.Boon",
+            "SourceString": "Increased CRIT CHANCE\r\nReduced DURABILITY",
+            "LocalizedString": "Increased CRIT CHANCE\r\nReduced DURABILITY"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "4bMdm0gvxNqxKSaQjGtFmQ",

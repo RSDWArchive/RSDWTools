@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "HeldEquipmentData",
+    "Name": "ITEM_Pickaxe_Rune",
+    "Class": "UScriptClass'HeldEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Pickaxe/BP_Pickaxe_Rune.BP_Pickaxe_Rune_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Pickaxe_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Pickaxe/PA_Attack_Pickaxe.0"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Block_PickAxe_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_PickAxe.0"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Pickaxe_Poses'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Pickaxe/A_PlayerM_Idle_Pickaxe_Poses.0"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+        },
+        "RowName": "Weapons"
+      },
+      "BaseHeldEquipmentDamageNegationRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+        },
+        "RowName": "Tools"
+      },
+      "DamageMultiplier": 9.5,
+      "DamageTypes": [
+        "DamageType.Physical.Crush"
+      ],
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "Tier": 7,
+      "bIsAWeapon": true,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Mining'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Mining.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RunePickAxe",
+        "SourceString": "Rune Pickaxe",
+        "LocalizedString": "Rune Pickaxe"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RunePickAxe",
+        "SourceString": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
+        "LocalizedString": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Pickaxe_Rune_2H_01.T_Icon_Pickaxe_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Tool/Pickaxe_Rune_2H_01/SM_Pickaxe_Rune_2H_01.SM_Pickaxe_Rune_2H_01",
+        "SubPathString": ""
+      },
+      "PowerLevel": 8,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Pickaxe"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Tool.Pickaxe"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Pickaxe"
+      },
+      "BaseDurability": 2700,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "o6_zoEc6AeJDki6DErW__Q",
+      "InternalName": "tool_pick_rune"
+    }
+  }
+]

@@ -22,7 +22,7 @@
         "LocalizedString": "A raw desert sole, smelling rather ripe."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fish_Desert_Sole.T_Icon_Fish_Desert_Sole",
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Fish_Desert_Sole.T_Icon_Fish_Desert_Sole",
         "SubPathString": ""
       },
       "StaticMesh": {

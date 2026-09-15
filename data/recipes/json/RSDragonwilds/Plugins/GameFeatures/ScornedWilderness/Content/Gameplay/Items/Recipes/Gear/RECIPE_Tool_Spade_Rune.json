@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_Spade_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "SpadeToolEquipmentData'ITEM_Spade_T8_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T8_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillXPAwardedOnCraft": 50,
+      "PersistenceID": "ZvkHlkPf6h7xe4yeRPD62Q",
+      "InternalName": "recipe_Spade_Rune"
+    }
+  }
+]

@@ -23,7 +23,7 @@
         "LocalizedString": "A high temperature fuel. Needed to smelt more advanced metals. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_icon_Fuel_Pellet.T_icon_Fuel_Pellet",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon__Block_FuelPellet.T_Icon__Block_FuelPellet",
         "SubPathString": ""
       },
       "StaticMesh": {

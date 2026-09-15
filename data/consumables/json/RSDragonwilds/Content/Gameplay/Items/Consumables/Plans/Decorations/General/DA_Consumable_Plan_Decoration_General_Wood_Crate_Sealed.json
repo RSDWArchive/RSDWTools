@@ -10,8 +10,8 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BuildingPieceToUnlock": {
-        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_General_Wood_Crate_Sealed'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/General/DA_BaseBuilding_Decoration_General_Wood_Crate_Sealed.0"
+        "ObjectName": "BuildingPieceData'BUILDPIECE_DA_BaseBuilding_Decoration_General_Wood_Crate_Sealed'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/General/BUILDPIECE_DA_BaseBuilding_Decoration_General_Wood_Crate_Sealed.0"
       },
       "SimpleMontageRowHandle": {
         "DataTable": {

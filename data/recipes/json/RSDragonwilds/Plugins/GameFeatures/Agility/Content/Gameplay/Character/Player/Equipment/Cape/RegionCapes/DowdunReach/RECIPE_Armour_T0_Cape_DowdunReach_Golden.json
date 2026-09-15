@@ -24,8 +24,8 @@
       "ItemsCreated": [
         {
           "ItemData": {
-            "ObjectName": "WearableEquipmentData'ITEM_Cape_DowdunReach'",
-            "ObjectPath": "/DowdunReach/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_DowdunReach"
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_DowdunReach_Golden'",
+            "ObjectPath": "/Agility/Gameplay/Character/Player/Equipment/Cape/RegionCapes/DowdunReach/ITEM_Cape_DowdunReach_Golden"
           },
           "Count": 1
         }

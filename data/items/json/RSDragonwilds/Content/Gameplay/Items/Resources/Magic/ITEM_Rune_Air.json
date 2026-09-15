@@ -5,6 +5,10 @@
     "Class": "UScriptClass'MagicAmmoData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "BaseDamageTypes": [
+        "DamageType.Magical.Air"
+      ],
+      "AmmoVfxElementValue": "EMagicAmmoVfxElement::Air",
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_Icons_Rune_Air'",
         "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Runes/T_Icons_Rune_Air.0"
@@ -55,8 +59,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Rune.Air.SpecialEffect",
-            "SourceString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets.",
-            "LocalizedString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets."
+            "SourceString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets",
+            "LocalizedString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets"
           },
           "BuffIcon": {
             "AssetPathName": "",

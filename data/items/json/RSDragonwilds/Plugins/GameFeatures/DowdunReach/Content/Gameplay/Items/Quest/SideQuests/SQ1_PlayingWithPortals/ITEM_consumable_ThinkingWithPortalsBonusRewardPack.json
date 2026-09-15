@@ -87,7 +87,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/DowdunReach/Gameplay/Quests/SideQuests/SQ1_ThinkingWithPortals/QuestData/ST_ThinkingWithPortals.ST_ThinkingWithPortals",
         "Key": "BonusRewardPack_Title",
@@ -112,7 +111,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
         "SubPathString": ""
       },
-      "MaxStackSize": 10,
+      "MaxStackSize": 99,
       "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Container"

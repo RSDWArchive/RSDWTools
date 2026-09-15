@@ -144,7 +144,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Treequipment/BP_SpellPlacementVisualizer_Treequipment.BP_SpellPlacementVisualizer_Treequipment_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

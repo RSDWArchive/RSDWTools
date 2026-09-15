@@ -22,7 +22,7 @@
         "LocalizedString": "Your mouth waters just looking at it."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fish_Monkfish.T_Icon_Fish_Monkfish",
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Fish_Monkfish.T_Icon_Fish_Monkfish",
         "SubPathString": ""
       },
       "StaticMesh": {

@@ -427,6 +427,25 @@
           },
           "ProbabilityModifierAttribute": null,
           "ExtraDropPercentageForPlayerAmount": []
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Ruby.ITEM_Resources_Ruby",
+            "SubPathString": ""
+          },
+          "MinToDrop": 1,
+          "MaxToDrop": 1,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 0.02,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
       "ItemUsageDelay": 0.5,
@@ -439,8 +458,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Agility.Reward.Pack.Umbral.Sands.Gold",
-        "SourceString": "A reward for finishing Umbral Sands Agility Course with a gold medal.",
-        "LocalizedString": "A reward for finishing Umbral Sands Agility Course with a gold medal."
+        "SourceString": "A reward for finishing Umbral Sands Agility course with a gold medal.",
+        "LocalizedString": "A reward for finishing Umbral Sands Agility course with a gold medal."
       },
       "Icon": {
         "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_GoldenAgilityCompletionReward.T_Icon_GoldenAgilityCompletionReward",

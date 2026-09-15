@@ -22,7 +22,7 @@
         "LocalizedString": "You half expect it to start wriggling again."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fish_Beltfish.T_Icon_Fish_Beltfish",
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Fish_Beltfish.T_Icon_Fish_Beltfish",
         "SubPathString": ""
       },
       "StaticMesh": {

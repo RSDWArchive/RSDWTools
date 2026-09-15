@@ -11,8 +11,8 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "Name": {
-        "Namespace": "",
-        "Key": "BC6580474F31094F7A5C10BD3736A4AD",
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PlankAsh",
         "SourceString": "Ash Plank",
         "LocalizedString": "Ash Plank"
       },
@@ -34,6 +34,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Wood"
       },

@@ -28,7 +28,7 @@
       "GameplayEffectsToApply": [
         {
           "Effect": {
-            "ObjectName": "GE_HealthFruit_C'ITEM_Consumable_Soup_Pumpkin:GE_HealthFruit_C_0'",
+            "ObjectName": "GE_HealthFruit_C'ITEM_Consumable_Soup_Pumpkin:GE_HealthFruit_C_1'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Soup_Pumpkin.2"
           }
         }
@@ -137,7 +137,7 @@
   },
   {
     "Type": "GE_HealthFruit_C",
-    "Name": "GE_HealthFruit_C_0",
+    "Name": "GE_HealthFruit_C_1",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Soup_Pumpkin'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Soup_Pumpkin.0"
@@ -147,6 +147,14 @@
       "ObjectName": "GE_HealthFruit_C'Default__GE_HealthFruit_C'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_HealthFruit.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "PeriodicInterval": {
+          "Value": 1.0
+        },
+        "AmountToModifyScale": 0.01
+      }
+    }
   }
 ]

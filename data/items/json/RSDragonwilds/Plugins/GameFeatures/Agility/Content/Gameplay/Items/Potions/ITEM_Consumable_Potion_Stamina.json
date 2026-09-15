@@ -66,8 +66,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "StaminaPotion",
-        "SourceString": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body.",
-        "LocalizedString": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body."
+        "SourceString": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another such unbridled energy is taxing on the body.",
+        "LocalizedString": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another such unbridled energy is taxing on the body."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Super_Potion__T4_Yellow.T_Icon_Super_Potion__T4_Yellow",
@@ -100,8 +100,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "StaminaPotion.Description",
-            "SourceString": "Prevents stamina draining from all actions for a short duration",
-            "LocalizedString": "Prevents stamina draining from all actions for a short duration"
+            "SourceString": "Prevents stamina draining from all actions",
+            "LocalizedString": "Prevents stamina draining from all actions"
           },
           "BuffIcon": {
             "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_StaminaPotion.T_Icon_Buff_StaminaPotion",

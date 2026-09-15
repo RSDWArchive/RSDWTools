@@ -18,8 +18,8 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
       },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_PA_BowOfElidinis_Special_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/BowOfElidinis/BP_PA_BowOfElidinis_Special.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_BowOfElidinis_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/BowOfElidinis/PA_BowOfElidinis_Special.0"
       },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
@@ -51,14 +51,9 @@
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 4.2,
-      "AdditionalDamageMultiplier": 0.1,
       "AdditionalBlockingDamageNegation": -5.0,
       "bAssignDamageTypesToLaunchedProjectiles": true,
       "DamageTypes": [
@@ -69,10 +64,14 @@
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
         "SubPathString": ""
       },
+      "ExcludedAmmoCategory": {
+        "TagName": "Item.Equipment.Ammo.Arrow.StatusEffect"
+      },
       "RangedAttackCollection": {
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "Tier": 3,
       "bIsAWeapon": true,
@@ -107,7 +106,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Ranged/Longbow_Elidinis_01/SM_Longbow_Elidinis_01.SM_Longbow_Elidinis_01",
+        "AssetPathName": "/UmbralSands/Art/Skeleton/Weapons/Ranged/Longbow_Elidinis_01/SM_Longbow_Elidinis_02.SM_Longbow_Elidinis_02",
         "SubPathString": ""
       },
       "PowerLevel": 7,
@@ -137,8 +136,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "BowOfElidinisSpecial.Description",
-            "SourceString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB.",
-            "LocalizedString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB."
+            "SourceString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB",
+            "LocalizedString": "Call down a BARRAGE OF ARROWS that fall like rain and deal DAMAGE over the TARGETED AREA, with a chance of spawning a WATER ORB"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -155,8 +154,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "BowOfElidinis.Boon.Description",
-            "SourceString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up.",
-            "LocalizedString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up."
+            "SourceString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up",
+            "LocalizedString": "Arrows deal WATER DAMAGE. Kills with water arrows have a chance to drop WATER ORBS that provide HEALTH REGEN when picked up"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -173,8 +172,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "BowOfElidinis.Bane.Description",
-            "SourceString": "Elidinis's virtues prevent the use of POISON, BLEED and FIRE ARROWS when using this bow.",
-            "LocalizedString": "Elidinis's virtues prevent the use of POISON, BLEED and FIRE ARROWS when using this bow."
+            "SourceString": "Cannot use POISON, BLEED or FIRE ARROWS.",
+            "LocalizedString": "Cannot use POISON, BLEED or FIRE ARROWS."
           },
           "BuffIcon": {
             "AssetPathName": "",

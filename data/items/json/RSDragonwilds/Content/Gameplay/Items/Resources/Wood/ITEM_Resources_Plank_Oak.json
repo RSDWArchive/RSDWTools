@@ -11,8 +11,8 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "Name": {
-        "Namespace": "",
-        "Key": "A6EA746340408DBC5BCA659E5A0DA9F3",
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PlankOak",
         "SourceString": "Oak Plank",
         "LocalizedString": "Oak Plank"
       },

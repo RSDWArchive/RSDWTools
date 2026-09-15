@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ore_Luminite",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LuminiteOre",
+        "SourceString": "Luminite Ore",
+        "LocalizedString": "Luminite Ore"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LuminiteOre",
+        "SourceString": "Mined from luminite deposits. A catalysing material that can help to make rare metals.",
+        "LocalizedString": "Mined from luminite deposits. A catalysing material that can help to make rare metals."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Luminute_Ore.T_Icon_Luminute_Ore",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Rune_Fragment/SM_Luminite_Fragment_01.SM_Luminite_Fragment_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Material.Mineral"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "PersistenceID": "-HOWn07hphZ-nGKN52Ohqg",
+      "InternalName": "res_ore_luminite"
+    }
+  }
+]

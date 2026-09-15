@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "RangedAmmoData",
+    "Name": "ITEM_Ammo_Arrows_rune_Bodkin",
+    "Class": "UScriptClass'RangedAmmoData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ArrowHeadMesh": {
+        "AssetPathName": "/ScornedWilderness/Art/Skeleton/Weapons/Ranged/Arrowheads/SM_ArrowHead_Runite.SM_ArrowHead_Runite",
+        "SubPathString": ""
+      },
+      "ArrowShaftMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Ranged/Arrows/SM_ArrowBody_Wood_01.SM_ArrowBody_Wood_01",
+        "SubPathString": ""
+      },
+      "ArrowTrailNiagaraSystem": {
+        "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
+        "SubPathString": ""
+      },
+      "ProjectileData": {
+        "LaunchSpeed": 5000.0,
+        "OverrideGravityZ": -600.0,
+        "TimeWithoutGravity": 0.2,
+        "BaseDamageTypes": [
+          "DamageType.Ranged.Arrows"
+        ],
+        "AdditionalDamageFraction": 4.2
+      },
+      "AmmoCounterIcon": {
+        "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+      },
+      "Tier": 5,
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Ranged'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "RuneArrows",
+        "SourceString": "Rune Arrow",
+        "LocalizedString": "Rune Arrow"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "RuneArrows",
+        "SourceString": "Rune arrows are prized for their exceptional flight and striking power.",
+        "LocalizedString": "Rune arrows are prized for their exceptional flight and striking power."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Arrow__Rune.T_Icon_Arrow__Rune",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Arrow_Stack/SM_Arrow_Stack_01.SM_Arrow_Stack_01",
+        "SubPathString": ""
+      },
+      "MaxStackSize": 999,
+      "PowerLevel": 8,
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Ammo.Arrow"
+      ],
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "nreXOkMI96feAxGGwZ4T2w",
+      "InternalName": "ammo_arrows_rune"
+    }
+  }
+]

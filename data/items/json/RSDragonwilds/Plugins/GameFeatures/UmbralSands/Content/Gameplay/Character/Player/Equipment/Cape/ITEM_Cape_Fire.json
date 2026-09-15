@@ -55,8 +55,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "FireCape",
-        "SourceString": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina.",
-        "LocalizedString": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina."
+        "SourceString": "A legendary cape awarded only to those who have overcome the fiercest of trials.",
+        "LocalizedString": "A legendary cape awarded only to those who have overcome the fiercest of trials."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fire_Cape.T_Icon_Fire_Cape",
@@ -81,10 +81,10 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "FireCape.Title",
-            "SourceString": "Burning Endurance",
-            "LocalizedString": "Burning Endurance"
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",

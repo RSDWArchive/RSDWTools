@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Club.0"
@@ -44,7 +52,7 @@
       "BlockingDamageNegation": 33.0,
       "AdditionalDamageMultiplier": 0.19999993,
       "DamageTypes": [
-        "DamageType.Physical.Crush"
+        "DamageType.Physical.Slash"
       ],
       "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
       "bIsAWeapon": true,
@@ -70,22 +78,6 @@
         "LocalizedString": "A surprisingly nasty little axe. Popular with goblin warriors."
       },
       "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "0F20A7D840EBD70925964CB23F5E8889",
-            "SourceString": "Durability",
-            "LocalizedString": "Durability"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "3D248FDA4B6C7E1D256BDDA16A98CF33",
-            "SourceString": "-15%",
-            "LocalizedString": "-15%"
-          }
-        }
-      ],
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Swingslash.T_Icon_Swingslash",
         "SubPathString": ""
@@ -110,6 +102,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Swingslash.Boon",
+            "SourceString": "CLUB COMBO attacks that deal SLASH DAMAGE, with increased DAMAGE\r\nReduced DURABILITY",
+            "LocalizedString": "CLUB COMBO attacks that deal SLASH DAMAGE, with increased DAMAGE\r\nReduced DURABILITY"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "OJSTGEEY6uNu4beRiM4Qvw",

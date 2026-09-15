@@ -24,7 +24,7 @@
         },
         "RowName": "Consume_Tier1_Food"
       },
-      "Duration": 900.0,
+      "Duration": 0.0,
       "ConsumeCooldownEffectToApply": {
         "Effect": {
           "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_BerryDrizzle_Pan-Seared:GE_Cooldown_Eat_C_0'",
@@ -37,8 +37,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BerryDrizzlePanSeared",
-        "SourceString": "Berry Drizzle Pan-Seared",
-        "LocalizedString": "Berry Drizzle Pan-Seared"
+        "SourceString": "Berry Drizzle Pan-Seared Fish",
+        "LocalizedString": "Berry Drizzle Pan-Seared Fish"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
@@ -72,7 +72,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
         "SubPathString": ""
       },
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "Weight": 0.7,
       "Category": {
         "TagName": "Item.Food"

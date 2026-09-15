@@ -64,9 +64,24 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "AgilitySilverhawkAmulet.Golden.EffectDesc",
-            "SourceString": "+25% Increased AGILITY XP from Agility Courses.",
-            "LocalizedString": "+25% Increased AGILITY XP from Agility Courses."
+            "Key": "AgilitySilverhawkAmulet.Golden.EffectDescription",
+            "SourceString": "+25% Increased AGILITY XP from Agility Courses. ",
+            "LocalizedString": "+25% Increased AGILITY XP from Agility Courses. "
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+            "Key": "AgilitySilverhawkAmulet.EffectDescription",
+            "SourceString": "+100% Increased AGILITY XP when exploring the world.",
+            "LocalizedString": "+100% Increased AGILITY XP when exploring the world."
           },
           "BuffIcon": {
             "AssetPathName": "",

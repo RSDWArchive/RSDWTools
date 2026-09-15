@@ -54,14 +54,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Tree_Maple",
-        "SourceString": "Maple tree Seed",
-        "LocalizedString": "Maple tree Seed"
+        "SourceString": "Maple Tree Seed",
+        "LocalizedString": "Maple Tree Seed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Maple",
-        "SourceString": "Maple tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Maple tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "SourceString": "Plant this directly into the ground to grow your own Tree!",
+        "LocalizedString": "Plant this directly into the ground to grow your own Tree!"
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Maple_Seed.T_Icon_Maple_Seed",

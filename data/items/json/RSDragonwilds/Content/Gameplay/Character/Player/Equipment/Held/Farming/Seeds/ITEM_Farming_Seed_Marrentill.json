@@ -47,14 +47,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Marrentill",
-        "SourceString": "Marentill Seeds",
-        "LocalizedString": "Marentill Seeds"
+        "SourceString": "Marrentill Seeds",
+        "LocalizedString": "Marrentill Seeds"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Marrentill",
-        "SourceString": "Marrentill seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
-        "LocalizedString": "Marrentill seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots."
+        "SourceString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
+        "LocalizedString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Marrentil_seeds.T_Icon_Marrentil_seeds",

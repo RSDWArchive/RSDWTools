@@ -29,7 +29,7 @@
         "LocalizedString": "A book filled with knowledge on how to cook better meals. Awards a decent amount of Cooking XP. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Cooking.T_Icon_Skill_Tome_Cooking",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Dec_Skill_Tome_Standing_Cooking.T_Icon_Dec_Skill_Tome_Standing_Cooking",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

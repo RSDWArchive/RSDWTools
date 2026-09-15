@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Cape_Adventurers_Black"
+        "RowName": "Cape_Artisan"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
       "GrantedEffects": [
@@ -78,8 +78,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "RangeSkillcape",
-            "SourceString": "Range attacks have a small chance at costing no stamina when used.",
-            "LocalizedString": "Range attacks have a small chance at costing no stamina when used."
+            "SourceString": "Ranged attacks have a small chance at costing no stamina when used.",
+            "LocalizedString": "Ranged attacks have a small chance at costing no stamina when used."
           },
           "BuffIcon": {
             "AssetPathName": "",

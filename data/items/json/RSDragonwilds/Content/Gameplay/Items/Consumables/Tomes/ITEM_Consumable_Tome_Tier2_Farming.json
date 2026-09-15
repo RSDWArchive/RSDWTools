@@ -29,7 +29,7 @@
         "LocalizedString": "A book filled with knowledge about how to apply dirt and water to seeds. Awards a decent amount of Farming XP. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Farming.T_Icon_Skill_Tome_Farming",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Dec_Skill_Tome_Standing_Farming.T_Icon_Dec_Skill_Tome_Standing_Farming",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

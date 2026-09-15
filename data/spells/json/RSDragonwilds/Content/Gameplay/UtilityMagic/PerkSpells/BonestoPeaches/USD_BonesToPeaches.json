@@ -135,7 +135,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/BonesToPeaches/BP_SpellPlacementVisualizer_BonesToPeaches.BP_SpellPlacementVisualizer_BonesToPeaches_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

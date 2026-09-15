@@ -29,8 +29,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "NecromancersRobeBottom",
-        "SourceString": "Necromancer's Robe Bottom\r\n",
-        "LocalizedString": "Necromancer's Robe Bottom\r\n"
+        "SourceString": "Necromancer's Robe Bottom",
+        "LocalizedString": "Necromancer's Robe Bottom"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

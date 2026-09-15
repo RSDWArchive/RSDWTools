@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Dagger_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Dagger.0"

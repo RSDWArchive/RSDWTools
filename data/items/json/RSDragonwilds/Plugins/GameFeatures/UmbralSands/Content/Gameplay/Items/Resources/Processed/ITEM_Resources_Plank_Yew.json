@@ -34,9 +34,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.75,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "ItemFilter.Type.Resource"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Light"

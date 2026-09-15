@@ -65,8 +65,8 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "Trinket.RingOfPursuit.Description",
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "RingOfPursuit.Boon",
             "SourceString": "ANIMALS are less AWARE of your PRESENCE",
             "LocalizedString": "ANIMALS are less AWARE of your PRESENCE"
           },

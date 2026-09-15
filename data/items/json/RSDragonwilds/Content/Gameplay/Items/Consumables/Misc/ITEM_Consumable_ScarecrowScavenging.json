@@ -87,7 +87,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
         "Key": "Reward.Name",

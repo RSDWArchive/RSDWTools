@@ -42,8 +42,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MithrilArrows",
-        "SourceString": "Mithril Arrows",
-        "LocalizedString": "Mithril Arrows"
+        "SourceString": "Mithril Arrow",
+        "LocalizedString": "Mithril Arrow"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

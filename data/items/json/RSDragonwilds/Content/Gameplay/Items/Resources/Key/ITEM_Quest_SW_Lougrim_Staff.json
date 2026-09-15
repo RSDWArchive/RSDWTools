@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Quest_SW_Lougrim_Staff",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "LougrimsStaff",
+        "SourceString": "Lougrim's Staff",
+        "LocalizedString": "Lougrim's Staff"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "LougrimsStaff",
+        "SourceString": "The very staff that Lougrim carried to her death within Kuldra's belly.",
+        "LocalizedString": "The very staff that Lougrim carried to her death within Kuldra's belly."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Lougrim_Staff.T_Icon_Lougrim_Staff",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Magic/Battlestaff_GrievingMoon_2H_01/SM_Battlestaff_GrievingMoon_2H_01.SM_Battlestaff_GrievingMoon_2H_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "c8qcyEiordFIIMKxzAebpA",
+      "InternalName": "ITEM_Quest_SW_Lougrim_Staff"
+    }
+  }
+]

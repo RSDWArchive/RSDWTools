@@ -125,7 +125,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Pack.Plans.Flags.Saradomin.Name",

@@ -53,8 +53,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Cactus_Pipe",
-        "SourceString": "A Pipe Cactus seed. Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
-        "LocalizedString": "A Pipe Cactus seed. Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots."
+        "SourceString": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
+        "LocalizedString": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Pipe_Cactus_Seed_v2.T_Icon_Pipe_Cactus_Seed_v2",

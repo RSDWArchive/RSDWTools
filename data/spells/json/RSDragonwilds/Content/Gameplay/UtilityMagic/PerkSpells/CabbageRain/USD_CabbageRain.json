@@ -116,7 +116,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/CabbageRain/BP_SpellPlacementVisualizer_CabbageRain.BP_SpellPlacementVisualizer_CabbageRain_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

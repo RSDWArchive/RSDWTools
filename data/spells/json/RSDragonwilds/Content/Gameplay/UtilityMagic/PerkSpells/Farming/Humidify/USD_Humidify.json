@@ -10,8 +10,8 @@
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Extents": {
-        "X": 250.0,
-        "Y": 250.0,
+        "X": 150.0,
+        "Y": 150.0,
         "Z": 10.0
       }
     }

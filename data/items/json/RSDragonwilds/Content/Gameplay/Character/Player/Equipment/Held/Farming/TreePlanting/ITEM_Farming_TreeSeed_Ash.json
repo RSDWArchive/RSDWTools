@@ -40,7 +40,6 @@
         "RowName": "Weapons"
       },
       "DamageMultiplier": 0.0,
-      "AdditionalDamageMultiplier": -1.0,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
       "HandPreference": "EHandPreference::Right",
       "Tier": 1,
@@ -55,14 +54,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Tree_Ash",
-        "SourceString": "Ash tree Seed",
-        "LocalizedString": "Ash tree Seed"
+        "SourceString": "Ash Tree Seed",
+        "LocalizedString": "Ash Tree Seed"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Tree_Ash",
-        "SourceString": "Ash tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Ash tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "SourceString": "Plant this directly into the ground to grow your own tree!",
+        "LocalizedString": "Plant this directly into the ground to grow your own tree!"
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Ash_Tree_Seed.T_Icon_Ash_Tree_Seed",

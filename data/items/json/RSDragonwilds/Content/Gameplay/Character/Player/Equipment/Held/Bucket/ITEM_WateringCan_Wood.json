@@ -76,8 +76,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_WateringCan_Wood",
-        "SourceString": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
-        "LocalizedString": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots."
+        "SourceString": "{HeldContainerDescription}\r\n\r\nA watering can made from ash wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
+        "LocalizedString": "{HeldContainerDescription}\r\n\r\nA watering can made from ash wood. Can be filled at any water source. Used for watering crops in Farming Plots."
       },
       "CustomInventoryWidgetClass": {
         "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ContainerCustomInventorySlot_C'",

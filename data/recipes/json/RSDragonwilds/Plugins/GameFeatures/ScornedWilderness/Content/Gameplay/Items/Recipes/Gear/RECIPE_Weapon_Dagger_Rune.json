@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Dagger_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 8
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Compound_Harmonized'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Dagger_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.BladeSmall"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "R5z0GkbsaJY5sCWxCB22PA",
+      "InternalName": "recipe_dagger_rune"
+    }
+  }
+]

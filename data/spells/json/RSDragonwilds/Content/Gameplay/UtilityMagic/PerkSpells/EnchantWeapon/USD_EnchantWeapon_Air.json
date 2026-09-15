@@ -4,18 +4,11 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.5"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CastXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Spells'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
-        },
-        "RowName": "Spell_Windstep"
-      },
       "ModuleName": "Cast",
       "Triggers": {
         "PlayMontageRef": {
@@ -33,7 +26,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.5"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -68,11 +61,28 @@
     }
   },
   {
+    "Type": "SpellModule_ExpireAfterDuration",
+    "Name": "SpellModule_ExpireAfterDuration_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.5"
+    },
+    "Class": "UScriptClass'SpellModule_ExpireAfterDuration'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Duration": 10.0,
+      "ModuleName": "ExpireAfterDuration",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
     "Type": "SpellModule_HeldEquipmentEffect",
     "Name": "SpellModule_HeldEquipmentEffect_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.5"
     },
     "Class": "UScriptClass'SpellModule_HeldEquipmentEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -93,7 +103,7 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.5"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -133,7 +143,7 @@
       "NotifyFailedSpecialRequirements": [
         "UI.ConsumeItem.RequiresHeldEnchantable"
       ],
-      "CooldownDuration": 90.0,
+      "CooldownDuration": 300.0,
       "SpellIcon": {
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Attack/T_Skill_Attack_Spell_Enchantweapon_Air.T_Skill_Attack_Spell_Enchantweapon_Air",
         "SubPathString": ""
@@ -164,7 +174,7 @@
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_EnchantWeapon_Air:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.3"
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
             }
           },
           {
@@ -182,6 +192,12 @@
           {
             "Module": {
               "ObjectName": "SpellModule_HeldEquipmentEffect'USD_EnchantWeapon_Air:SpellModule_HeldEquipmentEffect_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_ExpireAfterDuration'USD_EnchantWeapon_Air:SpellModule_ExpireAfterDuration_0'",
               "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.2"
             }
           }

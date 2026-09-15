@@ -84,8 +84,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AntiFire.Description",
-            "SourceString": "NEGATES and grants RESISTENCE to FIRE effects ",
-            "LocalizedString": "NEGATES and grants RESISTENCE to FIRE effects "
+            "SourceString": "NEGATES and grants RESISTANCE to FIRE effects ",
+            "LocalizedString": "NEGATES and grants RESISTANCE to FIRE effects "
           },
           "BuffIcon": {
             "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiFire.T_Icon_Buff_FocusedAntiFire",

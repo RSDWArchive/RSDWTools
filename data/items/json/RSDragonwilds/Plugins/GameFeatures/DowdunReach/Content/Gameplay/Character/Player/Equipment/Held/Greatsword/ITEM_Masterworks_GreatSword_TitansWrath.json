@@ -13,13 +13,21 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_2H_Greatsword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_2H_Greatsword.0"
       },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_PA_Attack_TitansWrath_Special_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/BP_PA_Attack_TitansWrath_Special.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_TitansWrath_Special_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_TitansWrath_Special.0"
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_GreatswordAdaptiveTriggers'",
@@ -115,14 +123,14 @@
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "titanswrath.title",
-            "SourceString": "Baptism of Fire",
-            "LocalizedString": "Baptism of Fire"
+            "SourceString": "Flames of Rage",
+            "LocalizedString": "Flames of Rage"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "TitansWrath.Description",
-            "SourceString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them.",
-            "LocalizedString": "Trigger FIRE AOE around you, dealing DAMAGE to all enemies and triggering BURNING on them."
+            "SourceString": "Trigger FIRE EFFECTS around you, dealing DAMAGE to all enemies and triggering BURNING on them",
+            "LocalizedString": "Trigger FIRE EFFECTS around you, dealing DAMAGE to all enemies and triggering BURNING on them"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -139,8 +147,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "TitansWrathBoon.Description",
-            "SourceString": "SPECIAL ATTACK kills cause this weapon to become ENCHANTED with FIRE MAGIC. Kills REFRESH the FIRE ENCHANTMENT effect",
-            "LocalizedString": "SPECIAL ATTACK kills cause this weapon to become ENCHANTED with FIRE MAGIC. Kills REFRESH the FIRE ENCHANTMENT effect"
+            "SourceString": "KILLING an enemy with the SPECIAL ATTACK ENCHANTS the sword with FIRE. KILLING an enemy REFRESHES the ENCHANTMENT effect",
+            "LocalizedString": "KILLING an enemy with the SPECIAL ATTACK ENCHANTS the sword with FIRE. KILLING an enemy REFRESHES the ENCHANTMENT effect"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -157,8 +165,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "TitansWrathBane.Description",
-            "SourceString": "You cannot cast additonal ENCHANTMENTS on this weapon.",
-            "LocalizedString": "You cannot cast additonal ENCHANTMENTS on this weapon."
+            "SourceString": "You cannot cast additional ENCHANTMENTS on this weapon",
+            "LocalizedString": "You cannot cast additional ENCHANTMENTS on this weapon"
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -99,7 +99,7 @@
     "persistence_id": "F4HfiUNmHYRF3qmH6dkRUQ",
     "display_name": "Spectral Arrows",
     "requirements": "2-Handed Bow.",
-    "cooldown": 90.0,
+    "cooldown": 300.0,
     "spell_icon": "T_Skill_Ranged_Spell_SpectralArrows.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Ranged.png",
     "costs": [
@@ -185,19 +185,19 @@
     "persistence_id": "c2KonU_Ke1FKIBy3CDTe3w",
     "display_name": "Divine Rock",
     "requirements": "",
-    "cooldown": 120.0,
+    "cooldown": 1500.0,
     "spell_icon": "T_Skill_Mining_Spell_DivineRock.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
-        "count": 50,
+        "count": 100,
         "display_name": "Earth Rune",
         "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
-        "count": 50,
+        "count": 100,
         "display_name": "Nature Rune",
         "icon": "T_Icon_Rune_Nature.png"
       }
@@ -218,7 +218,7 @@
     "persistence_id": "fbCzak5hRwXSmGyhG4N0eg",
     "display_name": "Enchant Weapon: Air",
     "requirements": "A held melee weapon",
-    "cooldown": 90.0,
+    "cooldown": 300.0,
     "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Air.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
@@ -238,10 +238,33 @@
     "internal_name": "spell_enchantweapon_air"
   },
   {
+    "persistence_id": "9K9d1kMeBPZvWeCGQ8sxFQ",
+    "display_name": "Enchant Weapon: Earth",
+    "requirements": "A held melee weapon",
+    "cooldown": 300.0,
+    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Earth",
+        "count": 15,
+        "display_name": "Earth Rune",
+        "icon": "T_Icon_Rune_Earth.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 5,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      }
+    ],
+    "internal_name": "spell_enchantweapon_earth"
+  },
+  {
     "persistence_id": "2Cqf50lVo8GHBZ2CsgCtlQ",
     "display_name": "Enchant Weapon: Fire",
     "requirements": "A held melee weapon",
-    "cooldown": 90.0,
+    "cooldown": 300.0,
     "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Fire.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
@@ -259,6 +282,52 @@
       }
     ],
     "internal_name": "spell_enchantweapon_fire"
+  },
+  {
+    "persistence_id": "JtSIn0ix3zvWZlOaFgpvDw",
+    "display_name": "Enchant Weapon: Water",
+    "requirements": "A held melee weapon",
+    "cooldown": 300.0,
+    "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Water.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Water",
+        "count": 15,
+        "display_name": "Water Rune",
+        "icon": "T_Icon_Rune_Water.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 5,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      }
+    ],
+    "internal_name": "spell_enchantweapon_water"
+  },
+  {
+    "persistence_id": "QbCOm0PXWOIGaLaJb0mMFg",
+    "display_name": "Enfeeble",
+    "requirements": "",
+    "cooldown": 75.0,
+    "spell_icon": "T_Skill_Magic_Spell_Enfeeble.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Magic.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 20,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Water",
+        "count": 20,
+        "display_name": "Water Rune",
+        "icon": "T_Icon_Rune_Water.png"
+      }
+    ],
+    "internal_name": "spell_enfeeble"
   },
   {
     "persistence_id": "Q7_YS0cT6pQp2cykPBxkxA",
@@ -362,6 +431,23 @@
       }
     ],
     "internal_name": "spell_firespirit"
+  },
+  {
+    "persistence_id": "9ZOfFkjO-IfJgEqc1RfwZA",
+    "display_name": "Home Teleport",
+    "requirements": "Claimed Bed",
+    "cooldown": 900.0,
+    "spell_icon": "T_Skill_Runecrafting_Spell_HomeTeleport.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Runecrafting.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Law",
+        "count": 15,
+        "display_name": "Law Rune",
+        "icon": "T_Icon_Rune_Law.png"
+      }
+    ],
+    "internal_name": "spell_hometeleport"
   },
   {
     "persistence_id": "FagbeUYSePGrCsq3N8e4mQ",
@@ -513,7 +599,7 @@
     "persistence_id": "-iwcTUCLh8HpFpWP6t9ocg",
     "display_name": "Snare",
     "requirements": "",
-    "cooldown": 60.0,
+    "cooldown": 45.0,
     "spell_icon": "T_Skill_Ranged_Spell_Snare.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Ranged.png",
     "costs": [
@@ -531,6 +617,29 @@
       }
     ],
     "internal_name": "spell_snaretrap"
+  },
+  {
+    "persistence_id": "iKetnUomD_TeAvW3QW1o4w",
+    "display_name": "Overdrive",
+    "requirements": "",
+    "cooldown": null,
+    "spell_icon": "T_Skill_Artisan_Spell_SpeedUp.png",
+    "spell_tag_icon": "T_Icon_Tag_Skill_Artisan.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Air",
+        "count": 15,
+        "display_name": "Air Rune",
+        "icon": "T_Icon_Rune_Air.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Water",
+        "count": 5,
+        "display_name": "Water Rune",
+        "icon": "T_Icon_Rune_Water.png"
+      }
+    ],
+    "internal_name": "spell_speedupstation"
   },
   {
     "persistence_id": "dyBWckSRBNkbjvGxirFEKw",
@@ -605,7 +714,7 @@
     "persistence_id": "fN--EU7s-Vez5ICHyfHAWA",
     "display_name": "Tempest Shield",
     "requirements": "",
-    "cooldown": 60.0,
+    "cooldown": 45.0,
     "spell_icon": "T_Skill_Attack_Spell_Tempestshield.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
@@ -640,6 +749,29 @@
       }
     ],
     "internal_name": "spell_barktobones"
+  },
+  {
+    "persistence_id": "KPrjhU9MmX_QtNGIMyYd_g",
+    "display_name": "Vengeance",
+    "requirements": "",
+    "cooldown": 60.0,
+    "spell_icon": "T_Skill_Magic_Spell_Vengence.png",
+    "spell_tag_icon": "T_Notification_Skill_Magic.png",
+    "costs": [
+      {
+        "item_id": "ITEM_Rune_Astral",
+        "count": 20,
+        "display_name": "Astral Rune",
+        "icon": "T_Icon_Rune_Astral.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Earth",
+        "count": 10,
+        "display_name": "Earth Rune",
+        "icon": "T_Icon_Rune_Earth.png"
+      }
+    ],
+    "internal_name": "spell_vengeance"
   },
   {
     "persistence_id": "cg4l50WO4NBxlbKWqlvKRg",
@@ -697,6 +829,16 @@
     "spell_tag_icon": "",
     "costs": [],
     "internal_name": "spell_GetWaterFromWaterSource"
+  },
+  {
+    "persistence_id": "LLAqZEOVKisTjX6yO5sDPA",
+    "display_name": "USD_SiphonAnimaCharge",
+    "requirements": "",
+    "cooldown": 0.0,
+    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
+    "spell_tag_icon": "",
+    "costs": [],
+    "internal_name": "spell_RetrieveAnimaCharge"
   },
   {
     "persistence_id": "XbLZDUaQ2Q3Z-oKlsq4RVw",

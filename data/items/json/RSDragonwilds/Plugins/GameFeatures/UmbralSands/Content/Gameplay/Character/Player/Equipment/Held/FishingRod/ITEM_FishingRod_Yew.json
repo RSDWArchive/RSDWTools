@@ -53,8 +53,6 @@
         },
         "RowName": "Tools"
       },
-      "AdditionalDamageMultiplier": -7.3,
-      "AdditionalBlockingDamageNegation": -33.0,
       "bLosesDurabilityOnAttack": false,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
@@ -88,7 +86,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Rod_2H_04/SM_Fishing_Rod_2H_04.SM_Fishing_Rod_2H_04",
+        "AssetPathName": "/Fishing/Art/Skeleton/Weapons/Tools/Fishing_Rod_Adamant_2H_01/SM_Fishing_Rod_Adamant_2H_01.SM_Fishing_Rod_Adamant_2H_01",
         "SubPathString": ""
       },
       "PowerLevel": 7,

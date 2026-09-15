@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Attack_Club_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Club_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Club.0"
@@ -83,18 +91,39 @@
         "TagName": "Item.Equipment.Weapon.1H.Mace"
       },
       "ItemFilterTags": [
-        "ItemFilter.Type.Equipment.Weapon.Melee"
+        "ItemFilter.Type.Equipment.Weapon.Melee",
+        "ItemFilter.NoEnchant"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Metal.Bludgeon"
+        "TagName": "Audio.Metal.Chopper.Electric"
       },
       "BaseDurability": 1300,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ZombieArmClub.Boon",
+            "SourceString": "ATTACKS cause SHOCK BUILD UP on targets",
+            "LocalizedString": "ATTACKS cause SHOCK BUILD UP on targets"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
-      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "ZUMRukFLXvSUBtSY_HzEPA",
       "InternalName": "weap_mace_1hzombiemace"
     }

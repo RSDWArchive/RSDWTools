@@ -14,6 +14,10 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
       },
       "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
       },
@@ -34,16 +38,17 @@
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 4.1,
       "AdditionalBlockingDamageNegation": -5.0,
       "CriticalHitChanceIncrease": 0.15,
       "AmmoType": "EHeldEquipmentAmmoType::Runes",
+      "MagicAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Staff_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff.0"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "bIsAWeapon": true,
@@ -63,42 +68,12 @@
         "LocalizedString": "Draconic Staff"
       },
       "FlavourText": {
-        "Namespace": "",
-        "Key": "B9F30A95464074F37FF175B142103030",
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "DraconicStaff",
         "SourceString": "An ancient Dragonkin staff used by the mages of old.",
         "LocalizedString": "An ancient Dragonkin staff used by the mages of old."
       },
       "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "C85EFA3142F360BE719ECEB32BACA4C3",
-            "SourceString": "Durability",
-            "LocalizedString": "Durability"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "DE83B9AD4667EAC25D5A3981C8A26939",
-            "SourceString": "-15%",
-            "LocalizedString": "-15%"
-          }
-        },
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "0B125B60415755A0863F37874D0675F2",
-            "SourceString": "Crit Hit Chance",
-            "LocalizedString": "Crit Hit Chance"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "1E5097424D789CDFB5D8F999C23EAFAA",
-            "SourceString": "+15%",
-            "LocalizedString": "+15%"
-          }
-        }
-      ],
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Staff_Draconic.T_Icon_Staff_Draconic",
         "SubPathString": ""
@@ -123,6 +98,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DraconicStaff.Boon",
+            "SourceString": "Increased chance of landing CRITICAL HITS\r\nReduced DURABILITY",
+            "LocalizedString": "Increased chance of landing CRITICAL HITS\r\nReduced DURABILITY"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "ALn1jUyxkFwgIHmHAGkoxg",

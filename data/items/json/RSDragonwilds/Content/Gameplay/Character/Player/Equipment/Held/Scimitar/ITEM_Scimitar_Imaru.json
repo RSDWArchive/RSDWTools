@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Scimitar_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Scimitar/PA_Attack_Scimitar_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Scimitar_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Scimitar.0"
@@ -102,16 +110,16 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
-            "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ImaruScimitar.Title",
+            "SourceString": "Soul Feast",
+            "LocalizedString": "Soul Feast"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ImaruScimitar.Description",
-            "SourceString": "GRANTS a portion of HEALTH when killing an ENEMY",
-            "LocalizedString": "GRANTS a portion of HEALTH when killing an ENEMY"
+            "SourceString": "RECOVER a portion of HEALTH when killing an ENEMY",
+            "LocalizedString": "RECOVER a portion of HEALTH when killing an ENEMY"
           },
           "BuffIcon": {
             "AssetPathName": "",

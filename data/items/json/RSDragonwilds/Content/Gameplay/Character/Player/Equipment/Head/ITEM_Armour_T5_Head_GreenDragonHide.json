@@ -34,8 +34,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GreenDragonhideCoif",
-        "SourceString": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users",
-        "LocalizedString": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users"
+        "SourceString": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users.",
+        "LocalizedString": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_steel_weapons_Misc_armour/T_icon_Green_Dragonhide_Helmet.T_icon_Green_Dragonhide_Helmet",

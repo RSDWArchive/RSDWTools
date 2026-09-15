@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 1.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

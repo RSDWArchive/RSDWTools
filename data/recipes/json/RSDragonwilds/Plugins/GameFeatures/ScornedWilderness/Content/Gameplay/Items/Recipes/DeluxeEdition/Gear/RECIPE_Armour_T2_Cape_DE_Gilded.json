@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T2_Cape_DE_Gilded",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Cape_GildedPaladin'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_GildedPaladin"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "bIgnoreAutomaticUnlocks": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "xT9tB012lY0uSjChrhOtxA",
+      "InternalName": "RECIPE_Armour_T2_Cape_de_gilded"
+    }
+  }
+]

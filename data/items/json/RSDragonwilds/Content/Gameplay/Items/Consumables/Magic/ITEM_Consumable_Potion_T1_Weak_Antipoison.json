@@ -84,8 +84,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AntiPoison.Description",
-            "SourceString": "NEGATES and grants RESISTENCE to POISON effects ",
-            "LocalizedString": "NEGATES and grants RESISTENCE to POISON effects "
+            "SourceString": "NEGATES and grants RESISTANCE to POISON effects ",
+            "LocalizedString": "NEGATES and grants RESISTANCE to POISON effects "
           },
           "BuffIcon": {
             "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedAntiPoison.T_Icon_Buff_FocusedAntiPoison",

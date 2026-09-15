@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Wood_Mahogany",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "E2B66E2A4F1DF7D9DD82A8BCBD8AE31D",
+        "SourceString": "Mahogany Logs",
+        "LocalizedString": "Mahogany Logs"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "33E5A1164489994C917DFB8B0E246D4F",
+        "SourceString": "WIP",
+        "LocalizedString": "WIP"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_MahoganyWood_01.T_Icon_MahoganyWood_01",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Wood/SM_MahoganyWood_01.SM_MahoganyWood_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Wood"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.Wood",
+        "Item.Farming.Compostable",
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "CompostAmount": 10,
+      "DropQuantityModifierAttribute": {
+        "ObjectName": "Class'WoodcuttingDropAmountAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "PersistenceID": "3Fu51hkQR0-C5bzZJ7CqXw",
+      "InternalName": "res_wood_mahogany",
+      "bSoftDeleted": true
+    }
+  }
+]

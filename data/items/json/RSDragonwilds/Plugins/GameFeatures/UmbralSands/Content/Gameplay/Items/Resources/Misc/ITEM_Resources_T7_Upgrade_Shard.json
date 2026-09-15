@@ -18,8 +18,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ascension.Shard.T7",
-        "SourceString": "Used to craft a Tier 7 Ascension Core",
-        "LocalizedString": "Used to craft a Tier 7 Ascension Core"
+        "SourceString": "Used to craft a Tier 7 Ascension Core.",
+        "LocalizedString": "Used to craft a Tier 7 Ascension Core."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Upgrade_Core_small_Red.T_Icon_Upgrade_Core_small_Red",

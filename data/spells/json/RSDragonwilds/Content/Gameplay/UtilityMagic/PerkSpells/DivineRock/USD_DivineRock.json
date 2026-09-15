@@ -82,14 +82,14 @@
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
           },
-          "Count": 50
+          "Count": 100
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Nature'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature.0"
           },
-          "Count": 50
+          "Count": 100
         }
       ],
       "bUseMagicAmmo": false,
@@ -137,7 +137,7 @@
         "SourceString": "Divine Rock",
         "LocalizedString": "Divine Rock"
       },
-      "CooldownDuration": 120.0,
+      "CooldownDuration": 1500.0,
       "SpellIcon": {
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Spell_DivineRock.T_Skill_Mining_Spell_DivineRock",
         "SubPathString": ""

@@ -26,7 +26,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Stone/SM_Stone_01.SM_Stone_01",
+        "AssetPathName": "/Game/Art/Item/Resources/Granite/SM_Granite_01.SM_Granite_01",
         "SubPathString": ""
       },
       "bShowNotificationOnFirstPickup": true,

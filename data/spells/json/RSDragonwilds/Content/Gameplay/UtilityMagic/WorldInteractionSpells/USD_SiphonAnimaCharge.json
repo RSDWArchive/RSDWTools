@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+    },
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+    },
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning.0"
+      },
+      "bShouldRotateToCameraForward": false,
+      "bShouldRotateToTarget": true,
+      "bAllowTriggeringNotifiesMultipleTimes": true,
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_SiphonAnimaCharge",
+    "Name": "SpellModule_SiphonAnimaCharge_0",
+    "Outer": {
+      "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+    },
+    "Class": "UScriptClass'SpellModule_SiphonAnimaCharge'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BaseSiphoningIntervalInSeconds": 0.6,
+      "SpeedMultiplier": 0.75,
+      "ModuleName": "SiphonAnimaCharge",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "UtilitySpellData",
+    "Name": "USD_SiphonAnimaCharge",
+    "Class": "UScriptClass'UtilitySpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpellDisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpecialRequirementsText": {
+        "CultureInvariantString": null
+      },
+      "CooldownDuration": 0.0,
+      "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideAll",
+      "bNeedsUnlocking": false,
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'USD_SiphonAnimaCharge:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'USD_SiphonAnimaCharge:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.0"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_SiphonAnimaCharge'USD_SiphonAnimaCharge:SpellModule_SiphonAnimaCharge_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.2"
+            }
+          }
+        ]
+      },
+      "bContinuouslyCast": true,
+      "PersistenceID": "LLAqZEOVKisTjX6yO5sDPA",
+      "InternalName": "spell_RetrieveAnimaCharge"
+    }
+  }
+]

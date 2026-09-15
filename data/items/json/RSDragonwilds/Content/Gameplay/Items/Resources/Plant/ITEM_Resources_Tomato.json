@@ -14,8 +14,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Res_Tomato",
-        "SourceString": "A Tasty Tomato.",
-        "LocalizedString": "A Tasty Tomato."
+        "SourceString": "A tasty tomato.",
+        "LocalizedString": "A tasty tomato."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Tomato.T_Icon_Tomato",

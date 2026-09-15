@@ -22,7 +22,7 @@
         "LocalizedString": "Gathered from small creatures, too small to be processed into leather by itself."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Hide_Scraps.T_Icon_Animal_Hide_Scraps",
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Animal_Hide_Scraps.T_Icon_Resource_Animal_Hide_Scraps",
         "SubPathString": ""
       },
       "StaticMesh": {

@@ -5,6 +5,10 @@
     "Class": "UScriptClass'MagicAmmoData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "BaseDamageTypes": [
+        "DamageType.Magical.Water"
+      ],
+      "AmmoVfxElementValue": "EMagicAmmoVfxElement::Water",
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_Icons_Rune_Water'",
         "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Runes/T_Icons_Rune_Water.0"
@@ -59,8 +63,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Rune.Water.SpecialEffect",
-            "SourceString": "Water spells excel at CROWD CONTROL, dealing lower DAMAGE but SLOWING enemies and providing HEALING to allies.",
-            "LocalizedString": "Water spells excel at CROWD CONTROL, dealing lower DAMAGE but SLOWING enemies and providing HEALING to allies."
+            "SourceString": "Water spells excel at CROWD CONTROL, dealing lower DAMAGE but SLOWING enemies and providing HEALING to allies",
+            "LocalizedString": "Water spells excel at CROWD CONTROL, dealing lower DAMAGE but SLOWING enemies and providing HEALING to allies"
           },
           "BuffIcon": {
             "AssetPathName": "",

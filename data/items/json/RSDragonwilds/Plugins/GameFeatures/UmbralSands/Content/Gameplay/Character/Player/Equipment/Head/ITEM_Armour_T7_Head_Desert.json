@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T7_Head_DesertHood"
+        "RowName": "T07_Armour_Head_DesertHood"
       },
       "GrantedEffects": [
         {
@@ -73,9 +73,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "DesertRobes.Description",
-            "SourceString": "Provides SCORCH Resistance while worn.\r\n(Equip additional Desert Robe pieces to further increase SCORCH Resistance.)",
-            "LocalizedString": "Provides SCORCH Resistance while worn.\r\n(Equip additional Desert Robe pieces to further increase SCORCH Resistance.)"
+            "Key": "DesertRobesHood.Boon",
+            "SourceString": "Reduced SCORCH BUILD UP",
+            "LocalizedString": "Reduced SCORCH BUILD UP"
           },
           "BuffIcon": {
             "AssetPathName": "",

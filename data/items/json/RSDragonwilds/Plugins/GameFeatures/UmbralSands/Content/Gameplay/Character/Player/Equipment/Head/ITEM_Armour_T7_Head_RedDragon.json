@@ -28,8 +28,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RedDragonHelmet",
-        "SourceString": "Red Dragon Helmet",
-        "LocalizedString": "Red Dragon Helmet"
+        "SourceString": "Red Dragonhide Coif",
+        "LocalizedString": "Red Dragonhide Coif"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

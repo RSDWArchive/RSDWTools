@@ -6,20 +6,24 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "HeldEquipmentActorClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/BP_Club_AbyssalWhip.BP_Club_AbyssalWhip_C",
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/BP_Club_AbyssalWhip1_Vestige.BP_Club_AbyssalWhip1_Vestige_C",
         "SubPathString": ""
       },
       "PrimaryActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_Vestige_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/VestigeWhip/PA_Attack_AbyssalWhip_Vestige.0"
+      },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Vestige_AbyssalWhip_SprintAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/VestigeWhip/PA_Attack_Vestige_AbyssalWhip_SprintAttack.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Vestige_AbyssalWhip_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/VestigeWhip/PA_Attack_Vestige_AbyssalWhip_Visceral.0"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_AbyssalWhip_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_AbyssalWhip.0"
-      },
-      "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_AbyssalWhip_Special_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/AbyssalWhip/PA_AbyssalWhip_Special.0"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
@@ -42,10 +46,11 @@
       },
       "DamageMultiplier": 4.1,
       "BlockingDamageNegation": 5.0,
+      "AdditionalDamageMultiplier": -0.5,
       "DamageTypes": [
         "DamageType.Physical.Slash"
       ],
-      "CriticalHitChanceIncrease": 0.25,
+      "CriticalHitChanceIncrease": 0.15,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
       "bIsAWeapon": true,
       "AssociatedSkill": {
@@ -57,16 +62,16 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
       },
       "Name": {
-        "TableId": "/Game/UI/ST_Localization.ST_Localization",
-        "Key": "AbyssalWhip",
-        "SourceString": "Abyssal Whip",
-        "LocalizedString": "Abyssal Whip"
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "AbysmalWhip",
+        "SourceString": "Abysmal Whip",
+        "LocalizedString": "Abysmal Whip"
       },
       "FlavourText": {
-        "TableId": "/Game/UI/Equipment/Weapons/ST_WeaponAttacks.ST_WeaponAttacks",
-        "Key": "AbyssalWhipDesc",
-        "SourceString": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
-        "LocalizedString": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon."
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "AbysmalWhip",
+        "SourceString": "It's... not quite finished.",
+        "LocalizedString": "It's... not quite finished."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [
@@ -86,11 +91,11 @@
         }
       ],
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Abyssal_Whip.T_Icon_Abyssal_Whip",
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Abyssal_Whip_Vestige.T_Icon_Abyssal_Whip_Vestige",
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Whip_AbyssalDemon_1H_01/SM_Whip_AbyssalDemon_1H_01.SM_Whip_AbyssalDemon_1H_01",
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Melee/Whip_LesserAbyssal_1H_01/SM_Whip_Lesser_Abyssal_1H_01.SM_Whip_Lesser_Abyssal_1H_01",
         "SubPathString": ""
       },
       "PowerLevel": 4,
@@ -109,10 +114,30 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AbyssalWhipBoon.Description",
+            "SourceString": "ATTACKS build up BLEED on enemies",
+            "LocalizedString": "ATTACKS build up BLEED on enemies"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
-      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "P3_Aq0nAXu5dlFuBNGgyaw",
-      "InternalName": "masterworks_weap_abyssal_whip"
+      "InternalName": "vestige_weap_abyssal_whip"
     }
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "version": "0.12.1.0",
-  "generatedAtUtc": "2026-07-29T12:44:00Z",
+  "version": "1.0.0.2",
+  "generatedAtUtc": "2026-09-15T12:35:04Z",
   "quests": [
     {
       "persistence_id": "3MpWS0mD8A6yFVmjVAA2Qg",
@@ -81,6 +81,14 @@
       "is_main_quest": true,
       "quest_region": null,
       "duplicate_display_name": true
+    },
+    {
+      "persistence_id": "Nw3wiUaB8siRIN2bStWJmw",
+      "internal_name": "SW_MainQuest",
+      "display_name": "Regicide",
+      "is_main_quest": true,
+      "quest_region": null,
+      "duplicate_display_name": false
     },
     {
       "persistence_id": "YTzYzUk_2vcK4RSEwe-m3w",

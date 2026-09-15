@@ -86,7 +86,7 @@
       "MaxStackSize": 999,
       "PowerLevel": 4,
       "Category": {
-        "TagName": "Item.Equipment.Ammo.Arrow.Iron"
+        "TagName": "Item.Equipment.Ammo.Arrow.StatusEffect"
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Ammo.Arrow"

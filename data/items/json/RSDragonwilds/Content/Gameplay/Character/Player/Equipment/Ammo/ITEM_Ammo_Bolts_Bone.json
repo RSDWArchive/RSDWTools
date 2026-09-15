@@ -102,7 +102,7 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "DorgeshuunCrossbow.Description",
+            "Key": "BoneBolts.Boon",
             "SourceString": "HITS cause BLEED build up on targets",
             "LocalizedString": "HITS cause BLEED build up on targets"
           },

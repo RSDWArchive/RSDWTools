@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Cloth_Vis",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "VisCloth",
+        "SourceString": "Vis Cloth",
+        "LocalizedString": "Vis Cloth"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "VisCloth",
+        "SourceString": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour!",
+        "LocalizedString": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour!"
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Viz_Cloth.T_Icon_Viz_Cloth",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Cloths/SM_Ancestral_Cloth_01.SM_Ancestral_Cloth_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "PersistenceID": "QB1cGUwaSGregu6bDnVJIQ",
+      "InternalName": "res_cloth_vis"
+    }
+  }
+]

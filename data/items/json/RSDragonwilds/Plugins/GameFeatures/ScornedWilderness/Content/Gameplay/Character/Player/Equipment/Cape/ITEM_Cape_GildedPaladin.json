@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "WearableEquipmentData",
+    "Name": "ITEM_Cape_GildedPaladin",
+    "Class": "UScriptClass'WearableEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_GildedPaladin_MeshData_Male'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_GildedPaladin_MeshData_Male"
+      },
+      "FemaleMeshData": {
+        "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_GildedPaladin_MeshData_Female'",
+        "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_GildedPaladin_MeshData_Female"
+      },
+      "WearableEquipmentDataTableRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_WearableEquipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+        },
+        "RowName": "Cape_Gold_Cape"
+      },
+      "Slot": "ELoadoutSlotStrategy::Cape",
+      "EntitlementRequiredToEquip": {
+        "ObjectName": "EntitlementData'ED_DeluxeEdition'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Entitlements/ED_DeluxeEdition.0"
+      },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GildedPaladinCape",
+        "SourceString": "Gilded Paladin Cape",
+        "LocalizedString": "Gilded Paladin Cape"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GildedPaladinCape",
+        "SourceString": "A magnificent cape trimmed in gold, worn by those who wish to stand apart from the crowd.",
+        "LocalizedString": "A magnificent cape trimmed in gold, worn by those who wish to stand apart from the crowd."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_Capes_Armour_weapons/T_Icon_SM_F_MED_CAPE_Cape_Long_Gilded_Paladin.T_Icon_SM_F_MED_CAPE_Cape_Long_Gilded_Paladin",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
+        "SubPathString": ""
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Equipment.Armour",
+        "ItemFilter.Type.Equipment.Cape"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Cloth"
+      },
+      "bDropOnDeath": false,
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+      },
+      "PersistenceID": "7R7vbEvTmOkCuF6f0oqKLQ",
+      "InternalName": "armour_t0_cape_gold"
+    }
+  }
+]

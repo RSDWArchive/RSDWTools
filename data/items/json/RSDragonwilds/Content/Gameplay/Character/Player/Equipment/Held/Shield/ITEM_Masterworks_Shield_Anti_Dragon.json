@@ -38,7 +38,6 @@
         "RowName": "Shield"
       },
       "BlockingDamageNegation": 39.0,
-      "AdditionalDamageMultiplier": -1.8,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
@@ -102,7 +101,7 @@
         }
       ],
       "bIsMasterworkItem": true,
-      "MasterworkType": "EMasterworkUpgradeType::Masterwork",
+      "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "BNb1F0xxIE_NlYq3ypX6LA",
       "InternalName": "masterworks_shield_anti_dragon"
     }

@@ -28,7 +28,7 @@
         "LocalizedString": "A book for understanding the KotHaar numbering system (Base 12)."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Kothaar_Numbering_For_Dummies.T_Icon_Kothaar_Numbering_For_Dummies",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

@@ -10,8 +10,8 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BuildingPieceToUnlock": {
-        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Dragonkin_Gargoyle_03'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/AncientDragonkin/DA_BaseBuilding_Decoration_Dragonkin_Gargoyle_03.0"
+        "ObjectName": "BuildingPieceData'BUILDPIECE_DA_BaseBuilding_Decoration_Dragonkin_Gargoyle_03'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/AncientDragonkin/BUILDPIECE_DA_BaseBuilding_Decoration_Dragonkin_Gargoyle_03.0"
       },
       "SimpleMontageRowHandle": {
         "DataTable": {

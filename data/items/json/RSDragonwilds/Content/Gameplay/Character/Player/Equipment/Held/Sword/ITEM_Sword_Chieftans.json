@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Sword_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Sword/PA_Attack_Sword_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Sword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Sword.0"
@@ -60,12 +68,12 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ChieftansBlade",
-        "SourceString": "Chieftan's Blade",
-        "LocalizedString": "Chieftan's Blade"
+        "SourceString": "Chieftain's Blade",
+        "LocalizedString": "Chieftain's Blade"
       },
       "FlavourText": {
-        "Namespace": "",
-        "Key": "C3B9CD2A4AB90D8FDD285F9F13E61126",
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "ChieftainsBlade",
         "SourceString": "The sword of a Goblin Chieftan, used to spread war in the name of the Big High War God.",
         "LocalizedString": "The sword of a Goblin Chieftan, used to spread war in the name of the Big High War God."
       },
@@ -93,6 +101,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "chieftainsBlade.Boon",
+            "SourceString": "INCREASED chance of landing CRITICAL HITS with SWORD ATTACKS\r\nReduced DAMAGE",
+            "LocalizedString": "INCREASED chance of landing CRITICAL HITS with SWORD ATTACKS\r\nReduced DAMAGE"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "lHKVrkMlSsZx5lKVZRH63Q",

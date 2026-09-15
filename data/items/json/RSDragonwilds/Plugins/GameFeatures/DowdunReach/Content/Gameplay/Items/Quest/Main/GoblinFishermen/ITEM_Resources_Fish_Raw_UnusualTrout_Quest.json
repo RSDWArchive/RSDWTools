@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient",

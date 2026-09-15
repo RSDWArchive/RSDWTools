@@ -10,8 +10,8 @@
         "SubPathString": ""
       },
       "PrimaryActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_CrystalBow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_RangedAttack_CrystalBow.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_CrystalBow_QuickAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_RangedAttack_CrystalBow_QuickAttack.0"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_CrystalBow_C'",
@@ -51,13 +51,10 @@
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 1.6,
+      "AdditionalDamageMultiplier": 0.2,
       "AdditionalBlockingDamageNegation": -5.0,
       "DamageTypes": [
         "DamageType.Ranged"
@@ -71,6 +68,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_CrystalBow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/BP_PlayerRangedAttackCollection_CrystalBow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "Tier": 3,
       "bIsAWeapon": true,
@@ -118,6 +116,62 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "CrystalBow.Special.Title",
+            "SourceString": "Shattershot",
+            "LocalizedString": "Shattershot"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "Crystalbow.Special.Description",
+            "SourceString": "Fire a CRYSTAL ARROW that shatters, dealing DAMAGE in a cone and DETONATING after a short delay",
+            "LocalizedString": "Fire a CRYSTAL ARROW that shatters, dealing DAMAGE in a cone and DETONATING after a short delay"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "CrystalBow.Boon.Title",
+            "SourceString": "Love's Bite",
+            "LocalizedString": "Love's Bite"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "CrystalBow.Boon.Description",
+            "SourceString": "Enemies hit by SPECIAL ATTACKS cause CRYSTALS to detonate inside them after a short delay, dealing additional DAMAGE",
+            "LocalizedString": "Enemies hit by SPECIAL ATTACKS cause CRYSTALS to detonate inside them after a short delay, dealing additional DAMAGE"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "CrystalBow.Bane.Title",
+            "SourceString": "Imperfect",
+            "LocalizedString": "Imperfect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "CrystalBow.Bane.Description",
+            "SourceString": "INCREASED DRAW TIME",
+            "LocalizedString": "INCREASED DRAW TIME"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Masterwork",
       "PersistenceID": "FK7SwEPmPfVFztSXScvKQA",

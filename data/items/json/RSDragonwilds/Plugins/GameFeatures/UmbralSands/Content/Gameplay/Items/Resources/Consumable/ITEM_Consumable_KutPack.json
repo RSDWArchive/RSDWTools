@@ -68,7 +68,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "KutPack",
@@ -76,10 +75,10 @@
         "LocalizedString": "Kot Pack"
       },
       "FlavourText": {
-        "TableId": "/Game/UI/JournalData/Entries/ST_JournalEntries.ST_JournalEntries",
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "KotPack",
-        "SourceString": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves.",
-        "LocalizedString": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves."
+        "SourceString": "A flame-retardant bag full of various knickknacks.",
+        "LocalizedString": "A flame-retardant bag full of various knickknacks."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kothaar_Pack.T_Icon_Kothaar_Pack",

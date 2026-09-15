@@ -60,8 +60,6 @@
         },
         "RowName": "Weapons"
       },
-      "AdditionalDamageMultiplier": -4.4,
-      "AdditionalBlockingDamageNegation": -5.0,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "AssociatedSkill": {
@@ -78,8 +76,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_WateringCan_Steel",
-        "SourceString": "{HeldContainerDescription}\r\n\r\nA Steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
-        "LocalizedString": "{HeldContainerDescription}\r\n\r\nA Steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots."
+        "SourceString": "{HeldContainerDescription}\r\n\r\nA steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
+        "LocalizedString": "{HeldContainerDescription}\r\n\r\nA steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots."
       },
       "CustomInventoryWidgetClass": {
         "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ContainerCustomInventorySlot_C'",

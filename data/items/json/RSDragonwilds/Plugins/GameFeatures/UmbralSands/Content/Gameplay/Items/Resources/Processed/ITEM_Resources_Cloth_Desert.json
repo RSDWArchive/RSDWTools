@@ -40,7 +40,7 @@
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Potion"
+        "TagName": "Audio.Cloth"
       },
       "PersistenceID": "21j0N0WuJGTYqGW132kTXg",
       "InternalName": "res_cloth_desert"

@@ -26,6 +26,7 @@
         "SubPathString": ""
       },
       "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
       "ItemFilterTags": [

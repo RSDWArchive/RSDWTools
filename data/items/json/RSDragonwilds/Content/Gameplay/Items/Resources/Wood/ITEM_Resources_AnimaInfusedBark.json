@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.8,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Wood"
       },

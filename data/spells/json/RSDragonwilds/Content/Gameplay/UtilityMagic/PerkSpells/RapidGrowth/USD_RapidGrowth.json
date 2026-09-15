@@ -96,7 +96,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/BP_SpellPlacementVisualizer_RapidGrowth.BP_SpellPlacementVisualizer_RapidGrowth_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

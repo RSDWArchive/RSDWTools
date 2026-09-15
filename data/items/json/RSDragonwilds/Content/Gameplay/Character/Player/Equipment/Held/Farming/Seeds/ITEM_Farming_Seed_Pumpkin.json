@@ -53,8 +53,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Pumpkin",
-        "SourceString": "Pumpkin Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots.",
-        "LocalizedString": "Pumpkin Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots."
+        "SourceString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
+        "LocalizedString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Pumpkin_seeds.T_Icon_Pumpkin_seeds",

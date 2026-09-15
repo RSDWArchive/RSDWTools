@@ -14,12 +14,12 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
       },
       "SecondaryActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
-      },
-      "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_ZamorakStaff_Special_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/ZamorakStaff/PA_ZamorakStaff_Special.0"
+      },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
@@ -37,15 +37,13 @@
         },
         "RowName": "Weapons"
       },
-      "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
-        "RowName": "Unarmed"
-      },
       "DamageMultiplier": 6.8,
       "AmmoType": "EHeldEquipmentAmmoType::Runes",
+      "MagicAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Staff_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff.0"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "bIsAWeapon": true,
@@ -123,8 +121,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ZamorakStaffSpecial.Description",
-            "SourceString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you.",
-            "LocalizedString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP to any enemies around you."
+            "SourceString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP on any enemies around you",
+            "LocalizedString": "BURN enemies with CHAOS FIRE, DAMAGING and causing FIRE to BUILD UP on any enemies around you"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -141,8 +139,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ZamorakStaffBoon.Description",
-            "SourceString": "Increases BURNING damage from FIRE SPELLS",
-            "LocalizedString": "Increases BURNING damage from FIRE SPELLS"
+            "SourceString": "Increases BURNING DAMAGE from FIRE SPELLS",
+            "LocalizedString": "Increases BURNING DAMAGE from FIRE SPELLS"
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -159,8 +157,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ZamorakStaffBane.Description",
-            "SourceString": "AIR, WATER and EARTH spell damage REDUCED",
-            "LocalizedString": "AIR, WATER and EARTH spell damage REDUCED"
+            "SourceString": "AIR, WATER and EARTH spell DAMAGE reduced",
+            "LocalizedString": "AIR, WATER and EARTH spell DAMAGE reduced"
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -22,7 +22,7 @@
         "LocalizedString": "A ritually cleansed token containing a piece of another world. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Kings_Token.T_Icon_Kings_Token",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Journal/T_Icon_Journal_King_Token_Purified.T_Icon_Journal_King_Token_Purified",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

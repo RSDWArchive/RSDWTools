@@ -39,7 +39,7 @@
         "RowName": "Tools"
       },
       "DamageMultiplier": 0.0,
-      "AdditionalBlockingDamageNegation": -20.0,
+      "AdditionalDamageMultiplier": -2.8,
       "DamageTypes": [
         "DamageType.Physical.Crush"
       ],
@@ -62,8 +62,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Tool_Shovel_Steel",
-        "SourceString": "A robust Spade made from Steel. \r\n\r\nUsed to clear farming plots.",
-        "LocalizedString": "A robust Spade made from Steel. \r\n\r\nUsed to clear farming plots."
+        "SourceString": "A robust Spade made from steel. \r\n\r\nUsed to clear farming plots.",
+        "LocalizedString": "A robust Spade made from steel. \r\n\r\nUsed to clear farming plots."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Steel_Shovel.T_icon_Steel_Shovel",

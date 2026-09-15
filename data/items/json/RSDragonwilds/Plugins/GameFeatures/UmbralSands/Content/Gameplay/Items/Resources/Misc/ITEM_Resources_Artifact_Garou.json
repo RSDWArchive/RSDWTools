@@ -12,8 +12,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ArtifactGarou",
-        "SourceString": "Garou Artifact",
-        "LocalizedString": "Garou Artifact"
+        "SourceString": "Garou Artefact",
+        "LocalizedString": "Garou Artefact"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

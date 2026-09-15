@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Hide_Dragon_Black",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "BlackDragonhide",
+        "SourceString": "Black Dragon Hide",
+        "LocalizedString": "Black Dragon Hide"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "BlackDragonhide",
+        "SourceString": "Obtained by felling black dragons. Can be processed at the tannery. ",
+        "LocalizedString": "Obtained by felling black dragons. Can be processed at the tannery. "
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Black_Dragon_Hide.T_Icon_Black_Dragon_Hide",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Black_Dragon_Hide/SM_Black_Dragon_Hide_01.SM_Black_Dragon_Hide_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Leather"
+      },
+      "PersistenceID": "hGIscEuEaNe89aOPIT8Wmg",
+      "InternalName": "res_hide_dragon_black"
+    }
+  }
+]

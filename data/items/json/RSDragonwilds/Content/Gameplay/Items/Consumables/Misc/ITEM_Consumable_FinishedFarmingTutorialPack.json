@@ -49,7 +49,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FTUEQuests/ST_FTUE_Farming.ST_FTUE_Farming",
         "Key": "Name_FinishedFarmingTutorialPack",

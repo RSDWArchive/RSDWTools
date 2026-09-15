@@ -37,7 +37,7 @@
         "RowName": "Tools"
       },
       "DamageMultiplier": 8.4,
-      "AdditionalDamageMultiplier": 0.099999,
+      "AdditionalDamageMultiplier": 0.09999943,
       "DamageTypes": [
         "DamageType.Physical.Crush"
       ],

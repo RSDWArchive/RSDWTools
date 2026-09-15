@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Armour_T8_Body_DragonArmour",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "WearableEquipmentData'ITEM_Armour_T8_Body_DragonArmour'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_DragonArmour"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Armour"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 125,
+      "PersistenceID": "p7h3s0bkUtHmH7CuUEgwVg",
+      "InternalName": "recipe_armour_body_dragon"
+    }
+  }
+]

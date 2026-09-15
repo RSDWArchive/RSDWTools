@@ -69,7 +69,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
         "SubPathString": ""
       },
-      "MaxStackSize": 50,
+      "MaxStackSize": 99,
       "PowerLevel": 4,
       "Weight": 1.0,
       "Category": {

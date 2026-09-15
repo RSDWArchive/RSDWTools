@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Compound_Harmonized_From_Residue_Discordent",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent"
+          },
+          "Count": 3
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Compound_Harmonized'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Adhesive"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "KRKLIkq-2-MsF5yG3i5VeQ",
+      "InternalName": "recipe_compound_harmonized_from_residue_discordent"
+    }
+  }
+]

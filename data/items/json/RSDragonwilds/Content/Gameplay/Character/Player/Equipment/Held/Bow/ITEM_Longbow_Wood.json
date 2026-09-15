@@ -17,6 +17,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
       },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+      },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
@@ -47,10 +51,6 @@
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "AdditionalBlockingDamageNegation": -5.0,
@@ -66,6 +66,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "Tier": 2,
       "bIsAWeapon": true,

@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Club_AbyssalWhip_New",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Club_AbyssalWhip'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/ITEM_Club_AbyssalWhip.0"
+          },
+          "Count": 1
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DemonicOil'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_DemonicOil"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Scorch'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Scorch"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Essence_Cursed'",
+            "ObjectPath": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Essence_Cursed"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Gem_Dragonstone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Mineral/ITEM_Resources_Gem_Dragonstone"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Club_AbyssalWhip_Masterwork'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/ITEM_Club_AbyssalWhip_Masterwork.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.Masterwork.AbyssalWhip"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier4"
+      },
+      "SkillXPAwardedOnCraft": 500,
+      "PersistenceID": "KQ0sI0gDwqlHNBu2EHV4fg",
+      "InternalName": "recipe_masterworks_club_abyssalwhip"
+    }
+  }
+]

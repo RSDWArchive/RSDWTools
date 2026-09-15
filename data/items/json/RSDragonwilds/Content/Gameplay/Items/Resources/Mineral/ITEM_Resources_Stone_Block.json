@@ -22,7 +22,7 @@
         "LocalizedString": "A building material. Used for advanced construction. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Stone_Block.T_Icon_Stone_Block",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Block_Stone.T_Icon_Block_Stone",
         "SubPathString": ""
       },
       "StaticMesh": {
@@ -32,12 +32,12 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "Weight": 6.0,
+      "Weight": 4.0,
       "Category": {
         "TagName": "Item.BuildingResource"
       },
       "WeightReductionTag": {
-        "TagName": "ItemFilter.WeightReduction.Stone"
+        "TagName": "ItemFilter.WeightReduction.StoneBlock"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial",

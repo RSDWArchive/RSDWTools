@@ -37,7 +37,7 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Artisan.SM_Skill_Tome_Artisan",
+        "AssetPathName": "/Game/Art/Env/Props/Gameplay_Props/Skill_Tomes/SM_Skill_Tome_Agility.SM_Skill_Tome_Agility",
         "SubPathString": ""
       },
       "MaxStackSize": 99,

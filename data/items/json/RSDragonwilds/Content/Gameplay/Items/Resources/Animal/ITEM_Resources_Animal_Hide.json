@@ -22,7 +22,7 @@
         "LocalizedString": "Gathered from big creatures, this hide is essential for crafting leather equipment."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Animal_Hide.T_Icon_Animal_Hide",
+        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Animal_Hide.T_Icon_Resources_Animal_Hide",
         "SubPathString": ""
       },
       "StaticMesh": {

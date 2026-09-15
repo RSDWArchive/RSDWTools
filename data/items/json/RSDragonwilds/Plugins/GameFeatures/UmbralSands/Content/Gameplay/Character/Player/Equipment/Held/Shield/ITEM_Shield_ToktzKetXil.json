@@ -34,7 +34,6 @@
         "RowName": "Toktz-ket-xil"
       },
       "BlockingDamageNegation": 55.0,
-      "AdditionalDamageMultiplier": -7.3,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "GrantedEffects": [
         {
@@ -92,9 +91,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "ObsidianShield.Description",
-            "SourceString": "Increased CRIT DAMAGE\r\nReduced BLOCK",
-            "LocalizedString": "Increased CRIT DAMAGE\r\nReduced BLOCK"
+            "Key": "ToktzKetXil.Boon",
+            "SourceString": "Slightly increased MELEE CRIT DAMAGE\r\nReduced DAMAGE NEGATION",
+            "LocalizedString": "Slightly increased MELEE CRIT DAMAGE\r\nReduced DAMAGE NEGATION"
           },
           "BuffIcon": {
             "AssetPathName": "",

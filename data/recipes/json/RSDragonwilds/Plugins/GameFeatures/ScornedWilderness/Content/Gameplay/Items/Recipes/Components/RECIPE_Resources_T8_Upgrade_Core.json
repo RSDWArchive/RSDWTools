@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_T8_Upgrade_Core",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_T8_Upgrade_Shard'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_T8_Upgrade_Shard"
+          },
+          "Count": 99
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis"
+          },
+          "Count": 10
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_T8_Upgrade_Core'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_T8_Upgrade_Core"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Magic.VaultCore"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier2"
+      },
+      "PersistenceID": "-XDAk09E4AxQBUKhtBFK-A",
+      "InternalName": "recipe_t8_upgrade_core"
+    }
+  }
+]

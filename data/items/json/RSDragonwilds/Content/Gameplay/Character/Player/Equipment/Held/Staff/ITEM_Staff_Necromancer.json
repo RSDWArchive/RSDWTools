@@ -14,6 +14,10 @@
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
       },
       "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
       },
@@ -34,16 +38,17 @@
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 5.9,
       "AdditionalDamageMultiplier": 0.5,
       "AdditionalBlockingDamageNegation": -5.0,
       "AmmoType": "EHeldEquipmentAmmoType::Runes",
+      "MagicAttackCollection": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Staff_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff.0"
+      },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "bIsAWeapon": true,
@@ -102,7 +107,7 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "NecromancerStaff.Description",
+            "Key": "NecromancerStaff.Boon",
             "SourceString": "Increased DAMAGE\r\nReduced DURABILITY",
             "LocalizedString": "Increased DAMAGE\r\nReduced DURABILITY"
           },

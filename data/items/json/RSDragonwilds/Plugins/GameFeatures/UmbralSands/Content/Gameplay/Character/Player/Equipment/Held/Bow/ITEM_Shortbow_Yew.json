@@ -17,6 +17,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow.0"
       },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_QuickAction_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction.0"
+      },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
@@ -47,10 +51,6 @@
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 4.2,
@@ -67,6 +67,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Shortbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "Tier": 3,
       "bIsAWeapon": true,

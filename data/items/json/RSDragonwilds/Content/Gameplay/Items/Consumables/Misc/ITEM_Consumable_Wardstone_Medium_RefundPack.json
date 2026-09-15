@@ -47,9 +47,27 @@
           },
           "ProbabilityModifierAttribute": null,
           "ExtraDropPercentageForPlayerAmount": []
+        },
+        {
+          "ItemDataClass": {
+            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.ITEM_Rune_Essence",
+            "SubPathString": ""
+          },
+          "MinToDrop": 10,
+          "MaxToDrop": 10,
+          "MaximumGrouping": 1,
+          "ProbabilityOfDrop": 1.0,
+          "RequiredTagQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+          },
+          "ProbabilityModifierAttribute": null,
+          "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.1,
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MediumWardstone",

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Kuldra",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "Kuldrashead",
+        "SourceString": "Kuldra's Head",
+        "LocalizedString": "Kuldra's Head"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "KuldrasHead",
+        "SourceString": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. Commander Zilyana should see this. ",
+        "LocalizedString": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. Commander Zilyana should see this. "
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Kuldra_Head.T_Icon_Kuldra_Head",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Primary.T_Quest_Primary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Animal/SM_Bone_01.SM_Bone_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.Light"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "4vL1iUE8hFPCUjy34QVYpg",
+      "InternalName": "res_kuldra"
+    }
+  }
+]

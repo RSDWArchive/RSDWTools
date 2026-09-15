@@ -29,8 +29,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RedDragonChest",
-        "SourceString": "Red Dragon Chest",
-        "LocalizedString": "Red Dragon Chest"
+        "SourceString": "Red Dragonhide Body",
+        "LocalizedString": "Red Dragonhide Body"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

@@ -135,7 +135,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/RunesToRuneEssence/BP_SpellPlacementVisualizer_RunesToRuneEssence.BP_SpellPlacementVisualizer_RunesToRuneEssence_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "bAlwaysTryToPlaceOnSurface": true,
       "TraceProfile": {
         "Name": "NoCollision"

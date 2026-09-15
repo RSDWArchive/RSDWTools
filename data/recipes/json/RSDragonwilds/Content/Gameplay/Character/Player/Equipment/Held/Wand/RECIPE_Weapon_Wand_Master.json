@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Wand_Master",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+          },
+          "Count": 8
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Refined_Obsidian'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Refined_Obsidian"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Infinity'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Infinity"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Gem_Dragonstone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Mineral/ITEM_Resources_Gem_Dragonstone"
+          },
+          "Count": 2
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Gypsum'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Gypsum"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Wand_Master'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Master.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "9zqYgkJrVkldSXKNupBlDA",
+      "InternalName": "recipe_wand_master"
+    }
+  }
+]

@@ -34,7 +34,6 @@
         "RowName": "Shield"
       },
       "BlockingDamageNegation": 52.0,
-      "AdditionalDamageMultiplier": -4.4,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
@@ -79,16 +78,34 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
-            "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ImaruDragonShield.Special.Title",
+            "SourceString": "Imaru's Retribution",
+            "LocalizedString": "Imaru's Retribution"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "ImaruDragonFireShield.Description",
             "SourceString": "PARRYING sends a GHOSTLY CLAW forwards and DAMAGES enemies",
             "LocalizedString": "PARRYING sends a GHOSTLY CLAW forwards and DAMAGES enemies"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ImaruDragonShieldBoon.Title",
+            "SourceString": "Dragon Breath Resistance",
+            "LocalizedString": "Dragon Breath Resistance"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ImaruDragonShieldBoon.Description",
+            "SourceString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE",
+            "LocalizedString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE"
           },
           "BuffIcon": {
             "AssetPathName": "",

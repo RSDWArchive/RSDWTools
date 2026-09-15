@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_WateringCan_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 6
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldContainerEquipmentData'ITEM_WateringCan_Rune'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Rune"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Farming.WateringCan.Metal"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+      },
+      "SkillXPAwardedOnCraft": 50,
+      "PersistenceID": "93vlwkp1bDvavNm7f64auw",
+      "InternalName": "recipe_wateringcan_rune"
+    }
+  }
+]

@@ -337,7 +337,7 @@
   {
     "item_id": "ITEM_Cape_EarlyAdopter",
     "display_name": "Pioneer's Cape",
-    "icon": "T_Icon_Pioneer_Mantle.png"
+    "icon": "T_Icon_Cape_Pioneer.png"
   },
   {
     "item_id": "ITEM_Cape_Fellhollow",
@@ -362,7 +362,7 @@
   {
     "item_id": "ITEM_Cape_Lumber_Backpack",
     "display_name": "Lumber Backpack",
-    "icon": "T_Icon_Lumberjack_Backpack.png"
+    "icon": "T_Icon_Lumberjack_Backpack_final.png"
   },
   {
     "item_id": "ITEM_Cape_Mining",
@@ -545,14 +545,29 @@
     "icon": "T_Icon_M_MED_HEAD_ReinforcedArmour_01.png"
   },
   {
+    "item_id": "ITEM_Armour_T3_Head_BlackMed",
+    "display_name": "Black Med Helm",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+  },
+  {
     "item_id": "ITEM_Armour_T3_Head_Bronze",
     "display_name": "Bronze Helmet",
     "icon": "T_Icon_M_Head_BronzeArmour_01.png"
   },
   {
+    "item_id": "ITEM_Armour_T3_Head_BronzeMed",
+    "display_name": "Bronze Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Bronze_01.png"
+  },
+  {
     "item_id": "ITEM_Armour_T3_Head_HardLeather",
     "display_name": "Hard Leather Cowl",
     "icon": "T_Icon_M_MED_HEAD_HardLeather_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T3_Head_WhiteMed",
+    "display_name": "White Med Helm",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png"
   },
   {
     "item_id": "ITEM_Armour_T3_Head_Wizard",
@@ -573,6 +588,11 @@
     "item_id": "ITEM_Armour_T4_Head_Iron",
     "display_name": "Iron Helmet",
     "icon": "T_Icon_F_MED_HEAD_IronArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T4_Head_IronMed",
+    "display_name": "Iron Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Iron_01.png"
   },
   {
     "item_id": "ITEM_Armour_T4_Head_Paladin",
@@ -625,6 +645,11 @@
     "icon": "T_icon_Steel_Helmet.png"
   },
   {
+    "item_id": "ITEM_Armour_T5_Head_SteelMed",
+    "display_name": "Steel Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Steel_01.png"
+  },
+  {
     "item_id": "ITEM_Armour_T5_Head_White",
     "display_name": "White Full Helm",
     "icon": "T_icon_White_Helmet.png"
@@ -642,7 +667,7 @@
   {
     "item_id": "ITEM_Longbow_Hunter",
     "display_name": "Blightwood Longbow",
-    "icon": "T_Icon_HuntersLongbow_OakWood_2H_01.png"
+    "icon": "T_Icon_Blightwood_Longbow.png"
   },
   {
     "item_id": "ITEM_Longbow_Oak",
@@ -846,7 +871,7 @@
   },
   {
     "item_id": "ITEM_Farming_Seed_Marrentill",
-    "display_name": "Marentill Seeds",
+    "display_name": "Marrentill Seeds",
     "icon": "T_Icon_Marrentil_seeds.png"
   },
   {
@@ -911,22 +936,22 @@
   },
   {
     "item_id": "ITEM_Farming_TreeSeed_Ash",
-    "display_name": "Ash tree Seed",
+    "display_name": "Ash Tree Seed",
     "icon": "T_Icon_Ash_Tree_Seed.png"
   },
   {
     "item_id": "ITEM_Farming_TreeSeed_Maple",
-    "display_name": "Maple tree Seed",
+    "display_name": "Maple Tree Seed",
     "icon": "T_Icon_Maple_Seed.png"
   },
   {
     "item_id": "ITEM_Farming_TreeSeed_Oak",
-    "display_name": "Oak tree Seed",
+    "display_name": "Oak Tree Seed",
     "icon": "T_Icon_Oal_Tree_Seed.png"
   },
   {
     "item_id": "ITEM_Farming_TreeSeed_Willow",
-    "display_name": "Willow tree Seed",
+    "display_name": "Willow Tree Seed",
     "icon": "T_Icon_Willow_Seed.png"
   },
   {
@@ -1271,7 +1296,7 @@
   },
   {
     "item_id": "ITEM_Sword_Chieftans",
-    "display_name": "Chieftan's Blade",
+    "display_name": "Chieftain's Blade",
     "icon": "T_Icon_Sword_Chieftain_s_Blade.png"
   },
   {
@@ -1321,6 +1346,11 @@
   },
   {
     "item_id": "ITEM_Club_AbyssalWhip",
+    "display_name": "Abysmal Whip",
+    "icon": "T_Icon_Abyssal_Whip_Vestige.png"
+  },
+  {
+    "item_id": "ITEM_Club_AbyssalWhip_Masterwork",
     "display_name": "Abyssal Whip",
     "icon": "T_Icon_Abyssal_Whip.png"
   },
@@ -1338,6 +1368,46 @@
     "item_id": "ITEM_Staff_StaffOfLight",
     "display_name": "Staff of Light",
     "icon": "T_Icon_Staff_of_Light.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Ancestral",
+    "display_name": "Ancestral Wand",
+    "icon": "T_Icon_SM_Wand_Ancestral_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Ash",
+    "display_name": "Ash Wand",
+    "icon": "T_Icon_SM_Wand_Ash_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Blightwood",
+    "display_name": "Blightwood Wand",
+    "icon": "T_Icon_SM_Wand_Blightwood_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_KuldrasWrath",
+    "display_name": "Kuldra's Wrath",
+    "icon": "T_Icon_SM_Wand_Kuldras_Wrath_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Maple",
+    "display_name": "Maple Wand",
+    "icon": "T_Icon_SM_Wand_Maple_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Master",
+    "display_name": "Master Wand",
+    "icon": "T_Icon_SM_Wand_Master_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Oak",
+    "display_name": "Oak Wand",
+    "icon": "T_Icon_SM_Wand_Oak_01.png"
+  },
+  {
+    "item_id": "ITEM_Wand_Splitbark",
+    "display_name": "Splitbark Wand",
+    "icon": "T_Icon_SM_Wand_Splitbark_1H_01.png"
   },
   {
     "item_id": "ITEM_Jewellery_Ring_Gourmand",
@@ -1566,7 +1636,7 @@
   },
   {
     "item_id": "ITEM_Armour_T5_Legs_Necromancer",
-    "display_name": "Necromancer's Robe Bottom\r\n",
+    "display_name": "Necromancer's Robe Bottom",
     "icon": "T_icon_Necromancer_Legs.png"
   },
   {
@@ -1852,12 +1922,12 @@
   {
     "item_id": "ITEM_Consumable_Meat_Haunch",
     "display_name": "Haunch",
-    "icon": "T_Icon_Cooked_Tough_Meat_01.png"
+    "icon": "T_Icon_Deer_Meat_Cooked.png"
   },
   {
     "item_id": "ITEM_Consumable_Meat_Haunch_Burnt",
     "display_name": "Burnt Haunch",
-    "icon": "T_Icon_Cooked_Tough_Meat_01.png"
+    "icon": "T_Icon_Deer_Meat_Burnt.png"
   },
   {
     "item_id": "ITEM_Consumable_Meat_Mixed_Grill",
@@ -2286,7 +2356,7 @@
   },
   {
     "item_id": "ITEM_Consumable_Potion_T3_Lumberjack",
-    "display_name": "[PH] Lumberjack Potion",
+    "display_name": "Lumberjack Potion",
     "icon": "T_Icon_Potion_Tier3_Green.png"
   },
   {
@@ -2537,17 +2607,17 @@
   {
     "item_id": "ITEM_Consumable_Tome_Tier2_Cooking",
     "display_name": "Tome of Cooking - Vol 2",
-    "icon": "T_Icon_Skill_Tome_Cooking.png"
+    "icon": "T_Icon_Dec_Skill_Tome_Standing_Cooking.png"
   },
   {
     "item_id": "ITEM_Consumable_Tome_Tier2_Farming",
     "display_name": "Tome of Farming - Vol 2",
-    "icon": "T_Icon_Skill_Tome_Farming.png"
+    "icon": "T_Icon_Dec_Skill_Tome_Standing_Farming.png"
   },
   {
     "item_id": "ITEM_Consumable_Tome_Tier2_Magic",
     "display_name": "Tome of Magic - Vol 2",
-    "icon": "T_Icon_Skill_Tome_Magic.png"
+    "icon": "T_Icon_Dec_Skill_Tome_Standing_Magic.png"
   },
   {
     "item_id": "ITEM_Consumable_Tome_Tier2_Mining",
@@ -2568,6 +2638,11 @@
     "item_id": "ITEM_Consumable_Tome_Tier2_Woodcutting",
     "display_name": "Tome of Woodcutting - Vol 2",
     "icon": "T_Icon_Skill_Tome_Woodcutting.png"
+  },
+  {
+    "item_id": "ITEM_Artifact_Granite_Maul_Blueprints",
+    "display_name": "Granite Maul Blueprints",
+    "icon": "T_Icon_Scroll.png"
   },
   {
     "item_id": "ITEM_Consumable_Potion_T1_Weak_Healing",
@@ -2610,14 +2685,34 @@
     "icon": ""
   },
   {
+    "item_id": "ITEM_Resources_Emerald",
+    "display_name": "Emerald",
+    "icon": "T_Icon_Gemstone_Emerald_01.png"
+  },
+  {
     "item_id": "ITEM_Resources_Emerald_Deleted",
     "display_name": "res_gem_emerald_deleted",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Resources_RuniteOre_Deleted",
+    "display_name": "res_ore_runite_old",
     "icon": ""
   },
   {
     "item_id": "ITEM_Resources_Soda_Ash",
     "display_name": "res_soda_ash",
     "icon": ""
+  },
+  {
+    "item_id": "ITEM_Resources_Vine_Root",
+    "display_name": "Vine Root",
+    "icon": "T_Icon_Resources_Vine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Mahogany",
+    "display_name": "Mahogany Logs",
+    "icon": "T_Icon_MahoganyWood_01.png"
   },
   {
     "item_id": "ITEM_Scimitar_Imaru_Deprecated",
@@ -2632,7 +2727,7 @@
   {
     "item_id": "ITEM_JOURNAL_Image_BrinkOfExtinction_KotHaar",
     "display_name": "KotHaar Numbering For Dummies",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Kothaar_Numbering_For_Dummies.png"
   },
   {
     "item_id": "ITEM_JOURNAL_TreasureMap_Scarecrow_1",
@@ -2672,7 +2767,7 @@
   {
     "item_id": "ITEM_Resources_Animal_Hide",
     "display_name": "Animal Hide",
-    "icon": "T_Icon_Animal_Hide.png"
+    "icon": "T_Icon_Resources_Animal_Hide.png"
   },
   {
     "item_id": "ITEM_Resources_Animal_Horn",
@@ -2740,6 +2835,11 @@
     "icon": "T_Icon_WitherHeart.png"
   },
   {
+    "item_id": "ITEM_Resources_Kuldra",
+    "display_name": "Kuldra's Head",
+    "icon": "T_Icon_Kuldra_Head.png"
+  },
+  {
     "item_id": "ITEM_Resources_Large_Animal_Horn",
     "display_name": "Ram Horn",
     "icon": "T_Icon_Resources_Large_Animal_Horn.png"
@@ -2762,7 +2862,7 @@
   {
     "item_id": "ITEM_Resources_Meat_Game",
     "display_name": "Raw Game Meat",
-    "icon": "T_Icon_Raw_Tough_Meat_01.png"
+    "icon": "T_Icon_Deer_Meat_Raw.png"
   },
   {
     "item_id": "ITEM_Resources_Meat_Undead",
@@ -2817,7 +2917,7 @@
   {
     "item_id": "ITEM_Resources_Skin_Scraps",
     "display_name": "Animal Hide Scraps",
-    "icon": "T_Icon_Animal_Hide_Scraps.png"
+    "icon": "T_Icon_Resource_Animal_Hide_Scraps.png"
   },
   {
     "item_id": "ITEM_Resources_Soft_Animal_Fur",
@@ -2875,11 +2975,6 @@
     "icon": "T_Icon_Resource_Diamond.png"
   },
   {
-    "item_id": "ITEM_Resources_Emerald",
-    "display_name": "Emerald",
-    "icon": "T_Icon_Gemstone_Emerald_01.png"
-  },
-  {
     "item_id": "ITEM_Resources_Jade",
     "display_name": "Jade",
     "icon": "T_Icon_Jade.png"
@@ -2893,6 +2988,11 @@
     "item_id": "ITEM_Resources_Red_Topaz",
     "display_name": "Red Topaz",
     "icon": "T_Icon_Resource_Red_Topaz.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ruby",
+    "display_name": "Ruby",
+    "icon": "T_Icon_Resource_Ruby.png"
   },
   {
     "item_id": "ITEM_Resources_Sapphire",
@@ -2982,7 +3082,7 @@
   {
     "item_id": "ITEM_quest_AnimalMagnetism_AdvertInnaBottle",
     "display_name": "Advert-Inna-Bottle",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_quest_AnimalMagnetism_Magnet",
@@ -3002,7 +3102,7 @@
   {
     "item_id": "ITEM_Quest_BrinkOfExtinction_Zi_Core",
     "display_name": "Zi's Core",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Ico_Zi_Core.png"
   },
   {
     "item_id": "ITEM_Quest_Contact_HelixCrystal",
@@ -3092,17 +3192,17 @@
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll1",
     "display_name": "The Binding of Ib",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll2",
     "display_name": "Coclear Malificarum",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll3",
     "display_name": "Eventide - A New Spawn",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_quest_FH_WitherBeast_Heart",
@@ -3117,7 +3217,7 @@
   {
     "item_id": "ITEM_quest_garou_purifiedkingstoken",
     "display_name": "Purified King's Token",
-    "icon": "T_Icon_Kings_Token.png"
+    "icon": "T_Icon_Journal_King_Token_Purified.png"
   },
   {
     "item_id": "ITEM_quest_GhostSpeakAmulet",
@@ -3193,6 +3293,11 @@
     "item_id": "ITEM_quest_Scarecrow_Key",
     "display_name": "Scarecrow's Key",
     "icon": "T_Icon_Key.png"
+  },
+  {
+    "item_id": "ITEM_Quest_SW_Lougrim_Staff",
+    "display_name": "Lougrim's Staff",
+    "icon": "T_Icon_Lougrim_Staff.png"
   },
   {
     "item_id": "ITEM_Resources_Imaru_Head",
@@ -3340,11 +3445,6 @@
     "icon": "T_Masterworks_Horn_Mouthpiece.png"
   },
   {
-    "item_id": "ITEM_Artifact_Granite_Maul_Blueprints",
-    "display_name": "Granite Maul Blueprints",
-    "icon": "T_Icon_Scroll_021cc0ae.png"
-  },
-  {
     "item_id": "ITEM_Masterworks_Imbued_Granite_Maul_Head",
     "display_name": "Imbued Granite Maul Head",
     "icon": "T_Icon_Imbued_Maul_Head.png"
@@ -3425,9 +3525,9 @@
     "icon": "T_Icon_Mithril_Ore.png"
   },
   {
-    "item_id": "ITEM_Resources_RuniteOre",
-    "display_name": "Runite Ore",
-    "icon": "T_Resources_IronOre.png"
+    "item_id": "ITEM_Resources_RuniteBar",
+    "display_name": "Rune Bar",
+    "icon": "T_Resources_IronIngot.png"
   },
   {
     "item_id": "ITEM_Resources_SilverBar",
@@ -3462,7 +3562,7 @@
   {
     "item_id": "ITEM_Fuel_Resources_Fuel_Pellet",
     "display_name": "Fuel Pellet",
-    "icon": "T_icon_Fuel_Pellet.png"
+    "icon": "T_Icon__Block_FuelPellet.png"
   },
   {
     "item_id": "ITEM_Resources_Clay",
@@ -3562,7 +3662,7 @@
   {
     "item_id": "ITEM_Resources_Stone_Block",
     "display_name": "Stone Block",
-    "icon": "T_Icon_Stone_Block.png"
+    "icon": "T_Icon_Block_Stone.png"
   },
   {
     "item_id": "ITEM_Resources_Swamp_Tar",
@@ -3613,11 +3713,6 @@
     "item_id": "ITEM_Resources_Tomato",
     "display_name": "Tomato",
     "icon": "T_Icon_Tomato.png"
-  },
-  {
-    "item_id": "ITEM_Resources_Vine_Root",
-    "display_name": "Vine Root",
-    "icon": "T_Icon_Resources_Vine.png"
   },
   {
     "item_id": "ITEM_Resources_Watermelon",
@@ -3981,7 +4076,7 @@
   },
   {
     "item_id": "ITEM_Ammo_Arrows_Mithril_Bodkin",
-    "display_name": "Mithril Arrows",
+    "display_name": "Mithril Arrow",
     "icon": "T_Icon_Mithril_Arrows.png"
   },
   {
@@ -4001,7 +4096,7 @@
   },
   {
     "item_id": "ITEM_Ammo_Bolts_Mithril",
-    "display_name": "Mithril Bolts",
+    "display_name": "Mithril Bolt",
     "icon": "T_Icon_Mithril_Bolts.png"
   },
   {
@@ -4118,6 +4213,11 @@
     "item_id": "ITEM_Armour_T6_Head_Mithril",
     "display_name": "Mithril Helmet",
     "icon": "T_Icon_Mithril_Helm.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T6_Head_MithrilMed",
+    "display_name": "Mithril Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Mithril_01.png"
   },
   {
     "item_id": "ITEM_Armour_T6_Head_Mystic",
@@ -4631,7 +4731,7 @@
   },
   {
     "item_id": "ITEM_Consumable_BerryDrizzle_Pan",
-    "display_name": "Berry Drizzle Pan-Seared",
+    "display_name": "Berry Drizzle Pan-Seared Fish",
     "icon": "T_Icon_Berry_Drizzle_Pan_Seared.png"
   },
   {
@@ -4642,7 +4742,7 @@
   {
     "item_id": "ITEM_Consumable_Fish_Fry",
     "display_name": "Fish Fry",
-    "icon": "T_Icon_Stir_Fry.png"
+    "icon": "T_Icon_Fish_Fry.png"
   },
   {
     "item_id": "ITEM_Consumable_HerbBaked_Trout",
@@ -4697,7 +4797,7 @@
   {
     "item_id": "ITEM_Consumable_Tome_Tier2_Fishing",
     "display_name": "Tome of Fishing - Vol 2",
-    "icon": "T_Icon_Skill_Tome_Fishing.png"
+    "icon": "T_Icon_Dec_Skill_Tome_Standing_Fishing.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_Anchovies",
@@ -4712,16 +4812,16 @@
   {
     "item_id": "ITEM_Resources_Fish_Raw_Anchovies",
     "display_name": "Raw Anchovies",
-    "icon": "T_Icon_Anchovy2.png"
+    "icon": "T_Icon_Anchovy.png"
   },
   {
     "item_id": "ITEM_Resources_Fish_Raw_Pristine_Anchovies",
     "display_name": "Pristine Anchovies",
-    "icon": "T_Icon_Anchovy.png"
+    "icon": "T_Icon_Fish_Anchovie_Pristine_03.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_ArmouredCatfish",
-    "display_name": "Braised Catfish",
+    "display_name": "Braised Armoured Catfish",
     "icon": "T_Icon_Braised_Catfish.png"
   },
   {
@@ -4757,12 +4857,12 @@
   {
     "item_id": "ITEM_Resources_Fish_Raw_Pristine_GiantKrill",
     "display_name": "Pristine Giant Krill",
-    "icon": "T_Icon_Giant_Krill.png"
+    "icon": "T_Icon_Fish_Gaint_Krill_Pristine_03.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_Herring",
     "display_name": "Smoked Herring",
-    "icon": "T_Icon_Herring_Cooked_01.png"
+    "icon": "T_Icon_Smoked_Herring.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_Herring_Burnt",
@@ -4950,6 +5050,316 @@
     "icon": "T_Icon_Saradomin_Symbol.png"
   },
   {
+    "item_id": "ITEM_Ammo_Arrows_rune_Bleed",
+    "display_name": "Rune Barbed Arrow",
+    "icon": "T_Icon_Arrow__Rune.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_rune_Bodkin",
+    "display_name": "Rune Arrow",
+    "icon": "T_Icon_Arrow__Rune.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_rune_Fire",
+    "display_name": "Rune Fire Arrow",
+    "icon": "T_Icon_Arrow__Rune.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Arrows_rune_Poison",
+    "display_name": "Rune Poison Arrow",
+    "icon": "T_Icon_Arrow__Rune.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_rune",
+    "display_name": "Enchanted Rune Bolt",
+    "icon": "T_Icon_Rune_Bolt_Enchanted.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_rune",
+    "display_name": "Rune Bolt",
+    "icon": "T_Icon_CrossbowBolt__Rune.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Body_GildedPaladin",
+    "display_name": "Gilded Paladin Chestpiece",
+    "icon": "T_Icon_SM_M_MED_BODY_GoldenArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Body_Ancestral",
+    "display_name": "Ancestral Robes",
+    "icon": "T_Icon_SM_F_MED_BODY_AncestralRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Body_BlackDragon",
+    "display_name": "Black Dragonhide Body",
+    "icon": "T_Icon_SM_M_MED_BODY_BlackDragonHideArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Body_DragonArmour",
+    "display_name": "Dragon Platebody",
+    "icon": "T_Icon_SM_M_MED_BODY_DragonArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Body_Rune",
+    "display_name": "Rune Platebody",
+    "icon": "T_Icon_SM_M_MED_BODY_RuneArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Cape_Dragonslayer",
+    "display_name": "Dragonslayer's Cape",
+    "icon": "T_Icon_SM_F_MED_CAPE_Cape_Long_Kuldra.png"
+  },
+  {
+    "item_id": "ITEM_Cape_GildedPaladin",
+    "display_name": "Gilded Paladin Cape",
+    "icon": "T_Icon_SM_F_MED_CAPE_Cape_Long_Gilded_Paladin.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Head_GildedPaladin",
+    "display_name": "Gilded Paladin Helmet",
+    "icon": "T_Icon_SM_M_MED_HEAD_GoldenArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_Ancestral",
+    "display_name": "Ancestral Hat",
+    "icon": "T_Icon_SM_F_MED_HEAD_AncestralRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_BlackDragon",
+    "display_name": "Black Dragonhide Coif",
+    "icon": "T_Icon_SM_M_MED_HEAD_BlackDragonHideArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_DragonArmour",
+    "display_name": "Dragon Full Helm",
+    "icon": "T_Icon_SM_F_MED_HEAD_DragonArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_DragonMed",
+    "display_name": "Dragon Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Dragon_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_Rune",
+    "display_name": "Rune Helm",
+    "icon": "T_Icon_SM_M_MED_HEAD_RuneArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Head_RuneMed",
+    "display_name": "Runite Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png"
+  },
+  {
+    "item_id": "ITEM_Longbow_MagicWood",
+    "display_name": "Magic Longbow",
+    "icon": "T_Icon_SM_Longbow_Runite_2H_01_01.png"
+  },
+  {
+    "item_id": "ITEM_Shortbow_MagicWood",
+    "display_name": "Magic Shortbow",
+    "icon": "T_Icon_SM_Shortbow_Runite_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_WateringCan_Rune",
+    "display_name": "Rune Watering Can",
+    "icon": "T_Icon_Watering_Can_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Dragon",
+    "display_name": "Dragon Crossbow",
+    "icon": "T_Icon_SM_Crossbow_Dragon_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Crossbow_Rune",
+    "display_name": "Rune Crossbow",
+    "icon": "T_Icon_SM_Crossbow_Runite_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Dagger_Rune",
+    "display_name": "Rune Dagger",
+    "icon": "T_Icon_Dagger_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Greataxe_Rune",
+    "display_name": "Rune Greataxe",
+    "icon": "T_Icon_Greataxe_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Greatsword_Rune",
+    "display_name": "Rune Greatsword",
+    "icon": "T_Icon_Greatsword_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Hammer_Rune",
+    "display_name": "Rune Warhammer",
+    "icon": "T_Icon_Warhammer_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Logging_Axe_Rune",
+    "display_name": "Rune Logging Axe",
+    "icon": "T_Icon_LoggingAxe_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Mace_Rune",
+    "display_name": "Rune Mace",
+    "icon": "T_Icon_Mace_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Pickaxe_Rune",
+    "display_name": "Rune Pickaxe",
+    "icon": "T_Icon_Pickaxe_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Scimitar_Dragon",
+    "display_name": "Dragon Scimitar",
+    "icon": "T_Icon_SM_Scimitar_Dragon_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Scimitar_Rune",
+    "display_name": "Rune Scimitar",
+    "icon": "T_Icon_Scimitar_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Dragon",
+    "display_name": "Dragon Kiteshield",
+    "icon": "T_Icon_SM_Kite_Dragon_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Shield_Rune",
+    "display_name": "Rune Shield",
+    "icon": "T_Icon_Kite_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Spade_T8_Rune",
+    "display_name": "Rune Spade",
+    "icon": "T_Icon_Shovel_Rune_2H_01.png"
+  },
+  {
+    "item_id": "ITEM_Staff_Ancestral",
+    "display_name": "Ancestral Staff",
+    "icon": "T_Icon_BattleStaff_Ancestral.png"
+  },
+  {
+    "item_id": "ITEM_Sword_Rune",
+    "display_name": "Rune Sword",
+    "icon": "T_Icon_Sword_Rune_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T1_Legs_GildedPaladin",
+    "display_name": "Gilded Paladin Legs",
+    "icon": "T_Icon_SM_M_MED_LEGS_GoldArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Legs_Ancestral",
+    "display_name": "Ancestral Leggings",
+    "icon": "T_Icon_SM_F_MED_LEGS_AncestralRobes_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Legs_BlackDragon",
+    "display_name": "Black Dragonhide Chaps",
+    "icon": "T_Icon_SM_M_MED_LEGS_BlackDragonHideArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Legs_DragonArmour",
+    "display_name": "Dragon Platelegs",
+    "icon": "T_Icon_SM_M_MED_LEGS_DragonArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Armour_T8_Legs_Rune",
+    "display_name": "Rune Platelegs",
+    "icon": "T_Icon_SM_M_MED_LEGS_RuneArmour_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_DragonLimbs",
+    "display_name": "Dragon Crossbow Limbs",
+    "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_RuneLimbs",
+    "display_name": "Rune Crossbow Limbs",
+    "icon": "T_Icon_SM_Crossbow_Runite_Arms_1H_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_KuldraPack",
+    "display_name": "Queenslayer's Reward Pack",
+    "icon": "T_Icon_Dragon_chest.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_KuldraPack_Unique",
+    "display_name": "Regicide Reward Pack",
+    "icon": "T_Icon_Dragon_chest.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Hide_Dragon_Black",
+    "display_name": "Black Dragon Hide",
+    "icon": "T_Icon_Black_Dragon_Hide.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ore_Luminite",
+    "display_name": "Luminite Ore",
+    "icon": "T_Icon_Luminute_Ore.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ore_Runite",
+    "display_name": "Runite Ore",
+    "icon": "T_Icon_Runite_Ore.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Residue_Discordent",
+    "display_name": "Discordant Residue",
+    "icon": "T_Icon_Discorden_Residue.png"
+  },
+  {
+    "item_id": "ITEM_Farming_TreeSeed_Magic",
+    "display_name": "Magic Tree Seed",
+    "icon": "T_Icon_Magic_Seeds.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wood_Magic",
+    "display_name": "Magic Logs",
+    "icon": "T_Icon_Magic_Wood.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Bar_Runite",
+    "display_name": "Rune Bar",
+    "icon": "T_Icon_Runite_Bar.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Cloth_Vis",
+    "display_name": "Vis Cloth",
+    "icon": "T_Icon_Viz_Cloth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Compound_Harmonized",
+    "display_name": "Harmonised Compound",
+    "icon": "T_Icon_Harmonized_Compound.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fibres_Vis",
+    "display_name": "Vis Fibres",
+    "icon": "T_Icon_Vis_Fibers.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Rune",
+    "display_name": "Ground Rune Essence",
+    "icon": "T_Icon_Runic_Powder.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Ground_Tooth_Dragon",
+    "display_name": "Ground Dragon Tooth",
+    "icon": "T_Icon_Ground_Dragon_Tooth.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Leather_Dragon_Black",
+    "display_name": "Black Dragon Leather",
+    "icon": "T_Icon_Black_Dragon_Leather.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Wax_Draconic_Vis",
+    "display_name": "Draconic Vis Wax",
+    "icon": "T_Icon_Draconic_Vis_Wax.png"
+  },
+  {
     "item_id": "ITEM_Ammo_Arrows_Adamant_Bleed",
     "display_name": "Adamant Barbed Arrow",
     "icon": "T_Icon_Arrows_Adamant.png"
@@ -4973,6 +5383,11 @@
     "item_id": "ITEM_Ammo_Bolts_Adamant",
     "display_name": "Adamant Bolt",
     "icon": "T_Icon_Bolts_Adamant.png"
+  },
+  {
+    "item_id": "ITEM_Ammo_Bolts_Enchanted_Adamant",
+    "display_name": "Enchanted Adamant Bolt",
+    "icon": "T_Icon_Adamant_Bolt_Enchanted.png"
   },
   {
     "item_id": "ITEM_Armour_T7_Body_Adamant",
@@ -5006,7 +5421,7 @@
   },
   {
     "item_id": "ITEM_Armour_T7_Body_RedDragon",
-    "display_name": "Red Dragon Chest",
+    "display_name": "Red Dragonhide Body",
     "icon": "T_Icon_BODY_Red_Dragon_Hide_Armour.png"
   },
   {
@@ -5075,6 +5490,11 @@
     "icon": "T_Icon_HEAD_AdamantArmour_01.png"
   },
   {
+    "item_id": "ITEM_Armour_T7_Head_AdamantMed",
+    "display_name": "Adamant Med Helm",
+    "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Adamant_01.png"
+  },
+  {
     "item_id": "ITEM_Armour_T7_Head_Desert",
     "display_name": "Desert Hood",
     "icon": "T_Icon_HEAD_DesertRobes_01.png"
@@ -5101,7 +5521,7 @@
   },
   {
     "item_id": "ITEM_Armour_T7_Head_RedDragon",
-    "display_name": "Red Dragon Helmet",
+    "display_name": "Red Dragonhide Coif",
     "icon": "T_Icon_HEAD_Red_Dragon_Hide_Armour_01.png"
   },
   {
@@ -5151,7 +5571,7 @@
   },
   {
     "item_id": "ITEM_GreatAxe_Adamant",
-    "display_name": "Adamant Great Axe",
+    "display_name": "Adamant Greataxe",
     "icon": "T_Icon_Greataxe_Adamant_2H_01.png"
   },
   {
@@ -5281,7 +5701,7 @@
   },
   {
     "item_id": "ITEM_Armour_T7_Legs_RedDragon",
-    "display_name": "Red Dragon Legs",
+    "display_name": "Red Dragonhide Legs",
     "icon": "T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png"
   },
   {
@@ -5317,52 +5737,52 @@
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_01",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_01",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_02",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_02",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_03",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_03",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_04",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_04",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_05",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_05",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_06",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_06",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Moonstone",
@@ -5372,22 +5792,22 @@
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll1",
     "display_name": "res_quest_ums_mainquest_scroll1",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll2",
     "display_name": "res_quest_ums_mainquest_scroll2",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll3",
     "display_name": "res_quest_ums_mainquest_scroll3",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll4",
     "display_name": "res_quest_ums_mainquest_scroll4",
-    "icon": "T_Icon_Scroll.png"
+    "icon": "T_Icon_Scroll_b118aabc.png"
   },
   {
     "item_id": "ITEM_Resource_Key_FightCaveKey_A",
@@ -5472,17 +5892,17 @@
   {
     "item_id": "ITEM_Consumable_Fish_Beltfish_Burnt",
     "display_name": "Burnt Beltfish",
-    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed.png"
+    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_DesertSole",
     "display_name": "Sun Baked Sole",
-    "icon": "T_Icon_Fish_Desert_sole_Cooked_Sunbaked.png"
+    "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_DesertSole_Burnt",
     "display_name": "Burnt Desert Sole",
-    "icon": "T_Icon_Fish_Desert_sole_Cooked_Sunbaked.png"
+    "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_Monkfish",
@@ -5681,7 +6101,7 @@
   },
   {
     "item_id": "ITEM_Resources_Artifact_Garou",
-    "display_name": "Garou Artifact",
+    "display_name": "Garou Artefact",
     "icon": "T_Icon_Artifact.png"
   },
   {
@@ -5763,6 +6183,16 @@
     "item_id": "ITEM_Resources_T7_Upgrade_Shard",
     "display_name": "Ascension Shard 7",
     "icon": "T_Icon_Upgrade_Core_small_Red.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T8_Upgrade_Core",
+    "display_name": "Ascension Core",
+    "icon": "T_Icon_Nightmare_Crucible_Keys_01_Orange.png"
+  },
+  {
+    "item_id": "ITEM_Resources_T8_Upgrade_Shard",
+    "display_name": "Ascension Shard",
+    "icon": "T_Icon_Upgrade_Core_small_Orange.png"
   },
   {
     "item_id": "ITEM_Resources_Cactus_Pipe",
@@ -6860,6 +7290,11 @@
     "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Weapon_Whip_Abysmal",
+    "display_name": "Abyssal Remains",
+    "icon": "T_Icon_Abyssal_Whip_Vestige.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Armour_Cape_Fire",
     "display_name": "An Ember Edged Remnant of Cloth",
     "icon": "T_Icon_Fire_Cape.png"
@@ -7010,6 +7445,11 @@
     "icon": "T_Icon_Menaphite_Cape_03.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Armour_Cape_Menaphite_Red",
+    "display_name": "Red Memory of Menaphos",
+    "icon": "T_Icon_Menaphite_Cape_08.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Armour_Cape_Menaphite_White",
     "display_name": "White Memory of Menaphos",
     "icon": "T_Icon_Menaphite_Cape_09.png"
@@ -7027,7 +7467,7 @@
   {
     "item_id": "DA_Consumable_Vestige_Armour_Cape_UmbralSands",
     "display_name": "Shred of Sunbleached Weave",
-    "icon": "T_Icon_Umbral_Sands_Cape.png"
+    "icon": "T_Icon_Shread_of_Sunbleached_Weave.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Armour_T7_Body_Desert",
@@ -7142,7 +7582,7 @@
   {
     "item_id": "DA_Consumable_Vestige_Weapon_Staff_Scarab",
     "display_name": "Ornate Golden Scarab",
-    "icon": "sverd-i-fjell.png"
+    "icon": "T_Icon_Ornate_Golden_Scarab.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Weapon_Staff_ToktzMejTal",

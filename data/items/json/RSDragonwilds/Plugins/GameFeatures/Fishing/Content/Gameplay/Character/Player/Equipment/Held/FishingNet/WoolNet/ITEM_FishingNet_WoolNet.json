@@ -31,7 +31,6 @@
         },
         "RowName": "Weapons"
       },
-      "AdditionalDamageMultiplier": -1.8,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "Tier": 2,

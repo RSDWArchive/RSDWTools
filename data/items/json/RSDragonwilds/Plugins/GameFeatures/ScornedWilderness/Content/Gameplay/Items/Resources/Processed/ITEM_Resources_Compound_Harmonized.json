@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Compound_Harmonized",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "HarmonisedCompound",
+        "SourceString": "Harmonised Compound",
+        "LocalizedString": "Harmonised Compound"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "HarmonisedCompound",
+        "SourceString": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel.",
+        "LocalizedString": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Harmonized_Compound.T_Icon_Harmonized_Compound",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Harmonized_Compound/SM_Harmonized_Compound.SM_Harmonized_Compound",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Metal.Chunky"
+      },
+      "PersistenceID": "N3f9DUkxKk4__Ie1rlxbUA",
+      "InternalName": "res_compound_harmonized"
+    }
+  }
+]

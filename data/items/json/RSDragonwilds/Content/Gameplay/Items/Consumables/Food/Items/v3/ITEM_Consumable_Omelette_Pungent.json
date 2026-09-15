@@ -48,8 +48,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "PungentOmelette",
-        "SourceString": "Tastes much better than it's name suggests.",
-        "LocalizedString": "Tastes much better than it's name suggests."
+        "SourceString": "Tastes much better than its name suggests.",
+        "LocalizedString": "Tastes much better than its name suggests."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

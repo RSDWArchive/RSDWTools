@@ -18,7 +18,7 @@
           "ObjectName": "DataTable'DT_WearableEquipment'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
         },
-        "RowName": "Armour_T7_Legs_DesertLegs"
+        "RowName": "T07_Armour_Legs_DesertLegs"
       },
       "Slot": "ELoadoutSlotStrategy::Legs",
       "GrantedEffects": [
@@ -74,9 +74,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "DesertRobes.Description",
-            "SourceString": "Provides SCORCH Resistance while worn.\r\n(Equip additional Desert Robe pieces to further increase SCORCH Resistance.)",
-            "LocalizedString": "Provides SCORCH Resistance while worn.\r\n(Equip additional Desert Robe pieces to further increase SCORCH Resistance.)"
+            "Key": "DesertRobesLegs.Boon",
+            "SourceString": "Reduced SCORCH BUILD UP",
+            "LocalizedString": "Reduced SCORCH BUILD UP"
           },
           "BuffIcon": {
             "AssetPathName": "",

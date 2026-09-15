@@ -41,8 +41,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LumberjackPotion",
-        "SourceString": "[PH] Lumberjack Potion",
-        "LocalizedString": "[PH] Lumberjack Potion"
+        "SourceString": "Lumberjack Potion",
+        "LocalizedString": "Lumberjack Potion"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

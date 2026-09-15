@@ -16,13 +16,6 @@
         },
         "RowName": "v3_Haunch_Burnt"
       },
-      "VitalShieldRowHandle": {
-        "DataTable": {
-          "ObjectName": "GridlyDataTable'DT_VitalShield'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield.0"
-        },
-        "RowName": "hot_haunch"
-      },
       "ToxicityRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_Toxicity_V2'",
@@ -58,7 +51,7 @@
         "LocalizedString": "Too well done, but still edible. "
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Cooked_Tough_Meat_01.T_Icon_Cooked_Tough_Meat_01",
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Deer_Meat_Burnt.T_Icon_Deer_Meat_Burnt",
         "SubPathString": ""
       },
       "CategoryClassIcon": {

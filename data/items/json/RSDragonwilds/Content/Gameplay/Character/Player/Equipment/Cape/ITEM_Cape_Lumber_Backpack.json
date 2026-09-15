@@ -56,7 +56,7 @@
         "LocalizedString": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression."
       },
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Lumberjack_Backpack.T_Icon_Lumberjack_Backpack",
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Lumberjack_Backpack_final.T_Icon_Lumberjack_Backpack_final",
         "SubPathString": ""
       },
       "StaticMesh": {

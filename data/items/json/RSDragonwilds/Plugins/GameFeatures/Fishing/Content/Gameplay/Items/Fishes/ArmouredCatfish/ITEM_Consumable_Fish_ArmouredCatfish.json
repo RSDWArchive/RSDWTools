@@ -44,8 +44,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BraisedCatfish",
-        "SourceString": "Braised Catfish",
-        "LocalizedString": "Braised Catfish"
+        "SourceString": "Braised Armoured Catfish",
+        "LocalizedString": "Braised Armoured Catfish"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

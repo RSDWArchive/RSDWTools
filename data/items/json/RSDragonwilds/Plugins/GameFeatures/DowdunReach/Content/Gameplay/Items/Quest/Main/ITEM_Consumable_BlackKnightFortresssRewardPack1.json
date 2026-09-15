@@ -49,7 +49,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 1.0,
       "Name": {
         "TableId": "/DowdunReach/Gameplay/Quests/Main/ST_DR_Main.ST_DR_Main",
         "Key": "Quest_RewardPack_Name",
@@ -74,7 +73,7 @@
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Garou_Napsack_01.SM_Garou_Napsack_01",
         "SubPathString": ""
       },
-      "MaxStackSize": 10,
+      "MaxStackSize": 99,
       "Weight": 1.0,
       "ItemFilterTags": [
         "ItemFilter.Container"

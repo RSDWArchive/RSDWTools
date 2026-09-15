@@ -100,8 +100,8 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "Trinket.AmuletOfAccuracy.Description",
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "AmuletOfAccuracy.Boon",
             "SourceString": "Increased WEAK POINT damage with RANGED weapons",
             "LocalizedString": "Increased WEAK POINT damage with RANGED weapons"
           },

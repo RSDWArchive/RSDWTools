@@ -1,0 +1,13 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_RuniteOre_Deleted",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PersistenceID": "cGGgxuSpjEmvSKUBkJQQUg",
+      "InternalName": "res_ore_runite_old",
+      "bSoftDeleted": true
+    }
+  }
+]

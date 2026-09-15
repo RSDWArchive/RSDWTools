@@ -70,7 +70,7 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "ZamorakStaff.Description",
+            "Key": "ZamorakCape.Boon",
             "SourceString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES",
             "LocalizedString": "AFTERIMAGE explodes and causes BURNING when it EXPIRES"
           },

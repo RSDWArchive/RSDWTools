@@ -98,7 +98,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/EnchantChefsTools/BP_SpellPlacementVisualizer_EnchantChefsTools.BP_SpellPlacementVisualizer_EnchantChefsTools_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

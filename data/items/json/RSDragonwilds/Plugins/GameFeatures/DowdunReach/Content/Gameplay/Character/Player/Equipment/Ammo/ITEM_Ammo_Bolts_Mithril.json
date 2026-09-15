@@ -39,8 +39,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MithrilCrossbowBolts",
-        "SourceString": "Mithril Bolts",
-        "LocalizedString": "Mithril Bolts"
+        "SourceString": "Mithril Bolt",
+        "LocalizedString": "Mithril Bolt"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",

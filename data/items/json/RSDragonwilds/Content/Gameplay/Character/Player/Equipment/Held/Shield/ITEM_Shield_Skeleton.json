@@ -33,8 +33,7 @@
         },
         "RowName": "Shield"
       },
-      "BlockingDamageNegation": 52.0,
-      "AdditionalDamageMultiplier": -4.4,
+      "BlockingDamageNegation": 55.0,
       "AdditionalBlockingDamageNegation": 3.0,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
@@ -77,6 +76,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SkeletonShield.Boon",
+            "SourceString": "Increased DEFENSE",
+            "LocalizedString": "Increased DEFENSE"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "CzzuQ0UmzK3-A5WiBJlCHw",

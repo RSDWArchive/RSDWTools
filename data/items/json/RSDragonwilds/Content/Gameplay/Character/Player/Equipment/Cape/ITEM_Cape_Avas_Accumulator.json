@@ -70,14 +70,14 @@
       "BuffDatas": [
         {
           "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "AvasAccumulator.Title",
-            "SourceString": "Ammo Attraction",
-            "LocalizedString": "Ammo Attraction"
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "AvasAccumulator.Description",
+            "Key": "AvasAccumulator.Boon1",
             "SourceString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance",
             "LocalizedString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance"
           },

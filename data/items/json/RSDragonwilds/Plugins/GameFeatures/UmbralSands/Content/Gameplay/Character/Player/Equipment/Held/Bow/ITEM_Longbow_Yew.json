@@ -47,10 +47,6 @@
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
-        },
         "RowName": "Unarmed"
       },
       "DamageMultiplier": 4.2,
@@ -67,6 +63,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "Tier": 3,
       "bIsAWeapon": true,

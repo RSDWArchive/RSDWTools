@@ -112,9 +112,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Trinket.Amulet.Of.Glory",
-            "SourceString": "Increased MELEE, MAGIC and RANGED CRIT DAMAGE\r\nIncreased DEFENCE",
-            "LocalizedString": "Increased MELEE, MAGIC and RANGED CRIT DAMAGE\r\nIncreased DEFENCE"
+            "Key": "AmuletOfGlory.Boon1",
+            "SourceString": "Increased MELEE, MAGIC and RANGED CRIT DAMAGE\r\nIncreased DEFENSE",
+            "LocalizedString": "Increased MELEE, MAGIC and RANGED CRIT DAMAGE\r\nIncreased DEFENSE"
           },
           "BuffIcon": {
             "AssetPathName": "",

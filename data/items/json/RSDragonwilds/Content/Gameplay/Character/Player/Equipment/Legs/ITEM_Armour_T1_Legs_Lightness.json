@@ -44,22 +44,6 @@
         "LocalizedString": "Fabled leggings that allow you to carry more!"
       },
       "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "Namespace": "",
-            "Key": "BAD7DC7043CBB2FA375DEB9BC1DD5ABB",
-            "SourceString": "Carry Weight",
-            "LocalizedString": "Carry Weight"
-          },
-          "Value": {
-            "Namespace": "",
-            "Key": "E8FB8F6C4F2E2D18DC0CC089A2924CB8",
-            "SourceString": "+50",
-            "LocalizedString": "+50"
-          }
-        }
-      ],
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Leggings_of_Lightness.T_Icon_Leggings_of_Lightness",
         "SubPathString": ""

@@ -40,7 +40,7 @@
         "ItemFilter.Material.BasicMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Gloop"
+        "TagName": "Audio.Wood.Chunky"
       },
       "PersistenceID": "mNrV2kph16HfXq2I-rhK8w",
       "InternalName": "res_cactus_pipe"

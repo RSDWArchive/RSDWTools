@@ -29,7 +29,7 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 8,
+      "MaxStackSize": 99,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
       "Category": {

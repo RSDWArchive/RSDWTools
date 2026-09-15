@@ -43,8 +43,8 @@
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "MiningLevelInstruction",
-        "SourceString": "Mine ore, clay or stone, or gather stones from the floor to level this skill.",
-        "LocalizedString": "Mine ore, clay or stone, or gather stones from the floor to level this skill."
+        "SourceString": "Mine ore, clay or stone to level this skill.",
+        "LocalizedString": "Mine ore, clay or stone to level this skill."
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",

@@ -249,8 +249,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Agility.Reward.Pack.Ghornfell.Silver",
-        "SourceString": "A reward for finishing Ghornfell Agility Course with a silver medal.",
-        "LocalizedString": "A reward for finishing Ghornfell Agility Course with a silver medal."
+        "SourceString": "A reward for finishing Ghornfell Agility course with a silver medal.",
+        "LocalizedString": "A reward for finishing Ghornfell Agility course with a silver medal."
       },
       "Icon": {
         "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_SilverAgilityCompletionReward.T_Icon_SilverAgilityCompletionReward",

@@ -36,8 +36,8 @@
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "WoodcuttingLevelInstruction",
-        "SourceString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. ",
-        "LocalizedString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. "
+        "SourceString": "Chop down trees or tear up saplings to level this skill. ",
+        "LocalizedString": "Chop down trees or tear up saplings to level this skill. "
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",

@@ -61,8 +61,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Tree_Yew",
-        "SourceString": "Yew tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-        "LocalizedString": "Yew tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!"
+        "SourceString": "Plant this directly into the ground to grow your own tree!",
+        "LocalizedString": "Plant this directly into the ground to grow your own tree!"
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Yew_Seed.T_Icon_Yew_Seed",
@@ -77,7 +77,6 @@
         "SubPathString": ""
       },
       "MaxStackSize": 999,
-      "PowerLevel": 1,
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

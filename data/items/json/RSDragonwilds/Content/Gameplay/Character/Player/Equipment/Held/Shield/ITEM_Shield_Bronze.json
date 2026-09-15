@@ -34,7 +34,6 @@
         "RowName": "Shield"
       },
       "BlockingDamageNegation": 39.0,
-      "AdditionalDamageMultiplier": -1.8,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",

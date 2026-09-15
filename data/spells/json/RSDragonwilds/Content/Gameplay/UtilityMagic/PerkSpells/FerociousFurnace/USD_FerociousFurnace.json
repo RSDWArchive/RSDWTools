@@ -138,7 +138,6 @@
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/FerociousFurnace/BP_SpellPlacementVisualizer_FerociousFurnace.BP_SpellPlacementVisualizer_FerociousFurnace_C",
         "SubPathString": ""
       },
-      "PlacementAdjustmentType": "EUtilitySpellPlacementAdjustmentType::Distance",
       "TraceProfile": {
         "Name": "NoCollision"
       },

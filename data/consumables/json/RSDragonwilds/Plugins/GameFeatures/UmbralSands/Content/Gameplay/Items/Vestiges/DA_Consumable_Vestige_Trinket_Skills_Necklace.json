@@ -54,7 +54,6 @@
       },
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "bBoundToPlayer": true,
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Vestige"
       ],

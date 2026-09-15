@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
       },
+      "SpecialActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+      },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_CrossBow_Poses'",
@@ -54,6 +58,7 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Crossbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.0"
       },
+      "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldOnlyRight",
       "HandPreference": "EHandPreference::Right",
       "Tier": 4,
@@ -118,9 +123,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "BlackCrossbow.Description",
-            "SourceString": "Increased WEAK POINT damage. Slower FIRE RATE",
-            "LocalizedString": "Increased WEAK POINT damage. Slower FIRE RATE"
+            "Key": "BlackCrossbow.Boon",
+            "SourceString": "Increased WEAK POINT DAMAGE\r\nSlower FIRE RATE",
+            "LocalizedString": "Increased WEAK POINT DAMAGE\r\nSlower FIRE RATE"
           },
           "BuffIcon": {
             "AssetPathName": "",

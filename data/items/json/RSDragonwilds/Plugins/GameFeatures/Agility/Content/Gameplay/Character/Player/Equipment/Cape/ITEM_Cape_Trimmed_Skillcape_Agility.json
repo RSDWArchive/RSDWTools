@@ -77,7 +77,7 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "AgilitySkillcape",
+            "Key": "AgilitySkillCape",
             "SourceString": "You have a small chance to not consume stamina for the following actions: Jump, Dash and Evade.",
             "LocalizedString": "You have a small chance to not consume stamina for the following actions: Jump, Dash and Evade."
           },

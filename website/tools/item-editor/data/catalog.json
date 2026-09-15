@@ -29,6 +29,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Ancestral Robes",
+          "itemData": "OGMsvEiMq7IdCsiSWGZjlg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_BODY_AncestralRobes_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_Ancestral.json",
+          "category": "Armour/Body",
+          "description": "Robes worn in the pursuit of magical mastery, embroidered with symbols whose meaning has long been forgotten.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 8.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
           "name": "Apprentice Robe",
           "itemData": "g9vfX7KsMkurrMZa7z1aPg",
           "maxStack": 1,
@@ -39,6 +53,20 @@
           "baseDurability": 1000,
           "powerLevel": 2,
           "weight": 8.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
+          "name": "Black Dragonhide Body",
+          "itemData": "H88O1ERs7vdLssGfIIgGwg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_BODY_BlackDragonHideArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_BlackDragon.json",
+          "category": "Armour/Body",
+          "description": "Tough, flexible black dragonhide armour trusted by hunters who prefer to strike from afar.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 12.0,
           "equipment": "Body",
           "vitalShield": 0
         },
@@ -99,6 +127,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragon Platebody",
+          "itemData": "lfbhqEzXJtWz0RmiSkjnNw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_BODY_DragonArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_DragonArmour.json",
+          "category": "Armour/Body",
+          "description": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors.",
+          "baseDurability": 1750,
+          "powerLevel": 9,
+          "weight": 16.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
           "name": "Dragonkin Mage Robes",
           "itemData": "rXtN2EZOq9NpnL-WyVpF8Q",
           "maxStack": 1,
@@ -122,6 +164,20 @@
           "description": "Melee chest armour once belonging to a long dead Saradomin Hoplite.",
           "baseDurability": 1500,
           "powerLevel": 5,
+          "weight": 16.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
+          "name": "Gilded Paladin Chestpiece",
+          "itemData": "wD26k0TmVIVJWZKbB6F7dQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_BODY_GoldenArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T1_Body_GildedPaladin.json",
+          "category": "Armour/Body",
+          "description": "An ornate golden chestpiece that serves as a symbol of power, status, and confidence.",
+          "baseDurability": 1500,
+          "powerLevel": 4,
           "weight": 16.0,
           "equipment": "Body",
           "vitalShield": 0
@@ -309,7 +365,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Red Dragon Chest",
+          "name": "Red Dragonhide Body",
           "itemData": "8YDF10WKax3H6eqAQbVtQg",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_BODY_Red_Dragon_Hide_Armour.png",
@@ -332,6 +388,20 @@
           "description": "A heavy chestplate made from Leather and Bone.",
           "baseDurability": 1000,
           "powerLevel": 2,
+          "weight": 16.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Platebody",
+          "itemData": "pr5dIEeoxHe4rfGi9_iz-g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_BODY_RuneArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_Rune.json",
+          "category": "Armour/Body",
+          "description": "Thick rune plates forged into armour for the strongest of warriors.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
           "weight": 16.0,
           "equipment": "Body",
           "vitalShield": 0
@@ -399,7 +469,7 @@
           "iconPath": "/shared/icons/T_icon_White_Body.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T5_Body_White.json",
           "category": "Armour/Body",
-          "description": "White Platelegs worn by a member of the Holy Order of White Knights.",
+          "description": "White platemail armour worn by a member of the Holy Order of White Knights.",
           "baseDurability": 1500,
           "powerLevel": 5,
           "weight": 16.0,
@@ -713,6 +783,17 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragonslayer's Cape",
+          "itemData": "LXzUcEgv1Q_k59Chi-ELJA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_CAPE_Cape_Long_Kuldra.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Dragonslayer.json",
+          "category": "Armour/Cape",
+          "description": "Awarded to those who have faced Queen Kuldra and emerged victorious. Few capes carry greater prestige.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Farming Cape",
           "itemData": "8hjk70ccFwmYrzadV3T4MQ",
           "maxStack": 1,
@@ -752,7 +833,7 @@
           "iconPath": "/shared/icons/T_Icon_Fire_Cape.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Fire.json",
           "category": "Armour/Cape",
-          "description": "Taking or blocking damage has a chance to trigger Burning on the attacker. Melee kills on Burning enemies refills stamina.",
+          "description": "A legendary cape awarded only to those who have overcome the fiercest of trials.",
           "equipment": "Cape",
           "vitalShield": 0
         },
@@ -797,6 +878,17 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Garou.json",
           "category": "Armour/Cape",
           "description": "A cloak worn by garou nobility.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Gilded Paladin Cape",
+          "itemData": "7R7vbEvTmOkCuF6f0oqKLQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_CAPE_Cape_Long_Gilded_Paladin.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_GildedPaladin.json",
+          "category": "Armour/Cape",
+          "description": "A magnificent cape trimmed in gold, worn by those who wish to stand apart from the crowd.",
           "equipment": "Cape",
           "vitalShield": 0
         },
@@ -859,7 +951,7 @@
           "name": "Lumber Backpack",
           "itemData": "y0A46USRM-v66t6TJtGIVg",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Lumberjack_Backpack.png",
+          "iconPath": "/shared/icons/T_Icon_Lumberjack_Backpack_final.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Lumber_Backpack.json",
           "category": "Armour/Cape",
           "description": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression.",
@@ -991,7 +1083,7 @@
           "name": "Pioneer's Cape",
           "itemData": "BOb1iEzyCdDhlNWQVxo_eA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Pioneer_Mantle.png",
+          "iconPath": "/shared/icons/T_Icon_Cape_Pioneer.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_EarlyAdopter.json",
           "category": "Armour/Cape",
           "description": "A cape worn by Ashenfall's first explorers.",
@@ -1402,6 +1494,34 @@
           "vitalShield": 0
         },
         {
+          "name": "Adamant Med Helm",
+          "itemData": "Geq6ukUtMiHNe8iyDh8yyQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Adamant_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T7_Head_AdamantMed.json",
+          "category": "Armour/Head",
+          "description": "A sturdy adamant helm built for serious combat.",
+          "baseDurability": 1500,
+          "powerLevel": 7,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Ancestral Hat",
+          "itemData": "pRfnP0RAM_O9OweO7joHnw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_HEAD_AncestralRobes_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_Ancestral.json",
+          "category": "Armour/Head",
+          "description": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 4.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
           "name": "Apprentice Hat",
           "itemData": "h3G7NqBW-0i6TrNRlBD6Sg",
           "maxStack": 1,
@@ -1416,6 +1536,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Black Dragonhide Coif",
+          "itemData": "9USY3UeQZt22Jyi0js8mAw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_HEAD_BlackDragonHideArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_BlackDragon.json",
+          "category": "Armour/Head",
+          "description": "Fashioned from black dragonhide, this helm offers protection without hindering an archer's awareness.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 6.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
           "name": "Black Knight Helmet",
           "itemData": "JSlAV05XOfg2HBO7L7dkqw",
           "maxStack": 1,
@@ -1425,6 +1559,20 @@
           "description": "A metal helm worn by the Black Knights of Dowdun Reach.",
           "baseDurability": 1750,
           "powerLevel": 6,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Black Med Helm",
+          "itemData": "dnt7OkhuQMGJS8-qFcvboA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_M_Head_BronzeArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_BlackMed.json",
+          "category": "Armour/Head",
+          "description": "Dark, intimidating, and surprisingly popular with villains.",
+          "baseDurability": 1250,
+          "powerLevel": 3,
           "weight": 8.0,
           "equipment": "Head",
           "vitalShield": 0
@@ -1451,6 +1599,20 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_Bronze.json",
           "category": "Armour/Head",
           "description": "A helmet forged from bronze. ",
+          "baseDurability": 1250,
+          "powerLevel": 3,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Bronze Med Helm",
+          "itemData": "mwiaAUMc6BfjiRWau1uONQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Bronze_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_BronzeMed.json",
+          "category": "Armour/Head",
+          "description": "A simple bronze helm that's seen more training grounds than battlefields.",
           "baseDurability": 1250,
           "powerLevel": 3,
           "weight": 8.0,
@@ -1486,6 +1648,34 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragon Full Helm",
+          "itemData": "K_rPyEaoQwJT3_CsK5YHxw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_HEAD_DragonArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonArmour.json",
+          "category": "Armour/Head",
+          "description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
+          "baseDurability": 1750,
+          "powerLevel": 9,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Dragon Med Helm",
+          "itemData": "xzZqnE6319SU33urE6sGmA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Dragon_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonMed.json",
+          "category": "Armour/Head",
+          "description": "An imposing helm forged from legendary dragon metal.",
+          "baseDurability": 1750,
+          "powerLevel": 9,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
           "name": "Dragonkin Mage Hood",
           "itemData": "GutTdkwskIsX75i6-CilJA",
           "maxStack": 1,
@@ -1514,13 +1704,27 @@
           "vitalShield": 0
         },
         {
+          "name": "Gilded Paladin Helmet",
+          "itemData": "1A9eV0PEB8_Z6V-ThXdZzQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_HEAD_GoldenArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T1_Head_GildedPaladin.json",
+          "category": "Armour/Head",
+          "description": "Polished to a brilliant shine, this helmet is as impressive as it is eye-catching.",
+          "baseDurability": 1500,
+          "powerLevel": 4,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
           "name": "Green Dragonhide Coif",
           "itemData": "tlpgIklcNBMK7I2F3J2yrw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Green_Dragonhide_Helmet.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T5_Head_GreenDragonHide.json",
           "category": "Armour/Head",
-          "description": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users",
+          "description": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users.",
           "baseDurability": 1250,
           "powerLevel": 5,
           "weight": 6.0,
@@ -1563,6 +1767,20 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T4_Head_Iron.json",
           "category": "Armour/Head",
           "description": "Protect your head with this sturdy iron headgear.",
+          "baseDurability": 1500,
+          "powerLevel": 4,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Iron Med Helm",
+          "itemData": "zM4Q-Eh48JMMPwKZTSHYTQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Iron_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T4_Head_IronMed.json",
+          "category": "Armour/Head",
+          "description": "A dependable helm trusted by countless adventurers.",
           "baseDurability": 1500,
           "powerLevel": 4,
           "weight": 8.0,
@@ -1619,6 +1837,20 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_Mithril.json",
           "category": "Armour/Head",
           "description": "Protect your head with this durable mithril headgear.",
+          "baseDurability": 1750,
+          "powerLevel": 6,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Mithril Med Helm",
+          "itemData": "mZ4iV0NkfqnONcuAli64fw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Mithril_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T6_Head_MithrilMed.json",
+          "category": "Armour/Head",
+          "description": "Lightweight, durable, and highly sought after.",
           "baseDurability": 1750,
           "powerLevel": 6,
           "weight": 8.0,
@@ -1696,7 +1928,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Red Dragon Helmet",
+          "name": "Red Dragonhide Coif",
           "itemData": "qxQrVkbq1cxD7KeumKJHVw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_HEAD_Red_Dragon_Hide_Armour_01.png",
@@ -1719,6 +1951,34 @@
           "description": "Protect your noggin with this basic headgear made from Leather and Bone.",
           "baseDurability": 1000,
           "powerLevel": 2,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Helm",
+          "itemData": "7C6C5kN2_U_J0c-R1pLOmA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_HEAD_RuneArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_Rune.json",
+          "category": "Armour/Head",
+          "description": "A sturdy rune helm built to withstand the chaos of close combat.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Runite Med Helm",
+          "itemData": "-j4yrkKKyNAEufKEJ7C35Q",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_RuneMed.json",
+          "category": "Armour/Head",
+          "description": "A strong rune helm, for keeping important thoughts safely inside.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
           "weight": 8.0,
           "equipment": "Head",
           "vitalShield": 0
@@ -1780,6 +2040,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Steel Med Helm",
+          "itemData": "TTFC3k9GVEfgOCeuJKdZqQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Steel_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T5_Head_SteelMed.json",
+          "category": "Armour/Head",
+          "description": "A dependable helm trusted by countless adventurers.",
+          "baseDurability": 1500,
+          "powerLevel": 5,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
           "name": "Studded Leather Cowl",
           "itemData": "YVvQRk9Uv1a4PceWi3985w",
           "maxStack": 1,
@@ -1803,6 +2077,20 @@
           "description": "A helmet worn by a member of the Holy Order of White Knights. It is pure white",
           "baseDurability": 1500,
           "powerLevel": 5,
+          "weight": 8.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "White Med Helm",
+          "itemData": "JzK_9kPim7eZwVyRSbsGsQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_M_Head_BronzeArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_WhiteMed.json",
+          "category": "Armour/Head",
+          "description": "A gleaming white helm favoured by those who walk the righteous path.",
+          "baseDurability": 1250,
+          "powerLevel": 3,
           "weight": 8.0,
           "equipment": "Head",
           "vitalShield": 0
@@ -1864,6 +2152,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Ancestral Leggings",
+          "itemData": "eLOd5UFvVZAN9O6wcy0ytg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_F_MED_LEGS_AncestralRobes_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_Ancestral.json",
+          "category": "Armour/Legs",
+          "description": "Enchanted garments that carry the legacy of generations of powerful spellcasters.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 6.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
           "name": "Apprentice Leggings",
           "itemData": "AIZLP8mwfEij7hwWUOr-aQ",
           "maxStack": 1,
@@ -1874,6 +2176,20 @@
           "baseDurability": 1000,
           "powerLevel": 2,
           "weight": 6.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
+          "name": "Black Dragonhide Chaps",
+          "itemData": "VDV9l0qlQxsR4EGiJZ5KtA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_LEGS_BlackDragonHideArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_BlackDragon.json",
+          "category": "Armour/Legs",
+          "description": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 9.0,
           "equipment": "Legs",
           "vitalShield": 0
         },
@@ -1934,6 +2250,20 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragon Platelegs",
+          "itemData": "9yhSqUNFiV8wuNS7DDv5Rw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_LEGS_DragonArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_DragonArmour.json",
+          "category": "Armour/Legs",
+          "description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
+          "baseDurability": 1750,
+          "powerLevel": 9,
+          "weight": 12.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
           "name": "Dragonkin Mage Robe Legs",
           "itemData": "uDBybUNuv5UipiSXb8BG-A",
           "maxStack": 1,
@@ -1957,6 +2287,20 @@
           "description": "Melee leg armour once belonging to a long dead Saradomin Hoplite.",
           "baseDurability": 1500,
           "powerLevel": 5,
+          "weight": 12.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
+          "name": "Gilded Paladin Legs",
+          "itemData": "LnLw6UYzpf7L6sWnWFG6Cw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_LEGS_GoldArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T1_Legs_GildedPaladin.json",
+          "category": "Armour/Legs",
+          "description": "Golden platelegs for warriors who believe protection should be seen from a distance.",
+          "baseDurability": 1500,
+          "powerLevel": 4,
           "weight": 12.0,
           "equipment": "Legs",
           "vitalShield": 0
@@ -2088,7 +2432,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Necromancer's Robe Bottom\r\n",
+          "name": "Necromancer's Robe Bottom",
           "itemData": "gA4ukk_Adi1spMuag9Tkow",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Necromancer_Legs.png",
@@ -2144,7 +2488,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Red Dragon Legs",
+          "name": "Red Dragonhide Legs",
           "itemData": "iMnzlUiuN9vtotCkMB4-0Q",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png",
@@ -2167,6 +2511,20 @@
           "description": "Heavy platelegs made from Leather and Bone. ",
           "baseDurability": 1000,
           "powerLevel": 2,
+          "weight": 12.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Platelegs",
+          "itemData": "ISY_y080WUFFE_KJm75w1g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_M_MED_LEGS_RuneArmour_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_Rune.json",
+          "category": "Armour/Legs",
+          "description": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
           "weight": 12.0,
           "equipment": "Legs",
           "vitalShield": 0
@@ -2350,7 +2708,7 @@
           "weight": 0.5
         },
         {
-          "name": "Braised Catfish",
+          "name": "Braised Armoured Catfish",
           "itemData": "vzP_bUJb8zHLI2es0JjaHg",
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Braised_Catfish.png",
@@ -2406,7 +2764,7 @@
           "name": "Burnt Beltfish",
           "itemData": "9aqFkEvmEomECT-OVRuLrQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Fish_Beltfish_Cooked_Steamed.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Beltfish_Burnt.json",
           "category": "Consumables/Consumable",
           "description": "Too well done, but still edible. ",
@@ -2428,7 +2786,7 @@
           "name": "Burnt Desert Sole",
           "itemData": "TDhD_EybzqHFvjmoX63P7w",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Fish_Desert_sole_Cooked_Sunbaked.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_DesertSole_Burnt.json",
           "category": "Consumables/Consumable",
           "description": "Too well done, but still edible. ",
@@ -2573,7 +2931,7 @@
           "name": "Sun Baked Sole",
           "itemData": "nPu5HUnEdsxMIc6BC-Fprg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Fish_Desert_sole_Cooked_Sunbaked.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_DesertSole.json",
           "category": "Consumables/Consumable",
           "description": "Even when cooked it still smells a great deal.",
@@ -2588,7 +2946,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Pie_Swabbie.json",
           "category": "Consumables/Consumable",
           "description": "A pie reserved for the less prestigious members of a ship's crew.",
-          "powerLevel": 4,
           "weight": 1.5
         },
         {
@@ -2803,9 +3160,9 @@
           "weight": 1.2
         },
         {
-          "name": "Berry Drizzle Pan-Seared",
+          "name": "Berry Drizzle Pan-Seared Fish",
           "itemData": "1W9M4kzOBiqjMGulPcHr4A",
-          "maxStack": 50,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Berry_Drizzle_Pan_Seared.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_BerryDrizzle_Pan-Seared.json",
           "category": "Consumables/Food",
@@ -2825,8 +3182,8 @@
         {
           "name": "Fish Fry",
           "itemData": "SkrumkIe7Slbyge9rHNnOA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Stir_Fry.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Fry.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Fish_Fry.json",
           "category": "Consumables/Food",
           "description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
@@ -2875,7 +3232,7 @@
         {
           "name": "Stuffed Catfish",
           "itemData": "PX3xG09OdYndrQq7eIv-iQ",
-          "maxStack": 50,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Stuffed_Catfish.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Stuffed_Catfish.json",
           "category": "Consumables/Food",
@@ -2950,7 +3307,7 @@
           "name": "Smoked Herring",
           "itemData": "Kc93V0IZh2HYft-FRiZyxw",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Herring_Cooked_01.png",
+          "iconPath": "/shared/icons/T_Icon_Smoked_Herring.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Herring/ITEM_Consumable_Fish_Herring.json",
           "category": "Consumables/Herring",
           "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
@@ -3151,7 +3508,7 @@
           "name": "Tome of Cooking - Vol 2",
           "itemData": "xeKfT0nc_p4FcdSOi7korw",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Cooking.png",
+          "iconPath": "/shared/icons/T_Icon_Dec_Skill_Tome_Standing_Cooking.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Cooking.json",
           "category": "Consumables/Tomes",
           "description": "A book filled with knowledge on how to cook better meals. Awards a decent amount of Cooking XP. ",
@@ -3171,7 +3528,7 @@
           "name": "Tome of Farming - Vol 2",
           "itemData": "I7LcEEj5FmwWq3GNQclQrA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Farming.png",
+          "iconPath": "/shared/icons/T_Icon_Dec_Skill_Tome_Standing_Farming.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Farming.json",
           "category": "Consumables/Tomes",
           "description": "A book filled with knowledge about how to apply dirt and water to seeds. Awards a decent amount of Farming XP. ",
@@ -3191,7 +3548,7 @@
           "name": "Tome of Fishing - Vol 2",
           "itemData": "3d9m90smcTX4RZa0yDvsPA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Fishing.png",
+          "iconPath": "/shared/icons/T_Icon_Dec_Skill_Tome_Standing_Fishing.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Fishing.json",
           "category": "Consumables/Tomes",
           "description": "A book filled with knowledge about how to efficiently tire out fish. Awards a decent amount of Fishing XP.",
@@ -3211,7 +3568,7 @@
           "name": "Tome of Magic - Vol 2",
           "itemData": "qubFp0_qYyO8K-mNKyS0GA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Skill_Tome_Magic.png",
+          "iconPath": "/shared/icons/T_Icon_Dec_Skill_Tome_Standing_Magic.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier2_Magic.json",
           "category": "Consumables/Tomes",
           "description": "A book filled with knowledge about how to wield deadlier spells. Awards a decent amount of Magic XP. ",
@@ -3526,7 +3883,7 @@
           "name": "Burnt Haunch",
           "itemData": "RM7sjkfd1Xqn-8Or6rNxdQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Cooked_Tough_Meat_01.png",
+          "iconPath": "/shared/icons/T_Icon_Deer_Meat_Burnt.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Haunch_Burnt.json",
           "category": "Consumables/v3",
           "description": "Too well done, but still edible. ",
@@ -3953,7 +4310,7 @@
           "name": "Haunch",
           "itemData": "pqhdt0z6D2sMGRWhCf5mkQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Cooked_Tough_Meat_01.png",
+          "iconPath": "/shared/icons/T_Icon_Deer_Meat_Cooked.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Haunch.json",
           "category": "Consumables/v3",
           "description": "Roasted game meat. Tender and tasty.",
@@ -4099,7 +4456,7 @@
           "iconPath": "/shared/icons/T_Icon_Pungent_omelette.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Omelette_Pungent.json",
           "category": "Consumables/v3",
-          "description": "Tastes much better than it's name suggests.",
+          "description": "Tastes much better than its name suggests.",
           "weight": 2.0
         },
         {
@@ -4270,7 +4627,7 @@
         {
           "name": "Watermelon Jerky",
           "itemData": "DwwoW0qeygf3xt-AJSJ8YA",
-          "maxStack": 50,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Watermelon_Jerky.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Watermelon_Jerky.json",
           "category": "Consumables/v3",
@@ -4412,7 +4769,7 @@
           "name": "Raw Anchovies",
           "itemData": "F8Gj_0t1nPzhZZGJRPPLog",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Anchovy2.png",
+          "iconPath": "/shared/icons/T_Icon_Anchovy.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Anchovies/ITEM_Resources_Fish_Raw_Anchovies.json",
           "category": "Materials/Anchovies",
           "description": "Doesn't look like much now, but sear it on a bonfire and receive a delicious treat.",
@@ -4472,7 +4829,7 @@
           "name": "Animal Hide",
           "itemData": "ND81bEI1UktxBZK6a1kPtg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Animal_Hide.png",
+          "iconPath": "/shared/icons/T_Icon_Resources_Animal_Hide.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Hide.json",
           "category": "Materials/Animal",
           "description": "Gathered from big creatures, this hide is essential for crafting leather equipment.",
@@ -4482,7 +4839,7 @@
           "name": "Animal Hide Scraps",
           "itemData": "ab53An3iPkyjTqnHyme-0A",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Animal_Hide_Scraps.png",
+          "iconPath": "/shared/icons/T_Icon_Resource_Animal_Hide_Scraps.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Scraps.json",
           "category": "Materials/Animal",
           "description": "Gathered from small creatures, too small to be processed into leather by itself.",
@@ -4497,6 +4854,15 @@
           "category": "Materials/Animal",
           "description": "A cartilaginous extension of an animal skull. ",
           "weight": 1.5
+        },
+        {
+          "name": "Black Dragon Hide",
+          "itemData": "hGIscEuEaNe89aOPIT8Wmg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Black_Dragon_Hide.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black.json",
+          "category": "Materials/Animal",
+          "description": "Obtained by felling black dragons. Can be processed at the tannery. "
         },
         {
           "name": "Blue Dragon Leather",
@@ -4846,7 +5212,7 @@
           "name": "Raw Game Meat",
           "itemData": "Ua7XqsiwjUio_H540eRegw",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Raw_Tough_Meat_01.png",
+          "iconPath": "/shared/icons/T_Icon_Deer_Meat_Raw.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Game.json",
           "category": "Materials/Animal",
           "description": "Raw meat from wild animals, it can be cooked on a campfire.",
@@ -5140,7 +5506,7 @@
           "iconPath": "/shared/icons/T_icon_Bronze_Watering_Can.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Bronze.json",
           "category": "Materials/Bucket",
-          "description": "{HeldContainerDescription}\r\n\r\nA bronze watering can. Can be filled at any water source.Used for watering crops in Farming Plots.",
+          "description": "{HeldContainerDescription}\r\n\r\nA bronze watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
           "powerLevel": 3,
           "weight": 5.0,
           "vitalShield": 0
@@ -5157,13 +5523,25 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Watering Can",
+          "itemData": "lEsO2kH1SoUJLqu-hYZWkw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Watering_Can_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Rune.json",
+          "category": "Materials/Bucket",
+          "description": "A sturdy rune watering can, built to endure countless seasons of tending crops and gardens.",
+          "powerLevel": 8,
+          "weight": 5.5,
+          "vitalShield": 0
+        },
+        {
           "name": "Steel Watering Can",
           "itemData": "9FOjcUsCSkwoL6i8ln6M9g",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Steel_Watering_Can.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Steel.json",
           "category": "Materials/Bucket",
-          "description": "{HeldContainerDescription}\r\n\r\nA Steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
+          "description": "{HeldContainerDescription}\r\n\r\nA steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
           "powerLevel": 5,
           "weight": 5.5,
           "vitalShield": 0
@@ -5175,7 +5553,7 @@
           "iconPath": "/shared/icons/T_icon_Wooden_Watering_Can.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Wood.json",
           "category": "Materials/Bucket",
-          "description": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
+          "description": "{HeldContainerDescription}\r\n\r\nA watering can made from ash wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
           "powerLevel": 1,
           "weight": 4.5,
           "vitalShield": 0
@@ -5244,6 +5622,16 @@
           "weight": 4.5
         },
         {
+          "name": "Dragon Crossbow Limbs",
+          "itemData": "LafYXkXd1hOEabWeo2sdKw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Components/ITEM_Resources_DragonLimbs.json",
+          "category": "Materials/Components",
+          "description": "Forged from dragon metal, these limbs grant a crossbow tremendous power.",
+          "weight": 4.5
+        },
+        {
           "name": "Iron Crossbow Limbs",
           "itemData": "VlhCS0xKcZzgC3igVdQ38w",
           "maxStack": 99,
@@ -5261,6 +5649,16 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Components/ITEM_Resources_MithrilLimbs.json",
           "category": "Materials/Components",
           "description": "A pair of mithril crossbow limbs. Essential for the crafting of a mithril crossbow.",
+          "weight": 4.5
+        },
+        {
+          "name": "Rune Crossbow Limbs",
+          "itemData": "69HUIUT03moOhPmfOGNctQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Runite_Arms_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Components/ITEM_Resources_RuneLimbs.json",
+          "category": "Materials/Components",
+          "description": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow.",
           "weight": 4.5
         },
         {
@@ -5426,6 +5824,26 @@
           "vitalShield": 0
         },
         {
+          "name": "Emerald",
+          "itemData": "0NmV_UHzkAdk2cyGPwiWGA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Gemstone_Emerald_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_Emerald.json",
+          "category": "Materials/Deleted",
+          "description": "A rare gemstone used to craft enchanted jewellery",
+          "weight": 3.0
+        },
+        {
+          "name": "Granite Maul Blueprints",
+          "itemData": "FzZcg0K5osblXSuuSNACQA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Artifact_Granite_Maul_Blueprints.json",
+          "category": "Materials/Deleted",
+          "description": "The blueprints for an infamous weapon. Its individual components require special resources and Garou stonemasonry.",
+          "weight": 4.0
+        },
+        {
           "name": "Large Wardstone (Inactive)",
           "itemData": "GC6S207zgsmHryqJEdEQaQ",
           "maxStack": 25,
@@ -5434,6 +5852,16 @@
           "category": "Materials/Deleted",
           "description": "This item is no longer functional. Consume it to reclaim the resources in crafting it.",
           "weight": 5.0
+        },
+        {
+          "name": "Mahogany Logs",
+          "itemData": "3Fu51hkQR0-C5bzZJ7CqXw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_MahoganyWood_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_Wood_Mahogany.json",
+          "category": "Materials/Deleted",
+          "description": "WIP",
+          "weight": 1.0
         },
         {
           "name": "Medium Wardstone (Inactive)",
@@ -5454,6 +5882,16 @@
           "category": "Materials/Deleted",
           "description": "This item is no longer functional. Consume it to reclaim the resources in crafting it.",
           "weight": 5.0
+        },
+        {
+          "name": "Vine Root",
+          "itemData": "z-xbJy9IS0iWNNx9WciARQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Resources_Vine.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_Vine_Root.json",
+          "category": "Materials/Deleted",
+          "description": "A fibrous root with unique properties.",
+          "weight": 0.2
         },
         {
           "name": "deleted_weap_scimitar_imaru",
@@ -5489,6 +5927,14 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_Emerald_Deleted.json",
           "category": "Materials/Deleted",
           "weight": 3.0
+        },
+        {
+          "name": "res_ore_runite_old",
+          "itemData": "cGGgxuSpjEmvSKUBkJQQUg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Placeholder.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_RuniteOre_Deleted.json",
+          "category": "Materials/Deleted"
         },
         {
           "name": "res_soda_ash",
@@ -5824,16 +6270,6 @@
           "weight": 3.0
         },
         {
-          "name": "Emerald",
-          "itemData": "0NmV_UHzkAdk2cyGPwiWGA",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Gemstone_Emerald_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Emerald.json",
-          "category": "Materials/Gem",
-          "description": "A rare gemstone used to craft enchanted jewellery",
-          "weight": 3.0
-        },
-        {
           "name": "Jade",
           "itemData": "hzztKE-CsjtgVaWFJoTw2w",
           "maxStack": 99,
@@ -5859,6 +6295,16 @@
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Resource_Red_Topaz.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Red_Topaz.json",
+          "category": "Materials/Gem",
+          "description": "A rare gemstone used to craft enchanted jewellery",
+          "weight": 3.0
+        },
+        {
+          "name": "Ruby",
+          "itemData": "fqJO-Erk5qAahfiV_4K80Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Resource_Ruby.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Ruby.json",
           "category": "Materials/Gem",
           "description": "A rare gemstone used to craft enchanted jewellery",
           "weight": 3.0
@@ -5925,6 +6371,33 @@
           "weight": 1.0
         },
         {
+          "name": "Imbued Granite Maul Head",
+          "itemData": "TRQBZ0gufJDy-HWCsXysNw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Imbued_Maul_Head.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Imbued_Granite_Maul_Head.json",
+          "category": "Materials/GraniteMaul",
+          "description": "A massive granite war hammer head. The Garou masons imbue their stone weapons with with Wild Anima to make them stronger than metal. "
+        },
+        {
+          "name": "Imbued Leather Wrappings",
+          "itemData": "1kW1mUsw1eKjlOiBCMXcUg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Imbued_Leather_Wrappings.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Imbued_Leather_Wrappings.json",
+          "category": "Materials/GraniteMaul",
+          "description": "Strips of imbued dire wolf leather for the granite maul grips. Infused with primal savagery. "
+        },
+        {
+          "name": "Ornate Maul Handle",
+          "itemData": "RFgA4kE-5E71wiGpmjWkKA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Ornate_Maul_Handle.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Ornate_Maul_Handle.json",
+          "category": "Materials/GraniteMaul",
+          "description": "A carved piece of wood decorated with metal ornaments, sturdy enough to swing the heavy granite head. Made of blightwood, found in the Bloodblight Swamp."
+        },
+        {
           "name": "Titan's Wrath",
           "itemData": "YMXvUEKL-S_EPFm7a5xvHA",
           "maxStack": 1,
@@ -5986,6 +6459,19 @@
           "description": "A tool for chopping trees. Make sure to hit them with the sharp side. ",
           "baseDurability": 2400,
           "powerLevel": 6,
+          "weight": 5.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Logging Axe",
+          "itemData": "z981l0V2fejPd36bf0-V3g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_LoggingAxe_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Rune.json",
+          "category": "Materials/Hatchet",
+          "description": "Crafted from durable runite, this axe bites deeply into timber and stands up to years of hard use.",
+          "baseDurability": 2700,
+          "powerLevel": 8,
           "weight": 5.0,
           "vitalShield": 0
         },
@@ -6452,6 +6938,7 @@
           "iconPath": "/shared/icons/T_Icon_Ring_of_Life.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Ring_of_Life.json",
           "category": "Materials/Jewellery",
+          "description": "A magical ring with lifesaving properties.",
           "baseDurability": 1,
           "weight": 1.0,
           "equipment": "Jewellery",
@@ -6565,6 +7052,15 @@
           "weight": 1.0
         },
         {
+          "name": "Primordial Heart",
+          "itemData": "j_sPzUBqZftQOjuet7eAzg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_WitherBeast_Heart.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WitherBeast_Heart.json",
+          "category": "Materials/Key",
+          "description": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. "
+        },
+        {
           "name": "Salve Crystal",
           "itemData": "f_tlM0y-QfSP8Ha6vD6Rmg",
           "maxStack": 99,
@@ -6582,6 +7078,15 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/FutureMajorVersion/Content/Gameplay/Items/Resources/Key/ITEM_Saradomin_Symbol_Puzzle.json",
           "category": "Materials/Key",
           "description": "It looks as if it is meant to sit on top of something."
+        },
+        {
+          "name": "Spectral Chinchompa Skull",
+          "itemData": "UBjRA0kZ03sJQmq-urBsTA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Spectral_Chinchompa_Skull.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_NightoftheSpectralBoom_Skull.json",
+          "category": "Materials/Key",
+          "description": "A ghostly chinchompa skull. Vannaka is looking for these. "
         },
         {
           "name": "Adventurer's Leggings",
@@ -6659,6 +7164,19 @@
           "baseDurability": 850,
           "powerLevel": 2,
           "weight": 8.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Zombie Arm",
+          "itemData": "ZUMRukFLXvSUBtSY_HzEPA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Club_Zombie.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Mace/ITEM_Mace_ZombieClub.json",
+          "category": "Materials/Mace",
+          "description": "A zombie's arm with electrifying properties. High five!",
+          "baseDurability": 1300,
+          "powerLevel": 4,
+          "weight": 15.0,
           "vitalShield": 0
         },
         {
@@ -6910,6 +7428,16 @@
           "weight": 1.0
         },
         {
+          "name": "Lumberjack Potion",
+          "itemData": "99TvyUt0VbALswaw-0FBPw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.json",
+          "category": "Materials/Magic",
+          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+          "weight": 1.0
+        },
+        {
           "name": "Quarrymaster Potion",
           "itemData": "J_6-sk2CKwAAW0Sgbwhb1g",
           "maxStack": 50,
@@ -7078,16 +7606,6 @@
           "category": "Materials/Magic",
           "description": "Raw magical essence, extremely useful in magical recipes and equipment. Refined by herblore masters from Anima-Infused Bark.",
           "weight": 2.0
-        },
-        {
-          "name": "[PH] Lumberjack Potion",
-          "itemData": "99TvyUt0VbALswaw-0FBPw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
-          "weight": 1.0
         },
         {
           "name": "Adamant Bar",
@@ -7300,14 +7818,14 @@
           "weight": 1.2
         },
         {
-          "name": "Runite Ore",
-          "itemData": "cGGgxuSpjEmvSKUBkJQQUg",
+          "name": "Rune Bar",
+          "itemData": "E2DTRcCjREud9vBrNm4wfA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Resources_IronOre.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_RuniteOre.json",
+          "iconPath": "/shared/icons/T_Resources_IronIngot.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_RuniteBar.json",
           "category": "Materials/Metal",
-          "description": "WIP",
-          "weight": 2.4
+          "description": "A magically resonant metal used for crafting weapons and armour.",
+          "weight": 4.5
         },
         {
           "name": "Silver Bar",
@@ -7514,7 +8032,7 @@
           "name": "Fuel Pellet",
           "itemData": "Br8lTU45wX65kDigZkkgAg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_icon_Fuel_Pellet.png",
+          "iconPath": "/shared/icons/T_Icon__Block_FuelPellet.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Fuel_Resources_Fuel_Pellet.json",
           "category": "Materials/Mineral",
           "description": "A high temperature fuel. Needed to smelt more advanced metals. ",
@@ -7601,6 +8119,15 @@
           "weight": 1.5
         },
         {
+          "name": "Luminite Ore",
+          "itemData": "-HOWn07hphZ-nGKN52Ohqg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Luminute_Ore.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ore_Luminite.json",
+          "category": "Materials/Mineral",
+          "description": "Mined from luminite deposits. A catalysing material that can help to make rare metals."
+        },
+        {
           "name": "Molten Glass",
           "itemData": "qwgPgkOGqffCUdG9M7YR2Q",
           "maxStack": 99,
@@ -7619,6 +8146,16 @@
           "category": "Materials/Mineral",
           "description": "Made from ground up undead bone. A useful crafting ingredient.",
           "weight": 3.0
+        },
+        {
+          "name": "Runite Ore",
+          "itemData": "vWcpbEWqJ7vapRGxZTskTQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Runite_Ore.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ore_Runite.json",
+          "category": "Materials/Mineral",
+          "description": "Mined from runite deposits. It can be smelted into bars at a Blast Furnace. ",
+          "weight": 3.6
         },
         {
           "name": "Sandstone",
@@ -7644,11 +8181,11 @@
           "name": "Stone Block",
           "itemData": "jEGEekTLabfTqtWElqNXLQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Stone_Block.png",
+          "iconPath": "/shared/icons/T_Icon_Block_Stone.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block.json",
           "category": "Materials/Mineral",
           "description": "A building material. Used for advanced construction. ",
-          "weight": 6.0
+          "weight": 4.0
         },
         {
           "name": "Swamp Tar",
@@ -7661,13 +8198,23 @@
           "weight": 2.0
         },
         {
+          "name": "Ascension Core",
+          "itemData": "o6DnPkaZXSenA3eEK7bxgw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T8_Upgrade_Core.json",
+          "category": "Materials/Misc",
+          "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 7 to Power Level 8.",
+          "powerLevel": 8
+        },
+        {
           "name": "Ascension Core 4",
           "itemData": "nU6Fg0T66QR19Q66XKbv8Q",
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Blue.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
+          "description": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
           "powerLevel": 4,
           "weight": 0.3
         },
@@ -7678,7 +8225,7 @@
           "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Purple.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T5_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5.",
+          "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5.",
           "powerLevel": 5,
           "weight": 0.3
         },
@@ -7689,7 +8236,7 @@
           "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Pink.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T6_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 5 to Power Level 6.",
+          "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 5 to Power Level 6.",
           "powerLevel": 6,
           "weight": 0.3
         },
@@ -7700,9 +8247,19 @@
           "iconPath": "/shared/icons/T_Icon_Nightmare_Crucible_Keys_01_Red.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T7_Upgrade_Core.json",
           "category": "Materials/Misc",
-          "description": "Used to Upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7.",
+          "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7.",
           "powerLevel": 7,
           "weight": 0.3
+        },
+        {
+          "name": "Ascension Shard",
+          "itemData": "RzZ0JUvCjt1tbQK8WWQxxA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T8_Upgrade_Shard.json",
+          "category": "Materials/Misc",
+          "description": "Used to craft a Tier 8 Ascension Core.",
+          "powerLevel": 7
         },
         {
           "name": "Ascension Shard 4",
@@ -7711,7 +8268,7 @@
           "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Blue.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T4_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 4 Ascension Core",
+          "description": "Used to craft a Tier 4 Ascension Core.",
           "powerLevel": 4,
           "weight": 0.1
         },
@@ -7722,7 +8279,7 @@
           "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Purple.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T5_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 5 Ascension Core",
+          "description": "Used to craft a Tier 5 Ascension Core.",
           "powerLevel": 5,
           "weight": 0.1
         },
@@ -7733,7 +8290,7 @@
           "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Pink.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T6_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 6 Ascension Core",
+          "description": "Used to craft a Tier 6 Ascension Core.",
           "powerLevel": 6,
           "weight": 0.1
         },
@@ -7744,7 +8301,7 @@
           "iconPath": "/shared/icons/T_Icon_Upgrade_Core_small_Red.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_T7_Upgrade_Shard.json",
           "category": "Materials/Misc",
-          "description": "Used to craft a Tier 7 Ascension Core",
+          "description": "Used to craft a Tier 7 Ascension Core.",
           "powerLevel": 7,
           "weight": 0.1
         },
@@ -7759,6 +8316,15 @@
           "weight": 1.0
         },
         {
+          "name": "Discordant Residue",
+          "itemData": "zbjOZke2yCdAfcKhncBKuw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Discorden_Residue.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent.json",
+          "category": "Materials/Misc",
+          "description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth."
+        },
+        {
           "name": "Elder Curiosities",
           "itemData": "9_0W_keq7RPq7BOMBOMjZQ",
           "maxStack": 99,
@@ -7769,7 +8335,7 @@
           "weight": 0.3
         },
         {
-          "name": "Garou Artifact",
+          "name": "Garou Artefact",
           "itemData": "H7H6ZELIkC07dSSlbtpOCg",
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Artifact.png",
@@ -7948,6 +8514,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Pickaxe",
+          "itemData": "o6_zoEc6AeJDki6DErW__Q",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Pickaxe_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Pickaxe/ITEM_Pickaxe_Rune.json",
+          "category": "Materials/Pickaxe",
+          "description": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
+          "baseDurability": 2700,
+          "powerLevel": 8,
+          "weight": 5.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Steel Pickaxe",
           "itemData": "gnsOeUlUW-HZZv6kTQo2AQ",
           "maxStack": 1,
@@ -8047,6 +8626,27 @@
           "weight": 0.2
         },
         {
+          "name": "Magic Logs",
+          "itemData": "tmufJ0jdpQ2zkNmHreyEiw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Magic_Wood.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic.json",
+          "category": "Materials/Plant",
+          "description": "Cut from magic trees. Can be crafted into various equipment.",
+          "weight": 1.0
+        },
+        {
+          "name": "Magic Tree Seed",
+          "itemData": "lKzq6EQPYKlfozqxS5zB9g",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Magic_Seeds.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Plant/ITEM_Farming_TreeSeed_Magic.json",
+          "category": "Materials/Plant",
+          "description": "Plant this directly into the ground to grow your own tree!",
+          "powerLevel": 1,
+          "vitalShield": 0
+        },
+        {
           "name": "Maple Sap",
           "itemData": "6elZUk7d7zVP8qCRjXN9uQ",
           "maxStack": 99,
@@ -8106,18 +8706,8 @@
           "iconPath": "/shared/icons/T_Icon_Tomato.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Tomato.json",
           "category": "Materials/Plant",
-          "description": "A Tasty Tomato.",
+          "description": "A tasty tomato.",
           "powerLevel": 2,
-          "weight": 0.2
-        },
-        {
-          "name": "Vine Root",
-          "itemData": "z-xbJy9IS0iWNNx9WciARQ",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Resources_Vine.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Vine_Root.json",
-          "category": "Materials/Plant",
-          "description": "A fibrous root with unique properties.",
           "weight": 0.2
         },
         {
@@ -8189,7 +8779,7 @@
           "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Yellow.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.json",
           "category": "Materials/Potions",
-          "description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body.",
+          "description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another such unbridled energy is taxing on the body.",
           "weight": 1.0
         },
         {
@@ -8216,7 +8806,7 @@
           "name": "Pristine Anchovies",
           "itemData": "ebQ3hkrWl5kQDdCvqx-NTQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Anchovy.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Anchovie_Pristine_03.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Anchovies/Pristine/ITEM_Resources_Fish_Raw_Pristine_Anchovies.json",
           "category": "Materials/Pristine",
           "description": "An unusually large Anchovy, cook it to gain more food.",
@@ -8238,7 +8828,7 @@
           "name": "Pristine Giant Krill",
           "itemData": "GNFBo0lw0P942wC2AJL58g",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Giant_Krill.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Gaint_Krill_Pristine_03.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/GiantKrill/Pristine/ITEM_Resources_Fish_Raw_Pristine_GiantKrill.json",
           "category": "Materials/Pristine",
           "description": "An unusually large Giant Krill, cook it to gain more food.",
@@ -8355,6 +8945,15 @@
           "weight": 1.0
         },
         {
+          "name": "Black Dragon Leather",
+          "itemData": "ZLzKi0u0PLEP1W-e2f02RA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Black_Dragon_Leather.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black.json",
+          "category": "Materials/Processed",
+          "description": "Made by tanning black dragonhide. A key component for ranged armour."
+        },
+        {
           "name": "Cactus Fibres",
           "itemData": "02kZ2Uwo05HWvQK1R_PEyw",
           "maxStack": 99,
@@ -8385,6 +8984,15 @@
           "weight": 0.6
         },
         {
+          "name": "Draconic Vis Wax",
+          "itemData": "eGomNEhi9WpKdjWtXqJv_w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Draconic_Vis_Wax.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis.json",
+          "category": "Materials/Processed",
+          "description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom."
+        },
+        {
           "name": "Dried Tea Leaves",
           "itemData": "ChMv3Usv_PIWh16n74hBwA",
           "maxStack": 99,
@@ -8401,6 +9009,15 @@
           "category": "Materials/Processed",
           "description": "A high quality material sold by local garou merchants.",
           "weight": 1.0
+        },
+        {
+          "name": "Ground Dragon Tooth",
+          "itemData": "MfStnkw8VINygc2tjO1P2g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Ground_Dragon_Tooth.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Ground_Tooth_Dragon.json",
+          "category": "Materials/Processed",
+          "description": "The product of grinding dragon teeth. Essential for making draconic vis wax."
         },
         {
           "name": "Ground Gypsum",
@@ -8423,6 +9040,15 @@
           "weight": 0.3
         },
         {
+          "name": "Ground Rune Essence",
+          "itemData": "D-7T2UaXI__mZMm9gOQ9Sg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Runic_Powder.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Ground_Rune.json",
+          "category": "Materials/Processed",
+          "description": "Made by grinding rune essence. A component of black dragon leather."
+        },
+        {
           "name": "Ground Tea Leaves",
           "itemData": "-ZuYW0i-guPjwkmfyRmHiA",
           "maxStack": 99,
@@ -8439,6 +9065,15 @@
           "category": "Materials/Processed",
           "description": "A marvel of alchemy that, once applied to equipment, adds durability in extreme conditions. ",
           "weight": 0.5
+        },
+        {
+          "name": "Harmonised Compound",
+          "itemData": "N3f9DUkxKk4__Ie1rlxbUA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Harmonized_Compound.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized.json",
+          "category": "Materials/Processed",
+          "description": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel."
         },
         {
           "name": "Infinity Cloth",
@@ -8471,6 +9106,16 @@
           "weight": 2.0
         },
         {
+          "name": "Rune Bar",
+          "itemData": "zzsLzkLrcpzCD3mSme_L3g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Runite_Bar.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite.json",
+          "category": "Materials/Processed",
+          "description": "A magically resonant metal used for crafting weapons and armour.",
+          "weight": 4.5
+        },
+        {
           "name": "Scorch Leather",
           "itemData": "oC4mrE6kt6tk7-mTY1YLKA",
           "maxStack": 99,
@@ -8499,6 +9144,24 @@
           "category": "Materials/Processed",
           "description": "Perfect for my snake costume. ",
           "weight": 0.3
+        },
+        {
+          "name": "Vis Cloth",
+          "itemData": "QB1cGUwaSGregu6bDnVJIQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Viz_Cloth.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis.json",
+          "category": "Materials/Processed",
+          "description": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour!"
+        },
+        {
+          "name": "Vis Fibres",
+          "itemData": "Bi2DdkOl6F73Kz-nuGB16g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Vis_Fibers.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis.json",
+          "category": "Materials/Processed",
+          "description": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom."
         },
         {
           "name": "Yew Plank",
@@ -8562,7 +9225,7 @@
           "iconPath": "/shared/icons/T_Icon_Barrel_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cactus_Barrel.json",
           "category": "Materials/Seeds",
-          "description": "A Barrel Cactus seed. Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
+          "description": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
           "vitalShield": 0
         },
         {
@@ -8572,7 +9235,7 @@
           "iconPath": "/shared/icons/T_Icon_Bunny_Cactus_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cactus_Bunny.json",
           "category": "Materials/Seeds",
-          "description": "A Bunny Cactus seed. Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
+          "description": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
           "vitalShield": 0
         },
         {
@@ -8582,7 +9245,7 @@
           "iconPath": "/shared/icons/T_Icon_Cabbage_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cabbage.json",
           "category": "Materials/Seeds",
-          "description": "Cabbage Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8592,7 +9255,7 @@
           "iconPath": "/shared/icons/T_Icon_Cadaverberry_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cadavaberry.json",
           "category": "Materials/Seeds",
-          "description": "A handful of Cadavaberry seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\n\r\nBest Planted in Fellhollow plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\n\r\nBest planted in Fellhollow plots.",
           "vitalShield": 0
         },
         {
@@ -8602,7 +9265,7 @@
           "iconPath": "/shared/icons/T_Icon_Corpsecotton_seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_CorpseCotton.json",
           "category": "Materials/Seeds",
-          "description": "Corpse cotton seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
           "vitalShield": 0
         },
         {
@@ -8612,7 +9275,7 @@
           "iconPath": "/shared/icons/T_Icon_Desert_Weed_Seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Weed_Desert.json",
           "category": "Materials/Seeds",
-          "description": "A handful of Desert Weed seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\n\r\nBest Planted in Umbral Sand plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\n\r\nBest planted in Umbral Sand plots.",
           "vitalShield": 0
         },
         {
@@ -8622,7 +9285,7 @@
           "iconPath": "/shared/icons/T_Icon_Dwellberry_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Dwellberry.json",
           "category": "Materials/Seeds",
-          "description": "A dwellberry seed. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8632,7 +9295,7 @@
           "iconPath": "/shared/icons/T_Icon_Flax_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Flax.json",
           "category": "Materials/Seeds",
-          "description": "Flax seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8642,7 +9305,7 @@
           "iconPath": "/shared/icons/T_Icon_Harralander_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Harralander.json",
           "category": "Materials/Seeds",
-          "description": "Harralander seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8652,7 +9315,7 @@
           "iconPath": "/shared/icons/T_Icon_Irit_seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Irit.json",
           "category": "Materials/Seeds",
-          "description": "Irit seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
           "vitalShield": 0
         },
         {
@@ -8662,17 +9325,17 @@
           "iconPath": "/shared/icons/T_Icon_Kuarm_seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Kwuarm.json",
           "category": "Materials/Seeds",
-          "description": "Kwuarm seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
-          "name": "Marentill Seeds",
+          "name": "Marrentill Seeds",
           "itemData": "OzJAo0L_wtEHut6bOPXo5Q",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Marrentil_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Marrentill.json",
           "category": "Materials/Seeds",
-          "description": "Marrentill seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8682,7 +9345,7 @@
           "iconPath": "/shared/icons/T_Icon_Onion_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Onion.json",
           "category": "Materials/Seeds",
-          "description": "Onion Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8692,7 +9355,7 @@
           "iconPath": "/shared/icons/T_Icon_Pipe_Cactus_Seed_v2.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Cactus_Pipe.json",
           "category": "Materials/Seeds",
-          "description": "A Pipe Cactus seed. Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
+          "description": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
           "vitalShield": 0
         },
         {
@@ -8702,7 +9365,7 @@
           "iconPath": "/shared/icons/T_Icon_Potato_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Potato.json",
           "category": "Materials/Seeds",
-          "description": "A Potato Seed. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8712,7 +9375,7 @@
           "iconPath": "/shared/icons/T_Icon_Pumpkin_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Pumpkin.json",
           "category": "Materials/Seeds",
-          "description": "Pumpkin Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
           "vitalShield": 0
         },
         {
@@ -8722,7 +9385,7 @@
           "iconPath": "/shared/icons/T_Icon_Redberry_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Redberry.json",
           "category": "Materials/Seeds",
-          "description": "A redberry seed. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8732,7 +9395,7 @@
           "iconPath": "/shared/icons/T_Icon_Snapdragon_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Snapdragon.json",
           "category": "Materials/Seeds",
-          "description": "Snapdragon seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8742,7 +9405,7 @@
           "iconPath": "/shared/icons/T_Icon_SwampWeed_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_SwampWeed.json",
           "category": "Materials/Seeds",
-          "description": "Swamp weed seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8752,7 +9415,7 @@
           "iconPath": "/shared/icons/T_Icon_Toadflax_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_ToadFlax.json",
           "category": "Materials/Seeds",
-          "description": "Toadflax seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8762,7 +9425,7 @@
           "iconPath": "/shared/icons/T_Icon_Tomato_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Tomato.json",
           "category": "Materials/Seeds",
-          "description": "Tomato Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
           "vitalShield": 0
         },
         {
@@ -8772,7 +9435,7 @@
           "iconPath": "/shared/icons/T_Icon_Watermelon_seeds.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Watermelon.json",
           "category": "Materials/Seeds",
-          "description": "Watermelon seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Fellhollow plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Fellhollow plots.",
           "vitalShield": 0
         },
         {
@@ -8782,7 +9445,7 @@
           "iconPath": "/shared/icons/T_Icon_Wheat_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/ITEM_Farming_Seed_Wheat.json",
           "category": "Materials/Seeds",
-          "description": "Some Wheat Seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Brynmoor plots.",
+          "description": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Brynmoor plots.",
           "vitalShield": 0
         },
         {
@@ -8834,6 +9497,19 @@
           "description": "Block and parry attacks steadily with this basic, dependable bronze shield.",
           "baseDurability": 1050,
           "powerLevel": 3,
+          "weight": 10.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Dragon Kiteshield",
+          "itemData": "QlvVq0AHBS7URw2a3nlFcw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Kite_Dragon_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Shield_Dragon.json",
+          "category": "Materials/Shield",
+          "description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
+          "baseDurability": 1900,
+          "powerLevel": 9,
           "weight": 10.0,
           "vitalShield": 0
         },
@@ -8929,6 +9605,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Shield",
+          "itemData": "2SZzH0msQ4AdI3qhtXyrCQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Kite_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Shield_Rune.json",
+          "category": "Materials/Shield",
+          "description": "A rune shield forged to endure punishment that would leave lesser metal in pieces.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 10.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Steel Shield",
           "itemData": "X2mSMUNh2YKRnuS037ghVA",
           "maxStack": 1,
@@ -8974,7 +9663,7 @@
           "iconPath": "/shared/icons/T_Icon_Shovel_Adamant_2H_01.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T7_Adamant.json",
           "category": "Materials/Shovel",
-          "description": "A durable spade made from Adamantite.",
+          "description": "A durable spade made from adamantite.",
           "baseDurability": 750,
           "powerLevel": 7,
           "weight": 5.5,
@@ -8987,10 +9676,23 @@
           "iconPath": "/shared/icons/T_icon_Bronze_Shovel.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T3_Bronze.json",
           "category": "Materials/Shovel",
-          "description": "A basic Spade made from Bronze. \r\n\r\nUsed to clear farming plots.",
+          "description": "A basic Spade made from bronze. \r\n\r\nUsed to clear farming plots.",
           "baseDurability": 650,
           "powerLevel": 2,
           "weight": 5.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Spade",
+          "itemData": "Z_2OHUr47dPq84uXDmB-rQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Shovel_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T8_Rune.json",
+          "category": "Materials/Shovel",
+          "description": "Whether digging gardening plots or unearthing treasure, this tool is built to last.",
+          "baseDurability": 800,
+          "powerLevel": 8,
+          "weight": 5.5,
           "vitalShield": 0
         },
         {
@@ -9000,7 +9702,7 @@
           "iconPath": "/shared/icons/T_icon_Steel_Shovel.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T5_Steel.json",
           "category": "Materials/Shovel",
-          "description": "A robust Spade made from Steel. \r\n\r\nUsed to clear farming plots.",
+          "description": "A robust Spade made from steel. \r\n\r\nUsed to clear farming plots.",
           "baseDurability": 700,
           "powerLevel": 3,
           "weight": 5.5,
@@ -9026,7 +9728,7 @@
           "iconPath": "/shared/icons/T_icon_Wooden_Shovel.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T1_Wood.json",
           "category": "Materials/Shovel",
-          "description": "A rudimentary Spade made from Ash wood. \r\n\r\nUsed to clear farming plots.",
+          "description": "A rudimentary Spade made from ash wood. \r\n\r\nUsed to clear farming plots.",
           "baseDurability": 600,
           "powerLevel": 1,
           "weight": 4.5,
@@ -9283,44 +9985,43 @@
           "vitalShield": 0
         },
         {
-          "name": "Ash tree Seed",
+          "name": "Ash Tree Seed",
           "itemData": "rml74kE3HftGhqabnwqNhw",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Ash_Tree_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.json",
           "category": "Materials/TreePlanting",
-          "description": "Ash tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
+          "description": "Plant this directly into the ground to grow your own tree!",
           "vitalShield": 0
         },
         {
-          "name": "Maple tree Seed",
+          "name": "Maple Tree Seed",
           "itemData": "8oswskI2KOuVK3KUvU8cSw",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Maple_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Maple.json",
           "category": "Materials/TreePlanting",
-          "description": "Maple tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
+          "description": "Plant this directly into the ground to grow your own Tree!",
           "vitalShield": 0
         },
         {
-          "name": "Oak tree Seed",
+          "name": "Oak Tree Seed",
           "itemData": "KdEPik9BM_2zKiOenCEJgQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Oal_Tree_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Oak.json",
           "category": "Materials/TreePlanting",
-          "description": "Oak Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
+          "description": "Plant this directly into the ground to grow your own tree!",
           "vitalShield": 0
         },
         {
-          "name": "Willow tree Seed",
+          "name": "Willow Tree Seed",
           "itemData": "QezLIU6YRuQdDUKbCkZqBA",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Willow_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Willow.json",
           "category": "Materials/TreePlanting",
-          "description": "Willow Tree Seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-          "powerLevel": 1,
+          "description": "Plant this directly into the ground to grow your own tree!",
           "vitalShield": 0
         },
         {
@@ -9330,8 +10031,7 @@
           "iconPath": "/shared/icons/T_Icon_Yew_Seed.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Yew.json",
           "category": "Materials/TreePlanting",
-          "description": "Yew tree seeds. \r\n\r\nPlant this directly into the ground to grow your own Tree!",
-          "powerLevel": 1,
+          "description": "Plant this directly into the ground to grow your own tree!",
           "vitalShield": 0
         },
         {
@@ -10843,19 +11543,37 @@
           "category": "Plans"
         },
         {
+          "name": "Queenslayer's Reward Pack",
+          "itemData": "Qu2GYkIkg9iUqTCc2maTyg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Dragon_chest.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_KuldraPack.json",
+          "category": "Tools",
+          "description": "Contains the spoils of your battle against Kuldra."
+        },
+        {
+          "name": "Regicide Reward Pack",
+          "itemData": "NfsDG0_3S4YQdcCD8_PjKA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Dragon_chest.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_KuldraPack_Unique.json",
+          "category": "Tools",
+          "description": "A reward pack for completing Regicide."
+        },
+        {
           "name": "Kot Pack",
           "itemData": "sH2kLkPI7HM-Fr67B5jIDQ",
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Kothaar_Pack.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_KutPack.json",
           "category": "Tools/Consumable",
-          "description": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves.",
+          "description": "A flame-retardant bag full of various knickknacks.",
           "weight": 1.0
         },
         {
           "name": "item_pack_blackknighrewardpack",
           "itemData": "mQeJ6kJZdcr49cGHQ1qcHw",
-          "maxStack": 10,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Pack_Zamorak_01.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/Main/ITEM_Consumable_BlackKnightFortresssRewardPack1.json",
           "category": "Tools/Main",
@@ -11168,7 +11886,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Brynmoor_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Brynmoor Agility Course with a gold medal.",
+          "description": "A reward for finishing Brynmoor Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11178,7 +11896,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Brynmoor_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Brynmoor Agility Course with a silver medal.",
+          "description": "A reward for finishing Brynmoor Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11188,7 +11906,7 @@
           "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Bronze.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Dowdun Reach Agility Course with a bronze medal.",
+          "description": "A reward for finishing Dowdun Reach Agility course with a bronze medal.",
           "weight": 1.0
         },
         {
@@ -11198,7 +11916,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Dowdun Reach Agility Course with a gold medal.",
+          "description": "A reward for finishing Dowdun Reach Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11208,7 +11926,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_DowdunReach_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Dowdun Reach Agility Course with a silver medal.",
+          "description": "A reward for finishing Dowdun Reach Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11218,7 +11936,7 @@
           "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Bronze.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Fellhollow Agility Course with a bronze medal.",
+          "description": "A reward for finishing Fellhollow Agility course with a bronze medal.",
           "weight": 1.0
         },
         {
@@ -11228,7 +11946,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Fellhollow Agility Course with a gold medal.",
+          "description": "A reward for finishing Fellhollow Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11238,7 +11956,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Fellhollow_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Fellhollow Agility Course with a silver medal.",
+          "description": "A reward for finishing Fellhollow Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11248,7 +11966,7 @@
           "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Bronze.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a bronze medal.",
           "weight": 1.0
         },
         {
@@ -11258,7 +11976,7 @@
           "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Bronze.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a bronze medal.",
           "weight": 1.0
         },
         {
@@ -11268,7 +11986,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11278,7 +11996,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11288,7 +12006,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Course1_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11298,7 +12016,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_Ghornfell_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+          "description": "A reward for finishing Ghornfell Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11308,7 +12026,7 @@
           "iconPath": "/shared/icons/T_Icon_BronzeAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Bronze.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Umbral Sands Agility Course with a bronze medal.",
+          "description": "A reward for finishing Umbral Sands Agility course with a bronze medal.",
           "weight": 1.0
         },
         {
@@ -11318,7 +12036,7 @@
           "iconPath": "/shared/icons/T_Icon_GoldenAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Gold.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Umbral Sands Agility Course with a gold medal.",
+          "description": "A reward for finishing Umbral Sands Agility course with a gold medal.",
           "weight": 1.0
         },
         {
@@ -11328,7 +12046,7 @@
           "iconPath": "/shared/icons/T_Icon_SilverAgilityCompletionReward.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Packs/ITEM_Consumable_AgilityPack_UmbralSands_Silver.json",
           "category": "Tools/Packs",
-          "description": "A reward for finishing Umbral Sands Agility Course with a silver medal.",
+          "description": "A reward for finishing Umbral Sands Agility course with a silver medal.",
           "weight": 1.0
         },
         {
@@ -11370,7 +12088,7 @@
         {
           "name": "item_pack_thinkingwithportalsbonuspack",
           "itemData": "nmMtNE2Oy_IpeN6_zLjSUw",
-          "maxStack": 10,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Resources_Garou_Pack.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ1_PlayingWithPortals/ITEM_consumable_ThinkingWithPortalsBonusRewardPack.json",
           "category": "Tools/SQ1 PlayingWithPortals",
@@ -11438,6 +12156,15 @@
           "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Head_Sack.json",
           "category": "Vestiges",
           "description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it."
+        },
+        {
+          "name": "Abyssal Remains",
+          "itemData": "jABxV0qQHC2LwRK6H8_-Dw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Abyssal_Whip_Vestige.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Weapon_Whip_Abysmal.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn from it"
         },
         {
           "name": "An Educational Blade",
@@ -11893,7 +12620,7 @@
           "name": "Ornate Golden Scarab",
           "itemData": "xTqQJkM4dJvuWYm_Predqg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/sverd-i-fjell.png",
+          "iconPath": "/shared/icons/T_Icon_Ornate_Golden_Scarab.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Weapon_Staff_Scarab.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
@@ -11931,6 +12658,15 @@
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Menaphite_Cape_03.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_Menaphite_Purple.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn from it"
+        },
+        {
+          "name": "Red Memory of Menaphos",
+          "itemData": "skeGn06bh0QurV2yszNJEQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Menaphite_Cape_08.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_Menaphite_Red.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
         },
@@ -12028,7 +12764,7 @@
           "name": "Shred of Sunbleached Weave",
           "itemData": "jLL-nUIrmltWy7i3Ccp3Ww",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Umbral_Sands_Cape.png",
+          "iconPath": "/shared/icons/T_Icon_Shread_of_Sunbleached_Weave.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Armour_Cape_UmbralSands.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
@@ -12214,15 +12950,28 @@
           "description": "Perhaps you could learn from it"
         },
         {
-          "name": "Abyssal Whip",
+          "name": "Abysmal Whip",
           "itemData": "P3_Aq0nAXu5dlFuBNGgyaw",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Abyssal_Whip.png",
+          "iconPath": "/shared/icons/T_Icon_Abyssal_Whip_Vestige.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/ITEM_Club_AbyssalWhip.json",
           "category": "Weapons/AbyssalWhip",
-          "description": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
+          "description": "It's... not quite finished.",
           "baseDurability": 1300,
           "powerLevel": 4,
+          "weight": 4.5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Abyssal Whip",
+          "itemData": "LsJfUkl4lIGj042N1265pQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Abyssal_Whip.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/UniqueWeapons/Club/AbyssalWhip/ITEM_Club_AbyssalWhip_Masterwork.json",
+          "category": "Weapons/AbyssalWhip",
+          "description": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
+          "baseDurability": 1600,
+          "powerLevel": 7,
           "weight": 4.5,
           "vitalShield": 0
         },
@@ -12308,7 +13057,7 @@
           "name": "Blightwood Longbow",
           "itemData": "uKPqYU1A71NI-XK-ZqStTg",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_HuntersLongbow_OakWood_2H_01.png",
+          "iconPath": "/shared/icons/T_Icon_Blightwood_Longbow.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Longbow_Hunter.json",
           "category": "Weapons/Bow",
           "description": "A finely crafted longbow, powerful and precise.",
@@ -12354,6 +13103,32 @@
           "baseDurability": 1300,
           "powerLevel": 4,
           "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Magic Longbow",
+          "itemData": "Sbta-kLxhUrj_MCfDNQbwg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Longbow_Runite_2H_01_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Longbow_MagicWood.json",
+          "category": "Weapons/Bow",
+          "description": "The natural resilience of magic wood allows this bow to send arrows soaring over great distances.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Magic Shortbow",
+          "itemData": "-Hxoukgg-5vtDG-Y1AxKKg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Shortbow_Runite_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Shortbow_MagicWood.json",
+          "category": "Weapons/Bow",
+          "description": "A shortbow made of magic wood, this bow is light enough to carry all day and powerful enough to ruin someone else's.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 10.0,
           "vitalShield": 0
         },
         {
@@ -12604,6 +13379,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragon Crossbow",
+          "itemData": "S9VvekNHj93PnKqGreMZKw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Dragon_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dragon.json",
+          "category": "Weapons/Crossbow",
+          "description": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
+          "baseDurability": 1900,
+          "powerLevel": 9,
+          "weight": 10.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Iron Crossbow",
           "itemData": "igBY5kj2IGsY97C_dPJS2A",
           "maxStack": 1,
@@ -12626,6 +13414,19 @@
           "description": "A one-handed crossbow composed mainly from mithril.",
           "baseDurability": 1600,
           "powerLevel": 6,
+          "weight": 10.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Crossbow",
+          "itemData": "z-ZwMk9VLVSJIUaJnNE6Ew",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Runite_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Rune.json",
+          "category": "Weapons/Crossbow",
+          "description": "A precision-engineered rune crossbow that delivers powerful, accurate shots at range.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
           "weight": 10.0,
           "vitalShield": 0
         },
@@ -12759,6 +13560,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Dagger",
+          "itemData": "-Sdko0QrIv__us2tyG1-4Q",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Dagger_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_Rune.json",
+          "category": "Weapons/Dagger",
+          "description": "A razor-sharp rune dagger prized for its speed, precision, and deadly effectiveness.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 5.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Steel Dagger",
           "itemData": "X7WHfk6N0b3zFdmwn2Vacg",
           "maxStack": 1,
@@ -12832,7 +13646,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Adamant Great Axe",
+          "name": "Adamant Greataxe",
           "itemData": "jFor4kB4H4xQJESU5gMZ1w",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Greataxe_Adamant_2H_01.png",
@@ -12880,6 +13694,19 @@
           "description": "A two-handed battleaxe forged from mithril.",
           "baseDurability": 1600,
           "powerLevel": 6,
+          "weight": 25.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Greataxe",
+          "itemData": "uK4Zskj3RorN4g234QEG1A",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Greataxe_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/GreatAxe/ITEM_Greataxe_Rune.json",
+          "category": "Weapons/GreatAxe",
+          "description": "An imposing rune greataxe, for when a regular axe simply isn't sending a strong enough message.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
           "weight": 25.0,
           "vitalShield": 0
         },
@@ -12962,6 +13789,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Greatsword",
+          "itemData": "9bKt00nJBj-_uIima_mzBA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Greatsword_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Greatsword_Rune.json",
+          "category": "Weapons/GreatSword",
+          "description": "A massive two-handed blade forged from runite. Few can wield such a weapon effectively, but fewer still can stand against it.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 25.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Shadow Sword",
           "itemData": "Ewe_yEPwqy4Bx0ajfHlwvw",
           "maxStack": 1,
@@ -13036,6 +13876,19 @@
           "description": "An imposing two-handed weapon, capable of crushing any enemy.",
           "baseDurability": 1600,
           "powerLevel": 6,
+          "weight": 25.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Warhammer",
+          "itemData": "YBpMc01jcdU_HvWv3-UFwQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Warhammer_Rune_2H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Hammer/ITEM_Hammer_Rune.json",
+          "category": "Weapons/Hammer",
+          "description": "A colossal rune warhammer, capable of shattering shields and crushing the strongest defences.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
           "weight": 25.0,
           "vitalShield": 0
         },
@@ -13131,6 +13984,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Rune Mace",
+          "itemData": "qVNYr0wbO2A7j7CatbehEQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Mace_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Mace/ITEM_Mace_Rune.json",
+          "category": "Weapons/Mace",
+          "description": "A sturdy rune mace, designed to crush armour and bone alike with devastating force.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Skullsplitter",
           "itemData": "XWOefkcc3bliVpWrsPMokg",
           "maxStack": 1,
@@ -13180,19 +14046,6 @@
           "baseDurability": 275,
           "powerLevel": 1,
           "weight": 8.0,
-          "vitalShield": 0
-        },
-        {
-          "name": "Zombie Arm",
-          "itemData": "ZUMRukFLXvSUBtSY_HzEPA",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Club_Zombie.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Mace/ITEM_Mace_ZombieClub.json",
-          "category": "Weapons/Mace",
-          "description": "A zombie's arm with electrifying properties. High five!",
-          "baseDurability": 1300,
-          "powerLevel": 4,
-          "weight": 15.0,
           "vitalShield": 0
         },
         {
@@ -13287,6 +14140,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Dragon Scimitar",
+          "itemData": "PMrhcEKEQJlJR-WE16jbQA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Scimitar_Dragon_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Dragon.json",
+          "category": "Weapons/Scimitar",
+          "description": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength.",
+          "baseDurability": 1900,
+          "powerLevel": 9,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
           "name": "Imaru's Talon",
           "itemData": "X_OJeEp1PR4l08yW6_vpUQ",
           "maxStack": 1,
@@ -13309,6 +14175,19 @@
           "description": "A curved sword of Eastern influence, forged from mithril.",
           "baseDurability": 1600,
           "powerLevel": 6,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Scimitar",
+          "itemData": "f0WmZkAeAqUwrQ-jrJrXjQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Scimitar_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Rune.json",
+          "category": "Weapons/Scimitar",
+          "description": "The curved rune blade flows effortlessly from one strike to the next.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
           "weight": 15.0,
           "vitalShield": 0
         },
@@ -13375,6 +14254,19 @@
           "baseDurability": 525,
           "powerLevel": 4,
           "weight": 3.5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Ancestral Staff",
+          "itemData": "mKIxNUr0C8E6YXOL8OSRkQ",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_BattleStaff_Ancestral.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Ancestral.json",
+          "category": "Weapons/Staff",
+          "description": "A staff carved from powerful magic wood, prized for its affinity with arcane energies.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
+          "weight": 15.0,
           "vitalShield": 0
         },
         {
@@ -13599,7 +14491,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Chieftan's Blade",
+          "name": "Chieftain's Blade",
           "itemData": "lHKVrkMlSsZx5lKVZRH63Q",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Sword_Chieftain_s_Blade.png",
@@ -13634,6 +14526,19 @@
           "description": "A well-forged mithril blade for trained combatants.",
           "baseDurability": 1600,
           "powerLevel": 6,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Sword",
+          "itemData": "4ZtbF03DMcbNIciFr8S5Qg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Sword_Rune_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Sword/ITEM_Sword_Rune.json",
+          "category": "Weapons/Sword",
+          "description": "A finely balanced rune sword, renowned for its strength, precision, and reliability in battle.",
+          "baseDurability": 1900,
+          "powerLevel": 8,
           "weight": 15.0,
           "vitalShield": 0
         },
@@ -13674,6 +14579,110 @@
           "baseDurability": 850,
           "powerLevel": 2,
           "weight": 10.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Ancestral Wand",
+          "itemData": "AVE0Wk9-BtfvjIOHwncf1g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Ancestral_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Ancestral.json",
+          "category": "Weapons/Wand",
+          "description": "Forgotten magic lingers within this wand, waiting for a capable hand to awaken it.",
+          "baseDurability": 1750,
+          "powerLevel": 8,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Ash Wand",
+          "itemData": "qx9k7EkC8zMR1EKDoLi2DA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Ash_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Ash.json",
+          "category": "Weapons/Wand",
+          "description": "A simple wand carved from ash wood. Every mage starts somewhere.",
+          "baseDurability": 900,
+          "powerLevel": 2,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Blightwood Wand",
+          "itemData": "Z-hENEig30yVaXWh-OCYRg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Blightwood_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Blightwood.json",
+          "category": "Weapons/Wand",
+          "description": "Fashioned from blightwood, its magic feels unsettlingly eager to obey.",
+          "baseDurability": 1300,
+          "powerLevel": 4,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Kuldra's Wrath",
+          "itemData": "XBAZB07ngrxSMm2o-Le-qw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Kuldras_Wrath_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_KuldrasWrath.json",
+          "category": "Weapons/Wand",
+          "description": "A masterfully crafted wand, infused with the fury of Kuldra - channeling arcane power with terrifying efficiency.",
+          "baseDurability": 1750,
+          "powerLevel": 9,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Maple Wand",
+          "itemData": "DVqm50GF6VP6EQGs7NelPg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Maple_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Maple.json",
+          "category": "Weapons/Wand",
+          "description": "A finely crafted maple wand, prized for its natural affinity with magic.",
+          "baseDurability": 1600,
+          "powerLevel": 6,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Master Wand",
+          "itemData": "gAp9Lk3ymi-J98GYZgXGkA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Master_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Master.json",
+          "category": "Weapons/Wand",
+          "description": "A wand worthy of an accomplished spellcaster. Mastery is not included.",
+          "baseDurability": 1500,
+          "powerLevel": 7,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Oak Wand",
+          "itemData": "ENR9RUjpFh6xxeCfza7-2Q",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Oak_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Oak.json",
+          "category": "Weapons/Wand",
+          "description": "A sturdy oak wand that offers reliability far beyond its humble appearance.",
+          "baseDurability": 1050,
+          "powerLevel": 3,
+          "weight": 15.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Splitbark Wand",
+          "itemData": "etwDxUcPgn6ohCuNgyEB0g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_SM_Wand_Splitbark_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_Splitbark.json",
+          "category": "Weapons/Wand",
+          "description": "Crafted from enchanted splitbark, balancing resilience with arcane potential.",
+          "baseDurability": 1300,
+          "powerLevel": 5,
+          "weight": 15.0,
           "vitalShield": 0
         }
       ]
@@ -13874,7 +14883,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Mithril Arrows",
+          "name": "Mithril Arrow",
           "itemData": "Rmi6eEWsjAHV4U-c_KOydQ",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Mithril_Arrows.png",
@@ -13970,6 +14979,50 @@
           "category": "Arrows",
           "description": "Arrows with tips forged from steel coated in weapon poison.",
           "powerLevel": 5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Arrow",
+          "itemData": "nreXOkMI96feAxGGwZ4T2w",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Arrow__Rune.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_rune_Bodkin.json",
+          "category": "Arrows",
+          "description": "Rune arrows are prized for their exceptional flight and striking power.",
+          "powerLevel": 8,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Barbed Arrow",
+          "itemData": "Mwen_U6t9IkYEj-SpkBYww",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Arrow__Rune.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_rune_Bleed.json",
+          "category": "Arrows",
+          "description": "Lacerating arrows with tips forged from runite.",
+          "powerLevel": 8,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Fire Arrow",
+          "itemData": "zjnyJUaTb_3a-CS7YaJk9g",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Arrow__Rune.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_rune_Fire.json",
+          "category": "Arrows",
+          "description": "Arrows with tips forged from runite coated in fire oil.",
+          "powerLevel": 8,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Poison Arrow",
+          "itemData": "ZfbS9EmxNCq50YmnMFvn_A",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Arrow__Rune.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_rune_Poison.json",
+          "category": "Arrows",
+          "description": "Arrows with tips forged from runite coated in poison.",
+          "powerLevel": 8,
           "vitalShield": 0
         },
         {
@@ -14071,6 +15124,17 @@
           "vitalShield": 0
         },
         {
+          "name": "Enchanted Adamant Bolt",
+          "itemData": "TFskAU8Adv9ctHmPnn1VwA",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Adamant_Bolt_Enchanted.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Adamant.json",
+          "category": "Bolts",
+          "description": "Adamant bolts infused with sanguine energy and a ruby tip. Drains some of the archers health to increase the bolts damage.",
+          "powerLevel": 7,
+          "vitalShield": 0
+        },
+        {
           "name": "Enchanted Blurite Bolt",
           "itemData": "SrnYYkzaT5NgG0qSqB2wWg",
           "maxStack": 999,
@@ -14115,6 +15179,17 @@
           "vitalShield": 0
         },
         {
+          "name": "Enchanted Rune Bolt",
+          "itemData": "8a3KFE2cB7F9zHab3l5qAA",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_Rune_Bolt_Enchanted.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_rune.json",
+          "category": "Bolts",
+          "description": "Rune bolts infused with magical energy and a diamond tip. Their targets rarely appreciate the distinction. Has a chance to pierce through several enemies at once.",
+          "powerLevel": 8,
+          "vitalShield": 0
+        },
+        {
           "name": "Enchanted Steel Bolt",
           "itemData": "sPbq7UpGgQcvbduqbSGJOg",
           "maxStack": 999,
@@ -14137,7 +15212,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Mithril Bolts",
+          "name": "Mithril Bolt",
           "itemData": "nFcRVkw9jTo4lpC5TG6Fcg",
           "maxStack": 999,
           "iconPath": "/shared/icons/T_Icon_Mithril_Bolts.png",
@@ -14145,6 +15220,17 @@
           "category": "Bolts",
           "description": "Crossbow bolts made from mithril.",
           "powerLevel": 6,
+          "vitalShield": 0
+        },
+        {
+          "name": "Rune Bolt",
+          "itemData": "JPJv6kZEHD59cpSpXKUh5A",
+          "maxStack": 999,
+          "iconPath": "/shared/icons/T_Icon_CrossbowBolt__Rune.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_rune.json",
+          "category": "Bolts",
+          "description": "Carefully forged rune crossbow bolts that hit hard and fly true.",
+          "powerLevel": 8,
           "vitalShield": 0
         },
         {
@@ -14167,7 +15253,7 @@
           "name": "Advert-Inna-Bottle",
           "itemData": "H5D6PE3yfLhTPAypRyRg4g",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_AnimalMagnetism_AdvertInnaBottle.json",
           "category": "Quest",
           "description": "An advert that details how to make an 'Ava's Accumulator'."
@@ -14202,7 +15288,7 @@
         {
           "name": "Beast-Training Notes",
           "itemData": "5g2q0EbO7nKX_e-N1ogTGg",
-          "maxStack": 3,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Torn_Journal_Pages.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ2_AnimalLover/ITEM_Quest_DR_SQ2_JournalPages.json",
           "category": "Quest",
@@ -14266,7 +15352,7 @@
           "name": "Coclear Malificarum",
           "itemData": "NUzVKEXAML0DLYSjTIBmNA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll2.json",
           "category": "Quest",
           "description": "A sealed scroll full of forbidden magics."
@@ -14310,7 +15396,7 @@
         {
           "name": "Curse Fragment (Despair)",
           "itemData": "ObT03UmkX-U-WJ667Rk0vA",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Imaru_Curse_Seal_Despair_nofx.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_SealBreakKey_Fort.json",
           "category": "Quest",
@@ -14319,7 +15405,7 @@
         {
           "name": "Curse Fragment (Grief)",
           "itemData": "o9Nec0TWzFiYJIeiYQBjVw",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Imaru_Curse_Seal_Grief_nofx.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_SealBreakKey_Vil.json",
           "category": "Quest",
@@ -14328,7 +15414,7 @@
         {
           "name": "Curse Fragment (Rage)",
           "itemData": "TQY6cUXdLjzqCIuXB3vAvw",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Imaru_Curse_Seal_Rage_nofx.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_SealBreakKey_Fall.json",
           "category": "Quest",
@@ -14374,7 +15460,7 @@
           "name": "Eventide - A New Spawn",
           "itemData": "xyVlYUoDcHIK3m6-pTk6Zg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll3.json",
           "category": "Quest",
           "description": "A sealed scroll full of the worst things imaginable."
@@ -14400,7 +15486,7 @@
         {
           "name": "Glass Owl",
           "itemData": "PeVzmkAypE8k92yqKOvaDQ",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Glass_Owl.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/Main/ITEM_Quest_Glass_Owl.json",
           "category": "Quest",
@@ -14426,16 +15512,6 @@
           "description": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these. "
         },
         {
-          "name": "Granite Maul Blueprints",
-          "itemData": "FzZcg0K5osblXSuuSNACQA",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_021cc0ae.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Artifact_Granite_Maul_Blueprints.json",
-          "category": "Quest",
-          "description": "The blueprints for an infamous weapon. Its individual components require special resources and Garou stonemasonry.",
-          "weight": 4.0
-        },
-        {
           "name": "Human torso",
           "itemData": "BvR9CEY-ewm4Poa_Ck1-Sg",
           "maxStack": 99,
@@ -14448,7 +15524,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
           "itemData": "EetXSUHXAB-DSEm9BBMYOQ",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_01.json",
           "category": "Quest"
         },
@@ -14456,7 +15532,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
           "itemData": "Yr1Ou0VTHguzlaG64LGBZg",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_02.json",
           "category": "Quest"
         },
@@ -14464,7 +15540,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
           "itemData": "poji_k3B57PCgjid0aNX-w",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_03.json",
           "category": "Quest"
         },
@@ -14472,7 +15548,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
           "itemData": "rYygi0Cfp9B446mUrP5ZrA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_04.json",
           "category": "Quest"
         },
@@ -14484,24 +15560,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.json",
           "category": "Quest",
           "description": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it..."
-        },
-        {
-          "name": "Imbued Granite Maul Head",
-          "itemData": "TRQBZ0gufJDy-HWCsXysNw",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Imbued_Maul_Head.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Imbued_Granite_Maul_Head.json",
-          "category": "Quest",
-          "description": "A massive granite war hammer head. The Garou masons imbue their stone weapons with with Wild Anima to make them stronger than metal. "
-        },
-        {
-          "name": "Imbued Leather Wrappings",
-          "itemData": "1kW1mUsw1eKjlOiBCMXcUg",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Imbued_Leather_Wrappings.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Imbued_Leather_Wrappings.json",
-          "category": "Quest",
-          "description": "Strips of imbued dire wolf leather for the granite maul grips. Infused with primal savagery. "
         },
         {
           "name": "Jade Emblem",
@@ -14516,10 +15574,19 @@
           "name": "KotHaar Numbering For Dummies",
           "itemData": "y8YYukfXgKcSGnCdF05m5Q",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Kothaar_Numbering_For_Dummies.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Journaltems/ITEM_JOURNAL_Image_BrinkOfExtinction_KotHaar.json",
           "category": "Quest",
           "description": "A book for understanding the KotHaar numbering system (Base 12)."
+        },
+        {
+          "name": "Kuldra's Head",
+          "itemData": "4vL1iUE8hFPCUjy34QVYpg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Kuldra_Head.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Kuldra.json",
+          "category": "Quest",
+          "description": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. Commander Zilyana should see this. "
         },
         {
           "name": "Leonard The Bound",
@@ -14639,6 +15706,15 @@
           "description": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it. "
         },
         {
+          "name": "Lougrim's Staff",
+          "itemData": "c8qcyEiordFIIMKxzAebpA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Lougrim_Staff.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_SW_Lougrim_Staff.json",
+          "category": "Quest",
+          "description": "The very staff that Lougrim carried to her death within Kuldra's belly."
+        },
+        {
           "name": "Magnet",
           "itemData": "4FpRvU8a805uyHWIWqRssA",
           "maxStack": 99,
@@ -14711,28 +15787,10 @@
           "description": "One of three emblem keys required to unlock a statue."
         },
         {
-          "name": "Ornate Maul Handle",
-          "itemData": "RFgA4kE-5E71wiGpmjWkKA",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Ornate_Maul_Handle.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/GraniteMaul/ITEM_Masterworks_Ornate_Maul_Handle.json",
-          "category": "Quest",
-          "description": "A carved piece of wood decorated with metal ornaments, sturdy enough to swing the heavy granite head. Made of blightwood, found in the Bloodblight Swamp."
-        },
-        {
-          "name": "Primordial Heart",
-          "itemData": "j_sPzUBqZftQOjuet7eAzg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_WitherBeast_Heart.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WitherBeast_Heart.json",
-          "category": "Quest",
-          "description": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. "
-        },
-        {
           "name": "Purified King's Token",
           "itemData": "GjJEvUEeLJDK4rC8sNKYXA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Kings_Token.png",
+          "iconPath": "/shared/icons/T_Icon_Journal_King_Token_Purified.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_garou_purifiedkingstoken.json",
           "category": "Quest",
           "description": "A ritually cleansed token containing a piece of another world. "
@@ -14740,48 +15798,48 @@
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_01",
           "itemData": "UUugHUlLsNKWtHaaPp6jsQ",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_01.json",
           "category": "Quest"
         },
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_02",
           "itemData": "TnXdk0gPa8QrK9G3WRhe6Q",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_02.json",
           "category": "Quest"
         },
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_03",
           "itemData": "zJ8rdEHRXP7g_wuh0305HA",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_03.json",
           "category": "Quest"
         },
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_04",
           "itemData": "vp5Gn0c2SJ6mMpy6x8rZbw",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_04.json",
           "category": "Quest"
         },
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_05",
           "itemData": "SIm5j0PKY-H000WTgPzWmg",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_05.json",
           "category": "Quest"
         },
         {
           "name": "Quest_Item_UmS_Quest_CampB_Task1_06",
           "itemData": "qGFy9kugI4GwPYajWcROAQ",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_06.json",
           "category": "Quest"
         },
@@ -14833,20 +15891,11 @@
         {
           "name": "Shard of the Dreaming Stone",
           "itemData": "hJyKREoYCuSo8E20uZBB9g",
-          "maxStack": 14,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Dreamstone_Shard.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/Main/ITEM_Quest_DR_Main_Dreamstone_Shard.json",
           "category": "Quest",
           "description": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. "
-        },
-        {
-          "name": "Spectral Chinchompa Skull",
-          "itemData": "UBjRA0kZ03sJQmq-urBsTA",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Spectral_Chinchompa_Skull.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_NightoftheSpectralBoom_Skull.json",
-          "category": "Quest",
-          "description": "A ghostly chinchompa skull. Vannaka is looking for these. "
         },
         {
           "name": "Spectral Silver Thread",
@@ -14870,7 +15919,7 @@
           "name": "The Binding of Ib",
           "itemData": "3GRiakVrfak9eBKzKYJqeQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll1.json",
           "category": "Quest",
           "description": "A sealed scroll containing dark secrets."
@@ -14905,7 +15954,7 @@
         {
           "name": "Twilight Lily",
           "itemData": "iO8n7UBZaw3mT3m27D2frw",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Midnight_Flower.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ3_Nevermore/ITEM_Quest_DR_SQ3_MidnightLillyLeaves.json",
           "category": "Quest",
@@ -14923,7 +15972,7 @@
         {
           "name": "Unholy Water",
           "itemData": "XgIbvE39a-uFSJKWcwYDSA",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Unholy_Water.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ3_Nevermore/ITEM_Quest_DR_SQ3_HolyWater.json",
           "category": "Quest",
@@ -14942,7 +15991,7 @@
           "name": "Zi's Core",
           "itemData": "nKMUnEFGqTpwgTGN9Cio7A",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Ico_Zi_Core.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Quest_BrinkOfExtinction_Zi_Core.json",
           "category": "Quest",
           "description": "Look, adventurer, I have an item description!"
@@ -14950,7 +15999,7 @@
         {
           "name": "res_dr_sq1_portal_sigil",
           "itemData": "HoxsiUzCz6tQz7SvHZ74Qw",
-          "maxStack": 8,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Placeholder.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ1_PlayingWithPortals/ITEM_Quest_DR_SQ1_PortalSigil.json",
           "category": "Quest"
@@ -14958,7 +16007,7 @@
         {
           "name": "res_dr_sq2_demonmaster_journal",
           "itemData": "aqAX10VI_108ALiidaJH_A",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Placeholder.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ2_AnimalLover/ITEM_Quest_DR_SQ2_DemonmasterJournal.json",
           "category": "Quest"
@@ -14966,7 +16015,7 @@
         {
           "name": "res_dr_sq2_houndmaster_journal",
           "itemData": "7e6im0NkLJ8wwPiVslzvdw",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Placeholder.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ2_AnimalLover/ITEM_Quest_DR_SQ2_HoundmasterJournal.json",
           "category": "Quest"
@@ -14974,7 +16023,7 @@
         {
           "name": "res_dr_sq2_ratmaster_journal",
           "itemData": "aS0zgEZbMtsDiiKNGvsyVg",
-          "maxStack": 1,
+          "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Placeholder.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ2_AnimalLover/ITEM_Quest_DR_SQ2_RatmasterJournal.json",
           "category": "Quest"
@@ -15064,7 +16113,7 @@
           "name": "res_quest_ums_mainquest_scroll1",
           "itemData": "dzv930KrI8-krPyerIoQiA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll1.json",
           "category": "Quest"
         },
@@ -15072,7 +16121,7 @@
           "name": "res_quest_ums_mainquest_scroll2",
           "itemData": "ynovA0kL9ol5O8246rJL1g",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll2.json",
           "category": "Quest"
         },
@@ -15080,7 +16129,7 @@
           "name": "res_quest_ums_mainquest_scroll3",
           "itemData": "B-hRIU5BZEAq13OzDpfLAQ",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll3.json",
           "category": "Quest"
         },
@@ -15088,7 +16137,7 @@
           "name": "res_quest_ums_mainquest_scroll4",
           "itemData": "swrsCk48mGo467aEDf-WxA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll4.json",
           "category": "Quest"
         },

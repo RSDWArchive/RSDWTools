@@ -53,8 +53,6 @@
         },
         "RowName": "Tools"
       },
-      "AdditionalDamageMultiplier": -0.9,
-      "AdditionalBlockingDamageNegation": -17.0,
       "bLosesDurabilityOnAttack": false,
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",

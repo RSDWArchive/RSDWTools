@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_GreatAxe_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Axe/PA_Attack_GreatAxe_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_GreatAxe_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_GreatAxe.0"
@@ -41,7 +49,7 @@
         "RowName": "Greataxe"
       },
       "DamageMultiplier": 4.3,
-      "BlockingDamageNegation": 46.0,
+      "BlockingDamageNegation": 34.5,
       "AdditionalDamageMultiplier": 0.20000029,
       "DamageTypes": [
         "DamageType.Physical.Slash"
@@ -69,7 +77,6 @@
         "SourceString": "A hefting greataxe, wielded by the powerful garou thanes. ",
         "LocalizedString": "A hefting greataxe, wielded by the powerful garou thanes. "
       },
-      "bUseCustomStatDetails": true,
       "CustomStatDetails": [
         {
           "Name": {
@@ -110,6 +117,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "ThanesAuthority.Boon",
+            "SourceString": "Increased DAMAGE\r\nIncreased STAMINA cost",
+            "LocalizedString": "Increased DAMAGE\r\nIncreased STAMINA cost"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",
       "PersistenceID": "ARf7DUYPa_AlyLOOsnTIYw",

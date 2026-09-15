@@ -10,8 +10,8 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BuildingPieceToUnlock": {
-        "ObjectName": "BuildingPieceData'DA_BaseBuilding_Decoration_Garou_Trophy_02'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Garou/DA_BaseBuilding_Decoration_Garou_Trophy_02.0"
+        "ObjectName": "BuildingPieceData'BUILDPIECE_DA_BaseBuilding_Decoration_Garou_Trophy_02'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/Garou/BUILDPIECE_DA_BaseBuilding_Decoration_Garou_Trophy_02.0"
       },
       "SimpleMontageRowHandle": {
         "DataTable": {

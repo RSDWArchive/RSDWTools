@@ -106,7 +106,6 @@
           "ExtraDropPercentageForPlayerAmount": []
         }
       ],
-      "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
         "Key": "RewardPack.Name.CampCompleted",

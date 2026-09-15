@@ -88,10 +88,10 @@
             "LocalizedString": "Special Effect"
           },
           "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-            "Key": "Trinket.SalveAmulet.Description",
-            "SourceString": "Increased DAMAGE to UNDEAD enemies",
-            "LocalizedString": "Increased DAMAGE to UNDEAD enemies"
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "SalveAmulet.Boon",
+            "SourceString": "Increased DAMAGE against the UNDEAD",
+            "LocalizedString": "Increased DAMAGE against the UNDEAD"
           },
           "BuffIcon": {
             "AssetPathName": "",

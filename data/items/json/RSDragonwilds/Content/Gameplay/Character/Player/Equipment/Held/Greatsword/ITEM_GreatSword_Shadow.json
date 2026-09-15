@@ -13,6 +13,14 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword.0"
       },
+      "PrimarySprintActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Sprint_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Sprint.0"
+      },
+      "PrimaryVisceralActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Visceral_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Visceral.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_2H_Greatsword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_2H_Greatsword.0"
@@ -109,9 +117,9 @@
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "ShadowSwordEffect.Title",
-            "SourceString": "Increased DAMAGE against SPECTRAL enemies",
-            "LocalizedString": "Increased DAMAGE against SPECTRAL enemies"
+            "Key": "ShadowSword.Boon",
+            "SourceString": "Increased DAMAGE against SPECTRAL ENEMIES",
+            "LocalizedString": "Increased DAMAGE against SPECTRAL ENEMIES"
           },
           "BuffIcon": {
             "AssetPathName": "",

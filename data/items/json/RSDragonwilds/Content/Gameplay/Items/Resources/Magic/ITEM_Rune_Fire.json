@@ -5,6 +5,10 @@
     "Class": "UScriptClass'MagicAmmoData'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
+      "BaseDamageTypes": [
+        "DamageType.Magical.Fire"
+      ],
+      "AmmoVfxElementValue": "EMagicAmmoVfxElement::Fire",
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_Icons_Rune_Fire'",
         "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Runes/T_Icons_Rune_Fire.0"
@@ -59,8 +63,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Rune.Fire.SpecialEffect",
-            "SourceString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME.",
-            "LocalizedString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME."
+            "SourceString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME",
+            "LocalizedString": "Fire spells excel at AREA CONTROL, leaving enemies BURNING and dealing DAMAGE OVER TIME"
           },
           "BuffIcon": {
             "AssetPathName": "",

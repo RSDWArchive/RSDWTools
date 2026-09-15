@@ -34,7 +34,6 @@
         "RowName": "Shield"
       },
       "BlockingDamageNegation": 65.0,
-      "AdditionalDamageMultiplier": -7.3,
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
@@ -87,8 +86,26 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "DragonFireShield.Boon.Description",
-            "SourceString": "PARRYING launches a burst of lava forwards.\r\nThis will detonate on impact dealing DAMAGE and BURNING build up.",
-            "LocalizedString": "PARRYING launches a burst of lava forwards.\r\nThis will detonate on impact dealing DAMAGE and BURNING build up."
+            "SourceString": "PARRYING launches a BURST OF LAVA that detonates on impact, dealing DAMAGE and inflicting BURNING build up",
+            "LocalizedString": "PARRYING launches a BURST OF LAVA that detonates on impact, dealing DAMAGE and inflicting BURNING build up"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DragonFireShield.Boon2",
+            "SourceString": "Dragon Breath Resistance",
+            "LocalizedString": "Dragon Breath Resistance"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "DragonFireShield.Boon3",
+            "SourceString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE",
+            "LocalizedString": "BLOCKING prevents incoming DRAGON BREATH DAMAGE"
           },
           "BuffIcon": {
             "AssetPathName": "",

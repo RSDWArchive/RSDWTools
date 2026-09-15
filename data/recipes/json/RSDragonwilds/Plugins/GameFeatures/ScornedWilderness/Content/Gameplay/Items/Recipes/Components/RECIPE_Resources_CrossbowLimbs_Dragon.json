@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Resources_CrossbowLimbs_Dragon",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DragonLimbs'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Components/ITEM_Resources_DragonLimbs"
+          },
+          "Count": 2
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_DragonLimbs'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Components/ITEM_Resources_DragonLimbs"
+          },
+          "Count": 1
+        }
+      ],
+      "PersistenceID": "mD0Ch02RpmfDfdqv4G2mtw",
+      "InternalName": "recipe_crossbowlimbs_dragon"
+    }
+  }
+]

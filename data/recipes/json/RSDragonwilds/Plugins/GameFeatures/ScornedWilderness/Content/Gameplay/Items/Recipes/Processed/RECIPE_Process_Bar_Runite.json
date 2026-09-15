@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Bar_Runite",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ore_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ore_Runite"
+          },
+          "Count": 3
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Ore_Luminite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Mineral/ITEM_Resources_Ore_Luminite"
+          },
+          "Count": 3
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Metal.Ringy"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Crafting_Table_Recipe_Tier1"
+      },
+      "PersistenceID": "sM16z0jWX8IXJpSpqqrW0A",
+      "InternalName": "recipe_bar_runite"
+    }
+  }
+]

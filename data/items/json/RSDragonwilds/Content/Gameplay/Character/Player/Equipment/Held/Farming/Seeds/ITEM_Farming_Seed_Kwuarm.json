@@ -53,8 +53,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Kwuarm",
-        "SourceString": "Kwuarm seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots.",
-        "LocalizedString": "Kwuarm seeds. Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest Planted in Ghornfell plots."
+        "SourceString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots.",
+        "LocalizedString": "Equip and use them to scatter these into a farming plot and start growing!\r\n\r\nBest planted in Ghornfell plots."
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Seeds/T_Icon_Kuarm_seed.T_Icon_Kuarm_seed",

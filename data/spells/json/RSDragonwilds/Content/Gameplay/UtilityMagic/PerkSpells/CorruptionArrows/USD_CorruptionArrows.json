@@ -130,7 +130,7 @@
         "SourceString": "2-Handed Bow.",
         "LocalizedString": "2-Handed Bow."
       },
-      "CooldownDuration": 90.0,
+      "CooldownDuration": 300.0,
       "SpellIcon": {
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Ranged/T_Skill_Ranged_Spell_SpectralArrows.T_Skill_Ranged_Spell_SpectralArrows",
         "SubPathString": ""

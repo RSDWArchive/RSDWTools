@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Weapon_Staff_MagicWood",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
+          },
+          "Count": 16
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Compound_Harmonized'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized"
+          },
+          "Count": 10
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Cloth_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Gem_Dragonstone'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Mineral/ITEM_Resources_Gem_Dragonstone"
+          },
+          "Count": 4
+        },
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
+          },
+          "Count": 4
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldEquipmentData'ITEM_Staff_Ancestral'",
+            "ObjectPath": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Ancestral"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Chunky"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Smithing_Forge_Tier3"
+      },
+      "SkillXPAwardedOnCraft": 250,
+      "PersistenceID": "CDiNMkjeJ7IFIvm3nDWA5g",
+      "InternalName": "recipe_staff_ancestral"
+    }
+  }
+]

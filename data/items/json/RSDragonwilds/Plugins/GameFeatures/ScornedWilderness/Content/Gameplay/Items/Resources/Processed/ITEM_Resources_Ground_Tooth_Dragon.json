@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Ground_Tooth_Dragon",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "GroundDragonTooth",
+        "SourceString": "Ground Dragon Tooth",
+        "LocalizedString": "Ground Dragon Tooth"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "GroundDragonTooth",
+        "SourceString": "The product of grinding dragon teeth. Essential for making draconic vis wax.",
+        "LocalizedString": "The product of grinding dragon teeth. Essential for making draconic vis wax."
+      },
+      "Icon": {
+        "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Ground_Dragon_Tooth.T_Icon_Ground_Dragon_Tooth",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Ground_Dragon_Tooth/SM_Ground_Dragon_Tooth.SM_Ground_Dragon_Tooth",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Bone.DragonScale"
+      },
+      "PersistenceID": "MfStnkw8VINygc2tjO1P2g",
+      "InternalName": "res_ground_tooth_dragon"
+    }
+  }
+]

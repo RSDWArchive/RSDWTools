@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-29T12:43:36.660227+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\0.12.1.0",
+  "generated_at_utc": "2026-09-15T12:34:45.253294+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\1.0.0.2",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 68304,
-    "json_unmatched": 65748,
+    "json_scanned": 72928,
+    "json_unmatched": 70196,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "ArchiveExtractManifest.json",
@@ -38,16 +38,16 @@
       "json/Engine/Content/BasicShapes/Plane.json",
       "json/Engine/Content/BasicShapes/Sphere.json",
       "json/Engine/Content/EditorBlueprintResources/ActorComponentMacros.json",
-      "json/Engine/Content/EditorBlueprintResources/ActorMacros.json",
       "json/Engine/Content/EditorBlueprintResources/StandardMacros.json",
       "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial.json",
-      "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial_MaskedRegion.json"
+      "json/Engine/Content/EditorLandscapeResources/ColorMaskBrushMaterial_MaskedRegion.json",
+      "json/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.json"
     ]
   },
   "categories": {
     "consumables": {
-      "files_discovered": 256,
-      "files_copied": 256,
+      "files_discovered": 258,
+      "files_copied": 258,
       "source_roots": [
         "json"
       ],
@@ -60,14 +60,14 @@
       ]
     },
     "icons": {
-      "files_discovered": 2348,
-      "files_copied": 2348,
+      "files_discovered": 2945,
+      "files_copied": 2945,
       "source_roots": [],
       "sample_files": []
     },
     "items": {
-      "files_discovered": 1175,
-      "files_copied": 1175,
+      "files_discovered": 1261,
+      "files_copied": 1261,
       "source_roots": [
         "json"
       ],
@@ -80,8 +80,8 @@
       ]
     },
     "recipes": {
-      "files_discovered": 1068,
-      "files_copied": 1068,
+      "files_discovered": 1149,
+      "files_copied": 1149,
       "source_roots": [
         "json"
       ],
@@ -108,8 +108,8 @@
       ]
     },
     "spells": {
-      "files_discovered": 45,
-      "files_copied": 45,
+      "files_discovered": 52,
+      "files_copied": 52,
       "source_roots": [
         "json"
       ],
@@ -161,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 3941,
-    "object_paths_resolved": 1089,
+    "object_paths_found": 4313,
+    "object_paths_resolved": 1188,
     "prefixes": [
       "t_icon_",
       "t_skill_"

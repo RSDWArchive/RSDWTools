@@ -249,8 +249,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Agility.Reward.Pack.Fellhollow.Bronze",
-        "SourceString": "A reward for finishing Fellhollow Agility Course with a bronze medal.",
-        "LocalizedString": "A reward for finishing Fellhollow Agility Course with a bronze medal."
+        "SourceString": "A reward for finishing Fellhollow Agility course with a bronze medal.",
+        "LocalizedString": "A reward for finishing Fellhollow Agility course with a bronze medal."
       },
       "Icon": {
         "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_BronzeAgilityCompletionReward.T_Icon_BronzeAgilityCompletionReward",

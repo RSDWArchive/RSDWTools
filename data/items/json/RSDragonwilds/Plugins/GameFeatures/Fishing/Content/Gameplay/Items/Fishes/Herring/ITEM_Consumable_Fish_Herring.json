@@ -61,7 +61,7 @@
         }
       ],
       "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Herring_Cooked_01.T_Icon_Herring_Cooked_01",
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Cooked_Fish_Icons/T_Icon_Smoked_Herring.T_Icon_Smoked_Herring",
         "SubPathString": ""
       },
       "CategoryClassIcon": {
