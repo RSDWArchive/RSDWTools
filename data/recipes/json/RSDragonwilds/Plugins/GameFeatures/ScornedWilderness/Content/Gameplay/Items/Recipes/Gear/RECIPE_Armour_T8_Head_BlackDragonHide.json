@@ -11,7 +11,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
           },
-          "Count": 6
+          "Count": 4
         },
         {
           "ItemData": {
@@ -39,7 +39,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Vis"
           },
-          "Count": 2
+          "Count": 1
         }
       ],
       "ItemsCreated": [

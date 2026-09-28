@@ -3407,7 +3407,7 @@
   {
     "item_id": "ITEM_Rune_Earth",
     "display_name": "Earth Rune",
-    "icon": "T_Icon_Rune_Earth.png"
+    "icon": "T_Icon_Rune_Earth_IconRemoved.png"
   },
   {
     "item_id": "ITEM_Rune_Essence",

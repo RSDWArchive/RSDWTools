@@ -11,21 +11,21 @@
             "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
           },
-          "Count": 16
+          "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
           },
-          "Count": 3
+          "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 4
+          "Count": 2
         }
       ],
       "ItemsCreated": [

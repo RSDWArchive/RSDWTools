@@ -32,7 +32,6 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "bBoundToPlayer": true,
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

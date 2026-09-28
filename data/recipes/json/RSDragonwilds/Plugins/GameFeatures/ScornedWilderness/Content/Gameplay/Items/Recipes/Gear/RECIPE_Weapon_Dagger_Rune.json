@@ -11,28 +11,28 @@
             "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
           },
-          "Count": 8
+          "Count": 5
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Compound_Harmonized'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized"
           },
-          "Count": 6
+          "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
           },
-          "Count": 3
+          "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 2
+          "Count": 1
         }
       ],
       "ItemsCreated": [

@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 3.6,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ore"
       },

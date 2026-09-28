@@ -32,7 +32,7 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses.0"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {

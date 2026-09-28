@@ -29,7 +29,7 @@
       ],
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Runecrafting_Skillcape'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Runecrafting/PerkV2_Runecrafting_Skillcape.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Runecrafting/PerkV2_Runecrafting_Skillcape"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",

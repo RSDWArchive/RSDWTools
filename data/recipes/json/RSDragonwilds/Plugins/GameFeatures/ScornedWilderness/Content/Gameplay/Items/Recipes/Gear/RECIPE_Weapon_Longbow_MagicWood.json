@@ -11,35 +11,35 @@
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
           },
-          "Count": 16
+          "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
           },
-          "Count": 4
+          "Count": 3
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
           },
-          "Count": 8
+          "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Gem_Dragonstone'",
             "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Mineral/ITEM_Resources_Gem_Dragonstone"
           },
-          "Count": 4
+          "Count": 3
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 4
+          "Count": 3
         }
       ],
       "ItemsCreated": [

@@ -6,19 +6,7 @@
       "ObjectName": "SkillData'SKILL_Runecrafting'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Runecrafting/GE_Runecrafting_AttunementPhaseDuration.GE_Runecrafting_AttunementPhaseDuration_C'",
-    "Template": {
-      "ObjectName": "GE_Runecrafting_AttunementPhaseDuration_C'Default__GE_Runecrafting_AttunementPhaseDuration_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Runecrafting/GE_Runecrafting_AttunementPhaseDuration.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 0.006
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "SkillData",

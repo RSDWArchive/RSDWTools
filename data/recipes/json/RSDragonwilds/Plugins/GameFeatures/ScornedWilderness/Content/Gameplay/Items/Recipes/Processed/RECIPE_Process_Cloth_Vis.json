@@ -11,14 +11,14 @@
             "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
           },
-          "Count": 3
+          "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 3
+          "Count": 2
         }
       ],
       "ItemsCreated": [

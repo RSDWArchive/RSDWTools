@@ -8,7 +8,7 @@
       "RuneType": "ERuneType::Water",
       "DeselectedTexture": {
         "ObjectName": "Texture2D'T_Rune_Water'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Water.0"
+        "ObjectPath": "/Game/Art/UI/Craft/Runecrafting/T_Rune_Water"
       },
       "ItemsConsumed": [
         {

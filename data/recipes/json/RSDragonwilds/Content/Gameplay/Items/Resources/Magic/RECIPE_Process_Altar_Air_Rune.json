@@ -8,7 +8,7 @@
       "RuneType": "ERuneType::Air",
       "DeselectedTexture": {
         "ObjectName": "Texture2D'T_Rune_Air'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Air.0"
+        "ObjectPath": "/Game/Art/UI/Craft/Runecrafting/T_Rune_Air"
       },
       "ItemsConsumed": [
         {

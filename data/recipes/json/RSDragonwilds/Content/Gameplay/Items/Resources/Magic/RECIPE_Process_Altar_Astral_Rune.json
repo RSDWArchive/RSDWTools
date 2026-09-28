@@ -8,7 +8,7 @@
       "RuneType": "ERuneType::Astral",
       "DeselectedTexture": {
         "ObjectName": "Texture2D'T_Rune_Astral'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Craft/Runecrafting/T_Rune_Astral.0"
+        "ObjectPath": "/Game/Art/UI/Craft/Runecrafting/T_Rune_Astral"
       },
       "ItemsConsumed": [
         {

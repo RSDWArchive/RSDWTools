@@ -1,50 +1,50 @@
 {
-  "version": "1.0.0.2",
-  "generatedAtUtc": "2026-09-15T09:43:48.810362+00:00",
-  "sourceRoot": "E:\\Github\\RSDWArchive\\1.0.0.2\\json",
+  "version": "1.0.0.5",
+  "generatedAtUtc": "2026-09-28T20:24:46.661322+00:00",
+  "sourceRoot": "E:\\Github\\RSDWArchive\\1.0.0.5\\json",
   "tables": {
     "DT_CompositeEnemyLootDropTable": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable.json",
       "rowCount": 165,
       "type": "CompositeDataTable"
     },
     "DT_CompositeEnemyLootDropTable_DowdunReach": {
-      "file": "1.0.0.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_CompositeEnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "CompositeDataTable"
     },
     "DT_EnemyLootDropTable": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable.json",
       "rowCount": 138,
       "type": "DataTable"
     },
     "DT_EnemyLootDropTable_DowdunReach": {
-      "file": "1.0.0.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_EnemyLootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     },
     "DT_LootChest_RespawnProfiles": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_RespawnProfiles.json",
       "rowCount": 58,
       "type": "DataTable"
     },
     "DT_LootChest_Sets": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChest_Sets.json",
       "rowCount": 68,
       "type": "DataTable"
     },
     "DT_LootChests_Prefabs": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootChests_Prefabs.json",
       "rowCount": 58,
       "type": "DataTable"
     },
     "DT_LootDropTable": {
-      "file": "1.0.0.2/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Content/Gameplay/Items/LootDropTables/DT_LootDropTable.json",
       "rowCount": 137,
       "type": "DataTable"
     },
     "DT_LootDropTable_DowdunReach": {
-      "file": "1.0.0.2/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
+      "file": "1.0.0.5/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/LootDropTables/DT_LootDropTable_DowdunReach.json",
       "rowCount": 27,
       "type": "DataTable"
     }
@@ -7938,8 +7938,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 5,
-          "maximumDropAmount": 7,
+          "minimumDropAmount": 6,
+          "maximumDropAmount": 8,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -7973,7 +7973,7 @@
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
           "minimumDropAmount": 1,
-          "maximumDropAmount": 1,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8106,8 +8106,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-          "minimumDropAmount": 10,
-          "maximumDropAmount": 12,
+          "minimumDropAmount": 11,
+          "maximumDropAmount": 14,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8122,8 +8122,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 12,
-          "maximumDropAmount": 15,
+          "minimumDropAmount": 14,
+          "maximumDropAmount": 17,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8172,8 +8172,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8206,8 +8206,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8240,8 +8240,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8274,8 +8274,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 4,
-          "maximumDropAmount": 5,
+          "minimumDropAmount": 5,
+          "maximumDropAmount": 7,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8308,8 +8308,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8342,8 +8342,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8376,8 +8376,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8410,8 +8410,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 3,
-          "maximumDropAmount": 4,
+          "minimumDropAmount": 4,
+          "maximumDropAmount": 5,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8444,8 +8444,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 3,
-          "maximumDropAmount": 4,
+          "minimumDropAmount": 4,
+          "maximumDropAmount": 5,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8478,8 +8478,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8512,8 +8512,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8546,8 +8546,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8580,8 +8580,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8614,8 +8614,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8858,8 +8858,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8892,8 +8892,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8926,8 +8926,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8960,8 +8960,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -8994,8 +8994,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 4,
-          "maximumDropAmount": 5,
+          "minimumDropAmount": 5,
+          "maximumDropAmount": 6,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9028,8 +9028,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9062,8 +9062,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9096,8 +9096,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 1,
-          "maximumDropAmount": 2,
+          "minimumDropAmount": 2,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9131,7 +9131,7 @@
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
           "minimumDropAmount": 1,
-          "maximumDropAmount": 1,
+          "maximumDropAmount": 3,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9164,8 +9164,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 5,
-          "maximumDropAmount": 7,
+          "minimumDropAmount": 6,
+          "maximumDropAmount": 8,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -9198,8 +9198,8 @@
           "itemDisplayName": null,
           "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
           "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-          "minimumDropAmount": 2,
-          "maximumDropAmount": 3,
+          "minimumDropAmount": 3,
+          "maximumDropAmount": 4,
           "dropChance": 100.0,
           "flags": {
             "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90045,8 +90045,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90117,8 +90117,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90189,8 +90189,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90261,8 +90261,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90333,8 +90333,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90405,8 +90405,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90478,8 +90478,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -90554,8 +90554,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -91677,8 +91677,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -91749,8 +91749,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -91821,8 +91821,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -91893,8 +91893,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -91965,8 +91965,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -92037,8 +92037,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -92109,8 +92109,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -92181,8 +92181,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -92254,8 +92254,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-            "minimumDropAmount": 3,
-            "maximumDropAmount": 6,
+            "minimumDropAmount": 4,
+            "maximumDropAmount": 8,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -92330,8 +92330,8 @@
             "itemDisplayName": null,
             "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
             "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-            "minimumDropAmount": 6,
-            "maximumDropAmount": 9,
+            "minimumDropAmount": 8,
+            "maximumDropAmount": 11,
             "dropChance": 12.5,
             "flags": {
               "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -98822,8 +98822,8 @@
         "itemDisplayName": null,
         "itemObjectName": "ItemData'ITEM_Resources_Hide_Dragon_Black'",
         "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Animal/ITEM_Resources_Hide_Dragon_Black",
-        "minimumDropAmount": 3,
-        "maximumDropAmount": 6,
+        "minimumDropAmount": 4,
+        "maximumDropAmount": 8,
         "dropChance": 12.5,
         "flags": {
           "oneInstancePerPlayerOnlyVisibleToThem": false,
@@ -98878,8 +98878,8 @@
         "itemDisplayName": null,
         "itemObjectName": "ItemData'ITEM_Resources_Residue_Discordent'",
         "itemObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Misc/ITEM_Resources_Residue_Discordent",
-        "minimumDropAmount": 6,
-        "maximumDropAmount": 9,
+        "minimumDropAmount": 8,
+        "maximumDropAmount": 11,
         "dropChance": 12.5,
         "flags": {
           "oneInstancePerPlayerOnlyVisibleToThem": false,

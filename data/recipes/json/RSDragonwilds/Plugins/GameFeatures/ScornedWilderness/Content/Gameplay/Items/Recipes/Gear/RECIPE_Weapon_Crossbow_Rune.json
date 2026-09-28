@@ -11,14 +11,14 @@
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
           },
-          "Count": 16
+          "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
           },
-          "Count": 6
+          "Count": 4
         },
         {
           "ItemData": {
@@ -39,7 +39,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 2
+          "Count": 1
         }
       ],
       "ItemsCreated": [

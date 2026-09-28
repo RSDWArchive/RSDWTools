@@ -704,7 +704,7 @@
         "count": 15,
         "display_name": "Earth Rune",
         "persistence_id": "lCE7i3iXGUuHv7FphIOcXg",
-        "icon": "T_Icon_Rune_Earth.png"
+        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
       }
     ]
   },
@@ -17873,14 +17873,14 @@
     "persistence_id": "d0pVPEWA3tQ2dOKc5Jsn6g",
     "row_name": "EarthRuneCrafting",
     "display_name": "Earth Rune",
-    "icon": "T_Icon_Rune_Earth.png",
+    "icon": "T_Icon_Rune_Earth_IconRemoved.png",
     "items_created": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
         "persistence_id": "lCE7i3iXGUuHv7FphIOcXg",
-        "icon": "T_Icon_Rune_Earth.png"
+        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
       }
     ],
     "items_consumed": [
@@ -27144,7 +27144,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 2,
+        "count": 1,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
@@ -27697,35 +27697,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 6,
+        "count": 4,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 3,
+        "count": 2,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 3,
+        "count": 2,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 3,
+        "count": 2,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -27751,35 +27751,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 16,
+        "count": 12,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 4,
+        "count": 3,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 3,
+        "count": 2,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 6,
+        "count": 4,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -27823,35 +27823,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 10,
+        "count": 6,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 8,
+        "count": 6,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 3,
+        "count": 2,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -27895,7 +27895,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -27949,7 +27949,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 6,
+        "count": 4,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
@@ -27977,7 +27977,7 @@
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -28021,14 +28021,14 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 4,
+        "count": 3,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 4,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
@@ -28075,7 +28075,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -28129,35 +28129,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 10,
+        "count": 6,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 2,
+        "count": 1,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 2,
+        "count": 1,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -28201,35 +28201,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 6,
+        "count": 4,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 6,
+        "count": 4,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 2,
+        "count": 1,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28255,21 +28255,21 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 8,
+        "count": 5,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 6,
+        "count": 4,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 4,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
@@ -28320,21 +28320,21 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 10,
+        "count": 6,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 4,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28360,7 +28360,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 4,
+        "count": 3,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
@@ -28407,14 +28407,14 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 6,
+        "count": 4,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
@@ -28458,14 +28458,14 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 16,
+        "count": 12,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 6,
+        "count": 4,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
@@ -28486,7 +28486,7 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28512,28 +28512,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 8,
+        "count": 5,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 6,
+        "count": 4,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28559,28 +28559,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 16,
+        "count": 12,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 5,
+        "count": 3,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 6,
+        "count": 4,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28606,28 +28606,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 12,
+        "count": 8,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 5,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28653,21 +28653,21 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 16,
+        "count": 12,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 3,
+        "count": 2,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28693,7 +28693,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 8,
+        "count": 5,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
@@ -28707,7 +28707,7 @@
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
@@ -28733,35 +28733,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 16,
+        "count": 12,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 4,
+        "count": 3,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 8,
+        "count": 6,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
       },
       {
         "item_id": "ITEM_Resources_Gem_Dragonstone",
-        "count": 4,
+        "count": 3,
         "display_name": "Dragonstone",
         "persistence_id": "Axe5-E-mDfO6kmSfv_qa6A",
         "icon": "T_Icon_Dragonstone_Gem.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 4,
+        "count": 3,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28787,28 +28787,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 8,
+        "count": 5,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 8,
+        "count": 6,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 4,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28852,28 +28852,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 10,
+        "count": 6,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 5,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28899,7 +28899,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 10,
+        "count": 7,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
@@ -28913,7 +28913,7 @@
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 4,
+        "count": 3,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
@@ -28927,7 +28927,7 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -28953,35 +28953,35 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Wood_Magic",
-        "count": 16,
+        "count": 12,
         "display_name": "Magic Logs",
         "persistence_id": "tmufJ0jdpQ2zkNmHreyEiw",
         "icon": "T_Icon_Magic_Wood.png"
       },
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 10,
+        "count": 6,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Cloth_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Vis Cloth",
         "persistence_id": "QB1cGUwaSGregu6bDnVJIQ",
         "icon": "T_Icon_Viz_Cloth.png"
       },
       {
         "item_id": "ITEM_Resources_Gem_Dragonstone",
-        "count": 4,
+        "count": 3,
         "display_name": "Dragonstone",
         "persistence_id": "Axe5-E-mDfO6kmSfv_qa6A",
         "icon": "T_Icon_Dragonstone_Gem.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 4,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -29007,28 +29007,28 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Bar_Runite",
-        "count": 10,
+        "count": 6,
         "display_name": "Rune Bar",
         "persistence_id": "zzsLzkLrcpzCD3mSme_L3g",
         "icon": "T_Icon_Runite_Bar.png"
       },
       {
         "item_id": "ITEM_Resources_Leather_Dragon_Black",
-        "count": 5,
+        "count": 3,
         "display_name": "Black Dragon Leather",
         "persistence_id": "ZLzKi0u0PLEP1W-e2f02RA",
         "icon": "T_Icon_Black_Dragon_Leather.png"
       },
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 2,
+        "count": 1,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -29087,14 +29087,14 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Fibres_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Vis Fibres",
         "persistence_id": "Bi2DdkOl6F73Kz-nuGB16g",
         "icon": "T_Icon_Vis_Fibers.png"
       },
       {
         "item_id": "ITEM_Resources_Wax_Draconic_Vis",
-        "count": 3,
+        "count": 2,
         "display_name": "Draconic Vis Wax",
         "persistence_id": "eGomNEhi9WpKdjWtXqJv_w",
         "icon": "T_Icon_Draconic_Vis_Wax.png"
@@ -29120,7 +29120,7 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Residue_Discordent",
-        "count": 3,
+        "count": 1,
         "display_name": "Discordant Residue",
         "persistence_id": "zbjOZke2yCdAfcKhncBKuw",
         "icon": "T_Icon_Discorden_Residue.png"
@@ -29146,14 +29146,14 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 3,
+        "count": 2,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Ground_Rune",
-        "count": 3,
+        "count": 2,
         "display_name": "Ground Rune Essence",
         "persistence_id": "D-7T2UaXI__mZMm9gOQ9Sg",
         "icon": "T_Icon_Runic_Powder.png"
@@ -29271,21 +29271,21 @@
     "items_consumed": [
       {
         "item_id": "ITEM_Resources_Compound_Harmonized",
-        "count": 3,
+        "count": 2,
         "display_name": "Harmonised Compound",
         "persistence_id": "N3f9DUkxKk4__Ie1rlxbUA",
         "icon": "T_Icon_Harmonized_Compound.png"
       },
       {
         "item_id": "ITEM_Resources_Ground_Rune",
-        "count": 3,
+        "count": 2,
         "display_name": "Ground Rune Essence",
         "persistence_id": "D-7T2UaXI__mZMm9gOQ9Sg",
         "icon": "T_Icon_Runic_Powder.png"
       },
       {
         "item_id": "ITEM_Resources_Ground_Tooth_Dragon",
-        "count": 3,
+        "count": 2,
         "display_name": "Ground Dragon Tooth",
         "persistence_id": "MfStnkw8VINygc2tjO1P2g",
         "icon": "T_Icon_Ground_Dragon_Tooth.png"

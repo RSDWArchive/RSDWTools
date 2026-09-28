@@ -11,28 +11,28 @@
             "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
           },
-          "Count": 16
+          "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Magic'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Magic"
           },
-          "Count": 5
+          "Count": 3
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Dragon_Black'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Leather_Dragon_Black"
           },
-          "Count": 6
+          "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Wax_Draconic_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Draconic_Vis"
           },
-          "Count": 4
+          "Count": 2
         }
       ],
       "ItemsCreated": [

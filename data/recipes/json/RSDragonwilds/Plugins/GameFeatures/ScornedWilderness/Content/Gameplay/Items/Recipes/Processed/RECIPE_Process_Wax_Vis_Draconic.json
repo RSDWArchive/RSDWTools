@@ -11,21 +11,21 @@
             "ObjectName": "ItemData'ITEM_Resources_Compound_Harmonized'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Compound_Harmonized"
           },
-          "Count": 3
+          "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Ground_Rune'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Ground_Rune"
           },
-          "Count": 3
+          "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Ground_Tooth_Dragon'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Ground_Tooth_Dragon"
           },
-          "Count": 3
+          "Count": 2
         }
       ],
       "ItemsCreated": [

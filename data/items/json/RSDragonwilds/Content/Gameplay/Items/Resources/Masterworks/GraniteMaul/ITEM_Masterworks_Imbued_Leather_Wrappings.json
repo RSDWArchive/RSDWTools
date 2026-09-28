@@ -31,7 +31,6 @@
       },
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
-      "bBoundToPlayer": true,
       "Category": {
         "TagName": "Item.BossSoul"
       },

@@ -11,7 +11,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Bar_Runite'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Bar_Runite"
           },
-          "Count": 8
+          "Count": 5
         },
         {
           "ItemData": {
@@ -25,7 +25,7 @@
             "ObjectName": "ItemData'ITEM_Resources_Fibres_Vis'",
             "ObjectPath": "/ScornedWilderness/Gameplay/Items/Resources/Processed/ITEM_Resources_Fibres_Vis"
           },
-          "Count": 4
+          "Count": 2
         }
       ],
       "ItemsCreated": [
