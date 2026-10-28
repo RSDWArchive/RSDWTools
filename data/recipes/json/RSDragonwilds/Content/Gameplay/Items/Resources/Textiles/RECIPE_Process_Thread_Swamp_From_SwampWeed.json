@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_SwampWeed'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_SwampWeed.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_SwampWeed"
           },
           "Count": 1
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Swamp'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp"
           },
           "Count": 1
         }
@@ -28,12 +28,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

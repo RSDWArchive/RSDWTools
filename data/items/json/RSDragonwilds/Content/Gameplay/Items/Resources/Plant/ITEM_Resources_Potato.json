@@ -8,8 +8,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Potato",
-        "SourceString": "Potato",
-        "LocalizedString": "Potato"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -30,6 +30,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

@@ -17,14 +17,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MonkfishBait",
-        "SourceString": "Monkfish Bait",
-        "LocalizedString": "Monkfish Bait"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MonkfishBait",
-        "SourceString": "Bait made from monkfish tail. Increases the catch chance of Desert Sole.",
-        "LocalizedString": "Bait made from monkfish tail. Increases the catch chance of Desert Sole."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Monkfish_Bait.T_Icon_Monkfish_Bait",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
         "Key": "SketchBook.Name",
-        "SourceString": "Dust-covered Sketchbook",
-        "LocalizedString": "Dust-covered Sketchbook"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_GhostQuest/ST_FH_GhostQuest.ST_FH_GhostQuest",
         "Key": "Sketchbook.Description",
-        "SourceString": "A ruined notebook, buried beneath the earth. ",
-        "LocalizedString": "A ruined notebook, buried beneath the earth. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Skill_Tomes_Concept_Art/T_Icon_Skill_Tome_Artisan.T_Icon_Skill_Tome_Artisan",

@@ -11,27 +11,27 @@
       "AmmoVfxElementValue": "EMagicAmmoVfxElement::Air",
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_Icons_Rune_Air'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Runes/T_Icons_Rune_Air.0"
+        "ObjectPath": "/Game/Art/UI/Icons/Runes/T_Icons_Rune_Air"
       },
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Runecrafting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Runecrafting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
       },
       "Name": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "AirRune",
-        "SourceString": "Air Rune",
-        "LocalizedString": "Air Rune"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Airrune",
-        "SourceString": "Equippable as ammo when using a Magic Weapon.\r\n\r\nA symbol of blustering winds, essential for air-based magic and other spells. \r\n\r\nRunes are retained if you happen to die.",
-        "LocalizedString": "Equippable as ammo when using a Magic Weapon.\r\n\r\nA symbol of blustering winds, essential for air-based magic and other spells. \r\n\r\nRunes are retained if you happen to die."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Rune_Air.T_Icon_Rune_Air",
@@ -44,6 +44,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Ammo.Rune"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Ammo.Rune"
       ],
@@ -59,8 +62,8 @@
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "Rune.Air.SpecialEffect",
-            "SourceString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets",
-            "LocalizedString": "Air spells excel at high SINGLE-TARGET DAMAGE and KNOCK BACK effects against targets"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DraconicLeather",
-        "SourceString": "Draconic Leather",
-        "LocalizedString": "Draconic Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DraconicLeather",
-        "SourceString": "A sturdy leather made from draconic hide, or from tanning hard leather with dragon blood.",
-        "LocalizedString": "A sturdy leather made from draconic hide, or from tanning hard leather with dragon blood."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Draconic_leather.T_Icon_Draconic_leather",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.6,
+      "Category": {
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],

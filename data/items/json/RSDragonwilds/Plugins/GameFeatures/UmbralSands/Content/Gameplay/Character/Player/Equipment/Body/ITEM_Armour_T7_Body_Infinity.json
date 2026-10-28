@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T07_Armour_Body_Light"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Body",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "InfinityArmourChest",
-        "SourceString": "Infinity Robe Body",
-        "LocalizedString": "Infinity Robe Body"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "InfinityArmourChest",
-        "SourceString": "A wizard's robe, infused with endless arcane force.",
-        "LocalizedString": "A wizard's robe, infused with endless arcane force."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_BODY_InfinityRobes_01.T_Icon_BODY_InfinityRobes_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 7,
       "Weight": 8.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "hHRi10inX3t-lRSeCSps7w",
       "InternalName": "armour_body_Infinity"

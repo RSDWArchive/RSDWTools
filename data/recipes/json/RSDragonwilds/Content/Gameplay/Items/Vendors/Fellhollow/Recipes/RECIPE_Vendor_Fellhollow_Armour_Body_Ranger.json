@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
           },
           "Count": 400
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Body_Ranger'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Body_Ranger.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Body_Ranger"
           },
           "Count": 1
         }
@@ -29,7 +29,7 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "9a2_8E8l4zCLHyqQSTBgAQ",

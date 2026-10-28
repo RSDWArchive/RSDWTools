@@ -10,25 +10,25 @@
       "bLosesDurabilityOnDamageReceived": false,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Trinket_RespawnLowHealth_RingOfLife_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_RespawnLowHealth_RingOfLife.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Trinkets/GE_Trinket_RespawnLowHealth_RingOfLife"
         }
       ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Trinket.RingofLife",
-        "SourceString": "Ring of Life",
-        "LocalizedString": "Ring of Life"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Trinket.RingOfLife.FlavourText",
-        "SourceString": "A magical ring with lifesaving properties.",
-        "LocalizedString": "A magical ring with lifesaving properties."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ring_of_Life.T_Icon_Ring_of_Life",
@@ -39,6 +39,9 @@
         "SubPathString": ""
       },
       "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -51,25 +54,25 @@
       ],
       "DurabilityVsResourceConsumptionCurve": {
         "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost"
       },
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "RingOfLife.Boon",
-            "SourceString": "When close to DEATH, TELEPORTS you to your current BED",
-            "LocalizedString": "When close to DEATH, TELEPORTS you to your current BED"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

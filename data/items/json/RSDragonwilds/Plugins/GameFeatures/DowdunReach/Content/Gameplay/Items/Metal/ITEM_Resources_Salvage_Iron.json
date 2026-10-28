@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "SalvagePileIron",
-        "SourceString": "Iron Salvage Pile",
-        "LocalizedString": "Iron Salvage Pile"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SalvagePileIron",
-        "SourceString": "Scraps that can be searched through. There might be something of value in there. ",
-        "LocalizedString": "Scraps that can be searched through. There might be something of value in there. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Iron.T_Icon_Salvage_Iron",

@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_MagicFocus'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -16,7 +16,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -26,7 +26,7 @@
     "Name": "SpellModule_PlayMontageForHeldEquipment_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_MagicFocus'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
     },
     "Class": "UScriptClass'SpellModule_PlayMontageForHeldEquipment'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -38,7 +38,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Dagger'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Dagger.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Dagger"
           }
         },
         {
@@ -47,7 +47,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Sword'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Sword.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Sword"
           }
         },
         {
@@ -56,7 +56,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_GreatAxe'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_GreatAxe.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_GreatAxe"
           }
         },
         {
@@ -65,7 +65,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Warhammer'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Warhammer.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Warhammer"
           }
         },
         {
@@ -74,13 +74,13 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_Whetstone_Greatsword'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Greatsword.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_Whetstone_Greatsword"
           }
         }
       ],
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_MagicFocus'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_MagicFocus.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_MagicFocus"
       },
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage"
@@ -95,8 +95,8 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Magic.MagicFocus.Name",
-        "SourceString": "Magic Focus",
-        "LocalizedString": "Magic Focus"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 0.0,
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideLeftUnlessTwoHanded",
@@ -106,20 +106,20 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontageForHeldEquipment'USD_MagicFocus:SpellModule_PlayMontageForHeldEquipment_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_MagicFocus:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.0"
             }
           }
         ]

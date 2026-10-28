@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Wool"
           },
           "Count": 2
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldContainerEquipmentData'ITEM_WateringCan_Bronze'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Bronze.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_WateringCan_Bronze"
           },
           "Count": 1
         }
@@ -35,7 +35,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "VtERvki_gJvL9IqzMWCXpg",

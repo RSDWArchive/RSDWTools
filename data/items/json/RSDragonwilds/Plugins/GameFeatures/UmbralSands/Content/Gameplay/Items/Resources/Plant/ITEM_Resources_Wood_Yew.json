@@ -8,19 +8,19 @@
       "FuelValue": 210.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "YewLogs",
-        "SourceString": "Yew Logs",
-        "LocalizedString": "Yew Logs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "YewLogs",
-        "SourceString": "An exceptionally durable and heat-resistant tree variety, yew is highly elastic, decay-resistant, and excellent for bending, making it a perfect choice for bows and high-quality furniture carving.",
-        "LocalizedString": "An exceptionally durable and heat-resistant tree variety, yew is highly elastic, decay-resistant, and excellent for bending, making it a perfect choice for bows and high-quality furniture carving."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_YewTreeLogs.T_Icon_YewTreeLogs",
@@ -42,8 +42,8 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
-        "Item.Farming.CompostableSuper",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

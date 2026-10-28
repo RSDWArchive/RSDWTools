@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "NecroticBonemeal",
-        "SourceString": "Necrotic Bonemeal",
-        "LocalizedString": "Necrotic Bonemeal"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "NecroticBonemeal",
-        "SourceString": "Made from ground up undead bone. A useful crafting ingredient.",
-        "LocalizedString": "Made from ground up undead bone. A useful crafting ingredient."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Bonemeal.T_Icon_Bonemeal",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 3.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

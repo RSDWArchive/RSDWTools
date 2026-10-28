@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
         "Key": "Cake.ItemName",
-        "SourceString": "Glorious Cake",
-        "LocalizedString": "Glorious Cake"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
         "Key": "Cake.Desc",
-        "SourceString": "A cake requested by Slopfinger, made by you, and intended for Manktongue.",
-        "LocalizedString": "A cake requested by Slopfinger, made by you, and intended for Manktongue."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Victoria_Sponge_Cake.T_Icon_Victoria_Sponge_Cake",

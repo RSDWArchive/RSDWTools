@@ -16,14 +16,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_AnimaInfusedBark'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Herb_Toadflax'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Toadflax.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Toadflax"
           },
           "Count": 1
         }
@@ -45,12 +45,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Cooking_Range_Recipe"
       },

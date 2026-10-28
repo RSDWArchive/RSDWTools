@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T08_Armour_Legs_Heavy"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Legs",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RunePlateLegs",
-        "SourceString": "Rune Platelegs",
-        "LocalizedString": "Rune Platelegs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RunePlateLegs",
-        "SourceString": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
-        "LocalizedString": "Durable rune platelegs designed for warriors who spend more time fighting than running."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_M_MED_LEGS_RuneArmour_01.T_Icon_SM_M_MED_LEGS_RuneArmour_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 8,
       "Weight": 12.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "ISY_y080WUFFE_KJm75w1g",
       "InternalName": "armour_legs_rune"

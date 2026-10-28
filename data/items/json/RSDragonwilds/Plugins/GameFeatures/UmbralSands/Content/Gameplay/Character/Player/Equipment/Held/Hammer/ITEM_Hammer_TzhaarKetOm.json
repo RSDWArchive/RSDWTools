@@ -11,36 +11,40 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_TzhaarKetOm_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_TzhaarKetOm.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_TzhaarKetOm"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_2H_Hammer_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Spell_2H_Hammer_JumpAttack"
       },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Sprint_TzhaarKetOm_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Sprint_TzhaarKetOm.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Sprint_TzhaarKetOm"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Warhammer_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_Warhammer"
       },
       "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Hammer_Special_TzhaarKetOm_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special_TzhaarKetOm.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Hammer/PA_Attack_2H_Hammer_Special_TzhaarKetOm"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Hammer_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Hammer/A_PlayerM_Idle_Hammer_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Warhammer"
       },
@@ -54,31 +58,31 @@
       "DistanceOffset": 30.0,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Tzhaarketom",
-        "SourceString": "TzHaar-Ket-Om",
-        "LocalizedString": "TzHaar-Ket-Om"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Tzhaarketom",
-        "SourceString": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
-        "LocalizedString": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CustomStatDetails": [
         {
           "Name": {
             "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
             "Key": "BleedApplication",
-            "SourceString": "Bleed Build Up",
-            "LocalizedString": "Bleed Build Up"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Value": {
             "CultureInvariantString": null
@@ -107,21 +111,21 @@
       "BaseDurability": 1200,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "TzhaarKetOm.Boon",
-            "SourceString": "ATTACKS build up BLEED on enemies\r\nReduced DURABILITY",
-            "LocalizedString": "ATTACKS build up BLEED on enemies\r\nReduced DURABILITY"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

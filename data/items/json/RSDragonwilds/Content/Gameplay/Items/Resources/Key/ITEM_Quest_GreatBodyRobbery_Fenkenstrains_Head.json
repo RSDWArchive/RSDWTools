@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "FenkenstrainHead.Name",
-        "SourceString": "Doctor Fenkenstrain's Head",
-        "LocalizedString": "Doctor Fenkenstrain's Head"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "FenkenstrainHead.Description",
-        "SourceString": "The head of a mad scientist. He would very much appreciate being put on his new body. ",
-        "LocalizedString": "The head of a mad scientist. He would very much appreciate being put on his new body. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Fenkenstrain_Head.T_Icon_Fenkenstrain_Head",

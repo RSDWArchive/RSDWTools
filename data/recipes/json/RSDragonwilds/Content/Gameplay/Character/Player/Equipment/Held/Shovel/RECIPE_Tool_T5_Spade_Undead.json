@@ -9,28 +9,28 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SteelBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SteelBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SteelBar"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Draconic'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Draconic.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Draconic"
           },
           "Count": 2
         }
@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "SpadeToolEquipmentData'ITEM_Spade_T5_Undead'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T5_Undead.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T5_Undead"
           },
           "Count": 1
         }
@@ -49,7 +49,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "bX-eyE7rMqasf-yf7vwm6g",

@@ -8,13 +8,16 @@
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "bShouldRestOnGround": true,
       "MaxStackSize": 20,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Potion"
+      },
       "PersistenceID": "WihyWUT7MXzWxMmP2z3dhg",
       "InternalName": "tool_farming_potion",
       "bSoftDeleted": true

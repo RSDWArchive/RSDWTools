@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T04_Armour_Legs_Heavy"
       },
@@ -24,23 +24,23 @@
       "Slot": "ELoadoutSlotStrategy::Legs",
       "EntitlementRequiredToEquip": {
         "ObjectName": "EntitlementData'ED_DeluxeEdition'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Entitlements/ED_DeluxeEdition.0"
+        "ObjectPath": "/Game/Gameplay/Entitlements/ED_DeluxeEdition"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GildedPaladinLegs",
-        "SourceString": "Gilded Paladin Legs",
-        "LocalizedString": "Gilded Paladin Legs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GildedPaladinLegs",
-        "SourceString": "Golden platelegs for warriors who believe protection should be seen from a distance.",
-        "LocalizedString": "Golden platelegs for warriors who believe protection should be seen from a distance."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_M_MED_LEGS_GoldArmour_01.T_Icon_SM_M_MED_LEGS_GoldArmour_01",
@@ -52,6 +52,9 @@
       },
       "PowerLevel": 4,
       "Weight": 12.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],
@@ -61,7 +64,7 @@
       "BaseDurability": 1500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",

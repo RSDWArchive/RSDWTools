@@ -8,19 +8,19 @@
       "FuelValue": 150.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WillowLogs",
-        "SourceString": "Willow Logs",
-        "LocalizedString": "Willow Logs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WillowLogs",
-        "SourceString": "A supple material that is ideal for making rods and bows.",
-        "LocalizedString": "A supple material that is ideal for making rods and bows."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Willow_Logs.T_Icon_Willow_Logs",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DreamShard",
-        "SourceString": "Infernal Fragment",
-        "LocalizedString": "Infernal Fragment"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DreamShard",
-        "SourceString": "Used to craft magical equipment. Postie Pete also has a use for them.",
-        "LocalizedString": "Used to craft magical equipment. Postie Pete also has a use for them."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Infernal_Fragments.T_Icon_Infernal_Fragments",

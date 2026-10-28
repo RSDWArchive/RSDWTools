@@ -8,13 +8,13 @@
       "FuelValue": 120.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "TeaLeavesGround",
-        "SourceString": "Ground Tea Leaves",
-        "LocalizedString": "Ground Tea Leaves"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ground_Tea_Leaves_01.T_Icon_Ground_Tea_Leaves_01",
@@ -31,7 +31,7 @@
         "TagName": "Item.BuildingResource"
       },
       "ItemFilterTags": [
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

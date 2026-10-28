@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "Advertinnabottle.Itemname",
-        "SourceString": "Advert-Inna-Bottle",
-        "LocalizedString": "Advert-Inna-Bottle"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "Advertinnabottle.1",
-        "SourceString": "An advert that details how to make an 'Ava's Accumulator'.",
-        "LocalizedString": "An advert that details how to make an 'Ava's Accumulator'."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",

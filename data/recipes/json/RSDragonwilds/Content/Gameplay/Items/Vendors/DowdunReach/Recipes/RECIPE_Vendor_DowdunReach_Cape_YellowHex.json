@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard"
           },
           "Count": 150
         }
@@ -29,7 +29,7 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "744hyklJNdtsVCaV-iMT9g",

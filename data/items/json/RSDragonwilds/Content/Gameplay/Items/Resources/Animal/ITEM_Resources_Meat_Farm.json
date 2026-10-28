@@ -7,13 +7,13 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FarmMeat",
-        "SourceString": "Raw Farm Meat",
-        "LocalizedString": "Raw Farm Meat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.Food"
+      },
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.RawIngredient"

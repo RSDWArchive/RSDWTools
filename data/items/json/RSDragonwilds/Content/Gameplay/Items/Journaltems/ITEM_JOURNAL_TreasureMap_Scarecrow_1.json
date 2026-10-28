@@ -12,14 +12,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
         "Key": "Treasure.Map.1",
-        "SourceString": "Scarecrow's Treasure Map",
-        "LocalizedString": "Scarecrow's Treasure Map"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
         "Key": "Scarecrow.Map.Desc",
-        "SourceString": "A sketched map... but to what?",
-        "LocalizedString": "A sketched map... but to what?"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Treasure_Map.T_Icon_Treasure_Map",
@@ -28,6 +28,9 @@
       "bGoIntoHotbarOnPickup": false,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

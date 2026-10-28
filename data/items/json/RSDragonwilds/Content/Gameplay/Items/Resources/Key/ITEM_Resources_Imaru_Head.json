@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ImarusHead",
-        "SourceString": "Imaru's Head",
-        "LocalizedString": "Imaru's Head"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ImarusHead",
-        "SourceString": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it...",
-        "LocalizedString": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it..."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Imaru_Head/T_Icon_Imaru_Head_Resized.T_Icon_Imaru_Head_Resized",

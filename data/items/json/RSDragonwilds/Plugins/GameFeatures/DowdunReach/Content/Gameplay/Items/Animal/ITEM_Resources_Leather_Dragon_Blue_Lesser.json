@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlueDragonLeather",
-        "SourceString": "Blue Dragon Leather",
-        "LocalizedString": "Blue Dragon Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlueDragonhideLeather",
-        "SourceString": "Made by tanning blue dragonhide. A key component for ranged armour.",
-        "LocalizedString": "Made by tanning blue dragonhide. A key component for ranged armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide_Leather.T_Icon_Blue_Dragon_Hide_Leather",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.6,
+      "Category": {
+        "TagName": "Item.Resource.Leather"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },

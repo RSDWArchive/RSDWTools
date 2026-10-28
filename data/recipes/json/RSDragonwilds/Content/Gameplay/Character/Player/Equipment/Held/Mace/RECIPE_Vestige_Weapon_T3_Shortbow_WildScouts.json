@@ -9,28 +9,28 @@
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
           },
           "Count": 10
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Animal_Horn'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Horn.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Animal_Horn"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dwellberry'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dwellberry.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dwellberry"
           },
           "Count": 2
         }
@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Shortbow_WildScout'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Shortbow_WildScout.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Bow/ITEM_Shortbow_WildScout"
           },
           "Count": 1
         }
@@ -49,12 +49,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

@@ -7,7 +7,7 @@
     "Properties": {
       "FarmPlantData": {
         "ObjectName": "FarmPlantDataAsset'FPD_Cactus_Bunny'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Plants/FPD_Cactus_Bunny.0"
+        "ObjectPath": "/Game/Gameplay/Farming/Plants/FPD_Cactus_Bunny"
       },
       "HeldEquipmentActorClass": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Seeds/BP_Farming_Seed_Cactus_Bunny.BP_Farming_Seed_Cactus_Bunny_C",
@@ -15,7 +15,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Farming_TryPlantSeed_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Seeds/PA_Farming_TryPlantSeed.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/Seeds/PA_Farming_TryPlantSeed"
       },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
@@ -24,12 +24,12 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Farming_Seedbag_pose'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
@@ -37,24 +37,24 @@
       "HandPreference": "EHandPreference::Right",
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "bShouldRestOnGround": true,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Cactus_Bunny",
-        "SourceString": "Bunny Cactus Seeds",
-        "LocalizedString": "Bunny Cactus Seeds"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Cactus_Bunny",
-        "SourceString": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots.",
-        "LocalizedString": "Pop it into a farming plot and start growing!\r\n\r\nBest planted in Umbral Sand plots."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Bunny_Cactus_Seed.T_Icon_Bunny_Cactus_Seed",
@@ -69,6 +69,9 @@
         "SubPathString": ""
       },
       "MaxStackSize": 999,
+      "Category": {
+        "TagName": "ItemFilter.Material.Seed"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

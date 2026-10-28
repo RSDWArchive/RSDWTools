@@ -7,13 +7,13 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Onion",
-        "SourceString": "Onion",
-        "LocalizedString": "Onion"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 3,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

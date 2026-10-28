@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "EmptyVial.Name",
-        "SourceString": "Empty Vial",
-        "LocalizedString": "Empty Vial"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "EmptyVial.Description",
-        "SourceString": "Apparently this will collect lightning if you get struck by it. ",
-        "LocalizedString": "Apparently this will collect lightning if you get struck by it. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Uncharged_Lightning_Bolt.T_Icon_Uncharged_Lightning_Bolt",

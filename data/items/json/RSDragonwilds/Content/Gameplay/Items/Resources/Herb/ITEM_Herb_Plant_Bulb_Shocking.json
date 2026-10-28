@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ShockingPlantBulb",
-        "SourceString": "Shocking Plant Bulb",
-        "LocalizedString": "Shocking Plant Bulb"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "ABitterGreenHerbUsedToMakePotions",
-        "SourceString": "A bitter green bulb.",
-        "LocalizedString": "A bitter green bulb."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Shocking_Plant_Bulb.T_Icon_Resources_Shocking_Plant_Bulb",
@@ -29,6 +29,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.BasicMaterial"

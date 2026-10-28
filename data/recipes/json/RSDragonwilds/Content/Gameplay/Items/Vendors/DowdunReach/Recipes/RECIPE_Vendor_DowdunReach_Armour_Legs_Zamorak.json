@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard"
           },
           "Count": 300
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Legs_Zamorak'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Legs_Zamorak.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Legs_Zamorak"
           },
           "Count": 1
         }
@@ -29,7 +29,7 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "5mZ_00Vj0M2jeMq88fXgOw",

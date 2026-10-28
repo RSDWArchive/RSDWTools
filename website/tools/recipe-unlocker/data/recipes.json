@@ -4564,6 +4564,32 @@
     ]
   },
   {
+    "name": "RECIPE_Tool_Bucket_Compost_Big",
+    "internal_name": "recipe_bucket_wood_big",
+    "persistence_id": "i6lrr0ZkMgE6O96eokUcuA",
+    "row_name": "",
+    "display_name": "tool_Bucket_Compost_Big",
+    "icon": "T_Icon_Large_Compost_Bucket_New.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Bucket_Compost_Big",
+        "count": 1,
+        "display_name": "tool_Bucket_Compost_Big",
+        "persistence_id": "RbrpREuxQ5-x4LCvrfMRAg",
+        "icon": "T_Icon_Large_Compost_Bucket_New.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Wood_Yew",
+        "count": 5,
+        "display_name": "res_wood_yew",
+        "persistence_id": "Hvo91EBeCWZ23_G6hgvZLA",
+        "icon": "T_Icon_YewTreeLogs.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Tool_WateringCan_Bronze",
     "internal_name": "recipe_WateringCan_Bronze",
     "persistence_id": "VtERvki_gJvL9IqzMWCXpg",
@@ -27495,6 +27521,107 @@
         "display_name": "Vault Shard",
         "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
         "icon": "T_Icon_Resource_Vault_Shard.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T5_Head_DE_Med_White",
+    "internal_name": "recipe_armour_head_de_med_white",
+    "persistence_id": "sV0L10qQFrVCXu6Ky0EPrw",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "armour_head_whiteMed",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_T3_Head_WhiteMed",
+        "count": 1,
+        "display_name": "armour_head_whiteMed",
+        "persistence_id": "JzK_9kPim7eZwVyRSbsGsQ",
+        "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_SteelBar",
+        "count": 4,
+        "display_name": "res_bar_steel",
+        "persistence_id": "bDrJG99f7UKcLJ-z3G_e3w",
+        "icon": "T_Icon_Steel_Bar.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather_Draconic",
+        "count": 4,
+        "display_name": "res_leather_draconic",
+        "persistence_id": "jmA4D0DSEBYxDMWYne8frQ",
+        "icon": "T_Icon_Draconic_leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Cloth_Fine",
+        "count": 1,
+        "display_name": "res_cloth_fine",
+        "persistence_id": "cZiciUse9nReAtG6kIHa8w",
+        "icon": "T_Icon_Fine_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_SacredOil",
+        "count": 1,
+        "display_name": "res_sacredoil",
+        "persistence_id": "MRRcVkTaxPfC_0evKhclKA",
+        "icon": "T_Icon_Sacred_Oil.png"
+      },
+      {
+        "item_id": "ITEM_Resources_VaultShard",
+        "count": 2,
+        "display_name": "res_vaultshard",
+        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
+        "icon": "T_Icon_Resource_Vault_Shard.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T6_Head_DE_Med_Black",
+    "internal_name": "recipe_armour_head_de_med_black",
+    "persistence_id": "5bIZBUQe_6ykj_u4L-1MjQ",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "armour_head_BlackMed",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_T3_Head_BlackMed",
+        "count": 1,
+        "display_name": "armour_head_BlackMed",
+        "persistence_id": "dnt7OkhuQMGJS8-qFcvboA",
+        "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_MithrilBar",
+        "count": 4,
+        "display_name": "res_bar_mithril",
+        "persistence_id": "CiyC5Y3Qx0u0CTQt12QR1w",
+        "icon": "T_Icon_Mithril_Bar.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather_Cursed",
+        "count": 4,
+        "display_name": "res_leather_cursed",
+        "persistence_id": "-Snbh0BHw6XkZgSMX_PiEQ",
+        "icon": "T_Icon_Cursed_Leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Cloth_Mystic",
+        "count": 1,
+        "display_name": "res_cloth_mystic",
+        "persistence_id": "tDzyYkIXSZN8A1m_VsrzWA",
+        "icon": "T_Icon_Mystic_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_DemonicOil",
+        "count": 1,
+        "display_name": "res_demonic_oil",
+        "persistence_id": "MQy_2E_pqnq7HbWzzSZKSA",
+        "icon": "T_Icon_Demonic_Oil.png"
       }
     ]
   },

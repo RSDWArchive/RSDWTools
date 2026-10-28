@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book2_Title",
-        "SourceString": "The Pride of the Avernic",
-        "LocalizedString": "The Pride of the Avernic"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book2_Desc",
-        "SourceString": "A badly burned book wrapped in leather hide... at least you hope it's leather.",
-        "LocalizedString": "A badly burned book wrapped in leather hide... at least you hope it's leather."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.T_Icon_Abraxus_Necromancer_Book",

@@ -16,26 +16,26 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T06_Armour_Head_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MysticHood",
-        "SourceString": "Mystic Hat",
-        "LocalizedString": "Mystic Hat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MysticHood",
-        "SourceString": "A magically resonant hood, perfect for staying warm. ",
-        "LocalizedString": "A magically resonant hood, perfect for staying warm. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Hood.T_Icon_Mystic_Hood",
@@ -47,6 +47,9 @@
       },
       "PowerLevel": 6,
       "Weight": 4.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],
@@ -56,7 +59,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "jkuS_UNrGr0A_D2otKhDaA",
       "InternalName": "armour_head_mystic"

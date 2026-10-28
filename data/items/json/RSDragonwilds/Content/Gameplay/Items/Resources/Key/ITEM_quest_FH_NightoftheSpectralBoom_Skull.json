@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
         "Key": "Skull.Name",
-        "SourceString": "Spectral Chinchompa Skull",
-        "LocalizedString": "Spectral Chinchompa Skull"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_SpiritChinchompa/ST_FH_SpiritChinchompa.ST_FH_SpiritChinchompa",
         "Key": "Skull.Description",
-        "SourceString": "A ghostly chinchompa skull. Vannaka is looking for these. ",
-        "LocalizedString": "A ghostly chinchompa skull. Vannaka is looking for these. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Chinchompa_undeadShovel_ZombieAxe/T_Icon_Spectral_Chinchompa_Skull.T_Icon_Spectral_Chinchompa_Skull",
@@ -32,6 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
+      "Category": {
+        "TagName": "ItemFilter.Type.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

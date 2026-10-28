@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -16,7 +16,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -26,7 +26,7 @@
     "Name": "SpellModule_PlayMontageForHeldEquipment_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
     },
     "Class": "UScriptClass'SpellModule_PlayMontageForHeldEquipment'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -38,7 +38,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_Dagger'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Dagger.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Dagger"
           }
         },
         {
@@ -47,7 +47,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_Sword'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Sword.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Sword"
           }
         },
         {
@@ -56,7 +56,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_GreatAxe'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_GreatAxe.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_GreatAxe"
           }
         },
         {
@@ -65,7 +65,7 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_Warhammer'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Warhammer.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Warhammer"
           }
         },
         {
@@ -74,13 +74,13 @@
           },
           "Value": {
             "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_GreatSword'",
-            "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_GreatSword.0"
+            "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_GreatSword"
           }
         }
       ],
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Interact_ApplyBarbs_Sword'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Sword.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Interact/AM_PlayerM_Interact_ApplyBarbs_Sword"
       },
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage"
@@ -95,8 +95,8 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WeaponBarbs",
-        "SourceString": "Weapon Barbs",
-        "LocalizedString": "Weapon Barbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 0.0,
       "SpellcastingAnimationEquipmentRequirements": "ESpellcastingAnimationEquipmentRequirements::HideLeftUnlessTwoHanded",
@@ -106,20 +106,20 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontageForHeldEquipment'USD_WeaponBarbs:SpellModule_PlayMontageForHeldEquipment_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_WeaponBarbs:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.0"
             }
           }
         ]

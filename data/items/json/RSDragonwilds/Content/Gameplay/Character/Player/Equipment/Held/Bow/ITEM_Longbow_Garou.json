@@ -11,42 +11,46 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Longbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Spell_Longbow_JumpAttack"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_Bow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Aim_Bow"
       },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_Attack_Longbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Attack_Longbow.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Powershot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Longbow/PA_RangedAttack_Powershot"
       },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses"
       },
       "AimSweepSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
       },
       "AimSweepCrouchedSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
       },
       "WindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw"
       },
       "FullWindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold"
       },
       "WindUpMaxMovementSpeedOverride": 150.0,
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Bows"
       },
@@ -61,12 +65,12 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::Arrows",
       "ProjectileClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
       },
       "RangedAttackCollection": {
-        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Bow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/BP_PlayerRangedAttackCollection_Bow.0"
+        "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Longbow_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Longbow/BP_PlayerRangedAttackCollection_Longbow"
       },
       "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
@@ -74,29 +78,29 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_DrawTime_Small_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_DrawTime_Small.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_DrawTime_Small"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GarouBowPlayer",
-        "SourceString": "Hunter Stagbow",
-        "LocalizedString": "Hunter Stagbow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GarouBow",
-        "SourceString": "With it's aerodynamic antlers, this bow is very popular with garou scouts.",
-        "LocalizedString": "With it's aerodynamic antlers, this bow is very popular with garou scouts."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "bUseCustomStatDetails": true,
       "Icon": {
@@ -121,21 +125,21 @@
       "BaseDurability": 1300,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "GarouBow.Boon",
-            "SourceString": "Increased DAMAGE\r\nReduced DRAW SPEED",
-            "LocalizedString": "Increased DAMAGE\r\nReduced DRAW SPEED"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

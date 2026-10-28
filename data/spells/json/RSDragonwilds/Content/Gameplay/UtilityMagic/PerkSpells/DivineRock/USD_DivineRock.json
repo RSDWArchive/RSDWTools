@@ -4,14 +4,14 @@
     "Name": "SpellModule_Blueprint_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DivineRock'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
     },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BlueprintGraphClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_SMBG_DivineRock_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/BP_SMBG_DivineRock.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/DivineRock/BP_SMBG_DivineRock"
       },
       "ModuleName": "Blueprint",
       "Triggers": {
@@ -22,7 +22,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -32,14 +32,14 @@
     "Name": "SpellModule_Blueprint_1",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DivineRock'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
     },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BlueprintGraphClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_SMBG_DivineRockPreview_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/BP_SMBG_DivineRockPreview.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/DivineRock/BP_SMBG_DivineRockPreview"
       },
       "ModuleName": "BlueprintCastingPreview"
     }
@@ -49,7 +49,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DivineRock'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -61,7 +61,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -71,7 +71,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DivineRock'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -80,14 +80,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth"
           },
           "Count": 100
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Nature'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature"
           },
           "Count": 100
         }
@@ -100,7 +100,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -110,14 +110,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DivineRock'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.5"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_DevineRock'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_DevineRock.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_DevineRock"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -134,10 +134,10 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Mining.DivineRock.Name",
-        "SourceString": "Divine Rock",
-        "LocalizedString": "Divine Rock"
+        "SourceString": null,
+        "LocalizedString": ""
       },
-      "CooldownDuration": 1500.0,
+      "CooldownDuration": 1800.0,
       "SpellIcon": {
         "AssetPathName": "/Game/Art/UI/Skills/Icons/Unlock/Mining/T_Skill_Mining_Spell_DivineRock.T_Skill_Mining_Spell_DivineRock",
         "SubPathString": ""
@@ -150,7 +150,7 @@
       "CastType": "EUtilitySpellCastType::Placed",
       "SpellPlacementMontage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Earth_SpellCastMode_Targeting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Earth_SpellCastMode_Targeting.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Earth_SpellCastMode_Targeting"
       },
       "PlacementActorClass": {
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/DivineRock/BP_SpellPlacementVisualizer_DivineRock.BP_SpellPlacementVisualizer_DivineRock_C",
@@ -174,42 +174,42 @@
       ],
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourPink'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_DivineRock:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.4"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.4"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_DivineRock:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_DivineRock:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Blueprint'USD_DivineRock:SpellModule_Blueprint_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Blueprint'USD_DivineRock:SpellModule_Blueprint_1'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DivineRock/USD_DivineRock.1"
             }
           }
         ]

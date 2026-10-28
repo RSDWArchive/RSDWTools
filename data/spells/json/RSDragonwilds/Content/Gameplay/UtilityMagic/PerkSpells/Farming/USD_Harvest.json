@@ -4,7 +4,7 @@
     "Name": "DominionShape_Sphere_0",
     "Outer": {
       "ObjectName": "SpellModule_Shape'USD_Harvest:SpellModule_Shape_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
     },
     "Class": "UScriptClass'DominionShape_Sphere'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -17,7 +17,7 @@
     "Name": "DominionShape_Sphere_1",
     "Outer": {
       "ObjectName": "SpellModule_Shape'USD_Harvest:SpellModule_Shape_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
     },
     "Class": "UScriptClass'DominionShape_Sphere'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -30,7 +30,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -42,7 +42,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_EndCast_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_EndCast.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_EndCast"
         }
       }
     }
@@ -52,7 +52,7 @@
     "Name": "SpellModule_Collision_3",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -80,7 +80,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -90,7 +90,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -99,14 +99,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth"
           },
           "Count": 10
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Astral'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral"
           },
           "Count": 10
         }
@@ -119,7 +119,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_StartCharging_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_StartCharging.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_StartCharging"
         }
       }
     }
@@ -129,7 +129,7 @@
     "Name": "SpellModule_Harvest_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_Harvest'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -147,14 +147,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Harvest'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/Farming/Harvest/AM_PlayerM_Sorcery_Spellcast_Harvest.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/Farming/Harvest/AM_PlayerM_Sorcery_Spellcast_Harvest"
       },
       "ModuleName": "PlayMontage"
     }
@@ -164,22 +164,22 @@
     "Name": "SpellModule_Shape_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Shape": {
         "ObjectName": "DominionShape_Sphere'USD_Harvest:SpellModule_Shape_0.DominionShape_Sphere_0'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.0"
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.0"
       },
       "PerkForUpgradedShape": {
         "ObjectName": "SkillPerkData'PerkV2_Farming_HarvestSpellUpgrade'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_HarvestSpellUpgrade.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_HarvestSpellUpgrade"
       },
       "UpgradedShape": {
         "ObjectName": "DominionShape_Sphere'USD_Harvest:SpellModule_Shape_0.DominionShape_Sphere_1'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.1"
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.1"
       },
       "ModuleName": "Shape",
       "Triggers": {
@@ -189,7 +189,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -199,7 +199,7 @@
     "Name": "SpellModule_UtilityMagic_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Harvest'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
     },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -223,8 +223,8 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "SpellDisplayName_HarvestSpell",
-        "SourceString": "Uproot",
-        "LocalizedString": "Uproot"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 5.0,
       "SpellIcon": {
@@ -241,54 +241,54 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourBlue'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourBlue.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourBlue"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_Harvest:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.6"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.6"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_Harvest:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.4"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.4"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Shape'USD_Harvest:SpellModule_Shape_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.7"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Collision'USD_Harvest:SpellModule_Collision_3'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Harvest'USD_Harvest:SpellModule_Harvest_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.5"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.5"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_UtilityMagic'USD_Harvest:SpellModule_UtilityMagic_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.8"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.8"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_Harvest:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.2"
             }
           }
         ]

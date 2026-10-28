@@ -17,37 +17,41 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowBodkin'",
+        "ObjectPath": "/Game/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowBodkin"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
           "DamageType.Ranged.Arrows"
         ]
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+        "ObjectPath": "/Game/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon"
       },
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WoodenBodkinArrow",
-        "SourceString": "Wooden Arrow",
-        "LocalizedString": "Wooden Arrow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WoodenArrows",
-        "SourceString": "A very basic arrow.",
-        "LocalizedString": "A very basic arrow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Arrows/T_Icon_Arrows_Wood.T_Icon_Arrows_Wood",
@@ -67,7 +71,7 @@
       "bDropOnDeath": false,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "v1ZsjAYc-EC084k4NAV-rA",
       "InternalName": "ammo_arrows_wooden"

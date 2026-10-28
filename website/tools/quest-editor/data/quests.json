@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0.5",
-  "generatedAtUtc": "2026-09-28T23:03:19Z",
+  "version": "1.0.1.3",
+  "generatedAtUtc": "2026-10-25T01:23:28Z",
   "quests": [
     {
       "persistence_id": "3MpWS0mD8A6yFVmjVAA2Qg",
       "internal_name": "Quest_DR_Black_Knight_Fortress",
       "display_name": "Black Knight's Fortress",
       "is_main_quest": true,
-      "quest_region": "MAX",
+      "quest_region": "Dowdun_Reach",
       "duplicate_display_name": false
     },
     {
@@ -15,7 +15,7 @@
       "internal_name": "dragon_slayer",
       "display_name": "Dragon Slayer",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": false
     },
     {
@@ -23,7 +23,7 @@
       "internal_name": "ftue_fs2",
       "display_name": "First Steps",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -31,7 +31,7 @@
       "internal_name": "ftue_gs",
       "display_name": "First Steps",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -39,7 +39,7 @@
       "internal_name": "ftue_q1",
       "display_name": "First Steps",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -47,7 +47,7 @@
       "internal_name": "ftue_q7",
       "display_name": "First Steps",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -55,7 +55,7 @@
       "internal_name": "ftue_rtftj",
       "display_name": "Getting Started",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": false
     },
     {
@@ -63,7 +63,7 @@
       "internal_name": "UmS_MainQuest",
       "display_name": "Icthlarin's Little Helper",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -71,7 +71,7 @@
       "internal_name": "ftue_q5",
       "display_name": "Ratcatcher",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -79,7 +79,7 @@
       "internal_name": "ftue_rc",
       "display_name": "Ratcatcher",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -87,7 +87,7 @@
       "internal_name": "SW_MainQuest",
       "display_name": "Regicide",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Scorned_Wilderness",
       "duplicate_display_name": false
     },
     {
@@ -95,7 +95,7 @@
       "internal_name": "ftue_q2",
       "display_name": "Right Tool for the Job",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": false
     },
     {
@@ -103,7 +103,7 @@
       "internal_name": "ftue_q4",
       "display_name": "Rune Mysteries",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -111,7 +111,7 @@
       "internal_name": "ftue_rm_prt1",
       "display_name": "Rune Mysteries",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -119,7 +119,7 @@
       "internal_name": "ftue_rm_prt2",
       "display_name": "Rune Mysteries",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": true
     },
     {
@@ -127,7 +127,7 @@
       "internal_name": "ftue_q3",
       "display_name": "Seeking Shelter",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Brynmoor",
       "duplicate_display_name": false
     },
     {
@@ -135,7 +135,7 @@
       "internal_name": "DeathQuestMain",
       "display_name": "Withering Heights",
       "is_main_quest": true,
-      "quest_region": null,
+      "quest_region": "Fellhollow",
       "duplicate_display_name": false
     },
     {
@@ -183,7 +183,7 @@
       "internal_name": "UmS_MainQuest_TribeC_Task1",
       "display_name": "Beast in the Sand",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -311,7 +311,7 @@
       "internal_name": "UmS_MainQuest_TribeB_Task3",
       "display_name": "Mark Day",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -327,7 +327,7 @@
       "internal_name": "UmS_MainQuest_TribeA_Task1",
       "display_name": "Rag and Bone Garou",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -343,7 +343,7 @@
       "internal_name": "UmS_MainQuest_TribeA_Task2",
       "display_name": "Rogue Trader",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -351,7 +351,7 @@
       "internal_name": "UmS_MainQuest_TribeB_Task1",
       "display_name": "Saga of the Adventurer",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -359,7 +359,7 @@
       "internal_name": "UmS_MainQuest_TribeC_Task2",
       "display_name": "Scaling Difficulties",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -391,7 +391,7 @@
       "internal_name": "UmS_MainQuest_TribeC_Task3",
       "display_name": "Song of the Ancients",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -399,7 +399,7 @@
       "internal_name": "UmS_MainQuest_TribeB_Task2",
       "display_name": "The Dig Site",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {
@@ -407,7 +407,7 @@
       "internal_name": "GreatBodyRobbery",
       "display_name": "The Great Body Robbery",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Ghornfell",
       "duplicate_display_name": false
     },
     {
@@ -415,7 +415,7 @@
       "internal_name": "UmS_MainQuest_TribeA_Task3",
       "display_name": "The Mirror Crack'd",
       "is_main_quest": false,
-      "quest_region": null,
+      "quest_region": "Umbral_Sands",
       "duplicate_display_name": false
     },
     {

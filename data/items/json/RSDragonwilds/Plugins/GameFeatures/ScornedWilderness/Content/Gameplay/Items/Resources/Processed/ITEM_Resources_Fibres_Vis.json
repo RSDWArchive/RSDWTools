@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "VisFibres",
-        "SourceString": "Vis Fibres",
-        "LocalizedString": "Vis Fibres"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "VisFibres",
-        "SourceString": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom.",
-        "LocalizedString": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Vis_Fibers.T_Icon_Vis_Fibers",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

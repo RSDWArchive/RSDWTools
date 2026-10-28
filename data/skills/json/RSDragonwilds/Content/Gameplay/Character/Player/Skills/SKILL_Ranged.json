@@ -1,24 +1,12 @@
 [
   {
-    "Type": "GE_RangedAttack_ProjectileRefund_C",
-    "Name": "GE_RangedAttack_ProjectileRefund_C_0",
+    "Type": "GE_RangedAttack_Stamina_Cost_C",
+    "Name": "GE_RangedAttack_Stamina_Cost_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Ranged'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.GE_RangedAttack_ProjectileRefund_C'",
-    "Template": {
-      "ObjectName": "GE_RangedAttack_ProjectileRefund_C'Default__GE_RangedAttack_ProjectileRefund_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 0.008
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "SkillData",
@@ -27,29 +15,29 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Name": {
-        "Namespace": "",
-        "Key": "E8BE697A46872448782F2193446D8BA0",
-        "SourceString": "Ranged",
-        "LocalizedString": "Ranged"
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Ranged_Noun",
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "MaxLevel": 99,
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "RangedLevelInstruction",
-        "SourceString": "Defeat enemies with ranged weapons to level this skill. ",
-        "LocalizedString": "Defeat enemies with ranged weapons to level this skill. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.MaxLevelFormat",
-        "SourceString": "/{0} XP",
-        "LocalizedString": "/{0} XP"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "StaminaCostDescriptionText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.StaminaCostDescription",
-        "SourceString": "{0} STAMINA COSTS",
-        "LocalizedString": "{0} STAMINA COSTS"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SkillType": "ESkill::Ranged",
       "Icon": {
@@ -72,14 +60,11 @@
         {
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
-            "ObjectName": "GE_RangedAttack_ProjectileRefund_C'SKILL_Ranged:GE_RangedAttack_ProjectileRefund_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.0"
+            "ObjectName": "GE_RangedAttack_Stamina_Cost_C'SKILL_Ranged:GE_RangedAttack_Stamina_Cost_C_0'",
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.0"
           },
           "DescriptionText": {
-            "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
-            "Key": "Ranged.RangedProjectileRefundChance.Desc",
-            "SourceString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die.",
-            "LocalizedString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die."
+            "CultureInvariantString": null
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Ranged.T_Icon_SkillTree_Ranged",
@@ -90,7 +75,7 @@
       "DamageXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Damage'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage"
         },
         "RowName": "SkillDamage_Ranged"
       },
@@ -100,7 +85,7 @@
       },
       "LevelUpSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival"
       },
       "TrimmedCapeRecipe": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Ranged.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Ranged",

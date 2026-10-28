@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Ectoplasm",
-        "SourceString": "Ectoplasm",
-        "LocalizedString": "Ectoplasm"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ectoplasm",
-        "SourceString": "Dropped from aggressive spirits or extracted from wither hearts. Used in crafting.",
-        "LocalizedString": "Dropped from aggressive spirits or extracted from wither hearts. Used in crafting."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Ectoplasm.T_Icon_Ectoplasm",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.5,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

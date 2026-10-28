@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Scroll3_Title",
-        "SourceString": "Eventide - A New Spawn",
-        "LocalizedString": "Eventide - A New Spawn"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Scroll3_Desc",
-        "SourceString": "A sealed scroll full of the worst things imaginable.",
-        "LocalizedString": "A sealed scroll full of the worst things imaginable."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",

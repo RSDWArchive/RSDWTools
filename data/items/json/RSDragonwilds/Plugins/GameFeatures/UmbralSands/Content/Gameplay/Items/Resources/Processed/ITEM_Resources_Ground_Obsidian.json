@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GroundObsidian",
-        "SourceString": "Ground Obsidian",
-        "LocalizedString": "Ground Obsidian"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GroundObisidian",
-        "SourceString": "Ground from various obsidian oddities. Can be smelted in a Blast Furnace.",
-        "LocalizedString": "Ground from various obsidian oddities. Can be smelted in a Blast Furnace."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ground_Obsidian.T_Icon_Ground_Obsidian",
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"
       },
+      "CompostAmount": 10,
       "PersistenceID": "xj2lLk3Kx_7PCb2kms7wcA",
       "InternalName": "res_ground_obsidian"
     }

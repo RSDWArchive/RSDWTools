@@ -7,7 +7,7 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "Namespace": "",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "ItemFilter.Material.Metal"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ingot"
       },

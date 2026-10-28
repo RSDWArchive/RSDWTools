@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SteelBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SteelBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SteelBar"
           },
           "Count": 16
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Draconic'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Draconic.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Draconic"
           },
           "Count": 3
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
           },
           "Count": 6
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Hammer_Steel'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hammer/ITEM_Hammer_Steel.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hammer/ITEM_Hammer_Steel"
           },
           "Count": 1
         }
@@ -42,12 +42,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Smithing_Forge_Tier4"
       },

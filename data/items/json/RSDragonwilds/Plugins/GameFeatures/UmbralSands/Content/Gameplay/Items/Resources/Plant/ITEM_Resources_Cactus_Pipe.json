@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "CactusPipe",
-        "SourceString": "Fibrous Pipe Cactus",
-        "LocalizedString": "Fibrous Pipe Cactus"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "PipeCactus",
-        "SourceString": "A complex network of fibres and water reservoirs. Can be tanned to produce a durable material.",
-        "LocalizedString": "A complex network of fibres and water reservoirs. Can be tanned to produce a durable material."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fibrous_Cactus.T_Icon_Fibrous_Cactus",
@@ -37,11 +37,13 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
+      "CompostAmount": 10,
       "PersistenceID": "mNrV2kph16HfXq2I-rhK8w",
       "InternalName": "res_cactus_pipe"
     }

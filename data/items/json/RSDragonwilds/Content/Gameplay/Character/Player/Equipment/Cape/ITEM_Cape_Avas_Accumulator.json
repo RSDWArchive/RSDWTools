@@ -7,16 +7,16 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Accumulator_MeshData_Uni1'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_Avas_Accumulator_MeshData_Uni1'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Avas_Accumulator_MeshData_Uni1"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Cape_AvasAccumulator"
       },
@@ -24,28 +24,28 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_ProjectileRefund_Boost_Small_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_Boost_Small.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_Boost_Small"
         },
         {
           "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_ProjectileRefund_MagnetizationDistance_Small_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_MagnetizationDistance_Small.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund_MagnetizationDistance_Small"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AvasAccumulator",
-        "SourceString": "Ava's Accumulator",
-        "LocalizedString": "Ava's Accumulator"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AvasAttractor",
-        "SourceString": "A bagged chicken ready to serve you, magnet in claw.\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
-        "LocalizedString": "A bagged chicken ready to serve you, magnet in claw.\r\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Avas_Attractor.T_Icon_Avas_Attractor",
@@ -54,6 +54,9 @@
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Skeleton/Armour/U_MED/Avas_Attractor_01/SM_Avas_Attractor_01.SM_Avas_Attractor_01",
         "SubPathString": ""
+      },
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Cape"
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour",
@@ -65,21 +68,21 @@
       "bDropOnDeath": false,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AvasAccumulator.Boon1",
-            "SourceString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance",
-            "LocalizedString": "INCREASED chance to recover RANGED AMMO\r\nAutomatically picks up RANGED AMMO at a larger distance"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather"
           },
           "Count": 2
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "SpadeToolEquipmentData'ITEM_Spade_T3_Bronze'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T3_Bronze.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Shovel/ITEM_Spade_T3_Bronze"
           },
           "Count": 1
         }
@@ -42,7 +42,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "WRBL-0g8VjsNW9O7VpPB6Q",

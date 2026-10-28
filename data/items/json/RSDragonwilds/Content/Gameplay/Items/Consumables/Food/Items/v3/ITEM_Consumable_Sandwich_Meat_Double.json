@@ -2,185 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_Sandwich_Meat_Double",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "Sandwhich_Meat_Double"
-      },
-      "AmountToHealOnConsume": 90.0,
-      "DurationMultiplierAttribute": null,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Tier2_Food"
-      },
-      "Duration": 600.0,
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_KnowledgeableNourishment_C'ITEM_Consumable_Sandwich_Meat_Double:GE_KnowledgeableNourishment_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.3"
-          }
-        },
-        {
-          "Effect": {
-            "ObjectName": "GE_MeatyMeal_C'ITEM_Consumable_Sandwich_Meat_Double:GE_MeatyMeal_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.4"
-          }
-        },
-        {
-          "Effect": {
-            "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Sandwich_Meat_Double:GE_ForemansFeast_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Sandwich_Meat_Double:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "DoubleMeatSandwich",
-        "SourceString": "Meat Twist Sandwich",
-        "LocalizedString": "Meat Twist Sandwich"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "DoubleMeatSandwich",
-        "SourceString": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries.",
-        "LocalizedString": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries."
-      },
-      "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.90",
-            "SourceString": "+90 Health",
-            "LocalizedString": "+90 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Sandwich_Double_Meat.T_Icon_Sandwich_Double_Meat",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 50,
-      "Weight": 2.0,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Meat"
-      },
-      "PickupXPEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
-        },
-        "RowName": "Pickup_Cooking_Pot_Processed_Item"
-      },
-      "CompostAmount": 10,
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "KnowledgableNourishment.Title",
-            "SourceString": "Knowledgable Nourishment",
-            "LocalizedString": "Knowledgable Nourishment"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "KnowledgableNourishment.Description",
-            "SourceString": "Grants a 10% XP BOOST",
-            "LocalizedString": "Grants a 10% XP BOOST"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_KnowledgeableNourishment.T_Icon_Buff_KnowledgeableNourishment",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "MeatyMeal.Title",
-            "SourceString": "Meaty Meal",
-            "LocalizedString": "Meaty Meal"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "MeatyMeal.Description",
-            "SourceString": "REDUCES HUNGER drain by 25%",
-            "LocalizedString": "REDUCES HUNGER drain by 25%"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_MeatyMeal.T_Icon_Buff_MeatyMeal",
-            "SubPathString": ""
-          }
-        },
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "ForemansFeast.Title",
-            "SourceString": "Foreman's Feast",
-            "LocalizedString": "Foreman's Feast"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "ForemansFeat.Description",
-            "SourceString": "REDUCES the STAMINA cost of WOODCUTTING and MINING by 33%",
-            "LocalizedString": "REDUCES the STAMINA cost of WOODCUTTING and MINING by 33%"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_ForemansFeast.T_Icon_Buff_ForemansFeast",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "SXiW10MZjZ6nu7e3O4BOUw",
-      "InternalName": "food_sandwich_meat_double",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat_Double'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -189,121 +18,34 @@
     "Name": "GE_ForemansFeast_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat_Double'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.GE_ForemansFeast_C'",
-    "Template": {
-      "ObjectName": "GE_ForemansFeast_C'Default__GE_ForemansFeast_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
-        "bShowInTooltip": false
-      },
-      "ChildGEsGroups": [
-        {
-          "bActivateImmediately": true,
-          "ActivationMinValue": {
-            "Source": "EAttributeOrFloatSource::Manual",
-            "Attribute": null,
-            "DeveloperSettingLookupName": "None",
-            "DataTableRowHandle": {
-              "DataTable": null,
-              "RowName": "None"
-            },
-            "Value": 0.0
-          },
-          "bHasActivationMaxValue": false,
-          "ActivationMaxValue": {
-            "Source": "EAttributeOrFloatSource::Manual",
-            "Attribute": null,
-            "DeveloperSettingLookupName": "None",
-            "DataTableRowHandle": {
-              "DataTable": null,
-              "RowName": "None"
-            },
-            "Value": 0.0
-          },
-          "bHasDifferentDeactivationValue": false,
-          "DeactivationValue": {
-            "Source": "EAttributeOrFloatSource::Manual",
-            "Attribute": null,
-            "DeveloperSettingLookupName": "None",
-            "DataTableRowHandle": {
-              "DataTable": null,
-              "RowName": "None"
-            },
-            "Value": 0.0
-          },
-          "ChildGEs": [
-            {
-              "Effect": {
-                "ObjectName": "GE_Mining_MiningStaminaCost_C'ITEM_Consumable_Sandwich_Meat_Double:GE_ForemansFeast_C_0.GE_Mining_MiningStaminaCost_C_1'",
-                "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.5"
-              }
-            },
-            {
-              "Effect": {
-                "ObjectName": "GE_Woodcutting_StaminaCost_C'ITEM_Consumable_Sandwich_Meat_Double:GE_ForemansFeast_C_0.GE_Woodcutting_StaminaCost_C_0'",
-                "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.6"
-              }
-            }
-          ]
-        }
-      ]
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_KnowledgeableNourishment_C",
     "Name": "GE_KnowledgeableNourishment_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat_Double'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_KnowledgeableNourishment.GE_KnowledgeableNourishment_C'",
-    "Template": {
-      "ObjectName": "GE_KnowledgeableNourishment_C'Default__GE_KnowledgeableNourishment_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_KnowledgeableNourishment.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "bShowInTooltip": false
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_MeatyMeal_C",
     "Name": "GE_MeatyMeal_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Sandwich_Meat_Double'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.GE_MeatyMeal_C'",
-    "Template": {
-      "ObjectName": "GE_MeatyMeal_C'Default__GE_MeatyMeal_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_MeatyMeal.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "bShowInTooltip": false
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Mining_MiningStaminaCost_C",
     "Name": "GE_Mining_MiningStaminaCost_C_1",
     "Outer": {
       "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Sandwich_Meat_Double:GE_ForemansFeast_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.2"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Mining/GE_Mining_MiningStaminaCost.GE_Mining_MiningStaminaCost_C'",
-    "Template": {
-      "ObjectName": "GE_Mining_MiningStaminaCost_C'Default__GE_ForemansFeast_C:GE_Mining_MiningStaminaCost_C_1'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.2"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -312,11 +54,7 @@
     "Name": "GE_Woodcutting_StaminaCost_C_0",
     "Outer": {
       "ObjectName": "GE_ForemansFeast_C'ITEM_Consumable_Sandwich_Meat_Double:GE_ForemansFeast_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.2"
-    },
-    "Template": {
-      "ObjectName": "GE_Woodcutting_StaminaCost_C'Default__GE_ForemansFeast_C:GE_Woodcutting_StaminaCost_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ForemansFeast.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Sandwich_Meat_Double.2"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

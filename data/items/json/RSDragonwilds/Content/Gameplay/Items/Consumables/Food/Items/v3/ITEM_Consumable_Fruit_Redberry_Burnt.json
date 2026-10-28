@@ -2,111 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_Fruit_Redberry_Burnt",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "v3_Redberry_Burnt"
-      },
-      "VitalShieldRowHandle": {
-        "DataTable": {
-          "ObjectName": "GridlyDataTable'DT_VitalShield'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield.0"
-        }
-      },
-      "ToxicityRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_Toxicity_V2'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Toxicity_V2.0"
-        },
-        "RowName": "+20"
-      },
-      "DurationMultiplierAttribute": null,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Tier1_Food"
-      },
-      "Duration": 0.0,
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Fruit_Redberry_Burnt:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry_Burnt.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "RedberriesBurnt",
-        "SourceString": "Burnt Redberries",
-        "LocalizedString": "Burnt Redberries"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "GenericBurnt",
-        "SourceString": "Too well done, but still edible. ",
-        "LocalizedString": "Too well done, but still edible. "
-      },
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Dried_Redberries.T_Icon_Dried_Redberries",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 99,
-      "PowerLevel": 1,
-      "Weight": 0.1,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "ItemStatus": {
-        "TagName": "Item.Status.Burnt"
-      },
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Burnt"
-      },
-      "PickupXPEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
-        },
-        "RowName": "Pickup_Campfire_Processed_Item"
-      },
-      "CompostAmount": 10,
-      "PersistenceID": "ArdDhUW3LRqTHQG2zu5UYg",
-      "InternalName": "food_redberry_burnt",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Redberry_Burnt'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry_Burnt.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Redberry_Burnt.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

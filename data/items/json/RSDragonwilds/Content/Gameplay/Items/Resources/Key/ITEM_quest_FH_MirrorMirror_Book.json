@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
         "Key": "SpellBookName",
-        "SourceString": "Bedraggled Spellbook",
-        "LocalizedString": "Bedraggled Spellbook"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
         "Key": "SpellBookDesc",
-        "SourceString": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
-        "LocalizedString": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\""
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.T_Icon_Abraxus_Necromancer_Book",

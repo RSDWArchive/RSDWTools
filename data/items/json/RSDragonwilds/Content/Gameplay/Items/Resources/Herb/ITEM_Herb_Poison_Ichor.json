@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "PoisonIchor",
-        "SourceString": "Poison Ichor",
-        "LocalizedString": "Poison Ichor"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "PoisonIchor",
-        "SourceString": "This stuff looks nasty.",
-        "LocalizedString": "This stuff looks nasty."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Poison_Ichor2.T_Icon_Poison_Ichor2",
@@ -29,6 +29,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

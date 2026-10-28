@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
         "Key": "OrbName",
-        "SourceString": "Mysterious Orb [Uncharged]",
-        "LocalizedString": "Mysterious Orb [Uncharged]"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/HighlightingTheProblem/ST_HighlightingTheProblem.ST_HighlightingTheProblem",
         "Key": "OrbDesc",
-        "SourceString": "An orb obtained from a statue in the Magic Institute.",
-        "LocalizedString": "An orb obtained from a statue in the Magic Institute."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Mysterious_Orb.T_Icon_Mysterious_Orb",

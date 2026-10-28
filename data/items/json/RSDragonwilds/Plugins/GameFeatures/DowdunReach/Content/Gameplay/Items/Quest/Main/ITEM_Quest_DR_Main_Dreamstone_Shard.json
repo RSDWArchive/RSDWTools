@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DreamingStonePiece",
-        "SourceString": "Shard of the Dreaming Stone",
-        "LocalizedString": "Shard of the Dreaming Stone"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DreamingStonePiece",
-        "SourceString": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. ",
-        "LocalizedString": "A piece of the broken Dreaming Stone in Dowdun Reach's Nexus. It whispers if you listen closely. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Dreamstone_Shard.T_Icon_Dreamstone_Shard",

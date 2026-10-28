@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Stone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
           },
           "Count": 8
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Logging_Axe_Stone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Stone.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Stone"
           },
           "Count": 1
         }
@@ -35,12 +35,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier1"
       },

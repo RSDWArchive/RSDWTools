@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Cursefragment.Emberwood",
-        "SourceString": "Curse Fragment (Grief)",
-        "LocalizedString": "Curse Fragment (Grief)"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Cursefragment.Emberwood",
-        "SourceString": "A crystallised part of a curse, imbued with Imaru's grief. ",
-        "LocalizedString": "A crystallised part of a curse, imbued with Imaru's grief. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/QuestItems/T_Icon_Imaru_Curse_Seal_Grief_nofx.T_Icon_Imaru_Curse_Seal_Grief_nofx",

@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_IronBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Blightwood'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Blightwood.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Blightwood"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard"
           },
           "Count": 2
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Pickaxe_Iron'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Pickaxe/ITEM_Pickaxe_Iron.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Pickaxe/ITEM_Pickaxe_Iron"
           },
           "Count": 1
         }
@@ -42,12 +42,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Smithing_Forge_Tier4"
       },

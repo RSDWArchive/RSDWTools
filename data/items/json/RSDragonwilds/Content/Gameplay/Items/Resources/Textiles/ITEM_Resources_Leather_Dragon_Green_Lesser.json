@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GreenDragonhideLeather",
-        "SourceString": "Green Dragonhide Leather",
-        "LocalizedString": "Green Dragonhide Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GreenDragonhideLeather",
-        "SourceString": "Made by tanning green dragonhide. A key crafting component for armour.",
-        "LocalizedString": "Made by tanning green dragonhide. A key crafting component for armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Green_Dragon_Hide_Leather.T_Icon_Green_Dragon_Hide_Leather",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.6,
+      "Category": {
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],

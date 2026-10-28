@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Stone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone"
           },
           "Count": 2
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Stone_Block'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone_Block"
           },
           "Count": 1
         }
@@ -28,12 +28,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Construction'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Construction.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Construction"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Building'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Building"
         },
         "RowName": "Build_Crafting_Station"
       },

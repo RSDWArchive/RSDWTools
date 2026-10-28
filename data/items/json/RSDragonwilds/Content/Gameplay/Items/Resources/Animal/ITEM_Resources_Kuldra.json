@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Kuldrashead",
-        "SourceString": "Kuldra's Head",
-        "LocalizedString": "Kuldra's Head"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "KuldrasHead",
-        "SourceString": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. Commander Zilyana should see this. ",
-        "LocalizedString": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. Commander Zilyana should see this. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Kuldra_Head.T_Icon_Kuldra_Head",

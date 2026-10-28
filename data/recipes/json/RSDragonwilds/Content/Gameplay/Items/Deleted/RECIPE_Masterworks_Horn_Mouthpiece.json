@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Masterworks_Horn_Mouthpiece",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillXPAwardedOnCraft": 25,
+      "PersistenceID": "PqR3XEvFt8XBOk6cZi3lYg",
+      "InternalName": "recipe_craft_horn_mouthpiece",
+      "bSoftDeleted": true
+    }
+  }
+]

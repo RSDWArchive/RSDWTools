@@ -5290,6 +5290,46 @@
     "icon": "T_Icon_Dragon_chest.png"
   },
   {
+    "item_id": "ITEM_Consumable_RaidPack_BloodblightSwamp",
+    "display_name": "ITEM_Consumable_RaidPack_BloodblightSwamp",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Bramblemead",
+    "display_name": "ITEM_Consumable_RaidPack_Bramblemead",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_DowdunReach",
+    "display_name": "ITEM_Consumable_RaidPack_DowdunReach",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Fellhollow",
+    "display_name": "ITEM_Consumable_RaidPack_Fellhollow",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Ghornfell",
+    "display_name": "ITEM_Consumable_RaidPack_Ghornfell",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_StormtouchedHighlands",
+    "display_name": "ITEM_Consumable_RaidPack_StormtouchedHighlands",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_UmbralSands",
+    "display_name": "ITEM_Consumable_RaidPack_UmbralSands",
+    "icon": ""
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_WhisperingSwamp",
+    "display_name": "ITEM_Consumable_RaidPack_WhisperingSwamp",
+    "icon": ""
+  },
+  {
     "item_id": "ITEM_Resources_Hide_Dragon_Black",
     "display_name": "Black Dragon Hide",
     "icon": "T_Icon_Black_Dragon_Hide.png"

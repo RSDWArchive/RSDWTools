@@ -8,8 +8,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BittercapMushroom",
-        "SourceString": "Bittercap Mushroom",
-        "LocalizedString": "Bittercap Mushroom"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",

@@ -8,25 +8,25 @@
       "bLosesDurabilityOnAttack": false,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_RunicRing_ChanceToRefundUtilitySpellCost_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Rings/GE_RunicRing_ChanceToRefundUtilitySpellCost.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Rings/GE_RunicRing_ChanceToRefundUtilitySpellCost"
         }
       ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AbraxusRing",
-        "SourceString": "Abraxus Ring",
-        "LocalizedString": "Abraxus Ring"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AbraxusRing",
-        "SourceString": "A ring that once belonged to a powerful necromancer. ",
-        "LocalizedString": "A ring that once belonged to a powerful necromancer. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Runic_Ring.T_Icon_Runic_Ring",
@@ -37,6 +37,9 @@
         "SubPathString": ""
       },
       "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -49,25 +52,25 @@
       ],
       "DurabilityVsResourceConsumptionCurve": {
         "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost"
       },
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbraxusRing.Description",
-            "SourceString": "Has a chance to REDUCE the RUNE COST of UTILITY SPELLS when cast",
-            "LocalizedString": "Has a chance to REDUCE the RUNE COST of UTILITY SPELLS when cast"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

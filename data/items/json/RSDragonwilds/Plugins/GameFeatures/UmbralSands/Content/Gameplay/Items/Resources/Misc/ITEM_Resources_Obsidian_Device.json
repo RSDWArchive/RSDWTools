@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ObsidianDevice",
-        "SourceString": "Obsidian Device",
-        "LocalizedString": "Obsidian Device"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ObsidianDevice",
-        "SourceString": "An obsidian object, useful as little more than a paperweight. Can be ground and then smelted into pure obsidian.",
-        "LocalizedString": "An obsidian object, useful as little more than a paperweight. Can be ground and then smelted into pure obsidian."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Obsidian_Device.T_Icon_Obsidian_Device",

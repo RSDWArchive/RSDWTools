@@ -15,20 +15,20 @@
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow"
       },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses"
       },
       "AimSweepSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
       },
       "AimSweepCrouchedSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
       },
       "WindUpSequence": {
         "ObjectName": "AnimSequence'A_GameJam_PlayerM_Throw_LoopInto'",
@@ -42,7 +42,7 @@
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Bows"
       },
@@ -53,8 +53,8 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::Self",
       "ProjectileClass": {
-        "AssetPathName": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Ammo_FireOil.BP_Ammo_FireOil_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Ammo_FireOil_C'",
+        "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Ammo_FireOil"
       },
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
@@ -62,23 +62,23 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FireOil",
-        "SourceString": "Fire Oil",
-        "LocalizedString": "Fire Oil"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "FireOil",
-        "SourceString": "Throw this at your enemies to set them on fire!",
-        "LocalizedString": "Throw this at your enemies to set them on fire!"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Wrapped_Liquid_Container_01.T_Icon_Wrapped_Liquid_Container_01",
@@ -103,7 +103,7 @@
       "BaseDurability": 525,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "6Z9gGkjXwODcqvCBFRmlEA",
       "InternalName": "weap_throwable_fireoil"

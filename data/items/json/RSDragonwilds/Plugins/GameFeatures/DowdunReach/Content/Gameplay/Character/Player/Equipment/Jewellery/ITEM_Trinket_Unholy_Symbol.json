@@ -10,29 +10,29 @@
       "bLosesDurabilityOnDamageCaused": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_UnholySymbol_Damage_AllCombatStylesMultiplier_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Attack/GE_UnholySymbol_Damage_AllCombatStylesMultiplier.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Attack/GE_UnholySymbol_Damage_AllCombatStylesMultiplier"
         },
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Trinket_ModifyBaseHealth_UnholySymbol_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_ModifyBaseHealth_UnholySymbol.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Trinkets/GE_Trinket_ModifyBaseHealth_UnholySymbol"
         }
       ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "UnholySymbol",
-        "SourceString": "Unholy Symbol",
-        "LocalizedString": "Unholy Symbol"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "UnholySymbol",
-        "SourceString": "A necklace that proudlty displays the Zamorak symbol. Don't wear it to church.",
-        "LocalizedString": "A necklace that proudlty displays the Zamorak symbol. Don't wear it to church."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Unholy_Symbol.T_Icon_Unholy_Symbol",
@@ -43,6 +43,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -56,25 +59,25 @@
       ],
       "DurabilityVsResourceConsumptionCurve": {
         "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost"
       },
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "UnholySymbol.Boon",
-            "SourceString": "Increases DAMAGE\r\nReduces HEALTH while worn",
-            "LocalizedString": "Increases DAMAGE\r\nReduces HEALTH while worn"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

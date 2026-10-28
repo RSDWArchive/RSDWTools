@@ -1115,7 +1115,7 @@ body.quest-editor-page {
 }
 
 .item-grid--loadout {
-  grid-template-columns: repeat(5, var(--slot-size));
+  grid-template-columns: repeat(6, var(--slot-size));
 }
 
 .item-grid--tabbed {

@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Heart_Withered'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Heart_Withered.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Heart_Withered"
           },
           "Count": 1
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Ectoplasm'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Ectoplasm.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Ectoplasm"
           },
           "Count": 3
         }
@@ -29,12 +29,12 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier1"
       },

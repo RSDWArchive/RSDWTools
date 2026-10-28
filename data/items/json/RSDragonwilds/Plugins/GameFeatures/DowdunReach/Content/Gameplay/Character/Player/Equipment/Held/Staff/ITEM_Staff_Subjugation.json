@@ -11,7 +11,11 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Staff_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Magic/PA_Spell_Staff_JumpAttack"
       },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
@@ -19,21 +23,21 @@
       },
       "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Secondary_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Secondary"
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_StaffAdaptiveTriggers'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Staff/FF_StaffAdaptiveTriggers"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Staff_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/A_PlayerM_Idle_Staff_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Staff/A_PlayerM_Idle_Staff_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
@@ -45,7 +49,7 @@
       "AmmoType": "EHeldEquipmentAmmoType::Runes",
       "MagicAttackCollection": {
         "ObjectName": "BlueprintGeneratedClass'BP_MagicAttackCollection_Staff_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Magic/BP_MagicAttackCollection_Staff"
       },
       "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
@@ -53,30 +57,30 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_SubjugationStaff_DamageModifierReceiverTypeDemon_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/SubjugationStaff/GE_SubjugationStaff_DamageModifierReceiverTypeDemon.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Equipment/SubjugationStaff/GE_SubjugationStaff_DamageModifierReceiverTypeDemon"
         }
       ],
       "bShouldRestOnGround": true,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "SubjugationStaff",
-        "SourceString": "Subjugation Staff",
-        "LocalizedString": "Subjugation Staff"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SubjugationStaff",
-        "SourceString": "A powerful battlestaff, once owned and used by Archmage Alric.",
-        "LocalizedString": "A powerful battlestaff, once owned and used by Archmage Alric."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Subjugation_Staff.T_Icon_Subjugation_Staff",
@@ -100,21 +104,21 @@
       "BaseDurability": 1600,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "SubjugationStaff.Boon",
-            "SourceString": "Increased DAMAGE against DEMONS",
-            "LocalizedString": "Increased DAMAGE against DEMONS"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

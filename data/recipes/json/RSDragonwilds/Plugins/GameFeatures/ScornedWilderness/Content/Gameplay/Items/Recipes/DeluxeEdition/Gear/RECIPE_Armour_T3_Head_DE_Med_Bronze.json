@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_BronzeBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_BronzeBar"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Leather_Hard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool"
           },
           "Count": 1
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "WearableEquipmentData'ITEM_Armour_T3_Head_BronzeMed'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_BronzeMed.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T3_Head_BronzeMed"
           },
           "Count": 1
         }
@@ -43,12 +43,12 @@
       "bIgnoreAutomaticUnlocks": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Smithing_Forge_Tier3"
       },

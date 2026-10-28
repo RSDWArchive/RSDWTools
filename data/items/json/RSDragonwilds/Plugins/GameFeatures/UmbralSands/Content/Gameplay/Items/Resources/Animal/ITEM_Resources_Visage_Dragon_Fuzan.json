@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DraconicVisage.Fuzan",
-        "SourceString": "Smouldering Draconic Visage",
-        "LocalizedString": "Smouldering Draconic Visage"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DraconicVisage",
-        "SourceString": "The image of a fearsome dragon. Used in crafting powerful equipment. ",
-        "LocalizedString": "The image of a fearsome dragon. Used in crafting powerful equipment. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragon_Visage.T_Icon_Dragon_Visage",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Component"
       ],

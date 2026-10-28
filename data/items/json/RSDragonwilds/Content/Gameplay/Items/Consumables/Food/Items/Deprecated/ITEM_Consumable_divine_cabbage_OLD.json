@@ -2,114 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_divine_cabbage_OLD",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "AmountToHealOnConsume": 60.0,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Divine_Cabbage"
-      },
-      "Duration": 1800.0,
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_ModifyMaxHealth_C'ITEM_Consumable_divine_cabbage_OLD:GE_ModifyMaxHealth_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.3"
-          }
-        },
-        {
-          "Effect": {
-            "ObjectName": "GE_ModifyMaxStamina_C'ITEM_Consumable_divine_cabbage_OLD:GE_ModifyMaxStamina_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.4"
-          }
-        },
-        {
-          "Effect": {
-            "ObjectName": "GE_ModifyHealthRegen_C'ITEM_Consumable_divine_cabbage_OLD:GE_ModifyHealthRegen_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_divine_cabbage_OLD:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.1"
-        }
-      },
-      "Name": {
-        "Namespace": "",
-        "Key": "FBF29BA64B0E51EC81BD48B2BE61DFBC",
-        "SourceString": "Divine Cabbage",
-        "LocalizedString": "Divine Cabbage"
-      },
-      "FlavourText": {
-        "Namespace": "",
-        "Key": "FCF721844BCD128CC2C4E896B3AAA2CB",
-        "SourceString": "Deliciousness is power!",
-        "LocalizedString": "Deliciousness is power!"
-      },
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.60",
-            "SourceString": "+60 Health",
-            "LocalizedString": "+60 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/T_Food_Cabbage.T_Food_Cabbage",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Health_Stamina_Buff.T_Health_Stamina_Buff",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Consumable/Food/SM_Cabbage_01.SM_Cabbage_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 99,
-      "Weight": 0.7,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Fish"
-      },
-      "CompostAmount": 10,
-      "PersistenceID": "TODWPUpA_YR0EnaqhMstcQ",
-      "InternalName": "food_divine_cabbage",
-      "bSoftDeleted": true,
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -118,62 +18,26 @@
     "Name": "GE_ModifyHealthRegen_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealthRegen.GE_ModifyHealthRegen_C'",
-    "Template": {
-      "ObjectName": "GE_ModifyHealthRegen_C'Default__GE_ModifyHealthRegen_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyHealthRegen.3"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 3.0
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_ModifyMaxHealth_C",
     "Name": "GE_ModifyMaxHealth_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxHealth.GE_ModifyMaxHealth_C'",
-    "Template": {
-      "ObjectName": "GE_ModifyMaxHealth_C'Default__GE_ModifyMaxHealth_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxHealth.2"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 30.0
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_ModifyMaxStamina_C",
     "Name": "GE_ModifyMaxStamina_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_divine_cabbage_OLD'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/Deprecated/ITEM_Consumable_divine_cabbage_OLD.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxStamina.GE_ModifyMaxStamina_C'",
-    "Template": {
-      "ObjectName": "GE_ModifyMaxStamina_C'Default__GE_ModifyMaxStamina_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxStamina.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 50.0
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

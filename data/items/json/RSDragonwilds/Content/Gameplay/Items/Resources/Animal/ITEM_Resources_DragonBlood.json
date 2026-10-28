@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DragonBlood",
-        "SourceString": "Dragon Blood",
-        "LocalizedString": "Dragon Blood"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DragonBlood",
-        "SourceString": "Harvested from dragons and dragonwolves. Used as a tanning agent at the tannery.",
-        "LocalizedString": "Harvested from dragons and dragonwolves. Used as a tanning agent at the tannery."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Dragon_Blood.T_Icon_Dragon_Blood",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

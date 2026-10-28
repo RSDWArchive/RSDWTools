@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MonkfishPristine",
-        "SourceString": "Pristine Monkfish",
-        "LocalizedString": "Pristine Monkfish"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MonkfishPristine",
-        "SourceString": "Blimey. That's a big one.",
-        "LocalizedString": "Blimey. That's a big one."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Iconl_Fish_Monkfish_Pristine.T_Iconl_Fish_Monkfish_Pristine",
@@ -34,17 +34,21 @@
       "MaxStackSize": 99,
       "PowerLevel": 7,
       "Weight": 5.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.RawIngredient",
         "ItemFilter.Material.RawFish",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },
+      "CompostAmount": 10,
       "PersistenceID": "wM1AskkweSYyC_2YuR7tsw",
       "InternalName": "res_fish_pristine_monkfish"
     }

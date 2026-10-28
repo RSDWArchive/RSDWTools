@@ -4,21 +4,9 @@
     "Name": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Woodcutting'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_WoodcuttingCriticalHits.GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'Default__GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Woodcutting_WoodcuttingCriticalHits.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": 0.3
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "SkillData",
@@ -36,20 +24,20 @@
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "WoodcuttingLevelInstruction",
-        "SourceString": "Chop down trees or tear up saplings to level this skill. ",
-        "LocalizedString": "Chop down trees or tear up saplings to level this skill. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.MaxLevelFormat",
-        "SourceString": "/{0} XP",
-        "LocalizedString": "/{0} XP"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "StaminaCostDescriptionText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.StaminaCostDescription",
-        "SourceString": "{0} STAMINA COSTS",
-        "LocalizedString": "{0} STAMINA COSTS"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SkillType": "ESkill::Woodcutting",
       "Icon": {
@@ -73,7 +61,7 @@
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C'SKILL_Woodcutting:GE_PerkV2_Woodcutting_WoodcuttingCriticalHits_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.0"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.0"
           },
           "DescriptionText": {
             "CultureInvariantString": null
@@ -87,7 +75,7 @@
       "DamageXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Damage'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage"
         },
         "RowName": "SkillDamage_Woodcutting"
       },
@@ -97,7 +85,7 @@
       },
       "LevelUpSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival"
       },
       "TrimmedCapeRecipe": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Woodcutting.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Woodcutting",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "CactusSteak",
-        "SourceString": "Cactus Steak",
-        "LocalizedString": "Cactus Steak"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "CactusSteak",
-        "SourceString": "A moist and sweet botanical edible. It has a fresh floral fragrance.",
-        "LocalizedString": "A moist and sweet botanical edible. It has a fresh floral fragrance."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Cactus_Steak_Raw.T_Icon_Cactus_Steak_Raw",
@@ -38,11 +38,13 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Plant.Chunky"
       },
+      "CompostAmount": 10,
       "PersistenceID": "rwsHuURIjnLzTLeZxqUjGw",
       "InternalName": "res_steak_cactus"
     }

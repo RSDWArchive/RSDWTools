@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Linen'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Linen.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Linen"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Swamp'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp"
           },
           "Count": 4
         }
@@ -42,7 +42,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "PersistenceID": "arAmHEPYl04ZXNO2ZQqoJQ",
       "InternalName": "recipe_armour_head_anglershat"

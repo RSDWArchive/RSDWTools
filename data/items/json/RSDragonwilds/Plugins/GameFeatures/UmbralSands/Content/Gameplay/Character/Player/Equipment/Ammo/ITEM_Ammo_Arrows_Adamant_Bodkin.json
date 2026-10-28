@@ -17,10 +17,14 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowBodkin'",
+        "ObjectPath": "/Game/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowBodkin"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
           "DamageType.Ranged.Arrows"
         ],
@@ -28,28 +32,28 @@
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+        "ObjectPath": "/Game/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon"
       },
       "Tier": 5,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AdamantArrows",
-        "SourceString": "Adamant Arrow",
-        "LocalizedString": "Adamant Arrow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AdamantArrows",
-        "SourceString": "Arrows with tips forged from adamant.",
-        "LocalizedString": "Arrows with tips forged from adamant."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Arrows_Adamant.T_Icon_Arrows_Adamant",
@@ -61,13 +65,16 @@
       },
       "MaxStackSize": 999,
       "PowerLevel": 7,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Adamant"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Ammo.Arrow"
       ],
       "bDropOnDeath": false,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "ZT1Lf0dvi6G6vbSbllOXtw",
       "InternalName": "ammo_arrows_adamant"

@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/DragonStatue/ST_SaradominStatue.ST_SaradominStatue",
         "Key": "Jade.Emblem.Name",
-        "SourceString": "Jade Emblem",
-        "LocalizedString": "Jade Emblem"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/DragonStatue/ST_SaradominStatue.ST_SaradominStatue",
         "Key": "Emblem.Desc",
-        "SourceString": "One of three emblem keys required to unlock a statue.",
-        "LocalizedString": "One of three emblem keys required to unlock a statue."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.T_Icon_Saradomin_Symbol",

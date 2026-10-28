@@ -10,25 +10,25 @@
       "bLosesDurabilityOnDamageReceived": false,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Trinket_SpawnCorpseCottonFlower_RavannasRing_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_SpawnCorpseCottonFlower_RavannasRing.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Trinkets/GE_Trinket_SpawnCorpseCottonFlower_RavannasRing"
         }
       ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Trinket.RavanasRing",
-        "SourceString": "Ravanna's Ring",
-        "LocalizedString": "Ravanna's Ring"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Trinket.Inspiring.DurabilityWhenEquipped",
-        "SourceString": "This item loses durability over time when equipped.",
-        "LocalizedString": "This item loses durability over time when equipped."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Ravanna_Ring.T_Icon_Ravanna_Ring",
@@ -43,6 +43,9 @@
         "SubPathString": ""
       },
       "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -55,25 +58,25 @@
       ],
       "DurabilityVsResourceConsumptionCurve": {
         "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost"
       },
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "RavannasRing.Description",
-            "SourceString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell",
-            "LocalizedString": "After KILLING an enemy, there is a chance for a CORPSE COTTON FLOWER to grow where they fell"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

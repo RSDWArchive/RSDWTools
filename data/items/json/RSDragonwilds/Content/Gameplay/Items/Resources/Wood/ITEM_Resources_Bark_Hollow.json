@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "HollowBark",
-        "SourceString": "Hollow Bark",
-        "LocalizedString": "Hollow Bark"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "HollowBark",
-        "SourceString": "Found lying around Fellhollow, around long-dead trees. Used in crafting.",
-        "LocalizedString": "Found lying around Fellhollow, around long-dead trees. Used in crafting."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Hollow_Bark.T_Icon_Hollow_Bark",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 2.8,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Wood"
       },

@@ -20,7 +20,7 @@
       "bIgnoreAutomaticUnlocks": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "xT9tB012lY0uSjChrhOtxA",

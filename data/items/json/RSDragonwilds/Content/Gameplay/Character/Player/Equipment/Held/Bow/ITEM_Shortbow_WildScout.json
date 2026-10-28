@@ -11,42 +11,46 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_QuickAction_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Shortbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Bow/PA_Spell_Shortbow_JumpAttack"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_Shortbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_Aim_Shortbow"
       },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_QuickAction_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_QuickAction.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Shortbow_Rapidshot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/PA_RangedAttack_Shortbow_Rapidshot"
       },
       "AnimationPoseType": "EAnimationPoseType::Ranged",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Bow_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Idle_Bow_Poses"
       },
       "AimSweepSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
       },
       "AimSweepCrouchedSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
       },
       "WindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw"
       },
       "FullWindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold"
       },
       "WindUpMaxMovementSpeedOverride": 300.0,
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Bows"
       },
@@ -61,12 +65,12 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::Arrows",
       "ProjectileClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
       },
       "RangedAttackCollection": {
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Shortbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Shortbow/BP_PlayerRangedAttackCollection_Shortbow"
       },
       "PreferredLockOnCameraAimMode": "ELockOnCameraAimMode::RangedWeapon",
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
@@ -74,29 +78,29 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_RangedAttack_DrawTime_Small_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_DrawTime_Small.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_DrawTime_Small"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WildScoutShortbow",
-        "SourceString": "Wild Scout's Shortbow",
-        "LocalizedString": "Wild Scout's Shortbow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WildScoutBow",
-        "SourceString": "A bow used by Wild Knight scout. Maintaining balance, one arrow at a time.",
-        "LocalizedString": "A bow used by Wild Knight scout. Maintaining balance, one arrow at a time."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/WeaponsArmours_07/T_Icon_Shortbow_Wild_Scout.T_Icon_Shortbow_Wild_Scout",
@@ -120,21 +124,21 @@
       "BaseDurability": 1050,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "WildScoutsShortbow.Boon",
-            "SourceString": "Increased DRAW SPEED with RANGED ATTACKS\r\nReduced DAMAGE",
-            "LocalizedString": "Increased DRAW SPEED with RANGED ATTACKS\r\nReduced DAMAGE"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

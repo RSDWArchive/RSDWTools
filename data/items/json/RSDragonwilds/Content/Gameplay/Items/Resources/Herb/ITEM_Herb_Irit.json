@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Irit",
-        "SourceString": "Irit",
-        "LocalizedString": "Irit"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Irit",
-        "SourceString": "Harvested from thorny irit roots and used when making meals.",
-        "LocalizedString": "Harvested from thorny irit roots and used when making meals."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Irit_Leaf.T_Icon_Irit_Leaf",
@@ -29,6 +29,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.CompostableSuper",

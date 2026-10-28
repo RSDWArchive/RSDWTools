@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book5_Title",
-        "SourceString": "Leonard The Bound",
-        "LocalizedString": "Leonard The Bound"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book5_Desc",
-        "SourceString": "This book squirms in your backpack, as though trying to escape.",
-        "LocalizedString": "This book squirms in your backpack, as though trying to escape."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.T_Icon_Abraxus_Necromancer_Book",

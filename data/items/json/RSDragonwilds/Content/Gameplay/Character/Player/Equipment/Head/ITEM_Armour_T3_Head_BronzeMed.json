@@ -7,39 +7,39 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_BronzeMed_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BronzeMed_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BronzeMed_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_BronzeMed_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BronzeMed_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_BronzeMed_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T03_Armour_Head_Heavy"
       },
       "ArmorWeight": "EArmorWeight::Heavy",
       "EntitlementRequiredToEquip": {
         "ObjectName": "EntitlementData'ED_DeluxeEdition'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Entitlements/ED_DeluxeEdition.0"
+        "ObjectPath": "/Game/Gameplay/Entitlements/ED_DeluxeEdition"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BronzeMedHelm",
-        "SourceString": "Bronze Med Helm",
-        "LocalizedString": "Bronze Med Helm"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BronzeMedHelm",
-        "SourceString": "A simple bronze helm that's seen more training grounds than battlefields.",
-        "LocalizedString": "A simple bronze helm that's seen more training grounds than battlefields."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Bronze_01.T_Icon_SM_U_MED_HEAD_MediumHelmet_Bronze_01",
@@ -51,6 +51,9 @@
       },
       "PowerLevel": 3,
       "Weight": 8.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],
@@ -60,7 +63,7 @@
       "BaseDurability": 1250,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "mwiaAUMc6BfjiRWau1uONQ",
       "InternalName": "armour_head_bronzeMed"

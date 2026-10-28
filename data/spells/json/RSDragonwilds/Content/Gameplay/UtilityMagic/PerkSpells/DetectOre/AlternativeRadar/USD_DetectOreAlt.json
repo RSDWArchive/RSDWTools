@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DetectOreAlt'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -12,7 +12,7 @@
       "CastXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Spells'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells"
         },
         "RowName": "Spell_DetectOre"
       },
@@ -23,7 +23,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -33,7 +33,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DetectOreAlt'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -42,7 +42,7 @@
         {
           "ItemData": {
             "ObjectName": "MagicAmmoData'ITEM_Rune_Fire'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire"
           },
           "Count": 5
         }
@@ -55,7 +55,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -65,14 +65,14 @@
     "Name": "SpellModule_GameplayEffect_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DetectOreAlt'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
     },
     "Class": "UScriptClass'SpellModule_GameplayEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "GameplayEffect": {
         "ObjectName": "BlueprintGeneratedClass'GE_DetectOreAlt_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/GE_DetectOreAlt.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/GE_DetectOreAlt"
       },
       "GameplayEffectSpellTarget": "EGameplayEffectSpellTarget::SpellOwner",
       "bSkipCanBeDamagedCheck": true,
@@ -86,7 +86,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -96,14 +96,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_DetectOreAlt'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_DetectOre'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_DetectOre.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_DetectOre"
       },
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage",
@@ -135,32 +135,32 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_DetectOreAlt:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_DetectOreAlt:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_GameplayEffect'USD_DetectOreAlt:SpellModule_GameplayEffect_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_DetectOreAlt:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.1"
             }
           }
         ]

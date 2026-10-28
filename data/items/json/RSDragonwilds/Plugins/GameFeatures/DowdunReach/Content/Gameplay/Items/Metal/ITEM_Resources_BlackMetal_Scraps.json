@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlackMetalScraps",
-        "SourceString": "Black Metal Scraps",
-        "LocalizedString": "Black Metal Scraps"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlackMetalScraps",
-        "SourceString": "Dropped from Black Knights. Can be reforged into black metal at a blast furnace.",
-        "LocalizedString": "Dropped from Black Knights. Can be reforged into black metal at a blast furnace."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Black_Metal_Scraps.T_Icon_Black_Metal_Scraps",

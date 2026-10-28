@@ -8,13 +8,13 @@
       "FuelValue": 90.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "OakLogs",
-        "SourceString": "Oak Logs",
-        "LocalizedString": "Oak Logs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",

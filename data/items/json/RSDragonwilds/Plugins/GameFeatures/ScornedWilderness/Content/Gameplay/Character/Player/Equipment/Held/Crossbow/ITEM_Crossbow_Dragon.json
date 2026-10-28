@@ -11,29 +11,33 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Crossbow_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_Spell_Crossbow_JumpAttack"
       },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_PunishingShot_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow_PunishingShot"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_CrossBow_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Crossbow/A_PlayerM_CrossBow_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Crossbow/A_PlayerM_CrossBow_Poses"
       },
       "WindUpMaxMovementSpeedOverride": 300.0,
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Bows"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Crossbow"
       },
@@ -43,8 +47,8 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::CrossbowBolts",
       "ProjectileClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base"
       },
       "ExcludedAmmoCategory": {
         "TagName": "Item.Equipment.Ammo.Bolt.Bone"
@@ -56,7 +60,7 @@
       "ReloadFailurePunishmentDuration": 1.0,
       "RangedAttackCollection": {
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_Crossbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Crossbow/BP_PlayerRangedAttackCollection_Crossbow"
       },
       "bLosesDurabilityOnAttack": false,
       "bLosesDurabilityOnDamageReceived": false,
@@ -67,7 +71,7 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "GrantedEffects": [
         {
@@ -77,19 +81,19 @@
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DragonCrossbow",
-        "SourceString": "Dragon Crossbow",
-        "LocalizedString": "Dragon Crossbow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DragonCrossbow",
-        "SourceString": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
-        "LocalizedString": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_Crossbow_Dragon_1H_01.T_Icon_SM_Crossbow_Dragon_1H_01",
@@ -113,21 +117,21 @@
       "BaseDurability": 1900,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "DragonCrossbow.Boon",
-            "SourceString": "Deals increased DAMAGE to DRAGONS",
-            "LocalizedString": "Deals increased DAMAGE to DRAGONS"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

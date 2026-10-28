@@ -16,26 +16,26 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T08_Armour_Head_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AncestralHat",
-        "SourceString": "Ancestral Hat",
-        "LocalizedString": "Ancestral Hat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AncestralHat",
-        "SourceString": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
-        "LocalizedString": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_F_MED_HEAD_AncestralRobes_01.T_Icon_SM_F_MED_HEAD_AncestralRobes_01",
@@ -47,6 +47,9 @@
       },
       "PowerLevel": 8,
       "Weight": 4.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],
@@ -56,7 +59,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "pRfnP0RAM_O9OweO7joHnw",
       "InternalName": "armour_head_ancestral"

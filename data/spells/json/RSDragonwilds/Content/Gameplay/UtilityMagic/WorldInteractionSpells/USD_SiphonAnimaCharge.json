@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -20,14 +20,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Sorcery_Spellcast_AnimaRuneSiphoning"
       },
       "bShouldRotateToCameraForward": false,
       "bShouldRotateToTarget": true,
@@ -43,7 +43,7 @@
     "Name": "SpellModule_SiphonAnimaCharge_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SiphonAnimaCharge'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.3"
     },
     "Class": "UScriptClass'SpellModule_SiphonAnimaCharge'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -57,7 +57,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -85,19 +85,19 @@
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_SiphonAnimaCharge:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_SiphonAnimaCharge:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_SiphonAnimaCharge'USD_SiphonAnimaCharge:SpellModule_SiphonAnimaCharge_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_SiphonAnimaCharge.2"
             }
           }
         ]

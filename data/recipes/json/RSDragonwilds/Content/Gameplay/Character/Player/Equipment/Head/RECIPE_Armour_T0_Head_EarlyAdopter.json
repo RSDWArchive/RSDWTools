@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "WearableEquipmentData'ITEM_Armour_Head_EarlyAdopter'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_EarlyAdopter.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_EarlyAdopter"
           },
           "Count": 1
         }

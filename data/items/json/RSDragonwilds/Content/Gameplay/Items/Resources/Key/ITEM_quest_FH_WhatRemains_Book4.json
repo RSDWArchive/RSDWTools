@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book4_Title",
-        "SourceString": "The Importance of Chaos",
-        "LocalizedString": "The Importance of Chaos"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book4_Desc",
-        "SourceString": "A religious tome discussing the god of rebellion.",
-        "LocalizedString": "A religious tome discussing the god of rebellion."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.T_Icon_Abraxus_Necromancer_Book",

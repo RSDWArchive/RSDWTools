@@ -4,7 +4,7 @@
     "Name": "GE_Runecrafting_AttunementPhaseDuration_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Runecrafting'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -24,20 +24,20 @@
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "RunecraftingLevelInstruction",
-        "SourceString": "Gather Rune Essence and craft Runes to level this skill. ",
-        "LocalizedString": "Gather Rune Essence and craft Runes to level this skill. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.MaxLevelFormat",
-        "SourceString": "/{0} XP",
-        "LocalizedString": "/{0} XP"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "StaminaCostDescriptionText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.StaminaCostDescription",
-        "SourceString": "{0} STAMINA COSTS",
-        "LocalizedString": "{0} STAMINA COSTS"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SkillType": "ESkill::Runecrafting",
       "Icon": {
@@ -61,7 +61,7 @@
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_Runecrafting_AttunementPhaseDuration_C'SKILL_Runecrafting:GE_Runecrafting_AttunementPhaseDuration_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.0"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.0"
           },
           "DescriptionText": {
             "CultureInvariantString": null
@@ -75,13 +75,13 @@
       "DamageXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Damage'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage"
         },
         "RowName": "SkillDamage_Runecrafting"
       },
       "LevelUpSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Magic.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Magic"
       },
       "TrimmedCapeRecipe": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Runecrafting.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Runecrafting",

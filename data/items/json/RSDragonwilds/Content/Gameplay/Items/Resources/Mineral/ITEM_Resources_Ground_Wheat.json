@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BagFlour",
-        "SourceString": "Bag of Flour",
-        "LocalizedString": "Bag of Flour"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Flour",
-        "SourceString": "Cultivated grains ground to a fine powder.",
-        "LocalizedString": "Cultivated grains ground to a fine powder."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Additional_Food_Icons/T_Icon_Bag_of_flour.T_Icon_Bag_of_flour",
@@ -35,7 +35,7 @@
       "PowerLevel": 2,
       "Weight": 0.4,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

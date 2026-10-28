@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "ITEM_Armour_Head_AnglersHat"
       },
@@ -28,19 +28,19 @@
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AnglersHat",
-        "SourceString": "Angler's Hat",
-        "LocalizedString": "Angler's Hat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AnglersHat",
-        "SourceString": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node.",
-        "LocalizedString": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [
@@ -49,7 +49,7 @@
             "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
             "Key": "TooltipDescription_AnglersHat",
             "SourceString": null,
-            "LocalizedString": null
+            "LocalizedString": ""
           },
           "Value": {
             "Namespace": "",
@@ -69,6 +69,9 @@
       },
       "PowerLevel": 1,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Special.Fishing.AnglersHat"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Special.Fishing.AnglersHat"
       ],
@@ -78,7 +81,7 @@
       "BaseDurability": 1250,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "clW1z0OG0RwzS7mfCP1p1g",
       "InternalName": "armour_head_anglershat"

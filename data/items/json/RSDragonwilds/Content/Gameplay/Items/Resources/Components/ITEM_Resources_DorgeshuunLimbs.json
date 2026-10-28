@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DorgeshuunLimbs",
-        "SourceString": "Bone Crossbow Limbs",
-        "LocalizedString": "Bone Crossbow Limbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DorgeshuunLimbs",
-        "SourceString": "Crossbow limbs made from powerful bone. Used in crafting the Dorgeshuun Crossbow.",
-        "LocalizedString": "Crossbow limbs made from powerful bone. Used in crafting the Dorgeshuun Crossbow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Dorgeshuun_Crossbow_Limbs.T_icon_Dorgeshuun_Crossbow_Limbs",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Component"
       ],

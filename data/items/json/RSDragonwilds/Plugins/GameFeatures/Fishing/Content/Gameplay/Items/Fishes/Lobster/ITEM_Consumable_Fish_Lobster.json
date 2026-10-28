@@ -2,147 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_Fish_Lobster",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "Lobster"
-      },
-      "VitalShieldRowHandle": {
-        "DataTable": {
-          "ObjectName": "GridlyDataTable'DT_VitalShield'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield.0"
-        }
-      },
-      "AmountToHealOnConsume": 50.0,
-      "DurationMultiplierAttribute": null,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Tier1_Food"
-      },
-      "Duration": 120.0,
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_SeaLegs_C'ITEM_Consumable_Fish_Lobster:GE_SeaLegs_C_0'",
-            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Fish_Lobster:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.1"
-        }
-      },
-      "AchievementGameplayTags": [
-        "Item.Food.Fish"
-      ],
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "RoastedLobster",
-        "SourceString": "Roasted Lobster",
-        "LocalizedString": "Roasted Lobster"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "RoastedLobster",
-        "SourceString": "Does wonders for your hunger bar. Grants the Sea Legs perk. ",
-        "LocalizedString": "Does wonders for your hunger bar. Grants the Sea Legs perk. "
-      },
-      "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.50",
-            "SourceString": "+50 Health",
-            "LocalizedString": "+50 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Cooked_Fish_Icons/T_Icon_Roast_Lobster.T_Icon_Roast_Lobster",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 99,
-      "PowerLevel": 4,
-      "Weight": 0.7,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "ItemFilterTags": [
-        "ItemFilter.Type.Consumable.Food",
-        "Item.Farming.CompostableSuper"
-      ],
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Meat"
-      },
-      "PickupXPEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
-        },
-        "RowName": "Pickup_Campfire_Processed_Item"
-      },
-      "CompostAmount": 10,
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Name_SeaLegs",
-            "SourceString": null,
-            "LocalizedString": null
-          },
-          "Description": {
-            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Info_SeaLegs",
-            "SourceString": null,
-            "LocalizedString": null
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SeaLegs.T_Icon_Buff_SeaLegs",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "Mtq3OkIkK_Y2W3iF1Gye9A",
-      "InternalName": "food_fish_lobster"
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Lobster'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -151,7 +18,7 @@
     "Name": "GE_SeaLegs_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fish_Lobster'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Lobster/ITEM_Consumable_Fish_Lobster.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "Magnet.ItemName",
-        "SourceString": "Magnet",
-        "LocalizedString": "Magnet"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "Magnet.Description",
-        "SourceString": "A magnet smithed by Pulpknuckle.",
-        "LocalizedString": "A magnet smithed by Pulpknuckle."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Magnet.T_Icon_Magnet",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlackDragonLeather",
-        "SourceString": "Black Dragon Leather",
-        "LocalizedString": "Black Dragon Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlackDragonhideLeather",
-        "SourceString": "Made by tanning black dragonhide. A key component for ranged armour.",
-        "LocalizedString": "Made by tanning black dragonhide. A key component for ranged armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Black_Dragon_Leather.T_Icon_Black_Dragon_Leather",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

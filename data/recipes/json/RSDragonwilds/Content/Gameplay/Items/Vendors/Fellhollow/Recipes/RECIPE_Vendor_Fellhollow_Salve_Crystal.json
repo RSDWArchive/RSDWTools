@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
           },
           "Count": 25
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Salve_Crystal'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal"
           },
           "Count": 1
         }
@@ -29,7 +29,7 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "ey8IkEndbZ6pUZmtMDCW7A",

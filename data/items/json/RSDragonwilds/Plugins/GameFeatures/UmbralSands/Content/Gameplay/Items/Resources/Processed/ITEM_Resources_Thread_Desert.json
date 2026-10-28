@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ThreadDesert",
-        "SourceString": "Desert Thread",
-        "LocalizedString": "Desert Thread"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DesertThread",
-        "SourceString": "A strong but rough thread spun from desert weed.",
-        "LocalizedString": "A strong but rough thread spun from desert weed."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Desert_Thread.T_Icon_Desert_Thread",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 0.6,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Potion"
       },
+      "CompostAmount": 10,
       "PersistenceID": "-aCGLkug5wgNq8-2x1EfZw",
       "InternalName": "res_thread_desert"
     }

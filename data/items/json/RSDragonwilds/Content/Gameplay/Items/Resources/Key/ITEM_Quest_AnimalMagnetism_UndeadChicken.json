@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "UndeadChicken.ItemName",
-        "SourceString": "Undead Chicken",
-        "LocalizedString": "Undead Chicken"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "UndeadChicken.Description",
-        "SourceString": "Manktongue asked for an Undead Chicken.",
-        "LocalizedString": "Manktongue asked for an Undead Chicken."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_ZombieChicken.T_Icon_ZombieChicken",

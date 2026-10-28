@@ -9,28 +9,28 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Alpha_Leather'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Alpha_Leather.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Alpha_Leather"
           },
           "Count": 3
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Logging_Axe_Iron'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Iron.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/ITEM_Logging_Axe_Iron"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Bark_Hollow'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Bark_Hollow.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Bark_Hollow"
           },
           "Count": 3
         }
@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "WearableEquipmentData'ITEM_Cape_Lumber_Backpack'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Lumber_Backpack.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Lumber_Backpack"
           },
           "Count": 1
         }
@@ -49,7 +49,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 0,
       "PersistenceID": "DNZKS0dbPQpB7LGqRzTQwg",

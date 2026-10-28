@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GreenDragonHide",
-        "SourceString": "Green Dragon Hide",
-        "LocalizedString": "Green Dragon Hide"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GreenDragonhide",
-        "SourceString": "Obtained from felled Lesser Green Dragons. Can be processed at the tannery.",
-        "LocalizedString": "Obtained from felled Lesser Green Dragons. Can be processed at the tannery."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Green_Dragon_Hide.T_Icon_Green_Dragon_Hide",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],
@@ -42,7 +45,7 @@
       "PickupXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         },
         "RowName": "Pickup_Animal_Crafting_Resource"
       },

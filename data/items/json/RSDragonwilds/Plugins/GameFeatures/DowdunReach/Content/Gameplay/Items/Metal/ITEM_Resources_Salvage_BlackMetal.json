@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "SalvagePileBlack",
-        "SourceString": "Black Salvage Pile",
-        "LocalizedString": "Black Salvage Pile"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SalvagePileBlack",
-        "SourceString": "Scraps that can be searched through. Little bits of Black Knight are in there.",
-        "LocalizedString": "Scraps that can be searched through. Little bits of Black Knight are in there."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Salvage_Black_Metal.T_Icon_Salvage_Black_Metal",

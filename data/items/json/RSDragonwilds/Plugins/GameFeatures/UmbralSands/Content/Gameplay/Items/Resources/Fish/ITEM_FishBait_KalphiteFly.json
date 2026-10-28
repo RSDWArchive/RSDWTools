@@ -17,14 +17,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "KalphiteBait",
-        "SourceString": "Kalphite Bait",
-        "LocalizedString": "Kalphite Bait"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "KalphiteBait",
-        "SourceString": "Kalphite bait. Increases the catch chance of fish.",
-        "LocalizedString": "Kalphite bait. Increases the catch chance of fish."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Kalphite_Fly_Bait.T_Icon_Kalphite_Fly_Bait",

@@ -7,7 +7,7 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "Namespace": "",

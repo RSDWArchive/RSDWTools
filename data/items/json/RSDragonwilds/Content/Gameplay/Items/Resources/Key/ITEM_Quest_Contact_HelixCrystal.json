@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
         "Key": "CrystalHelixShard.Name",
-        "SourceString": "Crystal Helix Fragment",
-        "LocalizedString": "Crystal Helix Fragment"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/Contact/ST_Contact.ST_Contact",
         "Key": "CrystalHelixShard.Desc",
-        "SourceString": "A broken fragment of the Crystal Helix",
-        "LocalizedString": "A broken fragment of the Crystal Helix"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Crystal_Helix_Fragment.T_Icon_Crystal_Helix_Fragment",

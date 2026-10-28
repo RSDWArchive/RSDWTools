@@ -7,35 +7,35 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_DragonkinMage_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_DragonkinMage_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_DragonkinMage_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T04_Armour_Head_Light"
       },
       "ArmorWeight": "EArmorWeight::Light",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DragonkinHat",
-        "SourceString": "Dragonkin Mage Hood",
-        "LocalizedString": "Dragonkin Mage Hood"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DragonkinMageHood",
-        "SourceString": "A hood styled after the ancient overlords of Ashenfall.",
-        "LocalizedString": "A hood styled after the ancient overlords of Ashenfall."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Armours_07/test/test2/T_Icon_Dragonkin_Dark_Mage_Hood.T_Icon_Dragonkin_Dark_Mage_Hood",
@@ -47,6 +47,9 @@
       },
       "PowerLevel": 4,
       "Weight": 4.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],
@@ -56,7 +59,7 @@
       "BaseDurability": 1400,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",

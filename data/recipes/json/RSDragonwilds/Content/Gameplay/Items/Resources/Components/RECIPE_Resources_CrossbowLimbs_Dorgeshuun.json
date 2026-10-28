@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
           },
           "Count": 2
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_DorgeshuunLimbs'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs"
           },
           "Count": 1
         }
@@ -28,12 +28,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

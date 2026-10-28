@@ -4,126 +4,54 @@
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level1.GE_PerkV2_Cooking_ChanceToBurn_Level1_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level1_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level1.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.045455
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level2.GE_PerkV2_Cooking_ChanceToBurn_Level2_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level2_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level2.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.038462
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level3.GE_PerkV2_Cooking_ChanceToBurn_Level3_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level3_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level3.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.035715
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level4.GE_PerkV2_Cooking_ChanceToBurn_Level4_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level4_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level4.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.045455
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level5.GE_PerkV2_Cooking_ChanceToBurn_Level5_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level5_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level5.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.02
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C",
     "Name": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level6.GE_PerkV2_Cooking_ChanceToBurn_Level6_C'",
-    "Template": {
-      "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C'Default__GE_PerkV2_Cooking_ChanceToBurn_Level6_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/PerksV2/GE_PerkV2_Cooking_ChanceToBurn_Level6.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "AmountToModify": {
-          "Value": -0.020834
-        }
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "SkillData",
@@ -141,20 +69,20 @@
       "LevelUpDescriptionText": {
         "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
         "Key": "CookingLevelInstruction",
-        "SourceString": "Cook meals to level this skill. ",
-        "LocalizedString": "Cook meals to level this skill. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "MaxLevelFormatText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.MaxLevelFormat",
-        "SourceString": "/{0} XP",
-        "LocalizedString": "/{0} XP"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "StaminaCostDescriptionText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "Skills.StaminaCostDescription",
-        "SourceString": "{0} STAMINA COSTS",
-        "LocalizedString": "{0} STAMINA COSTS"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SkillType": "ESkill::Cooking",
       "Icon": {
@@ -178,13 +106,13 @@
           "LevelRangeEnd": 12,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level1_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level1_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.0"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.0"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T1.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 1 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 1 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -195,13 +123,13 @@
           "LevelRangeEnd": 25,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level2_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level2_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.1"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.1"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T2.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 2 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 2 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -212,13 +140,13 @@
           "LevelRangeEnd": 39,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level3_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level3_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.2"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.2"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T3.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 3 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 3 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -229,13 +157,13 @@
           "LevelRangeEnd": 50,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level4_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level4_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.3"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.3"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T4.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 4 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 4 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -246,13 +174,13 @@
           "LevelRangeEnd": 75,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level5_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level5_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.4"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.4"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T5.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 5 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 5 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -263,13 +191,13 @@
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
             "ObjectName": "GE_PerkV2_Cooking_ChanceToBurn_Level6_C'SKILL_Cooking:GE_PerkV2_Cooking_ChanceToBurn_Level6_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.5"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.5"
           },
           "DescriptionText": {
             "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
             "Key": "Cooking.GastronomicGains.T6.Description",
-            "SourceString": "Reduces the chance to Burn Power Level 6 Ingredients",
-            "LocalizedString": "Reduces the chance to Burn Power Level 6 Ingredients"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Cooking.T_Icon_SkillTree_Cooking",
@@ -280,14 +208,14 @@
       "DamageXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Damage'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage"
         },
         "RowName": "SkillDamage_Cooking"
       },
       "bShowMinorPerkStatSummary": false,
       "LevelUpSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival"
       },
       "TrimmedCapeRecipe": {
         "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Body/RECIPE_Armour_T0_Cape_TrimmedSkillcape_Cooking.RECIPE_Armour_T0_Cape_TrimmedSkillcape_Cooking",

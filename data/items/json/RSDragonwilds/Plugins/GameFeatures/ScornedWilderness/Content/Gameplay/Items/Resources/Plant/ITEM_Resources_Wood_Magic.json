@@ -8,19 +8,19 @@
       "FuelValue": 60.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MagicLogs",
-        "SourceString": "Magic Logs",
-        "LocalizedString": "Magic Logs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MagicLogs",
-        "SourceString": "Cut from magic trees. Can be crafted into various equipment.",
-        "LocalizedString": "Cut from magic trees. Can be crafted into various equipment."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Magic_Wood.T_Icon_Magic_Wood",
@@ -42,8 +42,8 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
-        "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

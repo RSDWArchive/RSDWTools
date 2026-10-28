@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "HarmonisedCompound",
-        "SourceString": "Harmonised Compound",
-        "LocalizedString": "Harmonised Compound"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "HarmonisedCompound",
-        "SourceString": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel.",
-        "LocalizedString": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Harmonized_Compound.T_Icon_Harmonized_Compound",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

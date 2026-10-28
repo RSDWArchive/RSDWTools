@@ -2,98 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Resources_Watermelon",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "v3_Watermelon"
-      },
-      "AmountToHealOnConsume": 10.0,
-      "Duration": 0.0,
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Resources_Watermelon:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Watermelon.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
-        "Key": "Name_Plant_Watermelon",
-        "SourceString": "Watermelon",
-        "LocalizedString": "Watermelon"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
-        "Key": "FlavourText_Plant_Watermelon",
-        "SourceString": "A juicy watermelon.",
-        "LocalizedString": "A juicy watermelon."
-      },
-      "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.10",
-            "SourceString": "+10 Health",
-            "LocalizedString": "+10 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Watermelon.T_Icon_Watermelon",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Skill_Cooking.T_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Melon/SM_Melon_NoSway.SM_Melon_NoSway",
-        "SubPathString": ""
-      },
-      "bShowNotificationOnFirstPickup": true,
-      "bGoIntoHotbarOnPickup": false,
-      "MaxStackSize": 99,
-      "PowerLevel": 4,
-      "Weight": 1.0,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "ItemFilterTags": [
-        "ItemFilter.Type.Resource",
-        "Item.Farming.CanBeSummonedByHarvestSpell",
-        "Item.Farming.CompostableSuper"
-      ],
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Plant.Chewy"
-      },
-      "CompostAmount": 10,
-      "PersistenceID": "Oj3BdU4ZfC9iOtq4vXaOww",
-      "InternalName": "food_fruit_Watermelon"
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Resources_Watermelon'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Watermelon.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Watermelon.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

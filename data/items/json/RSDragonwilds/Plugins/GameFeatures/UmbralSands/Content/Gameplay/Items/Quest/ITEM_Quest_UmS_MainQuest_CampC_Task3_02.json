@@ -13,13 +13,13 @@
         "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
         "Key": "Song.Name",
         "SourceString": null,
-        "LocalizedString": null
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
         "Key": "Song.Description",
         "SourceString": null,
-        "LocalizedString": null
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Scroll.T_Icon_Scroll",
@@ -28,6 +28,9 @@
       "bGoIntoHotbarOnPickup": false,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

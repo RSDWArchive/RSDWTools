@@ -35,7 +35,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "PersistenceID": "093tNkQnbpi9sH6d4j7TuA",
       "InternalName": "recipe_trinket_silverhawk_amulet_golden"

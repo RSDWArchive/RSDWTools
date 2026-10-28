@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
         "Key": "Zi.Core.Name",
-        "SourceString": "Zi's Core",
-        "LocalizedString": "Zi's Core"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
         "Key": "Zi.Core.Desc",
-        "SourceString": "Look, adventurer, I have an item description!",
-        "LocalizedString": "Look, adventurer, I have an item description!"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Ico_Zi_Core.T_Ico_Zi_Core",

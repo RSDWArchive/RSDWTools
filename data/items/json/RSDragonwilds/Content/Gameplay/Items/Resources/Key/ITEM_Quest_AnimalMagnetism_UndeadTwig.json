@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "UndeadTwigs.ItemName",
-        "SourceString": "Bundle of Undead Twigs",
-        "LocalizedString": "Bundle of Undead Twigs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/AnimalMagnetism/ST_AnimalMagnetism.ST_AnimalMagnetism",
         "Key": "UndeadTwigs.Description",
-        "SourceString": "Manktongue needs these undead twigs to make Ava's Accumulator.",
-        "LocalizedString": "Manktongue needs these undead twigs to make Ava's Accumulator."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Twig.T_Icon_Undead_Twig",

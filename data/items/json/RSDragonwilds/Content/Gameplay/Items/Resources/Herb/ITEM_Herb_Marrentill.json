@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Marrentill",
-        "SourceString": "Marrentill",
-        "LocalizedString": "Marrentill"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
         "Key": "Marrentill",
-        "SourceString": "A bitter tasting herb used in resistance potions. ",
-        "LocalizedString": "A bitter tasting herb used in resistance potions. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Marrentil.T_Icon_Resource_Marrentil",
@@ -29,6 +29,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

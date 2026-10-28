@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LeatherScorch",
-        "SourceString": "Scorch Leather",
-        "LocalizedString": "Scorch Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ScorchLeather",
-        "SourceString": "A light yet resilient leather, suited for survival in desert sands.",
-        "LocalizedString": "A light yet resilient leather, suited for survival in desert sands."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Scorched_Leather.T_Icon_Scorched_Leather",
@@ -33,12 +33,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },
+      "CompostAmount": 10,
       "PersistenceID": "oC4mrE6kt6tk7-mTY1YLKA",
       "InternalName": "res_leather_scorch"
     }

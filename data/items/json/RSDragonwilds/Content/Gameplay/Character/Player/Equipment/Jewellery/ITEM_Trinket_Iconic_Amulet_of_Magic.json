@@ -4,7 +4,7 @@
     "Name": "AttackingEquipmentMatchesAnyTag_Condition_0",
     "Outer": {
       "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Magic'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.1"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.1"
     },
     "Class": "UScriptClass'AttackingEquipmentMatchesAnyTag_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -24,30 +24,31 @@
       "CanLoseDurabilityOnAttackConditions": [
         {
           "ObjectName": "AttackingEquipmentMatchesAnyTag_Condition'ITEM_Trinket_Iconic_Amulet_of_Magic:AttackingEquipmentMatchesAnyTag_Condition_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.0"
+          "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.0"
         }
       ],
+      "Slot": "ELoadoutSlotStrategy::Necklace",
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Trinket_IncreaseMagicDamage_AmuletOfMagic_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Trinkets/GE_Trinket_IncreaseMagicDamage_AmuletOfMagic.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Trinkets/GE_Trinket_IncreaseMagicDamage_AmuletOfMagic"
         }
       ],
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Trinket.AmuletofMagic",
-        "SourceString": "Amulet of Magic",
-        "LocalizedString": "Amulet of Magic"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Trinket.AmuletOfMagic.FlavourText",
-        "SourceString": "A powerful magical amulet, popular with wizards everywhere.",
-        "LocalizedString": "A powerful magical amulet, popular with wizards everywhere."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Amulet_of_Magic.T_Icon_Amulet_of_Magic",
@@ -58,6 +59,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],
@@ -70,25 +74,25 @@
       ],
       "DurabilityVsResourceConsumptionCurve": {
         "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost"
       },
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
             "Key": "SpecialEffect",
-            "SourceString": "Special Effect",
-            "LocalizedString": "Special Effect"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AmuletOfMagic.Boon",
-            "SourceString": "Increased MAGIC DAMAGE",
-            "LocalizedString": "Increased MAGIC DAMAGE"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

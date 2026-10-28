@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ShrimpPristine",
-        "SourceString": "Pristine Shrimp",
-        "LocalizedString": "Pristine Shrimp"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ShrimpPristine",
-        "SourceString": "An unusually large Shrimp, cook it to gain more food.",
-        "LocalizedString": "An unusually large Shrimp, cook it to gain more food."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Shrimp.T_Icon_Shrimp",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.PristineFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BronzeLimbs",
-        "SourceString": "Bronze Crossbow Limbs",
-        "LocalizedString": "Bronze Crossbow Limbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BronzeLimbs",
-        "SourceString": "A pair of bronze crossbow limbs. Used in crafting a Bronze Crossbow.",
-        "LocalizedString": "A pair of bronze crossbow limbs. Used in crafting a Bronze Crossbow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_CrossbowLimb_Bronze_1H_01.T_Icon_CrossbowLimb_Bronze_1H_01",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Component"
       ],

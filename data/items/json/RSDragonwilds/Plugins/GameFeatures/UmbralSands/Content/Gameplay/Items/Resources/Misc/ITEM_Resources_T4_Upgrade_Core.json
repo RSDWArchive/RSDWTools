@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AscensionCore4",
-        "SourceString": "Ascension Core 4",
-        "LocalizedString": "Ascension Core 4"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Ascension.Core.T4",
-        "SourceString": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4.",
-        "LocalizedString": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power Level to Power Level 4."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Nightmare_Crucible_Keys_01_Blue.T_Icon_Nightmare_Crucible_Keys_01_Blue",

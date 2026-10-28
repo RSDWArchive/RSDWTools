@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlueDragonhide",
-        "SourceString": "Blue Dragonhide",
-        "LocalizedString": "Blue Dragonhide"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlueDragonhide",
-        "SourceString": "Obtained from felling lesser blue dragons. Can be processed at the tannery. ",
-        "LocalizedString": "Obtained from felling lesser blue dragons. Can be processed at the tannery. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragon_Hide.T_Icon_Blue_Dragon_Hide",
@@ -33,13 +33,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.2,
+      "Category": {
+        "TagName": "Item.Resource"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },
       "PickupXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         },
         "RowName": "Pickup_Animal_Crafting_Resource"
       },

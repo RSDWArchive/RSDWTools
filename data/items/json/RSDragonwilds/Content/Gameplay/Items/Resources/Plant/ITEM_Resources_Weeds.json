@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Res_Weeds",
-        "SourceString": "Weeds",
-        "LocalizedString": "Weeds"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Res_Weeds",
-        "SourceString": "A bunch of weeds.",
-        "LocalizedString": "A bunch of weeds."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weeds.T_Icon_Weeds",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.4,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "Item.Farming.Compostable",
         "ItemFilter.Material.BasicMaterial"

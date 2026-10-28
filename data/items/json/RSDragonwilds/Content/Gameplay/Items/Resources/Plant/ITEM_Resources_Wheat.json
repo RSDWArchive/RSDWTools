@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Res_Wheat",
-        "SourceString": "Wheat",
-        "LocalizedString": "Wheat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Resources_Wheat",
-        "SourceString": "A sheaf of wheat.",
-        "LocalizedString": "A sheaf of wheat."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Weat_Banch.T_Icon_Weat_Banch",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 0.4,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawIngredient"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "Opal",
-        "SourceString": "Opal",
-        "LocalizedString": "Opal"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "ARareGemstoneUsedToCraftEnchantedJewellery",
-        "SourceString": "A rare gemstone used to craft enchanted jewellery",
-        "LocalizedString": "A rare gemstone used to craft enchanted jewellery"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Opal.T_Icon_Resource_Opal",

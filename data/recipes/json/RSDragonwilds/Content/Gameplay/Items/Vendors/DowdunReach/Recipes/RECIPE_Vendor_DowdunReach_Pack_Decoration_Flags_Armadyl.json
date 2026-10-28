@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Currency_DreamShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard"
           },
           "Count": 250
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_ItemEmitter_C'ITEM_Consumable_PlanPack_Flags_Armadyl_01'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_PlanPack_Flags_Armadyl_01.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_PlanPack_Flags_Armadyl_01"
           },
           "Count": 1
         }
@@ -29,7 +29,7 @@
       "bIgnoreNotification": true,
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 40,
       "PersistenceID": "wFSAFE_fr9Vod8-VsI534Q",

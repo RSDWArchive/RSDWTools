@@ -2,144 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_Onion_Fried",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "v3_Onion_Fried"
-      },
-      "VitalShieldRowHandle": {
-        "DataTable": {
-          "ObjectName": "GridlyDataTable'DT_VitalShield'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield.0"
-        }
-      },
-      "AmountToHealOnConsume": 20.0,
-      "DurationMultiplierAttribute": null,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Tier1_Food"
-      },
-      "Duration": 150.0,
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_ResistBuildup_Shocked_C'ITEM_Consumable_Onion_Fried:GE_ResistBuildup_Shocked_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Onion_Fried:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "FriedOnion",
-        "SourceString": "Fried Onions",
-        "LocalizedString": "Fried Onions"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "FriedOnion",
-        "SourceString": "A pungeant meal that brings a tear to your eye. ",
-        "LocalizedString": "A pungeant meal that brings a tear to your eye. "
-      },
-      "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.20",
-            "SourceString": "+20 Health",
-            "LocalizedString": "+20 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/Food_07/T_Icon_Fried_Onions.T_Icon_Fried_Onions",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 99,
-      "PowerLevel": 3,
-      "Weight": 0.2,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Plant.Chewy"
-      },
-      "PickupXPEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
-        },
-        "RowName": "Pickup_Campfire_Processed_Item"
-      },
-      "CompostAmount": 10,
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Grounded.Title",
-            "SourceString": "Grounded",
-            "LocalizedString": "Grounded"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Grounded.Description",
-            "SourceString": "Grants RESISTANCE to SHOCK effects",
-            "LocalizedString": "Grants RESISTANCE to SHOCK effects"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_Grounded.T_Icon_Buff_Grounded",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "yEEiukHPM7htB4WeWEXeWg",
-      "InternalName": "food_onion_fried",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Onion_Fried'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -148,12 +18,7 @@
     "Name": "GE_ResistBuildup_Shocked_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Onion_Fried'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Shocked.GE_ResistBuildup_Shocked_C'",
-    "Template": {
-      "ObjectName": "GE_ResistBuildup_Shocked_C'Default__GE_ResistBuildup_Shocked_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_ResistBuildup_Shocked.1"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Onion_Fried.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

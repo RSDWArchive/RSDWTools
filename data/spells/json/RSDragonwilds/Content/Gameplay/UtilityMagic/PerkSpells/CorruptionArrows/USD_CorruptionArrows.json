@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -12,7 +12,7 @@
       "CastXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Spells'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells"
         },
         "RowName": "Spell_Windstep"
       },
@@ -23,7 +23,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -33,7 +33,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -42,14 +42,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Astral'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral"
           },
           "Count": 15
         },
         {
           "ItemData": {
             "ObjectName": "MagicAmmoData'ITEM_Rune_Air'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Air"
           },
           "Count": 5
         }
@@ -62,7 +62,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -72,14 +72,14 @@
     "Name": "SpellModule_HeldEquipmentEffect_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
     },
     "Class": "UScriptClass'SpellModule_HeldEquipmentEffect'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "HeldEquipmentEffectData": {
         "ObjectName": "BP_BaseCorruptionArrowsHeldEquipmentEffectData_C'HEED_CorruptionArrows'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/HEED_CorruptionArrows.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/HEED_CorruptionArrows"
       },
       "ModuleName": "HeldEquipmentEffect",
       "Triggers": {
@@ -93,14 +93,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_SpectralArrows'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_SpectralArrows.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_SpectralArrows"
       },
       "bShouldBlockMovement": false,
       "MaxMovementSpeedDuringMontage": 300.0,
@@ -121,14 +121,14 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Ranged.CorruptionArrows.Name",
-        "SourceString": "Spectral Arrows",
-        "LocalizedString": "Spectral Arrows"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SpecialRequirementsText": {
         "TableId": "/Game/UI/InGameMenus/TopNavScreens/ST_SkillsUI.ST_SkillsUI",
         "Key": "EquipmentNeeded.2hRanged",
-        "SourceString": "2-Handed Bow.",
-        "LocalizedString": "2-Handed Bow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 300.0,
       "SpellIcon": {
@@ -145,40 +145,40 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourPink'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresHeldRangedWeapon_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresHeldRangedWeapon.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresHeldRangedWeapon"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_CorruptionArrows:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_CorruptionArrows:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_CorruptionArrows:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_HeldEquipmentEffect'USD_CorruptionArrows:SpellModule_HeldEquipmentEffect_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.2"
             }
           }
         ]

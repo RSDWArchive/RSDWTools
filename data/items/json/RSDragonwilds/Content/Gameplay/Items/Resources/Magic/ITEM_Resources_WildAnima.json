@@ -8,13 +8,13 @@
       "FuelValue": 800.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WildAnima",
-        "SourceString": "Wild Anima",
-        "LocalizedString": "Wild Anima"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -34,6 +34,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.WildAnima"
       },

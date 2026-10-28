@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Limestone",
-        "SourceString": "Limestone",
-        "LocalizedString": "Limestone"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Limestone",
-        "SourceString": "A building material. It can also be ground into dust.",
-        "LocalizedString": "A building material. It can also be ground into dust."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Limestone.T_Icon_Limestone",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 1.5,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.Mineral"
       },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Stone"

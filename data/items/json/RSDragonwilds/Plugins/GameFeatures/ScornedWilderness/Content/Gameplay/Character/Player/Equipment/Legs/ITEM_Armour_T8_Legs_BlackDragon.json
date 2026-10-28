@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T08_Armour_Legs_Medium"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Legs",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlackDragonLegs",
-        "SourceString": "Black Dragonhide Chaps",
-        "LocalizedString": "Black Dragonhide Chaps"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlackDragonLegs",
-        "SourceString": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection.",
-        "LocalizedString": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_M_MED_LEGS_BlackDragonHideArmour_01.T_Icon_SM_M_MED_LEGS_BlackDragonHideArmour_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 8,
       "Weight": 9.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Medium"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Medium"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "VDV9l0qlQxsR4EGiJZ5KtA",
       "InternalName": "armour_legs_blackdragon"

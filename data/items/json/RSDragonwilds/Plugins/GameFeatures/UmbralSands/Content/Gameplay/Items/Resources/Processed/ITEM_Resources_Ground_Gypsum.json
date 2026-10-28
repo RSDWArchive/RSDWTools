@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GroundGypsum",
-        "SourceString": "Ground Gypsum",
-        "LocalizedString": "Ground Gypsum"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GroundGypsum",
-        "SourceString": "Ground from gypsum. This reagent seems to reflect light and therefore heat. ",
-        "LocalizedString": "Ground from gypsum. This reagent seems to reflect light and therefore heat. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Gypsum_Powder.T_Icon_Gypsum_Powder",
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"
       },
+      "CompostAmount": 10,
       "PersistenceID": "vVkLf0huba3c0nGQlfQQhA",
       "InternalName": "res_ground_gypsum"
     }

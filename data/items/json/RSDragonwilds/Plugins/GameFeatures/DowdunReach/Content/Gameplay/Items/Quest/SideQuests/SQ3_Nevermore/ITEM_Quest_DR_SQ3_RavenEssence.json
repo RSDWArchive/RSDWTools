@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "CorruptedEssenceSample",
-        "SourceString": "Corrupted Essence Sample",
-        "LocalizedString": "Corrupted Essence Sample"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "CorruptedEssenceSample",
-        "SourceString": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it. ",
-        "LocalizedString": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Plague_Sample.T_Icon_Plague_Sample",
@@ -50,7 +50,7 @@
       "PickupXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         }
       },
       "PersistenceID": "fsPKUkCx54AbTpGD4r0PxA",

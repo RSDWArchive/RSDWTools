@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -12,7 +12,7 @@
       "CastXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Spells'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells"
         },
         "RowName": "Spell_RapidGrowth"
       },
@@ -23,7 +23,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -33,14 +33,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Attack_Magic_Fire_02'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/AM_PlayerM_Attack_Magic_Fire_02.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Staff/AM_PlayerM_Attack_Magic_Fire_02"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -53,7 +53,7 @@
     "Name": "SpellModule_UtilityMagic_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_RapidGrowth'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.3"
     },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -90,7 +90,7 @@
       "CastType": "EUtilitySpellCastType::Placed",
       "SpellPlacementMontage": {
         "ObjectName": "AnimMontage'AM_PlayerM_SpellCastMode_Targeting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_SpellCastMode_Targeting.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_SpellCastMode_Targeting"
       },
       "PlacementActorClass": {
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/BP_SpellPlacementVisualizer_RapidGrowth.BP_SpellPlacementVisualizer_RapidGrowth_C",
@@ -101,30 +101,30 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourGreen'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_RapidGrowth:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_RapidGrowth:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_UtilityMagic'USD_RapidGrowth:SpellModule_UtilityMagic_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/RapidGrowth/USD_RapidGrowth.2"
             }
           }
         ]

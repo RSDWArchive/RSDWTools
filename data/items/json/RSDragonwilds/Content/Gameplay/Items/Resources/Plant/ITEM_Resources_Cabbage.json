@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Cabbage",
-        "SourceString": "Cabbage",
-        "LocalizedString": "Cabbage"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Cabbage",
-        "SourceString": "Yuck I don't like cabbage.",
-        "LocalizedString": "Yuck I don't like cabbage."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Cabbage.T_Icon_Resource_Cabbage",

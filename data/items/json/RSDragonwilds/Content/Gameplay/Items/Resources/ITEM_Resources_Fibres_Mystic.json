@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MysticFibres",
-        "SourceString": "Mystic Fibres",
-        "LocalizedString": "Mystic Fibres"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MysticFibre",
-        "SourceString": "Dropped from Zamorak magi. Can be spun at a spinning wheel into mystic thread.",
-        "LocalizedString": "Dropped from Zamorak magi. Can be spun at a spinning wheel into mystic thread."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mystic_Fibres.T_Icon_Mystic_Fibres",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.Resource"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth.Thread"
       },

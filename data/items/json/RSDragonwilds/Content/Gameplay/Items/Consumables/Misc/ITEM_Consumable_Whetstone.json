@@ -7,14 +7,14 @@
     "Properties": {
       "HeldEquipmentEffectData": {
         "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_Whetstone'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_Whetstone.0"
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_Whetstone"
       },
       "RequiresHeldMeleeWeaponTag": {
         "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
       },
       "SpellData": {
         "ObjectName": "UtilitySpellData'USD_Whetstone'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone.2"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone"
       },
       "UseVerb": {
         "Namespace": "",
@@ -24,19 +24,19 @@
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Whetstone",
-        "SourceString": "Whetstone",
-        "LocalizedString": "Whetstone"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Whetstone",
-        "SourceString": "Use this to hone your equipped melee weapon.",
-        "LocalizedString": "Use this to hone your equipped melee weapon."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Whetstone.T_Icon_Whetstone",

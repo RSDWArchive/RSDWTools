@@ -9,35 +9,35 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_GoldBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_GoldBar"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Salve_Crystal'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Key/ITEM_Resources_Salve_Crystal"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
           },
           "Count": 6
         }
@@ -46,11 +46,11 @@
         {
           "OriginalItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Clay_Mould'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Clay_Mould"
           },
           "NewItemData": {
             "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
           },
           "NewCount": 5
         }
@@ -59,7 +59,7 @@
         {
           "ItemData": {
             "ObjectName": "TrinketItemData'ITEM_Trinket_Quest_Salve_Amulet'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Quest_Salve_Amulet.1"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Quest_Salve_Amulet"
           },
           "Count": 1
         }

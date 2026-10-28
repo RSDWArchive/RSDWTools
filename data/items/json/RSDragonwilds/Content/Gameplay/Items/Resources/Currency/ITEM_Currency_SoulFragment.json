@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "SoulFragment",
-        "SourceString": "Soul Fragment",
-        "LocalizedString": "Soul Fragment"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SoulFragment",
-        "SourceString": "Someone may have use for this. ",
-        "LocalizedString": "Someone may have use for this. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Soul_Fragment.T_Icon_Soul_Fragment",
@@ -32,6 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Material.SpecialMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.SpecialMaterial"
       ],

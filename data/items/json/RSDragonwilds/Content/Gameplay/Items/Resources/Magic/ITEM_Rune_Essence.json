@@ -7,13 +7,13 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Runecrafting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Runecrafting"
       },
       "Name": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "RuneEssence",
-        "SourceString": "Rune Essence",
-        "LocalizedString": "Rune Essence"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.RuneEssence"
       },

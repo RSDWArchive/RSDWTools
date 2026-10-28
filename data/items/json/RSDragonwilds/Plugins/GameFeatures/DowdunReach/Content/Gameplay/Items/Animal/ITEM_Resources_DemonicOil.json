@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DemonicOil",
-        "SourceString": "Demonic Oil",
-        "LocalizedString": "Demonic Oil"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DemonicOil",
-        "SourceString": "Made by combining necrotic bonemeal and vile ashes. A crafting component.",
-        "LocalizedString": "Made by combining necrotic bonemeal and vile ashes. A crafting component."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Demonic_Oil.T_Icon_Demonic_Oil",
@@ -33,13 +33,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 3.0,
+      "Category": {
+        "TagName": "Item.Resource"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic.DemonicOil"
       },
       "PickupXPEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         },
         "RowName": "Pickup_Animal_Crafting_Resource"
       },

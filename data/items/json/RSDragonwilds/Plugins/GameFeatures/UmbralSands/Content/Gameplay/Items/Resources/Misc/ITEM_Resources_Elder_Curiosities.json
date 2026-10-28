@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ElderCuriosities",
-        "SourceString": "Elder Curiosities",
-        "LocalizedString": "Elder Curiosities"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ElderCuriosities",
-        "SourceString": "Obsidian curiosities that feel pleasing in the hand. Can be ground and smelted into pure obsidian.",
-        "LocalizedString": "Obsidian curiosities that feel pleasing in the hand. Can be ground and smelted into pure obsidian."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Elder_Curiosities.T_Icon_Elder_Curiosities",

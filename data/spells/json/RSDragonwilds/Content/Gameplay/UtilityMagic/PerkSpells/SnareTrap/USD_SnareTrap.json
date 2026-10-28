@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SnareTrap'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -16,7 +16,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -26,7 +26,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SnareTrap'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -35,14 +35,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth"
           },
           "Count": 15
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Nature'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature"
           },
           "Count": 10
         }
@@ -55,7 +55,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -65,14 +65,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SnareTrap'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Snare'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Snare.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Snare"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -85,7 +85,7 @@
     "Name": "SpellModule_UtilityMagic_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_SnareTrap'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
     },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -132,40 +132,40 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourYellow'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourYellow.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourYellow"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_NotRunningAgilityCourse_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_NotRunningAgilityCourse.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_NotRunningAgilityCourse"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_SnareTrap:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_SnareTrap:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_UtilityMagic'USD_SnareTrap:SpellModule_UtilityMagic_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_SnareTrap:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.1"
             }
           }
         ]

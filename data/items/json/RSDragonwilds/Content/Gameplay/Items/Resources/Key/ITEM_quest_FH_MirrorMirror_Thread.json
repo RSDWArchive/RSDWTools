@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
         "Key": "CraftingItem",
-        "SourceString": "Spectral Silver Thread",
-        "LocalizedString": "Spectral Silver Thread"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_MirrorMirror/ST_FH_MirrorMirror.ST_FH_MirrorMirror",
         "Key": "SpectralSilverThreadDesc",
-        "SourceString": "A spooky silver thread. Used to repair mirrors from the inside.",
-        "LocalizedString": "A spooky silver thread. Used to repair mirrors from the inside."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Silver_Ash_Thread.T_Icon_Silver_Ash_Thread",

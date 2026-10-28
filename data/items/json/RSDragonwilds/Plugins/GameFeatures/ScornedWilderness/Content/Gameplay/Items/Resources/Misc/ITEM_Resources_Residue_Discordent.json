@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DiscordantResidue",
-        "SourceString": "Discordant Residue",
-        "LocalizedString": "Discordant Residue"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DiscordantResidue",
-        "SourceString": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
-        "LocalizedString": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Discorden_Residue.T_Icon_Discorden_Residue",
@@ -33,7 +33,7 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"

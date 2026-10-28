@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LeatherRedDragonhide",
-        "SourceString": "Red Dragonhide Leather",
-        "LocalizedString": "Red Dragonhide Leather"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RedDragonhideLeather",
-        "SourceString": "Made by tanning red dragonhide. A key crafting component for armour.",
-        "LocalizedString": "Made by tanning red dragonhide. A key crafting component for armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_RedDragonLeather.T_Icon_RedDragonLeather",
@@ -33,12 +33,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.6,
+      "Category": {
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },
+      "CompostAmount": 10,
       "PersistenceID": "MiOchEk4FHYRIF2KL0PK_g",
       "InternalName": "res_leather_dragon_red_lesser"
     }

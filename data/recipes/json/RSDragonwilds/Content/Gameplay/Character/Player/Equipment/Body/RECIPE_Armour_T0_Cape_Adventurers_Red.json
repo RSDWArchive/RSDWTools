@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "WearableEquipmentData'ITEM_Cape_Adventurers_Red'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Adventurers_Red.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Adventurers_Red"
           },
           "Count": 1
         }
@@ -19,7 +19,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "SkillXPAwardedOnCraft": 0,
       "PersistenceID": "g0tx5E3fPPUjaJG7KyQvAQ",

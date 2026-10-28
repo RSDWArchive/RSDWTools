@@ -7,14 +7,14 @@
     "Properties": {
       "HeldEquipmentEffectData": {
         "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponPoison'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_WeaponPoison.0"
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_WeaponPoison"
       },
       "RequiresHeldMeleeWeaponTag": {
         "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
       },
       "SpellData": {
         "ObjectName": "UtilitySpellData'USD_WeaponPoison'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponPoison/USD_WeaponPoison.2"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/WeaponPoison/USD_WeaponPoison"
       },
       "UseVerb": {
         "Namespace": "",
@@ -24,19 +24,19 @@
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WeaponPoison",
-        "SourceString": "Weapon Poison",
-        "LocalizedString": "Weapon Poison"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WeaponPoison",
-        "SourceString": "A vial of Weapon Poison. \r\n\r\nUsed in crafting Poison Arrows or to coat your equipped Melee Weapon with Poison for a short time.",
-        "LocalizedString": "A vial of Weapon Poison. \r\n\r\nUsed in crafting Poison Arrows or to coat your equipped Melee Weapon with Poison for a short time."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Poison.T_Icon_Weapon_Poison",

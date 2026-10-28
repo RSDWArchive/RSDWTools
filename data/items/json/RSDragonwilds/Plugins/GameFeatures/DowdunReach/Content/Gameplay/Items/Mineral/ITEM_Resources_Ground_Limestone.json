@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GroundLimestone",
-        "SourceString": "Ground Limestone",
-        "LocalizedString": "Ground Limestone"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GroundLimestone",
-        "SourceString": "Ground from limestone. With the proper tools, it can be made into glass at a furnace.",
-        "LocalizedString": "Ground from limestone. With the proper tools, it can be made into glass at a furnace."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Ground_Limestone.T_Icon_Ground_Limestone",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Stone"
       },

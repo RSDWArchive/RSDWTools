@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MithrilOre",
-        "SourceString": "Mithril Ore",
-        "LocalizedString": "Mithril Ore"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MithrilOre",
-        "SourceString": "Mined from Mithril deposits. It can be smelted into bars at a furnace.",
-        "LocalizedString": "Mined from Mithril deposits. It can be smelted into bars at a furnace."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/T_Icon_Mithril_Ore.T_Icon_Mithril_Ore",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 3.6,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ore"
       },

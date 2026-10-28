@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
         "Key": "Item.Name",
-        "SourceString": "Letter",
-        "LocalizedString": "Letter"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
         "Key": "Address.FH.EmberwoodCrossroads",
-        "SourceString": "Deliver to: Crossroads - Emberwood Village - Fellhollow",
-        "LocalizedString": "Deliver to: Crossroads - Emberwood Village - Fellhollow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Envelope.T_Icon_Envelope",

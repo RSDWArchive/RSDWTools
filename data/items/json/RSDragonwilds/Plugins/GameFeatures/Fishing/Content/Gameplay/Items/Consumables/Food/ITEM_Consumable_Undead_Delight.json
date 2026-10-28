@@ -2,143 +2,14 @@
   {
     "Type": "BP_Consumables_Food_C",
     "Name": "ITEM_Consumable_Undead_Delight",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.BP_Consumables_Food_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Food_C'Default__BP_Consumables_Food_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "SustenanceRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_FoodSustenance'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/DT_FoodSustenance.0"
-        },
-        "RowName": "FishMeal_UndeadDelight"
-      },
-      "AmountToHealOnConsume": 180.0,
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Tier1_Food"
-      },
-      "Duration": 1200.0,
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_Fishing_SeaLife_C'ITEM_Consumable_Undead_Delight:GE_Fishing_SeaLife_C_0'",
-            "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Eat_C'ITEM_Consumable_Undead_Delight:GE_Cooldown_Eat_C_0'",
-          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.1"
-        }
-      },
-      "AchievementGameplayTags": [
-        "Item.Food.Fish"
-      ],
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "UndeadDelight",
-        "SourceString": "Undead Delight",
-        "LocalizedString": "Undead Delight"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "UndeadDelight",
-        "SourceString": "Made by combining fried grilled undead bass and grilled tomato. Grants the Sea Life perk.",
-        "LocalizedString": "Made by combining fried grilled undead bass and grilled tomato. Grants the Sea Life perk."
-      },
-      "bUseCustomStatDetails": true,
-      "CustomStatDetails": [
-        {
-          "Name": {
-            "CultureInvariantString": null
-          },
-          "Value": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "Healing.180",
-            "SourceString": "+180 Health",
-            "LocalizedString": "+180 Health"
-          }
-        }
-      ],
-      "Icon": {
-        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Meals_Icons/T_Icon_Undead_Delight.T_Icon_Undead_Delight",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Wrapped_Leaf_Package/SM_Wrapped_Leaf_Package_01.SM_Wrapped_Leaf_Package_01",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 50,
-      "Weight": 0.7,
-      "Category": {
-        "TagName": "Item.Food"
-      },
-      "ItemFilterTags": [
-        "ItemFilter.Type.Consumable.Food",
-        "Item.Farming.CompostableSuper"
-      ],
-      "AudioSwitchTag": {
-        "TagName": "Audio.Food.Meat"
-      },
-      "PickupXPEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
-        },
-        "RowName": "Pickup_Campfire_Processed_Item"
-      },
-      "CompostAmount": 10,
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Name_SeaLife",
-            "SourceString": null,
-            "LocalizedString": null
-          },
-          "Description": {
-            "TableId": "/Fishing/UI/Fishing/ST_Fishing.ST_Fishing",
-            "Key": "Item_BuffData_Info_SeaLife",
-            "SourceString": null,
-            "LocalizedString": null
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_SeaLife.T_Icon_Buff_SeaLife",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "fc13d0kT8O20L12pmQELLg",
-      "InternalName": "food_undead_delight",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Food_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Eat_C",
     "Name": "GE_Cooldown_Eat_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Undead_Delight'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Eat.GE_Cooldown_Eat_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Eat_C'Default__BP_Consumables_Food_C:GE_Cooldown_Eat_C_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Food.3"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -147,7 +18,7 @@
     "Name": "GE_Fishing_SeaLife_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Undead_Delight'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Undead_Delight.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }

@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_AnimaInfusedBark'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark"
           },
           "Count": 4
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_WildAnima'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_WildAnima.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_WildAnima"
           },
           "Count": 1
         }
@@ -29,7 +29,7 @@
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

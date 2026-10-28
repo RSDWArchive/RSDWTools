@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Fang'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
           },
           "Count": 4
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Coarse'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse"
           },
           "Count": 2
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Dagger_Bone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_Bone.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Dagger/ITEM_Dagger_Bone"
           },
           "Count": 1
         }
@@ -42,12 +42,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MapleSap",
-        "SourceString": "Maple Sap",
-        "LocalizedString": "Maple Sap"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MapleSap",
-        "SourceString": "Harvested from maple trees. An ingredient that can be cooked on a campfire.",
-        "LocalizedString": "Harvested from maple trees. An ingredient that can be cooked on a campfire."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Maple_Sap.T_Icon_Maple_Sap",
@@ -35,14 +35,16 @@
       "PowerLevel": 4,
       "bCanBeDestroyed": false,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Farming.CompostableSuper"
+      },
       "ItemFilterTags": [
-        "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableSuper"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Plant.MapleSap"
       },
-      "bDropOnDeath": false,
       "CompostAmount": 10,
       "PersistenceID": "6elZUk7d7zVP8qCRjXN9uQ",
       "InternalName": "res_maple_sap"

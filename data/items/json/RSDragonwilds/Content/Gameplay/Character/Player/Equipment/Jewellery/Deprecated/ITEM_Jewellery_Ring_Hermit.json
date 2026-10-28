@@ -7,12 +7,12 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Jewellery_Ring_Of_Pursuit_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/Deprecated/ITEM_Jewellery_Ring_Of_Pursuit_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Jewellery/Deprecated/ITEM_Jewellery_Ring_Of_Pursuit_MeshData_Male"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Jewellery_Ring_Hermit"
       },
@@ -20,12 +20,12 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_Increase_Carry_weight_Jewellery_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_Increase_Carry_weight_Jewellery.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_Increase_Carry_weight_Jewellery"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "Namespace": "",
@@ -48,13 +48,16 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic"
       },
       "BaseDurability": 1000,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "Hrp4NUzvyg8dz-Gm1-z2DQ",
       "InternalName": "jewellery_ring_hermit"

@@ -8,19 +8,19 @@
       "FuelValue": 180.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Woodcutting'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Woodcutting.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Woodcutting"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MapleLogs",
-        "SourceString": "Maple Logs",
-        "LocalizedString": "Maple Logs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MapleLogs",
-        "SourceString": "Cut from maple trees. Can be crafted into various equipment.",
-        "LocalizedString": "Cut from maple trees. Can be crafted into various equipment."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Resources_Maple_Logs.T_Icon_Resources_Maple_Logs",
@@ -42,8 +42,8 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
-        "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableSuper"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

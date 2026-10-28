@@ -89,18 +89,18 @@ const DOTS = {
 };
 const TAB_OFFSETS = {
   bag: 8,
-  rune: 32,
-  ammo: 56,
-  quest: 80,
+  rune: 40,
+  ammo: 72,
+  quest: 104,
 };
 
 const SLOT_LIMITS = {
-  inventory: 103,
+  inventory: 135,
   personal: 19,
-  loadout: 4,
+  loadout: 11,
 };
 
-const LOADOUT_SLOT_KEYS = ["Head", "Body", "Legs", "Cape", "Jewellery"];
+const LOADOUT_SLOT_KEYS = ["Head", "Body", "Legs", "Cape", "Ring", "", "", "", "", "", "", "Amulet"];
 
 const BAG_CATEGORY_CONFIG = [
   {
@@ -697,7 +697,7 @@ function getTabSlotRange(tabKey) {
   if (typeof start !== "number") {
     return null;
   }
-  return { start, end: start + 23 };
+  return { start, end: start + 31 };
 }
 
 function findNextAvailableSlot(tabKey) {

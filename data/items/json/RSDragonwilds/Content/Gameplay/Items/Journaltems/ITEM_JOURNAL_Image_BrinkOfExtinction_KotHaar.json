@@ -9,7 +9,7 @@
       "QuestBoolName": "HasReadPamphlet",
       "QuestData": {
         "ObjectName": "QuestData'Quest_BrinkOfExtinction'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/Quest_BrinkOfExtinction.0"
+        "ObjectPath": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/Quest_BrinkOfExtinction"
       },
       "JournalData": {
         "AssetPathName": "/Game/UI/JournalData/Entries/Knowledge/LoreScraps/JOURNAL_BrinkOfExtinction_KotHaar.JOURNAL_BrinkOfExtinction_KotHaar",
@@ -18,14 +18,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
         "Key": "KotHaar.Numbering.Book",
-        "SourceString": "KotHaar Numbering For Dummies",
-        "LocalizedString": "KotHaar Numbering For Dummies"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/UmS_Quests/BrinkOfExtinction/ST_BrinkOfExtinction.ST_BrinkOfExtinction",
         "Key": "KotHaar.Numbering.Book.Desc",
-        "SourceString": "A book for understanding the KotHaar numbering system (Base 12).",
-        "LocalizedString": "A book for understanding the KotHaar numbering system (Base 12)."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Kothaar_Numbering_For_Dummies.T_Icon_Kothaar_Numbering_For_Dummies",
@@ -40,6 +40,9 @@
         "SubPathString": ""
       },
       "bGoIntoHotbarOnPickup": false,
+      "Category": {
+        "TagName": "Item.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

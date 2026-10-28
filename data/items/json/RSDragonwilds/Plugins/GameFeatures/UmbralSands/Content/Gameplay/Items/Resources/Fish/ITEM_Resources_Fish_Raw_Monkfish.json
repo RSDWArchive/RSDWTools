@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RawMonkfish",
-        "SourceString": "Raw Monkfish",
-        "LocalizedString": "Raw Monkfish"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RawMonkfish",
-        "SourceString": "Your mouth waters just looking at it.",
-        "LocalizedString": "Your mouth waters just looking at it."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Fish_Monkfish.T_Icon_Fish_Monkfish",
@@ -34,17 +34,21 @@
       "MaxStackSize": 99,
       "PowerLevel": 7,
       "Weight": 2.5,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.RawIngredient",
         "ItemFilter.Material.RawFish",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },
+      "CompostAmount": 10,
       "PersistenceID": "Kuh1zETAPQYHeyugXE12Rg",
       "InternalName": "res_fish_monkfish"
     }

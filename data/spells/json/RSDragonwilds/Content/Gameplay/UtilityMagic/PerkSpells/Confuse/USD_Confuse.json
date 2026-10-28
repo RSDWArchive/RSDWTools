@@ -4,14 +4,14 @@
     "Name": "SpellModule_Blueprint_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Confuse'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
     },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BlueprintGraphClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_SMBG_Confuse_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SMBG_Confuse.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SMBG_Confuse"
       },
       "ModuleName": "Blueprint",
       "Triggers": {
@@ -22,7 +22,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -32,7 +32,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Confuse'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -44,7 +44,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -54,7 +54,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Confuse'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -63,7 +63,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Astral'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral"
           },
           "Count": 25
         }
@@ -80,7 +80,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -90,14 +90,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Confuse'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Confuse'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Confuse.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Confuse"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -114,8 +114,8 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Magic.Confuse.Name",
-        "SourceString": "Confuse",
-        "LocalizedString": "Confuse"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 120.0,
       "SpellIcon": {
@@ -130,7 +130,7 @@
       "CastType": "EUtilitySpellCastType::Aimed",
       "SpellPlacementMontage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Astral_SpellCastMode_Targeting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Astral_SpellCastMode_Targeting.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Astral_SpellCastMode_Targeting"
       },
       "PlacementActorClass": {
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Confuse/BP_SpellPlacementVisualizer_Confuse.BP_SpellPlacementVisualizer_Confuse_C",
@@ -148,40 +148,40 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourPink'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourPink"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_NotRunningAgilityCourse_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_NotRunningAgilityCourse.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_NotRunningAgilityCourse"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_Confuse:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_Confuse:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_Confuse:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Blueprint'USD_Confuse:SpellModule_Blueprint_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.0"
             }
           }
         ]

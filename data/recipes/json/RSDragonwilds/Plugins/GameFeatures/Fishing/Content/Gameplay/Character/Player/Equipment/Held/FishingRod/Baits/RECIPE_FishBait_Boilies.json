@@ -16,7 +16,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_VileAshes'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/ITEM_Resources_VileAshes.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/ITEM_Resources_VileAshes"
           },
           "Count": 1
         }
@@ -40,7 +40,7 @@
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier1"
       },

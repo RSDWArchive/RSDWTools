@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book1_Title",
-        "SourceString": "Aetheric Fundamentals, a Primordial Primer",
-        "LocalizedString": "Aetheric Fundamentals, a Primordial Primer"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WhatRemainsIsWritten/ST_FH_WhatRemainsIsWritten.ST_FH_WhatRemainsIsWritten",
         "Key": "Book1_Desc",
-        "SourceString": "A study on elemental forces and their interactions with runic energies.",
-        "LocalizedString": "A study on elemental forces and their interactions with runic energies."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Abraxus_Necromancer_Book.T_Icon_Abraxus_Necromancer_Book",

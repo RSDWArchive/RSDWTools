@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T09_Armour_Body_Heavy"
       },
@@ -25,19 +25,19 @@
       "Slot": "ELoadoutSlotStrategy::Body",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DragonArmourBody",
-        "SourceString": "Dragon Platebody",
-        "LocalizedString": "Dragon Platebody"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DragonArmourBody",
-        "SourceString": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors.",
-        "LocalizedString": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_M_MED_BODY_DragonArmour_01.T_Icon_SM_M_MED_BODY_DragonArmour_01",
@@ -49,6 +49,9 @@
       },
       "PowerLevel": 9,
       "Weight": 16.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],
@@ -58,7 +61,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",

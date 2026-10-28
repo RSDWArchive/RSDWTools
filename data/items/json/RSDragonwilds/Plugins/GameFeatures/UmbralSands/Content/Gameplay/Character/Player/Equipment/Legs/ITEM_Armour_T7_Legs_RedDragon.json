@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T07_Armour_Legs_Medium"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Legs",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RedDragonLegs",
-        "SourceString": "Red Dragonhide Legs",
-        "LocalizedString": "Red Dragonhide Legs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RedDragonLegs",
-        "SourceString": "Flexible leggings made of red dragonhide, fit for the finest of archers.",
-        "LocalizedString": "Flexible leggings made of red dragonhide, fit for the finest of archers."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_LEGS_Red_Dragon_Hide_Armour_01.T_Icon_LEGS_Red_Dragon_Hide_Armour_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 7,
       "Weight": 9.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Medium"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Medium"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1250,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "iMnzlUiuN9vtotCkMB4-0Q",
       "InternalName": "armour_legs_RedDragon"

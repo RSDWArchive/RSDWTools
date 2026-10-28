@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T06_Armour_Body_Medium"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Body",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BlueDragonhideBody",
-        "SourceString": "Blue Dragonhide Body",
-        "LocalizedString": "Blue Dragonhide Body"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BlueDragonhideBody",
-        "SourceString": "Ranged body armour crafted from blue dragonhide. Form-fitting, yet intimidating.",
-        "LocalizedString": "Ranged body armour crafted from blue dragonhide. Form-fitting, yet intimidating."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Blue_Dragonhide_Body.T_Icon_Blue_Dragonhide_Body",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 6,
       "Weight": 12.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Medium"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Medium"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "-cJ4kk5_eZwK-IiOoj8gIQ",
       "InternalName": "armour_body_bluedragonhide"

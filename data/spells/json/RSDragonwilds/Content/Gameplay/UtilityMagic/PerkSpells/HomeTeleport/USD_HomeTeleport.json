@@ -4,14 +4,14 @@
     "Name": "SpellModule_Blueprint_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_HomeTeleport'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
     },
     "Class": "UScriptClass'SpellModule_Blueprint'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BlueprintGraphClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_SMBG_HomeTeleport_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/BP_SMBG_HomeTeleport.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/BP_SMBG_HomeTeleport"
       },
       "ModuleName": "Blueprint",
       "Triggers": {
@@ -25,7 +25,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_HomeTeleport'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -37,7 +37,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_EndCast_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_EndCast.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_EndCast"
         }
       }
     }
@@ -47,7 +47,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_HomeTeleport'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -56,7 +56,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Law'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Law.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Law"
           },
           "Count": 15
         }
@@ -69,7 +69,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -79,14 +79,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_HomeTeleport'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_HomeTeleport'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_HomeTeleport.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_HomeTeleport"
       },
       "bShouldRotateToCameraForward": false,
       "ModuleName": "PlayMontage",
@@ -104,14 +104,14 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Runecrafting.HomeTeleport.Name",
-        "SourceString": "Home Teleport",
-        "LocalizedString": "Home Teleport"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SpecialRequirementsText": {
         "TableId": "/Game/UI/Notifications/ST_Notifications.ST_Notifications",
         "Key": "SpellRequiresClaimedBed",
-        "SourceString": "Claimed Bed",
-        "LocalizedString": "Claimed Bed"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 900.0,
       "SpellIcon": {
@@ -135,15 +135,15 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourBlue'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourBlue.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourBlue"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresClaimedBed_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresClaimedBed.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresClaimedBed"
       },
       "bBlockInventoryDuringCast": true,
       "Modules": {
@@ -151,25 +151,25 @@
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_HomeTeleport:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_HomeTeleport:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.1"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_HomeTeleport:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Blueprint'USD_HomeTeleport:SpellModule_Blueprint_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/HomeTeleport/USD_HomeTeleport.0"
             }
           }
         ]

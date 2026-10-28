@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "GroundRuneEssence",
-        "SourceString": "Ground Rune Essence",
-        "LocalizedString": "Ground Rune Essence"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GroundRuneEssence",
-        "SourceString": "Made by grinding rune essence. A component of black dragon leather.",
-        "LocalizedString": "Made by grinding rune essence. A component of black dragon leather."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_Runic_Powder.T_Icon_Runic_Powder",
@@ -33,13 +33,13 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Magic.Rune"
+        "TagName": "Audio.Stone.Dust"
       },
       "PersistenceID": "D-7T2UaXI__mZMm9gOQ9Sg",
       "InternalName": "res_ground_rune"

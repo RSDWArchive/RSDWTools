@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Moonstone",
-        "SourceString": "Moonstone",
-        "LocalizedString": "Moonstone"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Moonstone",
-        "SourceString": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement. ",
-        "LocalizedString": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_09_24/T_Icon_Gemstone_Diamond_01.T_Icon_Gemstone_Diamond_01",

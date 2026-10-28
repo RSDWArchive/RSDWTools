@@ -7,40 +7,40 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_SpectralBagofNoggin_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Armour_Head_BagOfNoggin"
       },
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_SteadfastStomach_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Buffs/GE_SteadfastStomach"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ShroudOfNoggin",
-        "SourceString": "Shroud Of Noggin",
-        "LocalizedString": "Shroud Of Noggin"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ShroudOfNoggin",
-        "SourceString": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
-        "LocalizedString": "A ghostly sackcloth mask. Reduces Wither buildup while worn."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_Spectral_Noggin.T_Icon_Spectral_Noggin",
@@ -52,13 +52,16 @@
       },
       "PowerLevel": 1,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],
       "BaseDurability": 500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "xuoyTUAlufgRGmy9Kr2hDw",
       "InternalName": "armour_head_spectralbagofnoggin"

@@ -12,7 +12,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Shovel_Dig_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Shovel/PA_Shovel_Dig.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/Shovel/PA_Shovel_Dig"
       },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
@@ -21,21 +21,21 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Shovel_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Shovel_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Shovel_Poses"
       },
       "LeftHandIKBoneName": "Prop_SecondHandSocket",
       "bLeftHandIKSolveRotation": false,
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Tools"
       },
@@ -51,19 +51,19 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Tool_Shovel_T7",
-        "SourceString": "Adamant Spade",
-        "LocalizedString": "Adamant Spade"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Tool_Shovel_Adamant",
-        "SourceString": "A durable spade made from adamantite.",
-        "LocalizedString": "A durable spade made from adamantite."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Shovel_Adamant_2H_01.T_Icon_Shovel_Adamant_2H_01",
@@ -92,7 +92,7 @@
       "BaseDurability": 750,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "o9dCAkICXnpXlWixaRhq0Q",
       "InternalName": "tool_spade_Adamant"

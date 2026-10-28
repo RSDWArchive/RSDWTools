@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Iron_Bodkin'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Bodkin.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Bodkin"
           },
           "Count": 33
         },
         {
           "ItemData": {
             "ObjectName": "WhetstoneItemData'ITEM_Consumable_WeaponBarbs'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponBarbs.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/ITEM_Consumable_WeaponBarbs"
           },
           "Count": 1
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Iron_Bleed'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Bleed.1"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Iron_Bleed"
           },
           "Count": 33
         }
@@ -35,12 +35,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

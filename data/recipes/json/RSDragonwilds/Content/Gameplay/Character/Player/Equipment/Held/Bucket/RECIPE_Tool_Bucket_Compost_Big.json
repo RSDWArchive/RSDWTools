@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Tool_Bucket_Compost_Big",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Yew'",
+            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Plant/ITEM_Resources_Wood_Yew"
+          },
+          "Count": 5
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "HeldContainerEquipmentData'ITEM_Bucket_Compost_Big'",
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_Bucket_Compost_Big"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Wood.Shield"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
+      },
+      "SkillXPAwardedOnCraft": 50,
+      "PersistenceID": "i6lrr0ZkMgE6O96eokUcuA",
+      "InternalName": "recipe_bucket_wood_big"
+    }
+  }
+]

@@ -7,16 +7,16 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_Wizard_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Wizard_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Wizard_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Body_Wizard_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Wizard_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Wizard_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T03_Armour_Body_Light"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Body",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WizardRobes",
-        "SourceString": "Wizard Robes",
-        "LocalizedString": "Wizard Robes"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WizardRobes",
-        "SourceString": "Lightweight magical armour.",
-        "LocalizedString": "Lightweight magical armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Armour_09_24/T_Icon_M_MED_Upperhalf_WizardRobe_01.T_Icon_M_MED_Upperhalf_WizardRobe_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 3,
       "Weight": 8.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1250,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "2-okKxsy7k-FRgP-vgQEQA",
       "InternalName": "armour_body_wizard"

@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Weeds'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_AnimalBone'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_AnimalBone"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean"
           },
           "Count": 1
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Farming_CureDiseasePotion'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Farming/ITEM_Farming_CureDiseasePotion.0"
+            "ObjectPath": "/Game/Gameplay/Items/Farming/ITEM_Farming_CureDiseasePotion"
           },
           "Count": 1
         }
@@ -42,12 +42,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Farming'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Farming.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Farming"
         },
         "RowName": "CreatingCurePotion"
       },

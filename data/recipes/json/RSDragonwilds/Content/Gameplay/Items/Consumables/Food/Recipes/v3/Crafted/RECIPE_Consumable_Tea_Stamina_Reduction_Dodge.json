@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Water_Clean'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Water_Clean"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Fang'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Fang"
           },
           "Count": 1
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Drink_C'ITEM_Consumable_Tea_Stamina_Reduction_Dodge'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Dodge.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Tea_Stamina_Reduction_Dodge"
           },
           "Count": 1
         }
@@ -35,12 +35,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         },
         "RowName": "Pickup_Cooking_Pot_Processed_Item"
       },

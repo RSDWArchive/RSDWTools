@@ -16,7 +16,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Fruit_Dried_Redberry'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Fruit_Dried_Redberry"
           },
           "Count": 1
         }
@@ -35,12 +35,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Cooking_Range_Recipe"
       },

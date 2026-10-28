@@ -9,6 +9,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.Resource.Ore.Clay"
+      },
       "PersistenceID": "OQisqk4_V81aRxSm8IjMMg",
       "InternalName": "item_clay_slab_deleted",
       "bSoftDeleted": true

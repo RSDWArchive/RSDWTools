@@ -8,13 +8,13 @@
       "FuelValue": 0.0,
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Mining'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Mining.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Mining"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "SwampTar",
-        "SourceString": "Swamp Tar",
-        "LocalizedString": "Swamp Tar"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",

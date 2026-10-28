@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "PrimordialHeart",
-        "SourceString": "Primordial Heart",
-        "LocalizedString": "Primordial Heart"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "PrimordialHeart",
-        "SourceString": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. ",
-        "LocalizedString": "The heart of a nature spirit, you hunted this for Vannaka. He wants three of them. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_WitherBeast_Heart.T_Icon_WitherBeast_Heart",
@@ -32,6 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
+      "Category": {
+        "TagName": "ItemFilter.Type.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

@@ -7,14 +7,14 @@
     "Properties": {
       "HeldEquipmentEffectData": {
         "ObjectName": "BP_MagicFocusHeldEquipmentEffectData_C'HEED_MagicFocus'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_MagicFocus.0"
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_MagicFocus"
       },
       "RequiresHeldMeleeWeaponTag": {
         "TagName": "UI.ConsumeItem.RequiresHeldMagicWeapon"
       },
       "SpellData": {
         "ObjectName": "UtilitySpellData'USD_MagicFocus'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus"
       },
       "UseVerb": {
         "Namespace": "",
@@ -24,19 +24,19 @@
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Magic'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Magic.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Magicfocus",
-        "SourceString": "Magical Focus",
-        "LocalizedString": "Magical Focus"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MagicFocus",
-        "SourceString": "Imbue your staff to increase the damage of your magical attacks for a limited time.",
-        "LocalizedString": "Imbue your staff to increase the damage of your magical attacks for a limited time."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Magic_Focus.T_Icon_Magic_Focus",

@@ -35,7 +35,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "93vlwkp1bDvavNm7f64auw",

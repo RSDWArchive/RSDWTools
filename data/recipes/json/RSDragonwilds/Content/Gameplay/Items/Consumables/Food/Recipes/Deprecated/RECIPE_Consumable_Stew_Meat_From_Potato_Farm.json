@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Potato'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Potato.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Potato"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Meat_Farm'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Farm.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Meat_Farm"
           },
           "Count": 2
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Stew_Meat'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Stew_Meat.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Stew_Meat"
           },
           "Count": 1
         }
@@ -34,7 +34,7 @@
         {
           "ItemData": {
             "ObjectName": "BP_Consumables_Food_C'ITEM_Consumable_Meat_Rat_Roast'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Rat_Roast.0"
+            "ObjectPath": "/Game/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Meat_Rat_Roast"
           },
           "Count": 1
         }
@@ -44,12 +44,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Pickup'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Pickup"
         },
         "RowName": "Pickup_Cooking_Pot_Processed_Item"
       },

@@ -9,6 +9,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "PersistenceID": "EK3fckHjkrHbATuNLd9Jhg",
       "InternalName": "item_clay_slab_unfired_deleted",
       "bSoftDeleted": true

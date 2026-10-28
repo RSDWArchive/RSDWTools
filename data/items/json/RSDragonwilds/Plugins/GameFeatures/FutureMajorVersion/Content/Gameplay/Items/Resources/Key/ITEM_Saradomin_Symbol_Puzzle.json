@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
         "Key": "SaradominSymbol",
-        "SourceString": "Saradomin Symbol",
-        "LocalizedString": "Saradomin Symbol"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
         "Key": "SaradominSymbolDescription",
-        "SourceString": "It looks as if it is meant to sit on top of something.",
-        "LocalizedString": "It looks as if it is meant to sit on top of something."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Saradomin_Symbol/T_Icon_Saradomin_Symbol.T_Icon_Saradomin_Symbol",

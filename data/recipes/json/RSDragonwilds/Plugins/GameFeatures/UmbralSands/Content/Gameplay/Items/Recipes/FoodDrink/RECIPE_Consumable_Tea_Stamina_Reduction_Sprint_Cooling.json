@@ -16,14 +16,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Onion'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Plant/ITEM_Resources_Onion.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Onion"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Herb_Snapdragon'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Herb/ITEM_Herb_Snapdragon"
           },
           "Count": 1
         }
@@ -45,12 +45,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Cooking"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Cooking_Range_Recipe"
       },

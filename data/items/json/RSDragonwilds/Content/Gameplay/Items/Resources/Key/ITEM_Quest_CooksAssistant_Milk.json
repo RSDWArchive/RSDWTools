@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
         "Key": "Milk.ItemName",
-        "SourceString": "Bucket of Milk",
-        "LocalizedString": "Bucket of Milk"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/CooksAssistant/ST_CooksAssistant.ST_CooksAssistant",
         "Key": "Milk.Desc",
-        "SourceString": "A bucket of milk from a stubborn cow.",
-        "LocalizedString": "A bucket of milk from a stubborn cow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Weapons_tools_Placables/T_icon_Wooden_Bucket.T_icon_Wooden_Bucket",

@@ -7,7 +7,7 @@
     "Properties": {
       "TreeGrowStagesData": {
         "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Yew_GrowStages'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Yew/DA_Farming_GrowingTree_Yew_GrowStages.0"
+        "ObjectPath": "/Game/Gameplay/Farming/Trees/Yew/DA_Farming_GrowingTree_Yew_GrowStages"
       },
       "ValidPlantingRegions": [
         "Location.Region.Brynmoor",
@@ -22,7 +22,7 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Farming_TreePlanting_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/TreePlanting/PA_Farming_TreePlanting.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/TreePlanting/PA_Farming_TreePlanting"
       },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
@@ -31,12 +31,12 @@
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Farming_Seedbag_pose'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Farming_Seedbag_pose"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
@@ -46,23 +46,23 @@
       "Tier": 1,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillPerkRequiredToEquip": {
         "ObjectName": "SkillPerkData'PerkV2_Farming_TreeFarming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_TreeFarming.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_TreeFarming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Seed_Tree_Yew",
-        "SourceString": "Yew tree Seed",
-        "LocalizedString": "Yew tree Seed"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Seed_Tree_Yew",
-        "SourceString": "Plant this directly into the ground to grow your own tree!",
-        "LocalizedString": "Plant this directly into the ground to grow your own tree!"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Yew_Seed.T_Icon_Yew_Seed",
@@ -77,6 +77,9 @@
         "SubPathString": ""
       },
       "MaxStackSize": 999,
+      "Category": {
+        "TagName": "ItemFilter.Material.Seed"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

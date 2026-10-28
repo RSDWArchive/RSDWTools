@@ -2,110 +2,14 @@
   {
     "Type": "BP_Consumables_Potion_C",
     "Name": "ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Weak_Potion"
-      },
-      "Duration": 600.0,
-      "SimpleMontageRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_Consumable_Montages'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
-        },
-        "RowName": "Drink"
-      },
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_Potion_FocusedCooking_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking:GE_Potion_FocusedCooking_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking:GE_Cooldown_Drink_C_1'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "LesserFocusedCookingPotion",
-        "SourceString": "Lesser Focused Cooking Potion",
-        "LocalizedString": "Lesser Focused Cooking Potion"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "StandardCookingPotion",
-        "SourceString": "Increases XP gain for the Cooking skill. ",
-        "LocalizedString": "Increases XP gain for the Cooking skill. "
-      },
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Orange_Potion.T_Icon_Lesser_Orange_Potion",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Cooking.T_Icon_Tag_Skill_Cooking",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Orange_Potion.SM_Lesser_Orange_Potion",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 50,
-      "Weight": 1.0,
-      "AudioSwitchTag": {
-        "TagName": "Audio.Glass.Bottle"
-      },
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "FocusedCooking.Title",
-            "SourceString": "Focused Cooking",
-            "LocalizedString": "Focused Cooking"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "FocusedCooking.Description",
-            "SourceString": "Grants a 15% XP BOOST for the COOKING Skill",
-            "LocalizedString": "Grants a 15% XP BOOST for the COOKING Skill"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedCooking.T_Icon_Buff_FocusedCooking",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "LrmZqkx8wzDkUYuVAfv2OA",
-      "InternalName": "potion_focused_t2_lesser_cooking",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Drink_C",
     "Name": "GE_Cooldown_Drink_C_1",
     "Outer": {
       "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -114,20 +18,8 @@
     "Name": "GE_Potion_FocusedCooking_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedCooking.GE_Potion_FocusedCooking_C'",
-    "Template": {
-      "ObjectName": "GE_Potion_FocusedCooking_C'Default__GE_Potion_FocusedCooking_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedCooking.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
-        "Duration": 150.0,
-        "bShowInTooltip": false
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

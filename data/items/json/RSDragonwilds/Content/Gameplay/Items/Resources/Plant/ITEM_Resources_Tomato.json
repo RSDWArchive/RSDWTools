@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Plant_Tomato",
-        "SourceString": "Tomato",
-        "LocalizedString": "Tomato"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Res_Tomato",
-        "SourceString": "A tasty tomato.",
-        "LocalizedString": "A tasty tomato."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Fixed_Food_Icons/T_Icon_Tomato.T_Icon_Tomato",
@@ -30,6 +30,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "Item.Food"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

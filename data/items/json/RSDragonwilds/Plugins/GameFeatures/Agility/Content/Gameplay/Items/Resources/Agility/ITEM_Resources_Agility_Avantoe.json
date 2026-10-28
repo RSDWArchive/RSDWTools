@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AgilityAvantoe",
-        "SourceString": "Avantoe",
-        "LocalizedString": "Avantoe"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AgilityAvantoe",
-        "SourceString": "Can be used for potions.",
-        "LocalizedString": "Can be used for potions."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Agility/Art/UI/Icons/Items/T_Icon_Avantoe_Herb_v2.T_Icon_Avantoe_Herb_v2",
@@ -29,10 +29,13 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.2,
+      "Category": {
+        "TagName": "ItemFilter.Material.BasicMaterial"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
-        "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableSuper"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Plant"

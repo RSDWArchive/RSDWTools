@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
         "Key": "Key",
-        "SourceString": "Scarecrow's Key",
-        "LocalizedString": "Scarecrow's Key"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/TreasureTrails/ScarecrowScavenging/ST_TreasureTrail_ScareScavenging.ST_TreasureTrail_ScareScavenging",
         "Key": "Key.Desc",
-        "SourceString": "A key from a scarecrow in Ghornfell.",
-        "LocalizedString": "A key from a scarecrow in Ghornfell."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Key.T_Icon_Key",

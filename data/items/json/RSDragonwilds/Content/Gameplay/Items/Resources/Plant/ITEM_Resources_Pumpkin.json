@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Pumpkin",
-        "SourceString": "Pumpkin",
-        "LocalizedString": "Pumpkin"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Pumpkin",
-        "SourceString": "More treat than trick. Can be cooked by itself or used as an ingredient in cooking meals.",
-        "LocalizedString": "More treat than trick. Can be cooked by itself or used as an ingredient in cooking meals."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Pumpkin.T_Icon_Pumpkin",

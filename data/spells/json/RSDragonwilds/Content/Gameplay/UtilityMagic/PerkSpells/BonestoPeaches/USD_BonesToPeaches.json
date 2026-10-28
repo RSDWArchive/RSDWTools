@@ -4,7 +4,7 @@
     "Name": "SpellModule_Cast_2",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -12,7 +12,7 @@
       "CastXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Spells'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Spells"
         },
         "RowName": "Spell_BonesToPeaches"
       },
@@ -23,7 +23,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -33,7 +33,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -42,14 +42,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Nature'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Nature"
           },
           "Count": 10
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Earth'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth"
           },
           "Count": 5
         }
@@ -62,7 +62,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -72,14 +72,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Bonestopeaches'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Bonestopeaches.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Bonestopeaches"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -92,7 +92,7 @@
     "Name": "SpellModule_UtilityMagic_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
     },
     "Class": "UScriptClass'SpellModule_UtilityMagic'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -113,8 +113,8 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Cooking.BonesToPeaches.Name",
-        "SourceString": "Bones to Peaches",
-        "LocalizedString": "Bones to Peaches"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 3.0,
       "SpellIcon": {
@@ -129,7 +129,7 @@
       "CastType": "EUtilitySpellCastType::Placed",
       "SpellPlacementMontage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Nature_SpellCastMode_Targeting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Nature_SpellCastMode_Targeting.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_Nature_SpellCastMode_Targeting"
       },
       "PlacementActorClass": {
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/BonesToPeaches/BP_SpellPlacementVisualizer_BonesToPeaches.BP_SpellPlacementVisualizer_BonesToPeaches_C",
@@ -140,36 +140,36 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourGreen'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourGreen"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_BonesToPeaches:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_BonesToPeaches:SpellModule_Cast_2'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.0"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.0"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_UtilityMagic'USD_BonesToPeaches:SpellModule_UtilityMagic_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_BonesToPeaches:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.1"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.1"
             }
           }
         ]

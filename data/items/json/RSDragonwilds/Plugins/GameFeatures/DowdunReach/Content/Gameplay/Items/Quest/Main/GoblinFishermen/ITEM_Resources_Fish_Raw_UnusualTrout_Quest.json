@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "QuestUnusualTrout",
-        "SourceString": "Unusual Trout",
-        "LocalizedString": "Unusual Trout"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "TroutUnusual",
-        "SourceString": "This trout has seen things. You almost feel apologetic for catching it.",
-        "LocalizedString": "This trout has seen things. You almost feel apologetic for catching it."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Gameplay/Quests/Main/TempFishingAssets/T_Icon_Unusual_Trout.T_Icon_Unusual_Trout",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

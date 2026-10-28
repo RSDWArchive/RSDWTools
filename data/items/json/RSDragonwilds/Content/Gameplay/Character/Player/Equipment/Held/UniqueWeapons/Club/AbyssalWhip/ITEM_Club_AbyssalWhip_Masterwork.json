@@ -11,40 +11,44 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Whip_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Spell_Whip_JumpAttack"
       },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_SprintAttack_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip_SprintAttack.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip_SprintAttack"
       },
       "PrimaryVisceralActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_Visceral_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip_Visceral.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip_Visceral"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_AbyssalWhip_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_AbyssalWhip.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_AbyssalWhip"
       },
       "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_AbyssalWhip_Special_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/AbyssalWhip/PA_AbyssalWhip_Special.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Specials/AbyssalWhip/PA_AbyssalWhip_Special"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Whip_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/AbyssalWhip/A_PlayerM_Idle_Whip_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/AbyssalWhip/A_PlayerM_Idle_Whip_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "AbyssalWhip"
       },
@@ -58,23 +62,23 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/UI/ST_Localization.ST_Localization",
         "Key": "AbyssalWhip",
-        "SourceString": "Abyssal Whip",
-        "LocalizedString": "Abyssal Whip"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/Equipment/Weapons/ST_WeaponAttacks.ST_WeaponAttacks",
         "Key": "AbyssalWhipDesc",
-        "SourceString": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
-        "LocalizedString": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [
@@ -82,8 +86,8 @@
           "Name": {
             "TableId": "/Game/UI/StatusEffects/ST_StatusEffects.ST_StatusEffects",
             "Key": "BleedApplication",
-            "SourceString": "Bleed Build Up",
-            "LocalizedString": "Bleed Build Up"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Value": {
             "Namespace": "",
@@ -115,21 +119,21 @@
       "BaseDurability": 1600,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "BuffDatas": [
         {
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhip.Special.Title",
-            "SourceString": "Abyssal Snare",
-            "LocalizedString": "Abyssal Snare"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhip.Special.Description",
-            "SourceString": "Launches DEMONIC ENERGY that homes in on a target, dealing DAMAGE and KNOCKING them DOWN",
-            "LocalizedString": "Launches DEMONIC ENERGY that homes in on a target, dealing DAMAGE and KNOCKING them DOWN"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -140,14 +144,14 @@
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhipBoon.Title",
-            "SourceString": "Barbed",
-            "LocalizedString": "Barbed"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhipBoon.Description",
-            "SourceString": "ATTACKS build up BLEED on enemies",
-            "LocalizedString": "ATTACKS build up BLEED on enemies"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",
@@ -158,14 +162,14 @@
           "Title": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhipBane.Title",
-            "SourceString": "Reckless",
-            "LocalizedString": "Reckless"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "Description": {
             "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
             "Key": "AbyssalWhipBane.Description",
-            "SourceString": "Can only BLOCK using UNARMED BLOCK",
-            "LocalizedString": "Can only BLOCK using UNARMED BLOCK"
+            "SourceString": null,
+            "LocalizedString": ""
           },
           "BuffIcon": {
             "AssetPathName": "",

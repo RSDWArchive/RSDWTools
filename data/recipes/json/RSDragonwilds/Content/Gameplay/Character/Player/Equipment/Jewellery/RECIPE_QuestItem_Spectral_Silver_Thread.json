@@ -9,28 +9,28 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SilverBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverBar"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Fine'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Fine.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Fine"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Currency_SoulFragment'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Currency/ITEM_Currency_SoulFragment"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SacredOil'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_SacredOil.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_SacredOil"
           },
           "Count": 1
         }
@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_quest_FH_MirrorMirror_Thread'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_MirrorMirror_Thread.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Key/ITEM_quest_FH_MirrorMirror_Thread"
           },
           "Count": 1
         }

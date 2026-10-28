@@ -8,14 +8,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LougrimsStaff",
-        "SourceString": "Lougrim's Staff",
-        "LocalizedString": "Lougrim's Staff"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "LougrimsStaff",
-        "SourceString": "The very staff that Lougrim carried to her death within Kuldra's belly.",
-        "LocalizedString": "The very staff that Lougrim carried to her death within Kuldra's belly."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/ScornedWIlderness/Icons/T_Icon_Lougrim_Staff.T_Icon_Lougrim_Staff",

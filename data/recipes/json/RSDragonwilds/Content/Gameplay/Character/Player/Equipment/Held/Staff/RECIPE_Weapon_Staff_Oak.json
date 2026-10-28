@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak"
           },
           "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_AnimaInfusedBark'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_AnimaInfusedBark"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool"
           },
           "Count": 3
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Staff_Oak'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Oak.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Staff/ITEM_Staff_Oak"
           },
           "Count": 1
         }
@@ -42,12 +42,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

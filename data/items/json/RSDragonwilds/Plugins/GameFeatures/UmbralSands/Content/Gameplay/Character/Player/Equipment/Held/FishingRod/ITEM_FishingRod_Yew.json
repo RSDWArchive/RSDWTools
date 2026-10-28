@@ -24,32 +24,32 @@
       },
       "AimSweepSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Sweep"
       },
       "AimSweepCrouchedSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Aim_Crouch_Sweep'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Aim_Crouch_Sweep"
       },
       "WindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw"
       },
       "FullWindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold"
       },
       "WindUpMaxMovementSpeedOverride": 150.0,
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Tools"
       },
@@ -57,6 +57,7 @@
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",
       "Tier": 3,
+      "bCanBeEnchantedAlthoughNotAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Fishing'",
         "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
@@ -68,14 +69,14 @@
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "YewRod",
-        "SourceString": "Yew Rod",
-        "LocalizedString": "Yew Rod"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "YewRod",
-        "SourceString": "A fishing rod made from yew and adamant.",
-        "LocalizedString": "A fishing rod made from yew and adamant."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Adamant_Yew_Fishing_Rod.T_Icon_Adamant_Yew_Fishing_Rod",
@@ -103,7 +104,7 @@
       "BaseDurability": 260,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "cvTs30mcwGGerfacjkJR0A",
       "InternalName": "tool_fishing_rod_yew"

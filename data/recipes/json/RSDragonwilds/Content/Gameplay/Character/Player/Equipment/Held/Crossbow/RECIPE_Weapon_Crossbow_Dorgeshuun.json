@@ -9,35 +9,35 @@
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow"
           },
           "Count": 12
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Swamp'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Swamp"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_DorgeshuunLimbs'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Components/ITEM_Resources_DorgeshuunLimbs"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Jade'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard"
           },
           "Count": 4
         }
@@ -46,11 +46,11 @@
         {
           "OriginalItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Willow'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow"
           },
           "NewItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Bone_Undead'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Bone_Undead"
           },
           "NewCount": 1
         }
@@ -59,7 +59,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldEquipmentData'ITEM_Crossbow_Dorgeshuun'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dorgeshuun.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dorgeshuun"
           },
           "Count": 1
         }
@@ -69,12 +69,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

@@ -7,14 +7,14 @@
     "Properties": {
       "HeldEquipmentEffectData": {
         "ObjectName": "BP_WhetstoneHeldEquipmentEffectData_C'HEED_WeaponBarbs'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Misc/HEED_WeaponBarbs.0"
+        "ObjectPath": "/Game/Gameplay/Items/Consumables/Misc/HEED_WeaponBarbs"
       },
       "RequiresHeldMeleeWeaponTag": {
         "TagName": "UI.ConsumeItem.RequiresHeldMeleeWeapon"
       },
       "SpellData": {
         "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs"
       },
       "UseVerb": {
         "Namespace": "",
@@ -24,19 +24,19 @@
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WeaponBarbs",
-        "SourceString": "Weapon Barbs",
-        "LocalizedString": "Weapon Barbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "WeaponBarbs",
-        "SourceString": "Pointy! \r\n\r\nUsed to craft Barbed Arrows or to coat your equipped melee weapon with barbs, causing Bleed buildup for a short duration.",
-        "LocalizedString": "Pointy! \r\n\r\nUsed to craft Barbed Arrows or to coat your equipped melee weapon with barbs, causing Bleed buildup for a short duration."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Weapon_Barbs2.T_Icon_Weapon_Barbs2",

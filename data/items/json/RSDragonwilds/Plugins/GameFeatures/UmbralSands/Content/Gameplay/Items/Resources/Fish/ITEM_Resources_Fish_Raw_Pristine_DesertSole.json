@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DesertSolePristine",
-        "SourceString": "Pristine Desert Sole",
-        "LocalizedString": "Pristine Desert Sole"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DesertSolePristine",
-        "SourceString": "A rather fetching looking desert sole, ideal for display.",
-        "LocalizedString": "A rather fetching looking desert sole, ideal for display."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Fish_Desert_Sole_Pristine.T_Icon_Fish_Desert_Sole_Pristine",
@@ -34,17 +34,21 @@
       "MaxStackSize": 99,
       "PowerLevel": 7,
       "Weight": 5.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.PristineFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.RawIngredient",
         "ItemFilter.Material.RawFish",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },
+      "CompostAmount": 10,
       "PersistenceID": "K7TQb0jdPaK9g6WcZTea9g",
       "InternalName": "res_fish_pristine_desertsole"
     }

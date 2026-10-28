@@ -7,23 +7,23 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Flax_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_Flax_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Flax_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Armour_T1_Legs_Adventurers"
       },
       "Slot": "ELoadoutSlotStrategy::Legs",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "Namespace": "",
@@ -47,6 +47,9 @@
       },
       "PowerLevel": 1,
       "Weight": 3.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],
@@ -56,7 +59,7 @@
       "BaseDurability": 500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "ewbJ37oeTkypaVfRgI_GPg",
       "InternalName": "armour_legs_adventurers"

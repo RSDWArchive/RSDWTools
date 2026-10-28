@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RuneLimbs",
-        "SourceString": "Rune Crossbow Limbs",
-        "LocalizedString": "Rune Crossbow Limbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RuneLimbs",
-        "SourceString": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow.",
-        "LocalizedString": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/ScornedWilderness/UI/Icons/Icons/T_Icon_SM_Crossbow_Runite_Arms_1H_01.T_Icon_SM_Crossbow_Runite_Arms_1H_01",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"
       },

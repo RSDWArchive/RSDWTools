@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "Lightning.Name",
-        "SourceString": "Lightning-in-a-bottle",
-        "LocalizedString": "Lightning-in-a-bottle"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/GreatBodyRobbery/ST_GreatBodyRobbery.ST_GreatBodyRobbery",
         "Key": "Lightning.Description",
-        "SourceString": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it. ",
-        "LocalizedString": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Charged_Lightning_Bolt.T_Icon_Charged_Lightning_Bolt",

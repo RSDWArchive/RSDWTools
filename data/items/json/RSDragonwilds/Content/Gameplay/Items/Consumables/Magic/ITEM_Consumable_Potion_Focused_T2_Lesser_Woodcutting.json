@@ -2,110 +2,14 @@
   {
     "Type": "BP_Consumables_Potion_C",
     "Name": "ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting",
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.BP_Consumables_Potion_C'",
-    "Template": {
-      "ObjectName": "BP_Consumables_Potion_C'Default__BP_Consumables_Potion_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.1"
-    },
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "ConsumeXpEvent": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_XPEvents_ConsumeItems'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_ConsumeItems.0"
-        },
-        "RowName": "Consume_Weak_Potion"
-      },
-      "Duration": 600.0,
-      "SimpleMontageRowHandle": {
-        "DataTable": {
-          "ObjectName": "DataTable'DT_Consumable_Montages'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/DT_Consumable_Montages.0"
-        },
-        "RowName": "Drink"
-      },
-      "GameplayEffectsToApply": [
-        {
-          "Effect": {
-            "ObjectName": "GE_Potion_FocusedWoodcutting_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting:GE_Potion_FocusedWoodcutting_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.2"
-          }
-        }
-      ],
-      "ConsumeCooldownEffectToApply": {
-        "Effect": {
-          "ObjectName": "GE_Cooldown_Drink_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting:GE_Cooldown_Drink_C_1'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.1"
-        }
-      },
-      "Name": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
-        "Key": "LesserFocusedWoodcuttingPotion",
-        "SourceString": "Lesser Focused Woodcutting Potion",
-        "LocalizedString": "Lesser Focused Woodcutting Potion"
-      },
-      "FlavourText": {
-        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
-        "Key": "StandardWoodcuttingPotion",
-        "SourceString": "Increases XP gain for the Woodcutting skill.",
-        "LocalizedString": "Increases XP gain for the Woodcutting skill."
-      },
-      "Icon": {
-        "AssetPathName": "/Game/Art/UI/Icons/Potions/Potion_Inventory_Big/T_Icon_Lesser_Green_Potion.T_Icon_Lesser_Green_Potion",
-        "SubPathString": ""
-      },
-      "CategoryClassIcon": {
-        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.T_Icon_Tag_Skill_Woodcutting",
-        "SubPathString": ""
-      },
-      "StaticMesh": {
-        "AssetPathName": "/Game/Art/Item/Resources/Potions/SM_Lesser_Green_Potion.SM_Lesser_Green_Potion",
-        "SubPathString": ""
-      },
-      "MaxStackSize": 50,
-      "Weight": 1.0,
-      "AudioSwitchTag": {
-        "TagName": "Audio.Glass.Bottle"
-      },
-      "BuffDatas": [
-        {
-          "Title": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "FocusedWoodcutting.Title",
-            "SourceString": "Focused Woodcutting",
-            "LocalizedString": "Focused Woodcutting"
-          },
-          "Description": {
-            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
-            "Key": "FocusedWoodcutting.Description",
-            "SourceString": "Grants an a 15% XP BOOST for the WOODCUTTING Skill",
-            "LocalizedString": "Grants an a 15% XP BOOST for the WOODCUTTING Skill"
-          },
-          "BuffIcon": {
-            "AssetPathName": "/Game/Art/UI/HUD/Survival_Core/Buffs/Buffs_Icons/T_Icon_Buff_FocusedWoodcutting.T_Icon_Buff_FocusedWoodcutting",
-            "SubPathString": ""
-          }
-        }
-      ],
-      "PersistenceID": "6sTczU43FmxKI8aJ3SSWSA",
-      "InternalName": "potion_focused_t2_lesser_woodcutting",
-      "NativeClass": {
-        "ObjectName": "BlueprintGeneratedClass'BP_Consumables_Potion_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.0"
-      }
-    }
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "GE_Cooldown_Drink_C",
     "Name": "GE_Cooldown_Drink_C_1",
     "Outer": {
       "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.0"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_Cooldown_Drink.GE_Cooldown_Drink_C'",
-    "Template": {
-      "ObjectName": "GE_Cooldown_Drink_C'Default__BP_Consumables_Potion_C:GE_Cooldown_Drink_C_1'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/BP_Consumables_Potion.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.0"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -114,20 +18,8 @@
     "Name": "GE_Potion_FocusedWoodcutting_C_0",
     "Outer": {
       "ObjectName": "BP_Consumables_Potion_C'ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.0"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.0"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedWoodcutting.GE_Potion_FocusedWoodcutting_C'",
-    "Template": {
-      "ObjectName": "GE_Potion_FocusedWoodcutting_C'Default__GE_Potion_FocusedWoodcutting_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_Potion_FocusedWoodcutting.1"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "Data": {
-        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
-        "Duration": 150.0,
-        "bShowInTooltip": false
-      }
-    }
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   }
 ]

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "WaxGypsum",
-        "SourceString": "Gypsum Wax",
-        "LocalizedString": "Gypsum Wax"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GypsumWax",
-        "SourceString": "A marvel of alchemy that, once applied to equipment, adds durability in extreme conditions. ",
-        "LocalizedString": "A marvel of alchemy that, once applied to equipment, adds durability in extreme conditions. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Gypsum_Wax.T_Icon_Gypsum_Wax",
@@ -39,6 +39,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"
       },
+      "CompostAmount": 10,
       "PersistenceID": "a1W1TEsh5ngCDu-uly8jAQ",
       "InternalName": "res_wax_gypsum"
     }

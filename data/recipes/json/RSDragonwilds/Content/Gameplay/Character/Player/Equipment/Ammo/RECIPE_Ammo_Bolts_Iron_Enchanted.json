@@ -9,28 +9,28 @@
         {
           "ItemData": {
             "ObjectName": "RangedAmmoData'ITEM_Ammo_Bolts_Iron'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Iron.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Iron"
           },
           "Count": 33
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Jade'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Gem/ITEM_Resources_Jade"
           },
           "Count": 1
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Astral'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral"
           },
           "Count": 10
         },
         {
           "ItemData": {
             "ObjectName": "MagicAmmoData'ITEM_Rune_Water'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Water"
           },
           "Count": 15
         }
@@ -39,7 +39,7 @@
         {
           "ItemData": {
             "ObjectName": "RangedAmmoData'ITEM_Ammo_Bolts_Enchanted_Iron'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Iron.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Bolts_Enchanted_Iron"
           },
           "Count": 33
         }
@@ -49,12 +49,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Smithing_Forge_Tier3"
       },

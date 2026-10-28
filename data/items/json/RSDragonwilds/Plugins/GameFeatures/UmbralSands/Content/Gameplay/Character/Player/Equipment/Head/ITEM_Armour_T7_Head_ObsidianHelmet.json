@@ -16,26 +16,26 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T07_Armour_Head_Heavy"
       },
       "ArmorWeight": "EArmorWeight::Heavy",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ObsidianHelmet",
-        "SourceString": "Obsidian Helmet",
-        "LocalizedString": "Obsidian Helmet"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "ObsidianHelmet",
-        "SourceString": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
-        "LocalizedString": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_M_MED_HEAD_ObsidianArmour_01.T_Icon_M_MED_HEAD_ObsidianArmour_01",
@@ -47,6 +47,9 @@
       },
       "PowerLevel": 7,
       "Weight": 8.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],
@@ -56,7 +59,7 @@
       "BaseDurability": 1500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",

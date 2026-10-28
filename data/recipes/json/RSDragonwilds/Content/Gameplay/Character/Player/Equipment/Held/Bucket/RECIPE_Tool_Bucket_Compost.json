@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash"
           },
           "Count": 5
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "HeldContainerEquipmentData'ITEM_Bucket_Compost'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_Bucket_Compost.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_Bucket_Compost"
           },
           "Count": 1
         }
@@ -28,7 +28,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "JGU7r0aBoCdjAGSO7g10ZQ",

@@ -4,12 +4,7 @@
     "Name": "GE_Arrows_Burning_C_0",
     "Outer": {
       "ObjectName": "RangedAmmoData'ITEM_Ammo_Arrows_Steel_Fire'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Fire.1"
-    },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/FireArrows/GE_Arrows_Burning.GE_Arrows_Burning_C'",
-    "Template": {
-      "ObjectName": "GE_Arrows_Burning_C'Default__GE_Arrows_Burning_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Equipment/StatusEffectArrows/FireArrows/GE_Arrows_Burning.2"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Fire.1"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
@@ -35,45 +30,50 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail_Fire.NS_Player_Arrow_Trail_Fire",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowFire'",
+        "ObjectPath": "/Game/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowFire"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
-          "DamageType.Magical.Fire"
+          "DamageType.Magical.Fire",
+          "DamageType.Ranged.Arrows"
         ],
         "GameplayEffectsToApply": [
           {
             "ObjectName": "GE_Arrows_Burning_C'ITEM_Ammo_Arrows_Steel_Fire:GE_Arrows_Burning_C_0'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Fire.0"
+            "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Steel_Fire.0"
           }
         ],
         "AdditionalDamageFraction": 2.7
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
-        "ObjectPath": "RSDragonwilds/Content/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon.0"
+        "ObjectPath": "/Game/Art/UI/HUD/Reticle/T_HUD_Reticle_ArrowIcon"
       },
       "Tier": 5,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Ranged'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "FireSteelArrows",
-        "SourceString": "Steel Fire Arrow",
-        "LocalizedString": "Steel Fire Arrow"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SteelFireArrows",
-        "SourceString": "Burning arrows with tips forged from steel coated in fire oil.",
-        "LocalizedString": "Burning arrows with tips forged from steel coated in fire oil."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_Arrow_Steel.T_Icon_Arrow_Steel",
@@ -101,7 +101,7 @@
       "bDropOnDeath": false,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "l_dStU-tZdJ-0SWqCljYMA",
       "InternalName": "ammo_arrows_steel_fire"

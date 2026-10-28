@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ClothGarou",
-        "SourceString": "Garou Weave",
-        "LocalizedString": "Garou Weave"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GarouCloth",
-        "SourceString": "A high quality material sold by local garou merchants.",
-        "LocalizedString": "A high quality material sold by local garou merchants."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Garou_Weave.T_Icon_Garou_Weave",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 1.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Potion"
       },
+      "CompostAmount": 10,
       "PersistenceID": "9xmA7ErJrFyN2cey7sYKBQ",
       "InternalName": "res_cloth_garou"
     }

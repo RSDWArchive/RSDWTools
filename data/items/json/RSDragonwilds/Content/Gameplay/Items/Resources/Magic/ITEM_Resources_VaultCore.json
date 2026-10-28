@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "VaultCore",
-        "SourceString": "Vault Core",
-        "LocalizedString": "Vault Core"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
         "Key": "VaultCore",
-        "SourceString": "A dragonkin energy source, found only within dragonkin vaults. ",
-        "LocalizedString": "A dragonkin energy source, found only within dragonkin vaults. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Core.T_Icon_Resource_Vault_Core",

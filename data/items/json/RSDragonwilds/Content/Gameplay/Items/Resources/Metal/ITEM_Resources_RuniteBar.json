@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RuniteBar",
-        "SourceString": "Rune Bar",
-        "LocalizedString": "Rune Bar"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RuniteBar",
-        "SourceString": "A magically resonant metal used for crafting weapons and armour.",
-        "LocalizedString": "A magically resonant metal used for crafting weapons and armour."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/T_Resources_IronIngot.T_Resources_IronIngot",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 4.5,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.Metal"
       },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ingot"

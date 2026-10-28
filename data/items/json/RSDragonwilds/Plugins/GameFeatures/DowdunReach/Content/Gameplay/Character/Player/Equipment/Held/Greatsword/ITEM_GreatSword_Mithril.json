@@ -11,40 +11,44 @@
       },
       "PrimaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword"
+      },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Greatsword_JumpAttack_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Spell_Greatsword_JumpAttack"
       },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Sprint_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Sprint.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Sprint"
       },
       "PrimaryVisceralActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Visceral_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Visceral.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Visceral"
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_2H_Greatsword_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/Block/PA_Block_2H_Greatsword.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Abilities/Block/PA_Block_2H_Greatsword"
       },
       "SpecialActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Special_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Special.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Special"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Greatsword"
       },
@@ -59,23 +63,23 @@
       "bIsAWeapon": true,
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "MithrilGreatsword",
-        "SourceString": "Mithril Greatsword",
-        "LocalizedString": "Mithril Greatsword"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "MithrilGreatsword",
-        "SourceString": "A sturdy two-handed sword, with strength to match its size. ",
-        "LocalizedString": "A sturdy two-handed sword, with strength to match its size. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/DowdunReach/Art/UI/Icons/Inventory/T_Icon_Mithril_Great_Sword.T_Icon_Mithril_Great_Sword",
@@ -99,7 +103,7 @@
       "BaseDurability": 1600,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "pQc5DE2EQITw_c2lRJxZ9A",
       "InternalName": "weap_greatsword_mithril"

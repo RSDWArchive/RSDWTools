@@ -9,14 +9,14 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_IronBar'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar"
           },
           "Count": 2
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Padded'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Padded"
           },
           "Count": 2
         }
@@ -25,7 +25,7 @@
         {
           "ItemData": {
             "ObjectName": "HarvestToolEquipmentData'ITEM_Secateurs_Iron'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Tools/ITEM_Secateurs_Iron.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/Tools/ITEM_Secateurs_Iron"
           },
           "Count": 1
         }
@@ -35,7 +35,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "SkillXPAwardedOnCraft": 50,
       "PersistenceID": "9ZzxgUuxXIMk8-CD9hrNfg",

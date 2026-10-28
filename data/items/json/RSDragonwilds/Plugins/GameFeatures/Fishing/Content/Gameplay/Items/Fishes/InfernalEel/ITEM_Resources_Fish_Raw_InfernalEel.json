@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "RawInfernalEel",
-        "SourceString": "Raw Infernal Eel",
-        "LocalizedString": "Raw Infernal Eel"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "RawInfernalEel",
-        "SourceString": "Wriggly no more. Will need to be smoked before it goes near your palate.",
-        "LocalizedString": "Wriggly no more. Will need to be smoked before it goes near your palate."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Additional_Fishing_Icons/T_Icon_Infernal_Eel.T_Icon_Infernal_Eel",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 4,
       "Weight": 2.5,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

@@ -7,16 +7,16 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_LeggingsOfLightness_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Armour_Legs_LeggingsOfLightness_Flax_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_Flax_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_LeggingsOfLightness_Flax_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Armour_T1_Legs_Lightness"
       },
@@ -24,18 +24,18 @@
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_ModifyMaxCarryWeight_LegsofLightness_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Effects/GE_ModifyMaxCarryWeight_LegsofLightness.0"
+          "ObjectPath": "/Game/Gameplay/GameplayEffects/Effects/GE_ModifyMaxCarryWeight_LegsofLightness"
         }
       ],
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "LegsOfLightness",
-        "SourceString": "Leggings Of Lightness",
-        "LocalizedString": "Leggings Of Lightness"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "Namespace": "",
@@ -53,6 +53,9 @@
         "SubPathString": ""
       },
       "PowerLevel": 1,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],
@@ -62,8 +65,28 @@
       "BaseDurability": 500,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "LeggingsOfLightness.Boon",
+            "SourceString": null,
+            "LocalizedString": ""
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "E_DXg0sq6DA6beKuzxv_rA",
       "InternalName": "armour_legs_lightness"
     }

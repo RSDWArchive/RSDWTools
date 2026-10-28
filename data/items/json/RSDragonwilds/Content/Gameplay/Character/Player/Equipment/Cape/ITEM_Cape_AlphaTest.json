@@ -7,39 +7,39 @@
     "Properties": {
       "MaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_AlphaTest_MeshData_Male'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_AlphaTest_MeshData_Male.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_AlphaTest_MeshData_Male"
       },
       "FemaleMeshData": {
         "ObjectName": "WearableEquipmentMeshData'ITEM_Cape_AlphaTest_MeshData_Female'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_AlphaTest_MeshData_Female.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_AlphaTest_MeshData_Female"
       },
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "Cape_AlphaTest"
       },
       "Slot": "ELoadoutSlotStrategy::Cape",
       "EntitlementRequiredToEquip": {
         "ObjectName": "EntitlementData'ED_AlphaTestCape'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Entitlements/ED_AlphaTestCape.0"
+        "ObjectPath": "/Game/Gameplay/Entitlements/ED_AlphaTestCape"
       },
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "AlphaCape",
-        "SourceString": "Dragonbane Cape",
-        "LocalizedString": "Dragonbane Cape"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "AlphaCape",
-        "SourceString": "A badge of honor for those who completed all challenges during the closed Alpha Test.",
-        "LocalizedString": "A badge of honor for those who completed all challenges during the closed Alpha Test."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Alpha_Cape.T_Icon_Alpha_Cape",
@@ -48,6 +48,9 @@
       "StaticMesh": {
         "AssetPathName": "/Game/Art/Item/Resources/Napsack/SM_Human_Napsack_01.SM_Human_Napsack_01",
         "SubPathString": ""
+      },
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Cape"
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour",
@@ -59,7 +62,7 @@
       "bDropOnDeath": false,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "1ReHrk6Keawr5E-eQ8WTCg",
       "InternalName": "armour_t0_cape_alphatest"

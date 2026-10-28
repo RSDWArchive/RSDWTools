@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "VaultShard",
-        "SourceString": "Vault Shard",
-        "LocalizedString": "Vault Shard"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/UI/ST_Tooltips.ST_Tooltips",
         "Key": "VaultShards",
-        "SourceString": "Stone imbued with remnants of dragonkin magic. Found only in dragonkin vaults. ",
-        "LocalizedString": "Stone imbued with remnants of dragonkin magic. Found only in dragonkin vaults. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Vault_Shard.T_Icon_Resource_Vault_Shard",

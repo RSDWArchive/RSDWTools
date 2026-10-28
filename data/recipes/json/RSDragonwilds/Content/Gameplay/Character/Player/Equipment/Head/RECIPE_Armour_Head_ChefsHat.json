@@ -9,21 +9,21 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Cloth_Wool"
           },
           "Count": 10
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Coarse'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Coarse"
           },
           "Count": 6
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Thread_Wool'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Wool"
           },
           "Count": 4
         }
@@ -32,7 +32,7 @@
         {
           "ItemData": {
             "ObjectName": "WearableEquipmentData'ITEM_Armour_Head_ChefsHat'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_ChefsHat.0"
+            "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_ChefsHat"
           },
           "Count": 1
         }
@@ -42,7 +42,7 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "PersistenceID": "CbiIJUDNgDh_VgSTohz6UA",
       "InternalName": "recipe_armour_head_chefshat"

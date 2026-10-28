@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "HeldContainerEquipmentData",
+    "Name": "ITEM_Bucket_Compost_Big",
+    "Class": "UScriptClass'HeldContainerEquipmentData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Capacity": 300,
+      "AmountDischargedPerUse": 10,
+      "AllowedFillTypes": [
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Regular'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Compost_Regular"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Super'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Compost_Super"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Ultra'",
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Compost_Ultra"
+        }
+      ],
+      "ContainerEmptyContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_CompostBucket_Empty",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ContainerSomeContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_CompostBucket_SomeContents",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "ContainerFullContentsDescription": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "HeldContainerDescription_CompostBucket_Full",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "HeldEquipmentActorClass": {
+        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Bucket/BP_Bucket_Big.BP_Bucket_Big_C",
+        "SubPathString": ""
+      },
+      "PrimaryActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Container_UseOneCharge_C'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Spells/Farming/Container/PA_Container_UseOneCharge"
+      },
+      "SecondaryActionClass": {
+        "ObjectName": "Class'PlayerAction'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "AnimationPoseType": "EAnimationPoseType::Default",
+      "AnimationPosesSequence": {
+        "ObjectName": "AnimSequence'A_PlayerM_Idle_Bucket_Poses_Big'",
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Farming/A_PlayerM_Idle_Bucket_Poses_Big"
+      },
+      "BaseHeldEquipmentPowerLevelRowHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
+        },
+        "RowName": "Weapons"
+      },
+      "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
+      "HandPreference": "EHandPreference::Right",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Farming'",
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
+      },
+      "bShouldRestOnGround": true,
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "Name_tool_Bucket_wood_Big",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
+        "Key": "FlavourText_Bucket_Wood_Big",
+        "SourceString": null,
+        "LocalizedString": ""
+      },
+      "CustomInventoryWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ContainerCustomInventorySlot_C'",
+        "ObjectPath": "/Game/UI/Inventory/CustomSlots/WBP_ContainerCustomInventorySlot"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Large_Compost_Bucket_New.T_Icon_Large_Compost_Bucket_New",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Farming.T_Icon_Tag_Skill_Farming",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/Bucket_2H_01/BucketBig/SM_Bucket_2H_01.SM_Bucket_2H_01",
+        "SubPathString": ""
+      },
+      "Weight": 6.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Bucket.Compost"
+      },
+      "ItemFilterTags": [
+        "Item.Farming.ShowProgress"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Farming.BucketCompost"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
+      },
+      "PersistenceID": "RbrpREuxQ5-x4LCvrfMRAg",
+      "InternalName": "tool_Bucket_Compost_Big"
+    }
+  }
+]

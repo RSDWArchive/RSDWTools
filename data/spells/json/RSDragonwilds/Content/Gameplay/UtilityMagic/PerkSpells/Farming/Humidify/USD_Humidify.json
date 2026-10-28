@@ -4,7 +4,7 @@
     "Name": "DominionShape_Box_0",
     "Outer": {
       "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_0'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.12"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.12"
     },
     "Class": "UScriptClass'DominionShape_Box'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -21,7 +21,7 @@
     "Name": "DominionShape_Capsule_0",
     "Outer": {
       "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_1'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.13"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.13"
     },
     "Class": "UScriptClass'DominionShape_Capsule'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -40,7 +40,7 @@
     "Name": "SpellModule_Cast_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Cast'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -52,7 +52,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -62,7 +62,7 @@
     "Name": "SpellModule_Collision_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -75,6 +75,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "bConvertFoliage": true,
       "OptionalSpawnActorModule": {
         "ModuleName": "SpawnActor"
@@ -94,7 +95,7 @@
     "Name": "SpellModule_Collision_1",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Collision'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -105,6 +106,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "OptionalSpawnActorModule": {
         "ModuleName": "SpawnActor"
       },
@@ -123,7 +125,7 @@
     "Name": "SpellModule_CostItems_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_CostItems'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -132,14 +134,14 @@
         {
           "ItemData": {
             "ObjectName": "MagicAmmoData'ITEM_Rune_Water'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Water"
           },
           "Count": 15
         },
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Rune_Astral'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral"
           },
           "Count": 10
         }
@@ -152,7 +154,7 @@
         },
         "AnimNotifyClass": {
           "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+          "ObjectPath": "/Game/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint"
         }
       }
     }
@@ -162,7 +164,7 @@
     "Name": "SpellModule_DestroyActor_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_DestroyActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -172,7 +174,7 @@
       },
       "DestroyActorStrategy": {
         "ObjectName": "BlueprintGeneratedClass'SDAS_HumidifyDestroyActorStrategy_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/SDAS_HumidifyDestroyActorStrategy.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/SDAS_HumidifyDestroyActorStrategy"
       },
       "ModuleName": "DestroyActor",
       "Triggers": {
@@ -187,7 +189,7 @@
     "Name": "SpellModule_ExpireAfterDistance_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_ExpireAfterDistance'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -207,14 +209,14 @@
     "Name": "SpellModule_Humidify_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Humidify'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "PerkForUpgrade": {
         "ObjectName": "SkillPerkData'PerkV2_Farming_HumidifySpellUpgrade'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_HumidifySpellUpgrade.0"
+        "ObjectPath": "/Game/Gameplay/Character/Player/PerksV2/Farming/PerkV2_Farming_HumidifySpellUpgrade"
       },
       "ModuleName": "Humidify",
       "Triggers": {
@@ -229,7 +231,7 @@
     "Name": "SpellModule_Movement_1",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Movement'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -253,14 +255,14 @@
     "Name": "SpellModule_PlayMontage_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_PlayMontage'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Montage": {
         "ObjectName": "AnimMontage'AM_PlayerM_Sorcery_Spellcast_Humidify'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Humidify.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Sorcery/AM_PlayerM_Sorcery_Spellcast_Humidify"
       },
       "ModuleName": "PlayMontage",
       "Triggers": {
@@ -273,7 +275,7 @@
     "Name": "SpellModule_RemoveCombinedContentAmount_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_RemoveCombinedContentAmount'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -282,11 +284,11 @@
       "ContentTypesToRemove": [
         {
           "ObjectName": "ContainerContentDataAsset'CC_Water_Dirty'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Water_Dirty.0"
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Dirty"
         },
         {
           "ObjectName": "ContainerContentDataAsset'CC_Water_Clean'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Water_Clean.0"
+          "ObjectPath": "/Game/Gameplay/LiquidsAndOtherContent/CC_Water_Clean"
         }
       ],
       "ModuleName": "RemoveCombinedContentAmount",
@@ -300,14 +302,14 @@
     "Name": "SpellModule_Shape_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Shape": {
         "ObjectName": "DominionShape_Box'USD_Humidify:SpellModule_Shape_0.DominionShape_Box_0'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.0"
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.0"
       },
       "ModuleName": "Shape_DestroySpell",
       "Triggers": {
@@ -321,14 +323,14 @@
     "Name": "SpellModule_Shape_1",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_Shape'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Shape": {
         "ObjectName": "DominionShape_Capsule'USD_Humidify:SpellModule_Shape_1.DominionShape_Capsule_0'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.1"
+        "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.1"
       },
       "ModuleName": "Shape_Rain",
       "Triggers": {
@@ -342,14 +344,14 @@
     "Name": "SpellModule_SpawnActor_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_SpawnActor'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ActorClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_Spell_HumidifyCloud_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/BP_Spell_HumidifyCloud.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/BP_Spell_HumidifyCloud"
       },
       "SpawnMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
       "bUseSpellTargetTransform": true,
@@ -364,14 +366,14 @@
     "Name": "SpellModule_SpawnVFX_0",
     "Outer": {
       "ObjectName": "UtilitySpellData'USD_Humidify'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+      "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
     },
     "Class": "UScriptClass'SpellModule_SpawnVFX'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SpellVFXActorClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_HumidifyCloud_VFX_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/BP_HumidifyCloud_VFX.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/BP_HumidifyCloud_VFX"
       },
       "SpawnActorModule": {
         "ModuleName": "SpawnActor"
@@ -391,14 +393,14 @@
       "SpellDisplayName": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Farming.Humidify.Name",
-        "SourceString": "Humidify",
-        "LocalizedString": "Humidify"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "SpecialRequirementsText": {
         "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
         "Key": "Farming.Humidify.SpecialRequirement",
-        "SourceString": "50 units of water (clean or dirty)",
-        "LocalizedString": "50 units of water (clean or dirty)"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "CooldownDuration": 45.0,
       "SpellIcon": {
@@ -414,7 +416,7 @@
       "bRotateSpellPlacementVisualisationWithAim": false,
       "SpellPlacementMontage": {
         "ObjectName": "AnimMontage'AM_PlayerM_HumidifyWorking_SpellCastMode_Targeting'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_HumidifyWorking_SpellCastMode_Targeting.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/SpellCastMode/AM_PlayerM_HumidifyWorking_SpellCastMode_Targeting"
       },
       "PlacementActorClass": {
         "AssetPathName": "/Game/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/BP_SpellPlacementVisualizer_Humidify.BP_SpellPlacementVisualizer_Humidify_C",
@@ -430,100 +432,100 @@
       },
       "SpellUIPlacementSFX": {
         "ObjectName": "DominionMetaSoundSource'MSS_Pl_SuSo_SelectSpellInMenu'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/Player/SurvivalSorcery/MSS_Pl_SuSo_SelectSpellInMenu"
       },
       "PadColourForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'SpellPadColourCyan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourCyan.1"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpellPadColourFeedback/SpellPadColourCyan"
       },
       "SpecialRequirementsStrategy": {
         "ObjectName": "BlueprintGeneratedClass'BP_USSRS_RequiresWaterAmount_Humidify_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresWaterAmount_Humidify.0"
+        "ObjectPath": "/Game/Gameplay/UtilityMagic/SpecialRequirementsStrategies/BP_USSRS_RequiresWaterAmount_Humidify"
       },
       "Modules": {
         "Modules": [
           {
             "Module": {
               "ObjectName": "SpellModule_PlayMontage'USD_Humidify:SpellModule_PlayMontage_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.10"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.10"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Cast'USD_Humidify:SpellModule_Cast_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.2"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.2"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_SpawnActor'USD_Humidify:SpellModule_SpawnActor_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.14"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.14"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Collision'USD_Humidify:SpellModule_Collision_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.3"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.3"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.12"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.12"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Movement'USD_Humidify:SpellModule_Movement_1'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.9"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.9"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_ExpireAfterDistance'USD_Humidify:SpellModule_ExpireAfterDistance_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.7"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.7"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_DestroyActor'USD_Humidify:SpellModule_DestroyActor_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.6"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.6"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_CostItems'USD_Humidify:SpellModule_CostItems_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.5"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.5"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Collision'USD_Humidify:SpellModule_Collision_1'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.4"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.4"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Shape'USD_Humidify:SpellModule_Shape_1'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.13"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.13"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_Humidify'USD_Humidify:SpellModule_Humidify_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.8"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.8"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_RemoveCombinedContentAmount'USD_Humidify:SpellModule_RemoveCombinedContentAmount_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.11"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.11"
             }
           },
           {
             "Module": {
               "ObjectName": "SpellModule_SpawnVFX'USD_Humidify:SpellModule_SpawnVFX_0'",
-              "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.15"
+              "ObjectPath": "1.0.1.3/RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.15"
             }
           }
         ]

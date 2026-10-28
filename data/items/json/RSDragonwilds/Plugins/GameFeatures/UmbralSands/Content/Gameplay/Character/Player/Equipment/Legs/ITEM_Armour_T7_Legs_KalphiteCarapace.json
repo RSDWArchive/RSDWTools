@@ -16,7 +16,7 @@
       "WearableEquipmentDataTableRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_WearableEquipment'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_WearableEquipment.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_WearableEquipment"
         },
         "RowName": "T07_Armour_Legs_Medium"
       },
@@ -24,19 +24,19 @@
       "Slot": "ELoadoutSlotStrategy::Legs",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "KalphiteCarapaceArmourLegs",
-        "SourceString": "Kalphite Carapace Legs",
-        "LocalizedString": "Kalphite Carapace Legs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "KalphiteCarapaceArmourLegs",
-        "SourceString": "This leg armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
-        "LocalizedString": "This leg armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_LEGS_Kal_ceVestigeArmour_01.T_Icon_LEGS_Kal_ceVestigeArmour_01",
@@ -48,6 +48,9 @@
       },
       "PowerLevel": 7,
       "Weight": 9.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Medium"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Medium"
       ],
@@ -57,7 +60,7 @@
       "BaseDurability": 1250,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "bIsMasterworkItem": true,
       "MasterworkType": "EMasterworkUpgradeType::Vestige",

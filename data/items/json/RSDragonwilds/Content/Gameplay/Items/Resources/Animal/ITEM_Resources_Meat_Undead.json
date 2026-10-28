@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "UndeadMeat",
-        "SourceString": "Undead Meat",
-        "LocalizedString": "Undead Meat"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "UndeadMeat",
-        "SourceString": "Obtained from undead beasts. Can be cooked for... interesting results.",
-        "LocalizedString": "Obtained from undead beasts. Can be cooked for... interesting results."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Undead_Meat.T_Icon_Undead_Meat",
@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 4,
       "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.Food"
+      },
       "ItemFilterTags": [
         "Item.Farming.CompostableSuper",
         "ItemFilter.Material.RawIngredient"

@@ -7,7 +7,7 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "Namespace": "",
@@ -32,8 +32,6 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "bCanBeDestroyed": false,
-      "bBoundToPlayer": true,
       "Weight": 4.0,
       "Category": {
         "TagName": "Item.BossSoul"

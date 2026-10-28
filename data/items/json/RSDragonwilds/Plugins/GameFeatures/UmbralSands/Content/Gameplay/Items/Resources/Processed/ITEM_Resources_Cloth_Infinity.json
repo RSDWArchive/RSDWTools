@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "ClothInfinity",
-        "SourceString": "Infinity Cloth",
-        "LocalizedString": "Infinity Cloth"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "InfinityCloth",
-        "SourceString": "Named as such due to the infinite number of colours it features. It's quite garish.",
-        "LocalizedString": "Named as such due to the infinite number of colours it features. It's quite garish."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Infinity_Cloth.T_Icon_Infinity_Cloth",
@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 0.6,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Potion"
       },
+      "CompostAmount": 10,
       "PersistenceID": "hnvjW0wQ_OPazBO_c-wvwg",
       "InternalName": "res_cloth_infinity"
     }

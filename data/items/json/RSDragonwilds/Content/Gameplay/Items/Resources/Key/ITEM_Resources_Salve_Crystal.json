@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WitherWard/ST_FH_WitherWard.ST_FH_WitherWard",
         "Key": "Crystal.Name",
-        "SourceString": "Salve Crystal",
-        "LocalizedString": "Salve Crystal"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_WitherWard/ST_FH_WitherWard.ST_FH_WitherWard",
         "Key": "Crystal.Description",
-        "SourceString": "A crystal that Doric obtained from a cave near the river Salve, back in Misthalin. Used in creating the Salve amulet. ",
-        "LocalizedString": "A crystal that Doric obtained from a cave near the river Salve, back in Misthalin. Used in creating the Salve amulet. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Salve_Stone.T_Icon_Salve_Stone",

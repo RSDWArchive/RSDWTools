@@ -9,7 +9,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Molten_Glass'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Molten_Glass.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Molten_Glass"
           },
           "Count": 1
         }
@@ -18,7 +18,7 @@
         {
           "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Glass_Pane'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Pane.0"
+            "ObjectPath": "/Game/Gameplay/Items/Resources/Glass/ITEM_Resources_Glass_Pane"
           },
           "Count": 1
         }
@@ -28,12 +28,12 @@
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "OnCraftXpEvent": {
         "DataTable": {
           "ObjectName": "DataTable'DT_XPEvents_Crafting'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+          "ObjectPath": "/Game/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting"
         },
         "RowName": "Craft_Crafting_Table_Recipe_Tier2"
       },

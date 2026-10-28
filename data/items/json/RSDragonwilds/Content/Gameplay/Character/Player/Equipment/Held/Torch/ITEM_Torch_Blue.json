@@ -11,24 +11,24 @@
       },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Block_Torch_C'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Torch/PA_Block_Torch.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Torch/PA_Block_Torch"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_LH_Torch_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Torch/A_PlayerM_Idle_LH_Torch_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Torch/A_PlayerM_Idle_LH_Torch_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerWeaponPowerLevels'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerWeaponPowerLevels"
         },
         "RowName": "Weapons"
       },
       "BaseHeldEquipmentDamageNegationRowHandle": {
         "DataTable": {
           "ObjectName": "DataTable'DT_PlayerDamageNegation'",
-          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation.0"
+          "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/DT_PlayerDamageNegation"
         },
         "RowName": "Unarmed"
       },
@@ -36,19 +36,19 @@
       "Slot": "ELoadoutSlotStrategy::HeldOnlyLeft",
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Torch.Blue",
-        "SourceString": "Blue Torch",
-        "LocalizedString": "Blue Torch"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "Torch.Blue",
-        "SourceString": "A trusty lightsource - now in blue. ",
-        "LocalizedString": "A trusty lightsource - now in blue. "
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Torch_Flame_Blue.T_Icon_Torch_Flame_Blue",
@@ -60,6 +60,9 @@
       },
       "PowerLevel": 1,
       "Weight": 1.5,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Tool"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Tool"
       ],
@@ -70,7 +73,7 @@
       "bDestroyWhenBroken": true,
       "OnBreakSound": {
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
-        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
+        "ObjectPath": "/Game/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak"
       },
       "PersistenceID": "kFhu-UO_M12vHueLm012eQ",
       "InternalName": "tool_torch_blue"

@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Farming'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Farming.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Farming"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "Name_Tool_PlantCurePotion",
-        "SourceString": "Plant Cure",
-        "LocalizedString": "Plant Cure"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_Farming.ST_Farming",
         "Key": "FlavourText_Tool_PlantCurePotion",
-        "SourceString": "Used to cure diseased plants and bring them back to a healthy state.",
-        "LocalizedString": "Used to cure diseased plants and bring them back to a healthy state."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Farming_Additional_Icons/T_Icon_Plant_Cure_Potion.T_Icon_Plant_Cure_Potion",

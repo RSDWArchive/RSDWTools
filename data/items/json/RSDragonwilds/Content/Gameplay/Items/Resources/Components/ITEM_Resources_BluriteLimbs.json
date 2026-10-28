@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "BluriteLimbs",
-        "SourceString": "Blurite Crossbow Limbs",
-        "LocalizedString": "Blurite Crossbow Limbs"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BluriteLimbs",
-        "SourceString": "A pair of blurite crossbow limbs. Used in crafting a Blurite Crossbow.",
-        "LocalizedString": "A pair of blurite crossbow limbs. Used in crafting a Blurite Crossbow."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Ranged/T_Icon_CrossbowLimb_Blurite_1H_01.T_Icon_CrossbowLimb_Blurite_1H_01",
@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.Component"
       ],

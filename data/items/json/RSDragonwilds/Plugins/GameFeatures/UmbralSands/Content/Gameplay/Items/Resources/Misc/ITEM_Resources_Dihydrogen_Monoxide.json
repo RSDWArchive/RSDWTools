@@ -7,19 +7,19 @@
     "Properties": {
       "SkillUsed": {
         "ObjectName": "SkillData'SKILL_Artisan'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+        "ObjectPath": "/Game/Gameplay/Character/Player/Skills/SKILL_Artisan"
       },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "DihydrogenMonoxide",
-        "SourceString": "Dihydrogen Monoxide",
-        "LocalizedString": "Dihydrogen Monoxide"
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "DihydrogenMonoxide",
-        "SourceString": "Why did they laugh when I bought this? Sold by local traders.",
-        "LocalizedString": "Why did they laugh when I bought this? Sold by local traders."
+        "SourceString": null,
+        "LocalizedString": ""
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Dihydrogen_Monoxide_v2.T_Icon_Dihydrogen_Monoxide_v2",
