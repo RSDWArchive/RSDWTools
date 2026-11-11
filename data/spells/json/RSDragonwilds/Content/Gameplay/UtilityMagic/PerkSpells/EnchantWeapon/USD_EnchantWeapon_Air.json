@@ -129,16 +129,16 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SpellDisplayName": {
-        "Namespace": "",
-        "Key": "E85B5F5F435C8C49D470678EF595A6B5",
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponAir.Name",
         "SourceString": "Enchant Weapon: Air",
         "LocalizedString": "Enchant Weapon: Air"
       },
       "SpecialRequirementsText": {
-        "Namespace": "",
-        "Key": "0B61879245E41F0F2C163C8F16DF39C9",
-        "SourceString": "A held melee weapon",
-        "LocalizedString": "A held melee weapon"
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "HeldItemRequired",
+        "SourceString": "A held melee weapon ",
+        "LocalizedString": "A held melee weapon "
       },
       "NotifyFailedSpecialRequirements": [
         "UI.ConsumeItem.RequiresHeldEnchantable"

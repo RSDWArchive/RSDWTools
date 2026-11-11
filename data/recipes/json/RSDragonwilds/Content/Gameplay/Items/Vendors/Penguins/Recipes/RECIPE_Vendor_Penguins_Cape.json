@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Penguins_Cape",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_PenguinCoin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_PenguinCoin.0"
+          },
+          "Count": 30
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Cape_Penguin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Cape_Penguin.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Penguin.Recipe.Item.Cloth"
+      },
+      "bIgnoreNotification": true,
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "qX23mUq5MFHTarW6Mr7gmQ",
+      "InternalName": "RECIPE_Vendor_Penguin_Cape"
+    }
+  }
+]

@@ -9,65 +9,67 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Visage_Dragon.ITEM_Resources_Visage_Dragon",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Visage_Dragon.ITEM_Resources_Visage_Dragon",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier0_DragonSlayerQuest.ITEM_Consumable_Tome_Tier0_DragonSlayerQuest",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Tomes/ITEM_Consumable_Tome_Tier0_DragonSlayerQuest.ITEM_Consumable_Tome_Tier0_DragonSlayerQuest",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Anti_Dragon.ITEM_Masterworks_Shield_Anti_Dragon",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Masterworks_Shield_Anti_Dragon.ITEM_Masterworks_Shield_Anti_Dragon",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "Name": {
         "Namespace": "",
         "Key": "F6FD54D242ACF7828F6D08BAA6602A92",
@@ -94,6 +96,9 @@
       },
       "MaxStackSize": 10,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

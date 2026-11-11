@@ -33,6 +33,9 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 4.5,
+      "Category": {
+        "TagName": "Item.Resource"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Metal.Block"
       },

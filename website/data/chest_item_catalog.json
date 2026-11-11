@@ -135,6 +135,11 @@
     "icon": "T_Icon_Steel_Bolt.png"
   },
   {
+    "item_id": "ITEM_Armour_Body_Penguin",
+    "display_name": "Penguin Body",
+    "icon": "T_Icon_Body_PenguinOutfit_1.png"
+  },
+  {
     "item_id": "ITEM_Armour_T1_Body_Adventurers",
     "display_name": "Adventurer's Tunic",
     "icon": "T_Icon_M_MED_Body_LightArmour_01.png"
@@ -370,6 +375,11 @@
     "icon": "T_Icon_Cape_RoyalThaneCloak.png"
   },
   {
+    "item_id": "ITEM_Cape_Penguin",
+    "display_name": "Penguin Cape",
+    "icon": "T_Icon_Penguin_cape_1.png"
+  },
+  {
     "item_id": "ITEM_Cape_Runecrafting",
     "display_name": "armour_t4_cape_runecrafting",
     "icon": "T_Icon_Cape_RoyalThaneCloak.png"
@@ -518,6 +528,16 @@
     "item_id": "ITEM_Armour_Head_EarlyAdopter",
     "display_name": "Pioneer's Scarf",
     "icon": "T_Icon_Pioneer_Scarf.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_KGP",
+    "display_name": "KGP Hat",
+    "icon": "T_Icon_Penguin_Hat_1.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Head_Penguin",
+    "display_name": "Penguin Helmet",
+    "icon": "T_Icon_Head_PenguinOutfit_1.png"
   },
   {
     "item_id": "ITEM_Armour_Head_SpectralBagOfNoggin",
@@ -723,6 +743,11 @@
     "item_id": "ITEM_Bucket_Compost",
     "display_name": "Compost Bucket",
     "icon": "T_icon_Wooden_Bucket.png"
+  },
+  {
+    "item_id": "ITEM_Bucket_Compost_Big",
+    "display_name": "Large Compost Bucket",
+    "icon": "T_Icon_Large_Compost_Bucket_New.png"
   },
   {
     "item_id": "ITEM_WateringCan_Bronze",
@@ -1558,6 +1583,11 @@
     "item_id": "ITEM_Trinket_Ravannas_Ring",
     "display_name": "Ravanna's Ring",
     "icon": "T_Icon_Ravanna_Ring.png"
+  },
+  {
+    "item_id": "ITEM_Armour_Legs_Penguin",
+    "display_name": "Penguin Legs",
+    "icon": "T_Icon_Legs_PenguinOutfit_1.png"
   },
   {
     "item_id": "ITEM_Armour_T1_Legs_Adventurers",
@@ -2675,6 +2705,11 @@
     "icon": "Wardstone_Small.png"
   },
   {
+    "item_id": "ITEM_Masterworks_Horn_Mouthpiece",
+    "display_name": "res_horn_mouthpiece",
+    "icon": ""
+  },
+  {
     "item_id": "ITEM_Resources_Clay_Slab",
     "display_name": "item_clay_slab_deleted",
     "icon": ""
@@ -2965,6 +3000,11 @@
     "icon": "T_icon_Steel_Crossbow_arms.png"
   },
   {
+    "item_id": "ITEM_Currency_PenguinCoin",
+    "display_name": "Penguin Coin",
+    "icon": "T_Icon_Penguin_Coin_1.png"
+  },
+  {
     "item_id": "ITEM_Currency_SoulFragment",
     "display_name": "Soul Fragment",
     "icon": "T_Icon_Soul_Fragment.png"
@@ -3082,7 +3122,7 @@
   {
     "item_id": "ITEM_quest_AnimalMagnetism_AdvertInnaBottle",
     "display_name": "Advert-Inna-Bottle",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_quest_AnimalMagnetism_Magnet",
@@ -3192,17 +3232,17 @@
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll1",
     "display_name": "The Binding of Ib",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll2",
     "display_name": "Coclear Malificarum",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_quest_FH_WhatRemains_Scroll3",
     "display_name": "Eventide - A New Spawn",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_quest_FH_WitherBeast_Heart",
@@ -3325,59 +3365,154 @@
     "icon": "T_Icon_Imaru_Curse_Seal_Grief_nofx.png"
   },
   {
+    "item_id": "ITEM_Activity_PostBox_DR_Bastion",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Cathedral",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Courtyard",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Garrison",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Gate",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_GrandHall",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Library",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Menagerie",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Nexus",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_DR_Pastures",
+    "display_name": "Dowdun Reach Letter",
+    "icon": "T_Icon_DWR_Letter.png"
+  },
+  {
     "item_id": "ITEM_Activity_PostBox_FH_EmberwoodVillage",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_FallenGates",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_FountainRuins",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_Gatehouse",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_ImarusTower",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_KeepEntrance",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_MinersCottage",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_PostiePete",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_StandingStones",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_WillgroveRuins",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
   },
   {
     "item_id": "ITEM_Activity_PostBox_FH_WitheredRuins",
-    "display_name": "Letter",
+    "display_name": "Fellhollow Letter",
     "icon": "T_Icon_Envelope.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_BurningSpire",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_CentralOasis",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_KalphiteNest",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_KalphitePyramid",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_LavaPyramid",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_ManafemRuins",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_NightmareCrucible",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_OasisCamp",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
+  },
+  {
+    "item_id": "ITEM_Activity_PostBox_UmS_UzzerPyramid",
+    "display_name": "Umbral Sands Letter",
+    "icon": "T_Icon_UMS_Letter.png"
   },
   {
     "item_id": "ITEM_Resources_VaultCore",
@@ -3407,7 +3542,7 @@
   {
     "item_id": "ITEM_Rune_Earth",
     "display_name": "Earth Rune",
-    "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+    "icon": "T_Icon_Rune_Earth.png"
   },
   {
     "item_id": "ITEM_Rune_Essence",
@@ -3438,11 +3573,6 @@
     "item_id": "ITEM_Masterworks_Challenge_Horn",
     "display_name": "Challenge Horn",
     "icon": "T_Icon_Challenge_Horn_01.png"
-  },
-  {
-    "item_id": "ITEM_Masterworks_Horn_Mouthpiece",
-    "display_name": "Challenge Horn Mouthpiece",
-    "icon": "T_Masterworks_Horn_Mouthpiece.png"
   },
   {
     "item_id": "ITEM_Masterworks_Imbued_Granite_Maul_Head",
@@ -3890,14 +4020,14 @@
     "icon": "T_Icon_SM_M_MED_Cape_Stormtouched_Gilded.png"
   },
   {
-    "item_id": "ITEM_Cape_ScornedWilderness_Golden",
-    "display_name": "Golden Scorned Wilderness Cape",
-    "icon": "T_Icon_Cape_Whispering.png"
-  },
-  {
     "item_id": "ITEM_Cape_UmbralSands_Golden",
     "display_name": "Golden Umbral Sands Cape",
     "icon": "T_Icon_SM_M_MED_Cape_Umbral_Sands_Gilded.png"
+  },
+  {
+    "item_id": "ITEM_Cape_ScornedWilderness_Golden",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
   },
   {
     "item_id": "ITEM_Trinket_Gyrhawk_Amulet",
@@ -4012,7 +4142,7 @@
   {
     "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Agility",
     "display_name": "Lesser Focused Agility Potion",
-    "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png"
+    "icon": "T_Icon_Lesser_Red_Potion_cc0d78a2.png"
   },
   {
     "item_id": "ITEM_Consumable_Potion_Focused_T3_Agility",
@@ -4800,6 +4930,16 @@
     "icon": "T_Icon_Dec_Skill_Tome_Standing_Fishing.png"
   },
   {
+    "item_id": "ITEM_Trinket_Penguin_Amulet",
+    "display_name": "Pescaling Amulet",
+    "icon": "T_Icon_Penguin_Amulet_1.png"
+  },
+  {
+    "item_id": "ITEM_Trinket_Penguin_Ring",
+    "display_name": "Pescaling Ring",
+    "icon": "T_Icon_Penguin_Ring_1.png"
+  },
+  {
     "item_id": "ITEM_Consumable_Fish_Anchovies",
     "display_name": "Seared Anchovies",
     "icon": "T_Icon_Seared_Anchovy.png"
@@ -5146,7 +5286,7 @@
   },
   {
     "item_id": "ITEM_Armour_T8_Head_RuneMed",
-    "display_name": "Runite Med Helm",
+    "display_name": "Rune Med Helm",
     "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png"
   },
   {
@@ -5270,11 +5410,6 @@
     "icon": "T_Icon_SM_M_MED_LEGS_RuneArmour_01.png"
   },
   {
-    "item_id": "ITEM_Resources_DragonLimbs",
-    "display_name": "Dragon Crossbow Limbs",
-    "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
-  },
-  {
     "item_id": "ITEM_Resources_RuneLimbs",
     "display_name": "Rune Crossbow Limbs",
     "icon": "T_Icon_SM_Crossbow_Runite_Arms_1H_01.png"
@@ -5288,6 +5423,51 @@
     "item_id": "ITEM_Consumable_KuldraPack_Unique",
     "display_name": "Regicide Reward Pack",
     "icon": "T_Icon_Dragon_chest.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_BloodblightSwamp",
+    "display_name": "Bloodblight Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Bramblemead",
+    "display_name": "Bramblemead Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_DowdunReach",
+    "display_name": "Dowdun Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Fellhollow",
+    "display_name": "Fellhollow Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_Ghornfell",
+    "display_name": "Ghornfell Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_StormtouchedHighlands",
+    "display_name": "Stormtouched Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_UmbralSands",
+    "display_name": "Umbral Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Consumable_RaidPack_WhisperingSwamp",
+    "display_name": "Whispering Raid Pack",
+    "icon": "T_Icon_Human_Napsack_01.png"
+  },
+  {
+    "item_id": "ITEM_Resources_DragonLimbs",
+    "display_name": "Dragon Crossbow Limbs",
+    "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
   },
   {
     "item_id": "ITEM_Resources_Hide_Dragon_Black",
@@ -5661,8 +5841,8 @@
   },
   {
     "item_id": "ITEM_Trinket_Iconic_Amulet_of_Glory",
-    "display_name": "ITEM_Trinket_Iconic_Amulet_of_Glory",
-    "icon": ""
+    "display_name": "Amulet of Glory",
+    "icon": "T_Icon_Amulet_of_Glory.png"
   },
   {
     "item_id": "ITEM_Trinket_Iconic_Skills_Necklace",
@@ -5701,7 +5881,7 @@
   },
   {
     "item_id": "ITEM_Armour_T7_Legs_RedDragon",
-    "display_name": "Red Dragonhide Legs",
+    "display_name": "Red Dragonhide Chaps",
     "icon": "T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png"
   },
   {
@@ -5735,54 +5915,59 @@
     "icon": "T_Icon_Resources_Garou_Pack.png"
   },
   {
+    "item_id": "ITEM_Consumable_Ums_SQ_ReelDowner_RewardPack",
+    "display_name": "item_pack_UmS_SQ_ReelDowner_Complete",
+    "icon": "T_Icon_Resources_Garou_Pack.png"
+  },
+  {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_01",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_01",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_02",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_02",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_03",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_03",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_04",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_04",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_05",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_05",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampB_Task1_06",
     "display_name": "Quest_Item_UmS_Quest_CampB_Task1_06",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
     "display_name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Moonstone",
@@ -5792,22 +5977,22 @@
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll1",
     "display_name": "res_quest_ums_mainquest_scroll1",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll2",
     "display_name": "res_quest_ums_mainquest_scroll2",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll3",
     "display_name": "res_quest_ums_mainquest_scroll3",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Quest_UmS_Mainquest_Scroll4",
     "display_name": "res_quest_ums_mainquest_scroll4",
-    "icon": "T_Icon_Scroll_b118aabc.png"
+    "icon": "T_Icon_Scroll_41a82a74.png"
   },
   {
     "item_id": "ITEM_Resource_Key_FightCaveKey_A",
@@ -5892,7 +6077,7 @@
   {
     "item_id": "ITEM_Consumable_Fish_Beltfish_Burnt",
     "display_name": "Burnt Beltfish",
-    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png"
+    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_2e243ad4.png"
   },
   {
     "item_id": "ITEM_Consumable_Fish_DesertSole",
@@ -6050,6 +6235,11 @@
     "icon": "T_Icon_Cactus_Water_V3.png"
   },
   {
+    "item_id": "ITEM_FishBait_AgonyAuntchovy",
+    "display_name": "ammo_fishbait_agonyauntchovy",
+    "icon": "T_Icon_Fish_Agony_Auntchovy.png"
+  },
+  {
     "item_id": "ITEM_FishBait_KalphiteFly",
     "display_name": "Kalphite Bait",
     "icon": "T_Icon_Kalphite_Fly_Bait.png"
@@ -6060,9 +6250,19 @@
     "icon": "T_Icon_Monkfish_Bait.png"
   },
   {
+    "item_id": "ITEM_Resources_Fish_Raw_ArmouredCatfish_ReelDowner",
+    "display_name": "res_fish_armouredcatfish_reeldowner",
+    "icon": "T_Icon_Fish_Inconsolable_Catfish.png"
+  },
+  {
     "item_id": "ITEM_Resources_Fish_Raw_Beltfish",
     "display_name": "Raw Beltfish",
     "icon": "T_Icon_Fish_Beltfish.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Beltfish_ReelDowner",
+    "display_name": "res_fish_beltfish_reeldowner",
+    "icon": "T_Icon_Fish_Bawling_Beltfish.png"
   },
   {
     "item_id": "ITEM_Resources_Fish_Raw_DesertSole",
@@ -6070,9 +6270,19 @@
     "icon": "T_Icon_Fish_Desert_Sole.png"
   },
   {
+    "item_id": "ITEM_Resources_Fish_Raw_DesertSole_ReelDowner",
+    "display_name": "res_fish_desertsole_reeldowner",
+    "icon": "T_Icon_Fish_Depressed_Desert_Sole.png"
+  },
+  {
     "item_id": "ITEM_Resources_Fish_Raw_Monkfish",
     "display_name": "Raw Monkfish",
     "icon": "T_Icon_Fish_Monkfish.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_ArmouredCatfish_ReelDowner",
+    "display_name": "res_fish_pristine_armouredcatfish_reeldowner",
+    "icon": "T_Icon_Fish_Pristine_Inconsolable_Catfish.png"
   },
   {
     "item_id": "ITEM_Resources_Fish_Raw_Pristine_Beltfish",
@@ -6080,14 +6290,34 @@
     "icon": "T_Icon_Fish_Beltfish_Pristine.png"
   },
   {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Beltfish_ReelDowner",
+    "display_name": "res_fish_pristine_beltfish_reeldowner",
+    "icon": "T_Icon_Fish_Pristine_Bawling_Beltfish.png"
+  },
+  {
     "item_id": "ITEM_Resources_Fish_Raw_Pristine_DesertSole",
     "display_name": "Pristine Desert Sole",
     "icon": "T_Icon_Fish_Desert_Sole_Pristine.png"
   },
   {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_DesertSole_ReelDowner",
+    "display_name": "res_fish_pristine_desertsole_reeldowner",
+    "icon": "T_Icon_Fish_Pristine_Depressed_Desert_Sole.png"
+  },
+  {
     "item_id": "ITEM_Resources_Fish_Raw_Pristine_Monkfish",
     "display_name": "Pristine Monkfish",
     "icon": "T_Iconl_Fish_Monkfish_Pristine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Pristine_Sardine_ReelDowner",
+    "display_name": "res_fish_pristine_sardine_reeldowner",
+    "icon": "T_Icon_Fish_Pristine_Snivelling_Sardine.png"
+  },
+  {
+    "item_id": "ITEM_Resources_Fish_Raw_Sardine_ReelDowner",
+    "display_name": "res_fish_sardine_reeldowner",
+    "icon": "T_Icon_Fish_Snivelling_Sardine.png"
   },
   {
     "item_id": "ITEM_Resources_Gem_Dragonstone",
@@ -6407,6 +6637,16 @@
   {
     "item_id": "DA_Consumable_Plan_Decoration_Fellhollow_Tombstone_01",
     "display_name": "PLAN: Grave 4",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Rug_GreenCircular",
+    "display_name": "Ancient Roundrug",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Rug_GreenRectangular",
+    "display_name": "Ancient Rug",
     "icon": "T_Icon_Plans.png"
   },
   {
@@ -6815,6 +7055,76 @@
     "icon": "T_Icon_Plans.png"
   },
   {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Bronze_Penguin",
+    "display_name": "Plan: Bronze Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Coin",
+    "display_name": "Plan: Penguin Decorative Coin",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Copper_Penguin",
+    "display_name": "Plan: Copper Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Gold_Penguin",
+    "display_name": "Plan: Gold Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Silver_Penguin",
+    "display_name": "Plan: Silver Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Stone_Penguin",
+    "display_name": "Plan: Stone Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Barrel",
+    "display_name": "Plan: Suspicous Miniature Penguin 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Box",
+    "display_name": "Plan: Suspicous Miniature Penguin 02",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Pan",
+    "display_name": "Plan: Suspicous Miniature Penguin 03",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Sack",
+    "display_name": "Plan: Suspicous Miniature Penguin 04",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Miniature_Tin_Penguin",
+    "display_name": "Plan: Tin Penguin Miniature",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Penguin_Tapestry",
+    "display_name": "Plan: Penguin Decorative Tapestry",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_Penguins_PenguinStatue",
+    "display_name": "Plan: Penguin Statue 01",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_PolarBear_Tapestry",
+    "display_name": "Plan: Polar Bear Decorative Tapestry",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Plan_Decoration_Plants_Potted_Dwellberry",
     "display_name": "PLAN: Potted Dwellberry Bush",
     "icon": "T_Icon_Plans.png"
@@ -6875,9 +7185,19 @@
     "icon": "T_Icon_Dark_Knight_Cowl.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_KGP",
+    "display_name": "Scrap Mired in Subterfuge",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Armour_Head_Necromancer",
     "display_name": "Curse Carrying Crown",
     "icon": "T_icon_Necromancer_crown.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Armour_Head_Penguin",
+    "display_name": "Coral Nubbin",
+    "icon": "T_Icon_Plans.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Armour_Head_Ranger",
@@ -6945,6 +7265,11 @@
     "icon": "T_Icon_Zamorak_Robe_Legs.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Armour_Set_Penguin",
+    "display_name": "Tuxedo Patch",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Cape_Adventurers_Black",
     "display_name": "Moth Eaten Black Cloth",
     "icon": "T_icon_Cape_Black.png"
@@ -6990,6 +7315,11 @@
     "icon": "T_icon_Cape_Yellow.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Cape_Penguin",
+    "display_name": "Prestigious Prototype",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Cape_Shadowscale",
     "display_name": "Tattered Time-lost Cloth",
     "icon": "T_icon_Shadowscale_Cape.png"
@@ -7020,6 +7350,11 @@
     "icon": "T_Icon_Amulet_of_Strength.png"
   },
   {
+    "item_id": "DA_Consumable_Vestige_Trinket_Amulet_Penguin",
+    "display_name": "Brine-Soaked Bauble",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Trinket_Ring_of_Life",
     "display_name": "Sigil of a Phoenix",
     "icon": "T_Icon_Ring_of_Life.png"
@@ -7033,6 +7368,11 @@
     "item_id": "DA_Consumable_Vestige_Trinket_Ring_of_Recoil",
     "display_name": "Cracked Bronze Vanity Mirror",
     "icon": "T_Icon_Ring_of_Recoil.png"
+  },
+  {
+    "item_id": "DA_Consumable_Vestige_Trinket_Ring_Penguin",
+    "display_name": "Brine-Soaked Band",
+    "icon": "T_Icon_Plans.png"
   },
   {
     "item_id": "DA_Consumable_Vestige_Trinket_Symbol_Unholy",
@@ -7170,14 +7510,14 @@
     "icon": "T_Icon_Cape_Stormtouched.png"
   },
   {
-    "item_id": "DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden",
-    "display_name": "Golden Scorned Wilderness Cape",
-    "icon": "T_Icon_Cape_Whispering.png"
-  },
-  {
     "item_id": "DA_Consumable_Pattern_Armor_Cape_Umbral_Sands_Golden",
     "display_name": "Golden Umbral Sands Cape",
     "icon": "T_Icon_Umbral_Sands_Cape.png"
+  },
+  {
+    "item_id": "DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png"
   },
   {
     "item_id": "DA_Consumable_Pattern_Armor_Cape_BlueDyad",
@@ -7290,6 +7630,11 @@
     "icon": "T_Icon_Adventurer_Capes_Pattern_01_Yellow.png"
   },
   {
+    "item_id": "DA_Consumable_Plan_Decoration_DR_PostBox",
+    "display_name": "PLAN: Dowdun Postbox",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
     "item_id": "DA_Consumable_Vestige_Weapon_Whip_Abysmal",
     "display_name": "Abyssal Remains",
     "icon": "T_Icon_Abyssal_Whip_Vestige.png"
@@ -7392,6 +7737,11 @@
   {
     "item_id": "DA_Consumable_Plan_Decoration_UmS_Garou_Vase_Small",
     "display_name": "PLAN: Small Desert Vase",
+    "icon": "T_Icon_Plans.png"
+  },
+  {
+    "item_id": "DA_Consumable_Plan_Decoration_UmS_PostBox",
+    "display_name": "PLAN: Umbral Postbox",
     "icon": "T_Icon_Plans.png"
   },
   {

@@ -69,6 +69,10 @@
       "ItemStatus": {
         "TagName": "Item.Status.Burnt"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableUltra"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Burnt"
       },
@@ -79,6 +83,7 @@
         },
         "RowName": "Pickup_Campfire_Processed_Item"
       },
+      "CompostAmount": 10,
       "PersistenceID": "eP4Lj0re9u0Exa2wOWXl9A",
       "InternalName": "food_cactus_burnt"
     }

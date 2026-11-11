@@ -17,14 +17,18 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail.NS_Player_Arrow_Trail",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowBodkin'",
+        "ObjectPath": "RSDragonwilds/Content/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowBodkin.0"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
           "DamageType.Ranged.Arrows"
         ],
-        "AdditionalDamageFraction": 4.2
+        "AdditionalDamageFraction": 4.9
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",
@@ -61,6 +65,9 @@
       },
       "MaxStackSize": 999,
       "PowerLevel": 8,
+      "Category": {
+        "TagName": "Item.Equipment.Ammo.Arrow.Runite"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Ammo.Arrow"
       ],

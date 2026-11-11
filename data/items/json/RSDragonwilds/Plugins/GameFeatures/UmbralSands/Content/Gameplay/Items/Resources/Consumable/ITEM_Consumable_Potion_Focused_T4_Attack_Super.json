@@ -64,9 +64,13 @@
       },
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Potion"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Glass.Bottle"
       },
+      "CompostAmount": 10,
       "BuffDatas": [
         {
           "Title": {

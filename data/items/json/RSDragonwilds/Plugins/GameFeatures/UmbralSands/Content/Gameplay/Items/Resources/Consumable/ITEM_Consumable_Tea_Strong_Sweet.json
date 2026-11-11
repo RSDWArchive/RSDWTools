@@ -66,16 +66,15 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 7,
       "Weight": 1.0,
       "Category": {
         "TagName": "Item.Food"
       },
       "ItemFilterTags": [
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Food.Gulp"
+        "TagName": "Audio.Food.Water"
       },
       "PickupXPEvent": {
         "DataTable": {

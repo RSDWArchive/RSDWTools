@@ -34,17 +34,21 @@
       "MaxStackSize": 99,
       "PowerLevel": 7,
       "Weight": 2.5,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.RawIngredient",
         "ItemFilter.Material.RawFish",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },
+      "CompostAmount": 10,
       "PersistenceID": "Kuh1zETAPQYHeyugXE12Rg",
       "InternalName": "res_fish_monkfish"
     }

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-28T23:02:52.323511+00:00",
-  "game_root": "E:\\Github\\RSDWArchive\\1.0.0.5",
+  "generated_at_utc": "2026-11-11T05:27:25.104997+00:00",
+  "game_root": "E:\\Github\\RSDWArchive\\1.0.2.0",
   "output_root": "data",
   "options": {
     "core_categories": [
@@ -18,8 +18,8 @@
     "dry_run": false
   },
   "summary": {
-    "json_scanned": 72934,
-    "json_unmatched": 70202,
+    "json_scanned": 74867,
+    "json_unmatched": 72014,
     "duplicates_skipped": 0,
     "unmatched_samples": [
       "ArchiveExtractManifest.json",
@@ -46,8 +46,8 @@
   },
   "categories": {
     "consumables": {
-      "files_discovered": 258,
-      "files_copied": 258,
+      "files_discovered": 282,
+      "files_copied": 282,
       "source_roots": [
         "json"
       ],
@@ -60,14 +60,14 @@
       ]
     },
     "icons": {
-      "files_discovered": 2946,
-      "files_copied": 2946,
+      "files_discovered": 3021,
+      "files_copied": 3021,
       "source_roots": [],
       "sample_files": []
     },
     "items": {
-      "files_discovered": 1261,
-      "files_copied": 1261,
+      "files_discovered": 1307,
+      "files_copied": 1307,
       "source_roots": [
         "json"
       ],
@@ -80,8 +80,8 @@
       ]
     },
     "recipes": {
-      "files_discovered": 1149,
-      "files_copied": 1149,
+      "files_discovered": 1200,
+      "files_copied": 1200,
       "source_roots": [
         "json"
       ],
@@ -161,8 +161,8 @@
     }
   },
   "icon_discovery": {
-    "object_paths_found": 4311,
-    "object_paths_resolved": 1188,
+    "object_paths_found": 4440,
+    "object_paths_resolved": 1209,
     "prefixes": [
       "t_icon_",
       "t_skill_"

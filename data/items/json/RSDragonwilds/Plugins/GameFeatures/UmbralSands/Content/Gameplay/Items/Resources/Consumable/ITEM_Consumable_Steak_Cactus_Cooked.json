@@ -78,10 +78,15 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
+      "PowerLevel": 4,
       "Weight": 0.2,
       "Category": {
         "TagName": "Item.Food"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableUltra"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Plant.Chewy"
       },

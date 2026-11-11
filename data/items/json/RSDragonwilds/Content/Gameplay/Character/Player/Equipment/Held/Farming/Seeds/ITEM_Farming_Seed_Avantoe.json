@@ -69,6 +69,9 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
+      "Category": {
+        "TagName": "ItemFilter.Material.Seed"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

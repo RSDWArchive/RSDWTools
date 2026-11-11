@@ -9,65 +9,67 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.ITEM_Resources_Currency_DreamShard",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_Currency_DreamShard.ITEM_Resources_Currency_DreamShard",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Essence_Cursed.ITEM_Resources_Essence_Cursed",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.5,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/DowdunReach/Gameplay/Items/Animal/ITEM_Resources_Essence_Cursed.ITEM_Resources_Essence_Cursed",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.5,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_VileAshes.ITEM_Resources_VileAshes",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.5,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/ITEM_Resources_VileAshes.ITEM_Resources_VileAshes",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.5,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "UseVerb": {
         "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
         "Key": "Sift",
@@ -100,6 +102,9 @@
       },
       "MaxStackSize": 99,
       "Weight": 3.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

@@ -32,6 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
+      "Category": {
+        "TagName": "ItemFilter.Type.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.BasicMaterial"
       ],

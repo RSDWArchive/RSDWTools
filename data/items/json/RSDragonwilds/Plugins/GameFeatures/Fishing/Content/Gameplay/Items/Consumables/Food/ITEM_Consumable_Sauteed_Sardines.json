@@ -51,8 +51,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SauteedSardines",
-        "SourceString": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
-        "LocalizedString": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk."
+        "SourceString": "Made by combining fried sardine and dried redberry. Grants the Sea Life perk. ",
+        "LocalizedString": "Made by combining fried sardine and dried redberry. Grants the Sea Life perk. "
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

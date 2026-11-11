@@ -9,274 +9,276 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Golden_Leaf.ITEM_Resources_Agility_Golden_Leaf",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Golden_Leaf.ITEM_Resources_Agility_Golden_Leaf",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Silver_Leaf.ITEM_Resources_Agility_Silver_Leaf",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Silver_Leaf.ITEM_Resources_Agility_Silver_Leaf",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Bronze_Leaf.ITEM_Resources_Agility_Bronze_Leaf",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Law.ITEM_Rune_Law",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Bronze_Leaf.ITEM_Resources_Agility_Bronze_Leaf",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Warped_Feathers.ITEM_Resources_Agility_Warped_Feathers",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Shrimp.ITEM_FishBait_Shrimp",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Law.ITEM_Rune_Law",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Feather.ITEM_FishBait_Feather",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.ITEM_Rune_Essence",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 10,
+            "MaximumGrouping": 10,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Agility/Gameplay/Items/Resources/Agility/ITEM_Resources_Agility_Warped_Feathers.ITEM_Resources_Agility_Warped_Feathers",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.ITEM_Rune_Fire",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 8,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.ITEM_Rune_Water",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 8,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Shrimp.ITEM_FishBait_Shrimp",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.ITEM_Rune_Air",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 8,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.ITEM_Rune_Earth",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 8,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Feather.ITEM_FishBait_Feather",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.ITEM_Rune_Astral",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 8,
+            "ProbabilityOfDrop": 0.1,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.ITEM_Rune_Essence",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 10,
-          "MaximumGrouping": 10,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.ITEM_Rune_Fire",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 8,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Water.ITEM_Rune_Water",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 8,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.ITEM_Rune_Air",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 8,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.ITEM_Rune_Earth",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 8,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.ITEM_Rune_Astral",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 8,
-          "ProbabilityOfDrop": 0.1,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Feather.ITEM_FishBait_Feather",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 2,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Fishing/Gameplay/Character/Player/Equipment/Held/FishingRod/Baits/ITEM_FishBait_Feather.ITEM_FishBait_Feather",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 2,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "ItemUsageDelay": 0.5,
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
@@ -304,6 +306,9 @@
       },
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

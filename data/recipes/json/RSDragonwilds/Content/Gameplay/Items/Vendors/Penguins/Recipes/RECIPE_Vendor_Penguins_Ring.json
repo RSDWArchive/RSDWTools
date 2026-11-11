@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Penguins_Ring",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_PenguinCoin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_PenguinCoin.0"
+          },
+          "Count": 15
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Trinket_Ring_Penguin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Trinkets/DA_Consumable_Vestige_Trinket_Ring_Penguin.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Penguin.Recipe.Trinket"
+      },
+      "bIgnoreNotification": true,
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "HpY_okQhdQd6Kf2O9b_nQw",
+      "InternalName": "RECIPE_Vendor_Penguin_Ring"
+    }
+  }
+]

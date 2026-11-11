@@ -13,9 +13,13 @@
         "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Crossbow_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_Spell_Crossbow_JumpAttack.0"
+      },
       "SpecialActionClass": {
-        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_C'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow.0"
+        "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_Crossbow_PunishingShot_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Crossbow/PA_RangedAttack_Crossbow_PunishingShot.0"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
@@ -43,8 +47,8 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::CrossbowBolts",
       "ProjectileClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.0"
       },
       "ExcludedAmmoCategory": {
         "TagName": "Item.Equipment.Ammo.Bolt.Bone"
@@ -100,7 +104,7 @@
         "ItemFilter.Type.Equipment.Weapon.Ranged"
       ],
       "AudioSwitchTag": {
-        "TagName": "Item.Equipment.Weapon.Bow.Shortbow"
+        "TagName": "Audio.Wood.Crossbow"
       },
       "BaseDurability": 1900,
       "OnBreakSound": {

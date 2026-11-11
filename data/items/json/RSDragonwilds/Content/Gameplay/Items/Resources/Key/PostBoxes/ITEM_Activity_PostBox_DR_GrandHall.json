@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Activity_PostBox_DR_GrandHall",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/DR_Quests/PostMaster/ST_DR_PostMaster.ST_DR_PostMaster",
+        "Key": "Item.Name",
+        "SourceString": "Dowdun Reach Letter",
+        "LocalizedString": "Dowdun Reach Letter"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/DR_Quests/PostMaster/ST_DR_PostMaster.ST_DR_PostMaster",
+        "Key": "Address.DR.GrandHallStaircase",
+        "SourceString": "Deliver to: Staircase - Grand Hall - Dowdun Reach",
+        "LocalizedString": "Deliver to: Staircase - Grand Hall - Dowdun Reach"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_DWR_Letter.T_Icon_DWR_Letter",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Letter/SM_Letter.SM_Letter",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "4W9bIkAVnx58Pgm4-z8ldw",
+      "InternalName": "ITEM_Activity_PostBox_DR_GreatHall"
+    }
+  }
+]

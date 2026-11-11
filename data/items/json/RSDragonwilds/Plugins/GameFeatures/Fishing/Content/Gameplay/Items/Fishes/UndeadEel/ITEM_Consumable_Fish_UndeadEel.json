@@ -44,8 +44,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BraisedUndeadEel",
-        "SourceString": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
-        "LocalizedString": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk."
+        "SourceString": "Makes you queasy but does wonders for hunger.",
+        "LocalizedString": "Makes you queasy but does wonders for hunger."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

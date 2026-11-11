@@ -75,6 +75,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "bConvertFoliage": true,
       "OptionalSpawnActorModule": {
         "ModuleName": "SpawnActor"
@@ -105,6 +106,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "OptionalSpawnActorModule": {
         "ModuleName": "SpawnActor"
       },

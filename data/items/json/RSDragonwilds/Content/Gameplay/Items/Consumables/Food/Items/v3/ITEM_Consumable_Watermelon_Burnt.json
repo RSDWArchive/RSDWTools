@@ -62,7 +62,7 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 1,
+      "PowerLevel": 4,
       "Weight": 1.0,
       "Category": {
         "TagName": "Item.Food"
@@ -70,6 +70,10 @@
       "ItemStatus": {
         "TagName": "Item.Status.Burnt"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableSuper"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },

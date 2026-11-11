@@ -40,8 +40,9 @@
         "TagName": "ItemFilter.WeightReduction.Stone"
       },
       "AudioSwitchTag": {
-        "TagName": "Audio.Stone.Light"
+        "TagName": "Audio.Stone.Dust"
       },
+      "CompostAmount": 10,
       "PersistenceID": "vVkLf0huba3c0nGQlfQQhA",
       "InternalName": "res_ground_gypsum"
     }

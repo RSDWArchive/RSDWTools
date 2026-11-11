@@ -29,17 +29,10 @@
         },
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Resources_VaultShard'",
-            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Resources_VaultShard.0"
-          },
-          "Count": 1
-        },
-        {
-          "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_SilverOre'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_SilverOre.0"
           },
-          "Count": 2
+          "Count": 6
         },
         {
           "ItemData": {

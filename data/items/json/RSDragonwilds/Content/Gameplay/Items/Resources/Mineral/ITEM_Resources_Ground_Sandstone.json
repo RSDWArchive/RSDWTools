@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 0.3,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Stone"

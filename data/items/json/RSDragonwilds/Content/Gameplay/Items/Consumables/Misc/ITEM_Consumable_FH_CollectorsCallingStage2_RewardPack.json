@@ -9,103 +9,105 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.ITEM_Resources_Leather_Hard",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Textiles/ITEM_Resources_Leather_Hard.ITEM_Resources_Leather_Hard",
+              "SubPathString": ""
+            },
+            "MinToDrop": 3,
+            "MaxToDrop": 6,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 3,
-          "MaxToDrop": 6,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal.ITEM_Resources_Coal",
+              "SubPathString": ""
+            },
+            "MinToDrop": 6,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Mineral/ITEM_Resources_Coal.ITEM_Resources_Coal",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.ITEM_Resources_IronBar",
+              "SubPathString": ""
+            },
+            "MinToDrop": 4,
+            "MaxToDrop": 8,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 6,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.ITEM_Resources_Wood_Willow",
+              "SubPathString": ""
+            },
+            "MinToDrop": 3,
+            "MaxToDrop": 5,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.ITEM_Resources_IronBar",
-            "SubPathString": ""
-          },
-          "MinToDrop": 4,
-          "MaxToDrop": 8,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Willow.ITEM_Resources_Wood_Willow",
-            "SubPathString": ""
-          },
-          "MinToDrop": 3,
-          "MaxToDrop": 5,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_DragonBlood.ITEM_Resources_DragonBlood",
-            "SubPathString": ""
-          },
-          "MinToDrop": 12,
-          "MaxToDrop": 12,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_DragonBlood.ITEM_Resources_DragonBlood",
+              "SubPathString": ""
+            },
+            "MinToDrop": 12,
+            "MaxToDrop": 12,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_Collectors_Calling/ST_FH_CollectorsCalling.ST_FH_CollectorsCalling",
         "Key": "Doric.CollectorsCalling.Reward.2",
@@ -132,6 +134,9 @@
       },
       "MaxStackSize": 10,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

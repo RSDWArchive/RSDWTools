@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "TrinketItemData",
+    "Name": "ITEM_Trinket_Penguin_Amulet",
+    "Class": "UScriptClass'TrinketItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bLosesDurabilityOnAttack": false,
+      "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::Necklace",
+      "AssociatedSkill": {
+        "ObjectName": "SkillData'SKILL_Fishing'",
+        "ObjectPath": "/Fishing/Gameplay/Character/Player/Skills/SKILL_Fishing"
+      },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Fishing_PenguinAmulet_C'",
+          "ObjectPath": "/Fishing/Gameplay/GameplayEffects/Buffs/GE_Fishing_PenguinAmulet"
+        }
+      ],
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PenguinAmulet",
+        "SourceString": "Pescaling Amulet",
+        "LocalizedString": "Pescaling Amulet"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "PenguinAmulet",
+        "SourceString": "Has a fishy aroma. Increase chance of getting PRISTINE catches by 5%.",
+        "LocalizedString": "Has a fishy aroma. Increase chance of getting PRISTINE catches by 5%."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Penguins/T_Icon_Penguin_Amulet_1.T_Icon_Penguin_Amulet_1",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Jewelers_Box/SM_Jewelers_Box_01.SM_Jewelers_Box_01",
+        "SubPathString": ""
+      },
+      "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
+      "ItemFilterTags": [
+        "Item.Equipment.Trinket"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Magic.Trinket"
+      },
+      "RepairCostRatios": [
+        1.0
+      ],
+      "DurabilityVsResourceConsumptionCurve": {
+        "ObjectName": "CurveFloat'CF_DurabilityRepairCost'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Hatchet/CF_DurabilityRepairCost.0"
+      },
+      "OnBreakSound": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Pl_Cr_ItemBreak_Trinket'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Crafting/Workbench/ItemBreak/MSS_Pl_Cr_ItemBreak_Trinket.0"
+      },
+      "PersistenceID": "knyimkh9Kk1g40ClZOEXMg",
+      "InternalName": "trinket_penguin_amulet"
+    }
+  }
+]

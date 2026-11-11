@@ -9,122 +9,124 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_01_Bandos.DA_Consumable_Plan_Decoration_Flag_01_Bandos",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_01_Bandos.DA_Consumable_Plan_Decoration_Flag_01_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_02_Bandos.DA_Consumable_Plan_Decoration_Flag_02_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_02_Bandos.DA_Consumable_Plan_Decoration_Flag_02_Bandos",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_03_Bandos.DA_Consumable_Plan_Decoration_Flag_03_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_04_Bandos.DA_Consumable_Plan_Decoration_Flag_04_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_03_Bandos.DA_Consumable_Plan_Decoration_Flag_03_Bandos",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_05_Bandos.DA_Consumable_Plan_Decoration_Flag_05_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_04_Bandos.DA_Consumable_Plan_Decoration_Flag_04_Bandos",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_05_Bandos.DA_Consumable_Plan_Decoration_Flag_05_Bandos",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_06_Bandos.DA_Consumable_Plan_Decoration_Flag_06_Bandos",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Consumables/Plans/Decorations/Flags/DA_Consumable_Plan_Decoration_Flag_06_Bandos.DA_Consumable_Plan_Decoration_Flag_06_Bandos",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Pack.Plans.Flags.Bandos.Name",
@@ -151,6 +153,9 @@
       },
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

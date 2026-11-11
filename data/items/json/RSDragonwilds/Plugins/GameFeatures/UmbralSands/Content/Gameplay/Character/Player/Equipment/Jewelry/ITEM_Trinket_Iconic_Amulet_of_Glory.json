@@ -1,25 +1,12 @@
 [
   {
-    "Type": "HasDamageClass_Condition",
-    "Name": "HasDamageClass_Condition_0",
+    "Type": "IsNonRangedDamageOrRangedCrit_Condition",
+    "Name": "IsNonRangedDamageOrRangedCrit_Condition_0",
     "Outer": {
       "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Glory'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.2"
+      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.1"
     },
-    "Class": "UScriptClass'HasDamageClass_Condition'",
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "DamageClass": "EDamageClass::Ranged"
-    }
-  },
-  {
-    "Type": "IsCriticalHit_Condition",
-    "Name": "IsCriticalHit_Condition_1",
-    "Outer": {
-      "ObjectName": "TrinketItemData'ITEM_Trinket_Iconic_Amulet_of_Glory'",
-      "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.2"
-    },
-    "Class": "UScriptClass'IsCriticalHit_Condition'",
+    "Class": "UScriptClass'IsNonRangedDamageOrRangedCrit_Condition'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
   },
   {
@@ -32,14 +19,11 @@
       "bLosesDurabilityOnDamageCaused": true,
       "CanLoseDurabilityOnDamageCausedConditions": [
         {
-          "ObjectName": "IsCriticalHit_Condition'ITEM_Trinket_Iconic_Amulet_of_Glory:IsCriticalHit_Condition_1'",
-          "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.1"
-        },
-        {
-          "ObjectName": "HasDamageClass_Condition'ITEM_Trinket_Iconic_Amulet_of_Glory:HasDamageClass_Condition_0'",
+          "ObjectName": "IsNonRangedDamageOrRangedCrit_Condition'ITEM_Trinket_Iconic_Amulet_of_Glory:IsNonRangedDamageOrRangedCrit_Condition_0'",
           "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Jewelry/ITEM_Trinket_Iconic_Amulet_of_Glory.0"
         }
       ],
+      "Slot": "ELoadoutSlotStrategy::Necklace",
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
@@ -83,6 +67,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],

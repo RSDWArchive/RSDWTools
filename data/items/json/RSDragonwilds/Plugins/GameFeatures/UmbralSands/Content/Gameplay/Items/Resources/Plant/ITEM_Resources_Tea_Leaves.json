@@ -32,9 +32,9 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "Item.Farming.CompostableSuper",
         "ItemFilter.Material.BasicMaterial",
-        "ItemFilter.Type.Resource"
+        "ItemFilter.Type.Resource",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Plant"

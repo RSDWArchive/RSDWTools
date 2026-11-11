@@ -38,12 +38,16 @@
       },
       "MaxStackSize": 99,
       "Weight": 6.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Tome"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Tome"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Skillbook"
       },
+      "PersistenceID": "Pc6vpkbmfa3yXnaREyZM2g",
       "InternalName": "tome_t0_blackknightsfortress",
       "NativeClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_Consumables_SkillTome_C'",

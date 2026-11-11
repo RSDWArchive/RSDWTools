@@ -9,103 +9,105 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers.ITEM_Resources_Feathers",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Feathers.ITEM_Resources_Feathers",
+              "SubPathString": ""
+            },
+            "MinToDrop": 3,
+            "MaxToDrop": 5,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 3,
-          "MaxToDrop": 5,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Coarse_Animal_Fur.ITEM_Resources_Coarse_Animal_Fur",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 2,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Coarse_Animal_Fur.ITEM_Resources_Coarse_Animal_Fur",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Egg.ITEM_Resources_Egg",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 3,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 2,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.ITEM_Farming_TreeSeed_Ash",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.15,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Animal/ITEM_Resources_Egg.ITEM_Resources_Egg",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 3,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.ITEM_Farming_TreeSeed_Ash",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.15,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds.ITEM_Resources_Weeds",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 3,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.15,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Items/Resources/Plant/ITEM_Resources_Weeds.ITEM_Resources_Weeds",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 3,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.15,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "SkillXPGainOnConsume": {
         "SkillData": {
           "ObjectName": "SkillData'SKILL_Woodcutting'",
@@ -146,6 +148,9 @@
       },
       "MaxStackSize": 99,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

@@ -48,6 +48,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Ammo.Rune"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Ammo.Rune"
       ],

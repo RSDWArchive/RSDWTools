@@ -31,6 +31,10 @@
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Bread.1"
         }
       },
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Cooking'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Cooking.6"
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "Bread",
@@ -70,7 +74,6 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 2,
       "Weight": 0.2,
       "Category": {
         "TagName": "Item.Food"

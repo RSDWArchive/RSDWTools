@@ -42,6 +42,9 @@
       },
       "MaxStackSize": 99,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Tome"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Tome"
       ],

@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Club_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/PA_Spell_Club_JumpAttack.0"
+      },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Club_ZombieArm_Sprint_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Club/ZombieArm/PA_Attack_Club_ZombieArm_Sprint.0"

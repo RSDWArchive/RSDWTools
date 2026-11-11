@@ -42,8 +42,8 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Material.Wood",
-        "Item.Farming.CompostableSuper",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

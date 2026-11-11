@@ -34,14 +34,15 @@
       "MaxStackSize": 99,
       "Weight": 0.1,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Potion"
+        "TagName": "Audio.Stone.Dust"
       },
+      "CompostAmount": 10,
       "PersistenceID": "i30UB0HkMiCruH-4DPwjDg",
       "InternalName": "res_ground_kalphite_wing"
     }

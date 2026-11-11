@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Penguins_Armour_Set",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_PenguinCoin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_PenguinCoin.0"
+          },
+          "Count": 15
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_RecipeUnlocker2_C'DA_Consumable_Vestige_Armour_Set_Penguin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Set_Penguin.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Penguin.Recipe.Item.Leather"
+      },
+      "bIgnoreNotification": true,
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "SYwjZkkx8VqvAbu_pij9Dg",
+      "InternalName": "RECIPE_Vendor_Penguin_Suit"
+    }
+  }
+]

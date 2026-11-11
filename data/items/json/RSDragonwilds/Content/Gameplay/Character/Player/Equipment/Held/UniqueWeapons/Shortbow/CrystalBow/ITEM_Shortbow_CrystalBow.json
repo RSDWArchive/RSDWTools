@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_RangedAttack_CrystalBow_QuickAttack_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_RangedAttack_CrystalBow_QuickAttack.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Shortbow_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Bow/PA_Spell_Shortbow_JumpAttack.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Aim_CrystalBow_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/CrystalBow/PA_Aim_CrystalBow.0"
@@ -36,11 +40,11 @@
       },
       "WindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Draw'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.1"
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Draw.0"
       },
       "FullWindUpSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Attack_Bow_Hold'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.1"
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Bow/A_PlayerM_Attack_Bow_Hold.0"
       },
       "WindUpMaxMovementSpeedOverride": 250.0,
       "BaseHeldEquipmentPowerLevelRowHandle": {
@@ -61,8 +65,8 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::Arrows",
       "ProjectileClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.BP_Arrow_Base_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Arrow_Base_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/BP_Arrow_Base.0"
       },
       "RangedAttackCollection": {
         "ObjectName": "BlueprintGeneratedClass'BP_PlayerRangedAttackCollection_CrystalBow_C'",

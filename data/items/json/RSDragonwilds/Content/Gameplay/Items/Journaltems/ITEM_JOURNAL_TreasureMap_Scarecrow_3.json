@@ -28,6 +28,9 @@
       "bGoIntoHotbarOnPickup": false,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

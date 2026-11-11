@@ -33,13 +33,13 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Magic.Rune"
+        "TagName": "Audio.Stone.Dust"
       },
       "PersistenceID": "D-7T2UaXI__mZMm9gOQ9Sg",
       "InternalName": "res_ground_rune"

@@ -16,10 +16,10 @@
         "LocalizedString": "Ruby"
       },
       "FlavourText": {
-        "TableId": "/Game/UI/ST_Localization.ST_Localization",
-        "Key": "ARareGemstoneUsedToCraftEnchantedJewellery",
-        "SourceString": "A rare gemstone used to craft enchanted jewellery",
-        "LocalizedString": "A rare gemstone used to craft enchanted jewellery"
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "Ruby",
+        "SourceString": "A rare gemstone, used in crafting enchanted crossbow bolts. ",
+        "LocalizedString": "A rare gemstone, used in crafting enchanted crossbow bolts. "
       },
       "Icon": {
         "AssetPathName": "/Game/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Ruby.T_Icon_Resource_Ruby",

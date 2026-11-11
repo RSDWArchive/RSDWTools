@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_MagicAttack_Primary_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Abilities/AttackSpells/PA_MagicAttack_Primary.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Staff_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/PA_Spell_Staff_JumpAttack.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
         "ObjectPath": "/Script/Dominion"

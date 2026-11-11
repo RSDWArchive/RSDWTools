@@ -43,8 +43,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "HerbBakedTrout",
-        "SourceString": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
-        "LocalizedString": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk."
+        "SourceString": "Made by combining grilled trout and a baked potato.",
+        "LocalizedString": "Made by combining grilled trout and a baked potato."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

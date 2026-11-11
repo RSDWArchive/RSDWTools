@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'BP_PA_Drop_HeldItem_C'",
         "ObjectPath": "/UmbralSands/Gameplay/Character/Player/Equipment/Held/ScarabStaff/BP_PA_Drop_HeldItem"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Staff_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Magic/PA_Spell_Staff_JumpAttack.0"
+      },
       "SecondaryActionClass": {
         "ObjectName": "Class'PlayerAction'",
         "ObjectPath": "/Script/Dominion"

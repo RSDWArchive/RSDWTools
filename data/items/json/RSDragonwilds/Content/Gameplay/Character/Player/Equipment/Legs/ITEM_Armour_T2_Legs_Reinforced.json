@@ -48,6 +48,9 @@
       },
       "PowerLevel": 2,
       "Weight": 12.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Heavy"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Heavy"
       ],

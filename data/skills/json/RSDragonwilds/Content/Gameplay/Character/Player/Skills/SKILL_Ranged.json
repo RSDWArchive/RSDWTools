@@ -1,21 +1,28 @@
 [
   {
-    "Type": "GE_RangedAttack_ProjectileRefund_C",
-    "Name": "GE_RangedAttack_ProjectileRefund_C_0",
+    "Type": "GE_RangedAttack_Stamina_Cost_C",
+    "Name": "GE_RangedAttack_Stamina_Cost_C_0",
     "Outer": {
       "ObjectName": "SkillData'SKILL_Ranged'",
       "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.1"
     },
-    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.GE_RangedAttack_ProjectileRefund_C'",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_Stamina_Cost.GE_RangedAttack_Stamina_Cost_C'",
     "Template": {
-      "ObjectName": "GE_RangedAttack_ProjectileRefund_C'Default__GE_RangedAttack_ProjectileRefund_C'",
-      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.1"
+      "ObjectName": "GE_RangedAttack_Stamina_Cost_C'Default__GE_RangedAttack_Stamina_Cost_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_Stamina_Cost.1"
     },
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Data": {
+        "OverrideTooltipStatName": {
+          "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+          "Key": "Ranged.MinorNode.Stat1",
+          "SourceString": "Ranged Stamina Costs",
+          "LocalizedString": "Ranged Stamina Costs"
+        },
+        "StatValueType": "EStatValueType::AddPercent",
         "AmountToModify": {
-          "Value": 0.008
+          "Value": -0.005
         }
       }
     }
@@ -27,8 +34,8 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "Name": {
-        "Namespace": "",
-        "Key": "E8BE697A46872448782F2193446D8BA0",
+        "TableId": "/Game/UI/ST_Localization.ST_Localization",
+        "Key": "Ranged_Noun",
         "SourceString": "Ranged",
         "LocalizedString": "Ranged"
       },
@@ -72,14 +79,11 @@
         {
           "LevelRangeEnd": 99,
           "GameplayEffectDataPerLevel": {
-            "ObjectName": "GE_RangedAttack_ProjectileRefund_C'SKILL_Ranged:GE_RangedAttack_ProjectileRefund_C_0'",
+            "ObjectName": "GE_RangedAttack_Stamina_Cost_C'SKILL_Ranged:GE_RangedAttack_Stamina_Cost_C_0'",
             "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Ranged.0"
           },
           "DescriptionText": {
-            "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
-            "Key": "Ranged.RangedProjectileRefundChance.Desc",
-            "SourceString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die.",
-            "LocalizedString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die."
+            "CultureInvariantString": null
           },
           "MinorSkillPerkImage": {
             "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Ranged.T_Icon_SkillTree_Ranged",

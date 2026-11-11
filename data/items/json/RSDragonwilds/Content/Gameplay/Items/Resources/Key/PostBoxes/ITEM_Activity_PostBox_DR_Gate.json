@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Activity_PostBox_DR_Gate",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "TableId": "/Game/Gameplay/Quests/DR_Quests/PostMaster/ST_DR_PostMaster.ST_DR_PostMaster",
+        "Key": "Item.Name",
+        "SourceString": "Dowdun Reach Letter",
+        "LocalizedString": "Dowdun Reach Letter"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Quests/DR_Quests/PostMaster/ST_DR_PostMaster.ST_DR_PostMaster",
+        "Key": "Address.DR.ApproachGate",
+        "SourceString": "Deliver to: Gate - Approach - Dowdun Reach",
+        "LocalizedString": "Deliver to: Gate - Approach - Dowdun Reach"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_10_02/T_Icon_DWR_Letter.T_Icon_DWR_Letter",
+        "SubPathString": ""
+      },
+      "CategoryClassIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Types/T_Quest_Secondary.T_Quest_Secondary",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Env/Props/Narrative_Props/Letter/SM_Letter.SM_Letter",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "bCanBeDestroyed": false,
+      "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Type.QuestItem"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.QuestItem"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "MJhUMEvh77r6okyhBddMqg",
+      "InternalName": "ITEM_Activity_PostBox_DR_Gate"
+    }
+  }
+]

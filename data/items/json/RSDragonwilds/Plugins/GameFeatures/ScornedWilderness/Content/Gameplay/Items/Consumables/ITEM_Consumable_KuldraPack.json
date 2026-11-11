@@ -9,161 +9,163 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "PickSingleItemMode": true,
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_KuldrasWrath.ITEM_Wand_KuldrasWrath",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Wand/ITEM_Wand_KuldrasWrath.ITEM_Wand_KuldrasWrath",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.3,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.3,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonMed.ITEM_Armour_T8_Head_DragonMed",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.2,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonMed.ITEM_Armour_T8_Head_DragonMed",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonArmour.ITEM_Armour_T8_Head_DragonArmour",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.5,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.2,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_DragonArmour.ITEM_Armour_T8_Body_DragonArmour",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.5,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_T8_Head_DragonArmour.ITEM_Armour_T8_Head_DragonArmour",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_DragonArmour.ITEM_Armour_T8_Legs_DragonArmour",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.5,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.5,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Dragon.ITEM_Scimitar_Dragon",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.3,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_T8_Body_DragonArmour.ITEM_Armour_T8_Body_DragonArmour",
-            "SubPathString": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Shield_Dragon.ITEM_Shield_Dragon",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.3,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.5,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_T8_Legs_DragonArmour.ITEM_Armour_T8_Legs_DragonArmour",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.5,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Scimitar/ITEM_Scimitar_Dragon.ITEM_Scimitar_Dragon",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.3,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Shield/ITEM_Shield_Dragon.ITEM_Shield_Dragon",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.3,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dragon.ITEM_Crossbow_Dragon",
-            "SubPathString": ""
-          },
-          "MinToDrop": 1,
-          "MaxToDrop": 1,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 0.3,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/ScornedWilderness/Gameplay/Character/Player/Equipment/Held/Crossbow/ITEM_Crossbow_Dragon.ITEM_Crossbow_Dragon",
+              "SubPathString": ""
+            },
+            "MinToDrop": 1,
+            "MaxToDrop": 1,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 0.3,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ],
+        "DropSelectionMode": "EItemDropMode::SumProbabilitiesAsWeights"
+      },
       "Name": {
         "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
         "Key": "KuldraPack",
@@ -189,6 +191,9 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

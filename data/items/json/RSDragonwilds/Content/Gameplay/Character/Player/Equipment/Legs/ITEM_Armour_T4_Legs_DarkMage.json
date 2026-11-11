@@ -48,6 +48,9 @@
       },
       "PowerLevel": 4,
       "Weight": 6.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Light"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Light"
       ],

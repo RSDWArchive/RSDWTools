@@ -129,16 +129,16 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SpellDisplayName": {
-        "Namespace": "",
-        "Key": "88DC58CF4B95115DDF5C5BBA05303EED",
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponWater.Name",
         "SourceString": "Enchant Weapon: Water",
         "LocalizedString": "Enchant Weapon: Water"
       },
       "SpecialRequirementsText": {
-        "Namespace": "",
-        "Key": "A9EBBFE847B0FD22629099AE39789870",
-        "SourceString": "A held melee weapon",
-        "LocalizedString": "A held melee weapon"
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "HeldItemRequired",
+        "SourceString": "A held melee weapon ",
+        "LocalizedString": "A held melee weapon "
       },
       "NotifyFailedSpecialRequirements": [
         "UI.ConsumeItem.RequiresHeldEnchantable"

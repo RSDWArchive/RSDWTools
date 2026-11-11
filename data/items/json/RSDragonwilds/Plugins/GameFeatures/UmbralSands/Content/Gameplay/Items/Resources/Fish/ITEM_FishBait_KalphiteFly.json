@@ -47,7 +47,7 @@
         "ItemFilter.Type.Equipment.Tool.FishingBait"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Cloth.Thread"
+        "TagName": "Audio.Fishing.Bait"
       },
       "PersistenceID": "_TYsk0qA_d1z0AefNv9vnQ",
       "InternalName": "ammo_fishbait_kalphitefly"

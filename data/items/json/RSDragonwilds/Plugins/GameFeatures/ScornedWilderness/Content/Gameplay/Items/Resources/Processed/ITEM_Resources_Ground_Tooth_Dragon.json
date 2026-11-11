@@ -33,13 +33,13 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
-        "TagName": "Audio.Bone.DragonScale"
+        "TagName": "Audio.Stone.Dust"
       },
       "PersistenceID": "MfStnkw8VINygc2tjO1P2g",
       "InternalName": "res_ground_tooth_dragon"

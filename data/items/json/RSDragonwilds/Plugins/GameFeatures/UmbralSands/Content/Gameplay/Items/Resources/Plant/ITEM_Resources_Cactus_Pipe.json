@@ -37,11 +37,13 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"
       },
+      "CompostAmount": 10,
       "PersistenceID": "mNrV2kph16HfXq2I-rhK8w",
       "InternalName": "res_cactus_pipe"
     }

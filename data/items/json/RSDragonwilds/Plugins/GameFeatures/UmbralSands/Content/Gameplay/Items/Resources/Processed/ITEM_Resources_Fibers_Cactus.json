@@ -33,12 +33,17 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.3,
+      "Category": {
+        "TagName": "Item.Farming.CompostableUltra"
+      },
       "ItemFilterTags": [
-        "ItemFilter.Material.ProcessedMaterial"
+        "ItemFilter.Material.ProcessedMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },
+      "CompostAmount": 10,
       "PersistenceID": "02kZ2Uwo05HWvQK1R_PEyw",
       "InternalName": "res_fibers_cactus"
     }

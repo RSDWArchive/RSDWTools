@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 4.5,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.Metal"
       },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Ingot"

@@ -40,7 +40,7 @@
         }
       ],
       "AudioTag": {
-        "TagName": "Audio.Food.Plant"
+        "TagName": "Audio.Food.Slurp"
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",

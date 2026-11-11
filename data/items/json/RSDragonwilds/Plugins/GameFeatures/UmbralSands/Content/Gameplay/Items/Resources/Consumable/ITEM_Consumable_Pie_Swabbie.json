@@ -79,7 +79,7 @@
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Food",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"

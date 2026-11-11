@@ -52,8 +52,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "FriedSardine",
-        "SourceString": "Delicious little fishies. Grants the Warding Fish perk. ",
-        "LocalizedString": "Delicious little fishies. Grants the Warding Fish perk. "
+        "SourceString": "Delicious little fishies. Grants the Sea Life perk. ",
+        "LocalizedString": "Delicious little fishies. Grants the Sea Life perk. "
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

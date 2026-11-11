@@ -39,6 +39,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Stone.Light"
       },
+      "CompostAmount": 10,
       "PersistenceID": "a1W1TEsh5ngCDu-uly8jAQ",
       "InternalName": "res_wax_gypsum"
     }

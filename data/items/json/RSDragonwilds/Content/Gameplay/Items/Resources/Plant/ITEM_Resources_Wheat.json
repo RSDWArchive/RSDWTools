@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 2,
       "Weight": 0.4,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawIngredient"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.Compostable",

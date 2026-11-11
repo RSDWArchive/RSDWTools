@@ -31,10 +31,14 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail_Bleed.NS_Player_Arrow_Trail_Bleed",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowBleed'",
+        "ObjectPath": "RSDragonwilds/Content/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowBleed.0"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
           "DamageType.Ranged.Arrows"
         ],
@@ -44,7 +48,7 @@
             "ObjectPath": "RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_rune_Bleed.0"
           }
         ],
-        "AdditionalDamageFraction": 4.2
+        "AdditionalDamageFraction": 4.9
       },
       "AmmoCounterIcon": {
         "ObjectName": "Texture2D'T_HUD_Reticle_ArrowIcon'",

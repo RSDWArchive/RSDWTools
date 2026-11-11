@@ -9,65 +9,67 @@
     },
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "Items to Drop": [
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Currency_Chit_Garou.ITEM_Resources_Currency_Chit_Garou",
-            "SubPathString": ""
+      "DropData": {
+        "ItemsToDrop": [
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Misc/ITEM_Resources_Currency_Chit_Garou.ITEM_Resources_Currency_Chit_Garou",
+              "SubPathString": ""
+            },
+            "MinToDrop": 300,
+            "MaxToDrop": 300,
+            "MaximumGrouping": 300,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "MinToDrop": 300,
-          "MaxToDrop": 300,
-          "MaximumGrouping": 300,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Garou.ITEM_Resources_Cloth_Garou",
+              "SubPathString": ""
+            },
+            "MinToDrop": 10,
+            "MaxToDrop": 10,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
           },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Garou.ITEM_Resources_Cloth_Garou",
-            "SubPathString": ""
-          },
-          "MinToDrop": 10,
-          "MaxToDrop": 10,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        },
-        {
-          "ItemDataClass": {
-            "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Dragon_Red_Lesser.ITEM_Resources_Skin_Dragon_Red_Lesser",
-            "SubPathString": ""
-          },
-          "MinToDrop": 3,
-          "MaxToDrop": 3,
-          "MaximumGrouping": 1,
-          "ProbabilityOfDrop": 1.0,
-          "RequiredTagQuery": {
-            "TokenStreamVersion": 0,
-            "TagDictionary": [],
-            "QueryTokenStream": [],
-            "UserDescription": "",
-            "AutoDescription": ""
-          },
-          "ProbabilityModifierAttribute": null,
-          "ExtraDropPercentageForPlayerAmount": []
-        }
-      ],
+          {
+            "ItemDataClass": {
+              "AssetPathName": "/UmbralSands/Gameplay/Items/Resources/Animal/ITEM_Resources_Skin_Dragon_Red_Lesser.ITEM_Resources_Skin_Dragon_Red_Lesser",
+              "SubPathString": ""
+            },
+            "MinToDrop": 3,
+            "MaxToDrop": 3,
+            "MaximumGrouping": 1,
+            "ProbabilityOfDrop": 1.0,
+            "RequiredTagQuery": {
+              "TokenStreamVersion": 0,
+              "TagDictionary": [],
+              "QueryTokenStream": [],
+              "UserDescription": "",
+              "AutoDescription": ""
+            },
+            "ProbabilityModifierAttribute": null,
+            "ExtraDropPercentageForPlayerAmount": []
+          }
+        ]
+      },
       "Name": {
         "TableId": "/UmbralSands/Gameplay/Quests/UmS_MainQuest/ST_UmS_MainQuest.ST_UmS_MainQuest",
         "Key": "RewardPack.Name.CampCompleted",
@@ -94,6 +96,9 @@
       },
       "MaxStackSize": 10,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Container"
+      },
       "ItemFilterTags": [
         "ItemFilter.Container"
       ],

@@ -57,8 +57,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "StirFry",
-        "SourceString": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
-        "LocalizedString": "Made by combining dried giant krill, dried redberry and smoked infernal eel."
+        "SourceString": "Made by combining dried giant krill, dried dwellberry and smoked infernal eel.",
+        "LocalizedString": "Made by combining dried giant krill, dried dwellberry and smoked infernal eel."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

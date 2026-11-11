@@ -29,6 +29,9 @@
       "MaxStackSize": 99,
       "bCanBeDestroyed": false,
       "bBoundToPlayer": true,
+      "Category": {
+        "TagName": "Item.QuestItem.KeyItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

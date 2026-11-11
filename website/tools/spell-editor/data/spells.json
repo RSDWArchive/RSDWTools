@@ -63,7 +63,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_bonestopeaches"
@@ -136,7 +136,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_detectanimavents"
@@ -176,7 +176,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_detectore"
@@ -185,7 +185,7 @@
     "persistence_id": "c2KonU_Ke1FKIBy3CDTe3w",
     "display_name": "Divine Rock",
     "requirements": "",
-    "cooldown": 1500.0,
+    "cooldown": 1800.0,
     "spell_icon": "T_Skill_Mining_Spell_DivineRock.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Mining.png",
     "costs": [
@@ -193,7 +193,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 100,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
@@ -217,7 +217,7 @@
   {
     "persistence_id": "fbCzak5hRwXSmGyhG4N0eg",
     "display_name": "Enchant Weapon: Air",
-    "requirements": "A held melee weapon",
+    "requirements": "A held melee weapon ",
     "cooldown": 300.0,
     "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Air.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
@@ -240,16 +240,16 @@
   {
     "persistence_id": "9K9d1kMeBPZvWeCGQ8sxFQ",
     "display_name": "Enchant Weapon: Earth",
-    "requirements": "A held melee weapon",
+    "requirements": "A held melee weapon ",
     "cooldown": 300.0,
-    "spell_icon": "T_Skill_Placeholder_Active_Spells.png",
+    "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Earth.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
     "costs": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 15,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
@@ -263,7 +263,7 @@
   {
     "persistence_id": "2Cqf50lVo8GHBZ2CsgCtlQ",
     "display_name": "Enchant Weapon: Fire",
-    "requirements": "A held melee weapon",
+    "requirements": "A held melee weapon ",
     "cooldown": 300.0,
     "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Fire.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
@@ -286,7 +286,7 @@
   {
     "persistence_id": "JtSIn0ix3zvWZlOaFgpvDw",
     "display_name": "Enchant Weapon: Water",
-    "requirements": "A held melee weapon",
+    "requirements": "A held melee weapon ",
     "cooldown": 300.0,
     "spell_icon": "T_Skill_Attack_Spell_Enchantweapon_Water.png",
     "spell_tag_icon": "T_Icon_Tag_Skill_Attack.png",
@@ -381,7 +381,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
@@ -484,7 +484,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 20,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_magicalmending"
@@ -544,7 +544,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 30,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Fire",
@@ -607,7 +607,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 15,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",
@@ -659,7 +659,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_splinter"
@@ -682,7 +682,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_summonshelter"
@@ -745,7 +745,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_barktobones"
@@ -768,7 +768,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 10,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "internal_name": "spell_vengeance"
@@ -885,7 +885,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 20,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Astral",
@@ -908,7 +908,7 @@
         "item_id": "ITEM_Rune_Earth",
         "count": 30,
         "display_name": "Earth Rune",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       },
       {
         "item_id": "ITEM_Rune_Nature",

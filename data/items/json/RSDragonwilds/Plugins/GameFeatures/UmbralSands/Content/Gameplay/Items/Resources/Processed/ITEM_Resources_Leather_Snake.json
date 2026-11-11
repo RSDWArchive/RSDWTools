@@ -33,12 +33,16 @@
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
       "Weight": 0.3,
+      "Category": {
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Leather"
       },
+      "CompostAmount": 10,
       "PersistenceID": "Ui9BNkmRNjaiVYW31nGqbQ",
       "InternalName": "res_leather_snake"
     }

@@ -50,6 +50,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

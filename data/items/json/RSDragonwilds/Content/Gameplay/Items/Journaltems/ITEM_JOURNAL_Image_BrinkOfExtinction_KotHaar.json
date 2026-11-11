@@ -40,6 +40,9 @@
         "SubPathString": ""
       },
       "bGoIntoHotbarOnPickup": false,
+      "Category": {
+        "TagName": "Item.QuestItem"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.QuestItem"
       ],

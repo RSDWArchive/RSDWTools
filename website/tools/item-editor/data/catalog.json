@@ -1036,6 +1036,17 @@
           "vitalShield": 0
         },
         {
+          "name": "Penguin Cape",
+          "itemData": "ntNjaUyHNjBCpQKQUPtFuw",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Penguin_cape_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Penguin.json",
+          "category": "Armour/Cape",
+          "description": "A cape of accomplishment. Worn once you master the art of being a penguin.",
+          "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
           "name": "Pink Adventurer's Cape",
           "itemData": "LoXsN0jDsW_KeC-xjR4TAg",
           "maxStack": 1,
@@ -1444,6 +1455,16 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Cape/ITEM_Cape_Woodcutting.json",
           "category": "Armour/Cape",
           "equipment": "Cape",
+          "vitalShield": 0
+        },
+        {
+          "name": "Golden Scorned Wilderness Cape",
+          "itemData": "-iZRtEKn4sDgLbu0ikhT2g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Deleted/ITEM_Cape_ScornedWilderness_Golden.json",
+          "category": "Armour/Deleted",
+          "description": "An upgraded version of the Scorned Wilderness Cape.",
           "vitalShield": 0
         },
         {
@@ -1970,7 +1991,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Runite Med Helm",
+          "name": "Rune Med Helm",
           "itemData": "-j4yrkKKyNAEufKEJ7C35Q",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png",
@@ -2488,7 +2509,7 @@
           "vitalShield": 0
         },
         {
-          "name": "Red Dragonhide Legs",
+          "name": "Red Dragonhide Chaps",
           "itemData": "iMnzlUiuN9vtotCkMB4-0Q",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png",
@@ -2642,17 +2663,6 @@
           "vitalShield": 0
         },
         {
-          "name": "Golden Scorned Wilderness Cape",
-          "itemData": "-iZRtEKn4sDgLbu0ikhT2g",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/ScornedWilderness/ITEM_Cape_ScornedWilderness_Golden.json",
-          "category": "Armour/ScornedWilderness",
-          "description": "An upgraded version of the Scorned Wilderness Cape.",
-          "equipment": "Cape",
-          "vitalShield": 0
-        },
-        {
           "name": "Golden Stormtouched Cape",
           "itemData": "qrl1V0_2wgflo9Cscl3gBg",
           "maxStack": 1,
@@ -2714,7 +2724,7 @@
           "iconPath": "/shared/icons/T_Icon_Braised_Catfish.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/ArmouredCatfish/ITEM_Consumable_Fish_ArmouredCatfish.json",
           "category": "Consumables/ArmouredCatfish",
-          "description": "If your feline hungry, eat a catfish. Grants the Sea Life perk.",
+          "description": "If your feline hungry, eat a catfish.",
           "powerLevel": 4,
           "weight": 2.0
         },
@@ -2757,14 +2767,13 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Beltfish_Broth.json",
           "category": "Consumables/Consumable",
           "description": "A potent soup made from beltfish.",
-          "powerLevel": 4,
           "weight": 1.1
         },
         {
           "name": "Burnt Beltfish",
           "itemData": "9aqFkEvmEomECT-OVRuLrQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png",
+          "iconPath": "/shared/icons/T_Icon_Fish_Beltfish_Cooked_Steamed_2e243ad4.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Fish_Beltfish_Burnt.json",
           "category": "Consumables/Consumable",
           "description": "Too well done, but still edible. ",
@@ -2883,7 +2892,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Monkfish_Skewers.json",
           "category": "Consumables/Consumable",
           "description": "Tasty monkfish meat, pierced on a skewer for convenient eating.",
-          "powerLevel": 4,
           "weight": 1.4
         },
         {
@@ -2894,6 +2902,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Steak_Cactus_Cooked.json",
           "category": "Consumables/Consumable",
           "description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
+          "powerLevel": 4,
           "weight": 0.2
         },
         {
@@ -2914,7 +2923,6 @@
           "iconPath": "/shared/icons/T_Icon_Strong_Sweet_Tea.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Tea_Strong_Sweet.json",
           "category": "Consumables/Consumable",
-          "powerLevel": 7,
           "weight": 1.0
         },
         {
@@ -2924,7 +2932,6 @@
           "iconPath": "/shared/icons/T_Icon_Strong_Tea.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Tea_Strong.json",
           "category": "Consumables/Consumable",
-          "powerLevel": 7,
           "weight": 1.0
         },
         {
@@ -2936,6 +2943,136 @@
           "category": "Consumables/Consumable",
           "description": "Even when cooked it still smells a great deal.",
           "powerLevel": 4,
+          "weight": 1.0
+        },
+        {
+          "name": "Super Antifire Potion",
+          "itemData": "V_P_hkxHRGuHYuqytqOi_Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Purple.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Antifire_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Removes Burning stacks and grants future protection to Burning. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Antipoison Potion",
+          "itemData": "d0ZVvUZxpn4Miou-QrRG7w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Antipoison_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Removes poison and grants resistance to it. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Artisan Potion",
+          "itemData": "_6Zo0UafFHm0M2mX_SixAg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Clay.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Artisan_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Artisan skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Attack Potion",
+          "itemData": "5W0u3UEzvfFQbZ2YQj717g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Yellow.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Attack_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Attack skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Construction Potion",
+          "itemData": "6AFNZUiBh0PlXGeGU_SqOg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Blue.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Construction_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Construction skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Cooking Potion",
+          "itemData": "mr7HeEuhQu2iYp28FECuvg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Cooking_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Cooking skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Farming Potion",
+          "itemData": "qN9xc0EwK2hjvua6tphmfw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_White.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Farming_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Farming skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Fishing Potion",
+          "itemData": "9Xa5YELJq7zXFa6qHDJZUw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Turquoise.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Fishing_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Fishing skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Mining Potion",
+          "itemData": "ywGtfkLpbS4vyWiQpFmNRA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Mining_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Mining skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Runecrafting Potion",
+          "itemData": "MF-P00gAgcMX_ZGw_Yv9yA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Purple.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Runecrafting_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Runecrafting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Woodcutting Potion",
+          "itemData": "vV8SLUe7aJRPwiOXq4uKiw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Woodcutting_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Increases XP gain for the Woodcutting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Lumberjack Potion",
+          "itemData": "yzupsUvhneUKUIyRdoWx1A",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Lumberjack_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Quarrymaster Potion",
+          "itemData": "wcqfdUpMfYcfcv-t1pu1-w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Black.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Quarrymaster_Super.json",
+          "category": "Consumables/Consumable",
+          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
           "weight": 1.0
         },
         {
@@ -2956,7 +3093,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Umbral_Kebab.json",
           "category": "Consumables/Consumable",
           "description": "A garou delicacy, ideal for those night-time munchies.",
-          "powerLevel": 4,
           "weight": 1.2
         },
         {
@@ -2988,6 +3124,15 @@
           "category": "Consumables/Deleted",
           "description": "Once restored lost health, now inert.",
           "weight": 1.0
+        },
+        {
+          "name": "tool_farming_potion",
+          "itemData": "WihyWUT7MXzWxMmP2z3dhg",
+          "maxStack": 20,
+          "iconPath": "/shared/icons/T_Icon_Placeholder.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Deleted/ITEM_Farming_Potion.json",
+          "category": "Consumables/Deleted",
+          "vitalShield": 0
         },
         {
           "name": "Berry Compote",
@@ -3196,7 +3341,7 @@
           "iconPath": "/shared/icons/T_Icon_Herby_Trout.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_HerbBaked_Trout.json",
           "category": "Consumables/Food",
-          "description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
+          "description": "Made by combining grilled trout and a baked potato.",
           "weight": 0.7
         },
         {
@@ -3206,7 +3351,7 @@
           "iconPath": "/shared/icons/T_Icon_Sauteed_Sardines.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Sauteed_Sardines.json",
           "category": "Consumables/Food",
-          "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
+          "description": "Made by combining fried sardine and dried redberry. Grants the Sea Life perk. ",
           "weight": 0.7
         },
         {
@@ -3226,7 +3371,7 @@
           "iconPath": "/shared/icons/T_Icon_Stir_Fry.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Food/ITEM_Consumable_Stir-Fry.json",
           "category": "Consumables/Food",
-          "description": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
+          "description": "Made by combining dried giant krill, dried dwellberry and smoked infernal eel.",
           "weight": 0.7
         },
         {
@@ -3310,7 +3455,7 @@
           "iconPath": "/shared/icons/T_Icon_Smoked_Herring.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Herring/ITEM_Consumable_Fish_Herring.json",
           "category": "Consumables/Herring",
-          "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
+          "description": "Nothing beats hunger like a herring.",
           "powerLevel": 3,
           "weight": 0.7
         },
@@ -3332,7 +3477,7 @@
           "iconPath": "/shared/icons/T_Icon_Smoked_Infernal_Eel.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/InfernalEel/ITEM_Consumable_Fish_InfernalEel.json",
           "category": "Consumables/InfernalEel",
-          "description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
+          "description": "An unusual meal, but a good one.",
           "powerLevel": 4,
           "weight": 1.0
         },
@@ -3357,6 +3502,444 @@
           "description": "Does wonders for your hunger bar. Grants the Sea Legs perk. ",
           "powerLevel": 4,
           "weight": 0.7
+        },
+        {
+          "name": "Antifire Potion",
+          "itemData": "56queU2VGYTvp06IsYxZMw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Purple.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.json",
+          "category": "Consumables/Magic",
+          "description": "Removes Burning stacks and grants future protection to Burning. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Antipoison Potion",
+          "itemData": "-oVBzksmuwIMiVWlc9G4aw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antipoison.json",
+          "category": "Consumables/Magic",
+          "description": "Removes poison and grants resistance to it. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Artisan Potion",
+          "itemData": "O3DuSEokXuaKPYGrNvVlwA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Clay.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Artisan skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Attack Potion",
+          "itemData": "RomgrUiURBzTRI28nkVp8A",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Yellow.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Attack.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Attack skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Construction Potion",
+          "itemData": "MbWSZkyQnryh54WAtlg-xQ",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Blue.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Construction.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Construction skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Cooking Potion",
+          "itemData": "_nUun0yU3ymRFRq8DWWDQA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Cooking.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Cooking skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Farming Potion",
+          "itemData": "-kNFWkMMc8GUHZW1VaElAg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_White.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Farming.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Farming skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Fishing Potion",
+          "itemData": "2xp9tUh_CS1H_R6om2FRWQ",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Turquoise.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Fishing skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Mining Potion",
+          "itemData": "t1k7T0TV-Lou_TGjFa7tdQ",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Orange.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Mining.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Mining skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Runecrafting Potion",
+          "itemData": "39PNfE4HZA4y90yp0QkUQw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Purple.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Runecrafting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Runecrafting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Focused Woodcutting Potion",
+          "itemData": "WtYl3UJM-qk92JOuu7c7rg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Woodcutting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Antipoison Potion",
+          "itemData": "LbLCFEmVn7KnJBS59zUS4g",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.json",
+          "category": "Consumables/Magic",
+          "description": "Removes poison and grants resistance to it. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Attack Potion",
+          "itemData": "u9KamEevDhDoqA-Ypsobrw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Blue_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Attack.json",
+          "category": "Consumables/Magic",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Artisan Potion",
+          "itemData": "7NPyZ03E4wudmtm9dqvgWw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Clay_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Artisan skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Attack Potion",
+          "itemData": "Oza9k0LVE1OmNtyDc5w_8w",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Yellow_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Attack.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Attack skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Construction Potion",
+          "itemData": "WQaIa0s7EnIKmw65TZ5RbA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Blue_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Construction.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Construction skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Cooking Potion",
+          "itemData": "LrmZqkx8wzDkUYuVAfv2OA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Orange_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Cooking skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Farming Potion",
+          "itemData": "EUF4FU4_m_JXKUiL6yH6yg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_White_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Farming.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Farming skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Fishing Potion",
+          "itemData": "gxUvIknKqg_4FoeYpzXXaw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Turquoise_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Fishing skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Mining Potion",
+          "itemData": "CaDZQEFq2q9uXb-T17sxWA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Orange_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Mining.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Mining skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Runecrafting Potion",
+          "itemData": "CuP7oEL4UtnZaFWnPzenQg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Purple_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Runecrafting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Woodcutting Potion",
+          "itemData": "6sTczU43FmxKI8aJ3SSWSA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Woodcutting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Lumberjack Potion",
+          "itemData": "PTH4UEM3VLs9biqjMeB0hg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Magic Potion",
+          "itemData": "qLXWx0NDd_CRXlmojVy3xg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Pink_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.json",
+          "category": "Consumables/Magic",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Quarrymaster Potion",
+          "itemData": "x2HUXkgtMUWqJ3i_oD1AcA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Black_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Quarrymaster.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Lumberjack Potion",
+          "itemData": "99TvyUt0VbALswaw-0FBPw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Quarrymaster Potion",
+          "itemData": "J_6-sk2CKwAAW0Sgbwhb1g",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Black.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Antipoison Potion",
+          "itemData": "ukjoSEXQTWbO6zSJvP5Z4Q",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Antipoison.json",
+          "category": "Consumables/Magic",
+          "description": "Removes poison and grants resistance to it. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Artisan Potion",
+          "itemData": "CPT7I01jfIBmhyCQLJH31A",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Clay_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Artisan.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Artisan skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Attack Potion",
+          "itemData": "Gl810k3TcUSB866zC50I2g",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Yellow_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Attack.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Attack skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Construction Potion",
+          "itemData": "m4bFA0UwQOecAhah3hNtSA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Blue_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Construction.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Construction skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Cooking Potion",
+          "itemData": "K7le0EXS_TjIx-Wb9d9PZg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Orange_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Cooking.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Cooking skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Farming Potion",
+          "itemData": "HCnG10E8sW72-wa0bbZZfg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_White_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Farming.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Farming skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Fishing Potion",
+          "itemData": "ZIgMT0CVKKcQf5-LSkqb-Q",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Turquoise_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Fishing.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Fishing skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Mining Potion",
+          "itemData": "8gh6wkTHrHGgAMSeSMHNTw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Orange_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Mining.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Mining skill. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Runecraft Potion",
+          "itemData": "0PXPSUTx8SdrxW6J26Ljfw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Purple_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Runecrafting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Runecrafting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Woodcutting Potion",
+          "itemData": "U3WBak2LNdsGzrajcaLGpw",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting.json",
+          "category": "Consumables/Magic",
+          "description": "Increases XP gain for the Woodcutting skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Lumberjack Potion",
+          "itemData": "ni4XGUQ7iWkplmuumD7kkA",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Lumberjack.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Quarrymaster Potion",
+          "itemData": "2aa7lkBxEmc_Zuy6bPQ-Ag",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Black_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Quarrymaster.json",
+          "category": "Consumables/Magic",
+          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
+          "weight": 1.0
+        },
+        {
+          "name": "Tome of the Titan",
+          "itemData": "Pc6vpkbmfa3yXnaREyZM2g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Skill_Tome_of_the_Titan.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/Main/ITEM_Consumable_Tome_Tier0_DR_Main.json",
+          "category": "Consumables/Main",
+          "description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the Attack, Magic and Ranged skills. ",
+          "weight": 6.0
+        },
+        {
+          "name": "Focused Agility Potion",
+          "itemData": "-AnBxkV80dPyh1CuYCzItg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Red.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.json",
+          "category": "Consumables/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Lesser Focused Agility Potion",
+          "itemData": "OD5pQEsin7INsTO67zlr6w",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Lesser_Red_Potion_cc0d78a2.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T2_Lesser_Agility.json",
+          "category": "Consumables/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Super Focused Agility Potion",
+          "itemData": "olhcdkOUSa_5VkyiSxchdg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Red.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T4_Super_Agility.json",
+          "category": "Consumables/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
+        },
+        {
+          "name": "Weak Focused Agility Potion",
+          "itemData": "7w8X70Js0v6MxTenuDRGSg",
+          "maxStack": 50,
+          "iconPath": "/shared/icons/T_Icon_Weak_Red_Potion.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T1_Weak_Agility.json",
+          "category": "Consumables/Potions",
+          "description": "Increases XP gain for the Agility skill.",
+          "weight": 1.0
         },
         {
           "name": "Tome of Volcano",
@@ -3408,7 +3991,7 @@
           "iconPath": "/shared/icons/T_Icon_Fried_Sardine.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Sardine/ITEM_Consumable_Fish_Sardine.json",
           "category": "Consumables/Sardine",
-          "description": "Delicious little fishies. Grants the Warding Fish perk. ",
+          "description": "Delicious little fishies. Grants the Sea Life perk. ",
           "powerLevel": 2,
           "weight": 0.5
         },
@@ -3712,7 +4295,7 @@
           "iconPath": "/shared/icons/T_Icon_Grilled_Trout.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/Trout/ITEM_Consumable_Fish_Trout.json",
           "category": "Consumables/Trout",
-          "description": "Stave off hunger with this tasty bite. Grants the Sea Life perk.",
+          "description": "Stave off hunger with this tasty bite.",
           "powerLevel": 2,
           "weight": 0.7
         },
@@ -3745,7 +4328,7 @@
           "iconPath": "/shared/icons/T_Icon_Braised_Undead_Eel.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Fishes/UndeadEel/ITEM_Consumable_Fish_UndeadEel.json",
           "category": "Consumables/UndeadEel",
-          "description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
+          "description": "Makes you queasy but does wonders for hunger.",
           "powerLevel": 4,
           "weight": 1.0
         },
@@ -3799,7 +4382,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Bread.json",
           "category": "Consumables/v3",
           "description": "Crusty brown outside, pillowy white inside.",
-          "powerLevel": 2,
           "weight": 0.2
         },
         {
@@ -4019,7 +4601,7 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Watermelon_Burnt.json",
           "category": "Consumables/v3",
           "description": "Too well done, but still edible. ",
-          "powerLevel": 1,
+          "powerLevel": 4,
           "weight": 1.0
         },
         {
@@ -4621,7 +5203,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Food/Items/v3/ITEM_Consumable_Cake_VictoriaSpongeCake.json",
           "category": "Consumables/v3",
           "description": "A delicious sponge cake, thankfully without the goblin version of frosting. ",
-          "powerLevel": 1,
           "weight": 0.7
         },
         {
@@ -4921,7 +5502,7 @@
           "iconPath": "/shared/icons/T_Icon_Corpse_Cotton.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Corpse_Fur.json",
           "category": "Materials/Animal",
-          "description": "Drops from a volitle bulbous plant that explodes when hit. Can be spun at the spinning wheel to create fine thread.",
+          "description": "Drops from a volatile bulbous plant that explodes when hit. Can be spun at the spinning wheel to create fine thread.",
           "weight": 0.1
         },
         {
@@ -5488,6 +6069,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Penguin Body",
+          "itemData": "z-1HvE3zmS9BcTCzkDkE2w",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Body_PenguinOutfit_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Body/ITEM_Armour_Body_Penguin.json",
+          "category": "Materials/Body",
+          "description": "A delightful penguinny tuxedo.",
+          "baseDurability": 1500,
+          "weight": 8.0,
+          "equipment": "Body",
+          "vitalShield": 0
+        },
+        {
           "name": "Adamant Watering Can",
           "itemData": "N4AdMUxYQVnAKHy4JUROxg",
           "maxStack": 1,
@@ -5520,6 +6114,17 @@
           "category": "Materials/Bucket",
           "description": "{HeldContainerDescription}\r\n\r\nA wooden bucket used to carry a variety of Compost. Pour it's contents out over a Farming Plot to Fertilize your plants!",
           "weight": 5.5,
+          "vitalShield": 0
+        },
+        {
+          "name": "Large Compost Bucket",
+          "itemData": "RbrpREuxQ5-x4LCvrfMRAg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Large_Compost_Bucket_New.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Bucket/ITEM_Bucket_Compost_Big.json",
+          "category": "Materials/Bucket",
+          "description": "{HeldContainerDescription}\r\n\r\nAn upgraded wooden bucket with room for extra Compost. Fewer trips, more fertilizing \u2014 just try not to strain your back! Pour its contents over a Farming Plot to Fertilize your plants.",
+          "weight": 6.0,
           "vitalShield": 0
         },
         {
@@ -5622,16 +6227,6 @@
           "weight": 4.5
         },
         {
-          "name": "Dragon Crossbow Limbs",
-          "itemData": "LafYXkXd1hOEabWeo2sdKw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Components/ITEM_Resources_DragonLimbs.json",
-          "category": "Materials/Components",
-          "description": "Forged from dragon metal, these limbs grant a crossbow tremendous power.",
-          "weight": 4.5
-        },
-        {
           "name": "Iron Crossbow Limbs",
           "itemData": "VlhCS0xKcZzgC3igVdQ38w",
           "maxStack": 99,
@@ -5672,134 +6267,13 @@
           "weight": 4.5
         },
         {
-          "name": "Super Antifire Potion",
-          "itemData": "V_P_hkxHRGuHYuqytqOi_Q",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Purple.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Antifire_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Removes Burning stacks and grants future protection to Burning. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Antipoison Potion",
-          "itemData": "d0ZVvUZxpn4Miou-QrRG7w",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Antipoison_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Removes poison and grants resistance to it. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Artisan Potion",
-          "itemData": "_6Zo0UafFHm0M2mX_SixAg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Clay.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Artisan_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Artisan skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Attack Potion",
-          "itemData": "5W0u3UEzvfFQbZ2YQj717g",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Yellow.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Attack_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Attack skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Construction Potion",
-          "itemData": "6AFNZUiBh0PlXGeGU_SqOg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Blue.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Construction_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Construction skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Cooking Potion",
-          "itemData": "mr7HeEuhQu2iYp28FECuvg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Orange.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Cooking_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Cooking skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Farming Potion",
-          "itemData": "qN9xc0EwK2hjvua6tphmfw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_White.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Farming_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Farming skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Fishing Potion",
-          "itemData": "9Xa5YELJq7zXFa6qHDJZUw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Turquoise.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Fishing_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Fishing skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Mining Potion",
-          "itemData": "ywGtfkLpbS4vyWiQpFmNRA",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Orange.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Mining_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Mining skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Runecrafting Potion",
-          "itemData": "MF-P00gAgcMX_ZGw_Yv9yA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Purple.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Runecrafting_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Runecrafting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Woodcutting Potion",
-          "itemData": "vV8SLUe7aJRPwiOXq4uKiw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_Focused_T4_Woodcutting_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Increases XP gain for the Woodcutting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Lumberjack Potion",
-          "itemData": "yzupsUvhneUKUIyRdoWx1A",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Lumberjack_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Quarrymaster Potion",
-          "itemData": "wcqfdUpMfYcfcv-t1pu1-w",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Black.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Consumable/ITEM_Consumable_Potion_T4_Quarrymaster_Super.json",
-          "category": "Materials/Consumable",
-          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
-          "weight": 1.0
+          "name": "Penguin Coin",
+          "itemData": "TEJBIEbS98YVT_u1Tm4rhw",
+          "maxStack": 9999,
+          "iconPath": "/shared/icons/T_Icon_Penguin_Coin_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_PenguinCoin.json",
+          "category": "Materials/Currency",
+          "description": "Did the eyes move? This can be spent at Facade's Front."
         },
         {
           "name": "Soul Fragment",
@@ -5822,6 +6296,16 @@
           "powerLevel": 2,
           "weight": 3.0,
           "vitalShield": 0
+        },
+        {
+          "name": "Dragon Crossbow Limbs",
+          "itemData": "LafYXkXd1hOEabWeo2sdKw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Deleted/ITEM_Resources_DragonLimbs.json",
+          "category": "Materials/Deleted",
+          "description": "Forged from dragon metal, these limbs grant a crossbow tremendous power.",
+          "weight": 4.5
         },
         {
           "name": "Emerald",
@@ -5929,6 +6413,14 @@
           "weight": 3.0
         },
         {
+          "name": "res_horn_mouthpiece",
+          "itemData": "ZbaFNUQBjcQFiBmssky-4g",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Placeholder.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Masterworks_Horn_Mouthpiece.json",
+          "category": "Materials/Deleted"
+        },
+        {
           "name": "res_ore_runite_old",
           "itemData": "cGGgxuSpjEmvSKUBkJQQUg",
           "maxStack": 1,
@@ -5943,15 +6435,6 @@
           "iconPath": "/shared/icons/T_Icon_Placeholder.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Resources_Soda_Ash.json",
           "category": "Materials/Deleted"
-        },
-        {
-          "name": "tool_farming_potion",
-          "itemData": "WihyWUT7MXzWxMmP2z3dhg",
-          "maxStack": 20,
-          "iconPath": "/shared/icons/T_Icon_Placeholder.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/Deleted/ITEM_Farming_Potion.json",
-          "category": "Materials/Deleted",
-          "vitalShield": 0
         },
         {
           "name": "Gourmand Ring",
@@ -6084,6 +6567,27 @@
           "vitalShield": 0
         },
         {
+          "name": "Pescaling Amulet",
+          "itemData": "knyimkh9Kk1g40ClZOEXMg",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Penguin_Amulet_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Equipment/ITEM_Trinket_Penguin_Amulet.json",
+          "category": "Materials/Equipment",
+          "description": "Has a fishy aroma. Increase chance of getting PRISTINE catches by 5%.",
+          "weight": 2.0,
+          "vitalShield": 0
+        },
+        {
+          "name": "Pescaling Ring",
+          "itemData": "Zk3wM0EPF2dm7-KO4kZnHA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Penguin_Ring_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Equipment/ITEM_Trinket_Penguin_Ring.json",
+          "category": "Materials/Equipment",
+          "description": "Has a fishy aroma. Reduce fishing stamina by 5-15%.",
+          "weight": 1.0
+        },
+        {
           "name": "Plant Cure",
           "itemData": "XXWU70NlMFVOmPO4gXCVwA",
           "maxStack": 20,
@@ -6180,6 +6684,96 @@
           "description": "Your mouth waters just looking at it.",
           "powerLevel": 7,
           "weight": 2.5
+        },
+        {
+          "name": "ammo_fishbait_agonyauntchovy",
+          "itemData": "mi6_zkb7tsNioO6gW5ceuA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Agony_Auntchovy.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_FishBait_AgonyAuntchovy.json",
+          "category": "Materials/Fish",
+          "powerLevel": 7,
+          "vitalShield": 0
+        },
+        {
+          "name": "res_fish_armouredcatfish_reeldowner",
+          "itemData": "zv43UU5_FsvRuxC611kYpg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Inconsolable_Catfish.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_ArmouredCatfish_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 4,
+          "weight": 9.0
+        },
+        {
+          "name": "res_fish_beltfish_reeldowner",
+          "itemData": "Fd2DsE5JxIrpeMm4JrW9dw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Bawling_Beltfish.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Beltfish_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 7,
+          "weight": 5.0
+        },
+        {
+          "name": "res_fish_desertsole_reeldowner",
+          "itemData": "3JIDXEL0WCbz6C6s9DzABg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Depressed_Desert_Sole.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_DesertSole_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 7,
+          "weight": 5.0
+        },
+        {
+          "name": "res_fish_pristine_armouredcatfish_reeldowner",
+          "itemData": "mGfOZE-pRnqITdO_F_7Gng",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Pristine_Inconsolable_Catfish.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Pristine_ArmouredCatfish_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 4,
+          "weight": 9.0
+        },
+        {
+          "name": "res_fish_pristine_beltfish_reeldowner",
+          "itemData": "vzQlsUMmvYqzAC-xshHBqg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Pristine_Bawling_Beltfish.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Pristine_Beltfish_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 7,
+          "weight": 5.0
+        },
+        {
+          "name": "res_fish_pristine_desertsole_reeldowner",
+          "itemData": "F8Rkc0EF-_y3b5yamiOEpQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Pristine_Depressed_Desert_Sole.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Pristine_DesertSole_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 7,
+          "weight": 5.0
+        },
+        {
+          "name": "res_fish_pristine_sardine_reeldowner",
+          "itemData": "oomYM0m0a6gZzT-aIdy6tw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Pristine_Snivelling_Sardine.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Pristine_Sardine_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 2,
+          "weight": 1.0
+        },
+        {
+          "name": "res_fish_sardine_reeldowner",
+          "itemData": "nXOoPEA9FNeRuraf5BGfJw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Fish_Snivelling_Sardine.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Resources/Fish/ITEM_Resources_Fish_Raw_Sardine_ReelDowner.json",
+          "category": "Materials/Fish",
+          "powerLevel": 2,
+          "weight": 1.0
         },
         {
           "name": "Desert Net",
@@ -6306,7 +6900,7 @@
           "iconPath": "/shared/icons/T_Icon_Resource_Ruby.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Gem/ITEM_Resources_Ruby.json",
           "category": "Materials/Gem",
-          "description": "A rare gemstone used to craft enchanted jewellery",
+          "description": "A rare gemstone, used in crafting enchanted crossbow bolts. ",
           "weight": 3.0
         },
         {
@@ -6402,8 +6996,8 @@
           "itemData": "YMXvUEKL-S_EPFm7a5xvHA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Titans_Wrath.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_Masterworks_GreatSword_TitansWrath.json",
-          "category": "Materials/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Masterworks_GreatSword_TitansWrath.json",
+          "category": "Materials/GreatSword",
           "description": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel.",
           "baseDurability": 1300,
           "powerLevel": 6,
@@ -6568,6 +7162,32 @@
           "baseDurability": 1250,
           "powerLevel": 1,
           "weight": 2.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "KGP Hat",
+          "itemData": "1vwTz0tJ4LfEgbO9lTlv7A",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Penguin_Hat_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_KGP.json",
+          "category": "Materials/Head",
+          "description": "Turns you invisible. Except when it doesn't.",
+          "baseDurability": 1500,
+          "weight": 4.0,
+          "equipment": "Head",
+          "vitalShield": 0
+        },
+        {
+          "name": "Penguin Helmet",
+          "itemData": "F-jrpEvMkGOvfea-IR55mA",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Head_PenguinOutfit_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Head/ITEM_Armour_Head_Penguin.json",
+          "category": "Materials/Head",
+          "description": "For when you need to be A Spy in the Huddle.",
+          "baseDurability": 1500,
+          "weight": 4.0,
           "equipment": "Head",
           "vitalShield": 0
         },
@@ -7005,7 +7625,8 @@
           "category": "Materials/Jewelry",
           "description": "Worn by seasoned warriors, this amulet bolsters strength, precision, and resilience in battle.",
           "baseDurability": 2500,
-          "weight": 2.0
+          "weight": 2.0,
+          "vitalShield": 0
         },
         {
           "name": "Skills Necklace",
@@ -7016,7 +7637,8 @@
           "category": "Materials/Jewelry",
           "description": "Provides a small chance to get extra resources when gathering them in the world.",
           "baseDurability": 2500,
-          "weight": 2.0
+          "weight": 2.0,
+          "vitalShield": 0
         },
         {
           "name": "Gilded Gyrhawk Amulet",
@@ -7027,7 +7649,8 @@
           "category": "Materials/Jewlery",
           "description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world. Additionally increases the amount of experience gained from courses.",
           "baseDurability": 500,
-          "weight": 2.0
+          "weight": 2.0,
+          "vitalShield": 0
         },
         {
           "name": "Gyrhawk Amulet",
@@ -7038,7 +7661,8 @@
           "category": "Materials/Jewlery",
           "description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world.",
           "baseDurability": 250,
-          "weight": 2.0
+          "weight": 2.0,
+          "vitalShield": 0
         },
         {
           "name": "Inspiring Ring of Agility",
@@ -7130,6 +7754,19 @@
           "vitalShield": 0
         },
         {
+          "name": "Penguin Legs",
+          "itemData": "jBVtBUWBZQGPBi-2kzVL3A",
+          "maxStack": 1,
+          "iconPath": "/shared/icons/T_Icon_Legs_PenguinOutfit_1.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Legs/ITEM_Armour_Legs_Penguin.json",
+          "category": "Materials/Legs",
+          "description": "Perfect for waddling to work.",
+          "baseDurability": 1500,
+          "weight": 6.0,
+          "equipment": "Legs",
+          "vitalShield": 0
+        },
+        {
           "name": "Fine Net",
           "itemData": "Sf0E3UqE6GhMGk2XhghuJA",
           "maxStack": 1,
@@ -7180,274 +7817,6 @@
           "vitalShield": 0
         },
         {
-          "name": "Antifire Potion",
-          "itemData": "56queU2VGYTvp06IsYxZMw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Purple.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antifire.json",
-          "category": "Materials/Magic",
-          "description": "Removes Burning stacks and grants future protection to Burning. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Antipoison Potion",
-          "itemData": "-oVBzksmuwIMiVWlc9G4aw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Antipoison.json",
-          "category": "Materials/Magic",
-          "description": "Removes poison and grants resistance to it. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Artisan Potion",
-          "itemData": "O3DuSEokXuaKPYGrNvVlwA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Clay.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Artisan.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Artisan skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Attack Potion",
-          "itemData": "RomgrUiURBzTRI28nkVp8A",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Yellow.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Attack.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Attack skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Construction Potion",
-          "itemData": "MbWSZkyQnryh54WAtlg-xQ",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Blue.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Construction.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Construction skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Cooking Potion",
-          "itemData": "_nUun0yU3ymRFRq8DWWDQA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Orange.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Cooking.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Cooking skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Farming Potion",
-          "itemData": "-kNFWkMMc8GUHZW1VaElAg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_White.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Farming.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Farming skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Fishing Potion",
-          "itemData": "2xp9tUh_CS1H_R6om2FRWQ",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Turquoise.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Fishing.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Fishing skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Mining Potion",
-          "itemData": "t1k7T0TV-Lou_TGjFa7tdQ",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Orange.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Mining.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Mining skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Runecrafting Potion",
-          "itemData": "39PNfE4HZA4y90yp0QkUQw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Purple.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Runecrafting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Runecrafting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Focused Woodcutting Potion",
-          "itemData": "WtYl3UJM-qk92JOuu7c7rg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T3_Woodcutting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Woodcutting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Antipoison Potion",
-          "itemData": "LbLCFEmVn7KnJBS59zUS4g",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Antipoison.json",
-          "category": "Materials/Magic",
-          "description": "Removes poison and grants resistance to it. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Attack Potion",
-          "itemData": "u9KamEevDhDoqA-Ypsobrw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Blue_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Attack.json",
-          "category": "Materials/Magic",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Artisan Potion",
-          "itemData": "7NPyZ03E4wudmtm9dqvgWw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Clay_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Artisan skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Attack Potion",
-          "itemData": "Oza9k0LVE1OmNtyDc5w_8w",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Yellow_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Attack.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Attack skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Construction Potion",
-          "itemData": "WQaIa0s7EnIKmw65TZ5RbA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Blue_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Construction.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Construction skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Cooking Potion",
-          "itemData": "LrmZqkx8wzDkUYuVAfv2OA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Orange_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Cooking.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Cooking skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Farming Potion",
-          "itemData": "EUF4FU4_m_JXKUiL6yH6yg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_White_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Farming.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Farming skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Fishing Potion",
-          "itemData": "gxUvIknKqg_4FoeYpzXXaw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Turquoise_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Fishing.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Fishing skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Mining Potion",
-          "itemData": "CaDZQEFq2q9uXb-T17sxWA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Orange_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Mining.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Mining skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Runecrafting Potion",
-          "itemData": "CuP7oEL4UtnZaFWnPzenQg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Purple_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Runecrafting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Runecrafting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Woodcutting Potion",
-          "itemData": "6sTczU43FmxKI8aJ3SSWSA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Woodcutting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Woodcutting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Lumberjack Potion",
-          "itemData": "PTH4UEM3VLs9biqjMeB0hg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Lumberjack.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Magic Potion",
-          "itemData": "qLXWx0NDd_CRXlmojVy3xg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Pink_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Magic.json",
-          "category": "Materials/Magic",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Quarrymaster Potion",
-          "itemData": "x2HUXkgtMUWqJ3i_oD1AcA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Black_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T2_Lesser_Quarrymaster.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Lumberjack Potion",
-          "itemData": "99TvyUt0VbALswaw-0FBPw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Green.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Lumberjack.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Quarrymaster Potion",
-          "itemData": "J_6-sk2CKwAAW0Sgbwhb1g",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Black.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T3_Quarrymaster.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
-          "weight": 1.0
-        },
-        {
           "name": "Rune Essence",
           "itemData": "qOY004ZJaEaR8DmcDqB2KA",
           "maxStack": 99,
@@ -7476,126 +7845,6 @@
           "category": "Materials/Magic",
           "description": "Stone imbued with remnants of dragonkin magic. Found only in dragonkin vaults. ",
           "weight": 5.0
-        },
-        {
-          "name": "Weak Antipoison Potion",
-          "itemData": "ukjoSEXQTWbO6zSJvP5Z4Q",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Antipoison.json",
-          "category": "Materials/Magic",
-          "description": "Removes poison and grants resistance to it. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Artisan Potion",
-          "itemData": "CPT7I01jfIBmhyCQLJH31A",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Clay_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Artisan.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Artisan skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Attack Potion",
-          "itemData": "Gl810k3TcUSB866zC50I2g",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Yellow_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Attack.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Attack skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Construction Potion",
-          "itemData": "m4bFA0UwQOecAhah3hNtSA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Blue_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Construction.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Construction skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Cooking Potion",
-          "itemData": "K7le0EXS_TjIx-Wb9d9PZg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Orange_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Cooking.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Cooking skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Farming Potion",
-          "itemData": "HCnG10E8sW72-wa0bbZZfg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_White_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Farming.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Farming skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Fishing Potion",
-          "itemData": "ZIgMT0CVKKcQf5-LSkqb-Q",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Turquoise_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Fishing.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Fishing skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Mining Potion",
-          "itemData": "8gh6wkTHrHGgAMSeSMHNTw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Orange_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Mining.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Mining skill. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Runecraft Potion",
-          "itemData": "0PXPSUTx8SdrxW6J26Ljfw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Purple_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Runecrafting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Runecrafting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Woodcutting Potion",
-          "itemData": "U3WBak2LNdsGzrajcaLGpw",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T1_Weak_Woodcutting.json",
-          "category": "Materials/Magic",
-          "description": "Increases XP gain for the Woodcutting skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Lumberjack Potion",
-          "itemData": "ni4XGUQ7iWkplmuumD7kkA",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Green_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Lumberjack.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Lumberjack perk, which helps to decrease stamina lost from Woodcutting. ",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Quarrymaster Potion",
-          "itemData": "2aa7lkBxEmc_Zuy6bPQ-Ag",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Black_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_T1_Weak_Quarrymaster.json",
-          "category": "Materials/Magic",
-          "description": "Applies the Quarrymaster perk, which helps to decrease stamina lost from Mining. ",
-          "weight": 1.0
         },
         {
           "name": "Wild Anima",
@@ -8753,26 +9002,6 @@
           "weight": 1.5
         },
         {
-          "name": "Focused Agility Potion",
-          "itemData": "-AnBxkV80dPyh1CuYCzItg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Potion_Tier3_Red.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T3_Agility.json",
-          "category": "Materials/Potions",
-          "description": "Increases XP gain for the Agility skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Lesser Focused Agility Potion",
-          "itemData": "OD5pQEsin7INsTO67zlr6w",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Lesser_Red_Potion_cdb28c9a.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T2_Lesser_Agility.json",
-          "category": "Materials/Potions",
-          "description": "Increases XP gain for the Agility skill.",
-          "weight": 1.0
-        },
-        {
           "name": "Stamina Potion",
           "itemData": "W0iKvUtaCMML_3iPRANO6Q",
           "maxStack": 50,
@@ -8780,26 +9009,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Stamina.json",
           "category": "Materials/Potions",
           "description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another such unbridled energy is taxing on the body.",
-          "weight": 1.0
-        },
-        {
-          "name": "Super Focused Agility Potion",
-          "itemData": "olhcdkOUSa_5VkyiSxchdg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Super_Potion__T4_Red.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T4_Super_Agility.json",
-          "category": "Materials/Potions",
-          "description": "Increases XP gain for the Agility skill.",
-          "weight": 1.0
-        },
-        {
-          "name": "Weak Focused Agility Potion",
-          "itemData": "7w8X70Js0v6MxTenuDRGSg",
-          "maxStack": 50,
-          "iconPath": "/shared/icons/T_Icon_Weak_Red_Potion.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Items/Potions/ITEM_Consumable_Potion_Focused_T1_Weak_Agility.json",
-          "category": "Materials/Potions",
-          "description": "Increases XP gain for the Agility skill.",
           "weight": 1.0
         },
         {
@@ -10171,6 +10380,22 @@
           "vitalShield": 0
         },
         {
+          "name": "Ancient Roundrug",
+          "itemData": "9UCLDEmnHSTuBtmeLNaMuw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Carpet/DA_Consumable_Plan_Decoration_Rug_GreenCircular.json",
+          "category": "Plans"
+        },
+        {
+          "name": "Ancient Rug",
+          "itemData": "clLWuEW34Y6xDKG--86mNg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Carpet/DA_Consumable_Plan_Decoration_Rug_GreenRectangular.json",
+          "category": "Plans"
+        },
+        {
           "name": "Bloodblight Cape",
           "itemData": "iP5G-kkJ6z11R-mEGuVtZQ",
           "maxStack": 1,
@@ -10326,10 +10551,8 @@
           "itemData": "TYUGe0jPjWy85Yih7pa7kw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Cape_Whispering.png",
-          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Cape/RegionCapes/ScornedWilderness/DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden.json",
-          "category": "Plans",
-          "equipment": "Cape",
-          "vitalShield": 0
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/Agility/Content/Gameplay/Character/Player/Equipment/Deleted/DA_Consumable_Pattern_Armor_Cape_Scorned_Wilderness_Golden.json",
+          "category": "Plans"
         },
         {
           "name": "Golden Stormtouched Cape",
@@ -10622,6 +10845,14 @@
           "maxStack": 99,
           "iconPath": "/shared/icons/T_Icon_Plans.png",
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Decorations/DA_Consumable_Plan_Decoration_UmS_Garou_Vase_Collection_04.json",
+          "category": "Plans"
+        },
+        {
+          "name": "PLAN: Dowdun Postbox",
+          "itemData": "VuWQOkz3FmwVevGWTFAdgw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Decorations/DA_Consumable_Plan_Decoration_DR_PostBox.json",
           "category": "Plans"
         },
         {
@@ -11273,6 +11504,14 @@
           "category": "Plans"
         },
         {
+          "name": "PLAN: Umbral Postbox",
+          "itemData": "G1cQu0ScDkHMwHGmYwOfng",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Decorations/DA_Consumable_Plan_Decoration_UmS_PostBox.json",
+          "category": "Plans"
+        },
+        {
           "name": "PLAN: Vial Shelf",
           "itemData": "UR0nd0Bax9Gx9yeOan-ypg",
           "maxStack": 99,
@@ -11397,6 +11636,132 @@
           "description": "A cape made for its looks more than any kind of magical potency. ",
           "equipment": "Cape",
           "vitalShield": 0
+        },
+        {
+          "name": "Plan: Bronze Penguin Miniature",
+          "itemData": "nUhjYUk33T43AcGsZiMLcw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Bronze_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Copper Penguin Miniature",
+          "itemData": "a_DdZUdza0x_gBCrkjVdsg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Copper_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Gold Penguin Miniature",
+          "itemData": "753M40RnwAb9d-m8oDbqlA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Gold_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Penguin Decorative Coin",
+          "itemData": "qEjtf0lTTn3URIOYCBb-fA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Coin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Penguin Decorative Tapestry",
+          "itemData": "w2WnRk-aD_27ydqHHR5X_w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Penguin_Tapestry.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Penguin Statue 01",
+          "itemData": "tNWcL0rzis-WA2KPhhXOpQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Penguins_PenguinStatue.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Polar Bear Decorative Tapestry",
+          "itemData": "VWVaV0iLypp6KLa9v2KzlQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_PolarBear_Tapestry.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Silver Penguin Miniature",
+          "itemData": "8PZryUuIGeE24RyuR3j8_g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Silver_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Stone Penguin Miniature",
+          "itemData": "L5HcdkivUjwwvFe1ivEZNg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Stone_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Suspicous Miniature Penguin 01",
+          "itemData": "GCjDDEKeKgKmYuWRhR4P8A",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Suspicious_Barrel.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Suspicous Miniature Penguin 02",
+          "itemData": "eWOcEkOzr9ZEBiCdhEh5Fw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Suspicious_Box.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Suspicous Miniature Penguin 03",
+          "itemData": "6W8oyUUjycKukDSDW2y0rQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Suspicious_Pan.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Suspicous Miniature Penguin 04",
+          "itemData": "ZNTtFE11ZDfXXLyOgQwLtw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Suspicious_Sack.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
+        },
+        {
+          "name": "Plan: Tin Penguin Miniature",
+          "itemData": "u9-sz0wyt3FMYraZdW-UTg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Tin_Penguin.json",
+          "category": "Plans",
+          "description": "Unlocks a new decoration for your home."
         },
         {
           "name": "Red Dyad Cape",
@@ -11543,6 +11908,51 @@
           "category": "Plans"
         },
         {
+          "name": "Bloodblight Raid Pack",
+          "itemData": "4xsh5kLLU6o8FtyEqh7yQQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_BloodblightSwamp.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Bramblemead Raid Pack",
+          "itemData": "mNJl4Exl19DaK7CViiKtdQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_Bramblemead.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Dowdun Raid Pack",
+          "itemData": "F8HcnE5YSmVQIGa9GTinXg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_DowdunReach.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Fellhollow Raid Pack",
+          "itemData": "p-SYdU2eYkG36uyEQTTFCQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_Fellhollow.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Ghornfell Raid Pack",
+          "itemData": "-mww_kfSg-ek4QKRrwmNZQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_Ghornfell.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
           "name": "Queenslayer's Reward Pack",
           "itemData": "Qu2GYkIkg9iUqTCc2maTyg",
           "maxStack": 99,
@@ -11559,6 +11969,33 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_KuldraPack_Unique.json",
           "category": "Tools",
           "description": "A reward pack for completing Regicide."
+        },
+        {
+          "name": "Stormtouched Raid Pack",
+          "itemData": "7fvKmEWVroBeDwWY61X9KQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_StormtouchedHighlands.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Umbral Raid Pack",
+          "itemData": "S4UXbUcR8cJj12KsLz49og",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_UmbralSands.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
+        },
+        {
+          "name": "Whispering Raid Pack",
+          "itemData": "Cfr4A060axoUrFGXXzNKyw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Human_Napsack_01.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Items/Consumables/ITEM_Consumable_RaidPack_WhisperingSwamp.json",
+          "category": "Tools",
+          "description": "Remnants of a raiding party."
         },
         {
           "name": "Kot Pack",
@@ -12086,6 +12523,15 @@
           "weight": 1.0
         },
         {
+          "name": "item_pack_UmS_SQ_ReelDowner_Complete",
+          "itemData": "wCCyuEe_vmZUikKEq2c9YQ",
+          "maxStack": 10,
+          "iconPath": "/shared/icons/T_Icon_Resources_Garou_Pack.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Consumable_Ums_SQ_ReelDowner_RewardPack.json",
+          "category": "Tools/Quest",
+          "weight": 1.0
+        },
+        {
           "name": "item_pack_thinkingwithportalsbonuspack",
           "itemData": "nmMtNE2Oy_IpeN6_zLjSUw",
           "maxStack": 99,
@@ -12248,6 +12694,24 @@
           "description": "Perhaps you could learn from it"
         },
         {
+          "name": "Brine-Soaked Band",
+          "itemData": "vYxZ2ksvijJakca9H9m0PA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Trinkets/DA_Consumable_Vestige_Trinket_Ring_Penguin.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
+        },
+        {
+          "name": "Brine-Soaked Bauble",
+          "itemData": "wwXZBUxp3MqI9B6EwymUHg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Trinkets/DA_Consumable_Vestige_Trinket_Amulet_Penguin.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
+        },
+        {
           "name": "Burnished Belt Buckle",
           "itemData": "vB7Ez076Zu5L2a-yOvereQ",
           "maxStack": 99,
@@ -12300,6 +12764,15 @@
           "sourcePath": "data/consumables/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Vestiges/DA_Consumable_Vestige_Trinket_Amulet_of_Glory.json",
           "category": "Vestiges",
           "description": "Perhaps you could learn from it"
+        },
+        {
+          "name": "Coral Nubbin",
+          "itemData": "F-ITXUJ28QviuZaQuNsGUA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Head_Penguin.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
         },
         {
           "name": "Corroded Curved Blade",
@@ -12653,6 +13126,15 @@
           "description": "Perhaps you could learn from it"
         },
         {
+          "name": "Prestigious Prototype",
+          "itemData": "UntZbUWCjCnzABOSC6QTIA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Cape_Penguin.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
+        },
+        {
           "name": "Purple Memory of Menaphos",
           "itemData": "Ense_UzwX9OTaL6ZDw2mVA",
           "maxStack": 99,
@@ -12696,6 +13178,15 @@
           "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Tools/DA_Consumable_Vestige_Tool_Shovel_Undead.json",
           "category": "Vestiges",
           "description": "The sinister remains of farming equipment. Perhaps you can learn something from it."
+        },
+        {
+          "name": "Scrap Mired in Subterfuge",
+          "itemData": "KuF1YEH6oc7wNmix1pE23Q",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Head_KGP.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
         },
         {
           "name": "Scratchy Sackcloth",
@@ -12885,6 +13376,15 @@
           "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Cape_Shadowscale.json",
           "category": "Vestiges",
           "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them."
+        },
+        {
+          "name": "Tuxedo Patch",
+          "itemData": "arbb4EHBLkTQCtm1pFzVHA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Plans.png",
+          "sourcePath": "data/consumables/json/RSDragonwilds/Content/Gameplay/Items/Consumables/Vestiges/Armour/DA_Consumable_Vestige_Armour_Set_Penguin.json",
+          "category": "Vestiges",
+          "description": "Perhaps you could learn something from it."
         },
         {
           "name": "Twtiching Antenna",
@@ -13741,8 +14241,8 @@
           "itemData": "dQfD9EOTByYoKXubTJsZaA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_GreatSword_Adamant_2h_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Adamant.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Adamant.json",
+          "category": "Weapons/GreatSword",
           "description": "A strong and massive blade made of adamant.",
           "baseDurability": 1600,
           "powerLevel": 7,
@@ -13754,8 +14254,8 @@
           "itemData": "PSWEV0JzVwxsalWCFqPbOw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_GreatSword_Bronze_2H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Bronze.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Bronze.json",
+          "category": "Weapons/GreatSword",
           "description": "A two-handed bronze sword for those who prefer power over speed.",
           "baseDurability": 1050,
           "powerLevel": 3,
@@ -13767,8 +14267,8 @@
           "itemData": "kpJmEG1D10ylMOFHGfJQrA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_GreatSword_Iron_2H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Iron.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Iron.json",
+          "category": "Weapons/GreatSword",
           "description": "A well-balanced, large, imposing sword for skilled warriors.",
           "baseDurability": 1300,
           "powerLevel": 4,
@@ -13780,8 +14280,8 @@
           "itemData": "pQc5DE2EQITw_c2lRJxZ9A",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Mithril_Great_Sword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Mithril.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Mithril.json",
+          "category": "Weapons/GreatSword",
           "description": "A sturdy two-handed sword, with strength to match its size. ",
           "baseDurability": 1600,
           "powerLevel": 6,
@@ -13793,8 +14293,8 @@
           "itemData": "9bKt00nJBj-_uIima_mzBA",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_Icon_Greatsword_Rune_1H_01.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_Greatsword_Rune.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_Greatsword_Rune.json",
+          "category": "Weapons/GreatSword",
           "description": "A massive two-handed blade forged from runite. Few can wield such a weapon effectively, but fewer still can stand against it.",
           "baseDurability": 1900,
           "powerLevel": 8,
@@ -13806,8 +14306,8 @@
           "itemData": "Ewe_yEPwqy4Bx0ajfHlwvw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Shadow_2H_Greatsword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Shadow.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Shadow.json",
+          "category": "Weapons/GreatSword",
           "description": "This Greatsword exsists between the realms of the living and the dead.",
           "baseDurability": 1300,
           "powerLevel": 5,
@@ -13819,8 +14319,8 @@
           "itemData": "vI0ix0WJSchv2dysqMjcaw",
           "maxStack": 1,
           "iconPath": "/shared/icons/T_icon_Steel_2H_Greatsword.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Greatsword/ITEM_GreatSword_Steel.json",
-          "category": "Weapons/Greatsword",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/ITEM_GreatSword_Steel.json",
+          "category": "Weapons/GreatSword",
           "description": "A two handed steel sword made famous by highland warriors.",
           "baseDurability": 1300,
           "powerLevel": 5,
@@ -14713,10 +15213,11 @@
           "name": "Earth Rune",
           "itemData": "lCE7i3iXGUuHv7FphIOcXg",
           "maxStack": 9999,
-          "iconPath": "/shared/icons/T_Icon_Rune_Earth_IconRemoved.png",
+          "iconPath": "/shared/icons/T_Icon_Rune_Earth.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.json",
           "category": "Runes",
-          "description": "A symbol of the earth's might, essential for earth-based magic. \r\n\r\nRunes are retained if you happen to die."
+          "description": "A symbol of the earth's might, essential for earth-based magic. \r\n\r\nRunes are retained if you happen to die.",
+          "vitalShield": 0
         },
         {
           "name": "Fire Rune",
@@ -15253,7 +15754,7 @@
           "name": "Advert-Inna-Bottle",
           "itemData": "H5D6PE3yfLhTPAypRyRg4g",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_AnimalMagnetism_AdvertInnaBottle.json",
           "category": "Quest",
           "description": "An advert that details how to make an 'Ava's Accumulator'."
@@ -15340,19 +15841,10 @@
           "description": "An ornate dragonkin horn, traditionally used to challenge someone to a duel of honour. Bring it to the dragonkin altar to challenge Velgar."
         },
         {
-          "name": "Challenge Horn Mouthpiece",
-          "itemData": "ZbaFNUQBjcQFiBmssky-4g",
-          "maxStack": 1,
-          "iconPath": "/shared/icons/T_Masterworks_Horn_Mouthpiece.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Masterworks/BossSummon/ITEM_Masterworks_Horn_Mouthpiece.json",
-          "category": "Quest",
-          "description": "The mouthpiece of the Challenge Horn, carved out of a dragon tooth."
-        },
-        {
           "name": "Coclear Malificarum",
           "itemData": "NUzVKEXAML0DLYSjTIBmNA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll2.json",
           "category": "Quest",
           "description": "A sealed scroll full of forbidden magics."
@@ -15430,6 +15922,96 @@
           "description": "The head of a mad scientist. He would very much appreciate being put on his new body. "
         },
         {
+          "name": "Dowdun Reach Letter",
+          "itemData": "v3fr0kvOvV0dls2JZaW8Tg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Bastion.json",
+          "category": "Quest",
+          "description": "Deliver to: Statue - Bastion - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "GEIHmkUYStb1ozm0WYq14w",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Cathedral.json",
+          "category": "Quest",
+          "description": "Deliver to: Cloister - Cathedral - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "V2trX066PaCh0n-wxtNQAw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Courtyard.json",
+          "category": "Quest",
+          "description": "Deliver to: Waterfall - Courtyard - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "_lu4v0qk5yaQi2WIFXCLBw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Garrison.json",
+          "category": "Quest",
+          "description": "Deliver to: Stables - Garrison - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "MJhUMEvh77r6okyhBddMqg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Gate.json",
+          "category": "Quest",
+          "description": "Deliver to: Gate - Approach - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "4W9bIkAVnx58Pgm4-z8ldw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_GrandHall.json",
+          "category": "Quest",
+          "description": "Deliver to: Staircase - Grand Hall - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "8FRH4UHGDFrZhKK8frTfVQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Library.json",
+          "category": "Quest",
+          "description": "Deliver to: Statue Entrance - Library - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "dRGifU4NToGNRRiZmrr2zQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Menagerie.json",
+          "category": "Quest",
+          "description": "Deliver to: Cathedral Overlook - Menagerie - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "rYt390Z5332mv7qTSaYqDg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Nexus.json",
+          "category": "Quest",
+          "description": "Deliver to: Inner Chamber - Nexus - Dowdun Reach"
+        },
+        {
+          "name": "Dowdun Reach Letter",
+          "itemData": "BJi940t-IPQN5WW7SPtiKw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_DWR_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_DR_Pastures.json",
+          "category": "Quest",
+          "description": "Deliver to: Windmill - Pastures - Dowdun Reach"
+        },
+        {
           "name": "Druid's Bandosian Amulet",
           "itemData": "EacnEk2SKqmy6zGxnrhpRw",
           "maxStack": 99,
@@ -15460,10 +16042,109 @@
           "name": "Eventide - A New Spawn",
           "itemData": "xyVlYUoDcHIK3m6-pTk6Zg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll3.json",
           "category": "Quest",
           "description": "A sealed scroll full of the worst things imaginable."
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "XOC2A06c5qYUarW6_XzFvg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_EmberwoodVillage.json",
+          "category": "Quest",
+          "description": "Deliver to: Crossroads - Emberwood Village - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "Zo2PkUiV8Im58oWLYPyhZQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_FallenGates.json",
+          "category": "Quest",
+          "description": "Deliver to: Fallen Gates - Lake of Souls - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "L8a_IkpD4aR_LHC7SD85xA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_FountainRuins.json",
+          "category": "Quest",
+          "description": "Deliver to: Fountain Ruins - Witchwillow Range - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "Cs7b4U5s6SuaYi-wzmKYPg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_Gatehouse.json",
+          "category": "Quest",
+          "description": "Deliver to: Gate House - Silverthorn Keep - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "SF3UEEViXZZmN-C3FVDhPg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_ImarusTower.json",
+          "category": "Quest",
+          "description": "Deliver to: Imaru's Tower - Hope's Fall - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "6k3tRk6VcDFr6D6eulRV_g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_KeepEntrance.json",
+          "category": "Quest",
+          "description": "Deliver to: Keep Entrance - Silverthorn Keep - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "xSrYCktOQvdk2ae01DSUxw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_MinersCottage.json",
+          "category": "Quest",
+          "description": "Deliver to: Miner's Cottage Ruins - Coalridge Pass - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "kcc_Jk87s3ioZUyeJI_edQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_PostiePete.json",
+          "category": "Quest",
+          "description": "Deliver to: Postie Pete - Death's Temple - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "PkzzMUGalquRRCyhTwQ_Uw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_StandingStones.json",
+          "category": "Quest",
+          "description": "Deliver to: Standing Stones - Bleakfields Valley - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "YVydsUwpZA6WfKWIbecQ5g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_WillgroveRuins.json",
+          "category": "Quest",
+          "description": "Deliver to: Willowgrove Ruins - Silverthorn Keep - Fellhollow"
+        },
+        {
+          "name": "Fellhollow Letter",
+          "itemData": "5gtt00N-XHLfD9-bYjzpTw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_Envelope.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_WitheredRuins.json",
+          "category": "Quest",
+          "description": "Deliver to: Withered Ruins - Dragon's Run - Fellhollow"
         },
         {
           "name": "Garou Arms",
@@ -15524,7 +16205,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_01",
           "itemData": "EetXSUHXAB-DSEm9BBMYOQ",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_01.json",
           "category": "Quest"
         },
@@ -15532,7 +16213,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_02",
           "itemData": "Yr1Ou0VTHguzlaG64LGBZg",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_02.json",
           "category": "Quest"
         },
@@ -15540,7 +16221,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_03",
           "itemData": "poji_k3B57PCgjid0aNX-w",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_03.json",
           "category": "Quest"
         },
@@ -15548,7 +16229,7 @@
           "name": "ITEM_Quest_UmS_MainQuest_CampC_Task3_04",
           "itemData": "rYygi0Cfp9B446mUrP5ZrA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampC_Task3_04.json",
           "category": "Quest"
         },
@@ -15596,105 +16277,6 @@
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Book5.json",
           "category": "Quest",
           "description": "This book squirms in your backpack, as though trying to escape."
-        },
-        {
-          "name": "Letter",
-          "itemData": "XOC2A06c5qYUarW6_XzFvg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_EmberwoodVillage.json",
-          "category": "Quest",
-          "description": "Deliver to: Crossroads - Emberwood Village - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "Zo2PkUiV8Im58oWLYPyhZQ",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_FallenGates.json",
-          "category": "Quest",
-          "description": "Deliver to: Fallen Gates - Lake of Souls - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "L8a_IkpD4aR_LHC7SD85xA",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_FountainRuins.json",
-          "category": "Quest",
-          "description": "Deliver to: Fountain Ruins - Witchwillow Range - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "Cs7b4U5s6SuaYi-wzmKYPg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_Gatehouse.json",
-          "category": "Quest",
-          "description": "Deliver to: Gate House - Silverthorn Keep - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "SF3UEEViXZZmN-C3FVDhPg",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_ImarusTower.json",
-          "category": "Quest",
-          "description": "Deliver to: Imaru's Tower - Hope's Fall - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "6k3tRk6VcDFr6D6eulRV_g",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_KeepEntrance.json",
-          "category": "Quest",
-          "description": "Deliver to: Keep Entrance - Silverthorn Keep - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "xSrYCktOQvdk2ae01DSUxw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_MinersCottage.json",
-          "category": "Quest",
-          "description": "Deliver to: Miner's Cottage Ruins - Coalridge Pass - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "kcc_Jk87s3ioZUyeJI_edQ",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_PostiePete.json",
-          "category": "Quest",
-          "description": "Deliver to: Postie Pete - Death's Temple - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "PkzzMUGalquRRCyhTwQ_Uw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_StandingStones.json",
-          "category": "Quest",
-          "description": "Deliver to: Standing Stones - Bleakfields Valley - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "YVydsUwpZA6WfKWIbecQ5g",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_WillgroveRuins.json",
-          "category": "Quest",
-          "description": "Deliver to: Willowgrove Ruins - Silverthorn Keep - Fellhollow"
-        },
-        {
-          "name": "Letter",
-          "itemData": "5gtt00N-XHLfD9-bYjzpTw",
-          "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Envelope.png",
-          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_FH_WitheredRuins.json",
-          "category": "Quest",
-          "description": "Deliver to: Withered Ruins - Dragon's Run - Fellhollow"
         },
         {
           "name": "Lightning-in-a-bottle",
@@ -15799,7 +16381,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_01",
           "itemData": "UUugHUlLsNKWtHaaPp6jsQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_01.json",
           "category": "Quest"
         },
@@ -15807,7 +16389,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_02",
           "itemData": "TnXdk0gPa8QrK9G3WRhe6Q",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_02.json",
           "category": "Quest"
         },
@@ -15815,7 +16397,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_03",
           "itemData": "zJ8rdEHRXP7g_wuh0305HA",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_03.json",
           "category": "Quest"
         },
@@ -15823,7 +16405,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_04",
           "itemData": "vp5Gn0c2SJ6mMpy6x8rZbw",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_04.json",
           "category": "Quest"
         },
@@ -15831,7 +16413,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_05",
           "itemData": "SIm5j0PKY-H000WTgPzWmg",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_05.json",
           "category": "Quest"
         },
@@ -15839,7 +16421,7 @@
           "name": "Quest_Item_UmS_Quest_CampB_Task1_06",
           "itemData": "qGFy9kugI4GwPYajWcROAQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_MainQuest_CampB_Task1_06.json",
           "category": "Quest"
         },
@@ -15919,7 +16501,7 @@
           "name": "The Binding of Ib",
           "itemData": "3GRiakVrfak9eBKzKYJqeQ",
           "maxStack": 99,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_quest_FH_WhatRemains_Scroll1.json",
           "category": "Quest",
           "description": "A sealed scroll containing dark secrets."
@@ -15959,6 +16541,87 @@
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Items/Quest/SideQuests/SQ3_Nevermore/ITEM_Quest_DR_SQ3_MidnightLillyLeaves.json",
           "category": "Quest",
           "description": "A strange, glowing lily, with magical properties. "
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "gkAa606aSso3kF6H5k6sHA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_BurningSpire.json",
+          "category": "Quest",
+          "description": "Deliver to: Spire Crossing - Burning Spire - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "Pv4_4EFA5OSycPeTumCq6g",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_CentralOasis.json",
+          "category": "Quest",
+          "description": "Deliver to: Oasis - Dunes of Uzzer - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "LoS4y0IZNddQcumd7xa4Jw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_KalphiteNest.json",
+          "category": "Quest",
+          "description": "Deliver to: Kalphite Nest - Alcarrid Oasis - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "cNuBvkC6M_naD3-QGd3kbA",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_KalphitePyramid.json",
+          "category": "Quest",
+          "description": "Deliver to: Pyramid - Manafem Plains - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "00bGrE8ddZUfXz2a7S4_rQ",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_LavaPyramid.json",
+          "category": "Quest",
+          "description": "Deliver to: Pyramid - Burning Spire - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "pwv52ESZ0eMx3IiLhYL3Ow",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_ManafemRuins.json",
+          "category": "Quest",
+          "description": "Deliver to: Ruins - Manafem Plains - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "f1H_Lku8Ez5SeNODUxVYIw",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_NightmareCrucible.json",
+          "category": "Quest",
+          "description": "Deliver to: Mesa Camp - Alcarrid Oasis - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "XjxC9ErUt9V0_kOeXkGzIg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_OasisCamp.json",
+          "category": "Quest",
+          "description": "Deliver to: Oasis - Alcarrid Oasis - Umbral Sands"
+        },
+        {
+          "name": "Umbral Sands Letter",
+          "itemData": "sJPvx0ZpT_tL17KzB7JPvg",
+          "maxStack": 99,
+          "iconPath": "/shared/icons/T_Icon_UMS_Letter.png",
+          "sourcePath": "data/items/json/RSDragonwilds/Content/Gameplay/Items/Resources/Key/PostBoxes/ITEM_Activity_PostBox_UmS_UzzerPyramid.json",
+          "category": "Quest",
+          "description": "Deliver to: Pyramid - Uzzer Dunes - Umbral Sands"
         },
         {
           "name": "Undead Chicken",
@@ -16113,7 +16776,7 @@
           "name": "res_quest_ums_mainquest_scroll1",
           "itemData": "dzv930KrI8-krPyerIoQiA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll1.json",
           "category": "Quest"
         },
@@ -16121,7 +16784,7 @@
           "name": "res_quest_ums_mainquest_scroll2",
           "itemData": "ynovA0kL9ol5O8246rJL1g",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll2.json",
           "category": "Quest"
         },
@@ -16129,7 +16792,7 @@
           "name": "res_quest_ums_mainquest_scroll3",
           "itemData": "B-hRIU5BZEAq13OzDpfLAQ",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll3.json",
           "category": "Quest"
         },
@@ -16137,7 +16800,7 @@
           "name": "res_quest_ums_mainquest_scroll4",
           "itemData": "swrsCk48mGo467aEDf-WxA",
           "maxStack": 1,
-          "iconPath": "/shared/icons/T_Icon_Scroll_b118aabc.png",
+          "iconPath": "/shared/icons/T_Icon_Scroll_41a82a74.png",
           "sourcePath": "data/items/json/RSDragonwilds/Plugins/GameFeatures/UmbralSands/Content/Gameplay/Items/Quest/ITEM_Quest_UmS_Mainquest_Scroll4.json",
           "category": "Quest"
         },

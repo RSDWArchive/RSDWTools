@@ -31,7 +31,7 @@
         }
       ],
       "AudioTag": {
-        "TagName": "Audio.Food.Slurp"
+        "TagName": "Audio.Food.Crunchy"
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",

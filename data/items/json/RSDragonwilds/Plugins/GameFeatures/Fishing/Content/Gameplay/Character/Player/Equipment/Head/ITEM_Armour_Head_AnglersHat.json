@@ -69,6 +69,9 @@
       },
       "PowerLevel": 1,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Special.Fishing.AnglersHat"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Special.Fishing.AnglersHat"
       ],

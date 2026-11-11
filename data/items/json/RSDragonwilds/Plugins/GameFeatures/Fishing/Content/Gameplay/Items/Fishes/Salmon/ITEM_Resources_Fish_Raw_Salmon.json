@@ -34,6 +34,9 @@
       "MaxStackSize": 99,
       "PowerLevel": 3,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Material.RawFish"
+      },
       "WeightReductionTag": {
         "TagName": "ItemFilter.WeightReduction.Fish"
       },

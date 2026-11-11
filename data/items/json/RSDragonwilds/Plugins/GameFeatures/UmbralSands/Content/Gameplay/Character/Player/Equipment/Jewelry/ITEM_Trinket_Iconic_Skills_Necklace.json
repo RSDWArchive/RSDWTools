@@ -8,6 +8,7 @@
       "bLosesDurabilityOverTimeEquipped": true,
       "bLosesDurabilityOnAttack": false,
       "bLosesDurabilityOnDamageReceived": false,
+      "Slot": "ELoadoutSlotStrategy::Necklace",
       "GrantedEffects": [
         {
           "ObjectName": "BlueprintGeneratedClass'GE_SkillsNecklace_C'",
@@ -38,6 +39,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],

@@ -97,6 +97,9 @@
       },
       "PowerLevel": 3,
       "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.WateringCan"
+      },
       "ItemFilterTags": [
         "Item.Farming.ShowProgress"
       ],

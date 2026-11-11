@@ -27,6 +27,7 @@
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Jewellery/ITEM_Trinket_Iconic_Amulet_of_Magic.0"
         }
       ],
+      "Slot": "ELoadoutSlotStrategy::Necklace",
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Attack'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Attack.1"
@@ -58,6 +59,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],

@@ -129,16 +129,16 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SpellDisplayName": {
-        "Namespace": "",
-        "Key": "7665BA614CD08F7FD75FE187AFE135AB",
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.EnchantWeaponFire.Name",
         "SourceString": "Enchant Weapon: Fire",
         "LocalizedString": "Enchant Weapon: Fire"
       },
       "SpecialRequirementsText": {
-        "Namespace": "",
-        "Key": "E5F5CDBA4207579AD143A6AD9CCE9A5C",
-        "SourceString": "A held melee weapon",
-        "LocalizedString": "A held melee weapon"
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "HeldItemRequired",
+        "SourceString": "A held melee weapon ",
+        "LocalizedString": "A held melee weapon "
       },
       "NotifyFailedSpecialRequirements": [
         "UI.ConsumeItem.RequiresHeldEnchantable"

@@ -44,8 +44,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SmokedInfernalEel",
-        "SourceString": "An unusual meal, but a good one. Grants the Warding Fish perk.",
-        "LocalizedString": "An unusual meal, but a good one. Grants the Warding Fish perk."
+        "SourceString": "An unusual meal, but a good one.",
+        "LocalizedString": "An unusual meal, but a good one."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

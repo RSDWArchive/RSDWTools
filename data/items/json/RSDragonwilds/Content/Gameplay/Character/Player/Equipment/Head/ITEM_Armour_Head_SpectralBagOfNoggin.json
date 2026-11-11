@@ -52,6 +52,9 @@
       },
       "PowerLevel": 1,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

@@ -31,7 +31,7 @@
         "TagName": "Item.BuildingResource"
       },
       "ItemFilterTags": [
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Wood.Chunky"

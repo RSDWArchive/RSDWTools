@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Masterworks_Horn_Mouthpiece",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Category": {
+        "TagName": "Item.Resource"
+      },
+      "PersistenceID": "ZbaFNUQBjcQFiBmssky-4g",
+      "InternalName": "res_horn_mouthpiece",
+      "bSoftDeleted": true
+    }
+  }
+]

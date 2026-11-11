@@ -83,7 +83,7 @@
         "TagName": "Item.Food"
       },
       "AudioSwitchTag": {
-        "TagName": "Audio.Food.Meat"
+        "TagName": "Audio.Food.Slurp"
       },
       "PickupXPEvent": {
         "DataTable": {

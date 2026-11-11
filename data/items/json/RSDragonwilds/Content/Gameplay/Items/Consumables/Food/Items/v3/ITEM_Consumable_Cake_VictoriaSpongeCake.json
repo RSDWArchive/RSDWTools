@@ -20,7 +20,8 @@
         "DataTable": {
           "ObjectName": "DataTable'DT_VitalShield_V2'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/DT_VitalShield_V2.0"
-        }
+        },
+        "RowName": "wardstone_small"
       },
       "AmountToHealOnConsume": 50.0,
       "DurationMultiplierAttribute": null,
@@ -88,7 +89,6 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 1,
       "Weight": 0.7,
       "Category": {
         "TagName": "Item.Food"

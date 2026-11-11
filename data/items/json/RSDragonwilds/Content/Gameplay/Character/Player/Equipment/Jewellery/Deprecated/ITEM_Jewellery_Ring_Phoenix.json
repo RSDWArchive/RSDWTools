@@ -48,6 +48,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "AudioSwitchTag": {
         "TagName": "Audio.Magic"
       },

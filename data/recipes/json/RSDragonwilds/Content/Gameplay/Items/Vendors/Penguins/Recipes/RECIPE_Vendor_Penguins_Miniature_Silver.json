@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Vendor_Penguins_Miniature_Silver",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Currency_PenguinCoin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Currency/ITEM_Currency_PenguinCoin.0"
+          },
+          "Count": 10
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "BP_Consumables_Plan_Base_C'DA_Consumable_Plan_Decoration_Miniature_Silver_Penguin'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Consumables/Plans/Decorations/Penguins/DA_Consumable_Plan_Decoration_Miniature_Silver_Penguin.0"
+          },
+          "Count": 1
+        }
+      ],
+      "AudioTag": {
+        "TagName": "Audio.Vendor.Penguin.Recipe.Item.Metal"
+      },
+      "bIgnoreNotification": true,
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Construction'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Construction.0"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Decoration_Tier1"
+      },
+      "SkillXPAwardedOnCraft": 40,
+      "PersistenceID": "KjjYkkSgCoWdXTW9hnPGbA",
+      "InternalName": "RECIPE_Vendor_Penguins_Miniature_Silver"
+    }
+  }
+]

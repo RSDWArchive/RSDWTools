@@ -89,6 +89,10 @@
       "Category": {
         "TagName": "Item.Food"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableSuper"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Meat"
       },

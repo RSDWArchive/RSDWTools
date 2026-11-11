@@ -70,6 +70,10 @@
       "ItemStatus": {
         "TagName": "Item.Status.Burnt"
       },
+      "ItemFilterTags": [
+        "ItemFilter.Type.Consumable.Food",
+        "Item.Farming.CompostableSuper"
+      ],
       "AudioSwitchTag": {
         "TagName": "Audio.Food.Burnt"
       },

@@ -53,8 +53,8 @@
       ],
       "AmmoType": "EHeldEquipmentAmmoType::Self",
       "ProjectileClass": {
-        "AssetPathName": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Ammo_FireOil.BP_Ammo_FireOil_C",
-        "SubPathString": ""
+        "ObjectName": "BlueprintGeneratedClass'BP_Ammo_FireOil_C'",
+        "ObjectPath": "/FutureMajorVersion/Gameplay/Character/Player/Equipment/Held/Thrown/FireOil/BP_Ammo_FireOil"
       },
       "Slot": "ELoadoutSlotStrategy::HeldTwoHanded",
       "HandPreference": "EHandPreference::Right",

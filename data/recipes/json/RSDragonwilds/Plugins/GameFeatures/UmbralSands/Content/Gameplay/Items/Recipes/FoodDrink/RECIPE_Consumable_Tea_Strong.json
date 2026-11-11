@@ -34,7 +34,7 @@
         "Count": 1
       },
       "AudioTag": {
-        "TagName": "Audio.Food.Gulp"
+        "TagName": "Audio.Food.Water"
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Cooking'",

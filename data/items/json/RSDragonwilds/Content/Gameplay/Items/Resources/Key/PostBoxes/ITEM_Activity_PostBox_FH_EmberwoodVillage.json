@@ -8,8 +8,8 @@
       "Name": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",
         "Key": "Item.Name",
-        "SourceString": "Letter",
-        "LocalizedString": "Letter"
+        "SourceString": "Fellhollow Letter",
+        "LocalizedString": "Fellhollow Letter"
       },
       "FlavourText": {
         "TableId": "/Game/Gameplay/Quests/FH_Quests/FH_LettersForTheDead/ST_FH_LettersForTheDead.ST_FH_LettersForTheDead",

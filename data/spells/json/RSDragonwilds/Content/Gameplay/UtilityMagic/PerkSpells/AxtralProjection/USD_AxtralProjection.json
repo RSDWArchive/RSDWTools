@@ -73,6 +73,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "IgnoredActorClasses": [
         {
           "ObjectName": "Class'FelledTree'",
@@ -119,6 +120,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "IgnoredActorClasses": [
         {
           "ObjectName": "Class'FelledTree'",
@@ -161,6 +163,7 @@
       "TargetedProfile": {
         "Name": "NoCollision"
       },
+      "bCollideOnTick": true,
       "IgnoredActorClasses": [
         {
           "ObjectName": "Class'FelledTree'",

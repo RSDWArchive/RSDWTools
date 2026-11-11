@@ -35,10 +35,14 @@
         "AssetPathName": "/Game/Art/VFX/Library/Combat/Ranged/NS_Player_Arrow_Trail_Poison.NS_Player_Arrow_Trail_Poison",
         "SubPathString": ""
       },
+      "LaunchedArrowFXOverridesTable": {
+        "ObjectName": "DataTable'VFXDA_OverrideData_ProjectileFlight_ArrowPoison'",
+        "ObjectPath": "RSDragonwilds/Content/Art/VFX/DataAssets/Ranged/VFXDA_OverrideData_ProjectileFlight_ArrowPoison.0"
+      },
       "ProjectileData": {
         "LaunchSpeed": 5000.0,
         "OverrideGravityZ": -600.0,
-        "TimeWithoutGravity": 0.2,
+        "TimeWithoutGravity": 0.3,
         "BaseDamageTypes": [
           "DamageType.Ranged.Arrows"
         ],

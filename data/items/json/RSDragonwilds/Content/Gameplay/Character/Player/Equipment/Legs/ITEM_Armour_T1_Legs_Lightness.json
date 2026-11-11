@@ -53,6 +53,9 @@
         "SubPathString": ""
       },
       "PowerLevel": 1,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],
@@ -64,6 +67,26 @@
         "ObjectName": "DominionMetaSoundSource'MSS_UI_Nt_Pl_WeaponBreak'",
         "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/UI/Notifies/GameplayNotifies/MSS_UI_Nt_Pl_WeaponBreak.0"
       },
+      "BuffDatas": [
+        {
+          "Title": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemInfo.ST_ItemInfo",
+            "Key": "SpecialEffect",
+            "SourceString": "Special Effect",
+            "LocalizedString": "Special Effect"
+          },
+          "Description": {
+            "TableId": "/Game/Gameplay/Items/ST_ItemBuffs.ST_ItemBuffs",
+            "Key": "LeggingsOfLightness.Boon",
+            "SourceString": "Increased MAX CARRY WEIGHT\r\nCast WINDSTEP without consuming RUNES",
+            "LocalizedString": "Increased MAX CARRY WEIGHT\r\nCast WINDSTEP without consuming RUNES"
+          },
+          "BuffIcon": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        }
+      ],
       "PersistenceID": "E_DXg0sq6DA6beKuzxv_rA",
       "InternalName": "armour_legs_lightness"
     }

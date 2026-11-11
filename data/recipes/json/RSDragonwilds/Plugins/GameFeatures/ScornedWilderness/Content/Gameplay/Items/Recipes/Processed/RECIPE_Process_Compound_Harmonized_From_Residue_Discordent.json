@@ -24,7 +24,7 @@
         }
       ],
       "AudioTag": {
-        "TagName": "Audio.Adhesive"
+        "TagName": "Audio.Metal.Chunky"
       },
       "SkillUsedToCraft": {
         "ObjectName": "SkillData'SKILL_Artisan'",

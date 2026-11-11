@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Fish_Raw_DesertSole_ReelDowner",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_ReelDowner/ST_ReelDowner.ST_ReelDowner",
+        "Key": "DesertSoleName",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "FlavourText": {
+        "TableId": "/UmbralSands/Gameplay/Quests/UmS_ReelDowner/ST_ReelDowner.ST_ReelDowner",
+        "Key": "DesertSoleDesc",
+        "SourceString": null,
+        "LocalizedString": null
+      },
+      "Icon": {
+        "AssetPathName": "/Fishing/Art/UI/Icons/Fishing_Skill_Icons/Fish_Icons/T_Icon_Fish_Depressed_Desert_Sole.T_Icon_Fish_Depressed_Desert_Sole",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/UmbralSands/Art/Skeleton/NPC/Aquatic/Fish_DesertSole_01/SM_Fish_DesertSole_01.SM_Fish_DesertSole_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 99,
+      "PowerLevel": 7,
+      "Weight": 5.0,
+      "WeightReductionTag": {
+        "TagName": "ItemFilter.WeightReduction.Fish"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.RawIngredient",
+        "ItemFilter.Material.RawFish",
+        "Item.Farming.CompostableUltra"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Quest.AReelDowner.DepressedDesertSole"
+      },
+      "CompostAmount": 10,
+      "PersistenceID": "3JIDXEL0WCbz6C6s9DzABg",
+      "InternalName": "res_fish_desertsole_reeldowner"
+    }
+  }
+]

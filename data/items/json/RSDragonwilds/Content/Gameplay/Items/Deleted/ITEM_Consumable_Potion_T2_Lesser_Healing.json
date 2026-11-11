@@ -77,6 +77,9 @@
       },
       "MaxStackSize": 50,
       "Weight": 1.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable.Potion"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Potion"
       ],

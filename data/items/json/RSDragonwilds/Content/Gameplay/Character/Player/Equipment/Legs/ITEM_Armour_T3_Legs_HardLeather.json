@@ -48,6 +48,9 @@
       },
       "PowerLevel": 3,
       "Weight": 9.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour.Medium"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour.Medium"
       ],

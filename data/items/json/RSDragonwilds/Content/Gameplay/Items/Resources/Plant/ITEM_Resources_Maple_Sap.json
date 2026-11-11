@@ -35,14 +35,16 @@
       "PowerLevel": 4,
       "bCanBeDestroyed": false,
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Farming.CompostableSuper"
+      },
       "ItemFilterTags": [
-        "Item.Farming.Compostable",
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableSuper"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Plant.MapleSap"
       },
-      "bDropOnDeath": false,
       "CompostAmount": 10,
       "PersistenceID": "6elZUk7d7zVP8qCRjXN9uQ",
       "InternalName": "res_maple_sap"

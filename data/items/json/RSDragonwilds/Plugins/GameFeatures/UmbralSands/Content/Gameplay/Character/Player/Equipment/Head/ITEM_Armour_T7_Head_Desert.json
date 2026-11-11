@@ -52,6 +52,9 @@
       },
       "PowerLevel": 7,
       "Weight": 4.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Armour"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Armour"
       ],

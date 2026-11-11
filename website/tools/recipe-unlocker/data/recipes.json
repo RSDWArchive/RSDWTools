@@ -704,7 +704,7 @@
         "count": 15,
         "display_name": "Earth Rune",
         "persistence_id": "lCE7i3iXGUuHv7FphIOcXg",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ]
   },
@@ -973,6 +973,78 @@
         "icon": "T_Icon_Ectoplasm.png"
       }
     ]
+  },
+  {
+    "name": "RECIPE_Armour_Body_Penguin",
+    "internal_name": "recipe_armour_body_penguin",
+    "persistence_id": "K7XEKkQ-Dr3kiPCZo_xzjg",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "Penguin Body",
+    "icon": "T_Icon_Body_PenguinOutfit_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_Body_Penguin",
+        "count": 1,
+        "display_name": "Penguin Body",
+        "persistence_id": "z-1HvE3zmS9BcTCzkDkE2w",
+        "icon": "T_Icon_Body_PenguinOutfit_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Cloth_Linen",
+        "count": 3,
+        "display_name": "Rough Cloth",
+        "persistence_id": "GQcT3TAgK0ulDFXjsp-k1A",
+        "icon": "T_Icon_Resource_Linen_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather",
+        "count": 2,
+        "display_name": "Leather",
+        "persistence_id": "KejxKZhqBEy2BmyMUMidlA",
+        "icon": "T_Icon_Resources_Leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Swamp_Tar",
+        "count": 1,
+        "display_name": "Swamp Tar",
+        "persistence_id": "DJIQWUsnDB7Umey0E2dFgA",
+        "icon": "T_Icon_Swamp_Tar_01.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Feathers",
+        "count": 10,
+        "display_name": "Feathers",
+        "persistence_id": "v5MSO2Wz4ke5xOGvKC5GlQ",
+        "icon": "T_Icon_Resource_Feathers.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Thread_Coarse",
+        "count": 2,
+        "display_name": "Coarse Thread",
+        "persistence_id": "Dns4MEGuhT5fcRWocI5o9Q",
+        "icon": "T_Icon_Resource_Thread.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_Cape_Penguin",
+    "internal_name": "recipe_armour_cape_penguin",
+    "persistence_id": "QPQ-A0t0Rb2NteS_1EBDDw",
+    "row_name": "",
+    "display_name": "Penguin Cape",
+    "icon": "T_Icon_Penguin_cape_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_Penguin",
+        "count": 1,
+        "display_name": "Penguin Cape",
+        "persistence_id": "ntNjaUyHNjBCpQKQUPtFuw",
+        "icon": "T_Icon_Penguin_cape_1.png"
+      }
+    ],
+    "items_consumed": []
   },
   {
     "name": "RECIPE_Armour_T0_Cape_Adventurers_Black",
@@ -2881,7 +2953,7 @@
       },
       {
         "item_id": "ITEM_Resources_SilverBar",
-        "count": 2,
+        "count": 10,
         "display_name": "Silver Bar",
         "persistence_id": "gunABauXjk6khTFVIKifoA",
         "icon": "T_Icon_Resource_Bar_Silver.png"
@@ -2906,13 +2978,6 @@
         "display_name": "Sacred Oil",
         "persistence_id": "MRRcVkTaxPfC_0evKhclKA",
         "icon": "T_Icon_Sacred_Oil.png"
-      },
-      {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 6,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
       }
     ]
   },
@@ -2953,6 +3018,100 @@
         "display_name": "Wool Thread",
         "persistence_id": "vgsjm0jT19zFn1uH9N2Rbg",
         "icon": "T_Icon_Resource_Ball_Of_Wool.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_Head_KGP",
+    "internal_name": "recipe_armour_head_kgp",
+    "persistence_id": "3Vmx7kP6Z55FWcmUcMb5NQ",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "KGP Hat",
+    "icon": "T_Icon_Penguin_Hat_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_Head_KGP",
+        "count": 1,
+        "display_name": "KGP Hat",
+        "persistence_id": "1vwTz0tJ4LfEgbO9lTlv7A",
+        "icon": "T_Icon_Penguin_Hat_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Cloth_Linen",
+        "count": 3,
+        "display_name": "Rough Cloth",
+        "persistence_id": "GQcT3TAgK0ulDFXjsp-k1A",
+        "icon": "T_Icon_Resource_Linen_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_FishBait_Anchovy",
+        "count": 1,
+        "display_name": "Anchovy Bait",
+        "persistence_id": "alCPU0iPc4EXVfu4RNdvVw",
+        "icon": "T_Icon_Anchovy_Bait.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Thread_Coarse",
+        "count": 2,
+        "display_name": "Coarse Thread",
+        "persistence_id": "Dns4MEGuhT5fcRWocI5o9Q",
+        "icon": "T_Icon_Resource_Thread.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_Head_Penguin",
+    "internal_name": "recipe_armour_head_penguin",
+    "persistence_id": "sjYZPUWpwGtLXPyTeyn84w",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "Penguin Helmet",
+    "icon": "T_Icon_Head_PenguinOutfit_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_Head_Penguin",
+        "count": 1,
+        "display_name": "Penguin Helmet",
+        "persistence_id": "F-jrpEvMkGOvfea-IR55mA",
+        "icon": "T_Icon_Head_PenguinOutfit_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Cloth_Linen",
+        "count": 2,
+        "display_name": "Rough Cloth",
+        "persistence_id": "GQcT3TAgK0ulDFXjsp-k1A",
+        "icon": "T_Icon_Resource_Linen_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Sardine",
+        "count": 1,
+        "display_name": "Raw Sardine",
+        "persistence_id": "OXEA-E083jjv8fGlbEEW4Q",
+        "icon": "T_Icon_Sardine.png"
+      },
+      {
+        "item_id": "ITEM_Fuel_Resources_Charcoal",
+        "count": 1,
+        "display_name": "Charcoal",
+        "persistence_id": "x-SiNQenZEuF0yyTPkxhiw",
+        "icon": "T_Icon_Resource_Charcoal.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Feathers",
+        "count": 6,
+        "display_name": "Feathers",
+        "persistence_id": "v5MSO2Wz4ke5xOGvKC5GlQ",
+        "icon": "T_Icon_Resource_Feathers.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Adhesive",
+        "count": 1,
+        "display_name": "Adhesive",
+        "persistence_id": "3_luxedD0kyY_dd3UKYvEQ",
+        "icon": "T_Icon_Adhesive.png"
       }
     ]
   },
@@ -3985,7 +4144,7 @@
       },
       {
         "item_id": "ITEM_Resources_SilverBar",
-        "count": 2,
+        "count": 4,
         "display_name": "Silver Bar",
         "persistence_id": "gunABauXjk6khTFVIKifoA",
         "icon": "T_Icon_Resource_Bar_Silver.png"
@@ -4006,17 +4165,10 @@
       },
       {
         "item_id": "ITEM_Resources_SacredOil",
-        "count": 1,
+        "count": 4,
         "display_name": "Sacred Oil",
         "persistence_id": "MRRcVkTaxPfC_0evKhclKA",
         "icon": "T_Icon_Sacred_Oil.png"
-      },
-      {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 2,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
       }
     ]
   },
@@ -4560,6 +4712,32 @@
         "display_name": "Ash Logs",
         "persistence_id": "2rxJ495rm0GDn4h5OWKiyQ",
         "icon": "T_Icon_Ash_Logs.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Tool_Bucket_Compost_Big",
+    "internal_name": "recipe_bucket_wood_big",
+    "persistence_id": "i6lrr0ZkMgE6O96eokUcuA",
+    "row_name": "",
+    "display_name": "Large Compost Bucket",
+    "icon": "T_Icon_Large_Compost_Bucket_New.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Bucket_Compost_Big",
+        "count": 1,
+        "display_name": "Large Compost Bucket",
+        "persistence_id": "RbrpREuxQ5-x4LCvrfMRAg",
+        "icon": "T_Icon_Large_Compost_Bucket_New.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Wood_Yew",
+        "count": 5,
+        "display_name": "Yew Logs",
+        "persistence_id": "Hvo91EBeCWZ23_G6hgvZLA",
+        "icon": "T_Icon_YewTreeLogs.png"
       }
     ]
   },
@@ -6514,15 +6692,8 @@
         "icon": "T_Icon_Anima_Wild_01.png"
       },
       {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 1,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
-      },
-      {
         "item_id": "ITEM_Resources_SilverOre",
-        "count": 2,
+        "count": 6,
         "display_name": "Silver Ore",
         "persistence_id": "xawyKY4sAkmNcNuINCw3ww",
         "icon": "T_Icon_Resource_Ore_Silver.png"
@@ -7950,24 +8121,17 @@
       },
       {
         "item_id": "ITEM_Resources_BronzeBar",
-        "count": 4,
+        "count": 8,
         "display_name": "Bronze Bar",
         "persistence_id": "Y2Y48OMHukKIilN4srd7cA",
         "icon": "T_Icon_Resource_Bar_Bronze.png"
       },
       {
         "item_id": "ITEM_Resources_AnimaInfusedBark",
-        "count": 4,
+        "count": 8,
         "display_name": "Anima-infused Bark",
         "persistence_id": "tKokB0xYm6tJNHiWwmG2SQ",
         "icon": "T_Icon_Resource_Anima_Infused_Bark.png"
-      },
-      {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 8,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
       },
       {
         "item_id": "ITEM_Resources_VaultCore",
@@ -8004,7 +8168,7 @@
       },
       {
         "item_id": "ITEM_Resources_WildAnima",
-        "count": 4,
+        "count": 6,
         "display_name": "Wild Anima",
         "persistence_id": "LURhZ0Q6FaLGzh-siBuT7g",
         "icon": "T_Icon_Anima_Wild_01.png"
@@ -8018,17 +8182,10 @@
       },
       {
         "item_id": "ITEM_Resources_Opal",
-        "count": 4,
+        "count": 6,
         "display_name": "Opal",
         "persistence_id": "GAnIKkuMoUfiGC2wiSfmqg",
         "icon": "T_Icon_Resource_Opal.png"
-      },
-      {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 8,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
       },
       {
         "item_id": "ITEM_Resources_VaultCore",
@@ -9824,6 +9981,60 @@
     ]
   },
   {
+    "name": "RECIPE_Armour_Legs_Penguin",
+    "internal_name": "recipe_armour_legs_penguin",
+    "persistence_id": "r2HBo06nxcpomYGeff5x1w",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "Penguin Legs",
+    "icon": "T_Icon_Legs_PenguinOutfit_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_Legs_Penguin",
+        "count": 1,
+        "display_name": "Penguin Legs",
+        "persistence_id": "jBVtBUWBZQGPBi-2kzVL3A",
+        "icon": "T_Icon_Legs_PenguinOutfit_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Cloth_Linen",
+        "count": 2,
+        "display_name": "Rough Cloth",
+        "persistence_id": "GQcT3TAgK0ulDFXjsp-k1A",
+        "icon": "T_Icon_Resource_Linen_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather",
+        "count": 2,
+        "display_name": "Leather",
+        "persistence_id": "KejxKZhqBEy2BmyMUMidlA",
+        "icon": "T_Icon_Resources_Leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Swamp_Tar",
+        "count": 1,
+        "display_name": "Swamp Tar",
+        "persistence_id": "DJIQWUsnDB7Umey0E2dFgA",
+        "icon": "T_Icon_Swamp_Tar_01.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Feathers",
+        "count": 4,
+        "display_name": "Feathers",
+        "persistence_id": "v5MSO2Wz4ke5xOGvKC5GlQ",
+        "icon": "T_Icon_Resource_Feathers.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Thread_Coarse",
+        "count": 2,
+        "display_name": "Coarse Thread",
+        "persistence_id": "Dns4MEGuhT5fcRWocI5o9Q",
+        "icon": "T_Icon_Resource_Thread.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Armour_T1_Legs_Adventurers",
     "internal_name": "recipe_armour_legs_adventurers",
     "persistence_id": "_sImarQtc0qUA8uGkTUdZQ",
@@ -10733,7 +10944,7 @@
       },
       {
         "item_id": "ITEM_Resources_SilverBar",
-        "count": 2,
+        "count": 6,
         "display_name": "Silver Bar",
         "persistence_id": "gunABauXjk6khTFVIKifoA",
         "icon": "T_Icon_Resource_Bar_Silver.png"
@@ -10758,13 +10969,6 @@
         "display_name": "Sacred Oil",
         "persistence_id": "MRRcVkTaxPfC_0evKhclKA",
         "icon": "T_Icon_Sacred_Oil.png"
-      },
-      {
-        "item_id": "ITEM_Resources_VaultShard",
-        "count": 4,
-        "display_name": "Vault Shard",
-        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
-        "icon": "T_Icon_Resource_Vault_Shard.png"
       }
     ]
   },
@@ -14870,14 +15074,14 @@
     "persistence_id": "XZh99Ev31tUVctS_WR565g",
     "row_name": "Pickup_Campfire_Processed_Item",
     "display_name": "Burnt Beltfish",
-    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png",
+    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_2e243ad4.png",
     "items_created": [
       {
         "item_id": "ITEM_Consumable_Fish_Beltfish_Burnt",
         "count": 1,
         "display_name": "Burnt Beltfish",
         "persistence_id": "9aqFkEvmEomECT-OVRuLrQ",
-        "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_65d29658.png"
+        "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed_2e243ad4.png"
       }
     ],
     "items_consumed": [
@@ -17873,14 +18077,14 @@
     "persistence_id": "d0pVPEWA3tQ2dOKc5Jsn6g",
     "row_name": "EarthRuneCrafting",
     "display_name": "Earth Rune",
-    "icon": "T_Icon_Rune_Earth_IconRemoved.png",
+    "icon": "T_Icon_Rune_Earth.png",
     "items_created": [
       {
         "item_id": "ITEM_Rune_Earth",
         "count": 5,
         "display_name": "Earth Rune",
         "persistence_id": "lCE7i3iXGUuHv7FphIOcXg",
-        "icon": "T_Icon_Rune_Earth_IconRemoved.png"
+        "icon": "T_Icon_Rune_Earth.png"
       }
     ],
     "items_consumed": [
@@ -18060,32 +18264,6 @@
         "display_name": "Bloodwood Sap",
         "persistence_id": "OeUUZEKiGnt36CqCIkqJgw",
         "icon": "T_Icon_Bloodwood_Sap.png"
-      }
-    ]
-  },
-  {
-    "name": "RECIPE_Masterworks_Horn_Mouthpiece",
-    "internal_name": "recipe_craft_horn_mouthpiece",
-    "persistence_id": "PqR3XEvFt8XBOk6cZi3lYg",
-    "row_name": "Craft_Crafting_Table_Recipe_Tier2",
-    "display_name": "Challenge Horn Mouthpiece",
-    "icon": "T_Masterworks_Horn_Mouthpiece.png",
-    "items_created": [
-      {
-        "item_id": "ITEM_Masterworks_Horn_Mouthpiece",
-        "count": 1,
-        "display_name": "Challenge Horn Mouthpiece",
-        "persistence_id": "ZbaFNUQBjcQFiBmssky-4g",
-        "icon": "T_Masterworks_Horn_Mouthpiece.png"
-      }
-    ],
-    "items_consumed": [
-      {
-        "item_id": "ITEM_Resources_Dragon_Tooth",
-        "count": 1,
-        "display_name": "Dragon Tooth",
-        "persistence_id": "qelCL0cKP9oFmYaJkKg6wA",
-        "icon": "T_Icon_Resource_Dragon_Tooth.png"
       }
     ]
   },
@@ -21142,6 +21320,526 @@
     ]
   },
   {
+    "name": "RECIPE_Vendor_Penguins_Amulet",
+    "internal_name": "RECIPE_Vendor_Penguin_Amulet",
+    "persistence_id": "tCNT2kbSmrj_AUedpCkgWw",
+    "row_name": "",
+    "display_name": "Brine-Soaked Bauble",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Trinket_Amulet_Penguin",
+        "count": 1,
+        "display_name": "Brine-Soaked Bauble",
+        "persistence_id": "wwXZBUxp3MqI9B6EwymUHg",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 15,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Armour_Set",
+    "internal_name": "RECIPE_Vendor_Penguin_Suit",
+    "persistence_id": "SYwjZkkx8VqvAbu_pij9Dg",
+    "row_name": "",
+    "display_name": "Tuxedo Patch",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Armour_Set_Penguin",
+        "count": 1,
+        "display_name": "Tuxedo Patch",
+        "persistence_id": "arbb4EHBLkTQCtm1pFzVHA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 15,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Cape",
+    "internal_name": "RECIPE_Vendor_Penguin_Cape",
+    "persistence_id": "qX23mUq5MFHTarW6Mr7gmQ",
+    "row_name": "",
+    "display_name": "Prestigious Prototype",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Cape_Penguin",
+        "count": 1,
+        "display_name": "Prestigious Prototype",
+        "persistence_id": "UntZbUWCjCnzABOSC6QTIA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 30,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Helmet",
+    "internal_name": "RECIPE_Vendor_Penguin_Helmet",
+    "persistence_id": "96vKdErspPh2rMmZocPhHw",
+    "row_name": "",
+    "display_name": "Coral Nubbin",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Armour_Head_Penguin",
+        "count": 1,
+        "display_name": "Coral Nubbin",
+        "persistence_id": "F-ITXUJ28QviuZaQuNsGUA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 15,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_KGP",
+    "internal_name": "RECIPE_Vendor_Penguin_KGP",
+    "persistence_id": "Ob6tjki_x38fN1ev-sKDSQ",
+    "row_name": "",
+    "display_name": "Scrap Mired in Subterfuge",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Armour_Head_KGP",
+        "count": 1,
+        "display_name": "Scrap Mired in Subterfuge",
+        "persistence_id": "KuF1YEH6oc7wNmix1pE23Q",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 30,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Large_Statue",
+    "internal_name": "RECIPE_Vendor_Penguins_Large_Statue",
+    "persistence_id": "-M_HZkpg_RgFOAW2tyE_zw",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Penguin Statue 01",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Penguins_PenguinStatue",
+        "count": 1,
+        "display_name": "Plan: Penguin Statue 01",
+        "persistence_id": "tNWcL0rzis-WA2KPhhXOpQ",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 50,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Bronze",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Bronze",
+    "persistence_id": "wUxNMkY8E9ojLui_TqYOcA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Bronze Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Bronze_Penguin",
+        "count": 1,
+        "display_name": "Plan: Bronze Penguin Miniature",
+        "persistence_id": "nUhjYUk33T43AcGsZiMLcw",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 8,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Coin",
+    "internal_name": "RECIPE_Vendor_Penguins_Decoration_Coin",
+    "persistence_id": "IQPbA0ekJBLwunWEQkAebw",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Penguin Decorative Coin",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Coin",
+        "count": 1,
+        "display_name": "Plan: Penguin Decorative Coin",
+        "persistence_id": "qEjtf0lTTn3URIOYCBb-fA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 1,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Copper",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Copper",
+    "persistence_id": "CbufUkUI7pCYBCqZSVq5qw",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Copper Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Copper_Penguin",
+        "count": 1,
+        "display_name": "Plan: Copper Penguin Miniature",
+        "persistence_id": "a_DdZUdza0x_gBCrkjVdsg",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 7,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Gold",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Gold",
+    "persistence_id": "4o7zWketH9KtshyLTe0RgA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Gold Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Gold_Penguin",
+        "count": 1,
+        "display_name": "Plan: Gold Penguin Miniature",
+        "persistence_id": "753M40RnwAb9d-m8oDbqlA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 15,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Silver",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Silver",
+    "persistence_id": "KjjYkkSgCoWdXTW9hnPGbA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Silver Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Silver_Penguin",
+        "count": 1,
+        "display_name": "Plan: Silver Penguin Miniature",
+        "persistence_id": "8PZryUuIGeE24RyuR3j8_g",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 10,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Stone",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Stone",
+    "persistence_id": "ngJEjkrRLtX6Ney93YQwnA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Stone Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Stone_Penguin",
+        "count": 1,
+        "display_name": "Plan: Stone Penguin Miniature",
+        "persistence_id": "L5HcdkivUjwwvFe1ivEZNg",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 3,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Barrel",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Barrel",
+    "persistence_id": "oEP5ykEhDTi0k3GDAzBQoA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Suspicous Miniature Penguin 01",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Barrel",
+        "count": 1,
+        "display_name": "Plan: Suspicous Miniature Penguin 01",
+        "persistence_id": "GCjDDEKeKgKmYuWRhR4P8A",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 10,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Box",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Box",
+    "persistence_id": "36MHmkXKIt6Z02mkDpyVQQ",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Suspicous Miniature Penguin 02",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Box",
+        "count": 1,
+        "display_name": "Plan: Suspicous Miniature Penguin 02",
+        "persistence_id": "eWOcEkOzr9ZEBiCdhEh5Fw",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 10,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Pan",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Pan",
+    "persistence_id": "v6vS4U0w193LX2efpfqfxw",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Suspicous Miniature Penguin 03",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Pan",
+        "count": 1,
+        "display_name": "Plan: Suspicous Miniature Penguin 03",
+        "persistence_id": "6W8oyUUjycKukDSDW2y0rQ",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 10,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Sack",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Suspicious_Sack",
+    "persistence_id": "uwpMmkXgA25laea0x2xAFA",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Suspicous Miniature Penguin 04",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Suspicious_Sack",
+        "count": 1,
+        "display_name": "Plan: Suspicous Miniature Penguin 04",
+        "persistence_id": "ZNTtFE11ZDfXXLyOgQwLtw",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 10,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Miniature_Tin",
+    "internal_name": "RECIPE_Vendor_Penguins_Miniature_Tin",
+    "persistence_id": "Da4kq0kTGkSlhsOyPCEQ2A",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Tin Penguin Miniature",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Miniature_Tin_Penguin",
+        "count": 1,
+        "display_name": "Plan: Tin Penguin Miniature",
+        "persistence_id": "u9-sz0wyt3FMYraZdW-UTg",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 5,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Ring",
+    "internal_name": "RECIPE_Vendor_Penguin_Ring",
+    "persistence_id": "HpY_okQhdQd6Kf2O9b_nQw",
+    "row_name": "",
+    "display_name": "Brine-Soaked Band",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Vestige_Trinket_Ring_Penguin",
+        "count": 1,
+        "display_name": "Brine-Soaked Band",
+        "persistence_id": "vYxZ2ksvijJakca9H9m0PA",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 15,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_Penguins_Tapestry",
+    "internal_name": "RECIPE_Vendor_Penguins_Decoration_Tapestry",
+    "persistence_id": "hEcNSUCb1f7uEBu9bNRALw",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Penguin Decorative Tapestry",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_Penguin_Tapestry",
+        "count": 1,
+        "display_name": "Plan: Penguin Decorative Tapestry",
+        "persistence_id": "w2WnRk-aD_27ydqHHR5X_w",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 5,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Vendor_PolarBear_Tapestry",
+    "internal_name": "RECIPE_Vendor_PolarBear_Decoration_Tapestry",
+    "persistence_id": "k-7LkU3llX7rXc6QQXYOqg",
+    "row_name": "Build_Decoration_Tier1",
+    "display_name": "Plan: Polar Bear Decorative Tapestry",
+    "icon": "T_Icon_Plans.png",
+    "items_created": [
+      {
+        "item_id": "DA_Consumable_Plan_Decoration_PolarBear_Tapestry",
+        "count": 1,
+        "display_name": "Plan: Polar Bear Decorative Tapestry",
+        "persistence_id": "VWVaV0iLypp6KLa9v2KzlQ",
+        "icon": "T_Icon_Plans.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Currency_PenguinCoin",
+        "count": 5,
+        "display_name": "Penguin Coin",
+        "persistence_id": "TEJBIEbS98YVT_u1Tm4rhw",
+        "icon": "T_Icon_Penguin_Coin_1.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_TEST_Process_IdleCreation",
     "internal_name": "test_recipe_idle_resource",
     "persistence_id": "IG7EBR7ncEWjLK9TvN95Cg",
@@ -21559,39 +22257,6 @@
     ]
   },
   {
-    "name": "RECIPE_Armour_T0_Cape_ScornedWilderness_Golden",
-    "internal_name": "recipe_armour_t0_cape_ScornedWilderness_golden",
-    "persistence_id": "RENSUU8lGk61FCqViRN_6g",
-    "row_name": "",
-    "display_name": "Golden Scorned Wilderness Cape",
-    "icon": "T_Icon_Cape_Whispering.png",
-    "items_created": [
-      {
-        "item_id": "ITEM_Cape_ScornedWilderness_Golden",
-        "count": 1,
-        "display_name": "Golden Scorned Wilderness Cape",
-        "persistence_id": "-iZRtEKn4sDgLbu0ikhT2g",
-        "icon": "T_Icon_Cape_Whispering.png"
-      }
-    ],
-    "items_consumed": [
-      {
-        "item_id": "ITEM_Cape_Whispering",
-        "count": 1,
-        "display_name": "Whispering Cape",
-        "persistence_id": "qANQGE8VKB_lSNeI-PHxGQ",
-        "icon": "T_Icon_Cape_Whispering.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
-        "count": 5,
-        "display_name": "Gold Leaf",
-        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
-        "icon": "T_Icon_Gold_Leaf.png"
-      }
-    ]
-  },
-  {
     "name": "RECIPE_Armour_T0_Cape_UmbralSands_Golden",
     "internal_name": "recipe_armour_t0_cape_UmbralSands_golden",
     "persistence_id": "cTIIPUiW2eMvh4y-XvQyOg",
@@ -21614,6 +22279,39 @@
         "display_name": "Umbral Sands Cape",
         "persistence_id": "Zpa3i0jDJOSNw5eyojsvNA",
         "icon": "T_Icon_Umbral_Sands_Cape.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Agility_Golden_Leaf",
+        "count": 5,
+        "display_name": "Gold Leaf",
+        "persistence_id": "DHtOEU6KRL_vY9WiVQlLOA",
+        "icon": "T_Icon_Gold_Leaf.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T0_Cape_ScornedWilderness_Golden",
+    "internal_name": "recipe_armour_t0_cape_ScornedWilderness_golden",
+    "persistence_id": "RENSUU8lGk61FCqViRN_6g",
+    "row_name": "",
+    "display_name": "Golden Scorned Wilderness Cape",
+    "icon": "T_Icon_Cape_Whispering.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Cape_ScornedWilderness_Golden",
+        "count": 1,
+        "display_name": "Golden Scorned Wilderness Cape",
+        "persistence_id": "-iZRtEKn4sDgLbu0ikhT2g",
+        "icon": "T_Icon_Cape_Whispering.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Cape_Whispering",
+        "count": 1,
+        "display_name": "Whispering Cape",
+        "persistence_id": "qANQGE8VKB_lSNeI-PHxGQ",
+        "icon": "T_Icon_Cape_Whispering.png"
       },
       {
         "item_id": "ITEM_Resources_Agility_Golden_Leaf",
@@ -21783,14 +22481,14 @@
     "persistence_id": "FOUp2E_eYb3xJ32MODA_vQ",
     "row_name": "Craft_Herblore_Lab_Recipe",
     "display_name": "Lesser Focused Agility Potion",
-    "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png",
+    "icon": "T_Icon_Lesser_Red_Potion_cc0d78a2.png",
     "items_created": [
       {
         "item_id": "ITEM_Consumable_Potion_Focused_T2_Lesser_Agility",
         "count": 1,
         "display_name": "Lesser Focused Agility Potion",
         "persistence_id": "OD5pQEsin7INsTO67zlr6w",
-        "icon": "T_Icon_Lesser_Red_Potion_cdb28c9a.png"
+        "icon": "T_Icon_Lesser_Red_Potion_cc0d78a2.png"
       }
     ],
     "items_consumed": [
@@ -26257,6 +26955,107 @@
     ]
   },
   {
+    "name": "RECIPE_Trinket_Penguin_Amulet",
+    "internal_name": "recipe_trinket_penguin_amulet",
+    "persistence_id": "pfLrtUm3f1aLEyOAyEfBFg",
+    "row_name": "",
+    "display_name": "Pescaling Amulet",
+    "icon": "T_Icon_Penguin_Amulet_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Penguin_Amulet",
+        "count": 1,
+        "display_name": "Pescaling Amulet",
+        "persistence_id": "knyimkh9Kk1g40ClZOEXMg",
+        "icon": "T_Icon_Penguin_Amulet_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Clay_Mould",
+        "count": 1,
+        "display_name": "Clay Mould",
+        "persistence_id": "zEg0M0VWEp6-wLOhkvYJ8A",
+        "icon": "T_Icon_Resource_Clay_Mould.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Thread_Coarse",
+        "count": 2,
+        "display_name": "Coarse Thread",
+        "persistence_id": "Dns4MEGuhT5fcRWocI5o9Q",
+        "icon": "T_Icon_Resource_Thread.png"
+      },
+      {
+        "item_id": "ITEM_Resources_GoldBar",
+        "count": 2,
+        "display_name": "Gold Bar",
+        "persistence_id": "9jFU2lh9l0qPbNTspGCBFA",
+        "icon": "T_Icon_Resource_Bar_Gold.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Water",
+        "count": 15,
+        "display_name": "Water Rune",
+        "persistence_id": "bbLdJRhwPEWt1ScENYRUCg",
+        "icon": "T_Icon_Rune_Water.png"
+      },
+      {
+        "item_id": "ITEM_FishBait_Anchovy",
+        "count": 1,
+        "display_name": "Anchovy Bait",
+        "persistence_id": "alCPU0iPc4EXVfu4RNdvVw",
+        "icon": "T_Icon_Anchovy_Bait.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Trinket_Penguin_Ring",
+    "internal_name": "recipe_trinket_penguin_ring",
+    "persistence_id": "WOPdCUkabncaAvut84f2wQ",
+    "row_name": "",
+    "display_name": "Pescaling Ring",
+    "icon": "T_Icon_Penguin_Ring_1.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Trinket_Penguin_Ring",
+        "count": 1,
+        "display_name": "Pescaling Ring",
+        "persistence_id": "Zk3wM0EPF2dm7-KO4kZnHA",
+        "icon": "T_Icon_Penguin_Ring_1.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Clay_Mould",
+        "count": 1,
+        "display_name": "Clay Mould",
+        "persistence_id": "zEg0M0VWEp6-wLOhkvYJ8A",
+        "icon": "T_Icon_Resource_Clay_Mould.png"
+      },
+      {
+        "item_id": "ITEM_Resources_SilverBar",
+        "count": 2,
+        "display_name": "Silver Bar",
+        "persistence_id": "gunABauXjk6khTFVIKifoA",
+        "icon": "T_Icon_Resource_Bar_Silver.png"
+      },
+      {
+        "item_id": "ITEM_Rune_Water",
+        "count": 15,
+        "display_name": "Water Rune",
+        "persistence_id": "bbLdJRhwPEWt1ScENYRUCg",
+        "icon": "T_Icon_Rune_Water.png"
+      },
+      {
+        "item_id": "ITEM_Consumable_Fish_Sardine",
+        "count": 1,
+        "display_name": "Fried Sardine",
+        "persistence_id": "MIMLxUNibUMJjheTS3ppzQ",
+        "icon": "T_Icon_Fried_Sardine.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Consumable_Fish_Pristine_Anchovies",
     "internal_name": "recipe_fish_pristine_anchovies",
     "persistence_id": "CcHHUkiHSoGfa6ibTw0lmQ",
@@ -26881,6 +27680,32 @@
     ]
   },
   {
+    "name": "RECIPE_Resources_CrossbowLimbs_Dragon",
+    "internal_name": "recipe_crossbowlimbs_dragon",
+    "persistence_id": "mD0Ch02RpmfDfdqv4G2mtw",
+    "row_name": "",
+    "display_name": "Dragon Crossbow Limbs",
+    "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Resources_DragonLimbs",
+        "count": 1,
+        "display_name": "Dragon Crossbow Limbs",
+        "persistence_id": "LafYXkXd1hOEabWeo2sdKw",
+        "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_DragonLimbs",
+        "count": 2,
+        "display_name": "Dragon Crossbow Limbs",
+        "persistence_id": "LafYXkXd1hOEabWeo2sdKw",
+        "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Ammo_Arrows_Rune_Bleed",
     "internal_name": "recipe_ammo_arrows_rune_bleed",
     "persistence_id": "IZFVpE93jhJmGUW8M1veFA",
@@ -27096,32 +27921,6 @@
         "display_name": "Feathers",
         "persistence_id": "v5MSO2Wz4ke5xOGvKC5GlQ",
         "icon": "T_Icon_Resource_Feathers.png"
-      }
-    ]
-  },
-  {
-    "name": "RECIPE_Resources_CrossbowLimbs_Dragon",
-    "internal_name": "recipe_crossbowlimbs_dragon",
-    "persistence_id": "mD0Ch02RpmfDfdqv4G2mtw",
-    "row_name": "",
-    "display_name": "Dragon Crossbow Limbs",
-    "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png",
-    "items_created": [
-      {
-        "item_id": "ITEM_Resources_DragonLimbs",
-        "count": 1,
-        "display_name": "Dragon Crossbow Limbs",
-        "persistence_id": "LafYXkXd1hOEabWeo2sdKw",
-        "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
-      }
-    ],
-    "items_consumed": [
-      {
-        "item_id": "ITEM_Resources_DragonLimbs",
-        "count": 2,
-        "display_name": "Dragon Crossbow Limbs",
-        "persistence_id": "LafYXkXd1hOEabWeo2sdKw",
-        "icon": "T_Icon_SM_Crossbow_Dragon_Arms_1H_01.png"
       }
     ]
   },
@@ -27499,6 +28298,107 @@
     ]
   },
   {
+    "name": "RECIPE_Armour_T5_Head_DE_Med_White",
+    "internal_name": "recipe_armour_head_de_med_white",
+    "persistence_id": "sV0L10qQFrVCXu6Ky0EPrw",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "White Med Helm",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_T3_Head_WhiteMed",
+        "count": 1,
+        "display_name": "White Med Helm",
+        "persistence_id": "JzK_9kPim7eZwVyRSbsGsQ",
+        "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_SteelBar",
+        "count": 4,
+        "display_name": "Steel Bar",
+        "persistence_id": "bDrJG99f7UKcLJ-z3G_e3w",
+        "icon": "T_Icon_Steel_Bar.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather_Draconic",
+        "count": 4,
+        "display_name": "Draconic Leather",
+        "persistence_id": "jmA4D0DSEBYxDMWYne8frQ",
+        "icon": "T_Icon_Draconic_leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Cloth_Fine",
+        "count": 1,
+        "display_name": "Fine Cloth",
+        "persistence_id": "cZiciUse9nReAtG6kIHa8w",
+        "icon": "T_Icon_Fine_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_SacredOil",
+        "count": 1,
+        "display_name": "Sacred Oil",
+        "persistence_id": "MRRcVkTaxPfC_0evKhclKA",
+        "icon": "T_Icon_Sacred_Oil.png"
+      },
+      {
+        "item_id": "ITEM_Resources_VaultShard",
+        "count": 2,
+        "display_name": "Vault Shard",
+        "persistence_id": "T8l7pktHUJoUuxi9mkrT7g",
+        "icon": "T_Icon_Resource_Vault_Shard.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Armour_T6_Head_DE_Med_Black",
+    "internal_name": "recipe_armour_head_de_med_black",
+    "persistence_id": "5bIZBUQe_6ykj_u4L-1MjQ",
+    "row_name": "Craft_Smithing_Forge_Tier4",
+    "display_name": "Black Med Helm",
+    "icon": "T_Icon_M_Head_BronzeArmour_01.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Armour_T3_Head_BlackMed",
+        "count": 1,
+        "display_name": "Black Med Helm",
+        "persistence_id": "dnt7OkhuQMGJS8-qFcvboA",
+        "icon": "T_Icon_M_Head_BronzeArmour_01.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_MithrilBar",
+        "count": 4,
+        "display_name": "Mithril Bar",
+        "persistence_id": "CiyC5Y3Qx0u0CTQt12QR1w",
+        "icon": "T_Icon_Mithril_Bar.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Leather_Cursed",
+        "count": 4,
+        "display_name": "Cursed Leather",
+        "persistence_id": "-Snbh0BHw6XkZgSMX_PiEQ",
+        "icon": "T_Icon_Cursed_Leather.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Cloth_Mystic",
+        "count": 1,
+        "display_name": "Mystic Cloth",
+        "persistence_id": "tDzyYkIXSZN8A1m_VsrzWA",
+        "icon": "T_Icon_Mystic_Cloth.png"
+      },
+      {
+        "item_id": "ITEM_Resources_DemonicOil",
+        "count": 1,
+        "display_name": "Demonic Oil",
+        "persistence_id": "MQy_2E_pqnq7HbWzzSZKSA",
+        "icon": "T_Icon_Demonic_Oil.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Armour_T6_Head_DE_Med_Mithril",
     "internal_name": "recipe_armour_head_de_med_mithril",
     "persistence_id": "p_lo70osGGBzRDqeLxJ0ZA",
@@ -27592,17 +28492,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 1,
+        "count": 2,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 1,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -27629,13 +28522,13 @@
     "internal_name": "recipe_armour_head_de_med_rune",
     "persistence_id": "8G8ucUX6BGkX7ve9DbgYIA",
     "row_name": "Craft_Smithing_Forge_Tier4",
-    "display_name": "Runite Med Helm",
+    "display_name": "Rune Med Helm",
     "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png",
     "items_created": [
       {
         "item_id": "ITEM_Armour_T8_Head_RuneMed",
         "count": 1,
-        "display_name": "Runite Med Helm",
+        "display_name": "Rune Med Helm",
         "persistence_id": "-j4yrkKKyNAEufKEJ7C35Q",
         "icon": "T_Icon_SM_U_MED_HEAD_MediumHelmet_Rune_01.png"
       }
@@ -29792,6 +30685,32 @@
     ]
   },
   {
+    "name": "RECIPE_Consumable_Fish_ArmouredCatfish_ReelDowner",
+    "internal_name": "recipe_fish_armouredcatfish_reeldowner",
+    "persistence_id": "cWK0UkfsP8z2Bjur1P6OsA",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Braised Armoured Catfish",
+    "icon": "T_Icon_Braised_Catfish.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_ArmouredCatfish",
+        "count": 1,
+        "display_name": "Braised Armoured Catfish",
+        "persistence_id": "vzP_bUJb8zHLI2es0JjaHg",
+        "icon": "T_Icon_Braised_Catfish.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_ArmouredCatfish_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_armouredcatfish_reeldowner",
+        "persistence_id": "zv43UU5_FsvRuxC611kYpg",
+        "icon": "T_Icon_Fish_Inconsolable_Catfish.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Consumable_Fish_Beltfish",
     "internal_name": "recipe_fish_beltfish",
     "persistence_id": "LZNh2kE5Cgt2nCuBbZCvWg",
@@ -29814,6 +30733,32 @@
         "display_name": "Raw Beltfish",
         "persistence_id": "6y6Gj07noGrEPLu1XxtBow",
         "icon": "T_Icon_Fish_Beltfish.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Fish_Beltfish_ReelDowner",
+    "internal_name": "recipe_fish_beltfish_reeldowner",
+    "persistence_id": "g12SWEQcv7bKYNmaoxxHfg",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Steamed Beltfish",
+    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_Beltfish",
+        "count": 1,
+        "display_name": "Steamed Beltfish",
+        "persistence_id": "BuMM9kFLo2eM7WWcfJOLtg",
+        "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Beltfish_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_beltfish_reeldowner",
+        "persistence_id": "Fd2DsE5JxIrpeMm4JrW9dw",
+        "icon": "T_Icon_Fish_Bawling_Beltfish.png"
       }
     ]
   },
@@ -29844,6 +30789,32 @@
     ]
   },
   {
+    "name": "RECIPE_Consumable_Fish_DesertSole_ReelDowner",
+    "internal_name": "recipe_fish_desertsole_reeldowner",
+    "persistence_id": "Sun0fUmJadVNqDWRvOStzg",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Sun Baked Sole",
+    "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_DesertSole",
+        "count": 1,
+        "display_name": "Sun Baked Sole",
+        "persistence_id": "nPu5HUnEdsxMIc6BC-Fprg",
+        "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_DesertSole_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_desertsole_reeldowner",
+        "persistence_id": "3JIDXEL0WCbz6C6s9DzABg",
+        "icon": "T_Icon_Fish_Depressed_Desert_Sole.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Consumable_Fish_Monkfish",
     "internal_name": "recipe_fish_monkfish",
     "persistence_id": "0LwDoEWWhKTUtWKiDkXVGg",
@@ -29866,6 +30837,32 @@
         "display_name": "Raw Monkfish",
         "persistence_id": "Kuh1zETAPQYHeyugXE12Rg",
         "icon": "T_Icon_Fish_Monkfish.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Fish_Pristine_ArmouredCatfish_ReelDowner",
+    "internal_name": "recipe_fish_pristine_armouredcatfish_reeldowner",
+    "persistence_id": "7Jry00CVMNxDJGq8yBe-dA",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Braised Armoured Catfish",
+    "icon": "T_Icon_Braised_Catfish.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_ArmouredCatfish",
+        "count": 1,
+        "display_name": "Braised Armoured Catfish",
+        "persistence_id": "vzP_bUJb8zHLI2es0JjaHg",
+        "icon": "T_Icon_Braised_Catfish.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Pristine_ArmouredCatfish_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_pristine_armouredcatfish_reeldowner",
+        "persistence_id": "mGfOZE-pRnqITdO_F_7Gng",
+        "icon": "T_Icon_Fish_Pristine_Inconsolable_Catfish.png"
       }
     ]
   },
@@ -29896,6 +30893,32 @@
     ]
   },
   {
+    "name": "RECIPE_Consumable_Fish_Pristine_Beltfish_ReelDowner",
+    "internal_name": "recipe_fish_pristine_beltfish_reeldowner",
+    "persistence_id": "Kw_yA0LRYBzd61a1dVQEoA",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Steamed Beltfish",
+    "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_Beltfish",
+        "count": 1,
+        "display_name": "Steamed Beltfish",
+        "persistence_id": "BuMM9kFLo2eM7WWcfJOLtg",
+        "icon": "T_Icon_Fish_Beltfish_Cooked_Steamed.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Pristine_Beltfish_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_pristine_beltfish_reeldowner",
+        "persistence_id": "vzQlsUMmvYqzAC-xshHBqg",
+        "icon": "T_Icon_Fish_Pristine_Bawling_Beltfish.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Consumable_Fish_Pristine_DesertSole",
     "internal_name": "recipe_fish_pristine_desertsole",
     "persistence_id": "iEA-HEVPbfHkVQygEnXBzQ",
@@ -29922,6 +30945,32 @@
     ]
   },
   {
+    "name": "RECIPE_Consumable_Fish_Pristine_DesertSole_ReelDowner",
+    "internal_name": "recipe_fish_pristine_desertsole_reeldowner",
+    "persistence_id": "OsdnaE2vujVjauOULfJtfg",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Sun Baked Sole",
+    "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_DesertSole",
+        "count": 1,
+        "display_name": "Sun Baked Sole",
+        "persistence_id": "nPu5HUnEdsxMIc6BC-Fprg",
+        "icon": "T_Icon_Fish_Desert_Sole_Cooked_Sunbaked.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Pristine_DesertSole_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_pristine_desertsole_reeldowner",
+        "persistence_id": "F8Rkc0EF-_y3b5yamiOEpQ",
+        "icon": "T_Icon_Fish_Pristine_Depressed_Desert_Sole.png"
+      }
+    ]
+  },
+  {
     "name": "RECIPE_Consumable_Fish_Pristine_Monkfish",
     "internal_name": "recipe_fish_pristine_monkfish",
     "persistence_id": "_6Xer0KfkSjNeAGLpQ3XeQ",
@@ -29944,6 +30993,98 @@
         "display_name": "Pristine Monkfish",
         "persistence_id": "wM1AskkweSYyC_2YuR7tsw",
         "icon": "T_Iconl_Fish_Monkfish_Pristine.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Fish_Pristine_Sardine_ReelDowner",
+    "internal_name": "recipe_fish_pristine_sardine_reeldowner",
+    "persistence_id": "KQyOQ0X3Zs4b8pWcTPK66w",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Fried Sardine",
+    "icon": "T_Icon_Fried_Sardine.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_Sardine",
+        "count": 1,
+        "display_name": "Fried Sardine",
+        "persistence_id": "MIMLxUNibUMJjheTS3ppzQ",
+        "icon": "T_Icon_Fried_Sardine.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Pristine_Sardine_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_pristine_sardine_reeldowner",
+        "persistence_id": "oomYM0m0a6gZzT-aIdy6tw",
+        "icon": "T_Icon_Fish_Pristine_Snivelling_Sardine.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_Consumable_Fish_Sardine_ReelDowner",
+    "internal_name": "recipe_fish_sardine_reeldowner",
+    "persistence_id": "nzUWvUJghdS3NueR50bIWA",
+    "row_name": "Fishing_Cook_Fish_Base",
+    "display_name": "Fried Sardine",
+    "icon": "T_Icon_Fried_Sardine.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_Consumable_Fish_Sardine",
+        "count": 1,
+        "display_name": "Fried Sardine",
+        "persistence_id": "MIMLxUNibUMJjheTS3ppzQ",
+        "icon": "T_Icon_Fried_Sardine.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Sardine_ReelDowner",
+        "count": 1,
+        "display_name": "res_fish_sardine_reeldowner",
+        "persistence_id": "nXOoPEA9FNeRuraf5BGfJw",
+        "icon": "T_Icon_Fish_Snivelling_Sardine.png"
+      }
+    ]
+  },
+  {
+    "name": "RECIPE_FishBait_AgonyAuntchovy",
+    "internal_name": "recipe_fishbait_agonyauntchovy",
+    "persistence_id": "MPBT4knT5mGU5ZSfIVAZ5A",
+    "row_name": "Craft_Crafting_Table_Recipe_Tier1",
+    "display_name": "ammo_fishbait_agonyauntchovy",
+    "icon": "T_Icon_Fish_Agony_Auntchovy.png",
+    "items_created": [
+      {
+        "item_id": "ITEM_FishBait_AgonyAuntchovy",
+        "count": 1,
+        "display_name": "ammo_fishbait_agonyauntchovy",
+        "persistence_id": "mi6_zkb7tsNioO6gW5ceuA",
+        "icon": "T_Icon_Fish_Agony_Auntchovy.png"
+      }
+    ],
+    "items_consumed": [
+      {
+        "item_id": "ITEM_Resources_Feathers",
+        "count": 1,
+        "display_name": "Feathers",
+        "persistence_id": "v5MSO2Wz4ke5xOGvKC5GlQ",
+        "icon": "T_Icon_Resource_Feathers.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Onion",
+        "count": 1,
+        "display_name": "Onion",
+        "persistence_id": "JsMp30dRbfOXIPuy-4NmFA",
+        "icon": "T_Icon_Onion.png"
+      },
+      {
+        "item_id": "ITEM_Resources_Fish_Raw_Anchovies",
+        "count": 1,
+        "display_name": "Raw Anchovies",
+        "persistence_id": "F8Gj_0t1nPzhZZGJRPPLog",
+        "icon": "T_Icon_Anchovy.png"
       }
     ]
   },
@@ -30741,15 +31882,8 @@
         "icon": "T_Icon_Refined_Obsidian.png"
       },
       {
-        "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 3,
-        "display_name": "Gypsum Wax",
-        "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
-        "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
         "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 3,
+        "count": 6,
         "display_name": "Garou Weave",
         "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
         "icon": "T_Icon_Garou_Weave.png"
@@ -30849,15 +31983,8 @@
         "icon": "T_Icon_Refined_Obsidian.png"
       },
       {
-        "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 3,
-        "display_name": "Gypsum Wax",
-        "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
-        "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
         "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 6,
+        "count": 12,
         "display_name": "Garou Weave",
         "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
         "icon": "T_Icon_Garou_Weave.png"
@@ -31044,15 +32171,8 @@
         "icon": "T_Icon_Refined_Obsidian.png"
       },
       {
-        "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 3,
-        "display_name": "Gypsum Wax",
-        "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
-        "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
         "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 6,
+        "count": 12,
         "display_name": "Garou Weave",
         "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
         "icon": "T_Icon_Garou_Weave.png"
@@ -31106,17 +32226,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 1,
+        "count": 2,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 1,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31214,17 +32327,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 1,
+        "count": 2,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 2,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31409,17 +32515,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 1,
+        "count": 2,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 2,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31470,17 +32569,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 2,
+        "count": 4,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 2,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31578,17 +32670,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 2,
+        "count": 4,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 4,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31731,13 +32816,13 @@
     "internal_name": "recipe_armour_legs_reddragonhide",
     "persistence_id": "-WP9tEO8Mvbt9u-S6kHspg",
     "row_name": "Craft_Smithing_Forge_Tier4",
-    "display_name": "Red Dragonhide Legs",
+    "display_name": "Red Dragonhide Chaps",
     "icon": "T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png",
     "items_created": [
       {
         "item_id": "ITEM_Armour_T7_Legs_RedDragon",
         "count": 1,
-        "display_name": "Red Dragonhide Legs",
+        "display_name": "Red Dragonhide Chaps",
         "persistence_id": "iMnzlUiuN9vtotCkMB4-0Q",
         "icon": "T_Icon_LEGS_Red_Dragon_Hide_Armour_01.png"
       }
@@ -31773,17 +32858,10 @@
       },
       {
         "item_id": "ITEM_Resources_Wax_Gypsum",
-        "count": 2,
+        "count": 4,
         "display_name": "Gypsum Wax",
         "persistence_id": "a1W1TEsh5ngCDu-uly8jAQ",
         "icon": "T_Icon_Gypsum_Wax.png"
-      },
-      {
-        "item_id": "ITEM_Resources_Cloth_Garou",
-        "count": 4,
-        "display_name": "Garou Weave",
-        "persistence_id": "9xmA7ErJrFyN2cey7sYKBQ",
-        "icon": "T_Icon_Garou_Weave.png"
       }
     ]
   },
@@ -31959,15 +33037,15 @@
     "internal_name": "recipe_trinket_amulet_of_glory",
     "persistence_id": "g4nWJE5tQiweh1S14kFO5g",
     "row_name": "Craft_Smithing_Forge_Tier4",
-    "display_name": "ITEM_Trinket_Iconic_Amulet_of_Glory",
-    "icon": "T_Icon_Placeholder.png",
+    "display_name": "Amulet of Glory",
+    "icon": "T_Icon_Amulet_of_Glory.png",
     "items_created": [
       {
         "item_id": "ITEM_Trinket_Iconic_Amulet_of_Glory",
         "count": 1,
-        "display_name": "ITEM_Trinket_Iconic_Amulet_of_Glory",
-        "persistence_id": "",
-        "icon": "T_Icon_Placeholder.png"
+        "display_name": "Amulet of Glory",
+        "persistence_id": "StI5nEg3Qx3P1hakWP6I8Q",
+        "icon": "T_Icon_Amulet_of_Glory.png"
       }
     ],
     "items_consumed": [

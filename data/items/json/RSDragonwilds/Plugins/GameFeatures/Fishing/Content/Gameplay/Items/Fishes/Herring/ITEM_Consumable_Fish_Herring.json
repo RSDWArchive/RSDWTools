@@ -43,8 +43,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "SmokedHerring",
-        "SourceString": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
-        "LocalizedString": "Nothing beats hunger like a herring. Grants the Warding Fish perk."
+        "SourceString": "Nothing beats hunger like a herring.",
+        "LocalizedString": "Nothing beats hunger like a herring."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

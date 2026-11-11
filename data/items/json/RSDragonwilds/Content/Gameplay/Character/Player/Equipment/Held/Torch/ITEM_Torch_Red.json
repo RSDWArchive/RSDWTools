@@ -60,6 +60,9 @@
       },
       "PowerLevel": 1,
       "Weight": 1.5,
+      "Category": {
+        "TagName": "ItemFilter.Type.Equipment.Tool"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Equipment.Tool"
       ],

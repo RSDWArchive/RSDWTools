@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Whip_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Spell_Whip_JumpAttack.0"
+      },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_AbyssalWhip_SprintAttack_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Unique/AbyssalWhip/PA_Attack_AbyssalWhip_SprintAttack.0"

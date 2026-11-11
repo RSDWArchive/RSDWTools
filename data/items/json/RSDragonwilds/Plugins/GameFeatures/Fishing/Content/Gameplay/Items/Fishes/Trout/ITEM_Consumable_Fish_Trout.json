@@ -50,8 +50,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "GrilledTrout",
-        "SourceString": "Stave off hunger with this tasty bite. Grants the Sea Life perk.",
-        "LocalizedString": "Stave off hunger with this tasty bite. Grants the Sea Life perk."
+        "SourceString": "Stave off hunger with this tasty bite.",
+        "LocalizedString": "Stave off hunger with this tasty bite."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

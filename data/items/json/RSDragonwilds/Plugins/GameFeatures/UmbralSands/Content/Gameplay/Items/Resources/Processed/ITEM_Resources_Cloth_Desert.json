@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 2.0,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Cloth"
       },
+      "CompostAmount": 10,
       "PersistenceID": "21j0N0WuJGTYqGW132kTXg",
       "InternalName": "res_cloth_desert"
     }

@@ -36,17 +36,10 @@
         },
         {
           "ItemData": {
-            "ObjectName": "ItemData'ITEM_Resources_Wax_Gypsum'",
-            "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Wax_Gypsum"
-          },
-          "Count": 3
-        },
-        {
-          "ItemData": {
             "ObjectName": "ItemData'ITEM_Resources_Cloth_Garou'",
             "ObjectPath": "/UmbralSands/Gameplay/Items/Resources/Processed/ITEM_Resources_Cloth_Garou"
           },
-          "Count": 6
+          "Count": 12
         }
       ],
       "ItemsCreated": [

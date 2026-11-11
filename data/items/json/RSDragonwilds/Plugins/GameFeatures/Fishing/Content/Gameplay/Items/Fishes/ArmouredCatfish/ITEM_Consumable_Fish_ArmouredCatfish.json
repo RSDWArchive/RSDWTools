@@ -50,8 +50,8 @@
       "FlavourText": {
         "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
         "Key": "BraisedCatfish",
-        "SourceString": "If your feline hungry, eat a catfish. Grants the Sea Life perk.",
-        "LocalizedString": "If your feline hungry, eat a catfish. Grants the Sea Life perk."
+        "SourceString": "If your feline hungry, eat a catfish.",
+        "LocalizedString": "If your feline hungry, eat a catfish."
       },
       "bUseCustomStatDetails": true,
       "CustomStatDetails": [

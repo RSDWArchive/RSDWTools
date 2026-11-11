@@ -32,8 +32,6 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 99,
-      "bCanBeDestroyed": false,
-      "bBoundToPlayer": true,
       "Weight": 4.0,
       "Category": {
         "TagName": "Item.BossSoul"

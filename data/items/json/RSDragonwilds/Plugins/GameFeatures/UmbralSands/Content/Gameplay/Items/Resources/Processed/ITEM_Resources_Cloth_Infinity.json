@@ -34,7 +34,7 @@
       "MaxStackSize": 99,
       "Weight": 0.6,
       "Category": {
-        "TagName": "Item.BuildingResource"
+        "TagName": "ItemFilter.Material.ProcessedMaterial"
       },
       "ItemFilterTags": [
         "ItemFilter.Material.ProcessedMaterial"
@@ -42,6 +42,7 @@
       "AudioSwitchTag": {
         "TagName": "Audio.Potion"
       },
+      "CompostAmount": 10,
       "PersistenceID": "hnvjW0wQ_OPazBO_c-wvwg",
       "InternalName": "res_cloth_infinity"
     }

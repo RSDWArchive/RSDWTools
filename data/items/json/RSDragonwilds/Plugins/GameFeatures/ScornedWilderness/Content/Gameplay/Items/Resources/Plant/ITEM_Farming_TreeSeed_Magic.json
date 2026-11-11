@@ -6,17 +6,19 @@
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "TreeGrowStagesData": {
-        "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Ash_GrowStages'",
-        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Ash/DA_Farming_GrowingTree_Ash_GrowStages.0"
+        "ObjectName": "TreeGrowStagesDataAsset'DA_Farming_GrowingTree_Magic_GrowStages'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Farming/Trees/Magic/DA_Farming_GrowingTree_Magic_GrowStages.0"
       },
       "ValidPlantingRegions": [
         "Location.Region.Brynmoor",
         "Location.Region.Fellhollow",
         "Location.Region.DowdunReach",
-        "Location.Region.Ghornfell"
+        "Location.Region.ScornedWilderness",
+        "Location.Region.UmbralSands",
+        "Location.Region.Ghornfell.Highlands"
       ],
       "HeldEquipmentActorClass": {
-        "AssetPathName": "/Game/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/BP_Farming_TreeSeed_Ash.BP_Farming_TreeSeed_Ash_C",
+        "AssetPathName": "/ScornedWilderness/Gameplay/Items/Resources/Plant/BP_Farming_TreeSeed_Magic.BP_Farming_TreeSeed_Magic_C",
         "SubPathString": ""
       },
       "PrimaryActionClass": {
@@ -79,11 +81,14 @@
         "SubPathString": ""
       },
       "StaticMesh": {
-        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_02_Drop.SM_SeedBag_1H_02_Drop",
+        "AssetPathName": "/Game/Art/Skeleton/Weapons/Tool/SeedBag_1H_01/SM_SeedBag_1H_05_Drop.SM_SeedBag_1H_05_Drop",
         "SubPathString": ""
       },
       "MaxStackSize": 999,
       "PowerLevel": 1,
+      "Category": {
+        "TagName": "ItemFilter.Material.Seed"
+      },
       "ItemFilterTags": [
         "Item.Farming.CanBeSummonedByHarvestSpell",
         "Item.Farming.ShowProgress",

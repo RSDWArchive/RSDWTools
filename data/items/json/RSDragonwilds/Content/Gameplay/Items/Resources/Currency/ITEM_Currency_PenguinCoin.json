@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Currency_PenguinCoin",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.1"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "PenguinCoin",
+        "SourceString": "Penguin Coin",
+        "LocalizedString": "Penguin Coin"
+      },
+      "FlavourText": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemDescriptions.ST_ItemDescriptions",
+        "Key": "PenguinCoin",
+        "SourceString": "Did the eyes move? This can be spent at Facade's Front.",
+        "LocalizedString": "Did the eyes move? This can be spent at Facade's Front."
+      },
+      "Icon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Icons_0_12_UmS/Icons/T_Icon_Penguin_Coin_1.T_Icon_Penguin_Coin_1",
+        "SubPathString": ""
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Penguin_Coin/SM_Penguin_Coin_02.SM_Penguin_Coin_02",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 9999,
+      "ItemFilterTags": [
+        "ItemFilter.Material.SpecialMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Currency.Chit"
+      },
+      "PersistenceID": "TEJBIEbS98YVT_u1Tm4rhw",
+      "InternalName": "res_currency_penguincoin"
+    }
+  }
+]

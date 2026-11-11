@@ -15,6 +15,10 @@
         {
           "ObjectName": "ContainerContentDataAsset'CC_Compost_Super'",
           "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Compost_Super.0"
+        },
+        {
+          "ObjectName": "ContainerContentDataAsset'CC_Compost_Ultra'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/LiquidsAndOtherContent/CC_Compost_Ultra.0"
         }
       ],
       "ContainerEmptyContentsDescription": {
@@ -95,6 +99,9 @@
         "SubPathString": ""
       },
       "Weight": 5.5,
+      "Category": {
+        "TagName": "Item.Equipment.Tool.Bucket.Compost"
+      },
       "ItemFilterTags": [
         "Item.Farming.ShowProgress"
       ],

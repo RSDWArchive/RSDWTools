@@ -12,6 +12,9 @@
         },
         "RowName": "Weapons"
       },
+      "Category": {
+        "TagName": "Item.Equipment.Weapon.1H"
+      },
       "PersistenceID": "2txCYEr6sNYw7X6bMshJRg",
       "InternalName": "deleted_weap_scimitar_imaru",
       "bSoftDeleted": true,

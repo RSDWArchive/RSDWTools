@@ -7,10 +7,18 @@
     "Properties": {
       "bLosesDurabilityOnAttack": false,
       "bLosesDurabilityOnDamageReceived": false,
+      "bLosesDurabilityOnEffectProc": true,
+      "Slot": "ELoadoutSlotStrategy::Necklace",
       "AssociatedSkill": {
         "ObjectName": "SkillData'SKILL_Agility'",
         "ObjectPath": "/Agility/Gameplay/Character/Player/Skills/SKILL_Agility"
       },
+      "GrantedEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_Trinket_AddAgilityXp_GyrhawkAmulet_C'",
+          "ObjectPath": "/Agility/Gameplay/GameplayEffects/GE_Trinket_AddAgilityXp_GyrhawkAmulet"
+        }
+      ],
       "GrantedTags": [
         "Item.Equipment.Trinket.SilverhawkAmulet"
       ],
@@ -35,6 +43,9 @@
         "SubPathString": ""
       },
       "Weight": 2.0,
+      "Category": {
+        "TagName": "Item.Equipment.Trinket"
+      },
       "ItemFilterTags": [
         "Item.Equipment.Trinket"
       ],

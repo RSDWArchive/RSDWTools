@@ -32,6 +32,9 @@
       "bShowNotificationOnFirstPickup": true,
       "bGoIntoHotbarOnPickup": false,
       "MaxStackSize": 9999,
+      "Category": {
+        "TagName": "ItemFilter.Material.SpecialMaterial"
+      },
       "ItemFilterTags": [
         "ItemFilter.Material.SpecialMaterial"
       ],

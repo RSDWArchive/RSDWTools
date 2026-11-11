@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Dagger_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Spell_Dagger_JumpAttack.0"
+      },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_Dagger_Sprint_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/Dagger/PA_Attack_Dagger_Sprint.0"

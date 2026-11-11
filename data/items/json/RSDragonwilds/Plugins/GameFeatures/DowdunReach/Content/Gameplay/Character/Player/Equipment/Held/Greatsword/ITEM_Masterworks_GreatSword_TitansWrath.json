@@ -13,6 +13,10 @@
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword.0"
       },
+      "PrimaryJumpActionClass": {
+        "ObjectName": "BlueprintGeneratedClass'PA_Spell_Greatsword_JumpAttack_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Spell_Greatsword_JumpAttack.0"
+      },
       "PrimarySprintActionClass": {
         "ObjectName": "BlueprintGeneratedClass'PA_Attack_2H_Greatsword_Sprint_C'",
         "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Attacks/2H_Greatsword/PA_Attack_2H_Greatsword_Sprint.0"
@@ -31,12 +35,12 @@
       },
       "HeldForceFeedback": {
         "ObjectName": "ForceFeedbackEffect'FF_GreatswordAdaptiveTriggers'",
-        "ObjectPath": "/Game/Gameplay/Character/Player/Equipment/Held/GreatSword/FF_GreatswordAdaptiveTriggers"
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/GreatSword/FF_GreatswordAdaptiveTriggers.0"
       },
       "AnimationPoseType": "EAnimationPoseType::Default",
       "AnimationPosesSequence": {
         "ObjectName": "AnimSequence'A_PlayerM_Idle_Greatsword_Poses'",
-        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses.0"
+        "ObjectPath": "/Game/Art/Animation/PlayerM/Greatsword/A_PlayerM_Idle_Greatsword_Poses"
       },
       "BaseHeldEquipmentPowerLevelRowHandle": {
         "DataTable": {

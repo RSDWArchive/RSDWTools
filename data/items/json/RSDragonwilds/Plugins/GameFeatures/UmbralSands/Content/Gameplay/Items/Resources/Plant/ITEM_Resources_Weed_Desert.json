@@ -37,11 +37,13 @@
         "TagName": "ItemFilter.Material.BasicMaterial"
       },
       "ItemFilterTags": [
-        "ItemFilter.Material.BasicMaterial"
+        "ItemFilter.Material.BasicMaterial",
+        "Item.Farming.CompostableUltra"
       ],
       "AudioSwitchTag": {
         "TagName": "Audio.Plant"
       },
+      "CompostAmount": 10,
       "PersistenceID": "xV6lAUZ18-ZLpkK8sBL6QQ",
       "InternalName": "res_weed_desert"
     }

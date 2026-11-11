@@ -41,6 +41,9 @@
       },
       "MaxStackSize": 25,
       "Weight": 5.0,
+      "Category": {
+        "TagName": "ItemFilter.Type.Consumable"
+      },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable"
       ],

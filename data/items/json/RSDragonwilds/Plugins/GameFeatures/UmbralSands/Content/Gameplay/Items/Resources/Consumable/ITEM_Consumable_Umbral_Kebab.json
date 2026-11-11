@@ -83,14 +83,13 @@
         "SubPathString": ""
       },
       "MaxStackSize": 99,
-      "PowerLevel": 4,
       "Weight": 1.2,
       "Category": {
         "TagName": "Item.Food"
       },
       "ItemFilterTags": [
         "ItemFilter.Type.Consumable.Food",
-        "Item.Farming.CompostableSuper"
+        "Item.Farming.CompostableUltra"
       ],
       "PickupXPEvent": {
         "DataTable": {
